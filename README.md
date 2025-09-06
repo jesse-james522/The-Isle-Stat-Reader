@@ -1,5 +1,6 @@
 # The-Isle-Stat-Reader
 
+Interactive JSON Plotter
 This is a Python script that reads stat graphs and stat files from The Isle to give the most accurate stat overview you can get.
 
 Features
@@ -16,6 +17,8 @@ How to Build
 You need Python 3 installed on your system. The script also requires a few libraries that can be installed using pip:
 
 pip install matplotlib
+
+
 
 The tkinter and json libraries are typically included with a standard Python installation.
 
@@ -38,10 +41,14 @@ Example structure:
             ├── ATT_Pachycephalosaurus_AttackPower.json
             └── ATT_Pachycephalosaurus_Stamina.json [There is a lot more graphs not shown here]
 
+
+
 3. Running the Script
 Open your terminal or command prompt, navigate to the folder where you saved UEJSONReader.py, and run the script:
 
 python UEJSONReader.py
+
+
 
 The GUI window will appear automatically.
 
@@ -56,4 +63,4 @@ If you select a plotable attribute (like Speed or Weight), click "Plot Data" to 
 
 If you select a Balance Attributes file, the button will change to "Show Data Table". Click it to view the raw data in a separate window.
 
-You can also use the "Override JSON Folder Location" checkbox and entry field to manually set a different path but file structure must be the same. 
+You can also use the "Override JSON Folder Location" checkbox and entry field to manually set a different path but file structure must be the same.
