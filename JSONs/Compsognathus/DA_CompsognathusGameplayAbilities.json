@@ -1,0 +1,26 @@
+[
+  {
+    "Type": "TIGameplayAbilitySet",
+    "Name": "DA_CompsognathusGameplayAbilities",
+    "Class": "UScriptClass'TIGameplayAbilitySet'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Abilities": [
+        {
+          "Command": "ETIGameplayAbilityInputBinds::PrimaryAttack",
+          "GameplayAbilityClass": {
+            "ObjectName": "BlueprintGeneratedClass'GA_Bite_Compy_C'",
+            "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Attacks/GA_Bite_Compy.0"
+          }
+        },
+        {
+          "Command": "ETIGameplayAbilityInputBinds::Use",
+          "GameplayAbilityClass": {
+            "ObjectName": "BlueprintGeneratedClass'GA_Eat_C'",
+            "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/GA_Eat.0"
+          }
+        }
+      ]
+    }
+  }
+]

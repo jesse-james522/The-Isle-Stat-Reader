@@ -1,0 +1,1495 @@
+[
+  {
+    "Type": "AudioComponent",
+    "Name": "HeartbeatAudio",
+    "Outer": "Default__BP_Dilophosaurus_C",
+    "Class": "UScriptClass'AudioComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SkeletalMeshComponentBudgeted'Default__BP_Dilophosaurus_C:CharacterMesh0'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Dilophosaurus/BP_Dilophosaurus.18"
+      }
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_Dilophosaurus_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "bHasCookedComponentInstancingData": true,
+      "ComponentClassOverrides": [
+        {
+          "ComponentName": "RibsMeatMesh",
+          "ComponentClass": {
+            "ObjectName": "Class'SkeletalMeshComponentBudgeted'",
+            "ObjectPath": "/Script/AnimationBudgetAllocator"
+          }
+        },
+        {
+          "ComponentName": "SkeletonMesh",
+          "ComponentClass": {
+            "ObjectName": "Class'SkeletalMeshComponentBudgeted'",
+            "ObjectPath": "/Script/AnimationBudgetAllocator"
+          }
+        }
+      ],
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_Dilophosaurus_C:SimpleConstructionScript_0'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Dilophosaurus/BP_Dilophosaurus.17"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'TIDilophosaurus'",
+      "ObjectPath": "/Script/TheIsle"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "BP_FluidImplementation",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_FluidImplementation_C'",
+          "ObjectPath": "/Game/FluidInteractionTool/Blueprints/BP_FluidImplementation.0"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SpawnedSound",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'AudioComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "ClassFlags": "CLASS_Config | CLASS_NoExport | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Game",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_Dilophosaurus_C'Default__BP_Dilophosaurus_C'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Dilophosaurus/BP_Dilophosaurus.4"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "InteractableDetector",
+    "Outer": "Default__BP_Dilophosaurus_C",
+    "Class": "UScriptClass'BoxComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BoxExtent": {
+        "X": 55.0,
+        "Y": 110.0,
+        "Z": 125.0
+      },
+      "bUseSystemDefaultObstacleAreaClass": false,
+      "AreaClassOverride": {
+        "ObjectName": "Class'NavArea_Obstacle'",
+        "ObjectPath": "/Script/NavigationSystem"
+      },
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_Dilophosaurus_C:CollisionCylinder'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Dilophosaurus/BP_Dilophosaurus.7"
+      },
+      "RelativeLocation": {
+        "X": 110.0,
+        "Y": 0.00025081635,
+        "Z": 5.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.00018,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "PouncebleArea",
+    "Outer": "Default__BP_Dilophosaurus_C",
+    "Class": "UScriptClass'BoxComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BoxExtent": {
+        "X": 95.0,
+        "Y": 30.0,
+        "Z": 45.0
+      },
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_Dilophosaurus_C:CollisionCylinder'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Dilophosaurus/BP_Dilophosaurus.7"
+      },
+      "RelativeLocation": {
+        "X": 10.0,
+        "Y": 0.0,
+        "Z": 55.0
+      }
+    }
+  },
+  {
+    "Type": "BP_Dilophosaurus_C",
+    "Name": "Default__BP_Dilophosaurus_C",
+    "Class": "BlueprintGeneratedClass'/Game/TheIsle/Core/Characters/Dinosaurs/Dilophosaurus/BP_Dilophosaurus.BP_Dilophosaurus_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DinosaurAssets": {
+        "ObjectName": "TIDinosaurAssets'DA_DinosaurAssets'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/DA_DinosaurAssets.0"
+      },
+      "DinosaurMovement": {
+        "ObjectName": "TIDinosaurMovementComponent'Default__BP_Dilophosaurus_C:CharMoveComp'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Dilophosaurus/BP_Dilophosaurus.29"
+      },
+      "HorizontalCameraYawOffset": {
+        "ObjectName": "CurveVector'CV_DilophosaurusHorizontalCameraYawOffset'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Dilophosaurus/Camera/CV_DilophosaurusHorizontalCameraYawOffset.0"
+      },
+      "DownwardsCameraYawOffset": {
+        "ObjectName": "CurveVector'CV_DilophosaurusDownwardsCameraYawOffset'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Dilophosaurus/Camera/CV_DilophosaurusDownwardsCameraYawOffset.0"
+      },
+      "UpwardsCameraYawOffset": {
+        "ObjectName": "CurveVector'CV_DilophosaurusUpwardsCameraYawOffset'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Dilophosaurus/Camera/CV_DilophosaurusUpwardsCameraYawOffset.0"
+      },
+      "Up45CameraYawOffset": {
+        "ObjectName": "CurveVector'CV_DilophosaurusUp45CameraYawOffset'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Dilophosaurus/Camera/CV_DilophosaurusUp45CameraYawOffset.0"
+      },
+      "HorizontalCameraYawOffsetZoomed": {
+        "ObjectName": "CurveVector'CV_DilophosaurusHorizontalCameraYawOffset'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Dilophosaurus/Camera/CV_DilophosaurusHorizontalCameraYawOffset.0"
+      },
+      "DownwardsCameraYawOffsetZoomed": {
+        "ObjectName": "CurveVector'CV_DilophosaurusDownwardsCameraYawOffset'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Dilophosaurus/Camera/CV_DilophosaurusDownwardsCameraYawOffset.0"
+      },
+      "UpwardsCameraYawOffsetZoomed": {
+        "ObjectName": "CurveVector'CV_DilophosaurusUpwardsCameraYawOffset'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Dilophosaurus/Camera/CV_DilophosaurusUpwardsCameraYawOffset.0"
+      },
+      "Up45CameraYawOffsetZoomed": {
+        "ObjectName": "CurveVector'CV_DilophosaurusUp45CameraYawOffset'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Dilophosaurus/Camera/CV_DilophosaurusUp45CameraYawOffset.0"
+      },
+      "AttributeCurveDataTable": {
+        "ObjectName": "DataTable'DT_DilophosaurusAttributeCurves'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Dilophosaurus/Attributes/DT_DilophosaurusAttributeCurves.0"
+      },
+      "RestCurveData": {
+        "ObjectName": "CurveLinearColor'ATT_Dilophosaurus_RestCurve'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Dilophosaurus/Attributes/ATT_Dilophosaurus_RestCurve.0"
+      },
+      "AttributeBalanceDataTable": {
+        "ObjectName": "DataTable'DT_DilophosaurusBalanceAttributes'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Dilophosaurus/DT_DilophosaurusBalanceAttributes.0"
+      },
+      "VocalsDataTable": {
+        "ObjectName": "DataTable'DT_DilophosaurusVocals'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Dilophosaurus/Vocals/DT_DilophosaurusVocals.0"
+      },
+      "DeathPhysicsAsset": {
+        "AssetPathName": "/Game/TheIsle/Characters/Dinosaurs/Dilophosaurus/Mesh/PHYS_Dilophosaurus.PHYS_Dilophosaurus",
+        "SubPathString": ""
+      },
+      "SkeletonPhysicsAsset": {
+        "AssetPathName": "/Game/TheIsle/Characters/Dinosaurs/Dilophosaurus/Mesh/SK_Dilophosaurus_Bones_Physics.SK_Dilophosaurus_Bones_Physics",
+        "SubPathString": ""
+      },
+      "EatingChunkPiece": {
+        "ObjectName": "BlueprintGeneratedClass'BP_GoreMeat_C'",
+        "ObjectPath": "/Game/TheIsle/Core/PickablePieces/BP_GoreMeat.0"
+      },
+      "StretchChunkPiece": {
+        "ObjectName": "BlueprintGeneratedClass'BP_GoreMeatStretch_C'",
+        "ObjectPath": "/Game/TheIsle/Core/PickablePieces/BP_GoreMeatStretch.0"
+      },
+      "CharacterAssets": {
+        "ObjectName": "TICharacterAssets'DA_CharacterAssets'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/DA_CharacterAssets.0"
+      },
+      "AbilitySet": {
+        "ObjectName": "TIGameplayAbilitySet'DA_DilophosaurusGameplayAbilities'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Dilophosaurus/DA_DilophosaurusGameplayAbilities.0"
+      },
+      "Montages": {
+        "ObjectName": "TIDinosaurMontages'DA_DilophosaurusMontages'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Dilophosaurus/DA_DilophosaurusMontages.0"
+      },
+      "SmallVocalsSubmix": {
+        "ObjectName": "SoundSubmix'Submix_SmallRoar_Distant'",
+        "ObjectPath": "/Game/TheIsle/Sound/_Utilities/SubMixes/Submix_SmallRoar_Distant.0"
+      },
+      "MediumVocalsSubmix": {
+        "ObjectName": "SoundSubmix'Submix_MediumRoars_Distant'",
+        "ObjectPath": "/Game/TheIsle/Sound/_Utilities/SubMixes/Submix_MediumRoars_Distant.0"
+      },
+      "LargeVocalsSubmix": {
+        "ObjectName": "SoundSubmix'Submix_LargeRoars'",
+        "ObjectPath": "/Game/TheIsle/Sound/_Utilities/SubMixes/Submix_LargeRoars.0"
+      },
+      "AntiCheatComponent": {
+        "ObjectName": "TIAntiCheatComponent'Default__BP_Dilophosaurus_C:AntiCheatComponent'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Dilophosaurus/BP_Dilophosaurus.27"
+      },
+      "AbilitySystemComponent": {
+        "ObjectName": "TIAbilitySystemComponent'Default__BP_Dilophosaurus_C:AbilitySystemComponent'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Dilophosaurus/BP_Dilophosaurus.26"
+      }
+    }
+  },
+  {
+    "Type": "BP_FluidImplementation_C",
+    "Name": "BP_FluidImplementation_GEN_VARIABLE",
+    "Outer": "BP_Dilophosaurus_C",
+    "Class": "BlueprintGeneratedClass'/Game/FluidInteractionTool/Blueprints/BP_FluidImplementation.BP_FluidImplementation_C'",
+    "Template": {
+      "ObjectName": "BP_FluidImplementation_C'Default__BP_FluidImplementation_C'",
+      "ObjectPath": "/Game/FluidInteractionTool/Blueprints/BP_FluidImplementation.1"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "TraceOffsetUp": 80.0,
+      "TraceOffsetDown": -40.0,
+      "UsePerBoneTrace": true,
+      "FluidDrawSize": 0.003000000026077032,
+      "FluidMaxDrawIntensity": 0.0035000001080334187,
+      "VelocityDivideIntensity": 1.0,
+      "VelocityBegin": 5.0
+    }
+  },
+  {
+    "Type": "CameraComponent",
+    "Name": "Main Camera",
+    "Outer": "Default__BP_Dilophosaurus_C",
+    "Class": "UScriptClass'CameraComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "OrthoWidth": 512.0,
+      "bAutoCalculateOrthoPlanes": false,
+      "OrthoNearClipPlane": 0.0,
+      "PostProcessSettings": {
+        "bOverride_ColorSaturationShadows": true,
+        "bOverride_AutoExposureBiasCurve": true,
+        "ColorSaturationShadows": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0,
+          "W": 1.0
+        },
+        "AutoExposureBiasCurve": {
+          "ObjectName": "CurveFloat'NV_Exposure_15'",
+          "ObjectPath": "/Game/TheIsle/MaterialLibrary/Utility/PostProcess/NightVision/NV_Exposure_15.0"
+        },
+        "WeightedBlendables": {
+          "Array": [
+            {
+              "Weight": 1.0,
+              "Object": {
+                "ObjectName": "Material'M_NightVision_PP'",
+                "ObjectPath": "/Game/TheIsle/MaterialLibrary/Utility/PostProcess/M_NightVision_PP.0"
+              }
+            }
+          ]
+        }
+      },
+      "AttachParent": {
+        "ObjectName": "SpringArmComponent'Default__BP_Dilophosaurus_C:Spring Arm'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Dilophosaurus/BP_Dilophosaurus.23"
+      }
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "CollisionCylinder",
+    "Outer": "Default__BP_Dilophosaurus_C",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CapsuleHalfHeight": 100.0,
+      "CapsuleRadius": 50.0,
+      "bUseSystemDefaultObstacleAreaClass": false,
+      "AreaClassOverride": {
+        "ObjectName": "Class'NavArea_Obstacle'",
+        "ObjectPath": "/Script/NavigationSystem"
+      },
+      "BodyInstance": {
+        "bOverrideWalkableSlopeOnInstance": false
+      }
+    }
+  },
+  {
+    "Type": "NavigationInvokerComponent",
+    "Name": "Navigation Invoker",
+    "Outer": "Default__BP_Dilophosaurus_C",
+    "Class": "UScriptClass'NavigationInvokerComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "NavigationInvokerComponent",
+    "Name": "NavigationInvoker",
+    "Outer": "Default__BP_Dilophosaurus_C",
+    "Class": "UScriptClass'NavigationInvokerComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "PhysicalAnimationComponent",
+    "Name": "PhysicalAnim",
+    "Outer": "Default__BP_Dilophosaurus_C",
+    "Class": "UScriptClass'PhysicalAnimationComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "PhysicsConstraintComponent",
+    "Name": "PhysicsConstraints",
+    "Outer": "Default__BP_Dilophosaurus_C",
+    "Class": "UScriptClass'PhysicsConstraintComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_Dilophosaurus_C:CollisionCylinder'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Dilophosaurus/BP_Dilophosaurus.7"
+      }
+    }
+  },
+  {
+    "Type": "PhysicsHandleComponent",
+    "Name": "PhysicsHandle",
+    "Outer": "Default__BP_Dilophosaurus_C",
+    "Class": "UScriptClass'PhysicsHandleComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LinearDamping": 10000.0,
+      "InterpolationSpeed": 20.0
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "BP_Dilophosaurus_C",
+    "Class": "UScriptClass'SceneComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "Draglocation",
+    "Outer": "Default__BP_Dilophosaurus_C",
+    "Class": "UScriptClass'SceneComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SkeletalMeshComponentBudgeted'Default__BP_Dilophosaurus_C:CharacterMesh0'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Dilophosaurus/BP_Dilophosaurus.18"
+      },
+      "RelativeRotation": {
+        "Pitch": 1.0984297,
+        "Yaw": 83.286064,
+        "Roll": 34.089573
+      }
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_Dilophosaurus_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Dilophosaurus/BP_Dilophosaurus.13"
+      },
+      "VariableGUID": "3C99B2FF-43E4D529-2C66DB9F-FE39222E",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_FluidImplementation_C'",
+        "ObjectPath": "/Game/FluidInteractionTool/Blueprints/BP_FluidImplementation.0"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BP_FluidImplementation_C'BP_Dilophosaurus_C:BP_FluidImplementation_GEN_VARIABLE'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Dilophosaurus/BP_Dilophosaurus.5"
+      },
+      "CookedComponentInstancingData": {
+        "ChangedPropertyList": [
+          {
+            "PropertyName": "TraceOffsetUp",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "BlueprintGeneratedClass'BP_FluidImplementation_C'",
+              "ObjectPath": "/Game/FluidInteractionTool/Blueprints/BP_FluidImplementation.0"
+            }
+          },
+          {
+            "PropertyName": "TraceOffsetDown",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "BlueprintGeneratedClass'BP_FluidImplementation_C'",
+              "ObjectPath": "/Game/FluidInteractionTool/Blueprints/BP_FluidImplementation.0"
+            }
+          },
+          {
+            "PropertyName": "UsePerBoneTrace",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "BlueprintGeneratedClass'BP_FluidImplementation_C'",
+              "ObjectPath": "/Game/FluidInteractionTool/Blueprints/BP_FluidImplementation.0"
+            }
+          },
+          {
+            "PropertyName": "FluidDrawSize",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "BlueprintGeneratedClass'BP_FluidImplementation_C'",
+              "ObjectPath": "/Game/FluidInteractionTool/Blueprints/BP_FluidImplementation.0"
+            }
+          },
+          {
+            "PropertyName": "FluidMaxDrawIntensity",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "BlueprintGeneratedClass'BP_FluidImplementation_C'",
+              "ObjectPath": "/Game/FluidInteractionTool/Blueprints/BP_FluidImplementation.0"
+            }
+          },
+          {
+            "PropertyName": "VelocityDivideIntensity",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "BlueprintGeneratedClass'BP_FluidImplementation_C'",
+              "ObjectPath": "/Game/FluidInteractionTool/Blueprints/BP_FluidImplementation.0"
+            }
+          },
+          {
+            "PropertyName": "VelocityBegin",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "BlueprintGeneratedClass'BP_FluidImplementation_C'",
+              "ObjectPath": "/Game/FluidInteractionTool/Blueprints/BP_FluidImplementation.0"
+            }
+          }
+        ],
+        "bHasValidCookedData": true
+      },
+      "VariableGUID": "2D2FF887-4997AC3A-2587FBB9-74EAC008",
+      "InternalVariableName": "BP_FluidImplementation"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "BP_Dilophosaurus_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_Dilophosaurus_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Dilophosaurus/BP_Dilophosaurus.16"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_Dilophosaurus_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Dilophosaurus/BP_Dilophosaurus.16"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_Dilophosaurus_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Dilophosaurus/BP_Dilophosaurus.15"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponentBudgeted",
+    "Name": "CharacterMesh0",
+    "Outer": "Default__BP_Dilophosaurus_C",
+    "Class": "UScriptClass'SkeletalMeshComponentBudgeted'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "bAutoCalculateSignificance": true,
+      "AnimClass": {
+        "ObjectName": "AnimBlueprintGeneratedClass'ABP_Dilophosaurus_C'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Dilophosaurus/ABP_Dilophosaurus.1"
+      },
+      "AnimationData": {
+        "AnimToPlay": {
+          "ObjectName": "AnimSequence'A_Dilophosaurus_Adult_Swallow'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Dilophosaurus/Animations/A_Dilophosaurus_Adult_Swallow.0"
+        }
+      },
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_Dilophosaurus'",
+        "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Dilophosaurus/Mesh/SK_Dilophosaurus.6"
+      },
+      "SkinnedAsset": {
+        "ObjectName": "SkeletalMesh'SK_Dilophosaurus'",
+        "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Dilophosaurus/Mesh/SK_Dilophosaurus.6"
+      },
+      "OverrideMaterials": [
+        null,
+        null
+      ],
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_Dilophosaurus_C:CollisionCylinder'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Dilophosaurus/BP_Dilophosaurus.7"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -100.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.0,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponentBudgeted",
+    "Name": "RibsMeatMesh",
+    "Outer": "Default__BP_Dilophosaurus_C",
+    "Class": "UScriptClass'SkeletalMeshComponentBudgeted'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "bAutoCalculateSignificance": true,
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_Dilophosaurus_RibMeat'",
+        "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Dilophosaurus/Mesh/SK_Dilophosaurus_RibMeat.0"
+      },
+      "SkinnedAsset": {
+        "ObjectName": "SkeletalMesh'SK_Dilophosaurus_RibMeat'",
+        "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Dilophosaurus/Mesh/SK_Dilophosaurus_RibMeat.0"
+      },
+      "LeaderPoseComponent": {
+        "ObjectName": "SkeletalMeshComponentBudgeted'Default__BP_Dilophosaurus_C:CharacterMesh0'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Dilophosaurus/BP_Dilophosaurus.18"
+      },
+      "VisibilityBasedAnimTickOption": "EVisibilityBasedAnimTickOption::OnlyTickPoseWhenRendered",
+      "bEnableUpdateRateOptimizations": true,
+      "bReceivesDecals": false,
+      "bReplicatePhysicsToAutonomousProxy": false,
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_PhysicsBody",
+        "CollisionProfileName": "Custom"
+      },
+      "AttachParent": {
+        "ObjectName": "SkeletalMeshComponentBudgeted'Default__BP_Dilophosaurus_C:CharacterMesh0'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Dilophosaurus/BP_Dilophosaurus.18"
+      },
+      "bHiddenInGame": true,
+      "PrimaryComponentTick": {
+        "bStartWithTickEnabled": false,
+        "bAllowTickOnDedicatedServer": false
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponentBudgeted",
+    "Name": "SkeletonMesh",
+    "Outer": "Default__BP_Dilophosaurus_C",
+    "Class": "UScriptClass'SkeletalMeshComponentBudgeted'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "bAutoCalculateSignificance": true,
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_Dilophosaurus_Bones'",
+        "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Dilophosaurus/Mesh/SK_Dilophosaurus_Bones.0"
+      },
+      "SkinnedAsset": {
+        "ObjectName": "SkeletalMesh'SK_Dilophosaurus_Bones'",
+        "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Dilophosaurus/Mesh/SK_Dilophosaurus_Bones.0"
+      },
+      "LeaderPoseComponent": {
+        "ObjectName": "SkeletalMeshComponentBudgeted'Default__BP_Dilophosaurus_C:CharacterMesh0'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Dilophosaurus/BP_Dilophosaurus.18"
+      },
+      "VisibilityBasedAnimTickOption": "EVisibilityBasedAnimTickOption::OnlyTickPoseWhenRendered",
+      "bEnableUpdateRateOptimizations": true,
+      "bReceivesDecals": false,
+      "bReplicatePhysicsToAutonomousProxy": false,
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_PhysicsBody",
+        "CollisionProfileName": "Custom"
+      },
+      "AttachParent": {
+        "ObjectName": "SkeletalMeshComponentBudgeted'Default__BP_Dilophosaurus_C:CharacterMesh0'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Dilophosaurus/BP_Dilophosaurus.18"
+      },
+      "bHiddenInGame": true,
+      "PrimaryComponentTick": {
+        "bStartWithTickEnabled": false,
+        "bAllowTickOnDedicatedServer": false
+      }
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CorpseDisableDetector",
+    "Outer": "Default__BP_Dilophosaurus_C",
+    "Class": "UScriptClass'SphereComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SphereRadius": 900.0,
+      "bUseSystemDefaultObstacleAreaClass": false,
+      "AreaClassOverride": {
+        "ObjectName": "Class'NavArea_Obstacle'",
+        "ObjectPath": "/Script/NavigationSystem"
+      },
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_Dilophosaurus_C:CollisionCylinder'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Dilophosaurus/BP_Dilophosaurus.7"
+      }
+    }
+  },
+  {
+    "Type": "SplineComponent",
+    "Name": "ThroatSpline",
+    "Outer": "Default__BP_Dilophosaurus_C",
+    "Class": "UScriptClass'SplineComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SplineCurves": {
+        "Position": {
+          "Points": [
+            {
+              "InVal": 0.0,
+              "OutVal": {
+                "X": -0.38633838,
+                "Y": 0.00014865235,
+                "Z": 0.0035440924
+              },
+              "ArriveTangent": {
+                "X": 76.29208,
+                "Y": 0.00034314394,
+                "Z": -0.7043457
+              },
+              "LeaveTangent": {
+                "X": 76.29208,
+                "Y": 0.00034314394,
+                "Z": -0.7043457
+              },
+              "InterpMode": "EInterpCurveMode::CIM_CurveUser"
+            },
+            {
+              "InVal": 1.0,
+              "OutVal": {
+                "X": 70.62285,
+                "Y": 0.00073735905,
+                "Z": -13.401897
+              },
+              "ArriveTangent": {
+                "X": 22.375849,
+                "Y": -3.8820457E-05,
+                "Z": -41.115364
+              },
+              "LeaveTangent": {
+                "X": 22.375849,
+                "Y": -3.8820457E-05,
+                "Z": -41.115364
+              },
+              "InterpMode": "EInterpCurveMode::CIM_CurveUser"
+            },
+            {
+              "InVal": 2.0,
+              "OutVal": {
+                "X": 104.087845,
+                "Y": 0.12008937,
+                "Z": -35.93922
+              },
+              "ArriveTangent": {
+                "X": 62.785835,
+                "Y": 0.3195717,
+                "Z": -19.479675
+              },
+              "LeaveTangent": {
+                "X": 62.785835,
+                "Y": 0.3195717,
+                "Z": -19.479675
+              },
+              "InterpMode": "EInterpCurveMode::CIM_CurveUser"
+            },
+            {
+              "InVal": 3.0,
+              "OutVal": {
+                "X": 175.28667,
+                "Y": 0.68441457,
+                "Z": -39.54896
+              },
+              "ArriveTangent": {
+                "X": 71.44978,
+                "Y": 0.55078006,
+                "Z": 3.338726
+              },
+              "LeaveTangent": {
+                "X": 71.44978,
+                "Y": 0.55078006,
+                "Z": 3.338726
+              },
+              "InterpMode": "EInterpCurveMode::CIM_CurveUser"
+            },
+            {
+              "InVal": 4.0,
+              "OutVal": {
+                "X": 234.71407,
+                "Y": 1.2098802,
+                "Z": -29.898212
+              },
+              "ArriveTangent": {
+                "X": 58.11397,
+                "Y": 0.51387244,
+                "Z": 14.60863
+              },
+              "LeaveTangent": {
+                "X": 58.11397,
+                "Y": 0.51387244,
+                "Z": 14.60863
+              },
+              "InterpMode": "EInterpCurveMode::CIM_CurveUser"
+            }
+          ]
+        },
+        "Rotation": {
+          "Points": [
+            {
+              "InVal": 0.0,
+              "OutVal": {
+                "X": -4.223548E-07,
+                "Y": 0.08715434,
+                "Z": -5.355105E-09,
+                "W": 0.9961757,
+                "IsNormalized": true,
+                "Size": 0.9999809,
+                "SizeSquared": 0.9999619
+              },
+              "ArriveTangent": {
+                "X": -7.662343E-07,
+                "Y": -0.2676672,
+                "Z": 1.1719552E-07,
+                "W": 0.9634917,
+                "IsNormalized": true,
+                "Size": 0.999981,
+                "SizeSquared": 0.999962
+              },
+              "LeaveTangent": {
+                "X": -7.662343E-07,
+                "Y": -0.2676672,
+                "Z": 1.1719552E-07,
+                "W": 0.9634917,
+                "IsNormalized": true,
+                "Size": 0.999981,
+                "SizeSquared": 0.999962
+              },
+              "InterpMode": "EInterpCurveMode::CIM_CurveAuto"
+            },
+            {
+              "InVal": 1.0,
+              "OutVal": {
+                "X": 3.758783E-07,
+                "Y": 0.719874,
+                "Z": -2.3292236E-07,
+                "W": 0.693715,
+                "IsNormalized": true,
+                "Size": 0.9997295,
+                "SizeSquared": 0.99945915
+              },
+              "ArriveTangent": {
+                "X": -0.00062824006,
+                "Y": 0.48760676,
+                "Z": -1.2307586E-07,
+                "W": -0.1100183,
+                "IsNormalized": false,
+                "Size": 0.49986473,
+                "SizeSquared": 0.24986476
+              },
+              "LeaveTangent": {
+                "X": -0.00062824006,
+                "Y": 0.48760676,
+                "Z": -1.2307586E-07,
+                "W": -0.1100183,
+                "IsNormalized": false,
+                "Size": 0.49986473,
+                "SizeSquared": 0.24986476
+              },
+              "InterpMode": "EInterpCurveMode::CIM_CurveAuto"
+            },
+            {
+              "InVal": 2.0,
+              "OutVal": {
+                "X": 0.0022483133,
+                "Y": -0.44172317,
+                "Z": -3.0155318E-14,
+                "W": 0.8971486,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "ArriveTangent": {
+                "X": 0.00056185195,
+                "Y": -0.41527438,
+                "Z": 7.3655286E-08,
+                "W": 0.2784724,
+                "IsNormalized": false,
+                "Size": 0.5,
+                "SizeSquared": 0.25
+              },
+              "LeaveTangent": {
+                "X": 0.00056185195,
+                "Y": -0.41527438,
+                "Z": 7.3655286E-08,
+                "W": 0.2784724,
+                "IsNormalized": false,
+                "Size": 0.5,
+                "SizeSquared": 0.25
+              },
+              "InterpMode": "EInterpCurveMode::CIM_CurveAuto"
+            },
+            {
+              "InVal": 3.0,
+              "OutVal": {
+                "X": 0.0048080613,
+                "Y": -0.62372434,
+                "Z": -2.145693E-13,
+                "W": 0.7816296,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "ArriveTangent": {
+                "X": 0.0030554535,
+                "Y": -0.37722093,
+                "Z": -1.8642278E-13,
+                "W": 0.32816923,
+                "IsNormalized": false,
+                "Size": 0.5,
+                "SizeSquared": 0.25
+              },
+              "LeaveTangent": {
+                "X": 0.0030554535,
+                "Y": -0.37722093,
+                "Z": -1.8642278E-13,
+                "W": 0.32816923,
+                "IsNormalized": false,
+                "Size": 0.5,
+                "SizeSquared": 0.25
+              },
+              "InterpMode": "EInterpCurveMode::CIM_CurveAuto"
+            },
+            {
+              "InVal": 4.0,
+              "OutVal": {
+                "X": 0.0044462015,
+                "Y": -0.5028221,
+                "Z": -6.824683E-14,
+                "W": 0.8643785,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "ArriveTangent": {
+                "X": 0.004228915,
+                "Y": -0.43815166,
+                "Z": 5.662091E-15,
+                "W": 0.8988911,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "LeaveTangent": {
+                "X": 0.004228915,
+                "Y": -0.43815166,
+                "Z": 5.662091E-15,
+                "W": 0.8988911,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "InterpMode": "EInterpCurveMode::CIM_CurveAuto"
+            }
+          ]
+        },
+        "Scale": {
+          "Points": [
+            {
+              "InVal": 0.0,
+              "OutVal": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "InterpMode": "EInterpCurveMode::CIM_CurveAuto"
+            },
+            {
+              "InVal": 1.0,
+              "OutVal": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "InterpMode": "EInterpCurveMode::CIM_CurveAuto"
+            },
+            {
+              "InVal": 2.0,
+              "OutVal": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "InterpMode": "EInterpCurveMode::CIM_CurveAuto"
+            },
+            {
+              "InVal": 3.0,
+              "OutVal": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "InterpMode": "EInterpCurveMode::CIM_CurveAuto"
+            },
+            {
+              "InVal": 4.0,
+              "OutVal": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "InterpMode": "EInterpCurveMode::CIM_CurveAuto"
+            }
+          ]
+        },
+        "ReparamTable": {
+          "Points": [
+            {
+              "InVal": 0.0,
+              "OutVal": 0.0,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "EInterpCurveMode::CIM_Linear"
+            },
+            {
+              "InVal": 7.966779,
+              "OutVal": 0.1,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "EInterpCurveMode::CIM_Linear"
+            },
+            {
+              "InVal": 16.435265,
+              "OutVal": 0.2,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "EInterpCurveMode::CIM_Linear"
+            },
+            {
+              "InVal": 25.147655,
+              "OutVal": 0.3,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "EInterpCurveMode::CIM_Linear"
+            },
+            {
+              "InVal": 33.850384,
+              "OutVal": 0.4,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "EInterpCurveMode::CIM_Linear"
+            },
+            {
+              "InVal": 42.298,
+              "OutVal": 0.5,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "EInterpCurveMode::CIM_Linear"
+            },
+            {
+              "InVal": 50.259605,
+              "OutVal": 0.6,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "EInterpCurveMode::CIM_Linear"
+            },
+            {
+              "InVal": 57.531235,
+              "OutVal": 0.7,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "EInterpCurveMode::CIM_Linear"
+            },
+            {
+              "InVal": 63.961914,
+              "OutVal": 0.8,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "EInterpCurveMode::CIM_Linear"
+            },
+            {
+              "InVal": 69.5121,
+              "OutVal": 0.90000004,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "EInterpCurveMode::CIM_Linear"
+            },
+            {
+              "InVal": 74.377815,
+              "OutVal": 1.0,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "EInterpCurveMode::CIM_Linear"
+            },
+            {
+              "InVal": 78.749405,
+              "OutVal": 1.1,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "EInterpCurveMode::CIM_Linear"
+            },
+            {
+              "InVal": 82.60392,
+              "OutVal": 1.2,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "EInterpCurveMode::CIM_Linear"
+            },
+            {
+              "InVal": 86.106705,
+              "OutVal": 1.3,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "EInterpCurveMode::CIM_Linear"
+            },
+            {
+              "InVal": 89.44115,
+              "OutVal": 1.4,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "EInterpCurveMode::CIM_Linear"
+            },
+            {
+              "InVal": 92.80265,
+              "OutVal": 1.5,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "EInterpCurveMode::CIM_Linear"
+            },
+            {
+              "InVal": 96.385086,
+              "OutVal": 1.6,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "EInterpCurveMode::CIM_Linear"
+            },
+            {
+              "InVal": 100.36838,
+              "OutVal": 1.7,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "EInterpCurveMode::CIM_Linear"
+            },
+            {
+              "InVal": 104.91455,
+              "OutVal": 1.8,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "EInterpCurveMode::CIM_Linear"
+            },
+            {
+              "InVal": 110.171005,
+              "OutVal": 1.9000001,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "EInterpCurveMode::CIM_Linear"
+            },
+            {
+              "InVal": 116.27611,
+              "OutVal": 2.0,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "EInterpCurveMode::CIM_Linear"
+            },
+            {
+              "InVal": 122.93718,
+              "OutVal": 2.1,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "EInterpCurveMode::CIM_Linear"
+            },
+            {
+              "InVal": 129.77567,
+              "OutVal": 2.2,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "EInterpCurveMode::CIM_Linear"
+            },
+            {
+              "InVal": 136.78421,
+              "OutVal": 2.3,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "EInterpCurveMode::CIM_Linear"
+            },
+            {
+              "InVal": 143.94247,
+              "OutVal": 2.4,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "EInterpCurveMode::CIM_Linear"
+            },
+            {
+              "InVal": 151.22025,
+              "OutVal": 2.5,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "EInterpCurveMode::CIM_Linear"
+            },
+            {
+              "InVal": 158.57993,
+              "OutVal": 2.6,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "EInterpCurveMode::CIM_Linear"
+            },
+            {
+              "InVal": 165.97844,
+              "OutVal": 2.7,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "EInterpCurveMode::CIM_Linear"
+            },
+            {
+              "InVal": 173.3689,
+              "OutVal": 2.8,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "EInterpCurveMode::CIM_Linear"
+            },
+            {
+              "InVal": 180.70181,
+              "OutVal": 2.9,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "EInterpCurveMode::CIM_Linear"
+            },
+            {
+              "InVal": 187.9262,
+              "OutVal": 3.0,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "EInterpCurveMode::CIM_Linear"
+            },
+            {
+              "InVal": 194.86703,
+              "OutVal": 3.1,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "EInterpCurveMode::CIM_Linear"
+            },
+            {
+              "InVal": 201.42891,
+              "OutVal": 3.2,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "EInterpCurveMode::CIM_Linear"
+            },
+            {
+              "InVal": 207.67957,
+              "OutVal": 3.3,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "EInterpCurveMode::CIM_Linear"
+            },
+            {
+              "InVal": 213.68628,
+              "OutVal": 3.4,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "EInterpCurveMode::CIM_Linear"
+            },
+            {
+              "InVal": 219.51556,
+              "OutVal": 3.5,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "EInterpCurveMode::CIM_Linear"
+            },
+            {
+              "InVal": 225.23294,
+              "OutVal": 3.6,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "EInterpCurveMode::CIM_Linear"
+            },
+            {
+              "InVal": 230.90282,
+              "OutVal": 3.7,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "EInterpCurveMode::CIM_Linear"
+            },
+            {
+              "InVal": 236.58844,
+              "OutVal": 3.8,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "EInterpCurveMode::CIM_Linear"
+            },
+            {
+              "InVal": 242.35191,
+              "OutVal": 3.9,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "EInterpCurveMode::CIM_Linear"
+            },
+            {
+              "InVal": 248.25452,
+              "OutVal": 4.0,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "EInterpCurveMode::CIM_Linear"
+            }
+          ]
+        }
+      },
+      "AttachParent": {
+        "ObjectName": "SkeletalMeshComponentBudgeted'Default__BP_Dilophosaurus_C:CharacterMesh0'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Dilophosaurus/BP_Dilophosaurus.18"
+      },
+      "RelativeLocation": {
+        "X": -1.7371055,
+        "Y": -0.39563105,
+        "Z": 0.2812417
+      },
+      "RelativeRotation": {
+        "Pitch": 49.999317,
+        "Yaw": -179.99962,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "SpringArmComponent",
+    "Name": "Spring Arm",
+    "Outer": "Default__BP_Dilophosaurus_C",
+    "Class": "UScriptClass'SpringArmComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_Dilophosaurus_C:CollisionCylinder'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Dilophosaurus/BP_Dilophosaurus.7"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 60.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "BuoyancyPlane",
+    "Outer": "Default__BP_Dilophosaurus_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'BuoyancyPlane'",
+        "ObjectPath": "/Game/TheIsle/Art/BuoyancyPlane.2"
+      },
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_Dilophosaurus_C:CollisionCylinder'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Dilophosaurus/BP_Dilophosaurus.7"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "ThroatMesh",
+    "Outer": "Default__BP_Dilophosaurus_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_Throat'",
+        "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Omniraptor/Mesh/SM_Throat.2"
+      },
+      "AttachParent": {
+        "ObjectName": "SkeletalMeshComponentBudgeted'Default__BP_Dilophosaurus_C:CharacterMesh0'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Dilophosaurus/BP_Dilophosaurus.18"
+      },
+      "RelativeLocation": {
+        "X": 42.828323,
+        "Y": -13.330536,
+        "Z": -0.00067356037
+      },
+      "RelativeRotation": {
+        "Pitch": 90.0,
+        "Yaw": 17640.0,
+        "Roll": 17025.021
+      },
+      "RelativeScale3D": {
+        "X": 0.06,
+        "Y": 0.15,
+        "Z": 0.11
+      }
+    }
+  },
+  {
+    "Type": "TIAbilitySystemComponent",
+    "Name": "AbilitySystemComponent",
+    "Outer": "Default__BP_Dilophosaurus_C",
+    "Class": "UScriptClass'TIAbilitySystemComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "PrimaryComponentTick": {
+        "bAllowTickOnDedicatedServer": false
+      }
+    }
+  },
+  {
+    "Type": "TIAntiCheatComponent",
+    "Name": "AntiCheatComponent",
+    "Outer": "Default__BP_Dilophosaurus_C",
+    "Class": "UScriptClass'TIAntiCheatComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "TIAttributeSetDinosaur",
+    "Name": "AttributeSetBase",
+    "Outer": "Default__BP_Dilophosaurus_C",
+    "Class": "UScriptClass'TIAttributeSetDinosaur'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "TIDinosaurMovementComponent",
+    "Name": "CharMoveComp",
+    "Outer": "Default__BP_Dilophosaurus_C",
+    "Class": "UScriptClass'TIDinosaurMovementComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "TIFootstepsComponent",
+    "Name": "FootstepsComponent",
+    "Outer": "Default__BP_Dilophosaurus_C",
+    "Class": "UScriptClass'TIFootstepsComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "GrassPaintThickness": 2.0,
+      "EffectsDataTable": {
+        "ObjectName": "DataTable'DT_EffectSets'",
+        "ObjectPath": "/Game/TheIsle/Core/Data/DT_EffectSets.0"
+      },
+      "BackLegsFootstepStyle": "EFootstepStyle::EF_Medium",
+      "FrontLegsFootstepStyle": "EFootstepStyle::EF_Medium",
+      "FrontFootprintMask": {
+        "ObjectName": "Texture2D'T_Footprint_Dilo_M'",
+        "ObjectPath": "/Game/TheIsle/Art/Decals/Footprint/Textures/T_Footprint_Dilo_M.0"
+      },
+      "BackFootprintMask": {
+        "ObjectName": "Texture2D'T_Footprint_Dilo_M'",
+        "ObjectPath": "/Game/TheIsle/Art/Decals/Footprint/Textures/T_Footprint_Dilo_M.0"
+      },
+      "MovementSetsDataTable": {
+        "ObjectName": "DataTable'DT_MovementSets'",
+        "ObjectPath": "/Game/TheIsle/Core/Data/DT_MovementSets.0"
+      },
+      "MaxSpawnAmount": 100,
+      "FootprintActor": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Footprint_C'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Blueprints/BP_Footprint.0"
+      }
+    }
+  },
+  {
+    "Type": "WidgetComponent",
+    "Name": "NameWidget",
+    "Outer": "Default__BP_Dilophosaurus_C",
+    "Class": "UScriptClass'WidgetComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_Dilophosaurus_C:CollisionCylinder'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Dilophosaurus/BP_Dilophosaurus.7"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 200.0
+      }
+    }
+  }
+]

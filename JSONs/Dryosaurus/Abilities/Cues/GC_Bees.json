@@ -1,0 +1,2052 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GC_Bees_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "bHasCookedComponentInstancingData": true,
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'GC_Bees_C:SimpleConstructionScript_0'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_Bees.8"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'GC_Bees_C:ExecuteUbergraph_GC_Bees'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_Bees.1"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'GameplayCueNotify_Actor'",
+      "ObjectPath": "/Script/GameplayAbilities"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'GC_Bees_C:OnRemove'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_Bees.3"
+      },
+      {
+        "ObjectName": "Function'GC_Bees_C:OnActive'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_Bees.2"
+      },
+      {
+        "ObjectName": "Function'GC_Bees_C:ReceiveDestroyed'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_Bees.4"
+      },
+      {
+        "ObjectName": "Function'GC_Bees_C:ExecuteUbergraph_GC_Bees'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_Bees.1"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "DefaultSceneRoot",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SceneComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CueTarget",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnTemplate | DisableEditOnInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'TICharacterBase'",
+          "ObjectPath": "/Script/TheIsle"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "bIsAlive",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 1,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BeesParticle",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'NiagaraComponent'",
+          "ObjectPath": "/Script/Niagara"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BeesSound",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'AudioComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_GC_Bees": {
+        "ObjectName": "Function'GC_Bees_C:ExecuteUbergraph_GC_Bees'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_Bees.1"
+      },
+      "ReceiveDestroyed": {
+        "ObjectName": "Function'GC_Bees_C:ReceiveDestroyed'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_Bees.4"
+      },
+      "OnActive": {
+        "ObjectName": "Function'GC_Bees_C:OnActive'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_Bees.2"
+      },
+      "OnRemove": {
+        "ObjectName": "Function'GC_Bees_C:OnRemove'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_Bees.3"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_NoExport | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GC_Bees_C'Default__GC_Bees_C'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_Bees.5"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_GC_Bees",
+    "Outer": "GC_Bees_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "ScriptBytecode": [
+      {
+        "Inst": "EX_ComputedJump",
+        "StatementIndex": 0,
+        "OffsetExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GC_Bees_C:ExecuteUbergraph_GC_Bees'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_Bees.1"
+            },
+            "Property": {
+              "Type": "IntProperty",
+              "Name": "EntryPoint",
+              "Flags": "RF_Public",
+              "ElementSize": 4,
+              "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_Context",
+        "StatementIndex": 10,
+        "ObjectExpression": {
+          "Inst": "EX_InstanceVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "BlueprintGeneratedClass'GC_Bees_C'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_Bees.0"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "BeesSound",
+              "Flags": "RF_Public | RF_LoadCompleted",
+              "ElementSize": 8,
+              "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance | InstancedReference",
+              "PropertyClass": {
+                "ObjectName": "Class'AudioComponent'",
+                "ObjectPath": "/Script/Engine"
+              }
+            }
+          }
+        },
+        "Offset": 11,
+        "RValuePointer": null,
+        "ContextExpression": {
+          "Inst": "EX_FinalFunction",
+          "Function": {
+            "ObjectName": "Class'ActorComponent:K2_DestroyComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_Self"
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_Jump",
+        "StatementIndex": 43,
+        "CodeOffset": 177,
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_Bees.ExecuteUbergraph_GC_Bees[177]"
+      },
+      {
+        "Inst": "EX_LetBool",
+        "StatementIndex": 48,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GC_Bees_C:ExecuteUbergraph_GC_Bees'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_Bees.1"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_IsValid_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Class'KismetSystemLibrary:IsValid'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_InstanceVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "BlueprintGeneratedClass'GC_Bees_C'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_Bees.0"
+                },
+                "Property": {
+                  "Type": "ObjectProperty",
+                  "Name": "BeesSound",
+                  "Flags": "RF_Public | RF_LoadCompleted",
+                  "ElementSize": 8,
+                  "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance | InstancedReference",
+                  "PropertyClass": {
+                    "ObjectName": "Class'AudioComponent'",
+                    "ObjectPath": "/Script/Engine"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_JumpIfNot",
+        "StatementIndex": 77,
+        "CodeOffset": 177,
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_Bees.ExecuteUbergraph_GC_Bees[177]",
+        "BooleanExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GC_Bees_C:ExecuteUbergraph_GC_Bees'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_Bees.1"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_IsValid_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_Jump",
+        "StatementIndex": 91,
+        "CodeOffset": 10,
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_Bees.ExecuteUbergraph_GC_Bees[10]"
+      },
+      {
+        "Inst": "EX_LetBool",
+        "StatementIndex": 96,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GC_Bees_C:ExecuteUbergraph_GC_Bees'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_Bees.1"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_IsValid_ReturnValue_1",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Class'KismetSystemLibrary:IsValid'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_InstanceVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "BlueprintGeneratedClass'GC_Bees_C'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_Bees.0"
+                },
+                "Property": {
+                  "Type": "ObjectProperty",
+                  "Name": "BeesParticle",
+                  "Flags": "RF_Public | RF_LoadCompleted",
+                  "ElementSize": 8,
+                  "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance | InstancedReference",
+                  "PropertyClass": {
+                    "ObjectName": "Class'NiagaraComponent'",
+                    "ObjectPath": "/Script/Niagara"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_JumpIfNot",
+        "StatementIndex": 125,
+        "CodeOffset": 48,
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_Bees.ExecuteUbergraph_GC_Bees[48]",
+        "BooleanExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GC_Bees_C:ExecuteUbergraph_GC_Bees'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_Bees.1"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_IsValid_ReturnValue_1",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_Context",
+        "StatementIndex": 139,
+        "ObjectExpression": {
+          "Inst": "EX_InstanceVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "BlueprintGeneratedClass'GC_Bees_C'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_Bees.0"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "BeesParticle",
+              "Flags": "RF_Public | RF_LoadCompleted",
+              "ElementSize": 8,
+              "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance | InstancedReference",
+              "PropertyClass": {
+                "ObjectName": "Class'NiagaraComponent'",
+                "ObjectPath": "/Script/Niagara"
+              }
+            }
+          }
+        },
+        "Offset": 11,
+        "RValuePointer": null,
+        "ContextExpression": {
+          "Inst": "EX_FinalFunction",
+          "Function": {
+            "ObjectName": "Class'ActorComponent:K2_DestroyComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_Self"
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_Jump",
+        "StatementIndex": 172,
+        "CodeOffset": 48,
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_Bees.ExecuteUbergraph_GC_Bees[48]"
+      },
+      {
+        "Inst": "EX_Return",
+        "StatementIndex": 177,
+        "Expression": {
+          "Inst": "EX_Nothing"
+        }
+      },
+      {
+        "Inst": "EX_EndOfScript",
+        "StatementIndex": 179
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnActive",
+    "Outer": "GC_Bees_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'GameplayCueNotify_Actor:OnActive'",
+      "ObjectPath": "/Script/GameplayAbilities"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "MyTarget",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "Parameters",
+        "Flags": "RF_Public",
+        "ElementSize": 224,
+        "PropertyFlags": "ConstParm | BlueprintVisible | BlueprintReadOnly | Parm | OutParm | ReferenceParm | ContainsInstancedReference",
+        "Struct": {
+          "ObjectName": "Class'GameplayCueParameters'",
+          "ObjectPath": "/Script/GameplayAbilities"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "Parm | OutParm | ReturnParm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsThe_Isle_Character_Base",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'TICharacterBase'",
+          "ObjectPath": "/Script/TheIsle"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_GetIsAlive_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_GetSocketLocation_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 24,
+        "Struct": {
+          "ObjectName": "Class'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_SpawnSoundAttached_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'AudioComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_SpawnSystemAttached_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'NiagaraComponent'",
+          "ObjectPath": "/Script/Niagara"
+        }
+      }
+    ],
+    "ScriptBytecode": [
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 0,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GC_Bees_C:OnActive'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_Bees.2"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "K2Node_DynamicCast_AsThe_Isle_Character_Base",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyClass": {
+                "ObjectName": "Class'TICharacterBase'",
+                "ObjectPath": "/Script/TheIsle"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_DynamicCast",
+          "InterfaceClass": {
+            "ObjectName": "Class'TICharacterBase'",
+            "ObjectPath": "/Script/TheIsle"
+          },
+          "Target": {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'GC_Bees_C:OnActive'",
+                "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_Bees.2"
+              },
+              "Property": {
+                "Type": "ObjectProperty",
+                "Name": "MyTarget",
+                "Flags": "RF_Public",
+                "ElementSize": 8,
+                "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+                "PropertyClass": {
+                  "ObjectName": "Class'Actor'",
+                  "ObjectPath": "/Script/Engine"
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 36,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GC_Bees_C:OnActive'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_Bees.2"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "K2Node_DynamicCast_bSuccess",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_Cast",
+          "ConversionType": "CST_ObjectToBool",
+          "Target": {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'GC_Bees_C:OnActive'",
+                "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_Bees.2"
+              },
+              "Property": {
+                "Type": "ObjectProperty",
+                "Name": "K2Node_DynamicCast_AsThe_Isle_Character_Base",
+                "Flags": "RF_Public",
+                "ElementSize": 8,
+                "PropertyClass": {
+                  "ObjectName": "Class'TICharacterBase'",
+                  "ObjectPath": "/Script/TheIsle"
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_JumpIfNot",
+        "StatementIndex": 65,
+        "CodeOffset": 692,
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_Bees.OnActive[692]",
+        "BooleanExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GC_Bees_C:OnActive'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_Bees.2"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "K2Node_DynamicCast_bSuccess",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_LetObj",
+        "StatementIndex": 79,
+        "Variable": {
+          "Inst": "EX_InstanceVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "BlueprintGeneratedClass'GC_Bees_C'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_Bees.0"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "CueTarget",
+              "Flags": "RF_Public | RF_LoadCompleted",
+              "ElementSize": 8,
+              "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnTemplate | DisableEditOnInstance",
+              "PropertyClass": {
+                "ObjectName": "Class'TICharacterBase'",
+                "ObjectPath": "/Script/TheIsle"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GC_Bees_C:OnActive'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_Bees.2"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "K2Node_DynamicCast_AsThe_Isle_Character_Base",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyClass": {
+                "ObjectName": "Class'TICharacterBase'",
+                "ObjectPath": "/Script/TheIsle"
+              }
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_LetBool",
+        "StatementIndex": 98,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GC_Bees_C:OnActive'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_Bees.2"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_GetIsAlive_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_Context",
+          "ObjectExpression": {
+            "Inst": "EX_InstanceVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "BlueprintGeneratedClass'GC_Bees_C'",
+                "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_Bees.0"
+              },
+              "Property": {
+                "Type": "ObjectProperty",
+                "Name": "CueTarget",
+                "Flags": "RF_Public | RF_LoadCompleted",
+                "ElementSize": 8,
+                "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnTemplate | DisableEditOnInstance",
+                "PropertyClass": {
+                  "ObjectName": "Class'TICharacterBase'",
+                  "ObjectPath": "/Script/TheIsle"
+                }
+              }
+            }
+          },
+          "Offset": 10,
+          "RValuePointer": {
+            "Owner": {
+              "ObjectName": "Function'GC_Bees_C:OnActive'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_Bees.2"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_GetIsAlive_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          },
+          "ContextExpression": {
+            "Inst": "EX_FinalFunction",
+            "Function": {
+              "ObjectName": "Class'TICharacterBase:GetIsAlive'",
+              "ObjectPath": "/Script/TheIsle"
+            },
+            "Parameters": []
+          }
+        }
+      },
+      {
+        "Inst": "EX_JumpIfNot",
+        "StatementIndex": 140,
+        "CodeOffset": 681,
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_Bees.OnActive[681]",
+        "BooleanExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GC_Bees_C:OnActive'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_Bees.2"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_GetIsAlive_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 154,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GC_Bees_C:OnActive'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_Bees.2"
+            },
+            "Property": {
+              "Type": "StructProperty",
+              "Name": "CallFunc_GetSocketLocation_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 24,
+              "Struct": {
+                "ObjectName": "Class'Vector'",
+                "ObjectPath": "/Script/CoreUObject"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_Context",
+          "ObjectExpression": {
+            "Inst": "EX_Context",
+            "ObjectExpression": {
+              "Inst": "EX_InstanceVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "BlueprintGeneratedClass'GC_Bees_C'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_Bees.0"
+                },
+                "Property": {
+                  "Type": "ObjectProperty",
+                  "Name": "CueTarget",
+                  "Flags": "RF_Public | RF_LoadCompleted",
+                  "ElementSize": 8,
+                  "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnTemplate | DisableEditOnInstance",
+                  "PropertyClass": {
+                    "ObjectName": "Class'TICharacterBase'",
+                    "ObjectPath": "/Script/TheIsle"
+                  }
+                }
+              }
+            },
+            "Offset": 9,
+            "RValuePointer": {
+              "Path": [
+                "Mesh"
+              ],
+              "ResolvedOwner": {
+                "ObjectName": "Class'Character'",
+                "ObjectPath": "/Script/Engine"
+              }
+            },
+            "ContextExpression": {
+              "Inst": "EX_InstanceVariable",
+              "Variable": {
+                "Path": [
+                  "Mesh"
+                ],
+                "ResolvedOwner": {
+                  "ObjectName": "Class'Character'",
+                  "ObjectPath": "/Script/Engine"
+                }
+              }
+            }
+          },
+          "Offset": 27,
+          "RValuePointer": {
+            "Owner": {
+              "ObjectName": "Function'GC_Bees_C:OnActive'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_Bees.2"
+            },
+            "Property": {
+              "Type": "StructProperty",
+              "Name": "CallFunc_GetSocketLocation_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 24,
+              "Struct": {
+                "ObjectName": "Class'Vector'",
+                "ObjectPath": "/Script/CoreUObject"
+              }
+            }
+          },
+          "ContextExpression": {
+            "Inst": "EX_VirtualFunction",
+            "Function": "GetSocketLocation",
+            "Parameters": [
+              {
+                "Inst": "EX_NameConst",
+                "Value": "DinoSpine03"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "Inst": "EX_LetObj",
+        "StatementIndex": 243,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GC_Bees_C:OnActive'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_Bees.2"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "CallFunc_SpawnSystemAttached_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyFlags": "InstancedReference",
+              "PropertyClass": {
+                "ObjectName": "Class'NiagaraComponent'",
+                "ObjectPath": "/Script/Niagara"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Class'NiagaraFunctionLibrary:SpawnSystemAttached'",
+            "ObjectPath": "/Script/Niagara"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_ObjectConst",
+              "Value": {
+                "ObjectName": "NiagaraSystem'NS_Environment_Bees_Control'",
+                "ObjectPath": "/Game/TheIsle/VFX/EnvironmentalFX/Niagara/NS_Environment_Bees_Control.8"
+              }
+            },
+            {
+              "Inst": "EX_Context",
+              "ObjectExpression": {
+                "Inst": "EX_InstanceVariable",
+                "Variable": {
+                  "Owner": {
+                    "ObjectName": "BlueprintGeneratedClass'GC_Bees_C'",
+                    "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_Bees.0"
+                  },
+                  "Property": {
+                    "Type": "ObjectProperty",
+                    "Name": "CueTarget",
+                    "Flags": "RF_Public | RF_LoadCompleted",
+                    "ElementSize": 8,
+                    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnTemplate | DisableEditOnInstance",
+                    "PropertyClass": {
+                      "ObjectName": "Class'TICharacterBase'",
+                      "ObjectPath": "/Script/TheIsle"
+                    }
+                  }
+                }
+              },
+              "Offset": 9,
+              "RValuePointer": {
+                "Path": [
+                  "Mesh"
+                ],
+                "ResolvedOwner": {
+                  "ObjectName": "Class'Character'",
+                  "ObjectPath": "/Script/Engine"
+                }
+              },
+              "ContextExpression": {
+                "Inst": "EX_InstanceVariable",
+                "Variable": {
+                  "Path": [
+                    "Mesh"
+                  ],
+                  "ResolvedOwner": {
+                    "ObjectName": "Class'Character'",
+                    "ObjectPath": "/Script/Engine"
+                  }
+                }
+              }
+            },
+            {
+              "Inst": "EX_NameConst",
+              "Value": "DinoSpine03"
+            },
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'GC_Bees_C:OnActive'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_Bees.2"
+                },
+                "Property": {
+                  "Type": "StructProperty",
+                  "Name": "CallFunc_GetSocketLocation_ReturnValue",
+                  "Flags": "RF_Public",
+                  "ElementSize": 24,
+                  "Struct": {
+                    "ObjectName": "Class'Vector'",
+                    "ObjectPath": "/Script/CoreUObject"
+                  }
+                }
+              }
+            },
+            {
+              "Inst": "EX_RotationConst",
+              "Value": {
+                "Pitch": 0.0,
+                "Yaw": 0.0,
+                "Roll": 0.0
+              }
+            },
+            {
+              "Inst": "EX_ByteConst",
+              "Value": 1
+            },
+            {
+              "Inst": "EX_True"
+            },
+            {
+              "Inst": "EX_True"
+            },
+            {
+              "Inst": "EX_ByteConst",
+              "Value": 0
+            },
+            {
+              "Inst": "EX_True"
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_LetObj",
+        "StatementIndex": 357,
+        "Variable": {
+          "Inst": "EX_InstanceVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "BlueprintGeneratedClass'GC_Bees_C'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_Bees.0"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "BeesParticle",
+              "Flags": "RF_Public | RF_LoadCompleted",
+              "ElementSize": 8,
+              "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance | InstancedReference",
+              "PropertyClass": {
+                "ObjectName": "Class'NiagaraComponent'",
+                "ObjectPath": "/Script/Niagara"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GC_Bees_C:OnActive'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_Bees.2"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "CallFunc_SpawnSystemAttached_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyFlags": "InstancedReference",
+              "PropertyClass": {
+                "ObjectName": "Class'NiagaraComponent'",
+                "ObjectPath": "/Script/Niagara"
+              }
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 376,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GC_Bees_C:OnActive'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_Bees.2"
+            },
+            "Property": {
+              "Type": "StructProperty",
+              "Name": "CallFunc_GetSocketLocation_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 24,
+              "Struct": {
+                "ObjectName": "Class'Vector'",
+                "ObjectPath": "/Script/CoreUObject"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_Context",
+          "ObjectExpression": {
+            "Inst": "EX_Context",
+            "ObjectExpression": {
+              "Inst": "EX_InstanceVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "BlueprintGeneratedClass'GC_Bees_C'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_Bees.0"
+                },
+                "Property": {
+                  "Type": "ObjectProperty",
+                  "Name": "CueTarget",
+                  "Flags": "RF_Public | RF_LoadCompleted",
+                  "ElementSize": 8,
+                  "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnTemplate | DisableEditOnInstance",
+                  "PropertyClass": {
+                    "ObjectName": "Class'TICharacterBase'",
+                    "ObjectPath": "/Script/TheIsle"
+                  }
+                }
+              }
+            },
+            "Offset": 9,
+            "RValuePointer": {
+              "Path": [
+                "Mesh"
+              ],
+              "ResolvedOwner": {
+                "ObjectName": "Class'Character'",
+                "ObjectPath": "/Script/Engine"
+              }
+            },
+            "ContextExpression": {
+              "Inst": "EX_InstanceVariable",
+              "Variable": {
+                "Path": [
+                  "Mesh"
+                ],
+                "ResolvedOwner": {
+                  "ObjectName": "Class'Character'",
+                  "ObjectPath": "/Script/Engine"
+                }
+              }
+            }
+          },
+          "Offset": 27,
+          "RValuePointer": {
+            "Owner": {
+              "ObjectName": "Function'GC_Bees_C:OnActive'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_Bees.2"
+            },
+            "Property": {
+              "Type": "StructProperty",
+              "Name": "CallFunc_GetSocketLocation_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 24,
+              "Struct": {
+                "ObjectName": "Class'Vector'",
+                "ObjectPath": "/Script/CoreUObject"
+              }
+            }
+          },
+          "ContextExpression": {
+            "Inst": "EX_VirtualFunction",
+            "Function": "GetSocketLocation",
+            "Parameters": [
+              {
+                "Inst": "EX_NameConst",
+                "Value": "DinoSpine03"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "Inst": "EX_LetObj",
+        "StatementIndex": 465,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GC_Bees_C:OnActive'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_Bees.2"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "CallFunc_SpawnSoundAttached_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyFlags": "InstancedReference",
+              "PropertyClass": {
+                "ObjectName": "Class'AudioComponent'",
+                "ObjectPath": "/Script/Engine"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Class'GameplayStatics:SpawnSoundAttached'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_ObjectConst",
+              "Value": {
+                "ObjectName": "SoundCue'CU_Insect_Swarm_Bees_Agitated'",
+                "ObjectPath": "/Game/TheIsle/Sound/Ambience/Insects/CU_Insect_Swarm_Bees_Agitated.0"
+              }
+            },
+            {
+              "Inst": "EX_Context",
+              "ObjectExpression": {
+                "Inst": "EX_InstanceVariable",
+                "Variable": {
+                  "Owner": {
+                    "ObjectName": "BlueprintGeneratedClass'GC_Bees_C'",
+                    "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_Bees.0"
+                  },
+                  "Property": {
+                    "Type": "ObjectProperty",
+                    "Name": "CueTarget",
+                    "Flags": "RF_Public | RF_LoadCompleted",
+                    "ElementSize": 8,
+                    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnTemplate | DisableEditOnInstance",
+                    "PropertyClass": {
+                      "ObjectName": "Class'TICharacterBase'",
+                      "ObjectPath": "/Script/TheIsle"
+                    }
+                  }
+                }
+              },
+              "Offset": 9,
+              "RValuePointer": {
+                "Path": [
+                  "Mesh"
+                ],
+                "ResolvedOwner": {
+                  "ObjectName": "Class'Character'",
+                  "ObjectPath": "/Script/Engine"
+                }
+              },
+              "ContextExpression": {
+                "Inst": "EX_InstanceVariable",
+                "Variable": {
+                  "Path": [
+                    "Mesh"
+                  ],
+                  "ResolvedOwner": {
+                    "ObjectName": "Class'Character'",
+                    "ObjectPath": "/Script/Engine"
+                  }
+                }
+              }
+            },
+            {
+              "Inst": "EX_NameConst",
+              "Value": "DinoSpine03"
+            },
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'GC_Bees_C:OnActive'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_Bees.2"
+                },
+                "Property": {
+                  "Type": "StructProperty",
+                  "Name": "CallFunc_GetSocketLocation_ReturnValue",
+                  "Flags": "RF_Public",
+                  "ElementSize": 24,
+                  "Struct": {
+                    "ObjectName": "Class'Vector'",
+                    "ObjectPath": "/Script/CoreUObject"
+                  }
+                }
+              }
+            },
+            {
+              "Inst": "EX_RotationConst",
+              "Value": {
+                "Pitch": 0.0,
+                "Yaw": 0.0,
+                "Roll": 0.0
+              }
+            },
+            {
+              "Inst": "EX_ByteConst",
+              "Value": 2
+            },
+            {
+              "Inst": "EX_True"
+            },
+            {
+              "Inst": "EX_FloatConst",
+              "Value": 2.0
+            },
+            {
+              "Inst": "EX_FloatConst",
+              "Value": 1.0
+            },
+            {
+              "Inst": "EX_FloatConst",
+              "Value": 0.0
+            },
+            {
+              "Inst": "EX_NoObject"
+            },
+            {
+              "Inst": "EX_NoObject"
+            },
+            {
+              "Inst": "EX_True"
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_LetObj",
+        "StatementIndex": 593,
+        "Variable": {
+          "Inst": "EX_InstanceVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "BlueprintGeneratedClass'GC_Bees_C'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_Bees.0"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "BeesSound",
+              "Flags": "RF_Public | RF_LoadCompleted",
+              "ElementSize": 8,
+              "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance | InstancedReference",
+              "PropertyClass": {
+                "ObjectName": "Class'AudioComponent'",
+                "ObjectPath": "/Script/Engine"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GC_Bees_C:OnActive'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_Bees.2"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "CallFunc_SpawnSoundAttached_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyFlags": "InstancedReference",
+              "PropertyClass": {
+                "ObjectName": "Class'AudioComponent'",
+                "ObjectPath": "/Script/Engine"
+              }
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_Context",
+        "StatementIndex": 612,
+        "ObjectExpression": {
+          "Inst": "EX_InstanceVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "BlueprintGeneratedClass'GC_Bees_C'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_Bees.0"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "BeesSound",
+              "Flags": "RF_Public | RF_LoadCompleted",
+              "ElementSize": 8,
+              "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance | InstancedReference",
+              "PropertyClass": {
+                "ObjectName": "Class'AudioComponent'",
+                "ObjectPath": "/Script/Engine"
+              }
+            }
+          }
+        },
+        "Offset": 31,
+        "RValuePointer": null,
+        "ContextExpression": {
+          "Inst": "EX_VirtualFunction",
+          "Function": "FadeIn",
+          "Parameters": [
+            {
+              "Inst": "EX_FloatConst",
+              "Value": 2.0
+            },
+            {
+              "Inst": "EX_FloatConst",
+              "Value": 1.0
+            },
+            {
+              "Inst": "EX_FloatConst",
+              "Value": 0.0
+            },
+            {
+              "Inst": "EX_ByteConst",
+              "Value": 0
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_LetBool",
+        "StatementIndex": 665,
+        "Variable": {
+          "Inst": "EX_LocalOutVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GC_Bees_C:OnActive'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_Bees.2"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "PropertyFlags": "Parm | OutParm | ReturnParm",
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_True"
+        }
+      },
+      {
+        "Inst": "EX_Jump",
+        "StatementIndex": 676,
+        "CodeOffset": 692,
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_Bees.OnActive[692]"
+      },
+      {
+        "Inst": "EX_LetBool",
+        "StatementIndex": 681,
+        "Variable": {
+          "Inst": "EX_LocalOutVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GC_Bees_C:OnActive'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_Bees.2"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "PropertyFlags": "Parm | OutParm | ReturnParm",
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_False"
+        }
+      },
+      {
+        "Inst": "EX_Return",
+        "StatementIndex": 692,
+        "Expression": {
+          "Inst": "EX_LocalOutVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GC_Bees_C:OnActive'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_Bees.2"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "PropertyFlags": "Parm | OutParm | ReturnParm",
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_EndOfScript",
+        "StatementIndex": 702
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_HasOutParms | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnRemove",
+    "Outer": "GC_Bees_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'GameplayCueNotify_Actor:OnRemove'",
+      "ObjectPath": "/Script/GameplayAbilities"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "MyTarget",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "Parameters",
+        "Flags": "RF_Public",
+        "ElementSize": 224,
+        "PropertyFlags": "ConstParm | BlueprintVisible | BlueprintReadOnly | Parm | OutParm | ReferenceParm | ContainsInstancedReference",
+        "Struct": {
+          "ObjectName": "Class'GameplayCueParameters'",
+          "ObjectPath": "/Script/GameplayAbilities"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "Parm | OutParm | ReturnParm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "ScriptBytecode": [
+      {
+        "Inst": "EX_LetBool",
+        "StatementIndex": 0,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GC_Bees_C:OnRemove'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_Bees.3"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_IsValid_ReturnValue_1",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Class'KismetSystemLibrary:IsValid'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_InstanceVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "BlueprintGeneratedClass'GC_Bees_C'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_Bees.0"
+                },
+                "Property": {
+                  "Type": "ObjectProperty",
+                  "Name": "BeesParticle",
+                  "Flags": "RF_Public | RF_LoadCompleted",
+                  "ElementSize": 8,
+                  "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance | InstancedReference",
+                  "PropertyClass": {
+                    "ObjectName": "Class'NiagaraComponent'",
+                    "ObjectPath": "/Script/Niagara"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_JumpIfNot",
+        "StatementIndex": 29,
+        "CodeOffset": 76,
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_Bees.OnRemove[76]",
+        "BooleanExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GC_Bees_C:OnRemove'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_Bees.3"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_IsValid_ReturnValue_1",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_Context",
+        "StatementIndex": 43,
+        "ObjectExpression": {
+          "Inst": "EX_InstanceVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "BlueprintGeneratedClass'GC_Bees_C'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_Bees.0"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "BeesParticle",
+              "Flags": "RF_Public | RF_LoadCompleted",
+              "ElementSize": 8,
+              "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance | InstancedReference",
+              "PropertyClass": {
+                "ObjectName": "Class'NiagaraComponent'",
+                "ObjectPath": "/Script/Niagara"
+              }
+            }
+          }
+        },
+        "Offset": 11,
+        "RValuePointer": null,
+        "ContextExpression": {
+          "Inst": "EX_FinalFunction",
+          "Function": {
+            "ObjectName": "Class'ActorComponent:K2_DestroyComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_Self"
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_LetBool",
+        "StatementIndex": 76,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GC_Bees_C:OnRemove'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_Bees.3"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_IsValid_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Class'KismetSystemLibrary:IsValid'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_InstanceVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "BlueprintGeneratedClass'GC_Bees_C'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_Bees.0"
+                },
+                "Property": {
+                  "Type": "ObjectProperty",
+                  "Name": "BeesSound",
+                  "Flags": "RF_Public | RF_LoadCompleted",
+                  "ElementSize": 8,
+                  "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance | InstancedReference",
+                  "PropertyClass": {
+                    "ObjectName": "Class'AudioComponent'",
+                    "ObjectPath": "/Script/Engine"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_JumpIfNot",
+        "StatementIndex": 105,
+        "CodeOffset": 167,
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_Bees.OnRemove[167]",
+        "BooleanExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GC_Bees_C:OnRemove'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_Bees.3"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_IsValid_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_Context",
+        "StatementIndex": 119,
+        "ObjectExpression": {
+          "Inst": "EX_InstanceVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "BlueprintGeneratedClass'GC_Bees_C'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_Bees.0"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "BeesSound",
+              "Flags": "RF_Public | RF_LoadCompleted",
+              "ElementSize": 8,
+              "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance | InstancedReference",
+              "PropertyClass": {
+                "ObjectName": "Class'AudioComponent'",
+                "ObjectPath": "/Script/Engine"
+              }
+            }
+          }
+        },
+        "Offset": 26,
+        "RValuePointer": null,
+        "ContextExpression": {
+          "Inst": "EX_VirtualFunction",
+          "Function": "FadeOut",
+          "Parameters": [
+            {
+              "Inst": "EX_FloatConst",
+              "Value": 2.0
+            },
+            {
+              "Inst": "EX_FloatConst",
+              "Value": 0.0
+            },
+            {
+              "Inst": "EX_ByteConst",
+              "Value": 0
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_LetBool",
+        "StatementIndex": 167,
+        "Variable": {
+          "Inst": "EX_LocalOutVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GC_Bees_C:OnRemove'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_Bees.3"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "PropertyFlags": "Parm | OutParm | ReturnParm",
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_True"
+        }
+      },
+      {
+        "Inst": "EX_Return",
+        "StatementIndex": 178,
+        "Expression": {
+          "Inst": "EX_LocalOutVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GC_Bees_C:OnRemove'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_Bees.3"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "PropertyFlags": "Parm | OutParm | ReturnParm",
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_EndOfScript",
+        "StatementIndex": 188
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_HasOutParms | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceiveDestroyed",
+    "Outer": "GC_Bees_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'Actor:ReceiveDestroyed'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "ScriptBytecode": [
+      {
+        "Inst": "EX_LocalFinalFunction",
+        "StatementIndex": 0,
+        "Function": {
+          "ObjectName": "Function'GC_Bees_C:ExecuteUbergraph_GC_Bees'",
+          "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_Bees.1"
+        },
+        "Parameters": [
+          {
+            "Inst": "EX_IntConst",
+            "Value": 96
+          }
+        ],
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_Bees.ExecuteUbergraph_GC_Bees[96]"
+      },
+      {
+        "Inst": "EX_Return",
+        "StatementIndex": 15,
+        "Expression": {
+          "Inst": "EX_Nothing"
+        }
+      },
+      {
+        "Inst": "EX_EndOfScript",
+        "StatementIndex": 17
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "GC_Bees_C",
+    "Name": "Default__GC_Bees_C",
+    "Class": "BlueprintGeneratedClass'/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_Bees.GC_Bees_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "UberGraphFrame": {},
+      "bAutoDestroyOnRemove": true,
+      "AutoDestroyDelay": 2.0,
+      "GameplayCueTag": {
+        "TagName": "GameplayCue.Active.Bees"
+      },
+      "GameplayCueName": "GameplayCue.Active.Bees",
+      "bAutoAttachToOwner": true,
+      "bUniqueInstancePerSourceObject": true
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "GC_Bees_C",
+    "Class": "UScriptClass'SceneComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'GC_Bees_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_Bees.6"
+      },
+      "CookedComponentInstancingData": {
+        "bHasValidCookedData": true
+      },
+      "VariableGUID": "DC2AC5F1-427A7DFA-0B9DC0AD-75CC182A",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "GC_Bees_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'GC_Bees_C:SimpleConstructionScript_0.SCS_Node_0'",
+          "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_Bees.7"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'GC_Bees_C:SimpleConstructionScript_0.SCS_Node_0'",
+          "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_Bees.7"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'GC_Bees_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_Bees.7"
+      }
+    }
+  }
+]

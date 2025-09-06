@@ -1,0 +1,235 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GA_Graze_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'GA_Graze_C:ExecuteUbergraph_GA_Graze'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/GA_Graze.1"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'TIGameplayAbilityGraze'",
+      "ObjectPath": "/Script/TheIsle"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'GA_Graze_C:K2_ActivateAbility'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/GA_Graze.2"
+      },
+      {
+        "ObjectName": "Function'GA_Graze_C:ExecuteUbergraph_GA_Graze'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/GA_Graze.1"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "OwningDino",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnTemplate | DisableEditOnInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'TICharacterBase'",
+          "ObjectPath": "/Script/TheIsle"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_GA_Graze": {
+        "ObjectName": "Function'GA_Graze_C:ExecuteUbergraph_GA_Graze'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/GA_Graze.1"
+      },
+      "K2_ActivateAbility": {
+        "ObjectName": "Function'GA_Graze_C:K2_ActivateAbility'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/GA_Graze.2"
+      }
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GA_Graze_C'Default__GA_Graze_C'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/GA_Graze.3"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_GA_Graze",
+    "Outer": "GA_Graze_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "ScriptBytecode": [
+      {
+        "Inst": "EX_ComputedJump",
+        "StatementIndex": 0,
+        "OffsetExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_Graze_C:ExecuteUbergraph_GA_Graze'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/GA_Graze.1"
+            },
+            "Property": {
+              "Type": "IntProperty",
+              "Name": "EntryPoint",
+              "Flags": "RF_Public",
+              "ElementSize": 4,
+              "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_Return",
+        "StatementIndex": 10,
+        "Expression": {
+          "Inst": "EX_Nothing"
+        }
+      },
+      {
+        "Inst": "EX_EndOfScript",
+        "StatementIndex": 12
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "K2_ActivateAbility",
+    "Outer": "GA_Graze_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'GameplayAbility:K2_ActivateAbility'",
+      "ObjectPath": "/Script/GameplayAbilities"
+    },
+    "ScriptBytecode": [
+      {
+        "Inst": "EX_LocalFinalFunction",
+        "StatementIndex": 0,
+        "Function": {
+          "ObjectName": "Function'GA_Graze_C:ExecuteUbergraph_GA_Graze'",
+          "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/GA_Graze.1"
+        },
+        "Parameters": [
+          {
+            "Inst": "EX_IntConst",
+            "Value": 10
+          }
+        ],
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/GA_Graze.ExecuteUbergraph_GA_Graze[10]"
+      },
+      {
+        "Inst": "EX_Return",
+        "StatementIndex": 15,
+        "Expression": {
+          "Inst": "EX_Nothing"
+        }
+      },
+      {
+        "Inst": "EX_EndOfScript",
+        "StatementIndex": 17
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "GA_Graze_C",
+    "Name": "Default__GA_Graze_C",
+    "Class": "BlueprintGeneratedClass'/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/GA_Graze.GA_Graze_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "UberGraphFrame": {},
+      "PlayJuvAnimGameplayEffect": {
+        "ObjectName": "BlueprintGeneratedClass'GE_PlayJuvAnim_C'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Effects/GE_PlayJuvAnim.0"
+      },
+      "GrazeAbilityGameplayEffect": {
+        "ObjectName": "BlueprintGeneratedClass'GE_GrazeEffect_C'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Effects/GE_GrazeEffect.0"
+      },
+      "AbilityTags": [
+        "Ability.Skill.Use",
+        "Ability.Skill.Graze"
+      ],
+      "CooldownGameplayEffectClass": {
+        "ObjectName": "BlueprintGeneratedClass'GE_EatDrinkCooldown_C'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Effects/GE_EatDrinkCooldown.0"
+      },
+      "CancelAbilitiesWithTag": [
+        "Ability.Skill.PrimaryAttack",
+        "Ability.Skill.SecondaryAttack",
+        "Ability.Skill.VoiceThreaten",
+        "Ability.Skill.VoiceHelp",
+        "Ability.Skill.VoiceFriendly",
+        "Ability.Skill.VoiceBroadcast",
+        "Ability.Skill.Vocalize",
+        "Ability.Skill.Shake"
+      ],
+      "BlockAbilitiesWithTag": [
+        "Ability.Skill.Scent",
+        "Ability.Skill.Shake"
+      ],
+      "ActivationOwnedTags": [
+        "Ability.Skill.Graze",
+        "Ability.Skill.Use"
+      ],
+      "ActivationBlockedTags": [
+        "State.Dead",
+        "Ability.Skill.Rest",
+        "Ability.Skill.PrimaryAttack",
+        "Ability.Skill.SecondaryAttack",
+        "Ability.Skill.Wallow",
+        "Ability.Skill.VoiceThreaten",
+        "Ability.Skill.VoiceHelp",
+        "Ability.Skill.VoiceFriendly",
+        "Ability.Skill.VoiceBroadcast",
+        "Ability.Skill.Vocalize",
+        "State.PickedUp",
+        "State.Pounced",
+        "State.PouncedLarge",
+        "State.UIBlockAbilities",
+        "Status.Launching",
+        "State.Lunged",
+        "Ability.Skill.PickingUp",
+        "Ability.Skill.Use",
+        "Cooldown.Skills.PickUp",
+        "State.BlindedActive",
+        "State.BlockAbilities"
+      ],
+      "TargetBlockedTags": [
+        "State.Dead"
+      ]
+    }
+  }
+]

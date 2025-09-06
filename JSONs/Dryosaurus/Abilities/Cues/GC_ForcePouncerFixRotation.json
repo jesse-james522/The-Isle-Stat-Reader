@@ -1,0 +1,1309 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GC_ForcePouncerFixRotation_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "bHasCookedComponentInstancingData": true,
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'GC_ForcePouncerFixRotation_C:SimpleConstructionScript_0'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_ForcePouncerFixRotation.5"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'GameplayCueNotify_Actor'",
+      "ObjectPath": "/Script/GameplayAbilities"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'GC_ForcePouncerFixRotation_C:OnExecute'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_ForcePouncerFixRotation.1"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "DefaultSceneRoot",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SceneComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "OnExecute": {
+        "ObjectName": "Function'GC_ForcePouncerFixRotation_C:OnExecute'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_ForcePouncerFixRotation.1"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_NoExport | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GC_ForcePouncerFixRotation_C'Default__GC_ForcePouncerFixRotation_C'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_ForcePouncerFixRotation.2"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "OnExecute",
+    "Outer": "GC_ForcePouncerFixRotation_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'GameplayCueNotify_Actor:OnExecute'",
+      "ObjectPath": "/Script/GameplayAbilities"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "MyTarget",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "Parameters",
+        "Flags": "RF_Public",
+        "ElementSize": 224,
+        "PropertyFlags": "ConstParm | BlueprintVisible | BlueprintReadOnly | Parm | OutParm | ReferenceParm | ContainsInstancedReference",
+        "Struct": {
+          "ObjectName": "Class'GameplayCueParameters'",
+          "ObjectPath": "/Script/GameplayAbilities"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "Parm | OutParm | ReturnParm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsThe_Isle_Character_Base",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'TICharacterBase'",
+          "ObjectPath": "/Script/TheIsle"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "CallFunc_Add_DoubleDouble_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_K2_SetRelativeRotation_SweepHitResult",
+        "Flags": "RF_Public",
+        "ElementSize": 264,
+        "PropertyFlags": "ContainsInstancedReference",
+        "Struct": {
+          "ObjectName": "Class'HitResult'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "CallFunc_Multiply_DoubleDouble_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_K2_GetActorRotation_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 24,
+        "Struct": {
+          "ObjectName": "Class'Rotator'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_MakeVector_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 24,
+        "Struct": {
+          "ObjectName": "Class'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakRotator_Roll",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakRotator_Pitch",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakRotator_Yaw",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_K2_SetRelativeLocation_SweepHitResult",
+        "Flags": "RF_Public",
+        "ElementSize": 264,
+        "PropertyFlags": "ContainsInstancedReference",
+        "Struct": {
+          "ObjectName": "Class'HitResult'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_MakeRotator_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 24,
+        "Struct": {
+          "ObjectName": "Class'Rotator'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_K2_SetActorRotation_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "CallFunc_Add_DoubleDouble_A_ImplicitCast",
+        "Flags": "RF_Public",
+        "ElementSize": 8
+      }
+    ],
+    "ScriptBytecode": [
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 0,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GC_ForcePouncerFixRotation_C:OnExecute'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_ForcePouncerFixRotation.1"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "K2Node_DynamicCast_AsThe_Isle_Character_Base",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyClass": {
+                "ObjectName": "Class'TICharacterBase'",
+                "ObjectPath": "/Script/TheIsle"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_DynamicCast",
+          "InterfaceClass": {
+            "ObjectName": "Class'TICharacterBase'",
+            "ObjectPath": "/Script/TheIsle"
+          },
+          "Target": {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'GC_ForcePouncerFixRotation_C:OnExecute'",
+                "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_ForcePouncerFixRotation.1"
+              },
+              "Property": {
+                "Type": "ObjectProperty",
+                "Name": "MyTarget",
+                "Flags": "RF_Public",
+                "ElementSize": 8,
+                "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+                "PropertyClass": {
+                  "ObjectName": "Class'Actor'",
+                  "ObjectPath": "/Script/Engine"
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 36,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GC_ForcePouncerFixRotation_C:OnExecute'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_ForcePouncerFixRotation.1"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "K2Node_DynamicCast_bSuccess",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_Cast",
+          "ConversionType": "CST_ObjectToBool",
+          "Target": {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'GC_ForcePouncerFixRotation_C:OnExecute'",
+                "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_ForcePouncerFixRotation.1"
+              },
+              "Property": {
+                "Type": "ObjectProperty",
+                "Name": "K2Node_DynamicCast_AsThe_Isle_Character_Base",
+                "Flags": "RF_Public",
+                "ElementSize": 8,
+                "PropertyClass": {
+                  "ObjectName": "Class'TICharacterBase'",
+                  "ObjectPath": "/Script/TheIsle"
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_JumpIfNot",
+        "StatementIndex": 65,
+        "CodeOffset": 733,
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_ForcePouncerFixRotation.OnExecute[733]",
+        "BooleanExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GC_ForcePouncerFixRotation_C:OnExecute'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_ForcePouncerFixRotation.1"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "K2Node_DynamicCast_bSuccess",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 79,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GC_ForcePouncerFixRotation_C:OnExecute'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_ForcePouncerFixRotation.1"
+            },
+            "Property": {
+              "Type": "StructProperty",
+              "Name": "CallFunc_K2_GetActorRotation_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 24,
+              "Struct": {
+                "ObjectName": "Class'Rotator'",
+                "ObjectPath": "/Script/CoreUObject"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_Context",
+          "ObjectExpression": {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'GC_ForcePouncerFixRotation_C:OnExecute'",
+                "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_ForcePouncerFixRotation.1"
+              },
+              "Property": {
+                "Type": "ObjectProperty",
+                "Name": "K2Node_DynamicCast_AsThe_Isle_Character_Base",
+                "Flags": "RF_Public",
+                "ElementSize": 8,
+                "PropertyClass": {
+                  "ObjectName": "Class'TICharacterBase'",
+                  "ObjectPath": "/Script/TheIsle"
+                }
+              }
+            }
+          },
+          "Offset": 10,
+          "RValuePointer": {
+            "Owner": {
+              "ObjectName": "Function'GC_ForcePouncerFixRotation_C:OnExecute'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_ForcePouncerFixRotation.1"
+            },
+            "Property": {
+              "Type": "StructProperty",
+              "Name": "CallFunc_K2_GetActorRotation_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 24,
+              "Struct": {
+                "ObjectName": "Class'Rotator'",
+                "ObjectPath": "/Script/CoreUObject"
+              }
+            }
+          },
+          "ContextExpression": {
+            "Inst": "EX_FinalFunction",
+            "Function": {
+              "ObjectName": "Class'Actor:K2_GetActorRotation'",
+              "ObjectPath": "/Script/Engine"
+            },
+            "Parameters": []
+          }
+        }
+      },
+      {
+        "Inst": "EX_CallMath",
+        "StatementIndex": 129,
+        "Function": {
+          "ObjectName": "Class'KismetMathLibrary:BreakRotator'",
+          "ObjectPath": "/Script/Engine"
+        },
+        "Parameters": [
+          {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'GC_ForcePouncerFixRotation_C:OnExecute'",
+                "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_ForcePouncerFixRotation.1"
+              },
+              "Property": {
+                "Type": "StructProperty",
+                "Name": "CallFunc_K2_GetActorRotation_ReturnValue",
+                "Flags": "RF_Public",
+                "ElementSize": 24,
+                "Struct": {
+                  "ObjectName": "Class'Rotator'",
+                  "ObjectPath": "/Script/CoreUObject"
+                }
+              }
+            }
+          },
+          {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'GC_ForcePouncerFixRotation_C:OnExecute'",
+                "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_ForcePouncerFixRotation.1"
+              },
+              "Property": {
+                "Type": "FloatProperty",
+                "Name": "CallFunc_BreakRotator_Roll",
+                "Flags": "RF_Public",
+                "ElementSize": 4
+              }
+            }
+          },
+          {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'GC_ForcePouncerFixRotation_C:OnExecute'",
+                "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_ForcePouncerFixRotation.1"
+              },
+              "Property": {
+                "Type": "FloatProperty",
+                "Name": "CallFunc_BreakRotator_Pitch",
+                "Flags": "RF_Public",
+                "ElementSize": 4
+              }
+            }
+          },
+          {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'GC_ForcePouncerFixRotation_C:OnExecute'",
+                "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_ForcePouncerFixRotation.1"
+              },
+              "Property": {
+                "Type": "FloatProperty",
+                "Name": "CallFunc_BreakRotator_Yaw",
+                "Flags": "RF_Public",
+                "ElementSize": 4
+              }
+            }
+          }
+        ]
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 175,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GC_ForcePouncerFixRotation_C:OnExecute'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_ForcePouncerFixRotation.1"
+            },
+            "Property": {
+              "Type": "StructProperty",
+              "Name": "CallFunc_MakeRotator_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 24,
+              "Struct": {
+                "ObjectName": "Class'Rotator'",
+                "ObjectPath": "/Script/CoreUObject"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Class'KismetMathLibrary:MakeRotator'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_FloatConst",
+              "Value": 0.0
+            },
+            {
+              "Inst": "EX_FloatConst",
+              "Value": 0.0
+            },
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'GC_ForcePouncerFixRotation_C:OnExecute'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_ForcePouncerFixRotation.1"
+                },
+                "Property": {
+                  "Type": "FloatProperty",
+                  "Name": "CallFunc_BreakRotator_Yaw",
+                  "Flags": "RF_Public",
+                  "ElementSize": 4
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_LetBool",
+        "StatementIndex": 222,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GC_ForcePouncerFixRotation_C:OnExecute'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_ForcePouncerFixRotation.1"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_K2_SetActorRotation_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_Context",
+          "ObjectExpression": {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'GC_ForcePouncerFixRotation_C:OnExecute'",
+                "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_ForcePouncerFixRotation.1"
+              },
+              "Property": {
+                "Type": "ObjectProperty",
+                "Name": "K2Node_DynamicCast_AsThe_Isle_Character_Base",
+                "Flags": "RF_Public",
+                "ElementSize": 8,
+                "PropertyClass": {
+                  "ObjectName": "Class'TICharacterBase'",
+                  "ObjectPath": "/Script/TheIsle"
+                }
+              }
+            }
+          },
+          "Offset": 20,
+          "RValuePointer": {
+            "Owner": {
+              "ObjectName": "Function'GC_ForcePouncerFixRotation_C:OnExecute'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_ForcePouncerFixRotation.1"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_K2_SetActorRotation_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          },
+          "ContextExpression": {
+            "Inst": "EX_FinalFunction",
+            "Function": {
+              "ObjectName": "Class'Actor:K2_SetActorRotation'",
+              "ObjectPath": "/Script/Engine"
+            },
+            "Parameters": [
+              {
+                "Inst": "EX_LocalVariable",
+                "Variable": {
+                  "Owner": {
+                    "ObjectName": "Function'GC_ForcePouncerFixRotation_C:OnExecute'",
+                    "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_ForcePouncerFixRotation.1"
+                  },
+                  "Property": {
+                    "Type": "StructProperty",
+                    "Name": "CallFunc_MakeRotator_ReturnValue",
+                    "Flags": "RF_Public",
+                    "ElementSize": 24,
+                    "Struct": {
+                      "ObjectName": "Class'Rotator'",
+                      "ObjectPath": "/Script/CoreUObject"
+                    }
+                  }
+                }
+              },
+              {
+                "Inst": "EX_True"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "Inst": "EX_Context",
+        "StatementIndex": 274,
+        "ObjectExpression": {
+          "Inst": "EX_Context",
+          "ObjectExpression": {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'GC_ForcePouncerFixRotation_C:OnExecute'",
+                "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_ForcePouncerFixRotation.1"
+              },
+              "Property": {
+                "Type": "ObjectProperty",
+                "Name": "K2Node_DynamicCast_AsThe_Isle_Character_Base",
+                "Flags": "RF_Public",
+                "ElementSize": 8,
+                "PropertyClass": {
+                  "ObjectName": "Class'TICharacterBase'",
+                  "ObjectPath": "/Script/TheIsle"
+                }
+              }
+            }
+          },
+          "Offset": 9,
+          "RValuePointer": {
+            "Path": [
+              "Mesh"
+            ],
+            "ResolvedOwner": {
+              "ObjectName": "Class'Character'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          "ContextExpression": {
+            "Inst": "EX_InstanceVariable",
+            "Variable": {
+              "Path": [
+                "Mesh"
+              ],
+              "ResolvedOwner": {
+                "ObjectName": "Class'Character'",
+                "ObjectPath": "/Script/Engine"
+              }
+            }
+          }
+        },
+        "Offset": 46,
+        "RValuePointer": null,
+        "ContextExpression": {
+          "Inst": "EX_FinalFunction",
+          "Function": {
+            "ObjectName": "Class'SceneComponent:K2_SetRelativeRotation'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_RotationConst",
+              "Value": {
+                "Pitch": 0.0,
+                "Yaw": -90.0,
+                "Roll": 0.0
+              }
+            },
+            {
+              "Inst": "EX_False"
+            },
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'GC_ForcePouncerFixRotation_C:OnExecute'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_ForcePouncerFixRotation.1"
+                },
+                "Property": {
+                  "Type": "StructProperty",
+                  "Name": "CallFunc_K2_SetRelativeRotation_SweepHitResult",
+                  "Flags": "RF_Public",
+                  "ElementSize": 264,
+                  "PropertyFlags": "ContainsInstancedReference",
+                  "Struct": {
+                    "ObjectName": "Class'HitResult'",
+                    "ObjectPath": "/Script/Engine"
+                  }
+                }
+              }
+            },
+            {
+              "Inst": "EX_False"
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 364,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GC_ForcePouncerFixRotation_C:OnExecute'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_ForcePouncerFixRotation.1"
+            },
+            "Property": {
+              "Type": "DoubleProperty",
+              "Name": "CallFunc_Add_DoubleDouble_A_ImplicitCast",
+              "Flags": "RF_Public",
+              "ElementSize": 8
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_Cast",
+          "ConversionType": "CST_FloatToDouble",
+          "Target": {
+            "Inst": "EX_Context",
+            "ObjectExpression": {
+              "Inst": "EX_Context",
+              "ObjectExpression": {
+                "Inst": "EX_LocalVariable",
+                "Variable": {
+                  "Owner": {
+                    "ObjectName": "Function'GC_ForcePouncerFixRotation_C:OnExecute'",
+                    "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_ForcePouncerFixRotation.1"
+                  },
+                  "Property": {
+                    "Type": "ObjectProperty",
+                    "Name": "K2Node_DynamicCast_AsThe_Isle_Character_Base",
+                    "Flags": "RF_Public",
+                    "ElementSize": 8,
+                    "PropertyClass": {
+                      "ObjectName": "Class'TICharacterBase'",
+                      "ObjectPath": "/Script/TheIsle"
+                    }
+                  }
+                }
+              },
+              "Offset": 9,
+              "RValuePointer": {
+                "Path": [
+                  "CapsuleComponent"
+                ],
+                "ResolvedOwner": {
+                  "ObjectName": "Class'Character'",
+                  "ObjectPath": "/Script/Engine"
+                }
+              },
+              "ContextExpression": {
+                "Inst": "EX_InstanceVariable",
+                "Variable": {
+                  "Path": [
+                    "CapsuleComponent"
+                  ],
+                  "ResolvedOwner": {
+                    "ObjectName": "Class'Character'",
+                    "ObjectPath": "/Script/Engine"
+                  }
+                }
+              }
+            },
+            "Offset": 9,
+            "RValuePointer": {
+              "Path": [
+                "CapsuleHalfHeight"
+              ],
+              "ResolvedOwner": {
+                "ObjectName": "Class'CapsuleComponent'",
+                "ObjectPath": "/Script/Engine"
+              }
+            },
+            "ContextExpression": {
+              "Inst": "EX_InstanceVariable",
+              "Variable": {
+                "Path": [
+                  "CapsuleHalfHeight"
+                ],
+                "ResolvedOwner": {
+                  "ObjectName": "Class'CapsuleComponent'",
+                  "ObjectPath": "/Script/Engine"
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 437,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GC_ForcePouncerFixRotation_C:OnExecute'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_ForcePouncerFixRotation.1"
+            },
+            "Property": {
+              "Type": "DoubleProperty",
+              "Name": "CallFunc_Add_DoubleDouble_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 8
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Class'KismetMathLibrary:Add_DoubleDouble'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'GC_ForcePouncerFixRotation_C:OnExecute'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_ForcePouncerFixRotation.1"
+                },
+                "Property": {
+                  "Type": "DoubleProperty",
+                  "Name": "CallFunc_Add_DoubleDouble_A_ImplicitCast",
+                  "Flags": "RF_Public",
+                  "ElementSize": 8
+                }
+              }
+            },
+            {
+              "Inst": "EX_DoubleConst",
+              "Value": 1.5
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 483,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GC_ForcePouncerFixRotation_C:OnExecute'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_ForcePouncerFixRotation.1"
+            },
+            "Property": {
+              "Type": "DoubleProperty",
+              "Name": "CallFunc_Multiply_DoubleDouble_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 8
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Class'KismetMathLibrary:Multiply_DoubleDouble'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'GC_ForcePouncerFixRotation_C:OnExecute'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_ForcePouncerFixRotation.1"
+                },
+                "Property": {
+                  "Type": "DoubleProperty",
+                  "Name": "CallFunc_Add_DoubleDouble_ReturnValue",
+                  "Flags": "RF_Public",
+                  "ElementSize": 8
+                }
+              }
+            },
+            {
+              "Inst": "EX_DoubleConst",
+              "Value": -1.0
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 529,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GC_ForcePouncerFixRotation_C:OnExecute'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_ForcePouncerFixRotation.1"
+            },
+            "Property": {
+              "Type": "StructProperty",
+              "Name": "CallFunc_MakeVector_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 24,
+              "Struct": {
+                "ObjectName": "Class'Vector'",
+                "ObjectPath": "/Script/CoreUObject"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Class'KismetMathLibrary:MakeVector'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_DoubleConst",
+              "Value": 0.0
+            },
+            {
+              "Inst": "EX_DoubleConst",
+              "Value": 0.0
+            },
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'GC_ForcePouncerFixRotation_C:OnExecute'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_ForcePouncerFixRotation.1"
+                },
+                "Property": {
+                  "Type": "DoubleProperty",
+                  "Name": "CallFunc_Multiply_DoubleDouble_ReturnValue",
+                  "Flags": "RF_Public",
+                  "ElementSize": 8
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_Context",
+        "StatementIndex": 584,
+        "ObjectExpression": {
+          "Inst": "EX_Context",
+          "ObjectExpression": {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'GC_ForcePouncerFixRotation_C:OnExecute'",
+                "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_ForcePouncerFixRotation.1"
+              },
+              "Property": {
+                "Type": "ObjectProperty",
+                "Name": "K2Node_DynamicCast_AsThe_Isle_Character_Base",
+                "Flags": "RF_Public",
+                "ElementSize": 8,
+                "PropertyClass": {
+                  "ObjectName": "Class'TICharacterBase'",
+                  "ObjectPath": "/Script/TheIsle"
+                }
+              }
+            }
+          },
+          "Offset": 9,
+          "RValuePointer": {
+            "Path": [
+              "Mesh"
+            ],
+            "ResolvedOwner": {
+              "ObjectName": "Class'Character'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          "ContextExpression": {
+            "Inst": "EX_InstanceVariable",
+            "Variable": {
+              "Path": [
+                "Mesh"
+              ],
+              "ResolvedOwner": {
+                "ObjectName": "Class'Character'",
+                "ObjectPath": "/Script/Engine"
+              }
+            }
+          }
+        },
+        "Offset": 30,
+        "RValuePointer": null,
+        "ContextExpression": {
+          "Inst": "EX_FinalFunction",
+          "Function": {
+            "ObjectName": "Class'SceneComponent:K2_SetRelativeLocation'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'GC_ForcePouncerFixRotation_C:OnExecute'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_ForcePouncerFixRotation.1"
+                },
+                "Property": {
+                  "Type": "StructProperty",
+                  "Name": "CallFunc_MakeVector_ReturnValue",
+                  "Flags": "RF_Public",
+                  "ElementSize": 24,
+                  "Struct": {
+                    "ObjectName": "Class'Vector'",
+                    "ObjectPath": "/Script/CoreUObject"
+                  }
+                }
+              }
+            },
+            {
+              "Inst": "EX_False"
+            },
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'GC_ForcePouncerFixRotation_C:OnExecute'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_ForcePouncerFixRotation.1"
+                },
+                "Property": {
+                  "Type": "StructProperty",
+                  "Name": "CallFunc_K2_SetRelativeLocation_SweepHitResult",
+                  "Flags": "RF_Public",
+                  "ElementSize": 264,
+                  "PropertyFlags": "ContainsInstancedReference",
+                  "Struct": {
+                    "ObjectName": "Class'HitResult'",
+                    "ObjectPath": "/Script/Engine"
+                  }
+                }
+              }
+            },
+            {
+              "Inst": "EX_True"
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_Context",
+        "StatementIndex": 658,
+        "ObjectExpression": {
+          "Inst": "EX_Context",
+          "ObjectExpression": {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'GC_ForcePouncerFixRotation_C:OnExecute'",
+                "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_ForcePouncerFixRotation.1"
+              },
+              "Property": {
+                "Type": "ObjectProperty",
+                "Name": "K2Node_DynamicCast_AsThe_Isle_Character_Base",
+                "Flags": "RF_Public",
+                "ElementSize": 8,
+                "PropertyClass": {
+                  "ObjectName": "Class'TICharacterBase'",
+                  "ObjectPath": "/Script/TheIsle"
+                }
+              }
+            }
+          },
+          "Offset": 9,
+          "RValuePointer": {
+            "Path": [
+              "Mesh"
+            ],
+            "ResolvedOwner": {
+              "ObjectName": "Class'Character'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          "ContextExpression": {
+            "Inst": "EX_InstanceVariable",
+            "Variable": {
+              "Path": [
+                "Mesh"
+              ],
+              "ResolvedOwner": {
+                "ObjectName": "Class'Character'",
+                "ObjectPath": "/Script/Engine"
+              }
+            }
+          }
+        },
+        "Offset": 15,
+        "RValuePointer": null,
+        "ContextExpression": {
+          "Inst": "EX_VirtualFunction",
+          "Function": "SetSimulatePhysics",
+          "Parameters": [
+            {
+              "Inst": "EX_False"
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_LetBool",
+        "StatementIndex": 717,
+        "Variable": {
+          "Inst": "EX_LocalOutVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GC_ForcePouncerFixRotation_C:OnExecute'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_ForcePouncerFixRotation.1"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "PropertyFlags": "Parm | OutParm | ReturnParm",
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_True"
+        }
+      },
+      {
+        "Inst": "EX_Jump",
+        "StatementIndex": 728,
+        "CodeOffset": 744,
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_ForcePouncerFixRotation.OnExecute[744]"
+      },
+      {
+        "Inst": "EX_LetBool",
+        "StatementIndex": 733,
+        "Variable": {
+          "Inst": "EX_LocalOutVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GC_ForcePouncerFixRotation_C:OnExecute'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_ForcePouncerFixRotation.1"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "PropertyFlags": "Parm | OutParm | ReturnParm",
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_False"
+        }
+      },
+      {
+        "Inst": "EX_Return",
+        "StatementIndex": 744,
+        "Expression": {
+          "Inst": "EX_LocalOutVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GC_ForcePouncerFixRotation_C:OnExecute'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_ForcePouncerFixRotation.1"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "PropertyFlags": "Parm | OutParm | ReturnParm",
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_EndOfScript",
+        "StatementIndex": 754
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_HasOutParms | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "GC_ForcePouncerFixRotation_C",
+    "Name": "Default__GC_ForcePouncerFixRotation_C",
+    "Class": "BlueprintGeneratedClass'/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_ForcePouncerFixRotation.GC_ForcePouncerFixRotation_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "GameplayCueTag": {
+        "TagName": "GameplayCue.Active.FixRotation"
+      },
+      "GameplayCueName": "GameplayCue.Active.FixRotation"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "GC_ForcePouncerFixRotation_C",
+    "Class": "UScriptClass'SceneComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'GC_ForcePouncerFixRotation_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_ForcePouncerFixRotation.3"
+      },
+      "CookedComponentInstancingData": {
+        "bHasValidCookedData": true
+      },
+      "VariableGUID": "C796AD11-47408E2C-AA8A7489-75DA59C0",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "GC_ForcePouncerFixRotation_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'GC_ForcePouncerFixRotation_C:SimpleConstructionScript_0.SCS_Node_0'",
+          "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_ForcePouncerFixRotation.4"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'GC_ForcePouncerFixRotation_C:SimpleConstructionScript_0.SCS_Node_0'",
+          "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_ForcePouncerFixRotation.4"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'GC_ForcePouncerFixRotation_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Cues/GC_ForcePouncerFixRotation.4"
+      }
+    }
+  }
+]

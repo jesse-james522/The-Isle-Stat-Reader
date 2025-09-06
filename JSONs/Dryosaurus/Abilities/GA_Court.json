@@ -1,0 +1,70 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GA_Court_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'TIGameplayAbilityCourt'",
+      "ObjectPath": "/Script/TheIsle"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GA_Court_C'Default__GA_Court_C'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/GA_Court.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "GA_Court_C",
+    "Name": "Default__GA_Court_C",
+    "Class": "BlueprintGeneratedClass'/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/GA_Court.GA_Court_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BlockAbilitiesWithTag": [
+        "Ability.Skill.Nest",
+        "Ability.Skill.PrimaryAttack",
+        "Ability.Skill.Scent",
+        "Ability.Skill.Rest",
+        "Ability.Skill.SecondaryAttack",
+        "Ability.Skill.Vocalize",
+        "Ability.Skill.Use",
+        "Ability.Skill.Wallow",
+        "Ability.Skill.VoiceThreaten",
+        "Ability.Skill.VoiceHelp",
+        "Ability.Skill.VoiceFriendly",
+        "Ability.Skill.VoiceBroadcast",
+        "Ability.Skill.PickUp"
+      ],
+      "ActivationOwnedTags": [
+        "Status.DisableMovement",
+        "Status.DisableJump"
+      ],
+      "ActivationBlockedTags": [
+        "Ability.Skill.Nest",
+        "Ability.Skill.PrimaryAttack",
+        "Ability.Skill.SecondaryAttack",
+        "Ability.Skill.Scent",
+        "Ability.Skill.Wallow",
+        "Ability.Skill.VoiceThreaten",
+        "Ability.Skill.VoiceHelp",
+        "Ability.Skill.VoiceFriendly",
+        "Ability.Skill.VoiceBroadcast",
+        "Ability.Skill.Vocalize",
+        "Ability.Skill.Use",
+        "Ability.Skill.Rest",
+        "Ability.Skill.PickUp",
+        "State.BlockAbilities",
+        "Ability.Skill.Thrash"
+      ]
+    }
+  }
+]

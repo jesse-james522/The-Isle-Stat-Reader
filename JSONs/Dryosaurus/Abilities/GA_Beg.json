@@ -1,0 +1,73 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GA_Beg_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'TIGameplayAbilityBeg'",
+      "ObjectPath": "/Script/TheIsle"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GA_Beg_C'Default__GA_Beg_C'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/GA_Beg.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "GA_Beg_C",
+    "Name": "Default__GA_Beg_C",
+    "Class": "BlueprintGeneratedClass'/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/GA_Beg.GA_Beg_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AbilityTags": [
+        "Ability.Skill.Beg"
+      ],
+      "CooldownGameplayEffectClass": {
+        "ObjectName": "BlueprintGeneratedClass'GE_EatDrinkCooldown_C'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Effects/GE_EatDrinkCooldown.0"
+      },
+      "BlockAbilitiesWithTag": [
+        "Ability.Skill"
+      ],
+      "ActivationOwnedTags": [
+        "Ability.Skill.Beg",
+        "Status.DisableMovement",
+        "Status.DisableJump"
+      ],
+      "ActivationBlockedTags": [
+        "State.Dead",
+        "Ability.Skill.Rest",
+        "Ability.Skill.PrimaryAttack",
+        "Ability.Skill.SecondaryAttack",
+        "Ability.Skill.Wallow",
+        "Ability.Skill.VoiceThreaten",
+        "Ability.Skill.VoiceHelp",
+        "Ability.Skill.VoiceFriendly",
+        "Ability.Skill.VoiceBroadcast",
+        "Ability.Skill.Vocalize",
+        "State.PickedUp",
+        "State.Pounced",
+        "State.PouncedLarge",
+        "State.UIBlockAbilities",
+        "Status.Launching",
+        "State.Lunged",
+        "Ability.Skill.PickingUp",
+        "Ability.Skill.Use",
+        "State.BlockAbilities"
+      ],
+      "TargetBlockedTags": [
+        "State.Dead"
+      ]
+    }
+  }
+]

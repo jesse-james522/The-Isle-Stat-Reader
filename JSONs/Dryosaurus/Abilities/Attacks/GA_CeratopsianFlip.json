@@ -1,0 +1,204 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GA_CeratopsianFlip_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'GA_CeratopsianFlip_C:ExecuteUbergraph_GA_CeratopsianFlip'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Attacks/GA_CeratopsianFlip.1"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'TIGameplayAbilityCeratopsianFlip'",
+      "ObjectPath": "/Script/TheIsle"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'GA_CeratopsianFlip_C:K2_ActivateAbility'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Attacks/GA_CeratopsianFlip.2"
+      },
+      {
+        "ObjectName": "Function'GA_CeratopsianFlip_C:ExecuteUbergraph_GA_CeratopsianFlip'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Attacks/GA_CeratopsianFlip.1"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_GA_CeratopsianFlip": {
+        "ObjectName": "Function'GA_CeratopsianFlip_C:ExecuteUbergraph_GA_CeratopsianFlip'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Attacks/GA_CeratopsianFlip.1"
+      },
+      "K2_ActivateAbility": {
+        "ObjectName": "Function'GA_CeratopsianFlip_C:K2_ActivateAbility'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Attacks/GA_CeratopsianFlip.2"
+      }
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GA_CeratopsianFlip_C'Default__GA_CeratopsianFlip_C'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Attacks/GA_CeratopsianFlip.3"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_GA_CeratopsianFlip",
+    "Outer": "GA_CeratopsianFlip_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "ScriptBytecode": [
+      {
+        "Inst": "EX_ComputedJump",
+        "StatementIndex": 0,
+        "OffsetExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_CeratopsianFlip_C:ExecuteUbergraph_GA_CeratopsianFlip'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Attacks/GA_CeratopsianFlip.1"
+            },
+            "Property": {
+              "Type": "IntProperty",
+              "Name": "EntryPoint",
+              "Flags": "RF_Public",
+              "ElementSize": 4,
+              "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_Return",
+        "StatementIndex": 10,
+        "Expression": {
+          "Inst": "EX_Nothing"
+        }
+      },
+      {
+        "Inst": "EX_EndOfScript",
+        "StatementIndex": 12
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "K2_ActivateAbility",
+    "Outer": "GA_CeratopsianFlip_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'GameplayAbility:K2_ActivateAbility'",
+      "ObjectPath": "/Script/GameplayAbilities"
+    },
+    "ScriptBytecode": [
+      {
+        "Inst": "EX_LocalFinalFunction",
+        "StatementIndex": 0,
+        "Function": {
+          "ObjectName": "Function'GA_CeratopsianFlip_C:ExecuteUbergraph_GA_CeratopsianFlip'",
+          "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Attacks/GA_CeratopsianFlip.1"
+        },
+        "Parameters": [
+          {
+            "Inst": "EX_IntConst",
+            "Value": 10
+          }
+        ],
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Attacks/GA_CeratopsianFlip.ExecuteUbergraph_GA_CeratopsianFlip[10]"
+      },
+      {
+        "Inst": "EX_Return",
+        "StatementIndex": 15,
+        "Expression": {
+          "Inst": "EX_Nothing"
+        }
+      },
+      {
+        "Inst": "EX_EndOfScript",
+        "StatementIndex": 17
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "GA_CeratopsianFlip_C",
+    "Name": "Default__GA_CeratopsianFlip_C",
+    "Class": "BlueprintGeneratedClass'/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Attacks/GA_CeratopsianFlip.GA_CeratopsianFlip_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "UberGraphFrame": {},
+      "AbilityState": "EAbilityState::AS_PrimaryAttack",
+      "AllowedMovementModes": [
+        "MOVE_Walking",
+        "MOVE_Custom"
+      ],
+      "AllowedAbilityStates": [
+        "AS_None",
+        "AS_HoldingObject",
+        "AS_Mouth",
+        "AS_SidestepL",
+        "AS_SidestepR"
+      ],
+      "PlayJuvAnimGameplayEffect": {
+        "ObjectName": "BlueprintGeneratedClass'GE_PlayJuvAnim_C'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Effects/GE_PlayJuvAnim.0"
+      },
+      "MultipliedDamageAttribute": {
+        "AttributeName": "DamageHolder",
+        "Attribute": {
+          "Path": [
+            "DamageHolder"
+          ],
+          "ResolvedOwner": {
+            "ObjectName": "Class'TIAttributeSetBase'",
+            "ObjectPath": "/Script/TheIsle"
+          }
+        },
+        "AttributeOwner": {
+          "ObjectName": "Class'TIAttributeSetBase'",
+          "ObjectPath": "/Script/TheIsle"
+        }
+      },
+      "bEndOnBlendOut": true,
+      "EndDelay": 0.0,
+      "bShouldApplyGoreMask2": false,
+      "BlockPickup": false,
+      "bRamOnLock": false,
+      "BalanceAttributeRow": "Ability.Skill.Bite_117440767",
+      "ReplicationPolicy": "EGameplayAbilityReplicationPolicy::7",
+      "CooldownGameplayEffectClass": null
+    }
+  }
+]

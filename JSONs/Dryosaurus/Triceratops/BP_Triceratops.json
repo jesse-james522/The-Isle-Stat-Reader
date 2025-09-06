@@ -1,0 +1,3899 @@
+[
+  {
+    "Type": "AudioComponent",
+    "Name": "HornsScrape_GEN_VARIABLE",
+    "Outer": "BP_Triceratops_C",
+    "Class": "UScriptClass'AudioComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Sound": {
+        "ObjectName": "MetaSoundSource'MS_Dino_Foley_Horns_Spar_Scrapes_Loop_Med'",
+        "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/_Shared/Sound/Metasounds/Horns/MS_Dino_Foley_Horns_Spar_Scrapes_Loop_Med.0"
+      },
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 0.0,
+        "Z": 100.0
+      },
+      "bAutoActivate": false
+    }
+  },
+  {
+    "Type": "AudioComponent",
+    "Name": "HeartbeatAudio",
+    "Outer": "Default__BP_Triceratops_C",
+    "Class": "UScriptClass'AudioComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SkeletalMeshComponentBudgeted'Default__BP_Triceratops_C:CharacterMesh0'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/BP_Triceratops.23"
+      }
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_Triceratops_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "bHasCookedComponentInstancingData": true,
+      "ComponentClassOverrides": [
+        {
+          "ComponentName": "RibsMeatMesh",
+          "ComponentClass": {
+            "ObjectName": "Class'SkeletalMeshComponentBudgeted'",
+            "ObjectPath": "/Script/AnimationBudgetAllocator"
+          }
+        },
+        {
+          "ComponentName": "SkeletonMesh",
+          "ComponentClass": {
+            "ObjectName": "Class'SkeletalMeshComponentBudgeted'",
+            "ObjectPath": "/Script/AnimationBudgetAllocator"
+          }
+        }
+      ],
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_Triceratops_C:SimpleConstructionScript_0'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/BP_Triceratops.22"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'BP_Triceratops_C:ExecuteUbergraph_BP_Triceratops'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/BP_Triceratops.9"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'TITriceratops'",
+      "ObjectPath": "/Script/TheIsle"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BP_Triceratops_C:ReceiveTick'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/BP_Triceratops.10"
+      },
+      {
+        "ObjectName": "Function'BP_Triceratops_C:ExecuteUbergraph_BP_Triceratops'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/BP_Triceratops.9"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "HornsScrape",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'AudioComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BP_FluidImplementation",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_FluidImplementation_C'",
+          "ObjectPath": "/Game/FluidInteractionTool/Blueprints/BP_FluidImplementation.0"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "IsPlayingLockedSounds",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 1,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_BP_Triceratops": {
+        "ObjectName": "Function'BP_Triceratops_C:ExecuteUbergraph_BP_Triceratops'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/BP_Triceratops.9"
+      },
+      "ReceiveTick": {
+        "ObjectName": "Function'BP_Triceratops_C:ReceiveTick'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/BP_Triceratops.10"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_NoExport | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Game",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_Triceratops_C'Default__BP_Triceratops_C'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/BP_Triceratops.6"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "InteractableDetector",
+    "Outer": "Default__BP_Triceratops_C",
+    "Class": "UScriptClass'BoxComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BoxExtent": {
+        "X": 125.0,
+        "Y": 210.0,
+        "Z": 280.0
+      },
+      "bUseSystemDefaultObstacleAreaClass": false,
+      "AreaClassOverride": {
+        "ObjectName": "Class'NavArea_Obstacle'",
+        "ObjectPath": "/Script/NavigationSystem"
+      },
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_Triceratops_C:CollisionCylinder'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/BP_Triceratops.8"
+      },
+      "RelativeLocation": {
+        "X": 210.0,
+        "Y": 6.661338E-15,
+        "Z": 109.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.0,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "PouncebleArea",
+    "Outer": "Default__BP_Triceratops_C",
+    "Class": "UScriptClass'BoxComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BoxExtent": {
+        "X": 215.0,
+        "Y": 70.0,
+        "Z": 110.0
+      },
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_Triceratops_C:CollisionCylinder'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/BP_Triceratops.8"
+      },
+      "RelativeLocation": {
+        "X": -10.0,
+        "Y": 0.0,
+        "Z": 50.0
+      }
+    }
+  },
+  {
+    "Type": "BP_FluidImplementation_C",
+    "Name": "BP_FluidImplementation_GEN_VARIABLE",
+    "Outer": "BP_Triceratops_C",
+    "Class": "BlueprintGeneratedClass'/Game/FluidInteractionTool/Blueprints/BP_FluidImplementation.BP_FluidImplementation_C'",
+    "Template": {
+      "ObjectName": "BP_FluidImplementation_C'Default__BP_FluidImplementation_C'",
+      "ObjectPath": "/Game/FluidInteractionTool/Blueprints/BP_FluidImplementation.1"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "TraceOffsetUp": 125.0,
+      "TraceOffsetDown": -50.0,
+      "UsePerBoneTrace": true,
+      "FluidDrawSize": 0.0008,
+      "FluidMaxDrawIntensity": 0.004,
+      "VelocityDivideIntensity": 1.0,
+      "VelocityBegin": 10.0,
+      "MaxEffector": 3.0
+    }
+  },
+  {
+    "Type": "BP_Triceratops_C",
+    "Name": "Default__BP_Triceratops_C",
+    "Class": "BlueprintGeneratedClass'/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/BP_Triceratops.BP_Triceratops_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "UberGraphFrame": {},
+      "ImpaleLocation": {
+        "ObjectName": "SceneComponent'Default__BP_Triceratops_C:ImpaleLocation'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/BP_Triceratops.18"
+      },
+      "DinosaurAssets": {
+        "ObjectName": "TIDinosaurAssets'DA_DinosaurAssets'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/DA_DinosaurAssets.0"
+      },
+      "VisualGrowthCurve": {
+        "ObjectName": "CurveFloat'Curve_TriceratopsVisualGrowth'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/Curve_TriceratopsVisualGrowth.0"
+      },
+      "DinosaurMovement": {
+        "ObjectName": "TIDinosaurMovementComponent'Default__BP_Triceratops_C:CharMoveComp'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/BP_Triceratops.34"
+      },
+      "HorizontalCameraYawOffset": {
+        "ObjectName": "CurveVector'CV_TriceratopsHorizontalCameraYawOffset'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/Camera/CV_TriceratopsHorizontalCameraYawOffset.0"
+      },
+      "DownwardsCameraYawOffset": {
+        "ObjectName": "CurveVector'CV_TriceratopsDownwardsCameraYawOffset'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/Camera/CV_TriceratopsDownwardsCameraYawOffset.0"
+      },
+      "UpwardsCameraYawOffset": {
+        "ObjectName": "CurveVector'CV_TriceratopsUpwardsCameraYawOffset'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/Camera/CV_TriceratopsUpwardsCameraYawOffset.0"
+      },
+      "Up45CameraYawOffset": {
+        "ObjectName": "CurveVector'CV_TriceratopsUp45CameraYawOffset'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/Camera/CV_TriceratopsUp45CameraYawOffset.0"
+      },
+      "HorizontalCameraYawOffsetZoomed": {
+        "ObjectName": "CurveVector'CV_TriceratopsHorizontalCameraYawOffset'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/Camera/CV_TriceratopsHorizontalCameraYawOffset.0"
+      },
+      "DownwardsCameraYawOffsetZoomed": {
+        "ObjectName": "CurveVector'CV_TriceratopsDownwardsCameraYawOffset'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/Camera/CV_TriceratopsDownwardsCameraYawOffset.0"
+      },
+      "UpwardsCameraYawOffsetZoomed": {
+        "ObjectName": "CurveVector'CV_TriceratopsUpwardsCameraYawOffset'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/Camera/CV_TriceratopsUpwardsCameraYawOffset.0"
+      },
+      "Up45CameraYawOffsetZoomed": {
+        "ObjectName": "CurveVector'CV_TriceratopsUp45CameraYawOffset'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/Camera/CV_TriceratopsUp45CameraYawOffset.0"
+      },
+      "AttributeCurveDataTable": {
+        "ObjectName": "DataTable'DT_TriceratopsAttributeCurves'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/Attributes/DT_TriceratopsAttributeCurves.0"
+      },
+      "RestCurveData": {
+        "ObjectName": "CurveLinearColor'ATT_Triceratops_RestCurve'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/Attributes/ATT_Triceratops_RestCurve.0"
+      },
+      "AttributeBalanceDataTable": {
+        "ObjectName": "DataTable'DT_TriceratopsBalanceAttributes'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/DT_TriceratopsBalanceAttributes.0"
+      },
+      "VocalsDataTable": {
+        "ObjectName": "DataTable'DT_TriceratopsVocals'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/Vocals/DT_TriceratopsVocals.0"
+      },
+      "DeathPhysicsAsset": {
+        "AssetPathName": "/Game/TheIsle/Characters/Dinosaurs/Triceratops/Mesh/PHYS_Trike_Adult.PHYS_Trike_Adult",
+        "SubPathString": ""
+      },
+      "SkeletonPhysicsAsset": {
+        "AssetPathName": "/Game/TheIsle/Characters/Dinosaurs/Triceratops/Mesh/SK_Triceratops_Bones_PhysicsAsset.SK_Triceratops_Bones_PhysicsAsset",
+        "SubPathString": ""
+      },
+      "CharacterAssets": {
+        "ObjectName": "TICharacterAssets'DA_CharacterAssets'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/DA_CharacterAssets.0"
+      },
+      "AbilitySet": {
+        "ObjectName": "TIGameplayAbilitySet'DA_TriceratopsGameplayAbilities'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/DA_TriceratopsGameplayAbilities.0"
+      },
+      "Montages": {
+        "ObjectName": "TIDinosaurMontages'DA_TriceratopsMontages'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/DA_TriceratopsMontages.0"
+      },
+      "SmallVocalsSubmix": {
+        "ObjectName": "SoundSubmix'Submix_SmallRoar_Distant'",
+        "ObjectPath": "/Game/TheIsle/Sound/_Utilities/SubMixes/Submix_SmallRoar_Distant.0"
+      },
+      "MediumVocalsSubmix": {
+        "ObjectName": "SoundSubmix'Submix_MediumRoars_Distant'",
+        "ObjectPath": "/Game/TheIsle/Sound/_Utilities/SubMixes/Submix_MediumRoars_Distant.0"
+      },
+      "LargeVocalsSubmix": {
+        "ObjectName": "SoundSubmix'Submix_LargeRoars'",
+        "ObjectPath": "/Game/TheIsle/Sound/_Utilities/SubMixes/Submix_LargeRoars.0"
+      },
+      "AntiCheatComponent": {
+        "ObjectName": "TIAntiCheatComponent'Default__BP_Triceratops_C:AntiCheatComponent'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/BP_Triceratops.32"
+      },
+      "AbilitySystemComponent": {
+        "ObjectName": "TIAbilitySystemComponent'Default__BP_Triceratops_C:AbilitySystemComponent'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/BP_Triceratops.31"
+      }
+    }
+  },
+  {
+    "Type": "CameraComponent",
+    "Name": "Main Camera",
+    "Outer": "Default__BP_Triceratops_C",
+    "Class": "UScriptClass'CameraComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "OrthoWidth": 512.0,
+      "bAutoCalculateOrthoPlanes": false,
+      "OrthoNearClipPlane": 0.0,
+      "PostProcessSettings": {
+        "bOverride_ColorSaturationShadows": true,
+        "bOverride_AutoExposureBiasCurve": true,
+        "ColorSaturationShadows": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0,
+          "W": 1.0
+        },
+        "AutoExposureBiasCurve": {
+          "ObjectName": "CurveFloat'NV_Exposure_2'",
+          "ObjectPath": "/Game/TheIsle/MaterialLibrary/Utility/PostProcess/NightVision/NV_Exposure_2.0"
+        },
+        "WeightedBlendables": {
+          "Array": [
+            {
+              "Weight": 1.0,
+              "Object": {
+                "ObjectName": "Material'M_NightVision_PP'",
+                "ObjectPath": "/Game/TheIsle/MaterialLibrary/Utility/PostProcess/M_NightVision_PP.0"
+              }
+            }
+          ]
+        }
+      },
+      "AttachParent": {
+        "ObjectName": "SpringArmComponent'Default__BP_Triceratops_C:Spring Arm'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/BP_Triceratops.28"
+      }
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "CollisionCylinder",
+    "Outer": "Default__BP_Triceratops_C",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CapsuleHalfHeight": 170.0,
+      "CapsuleRadius": 100.0,
+      "bUseSystemDefaultObstacleAreaClass": false,
+      "AreaClassOverride": {
+        "ObjectName": "Class'NavArea_Obstacle'",
+        "ObjectPath": "/Script/NavigationSystem"
+      }
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BP_Triceratops",
+    "Outer": "BP_Triceratops_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_HasAuthority_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Not_PreBool_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "CallFunc_VSizeXY_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8
+      },
+      {
+        "Type": "InterfaceProperty",
+        "Name": "CallFunc_SetTriggerParameter_self_CastInput",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "InterfaceClass": {
+          "ObjectName": "Class'AudioParameterControllerInterface'",
+          "ObjectPath": "/Script/AudioExtensions"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsCeratopsian_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "K2Node_Event_DeltaSeconds",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_GetVisualGrowthFromJuvenileToAdult_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "InterfaceProperty",
+        "Name": "CallFunc_SetFloatParameter_self_CastInput",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "InterfaceClass": {
+          "ObjectName": "Class'AudioParameterControllerInterface'",
+          "ObjectPath": "/Script/AudioExtensions"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Vector_IsZero_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetDinosaurMovement_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'TIDinosaurMovementComponent'",
+          "ObjectPath": "/Script/TheIsle"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Not_PreBool_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsSparPushing_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BooleanAND_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Not_PreBool_ReturnValue_2",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsSparPushing_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Not_PreBool_ReturnValue_3",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_GetActorScale3D_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 24,
+        "Struct": {
+          "ObjectName": "Class'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BooleanAND_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "CallFunc_BreakVector_X",
+        "Flags": "RF_Public",
+        "ElementSize": 8
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "CallFunc_BreakVector_Y",
+        "Flags": "RF_Public",
+        "ElementSize": 8
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "CallFunc_BreakVector_Z",
+        "Flags": "RF_Public",
+        "ElementSize": 8
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BooleanAND_ReturnValue_2",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "CallFunc_Multiply_DoubleDouble_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "CallFunc_Divide_DoubleDouble_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "CallFunc_FMin_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8
+      },
+      {
+        "Type": "InterfaceProperty",
+        "Name": "CallFunc_SetFloatParameter_self_CastInput_1",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "InterfaceClass": {
+          "ObjectName": "Class'AudioParameterControllerInterface'",
+          "ObjectPath": "/Script/AudioExtensions"
+        }
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "CallFunc_Multiply_DoubleDouble_A_ImplicitCast",
+        "Flags": "RF_Public",
+        "ElementSize": 8
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_SetFloatParameter_InFloat_ImplicitCast",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      }
+    ],
+    "ScriptBytecode": [
+      {
+        "Inst": "EX_ComputedJump",
+        "StatementIndex": 0,
+        "OffsetExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'BP_Triceratops_C:ExecuteUbergraph_BP_Triceratops'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/BP_Triceratops.9"
+            },
+            "Property": {
+              "Type": "IntProperty",
+              "Name": "EntryPoint",
+              "Flags": "RF_Public",
+              "ElementSize": 4,
+              "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_LetBool",
+        "StatementIndex": 10,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'BP_Triceratops_C:ExecuteUbergraph_BP_Triceratops'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/BP_Triceratops.9"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_HasAuthority_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_FinalFunction",
+          "Function": {
+            "ObjectName": "Class'Actor:HasAuthority'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": []
+        }
+      },
+      {
+        "Inst": "EX_LetBool",
+        "StatementIndex": 30,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'BP_Triceratops_C:ExecuteUbergraph_BP_Triceratops'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/BP_Triceratops.9"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_Not_PreBool_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Class'KismetMathLibrary:Not_PreBool'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'BP_Triceratops_C:ExecuteUbergraph_BP_Triceratops'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/BP_Triceratops.9"
+                },
+                "Property": {
+                  "Type": "BoolProperty",
+                  "Name": "CallFunc_HasAuthority_ReturnValue",
+                  "Flags": "RF_Public",
+                  "ElementSize": 1,
+                  "FieldSize": 1,
+                  "ByteOffset": 0,
+                  "ByteMask": 1,
+                  "FieldMask": 255,
+                  "BoolSize": 1,
+                  "bIsNativeBool": true
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_JumpIfNot",
+        "StatementIndex": 59,
+        "CodeOffset": 1309,
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/BP_Triceratops.ExecuteUbergraph_BP_Triceratops[1309]",
+        "BooleanExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'BP_Triceratops_C:ExecuteUbergraph_BP_Triceratops'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/BP_Triceratops.9"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_Not_PreBool_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_LetBool",
+        "StatementIndex": 73,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'BP_Triceratops_C:ExecuteUbergraph_BP_Triceratops'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/BP_Triceratops.9"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_IsValid_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Class'KismetSystemLibrary:IsValid'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_Context",
+              "ObjectExpression": {
+                "Inst": "EX_InstanceVariable",
+                "Variable": {
+                  "Path": [
+                    "DinosaurMovement"
+                  ],
+                  "ResolvedOwner": {
+                    "ObjectName": "Class'TIDinosaurBase'",
+                    "ObjectPath": "/Script/TheIsle"
+                  }
+                }
+              },
+              "Offset": 9,
+              "RValuePointer": {
+                "Path": [
+                  "SparringPartner"
+                ],
+                "ResolvedOwner": {
+                  "ObjectName": "Class'TIDinosaurMovementComponent'",
+                  "ObjectPath": "/Script/TheIsle"
+                }
+              },
+              "ContextExpression": {
+                "Inst": "EX_InstanceVariable",
+                "Variable": {
+                  "Path": [
+                    "SparringPartner"
+                  ],
+                  "ResolvedOwner": {
+                    "ObjectName": "Class'TIDinosaurMovementComponent'",
+                    "ObjectPath": "/Script/TheIsle"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_JumpIfNot",
+        "StatementIndex": 124,
+        "CodeOffset": 1136,
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/BP_Triceratops.ExecuteUbergraph_BP_Triceratops[1136]",
+        "BooleanExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'BP_Triceratops_C:ExecuteUbergraph_BP_Triceratops'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/BP_Triceratops.9"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_IsValid_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_LetBool",
+        "StatementIndex": 138,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'BP_Triceratops_C:ExecuteUbergraph_BP_Triceratops'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/BP_Triceratops.9"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_IsCeratopsian_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_Context",
+          "ObjectExpression": {
+            "Inst": "EX_Context",
+            "ObjectExpression": {
+              "Inst": "EX_InstanceVariable",
+              "Variable": {
+                "Path": [
+                  "DinosaurMovement"
+                ],
+                "ResolvedOwner": {
+                  "ObjectName": "Class'TIDinosaurBase'",
+                  "ObjectPath": "/Script/TheIsle"
+                }
+              }
+            },
+            "Offset": 9,
+            "RValuePointer": {
+              "Path": [
+                "SparringPartner"
+              ],
+              "ResolvedOwner": {
+                "ObjectName": "Class'TIDinosaurMovementComponent'",
+                "ObjectPath": "/Script/TheIsle"
+              }
+            },
+            "ContextExpression": {
+              "Inst": "EX_InstanceVariable",
+              "Variable": {
+                "Path": [
+                  "SparringPartner"
+                ],
+                "ResolvedOwner": {
+                  "ObjectName": "Class'TIDinosaurMovementComponent'",
+                  "ObjectPath": "/Script/TheIsle"
+                }
+              }
+            }
+          },
+          "Offset": 10,
+          "RValuePointer": {
+            "Owner": {
+              "ObjectName": "Function'BP_Triceratops_C:ExecuteUbergraph_BP_Triceratops'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/BP_Triceratops.9"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_IsCeratopsian_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          },
+          "ContextExpression": {
+            "Inst": "EX_FinalFunction",
+            "Function": {
+              "ObjectName": "Class'TIDinosaurBase:IsCeratopsian'",
+              "ObjectPath": "/Script/TheIsle"
+            },
+            "Parameters": []
+          }
+        }
+      },
+      {
+        "Inst": "EX_LetBool",
+        "StatementIndex": 202,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'BP_Triceratops_C:ExecuteUbergraph_BP_Triceratops'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/BP_Triceratops.9"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_Vector_IsZero_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Class'KismetMathLibrary:Vector_IsZero'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_Context",
+              "ObjectExpression": {
+                "Inst": "EX_InstanceVariable",
+                "Variable": {
+                  "Path": [
+                    "DinosaurMovement"
+                  ],
+                  "ResolvedOwner": {
+                    "ObjectName": "Class'TIDinosaurBase'",
+                    "ObjectPath": "/Script/TheIsle"
+                  }
+                }
+              },
+              "Offset": 9,
+              "RValuePointer": {
+                "Path": [
+                  "Velocity"
+                ],
+                "ResolvedOwner": {
+                  "ObjectName": "Class'MovementComponent'",
+                  "ObjectPath": "/Script/Engine"
+                }
+              },
+              "ContextExpression": {
+                "Inst": "EX_InstanceVariable",
+                "Variable": {
+                  "Path": [
+                    "Velocity"
+                  ],
+                  "ResolvedOwner": {
+                    "ObjectName": "Class'MovementComponent'",
+                    "ObjectPath": "/Script/Engine"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_LetObj",
+        "StatementIndex": 253,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'BP_Triceratops_C:ExecuteUbergraph_BP_Triceratops'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/BP_Triceratops.9"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "CallFunc_GetDinosaurMovement_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyFlags": "InstancedReference",
+              "PropertyClass": {
+                "ObjectName": "Class'TIDinosaurMovementComponent'",
+                "ObjectPath": "/Script/TheIsle"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_Context",
+          "ObjectExpression": {
+            "Inst": "EX_Context",
+            "ObjectExpression": {
+              "Inst": "EX_InstanceVariable",
+              "Variable": {
+                "Path": [
+                  "DinosaurMovement"
+                ],
+                "ResolvedOwner": {
+                  "ObjectName": "Class'TIDinosaurBase'",
+                  "ObjectPath": "/Script/TheIsle"
+                }
+              }
+            },
+            "Offset": 9,
+            "RValuePointer": {
+              "Path": [
+                "SparringPartner"
+              ],
+              "ResolvedOwner": {
+                "ObjectName": "Class'TIDinosaurMovementComponent'",
+                "ObjectPath": "/Script/TheIsle"
+              }
+            },
+            "ContextExpression": {
+              "Inst": "EX_InstanceVariable",
+              "Variable": {
+                "Path": [
+                  "SparringPartner"
+                ],
+                "ResolvedOwner": {
+                  "ObjectName": "Class'TIDinosaurMovementComponent'",
+                  "ObjectPath": "/Script/TheIsle"
+                }
+              }
+            }
+          },
+          "Offset": 10,
+          "RValuePointer": {
+            "Owner": {
+              "ObjectName": "Function'BP_Triceratops_C:ExecuteUbergraph_BP_Triceratops'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/BP_Triceratops.9"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "CallFunc_GetDinosaurMovement_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyFlags": "InstancedReference",
+              "PropertyClass": {
+                "ObjectName": "Class'TIDinosaurMovementComponent'",
+                "ObjectPath": "/Script/TheIsle"
+              }
+            }
+          },
+          "ContextExpression": {
+            "Inst": "EX_FinalFunction",
+            "Function": {
+              "ObjectName": "Class'TIDinosaurBase:GetDinosaurMovement'",
+              "ObjectPath": "/Script/TheIsle"
+            },
+            "Parameters": []
+          }
+        }
+      },
+      {
+        "Inst": "EX_LetBool",
+        "StatementIndex": 317,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'BP_Triceratops_C:ExecuteUbergraph_BP_Triceratops'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/BP_Triceratops.9"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_Not_PreBool_ReturnValue_1",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Class'KismetMathLibrary:Not_PreBool'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'BP_Triceratops_C:ExecuteUbergraph_BP_Triceratops'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/BP_Triceratops.9"
+                },
+                "Property": {
+                  "Type": "BoolProperty",
+                  "Name": "CallFunc_Vector_IsZero_ReturnValue",
+                  "Flags": "RF_Public",
+                  "ElementSize": 1,
+                  "FieldSize": 1,
+                  "ByteOffset": 0,
+                  "ByteMask": 1,
+                  "FieldMask": 255,
+                  "BoolSize": 1,
+                  "bIsNativeBool": true
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_LetBool",
+        "StatementIndex": 346,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'BP_Triceratops_C:ExecuteUbergraph_BP_Triceratops'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/BP_Triceratops.9"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_IsSparPushing_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_Context",
+          "ObjectExpression": {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'BP_Triceratops_C:ExecuteUbergraph_BP_Triceratops'",
+                "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/BP_Triceratops.9"
+              },
+              "Property": {
+                "Type": "ObjectProperty",
+                "Name": "CallFunc_GetDinosaurMovement_ReturnValue",
+                "Flags": "RF_Public",
+                "ElementSize": 8,
+                "PropertyFlags": "InstancedReference",
+                "PropertyClass": {
+                  "ObjectName": "Class'TIDinosaurMovementComponent'",
+                  "ObjectPath": "/Script/TheIsle"
+                }
+              }
+            }
+          },
+          "Offset": 10,
+          "RValuePointer": {
+            "Owner": {
+              "ObjectName": "Function'BP_Triceratops_C:ExecuteUbergraph_BP_Triceratops'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/BP_Triceratops.9"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_IsSparPushing_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          },
+          "ContextExpression": {
+            "Inst": "EX_FinalFunction",
+            "Function": {
+              "ObjectName": "Class'TIDinosaurMovementComponent:IsSparPushing'",
+              "ObjectPath": "/Script/TheIsle"
+            },
+            "Parameters": []
+          }
+        }
+      },
+      {
+        "Inst": "EX_LetBool",
+        "StatementIndex": 388,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'BP_Triceratops_C:ExecuteUbergraph_BP_Triceratops'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/BP_Triceratops.9"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_BooleanAND_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Class'KismetMathLibrary:BooleanAND'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'BP_Triceratops_C:ExecuteUbergraph_BP_Triceratops'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/BP_Triceratops.9"
+                },
+                "Property": {
+                  "Type": "BoolProperty",
+                  "Name": "CallFunc_IsCeratopsian_ReturnValue",
+                  "Flags": "RF_Public",
+                  "ElementSize": 1,
+                  "FieldSize": 1,
+                  "ByteOffset": 0,
+                  "ByteMask": 1,
+                  "FieldMask": 255,
+                  "BoolSize": 1,
+                  "bIsNativeBool": true
+                }
+              }
+            },
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'BP_Triceratops_C:ExecuteUbergraph_BP_Triceratops'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/BP_Triceratops.9"
+                },
+                "Property": {
+                  "Type": "BoolProperty",
+                  "Name": "CallFunc_Not_PreBool_ReturnValue_1",
+                  "Flags": "RF_Public",
+                  "ElementSize": 1,
+                  "FieldSize": 1,
+                  "ByteOffset": 0,
+                  "ByteMask": 1,
+                  "FieldMask": 255,
+                  "BoolSize": 1,
+                  "bIsNativeBool": true
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_LetBool",
+        "StatementIndex": 426,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'BP_Triceratops_C:ExecuteUbergraph_BP_Triceratops'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/BP_Triceratops.9"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_Not_PreBool_ReturnValue_2",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Class'KismetMathLibrary:Not_PreBool'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'BP_Triceratops_C:ExecuteUbergraph_BP_Triceratops'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/BP_Triceratops.9"
+                },
+                "Property": {
+                  "Type": "BoolProperty",
+                  "Name": "CallFunc_IsSparPushing_ReturnValue",
+                  "Flags": "RF_Public",
+                  "ElementSize": 1,
+                  "FieldSize": 1,
+                  "ByteOffset": 0,
+                  "ByteMask": 1,
+                  "FieldMask": 255,
+                  "BoolSize": 1,
+                  "bIsNativeBool": true
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_LetBool",
+        "StatementIndex": 455,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'BP_Triceratops_C:ExecuteUbergraph_BP_Triceratops'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/BP_Triceratops.9"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_IsSparPushing_ReturnValue_1",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_Context",
+          "ObjectExpression": {
+            "Inst": "EX_InstanceVariable",
+            "Variable": {
+              "Path": [
+                "DinosaurMovement"
+              ],
+              "ResolvedOwner": {
+                "ObjectName": "Class'TIDinosaurBase'",
+                "ObjectPath": "/Script/TheIsle"
+              }
+            }
+          },
+          "Offset": 10,
+          "RValuePointer": {
+            "Owner": {
+              "ObjectName": "Function'BP_Triceratops_C:ExecuteUbergraph_BP_Triceratops'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/BP_Triceratops.9"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_IsSparPushing_ReturnValue_1",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          },
+          "ContextExpression": {
+            "Inst": "EX_FinalFunction",
+            "Function": {
+              "ObjectName": "Class'TIDinosaurMovementComponent:IsSparPushing'",
+              "ObjectPath": "/Script/TheIsle"
+            },
+            "Parameters": []
+          }
+        }
+      },
+      {
+        "Inst": "EX_LetBool",
+        "StatementIndex": 497,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'BP_Triceratops_C:ExecuteUbergraph_BP_Triceratops'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/BP_Triceratops.9"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_Not_PreBool_ReturnValue_3",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Class'KismetMathLibrary:Not_PreBool'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'BP_Triceratops_C:ExecuteUbergraph_BP_Triceratops'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/BP_Triceratops.9"
+                },
+                "Property": {
+                  "Type": "BoolProperty",
+                  "Name": "CallFunc_IsSparPushing_ReturnValue_1",
+                  "Flags": "RF_Public",
+                  "ElementSize": 1,
+                  "FieldSize": 1,
+                  "ByteOffset": 0,
+                  "ByteMask": 1,
+                  "FieldMask": 255,
+                  "BoolSize": 1,
+                  "bIsNativeBool": true
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_LetBool",
+        "StatementIndex": 526,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'BP_Triceratops_C:ExecuteUbergraph_BP_Triceratops'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/BP_Triceratops.9"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_BooleanAND_ReturnValue_1",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Class'KismetMathLibrary:BooleanAND'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'BP_Triceratops_C:ExecuteUbergraph_BP_Triceratops'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/BP_Triceratops.9"
+                },
+                "Property": {
+                  "Type": "BoolProperty",
+                  "Name": "CallFunc_BooleanAND_ReturnValue",
+                  "Flags": "RF_Public",
+                  "ElementSize": 1,
+                  "FieldSize": 1,
+                  "ByteOffset": 0,
+                  "ByteMask": 1,
+                  "FieldMask": 255,
+                  "BoolSize": 1,
+                  "bIsNativeBool": true
+                }
+              }
+            },
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'BP_Triceratops_C:ExecuteUbergraph_BP_Triceratops'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/BP_Triceratops.9"
+                },
+                "Property": {
+                  "Type": "BoolProperty",
+                  "Name": "CallFunc_Not_PreBool_ReturnValue_3",
+                  "Flags": "RF_Public",
+                  "ElementSize": 1,
+                  "FieldSize": 1,
+                  "ByteOffset": 0,
+                  "ByteMask": 1,
+                  "FieldMask": 255,
+                  "BoolSize": 1,
+                  "bIsNativeBool": true
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_LetBool",
+        "StatementIndex": 564,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'BP_Triceratops_C:ExecuteUbergraph_BP_Triceratops'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/BP_Triceratops.9"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_BooleanAND_ReturnValue_2",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Class'KismetMathLibrary:BooleanAND'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'BP_Triceratops_C:ExecuteUbergraph_BP_Triceratops'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/BP_Triceratops.9"
+                },
+                "Property": {
+                  "Type": "BoolProperty",
+                  "Name": "CallFunc_BooleanAND_ReturnValue_1",
+                  "Flags": "RF_Public",
+                  "ElementSize": 1,
+                  "FieldSize": 1,
+                  "ByteOffset": 0,
+                  "ByteMask": 1,
+                  "FieldMask": 255,
+                  "BoolSize": 1,
+                  "bIsNativeBool": true
+                }
+              }
+            },
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'BP_Triceratops_C:ExecuteUbergraph_BP_Triceratops'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/BP_Triceratops.9"
+                },
+                "Property": {
+                  "Type": "BoolProperty",
+                  "Name": "CallFunc_Not_PreBool_ReturnValue_2",
+                  "Flags": "RF_Public",
+                  "ElementSize": 1,
+                  "FieldSize": 1,
+                  "ByteOffset": 0,
+                  "ByteMask": 1,
+                  "FieldMask": 255,
+                  "BoolSize": 1,
+                  "bIsNativeBool": true
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_JumpIfNot",
+        "StatementIndex": 602,
+        "CodeOffset": 1136,
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/BP_Triceratops.ExecuteUbergraph_BP_Triceratops[1136]",
+        "BooleanExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'BP_Triceratops_C:ExecuteUbergraph_BP_Triceratops'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/BP_Triceratops.9"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_BooleanAND_ReturnValue_2",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_JumpIfNot",
+        "StatementIndex": 616,
+        "CodeOffset": 1216,
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/BP_Triceratops.ExecuteUbergraph_BP_Triceratops[1216]",
+        "BooleanExpression": {
+          "Inst": "EX_InstanceVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "BlueprintGeneratedClass'BP_Triceratops_C'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/BP_Triceratops.2"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "IsPlayingLockedSounds",
+              "Flags": "RF_Public | RF_LoadCompleted",
+              "ElementSize": 1,
+              "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 630,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'BP_Triceratops_C:ExecuteUbergraph_BP_Triceratops'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/BP_Triceratops.9"
+            },
+            "Property": {
+              "Type": "FloatProperty",
+              "Name": "CallFunc_GetVisualGrowthFromJuvenileToAdult_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 4
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_VirtualFunction",
+          "Function": "GetVisualGrowthFromJuvenileToAdult",
+          "Parameters": []
+        }
+      },
+      {
+        "Inst": "EX_Context",
+        "StatementIndex": 662,
+        "ObjectExpression": {
+          "Inst": "EX_InterfaceContext",
+          "InterfaceValue": {
+            "Inst": "EX_InstanceVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "BlueprintGeneratedClass'BP_Triceratops_C'",
+                "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/BP_Triceratops.2"
+              },
+              "Property": {
+                "Type": "ObjectProperty",
+                "Name": "HornsScrape",
+                "Flags": "RF_Public | RF_LoadCompleted",
+                "ElementSize": 8,
+                "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+                "PropertyClass": {
+                  "ObjectName": "Class'AudioComponent'",
+                  "ObjectPath": "/Script/Engine"
+                }
+              }
+            }
+          }
+        },
+        "Offset": 36,
+        "RValuePointer": null,
+        "ContextExpression": {
+          "Inst": "EX_VirtualFunction",
+          "Function": "SetFloatParameter",
+          "Parameters": [
+            {
+              "Inst": "EX_NameConst",
+              "Value": "Size"
+            },
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'BP_Triceratops_C:ExecuteUbergraph_BP_Triceratops'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/BP_Triceratops.9"
+                },
+                "Property": {
+                  "Type": "FloatProperty",
+                  "Name": "CallFunc_GetVisualGrowthFromJuvenileToAdult_ReturnValue",
+                  "Flags": "RF_Public",
+                  "ElementSize": 4
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 721,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'BP_Triceratops_C:ExecuteUbergraph_BP_Triceratops'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/BP_Triceratops.9"
+            },
+            "Property": {
+              "Type": "DoubleProperty",
+              "Name": "CallFunc_VSizeXY_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 8
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Class'KismetMathLibrary:VSizeXY'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_Context",
+              "ObjectExpression": {
+                "Inst": "EX_InstanceVariable",
+                "Variable": {
+                  "Path": [
+                    "DinosaurMovement"
+                  ],
+                  "ResolvedOwner": {
+                    "ObjectName": "Class'TIDinosaurBase'",
+                    "ObjectPath": "/Script/TheIsle"
+                  }
+                }
+              },
+              "Offset": 9,
+              "RValuePointer": {
+                "Path": [
+                  "Velocity"
+                ],
+                "ResolvedOwner": {
+                  "ObjectName": "Class'MovementComponent'",
+                  "ObjectPath": "/Script/Engine"
+                }
+              },
+              "ContextExpression": {
+                "Inst": "EX_InstanceVariable",
+                "Variable": {
+                  "Path": [
+                    "Velocity"
+                  ],
+                  "ResolvedOwner": {
+                    "ObjectName": "Class'MovementComponent'",
+                    "ObjectPath": "/Script/Engine"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 780,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'BP_Triceratops_C:ExecuteUbergraph_BP_Triceratops'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/BP_Triceratops.9"
+            },
+            "Property": {
+              "Type": "StructProperty",
+              "Name": "CallFunc_GetActorScale3D_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 24,
+              "Struct": {
+                "ObjectName": "Class'Vector'",
+                "ObjectPath": "/Script/CoreUObject"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_FinalFunction",
+          "Function": {
+            "ObjectName": "Class'Actor:GetActorScale3D'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": []
+        }
+      },
+      {
+        "Inst": "EX_CallMath",
+        "StatementIndex": 808,
+        "Function": {
+          "ObjectName": "Class'KismetMathLibrary:BreakVector'",
+          "ObjectPath": "/Script/Engine"
+        },
+        "Parameters": [
+          {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'BP_Triceratops_C:ExecuteUbergraph_BP_Triceratops'",
+                "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/BP_Triceratops.9"
+              },
+              "Property": {
+                "Type": "StructProperty",
+                "Name": "CallFunc_GetActorScale3D_ReturnValue",
+                "Flags": "RF_Public",
+                "ElementSize": 24,
+                "Struct": {
+                  "ObjectName": "Class'Vector'",
+                  "ObjectPath": "/Script/CoreUObject"
+                }
+              }
+            }
+          },
+          {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'BP_Triceratops_C:ExecuteUbergraph_BP_Triceratops'",
+                "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/BP_Triceratops.9"
+              },
+              "Property": {
+                "Type": "DoubleProperty",
+                "Name": "CallFunc_BreakVector_X",
+                "Flags": "RF_Public",
+                "ElementSize": 8
+              }
+            }
+          },
+          {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'BP_Triceratops_C:ExecuteUbergraph_BP_Triceratops'",
+                "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/BP_Triceratops.9"
+              },
+              "Property": {
+                "Type": "DoubleProperty",
+                "Name": "CallFunc_BreakVector_Y",
+                "Flags": "RF_Public",
+                "ElementSize": 8
+              }
+            }
+          },
+          {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'BP_Triceratops_C:ExecuteUbergraph_BP_Triceratops'",
+                "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/BP_Triceratops.9"
+              },
+              "Property": {
+                "Type": "DoubleProperty",
+                "Name": "CallFunc_BreakVector_Z",
+                "Flags": "RF_Public",
+                "ElementSize": 8
+              }
+            }
+          }
+        ]
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 854,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'BP_Triceratops_C:ExecuteUbergraph_BP_Triceratops'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/BP_Triceratops.9"
+            },
+            "Property": {
+              "Type": "DoubleProperty",
+              "Name": "CallFunc_Multiply_DoubleDouble_A_ImplicitCast",
+              "Flags": "RF_Public",
+              "ElementSize": 8
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_Cast",
+          "ConversionType": "CST_FloatToDouble",
+          "Target": {
+            "Inst": "EX_Context",
+            "ObjectExpression": {
+              "Inst": "EX_InstanceVariable",
+              "Variable": {
+                "Path": [
+                  "DinosaurMovement"
+                ],
+                "ResolvedOwner": {
+                  "ObjectName": "Class'TIDinosaurBase'",
+                  "ObjectPath": "/Script/TheIsle"
+                }
+              }
+            },
+            "Offset": 9,
+            "RValuePointer": {
+              "Path": [
+                "SparringTrotSpeed"
+              ],
+              "ResolvedOwner": {
+                "ObjectName": "Class'TIDinosaurMovementComponent'",
+                "ObjectPath": "/Script/TheIsle"
+              }
+            },
+            "ContextExpression": {
+              "Inst": "EX_InstanceVariable",
+              "Variable": {
+                "Path": [
+                  "SparringTrotSpeed"
+                ],
+                "ResolvedOwner": {
+                  "ObjectName": "Class'TIDinosaurMovementComponent'",
+                  "ObjectPath": "/Script/TheIsle"
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 905,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'BP_Triceratops_C:ExecuteUbergraph_BP_Triceratops'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/BP_Triceratops.9"
+            },
+            "Property": {
+              "Type": "DoubleProperty",
+              "Name": "CallFunc_Multiply_DoubleDouble_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 8
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Class'KismetMathLibrary:Multiply_DoubleDouble'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'BP_Triceratops_C:ExecuteUbergraph_BP_Triceratops'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/BP_Triceratops.9"
+                },
+                "Property": {
+                  "Type": "DoubleProperty",
+                  "Name": "CallFunc_Multiply_DoubleDouble_A_ImplicitCast",
+                  "Flags": "RF_Public",
+                  "ElementSize": 8
+                }
+              }
+            },
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'BP_Triceratops_C:ExecuteUbergraph_BP_Triceratops'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/BP_Triceratops.9"
+                },
+                "Property": {
+                  "Type": "DoubleProperty",
+                  "Name": "CallFunc_BreakVector_Z",
+                  "Flags": "RF_Public",
+                  "ElementSize": 8
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 951,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'BP_Triceratops_C:ExecuteUbergraph_BP_Triceratops'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/BP_Triceratops.9"
+            },
+            "Property": {
+              "Type": "DoubleProperty",
+              "Name": "CallFunc_Divide_DoubleDouble_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 8
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Class'KismetMathLibrary:Divide_DoubleDouble'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'BP_Triceratops_C:ExecuteUbergraph_BP_Triceratops'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/BP_Triceratops.9"
+                },
+                "Property": {
+                  "Type": "DoubleProperty",
+                  "Name": "CallFunc_VSizeXY_ReturnValue",
+                  "Flags": "RF_Public",
+                  "ElementSize": 8
+                }
+              }
+            },
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'BP_Triceratops_C:ExecuteUbergraph_BP_Triceratops'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/BP_Triceratops.9"
+                },
+                "Property": {
+                  "Type": "DoubleProperty",
+                  "Name": "CallFunc_Multiply_DoubleDouble_ReturnValue",
+                  "Flags": "RF_Public",
+                  "ElementSize": 8
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 997,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'BP_Triceratops_C:ExecuteUbergraph_BP_Triceratops'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/BP_Triceratops.9"
+            },
+            "Property": {
+              "Type": "DoubleProperty",
+              "Name": "CallFunc_FMin_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 8
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Class'KismetMathLibrary:FMin'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'BP_Triceratops_C:ExecuteUbergraph_BP_Triceratops'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/BP_Triceratops.9"
+                },
+                "Property": {
+                  "Type": "DoubleProperty",
+                  "Name": "CallFunc_Divide_DoubleDouble_ReturnValue",
+                  "Flags": "RF_Public",
+                  "ElementSize": 8
+                }
+              }
+            },
+            {
+              "Inst": "EX_DoubleConst",
+              "Value": 1.0
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 1043,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'BP_Triceratops_C:ExecuteUbergraph_BP_Triceratops'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/BP_Triceratops.9"
+            },
+            "Property": {
+              "Type": "FloatProperty",
+              "Name": "CallFunc_SetFloatParameter_InFloat_ImplicitCast",
+              "Flags": "RF_Public",
+              "ElementSize": 4
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_Cast",
+          "ConversionType": "CST_DoubleToFloat",
+          "Target": {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'BP_Triceratops_C:ExecuteUbergraph_BP_Triceratops'",
+                "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/BP_Triceratops.9"
+              },
+              "Property": {
+                "Type": "DoubleProperty",
+                "Name": "CallFunc_FMin_ReturnValue",
+                "Flags": "RF_Public",
+                "ElementSize": 8
+              }
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_Context",
+        "StatementIndex": 1072,
+        "ObjectExpression": {
+          "Inst": "EX_InterfaceContext",
+          "InterfaceValue": {
+            "Inst": "EX_InstanceVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "BlueprintGeneratedClass'BP_Triceratops_C'",
+                "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/BP_Triceratops.2"
+              },
+              "Property": {
+                "Type": "ObjectProperty",
+                "Name": "HornsScrape",
+                "Flags": "RF_Public | RF_LoadCompleted",
+                "ElementSize": 8,
+                "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+                "PropertyClass": {
+                  "ObjectName": "Class'AudioComponent'",
+                  "ObjectPath": "/Script/Engine"
+                }
+              }
+            }
+          }
+        },
+        "Offset": 36,
+        "RValuePointer": null,
+        "ContextExpression": {
+          "Inst": "EX_VirtualFunction",
+          "Function": "SetFloatParameter",
+          "Parameters": [
+            {
+              "Inst": "EX_NameConst",
+              "Value": "Speed"
+            },
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'BP_Triceratops_C:ExecuteUbergraph_BP_Triceratops'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/BP_Triceratops.9"
+                },
+                "Property": {
+                  "Type": "FloatProperty",
+                  "Name": "CallFunc_SetFloatParameter_InFloat_ImplicitCast",
+                  "Flags": "RF_Public",
+                  "ElementSize": 4
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_Jump",
+        "StatementIndex": 1131,
+        "CodeOffset": 1309,
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/BP_Triceratops.ExecuteUbergraph_BP_Triceratops[1309]"
+      },
+      {
+        "Inst": "EX_JumpIfNot",
+        "StatementIndex": 1136,
+        "CodeOffset": 1309,
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/BP_Triceratops.ExecuteUbergraph_BP_Triceratops[1309]",
+        "BooleanExpression": {
+          "Inst": "EX_InstanceVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "BlueprintGeneratedClass'BP_Triceratops_C'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/BP_Triceratops.2"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "IsPlayingLockedSounds",
+              "Flags": "RF_Public | RF_LoadCompleted",
+              "ElementSize": 1,
+              "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_LetBool",
+        "StatementIndex": 1150,
+        "Variable": {
+          "Inst": "EX_InstanceVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "BlueprintGeneratedClass'BP_Triceratops_C'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/BP_Triceratops.2"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "IsPlayingLockedSounds",
+              "Flags": "RF_Public | RF_LoadCompleted",
+              "ElementSize": 1,
+              "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_False"
+        }
+      },
+      {
+        "Inst": "EX_Context",
+        "StatementIndex": 1161,
+        "ObjectExpression": {
+          "Inst": "EX_InterfaceContext",
+          "InterfaceValue": {
+            "Inst": "EX_InstanceVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "BlueprintGeneratedClass'BP_Triceratops_C'",
+                "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/BP_Triceratops.2"
+              },
+              "Property": {
+                "Type": "ObjectProperty",
+                "Name": "HornsScrape",
+                "Flags": "RF_Public | RF_LoadCompleted",
+                "ElementSize": 8,
+                "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+                "PropertyClass": {
+                  "ObjectName": "Class'AudioComponent'",
+                  "ObjectPath": "/Script/Engine"
+                }
+              }
+            }
+          }
+        },
+        "Offset": 27,
+        "RValuePointer": null,
+        "ContextExpression": {
+          "Inst": "EX_VirtualFunction",
+          "Function": "SetTriggerParameter",
+          "Parameters": [
+            {
+              "Inst": "EX_NameConst",
+              "Value": "StopHorns"
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_Jump",
+        "StatementIndex": 1211,
+        "CodeOffset": 1309,
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/BP_Triceratops.ExecuteUbergraph_BP_Triceratops[1309]"
+      },
+      {
+        "Inst": "EX_LetBool",
+        "StatementIndex": 1216,
+        "Variable": {
+          "Inst": "EX_InstanceVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "BlueprintGeneratedClass'BP_Triceratops_C'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/BP_Triceratops.2"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "IsPlayingLockedSounds",
+              "Flags": "RF_Public | RF_LoadCompleted",
+              "ElementSize": 1,
+              "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_True"
+        }
+      },
+      {
+        "Inst": "EX_Context",
+        "StatementIndex": 1227,
+        "ObjectExpression": {
+          "Inst": "EX_InstanceVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "BlueprintGeneratedClass'BP_Triceratops_C'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/BP_Triceratops.2"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "HornsScrape",
+              "Flags": "RF_Public | RF_LoadCompleted",
+              "ElementSize": 8,
+              "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+              "PropertyClass": {
+                "ObjectName": "Class'AudioComponent'",
+                "ObjectPath": "/Script/Engine"
+              }
+            }
+          }
+        },
+        "Offset": 31,
+        "RValuePointer": null,
+        "ContextExpression": {
+          "Inst": "EX_VirtualFunction",
+          "Function": "FadeIn",
+          "Parameters": [
+            {
+              "Inst": "EX_FloatConst",
+              "Value": 0.2
+            },
+            {
+              "Inst": "EX_FloatConst",
+              "Value": 1.0
+            },
+            {
+              "Inst": "EX_FloatConst",
+              "Value": 0.0
+            },
+            {
+              "Inst": "EX_ByteConst",
+              "Value": 0
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_Jump",
+        "StatementIndex": 1280,
+        "CodeOffset": 1309,
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/BP_Triceratops.ExecuteUbergraph_BP_Triceratops[1309]"
+      },
+      {
+        "Inst": "EX_LocalFinalFunction",
+        "StatementIndex": 1285,
+        "Function": {
+          "ObjectName": "Class'Actor:ReceiveTick'",
+          "ObjectPath": "/Script/Engine"
+        },
+        "Parameters": [
+          {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'BP_Triceratops_C:ExecuteUbergraph_BP_Triceratops'",
+                "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/BP_Triceratops.9"
+              },
+              "Property": {
+                "Type": "FloatProperty",
+                "Name": "K2Node_Event_DeltaSeconds",
+                "Flags": "RF_Public",
+                "ElementSize": 4
+              }
+            }
+          }
+        ]
+      },
+      {
+        "Inst": "EX_Jump",
+        "StatementIndex": 1304,
+        "CodeOffset": 10,
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/BP_Triceratops.ExecuteUbergraph_BP_Triceratops[10]"
+      },
+      {
+        "Inst": "EX_Return",
+        "StatementIndex": 1309,
+        "Expression": {
+          "Inst": "EX_Nothing"
+        }
+      },
+      {
+        "Inst": "EX_EndOfScript",
+        "StatementIndex": 1311
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceiveTick",
+    "Outer": "BP_Triceratops_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'Actor:ReceiveTick'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "ChildProperties": [
+      {
+        "Type": "FloatProperty",
+        "Name": "DeltaSeconds",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "ScriptBytecode": [
+      {
+        "Inst": "EX_LetValueOnPersistentFrame",
+        "StatementIndex": 0,
+        "DestinationProperty": {
+          "Owner": {
+            "ObjectName": "Function'BP_Triceratops_C:ExecuteUbergraph_BP_Triceratops'",
+            "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/BP_Triceratops.9"
+          },
+          "Property": {
+            "Type": "FloatProperty",
+            "Name": "K2Node_Event_DeltaSeconds",
+            "Flags": "RF_Public",
+            "ElementSize": 4
+          }
+        },
+        "AssignmentExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'BP_Triceratops_C:ReceiveTick'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/BP_Triceratops.10"
+            },
+            "Property": {
+              "Type": "FloatProperty",
+              "Name": "DeltaSeconds",
+              "Flags": "RF_Public",
+              "ElementSize": 4,
+              "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_LocalFinalFunction",
+        "StatementIndex": 18,
+        "Function": {
+          "ObjectName": "Function'BP_Triceratops_C:ExecuteUbergraph_BP_Triceratops'",
+          "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/BP_Triceratops.9"
+        },
+        "Parameters": [
+          {
+            "Inst": "EX_IntConst",
+            "Value": 1285
+          }
+        ],
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/BP_Triceratops.ExecuteUbergraph_BP_Triceratops[1285]"
+      },
+      {
+        "Inst": "EX_Return",
+        "StatementIndex": 33,
+        "Expression": {
+          "Inst": "EX_Nothing"
+        }
+      },
+      {
+        "Inst": "EX_EndOfScript",
+        "StatementIndex": 35
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "NavigationInvokerComponent",
+    "Name": "Navigation Invoker",
+    "Outer": "Default__BP_Triceratops_C",
+    "Class": "UScriptClass'NavigationInvokerComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "NavigationInvokerComponent",
+    "Name": "NavigationInvoker",
+    "Outer": "Default__BP_Triceratops_C",
+    "Class": "UScriptClass'NavigationInvokerComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "PhysicalAnimationComponent",
+    "Name": "PhysicalAnim",
+    "Outer": "Default__BP_Triceratops_C",
+    "Class": "UScriptClass'PhysicalAnimationComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "bAutoActivate": true
+    }
+  },
+  {
+    "Type": "PhysicsConstraintComponent",
+    "Name": "PhysicsConstraints",
+    "Outer": "Default__BP_Triceratops_C",
+    "Class": "UScriptClass'PhysicsConstraintComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_Triceratops_C:CollisionCylinder'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/BP_Triceratops.8"
+      }
+    }
+  },
+  {
+    "Type": "PhysicsHandleComponent",
+    "Name": "PhysicsHandle",
+    "Outer": "Default__BP_Triceratops_C",
+    "Class": "UScriptClass'PhysicsHandleComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "BP_Triceratops_C",
+    "Class": "UScriptClass'SceneComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "Draglocation",
+    "Outer": "Default__BP_Triceratops_C",
+    "Class": "UScriptClass'SceneComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SkeletalMeshComponentBudgeted'Default__BP_Triceratops_C:CharacterMesh0'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/BP_Triceratops.23"
+      },
+      "RelativeRotation": {
+        "Pitch": -90.0,
+        "Yaw": -360.0,
+        "Roll": 300.0
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "ImpaleLocation",
+    "Outer": "Default__BP_Triceratops_C",
+    "Class": "UScriptClass'SceneComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SkeletalMeshComponentBudgeted'Default__BP_Triceratops_C:CharacterMesh0'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/BP_Triceratops.23"
+      }
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_Triceratops_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/BP_Triceratops.16"
+      },
+      "VariableGUID": "0D0BCC2A-4497BA0A-FF67C99C-97AC57C0",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_FluidImplementation_C'",
+        "ObjectPath": "/Game/FluidInteractionTool/Blueprints/BP_FluidImplementation.0"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BP_FluidImplementation_C'BP_Triceratops_C:BP_FluidImplementation_GEN_VARIABLE'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/BP_Triceratops.5"
+      },
+      "CookedComponentInstancingData": {
+        "ChangedPropertyList": [
+          {
+            "PropertyName": "TraceOffsetUp",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "BlueprintGeneratedClass'BP_FluidImplementation_C'",
+              "ObjectPath": "/Game/FluidInteractionTool/Blueprints/BP_FluidImplementation.0"
+            }
+          },
+          {
+            "PropertyName": "TraceOffsetDown",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "BlueprintGeneratedClass'BP_FluidImplementation_C'",
+              "ObjectPath": "/Game/FluidInteractionTool/Blueprints/BP_FluidImplementation.0"
+            }
+          },
+          {
+            "PropertyName": "UsePerBoneTrace",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "BlueprintGeneratedClass'BP_FluidImplementation_C'",
+              "ObjectPath": "/Game/FluidInteractionTool/Blueprints/BP_FluidImplementation.0"
+            }
+          },
+          {
+            "PropertyName": "FluidDrawSize",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "BlueprintGeneratedClass'BP_FluidImplementation_C'",
+              "ObjectPath": "/Game/FluidInteractionTool/Blueprints/BP_FluidImplementation.0"
+            }
+          },
+          {
+            "PropertyName": "FluidMaxDrawIntensity",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "BlueprintGeneratedClass'BP_FluidImplementation_C'",
+              "ObjectPath": "/Game/FluidInteractionTool/Blueprints/BP_FluidImplementation.0"
+            }
+          },
+          {
+            "PropertyName": "VelocityDivideIntensity",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "BlueprintGeneratedClass'BP_FluidImplementation_C'",
+              "ObjectPath": "/Game/FluidInteractionTool/Blueprints/BP_FluidImplementation.0"
+            }
+          },
+          {
+            "PropertyName": "VelocityBegin",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "BlueprintGeneratedClass'BP_FluidImplementation_C'",
+              "ObjectPath": "/Game/FluidInteractionTool/Blueprints/BP_FluidImplementation.0"
+            }
+          },
+          {
+            "PropertyName": "MaxEffector",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "BlueprintGeneratedClass'BP_FluidImplementation_C'",
+              "ObjectPath": "/Game/FluidInteractionTool/Blueprints/BP_FluidImplementation.0"
+            }
+          }
+        ],
+        "bHasValidCookedData": true
+      },
+      "VariableGUID": "FA8F6BD4-423884CC-D85DDB9B-9A696612",
+      "InternalVariableName": "BP_FluidImplementation"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'AudioComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "AudioComponent'BP_Triceratops_C:HornsScrape_GEN_VARIABLE'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/BP_Triceratops.0"
+      },
+      "CookedComponentInstancingData": {
+        "ChangedPropertyList": [
+          {
+            "PropertyName": "Sound",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'AudioComponent'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "RelativeLocation",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'AudioComponent'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "X",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'Vector'",
+              "ObjectPath": "/Script/CoreUObject"
+            }
+          },
+          {
+            "PropertyName": "Z",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'Vector'",
+              "ObjectPath": "/Script/CoreUObject"
+            }
+          },
+          {
+            "PropertyName": "bAutoActivate",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'AudioComponent'",
+              "ObjectPath": "/Script/Engine"
+            }
+          }
+        ],
+        "bHasValidCookedData": true
+      },
+      "ParentComponentOrVariableName": "CollisionCylinder",
+      "bIsParentComponentNative": true,
+      "VariableGUID": "BC1FC9C9-413F641C-44B6038C-686FEAA6",
+      "InternalVariableName": "HornsScrape"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "BP_Triceratops_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_Triceratops_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/BP_Triceratops.20"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Triceratops_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/BP_Triceratops.21"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_Triceratops_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/BP_Triceratops.20"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Triceratops_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/BP_Triceratops.21"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_Triceratops_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/BP_Triceratops.19"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponentBudgeted",
+    "Name": "CharacterMesh0",
+    "Outer": "Default__BP_Triceratops_C",
+    "Class": "UScriptClass'SkeletalMeshComponentBudgeted'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "bAutoCalculateSignificance": true,
+      "AnimClass": {
+        "ObjectName": "AnimBlueprintGeneratedClass'ABP_Triceratops_C'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/ABP_Triceratops.1"
+      },
+      "AnimationData": {
+        "AnimToPlay": {
+          "ObjectName": "AnimSequence'A_Triceratops_Adult_WalkF'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Triceratops/Animations/A_Triceratops_Adult_WalkF.0"
+        }
+      },
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_Triceratops'",
+        "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Triceratops/Mesh/SK_Triceratops.7"
+      },
+      "SkinnedAsset": {
+        "ObjectName": "SkeletalMesh'SK_Triceratops'",
+        "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Triceratops/Mesh/SK_Triceratops.7"
+      },
+      "BodyInstance": {
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_Triceratops_C:CollisionCylinder'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/BP_Triceratops.8"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -170.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -90.0,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponentBudgeted",
+    "Name": "RibsMeatMesh",
+    "Outer": "Default__BP_Triceratops_C",
+    "Class": "UScriptClass'SkeletalMeshComponentBudgeted'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_Triceratops_Meat'",
+        "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Triceratops/Mesh/SK_Triceratops_Meat.1"
+      },
+      "SkinnedAsset": {
+        "ObjectName": "SkeletalMesh'SK_Triceratops_Meat'",
+        "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Triceratops/Mesh/SK_Triceratops_Meat.1"
+      },
+      "LeaderPoseComponent": {
+        "ObjectName": "SkeletalMeshComponentBudgeted'Default__BP_Triceratops_C:CharacterMesh0'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/BP_Triceratops.23"
+      },
+      "VisibilityBasedAnimTickOption": "EVisibilityBasedAnimTickOption::OnlyTickPoseWhenRendered",
+      "bEnableUpdateRateOptimizations": true,
+      "bReceivesDecals": false,
+      "bReplicatePhysicsToAutonomousProxy": false,
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_PhysicsBody",
+        "CollisionProfileName": "Custom"
+      },
+      "AttachParent": {
+        "ObjectName": "SkeletalMeshComponentBudgeted'Default__BP_Triceratops_C:CharacterMesh0'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/BP_Triceratops.23"
+      },
+      "bHiddenInGame": true,
+      "PrimaryComponentTick": {
+        "bStartWithTickEnabled": false,
+        "bAllowTickOnDedicatedServer": false
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponentBudgeted",
+    "Name": "SkeletonMesh",
+    "Outer": "Default__BP_Triceratops_C",
+    "Class": "UScriptClass'SkeletalMeshComponentBudgeted'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_Triceratops_Bones'",
+        "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Triceratops/Mesh/SK_Triceratops_Bones.1"
+      },
+      "SkinnedAsset": {
+        "ObjectName": "SkeletalMesh'SK_Triceratops_Bones'",
+        "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Triceratops/Mesh/SK_Triceratops_Bones.1"
+      },
+      "LeaderPoseComponent": {
+        "ObjectName": "SkeletalMeshComponentBudgeted'Default__BP_Triceratops_C:CharacterMesh0'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/BP_Triceratops.23"
+      },
+      "VisibilityBasedAnimTickOption": "EVisibilityBasedAnimTickOption::OnlyTickPoseWhenRendered",
+      "bEnableUpdateRateOptimizations": true,
+      "bReceivesDecals": false,
+      "bReplicatePhysicsToAutonomousProxy": false,
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_PhysicsBody",
+        "CollisionProfileName": "Custom"
+      },
+      "AttachParent": {
+        "ObjectName": "SkeletalMeshComponentBudgeted'Default__BP_Triceratops_C:CharacterMesh0'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/BP_Triceratops.23"
+      },
+      "bHiddenInGame": true,
+      "PrimaryComponentTick": {
+        "bStartWithTickEnabled": false,
+        "bAllowTickOnDedicatedServer": false
+      }
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CorpseDisableDetector",
+    "Outer": "Default__BP_Triceratops_C",
+    "Class": "UScriptClass'SphereComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SphereRadius": 1300.0,
+      "bUseSystemDefaultObstacleAreaClass": false,
+      "AreaClassOverride": {
+        "ObjectName": "Class'NavArea_Obstacle'",
+        "ObjectPath": "/Script/NavigationSystem"
+      },
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_Triceratops_C:CollisionCylinder'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/BP_Triceratops.8"
+      }
+    }
+  },
+  {
+    "Type": "SplineComponent",
+    "Name": "ThroatSpline",
+    "Outer": "Default__BP_Triceratops_C",
+    "Class": "UScriptClass'SplineComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SplineCurves": {
+        "Position": {
+          "Points": [
+            {
+              "InVal": 0.0,
+              "OutVal": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "ArriveTangent": {
+                "X": 110.0,
+                "Y": 0.0,
+                "Z": 3.197442E-13
+              },
+              "LeaveTangent": {
+                "X": 110.0,
+                "Y": 0.0,
+                "Z": 3.197442E-13
+              },
+              "InterpMode": "EInterpCurveMode::CIM_CurveAuto"
+            },
+            {
+              "InVal": 1.0,
+              "OutVal": {
+                "X": 110.0,
+                "Y": 0.0,
+                "Z": 3.197442E-13
+              },
+              "ArriveTangent": {
+                "X": 91.36885,
+                "Y": -4.2341214E-11,
+                "Z": -12.908054
+              },
+              "LeaveTangent": {
+                "X": 91.36885,
+                "Y": -4.2341214E-11,
+                "Z": -12.908054
+              },
+              "InterpMode": "EInterpCurveMode::CIM_CurveAuto"
+            },
+            {
+              "InVal": 2.0,
+              "OutVal": {
+                "X": 182.7377,
+                "Y": -8.468243E-11,
+                "Z": -25.816109
+              },
+              "ArriveTangent": {
+                "X": 71.93191,
+                "Y": -1.0437013E-09,
+                "Z": -36.17861
+              },
+              "LeaveTangent": {
+                "X": 71.93191,
+                "Y": -1.0437013E-09,
+                "Z": -36.17861
+              },
+              "InterpMode": "EInterpCurveMode::CIM_CurveAuto"
+            },
+            {
+              "InVal": 3.0,
+              "OutVal": {
+                "X": 253.86382,
+                "Y": -2.0874027E-09,
+                "Z": -72.35722
+              },
+              "ArriveTangent": {
+                "X": 100.25869,
+                "Y": -2.8458285E-09,
+                "Z": -47.678013
+              },
+              "LeaveTangent": {
+                "X": 100.25869,
+                "Y": -2.8458285E-09,
+                "Z": -47.678013
+              },
+              "InterpMode": "EInterpCurveMode::CIM_CurveAuto"
+            },
+            {
+              "InVal": 4.0,
+              "OutVal": {
+                "X": 383.2551,
+                "Y": -5.776339E-09,
+                "Z": -121.172134
+              },
+              "ArriveTangent": {
+                "X": 129.39128,
+                "Y": -3.6889365E-09,
+                "Z": -48.81491
+              },
+              "LeaveTangent": {
+                "X": 129.39128,
+                "Y": -3.6889365E-09,
+                "Z": -48.81491
+              },
+              "InterpMode": "EInterpCurveMode::CIM_CurveAuto"
+            }
+          ]
+        },
+        "Rotation": {
+          "Points": [
+            {
+              "InVal": 0.0,
+              "OutVal": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "InterpMode": "EInterpCurveMode::CIM_CurveAuto"
+            },
+            {
+              "InVal": 1.0,
+              "OutVal": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "ArriveTangent": {
+                "X": -7.5889425E-13,
+                "Y": -0.021809693,
+                "Z": 3.4916788E-13,
+                "W": 0.49952412,
+                "IsNormalized": false,
+                "Size": 0.5,
+                "SizeSquared": 0.25
+              },
+              "LeaveTangent": {
+                "X": -7.5889425E-13,
+                "Y": -0.021809693,
+                "Z": 3.4916788E-13,
+                "W": 0.49952412,
+                "IsNormalized": false,
+                "Size": 0.5,
+                "SizeSquared": 0.25
+              },
+              "InterpMode": "EInterpCurveMode::CIM_CurveAuto"
+            },
+            {
+              "InVal": 2.0,
+              "OutVal": {
+                "X": 3.0326878E-12,
+                "Y": 0.087155744,
+                "Z": -1.3953422E-12,
+                "W": 0.9961947,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "ArriveTangent": {
+                "X": 2.2709072E-12,
+                "Y": 0.06526309,
+                "Z": -1.0448463E-12,
+                "W": 0.49572244,
+                "IsNormalized": false,
+                "Size": 0.5,
+                "SizeSquared": 0.25
+              },
+              "LeaveTangent": {
+                "X": 2.2709072E-12,
+                "Y": 0.06526309,
+                "Z": -1.0448463E-12,
+                "W": 0.49572244,
+                "IsNormalized": false,
+                "Size": 0.5,
+                "SizeSquared": 0.25
+              },
+              "InterpMode": "EInterpCurveMode::CIM_CurveAuto"
+            },
+            {
+              "InVal": 3.0,
+              "OutVal": {
+                "X": 3.0326878E-12,
+                "Y": 0.087155744,
+                "Z": -1.3953422E-12,
+                "W": 0.9961947,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "ArriveTangent": {
+                "X": 1.5163439E-12,
+                "Y": 0.043577872,
+                "Z": -6.976711E-13,
+                "W": 0.49809736,
+                "IsNormalized": false,
+                "Size": 0.5,
+                "SizeSquared": 0.25
+              },
+              "LeaveTangent": {
+                "X": 1.5163439E-12,
+                "Y": 0.043577872,
+                "Z": -6.976711E-13,
+                "W": 0.49809736,
+                "IsNormalized": false,
+                "Size": 0.5,
+                "SizeSquared": 0.25
+              },
+              "InterpMode": "EInterpCurveMode::CIM_CurveAuto"
+            },
+            {
+              "InVal": 4.0,
+              "OutVal": {
+                "X": 3.0326878E-12,
+                "Y": 0.087155744,
+                "Z": -1.3953422E-12,
+                "W": 0.9961947,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "ArriveTangent": {
+                "X": 3.0326878E-12,
+                "Y": 0.087155744,
+                "Z": -1.3953422E-12,
+                "W": 0.9961947,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "LeaveTangent": {
+                "X": 3.0326878E-12,
+                "Y": 0.087155744,
+                "Z": -1.3953422E-12,
+                "W": 0.9961947,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "InterpMode": "EInterpCurveMode::CIM_CurveAuto"
+            }
+          ]
+        },
+        "Scale": {
+          "Points": [
+            {
+              "InVal": 0.0,
+              "OutVal": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "InterpMode": "EInterpCurveMode::CIM_CurveAuto"
+            },
+            {
+              "InVal": 1.0,
+              "OutVal": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "InterpMode": "EInterpCurveMode::CIM_CurveAuto"
+            },
+            {
+              "InVal": 2.0,
+              "OutVal": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "InterpMode": "EInterpCurveMode::CIM_CurveAuto"
+            },
+            {
+              "InVal": 3.0,
+              "OutVal": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "InterpMode": "EInterpCurveMode::CIM_CurveAuto"
+            },
+            {
+              "InVal": 4.0,
+              "OutVal": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              },
+              "ArriveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "LeaveTangent": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "InterpMode": "EInterpCurveMode::CIM_CurveAuto"
+            }
+          ]
+        },
+        "ReparamTable": {
+          "Points": [
+            {
+              "InVal": 0.0,
+              "OutVal": 0.0,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "EInterpCurveMode::CIM_Linear"
+            },
+            {
+              "InVal": 11.16846,
+              "OutVal": 0.1,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "EInterpCurveMode::CIM_Linear"
+            },
+            {
+              "InVal": 22.6009,
+              "OutVal": 0.2,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "EInterpCurveMode::CIM_Linear"
+            },
+            {
+              "InVal": 34.185394,
+              "OutVal": 0.3,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "EInterpCurveMode::CIM_Linear"
+            },
+            {
+              "InVal": 45.808033,
+              "OutVal": 0.4,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "EInterpCurveMode::CIM_Linear"
+            },
+            {
+              "InVal": 57.35443,
+              "OutVal": 0.5,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "EInterpCurveMode::CIM_Linear"
+            },
+            {
+              "InVal": 68.711174,
+              "OutVal": 0.6,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "EInterpCurveMode::CIM_Linear"
+            },
+            {
+              "InVal": 79.76736,
+              "OutVal": 0.7,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "EInterpCurveMode::CIM_Linear"
+            },
+            {
+              "InVal": 90.416626,
+              "OutVal": 0.8,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "EInterpCurveMode::CIM_Linear"
+            },
+            {
+              "InVal": 100.5599,
+              "OutVal": 0.90000004,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "EInterpCurveMode::CIM_Linear"
+            },
+            {
+              "InVal": 110.10951,
+              "OutVal": 1.0,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "EInterpCurveMode::CIM_Linear"
+            },
+            {
+              "InVal": 119.01805,
+              "OutVal": 1.1,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "EInterpCurveMode::CIM_Linear"
+            },
+            {
+              "InVal": 127.369385,
+              "OutVal": 1.2,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "EInterpCurveMode::CIM_Linear"
+            },
+            {
+              "InVal": 135.28375,
+              "OutVal": 1.3,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "EInterpCurveMode::CIM_Linear"
+            },
+            {
+              "InVal": 142.87872,
+              "OutVal": 1.4,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "EInterpCurveMode::CIM_Linear"
+            },
+            {
+              "InVal": 150.26775,
+              "OutVal": 1.5,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "EInterpCurveMode::CIM_Linear"
+            },
+            {
+              "InVal": 157.55911,
+              "OutVal": 1.6,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "EInterpCurveMode::CIM_Linear"
+            },
+            {
+              "InVal": 164.85547,
+              "OutVal": 1.7,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "EInterpCurveMode::CIM_Linear"
+            },
+            {
+              "InVal": 172.25412,
+              "OutVal": 1.8,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "EInterpCurveMode::CIM_Linear"
+            },
+            {
+              "InVal": 179.84805,
+              "OutVal": 1.9000001,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "EInterpCurveMode::CIM_Linear"
+            },
+            {
+              "InVal": 187.72743,
+              "OutVal": 2.0,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "EInterpCurveMode::CIM_Linear"
+            },
+            {
+              "InVal": 195.62227,
+              "OutVal": 2.1,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "EInterpCurveMode::CIM_Linear"
+            },
+            {
+              "InVal": 203.31381,
+              "OutVal": 2.2,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "EInterpCurveMode::CIM_Linear"
+            },
+            {
+              "InVal": 210.9499,
+              "OutVal": 2.3,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "EInterpCurveMode::CIM_Linear"
+            },
+            {
+              "InVal": 218.65775,
+              "OutVal": 2.4,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "EInterpCurveMode::CIM_Linear"
+            },
+            {
+              "InVal": 226.5512,
+              "OutVal": 2.5,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "EInterpCurveMode::CIM_Linear"
+            },
+            {
+              "InVal": 234.73975,
+              "OutVal": 2.6,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "EInterpCurveMode::CIM_Linear"
+            },
+            {
+              "InVal": 243.33711,
+              "OutVal": 2.7,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "EInterpCurveMode::CIM_Linear"
+            },
+            {
+              "InVal": 252.46791,
+              "OutVal": 2.8,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "EInterpCurveMode::CIM_Linear"
+            },
+            {
+              "InVal": 262.2716,
+              "OutVal": 2.9,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "EInterpCurveMode::CIM_Linear"
+            },
+            {
+              "InVal": 272.90363,
+              "OutVal": 3.0,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "EInterpCurveMode::CIM_Linear"
+            },
+            {
+              "InVal": 284.5172,
+              "OutVal": 3.1,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "EInterpCurveMode::CIM_Linear"
+            },
+            {
+              "InVal": 297.0544,
+              "OutVal": 3.2,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "EInterpCurveMode::CIM_Linear"
+            },
+            {
+              "InVal": 310.35956,
+              "OutVal": 3.3,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "EInterpCurveMode::CIM_Linear"
+            },
+            {
+              "InVal": 324.27194,
+              "OutVal": 3.4,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "EInterpCurveMode::CIM_Linear"
+            },
+            {
+              "InVal": 338.6279,
+              "OutVal": 3.5,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "EInterpCurveMode::CIM_Linear"
+            },
+            {
+              "InVal": 353.26178,
+              "OutVal": 3.6,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "EInterpCurveMode::CIM_Linear"
+            },
+            {
+              "InVal": 368.00696,
+              "OutVal": 3.7,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "EInterpCurveMode::CIM_Linear"
+            },
+            {
+              "InVal": 382.69647,
+              "OutVal": 3.8,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "EInterpCurveMode::CIM_Linear"
+            },
+            {
+              "InVal": 397.16354,
+              "OutVal": 3.9,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "EInterpCurveMode::CIM_Linear"
+            },
+            {
+              "InVal": 411.24207,
+              "OutVal": 4.0,
+              "ArriveTangent": 0.0,
+              "LeaveTangent": 0.0,
+              "InterpMode": "EInterpCurveMode::CIM_Linear"
+            }
+          ]
+        }
+      },
+      "AttachParent": {
+        "ObjectName": "SkeletalMeshComponentBudgeted'Default__BP_Triceratops_C:CharacterMesh0'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/BP_Triceratops.23"
+      },
+      "RelativeRotation": {
+        "Pitch": 5.9120595E-07,
+        "Yaw": -60.0,
+        "Roll": -90.0
+      }
+    }
+  },
+  {
+    "Type": "SpringArmComponent",
+    "Name": "Spring Arm",
+    "Outer": "Default__BP_Triceratops_C",
+    "Class": "UScriptClass'SpringArmComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_Triceratops_C:CollisionCylinder'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/BP_Triceratops.8"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 110.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "BuoyancyPlane",
+    "Outer": "Default__BP_Triceratops_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_Triceratops_C:CollisionCylinder'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/BP_Triceratops.8"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "ThroatMesh",
+    "Outer": "Default__BP_Triceratops_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SkeletalMeshComponentBudgeted'Default__BP_Triceratops_C:CharacterMesh0'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/BP_Triceratops.23"
+      }
+    }
+  },
+  {
+    "Type": "TIAbilitySystemComponent",
+    "Name": "AbilitySystemComponent",
+    "Outer": "Default__BP_Triceratops_C",
+    "Class": "UScriptClass'TIAbilitySystemComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "TIAntiCheatComponent",
+    "Name": "AntiCheatComponent",
+    "Outer": "Default__BP_Triceratops_C",
+    "Class": "UScriptClass'TIAntiCheatComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "TIAttributeSetDinosaur",
+    "Name": "AttributeSetBase",
+    "Outer": "Default__BP_Triceratops_C",
+    "Class": "UScriptClass'TIAttributeSetDinosaur'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "TIDinosaurMovementComponent",
+    "Name": "CharMoveComp",
+    "Outer": "Default__BP_Triceratops_C",
+    "Class": "UScriptClass'TIDinosaurMovementComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "StaggerMovementDurationB": 250.0,
+      "FastSwimSpeed": 139.87,
+      "CrouchTrotSpeed": 280.0,
+      "FracturedCrouchSprintSpeed": 720.0,
+      "NetworkSmoothingMode": "ENetworkSmoothingMode::Disabled"
+    }
+  },
+  {
+    "Type": "TIFootstepsComponent",
+    "Name": "FootstepsComponent",
+    "Outer": "Default__BP_Triceratops_C",
+    "Class": "UScriptClass'TIFootstepsComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EffectsDataTable": {
+        "ObjectName": "DataTable'DT_EffectSets'",
+        "ObjectPath": "/Game/TheIsle/Core/Data/DT_EffectSets.0"
+      },
+      "FrontFootprintMask": {
+        "ObjectName": "Texture2D'T_Footprint_Triceratos_Front_M'",
+        "ObjectPath": "/Game/TheIsle/Art/Decals/Footprint/Textures/T_Footprint_Triceratos_Front_M.0"
+      },
+      "BackFootprintMask": {
+        "ObjectName": "Texture2D'T_Footprint_Triceratops_M'",
+        "ObjectPath": "/Game/TheIsle/Art/Decals/Footprint/Textures/T_Footprint_Triceratops_M.0"
+      },
+      "MovementSetsDataTable": {
+        "ObjectName": "DataTable'DT_MovementSets'",
+        "ObjectPath": "/Game/TheIsle/Core/Data/DT_MovementSets.0"
+      },
+      "MaxSpawnAmount": 200,
+      "FootprintActor": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Footprint_C'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Blueprints/BP_Footprint.0"
+      }
+    }
+  },
+  {
+    "Type": "WidgetComponent",
+    "Name": "NameWidget",
+    "Outer": "Default__BP_Triceratops_C",
+    "Class": "UScriptClass'WidgetComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "WidgetClass": {
+        "ObjectName": "WidgetBlueprintGeneratedClass'W_OwnerName_C'",
+        "ObjectPath": "/Game/TheIsle/UI/Game/W_OwnerName.15"
+      },
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_Triceratops_C:CollisionCylinder'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/BP_Triceratops.8"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 300.0
+      }
+    }
+  }
+]

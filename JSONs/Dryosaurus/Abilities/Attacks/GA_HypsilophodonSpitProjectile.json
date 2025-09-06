@@ -1,0 +1,57 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GA_HypsilophodonSpitProjectile_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'TIGameplayAbilityDirectionalProjectileAttack'",
+      "ObjectPath": "/Script/TheIsle"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GA_HypsilophodonSpitProjectile_C'Default__GA_HypsilophodonSpitProjectile_C'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Attacks/GA_HypsilophodonSpitProjectile.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "GA_HypsilophodonSpitProjectile_C",
+    "Name": "Default__GA_HypsilophodonSpitProjectile_C",
+    "Class": "BlueprintGeneratedClass'/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Attacks/GA_HypsilophodonSpitProjectile.GA_HypsilophodonSpitProjectile_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ProjectileClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_HypsilophodonSpit_C'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/BP_HypsilophodonSpit.0"
+      },
+      "MinimumProjectileSpeed": 4000.0,
+      "MaximumProjectileSpeed": 40000.0,
+      "DirectionalAttackMoveSpeed": 10.0,
+      "bOverrideWhenMovingForward": false,
+      "TraceTimesF": [
+        0.12
+      ],
+      "TraceTimes45": [
+        0.13
+      ],
+      "TraceTimes90": [
+        0.13
+      ],
+      "TraceTimes135": [
+        0.14
+      ],
+      "TraceTimes180": [
+        0.16
+      ]
+    }
+  }
+]

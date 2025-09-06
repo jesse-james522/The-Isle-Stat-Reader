@@ -1,0 +1,5142 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GA_ActivateVenomBase_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'GameplayAbility'",
+      "ObjectPath": "/Script/GameplayAbilities"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'GA_ActivateVenomBase_C:OnFinish_D6F208DC43365B890F6FCF96198FA246'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.5"
+      },
+      {
+        "ObjectName": "Function'GA_ActivateVenomBase_C:OnFinish_7F9C759A4EF7683EC585FF9EF119A964'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.3"
+      },
+      {
+        "ObjectName": "Function'GA_ActivateVenomBase_C:OnFinish_D6C904C94FEB16F63FED0BB121131352'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.4"
+      },
+      {
+        "ObjectName": "Function'GA_ActivateVenomBase_C:K2_ActivateAbility'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.2"
+      },
+      {
+        "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "TroodonsFound",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnTemplate | DisableEditOnInstance",
+        "Inner": {
+          "Type": "ObjectProperty",
+          "Name": "TroodonsFound",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "Class'Actor'",
+            "ObjectPath": "/Script/Engine"
+          }
+        }
+      },
+      {
+        "Type": "MapProperty",
+        "Name": "TargetsArray",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 80,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnTemplate | DisableEditOnInstance",
+        "KeyProp": {
+          "Type": "ObjectProperty",
+          "Name": "TargetsArray",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "Class'TICharacterBase'",
+            "ObjectPath": "/Script/TheIsle"
+          }
+        },
+        "ValueProp": {
+          "Type": "IntProperty",
+          "Name": "TargetsArray_Value",
+          "Flags": "RF_Public",
+          "ElementSize": 4
+        }
+      },
+      {
+        "Type": "SetProperty",
+        "Name": "FinalTroodonsList",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 80,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnTemplate | DisableEditOnInstance",
+        "ElementProp": {
+          "Type": "ObjectProperty",
+          "Name": "FinalTroodonsList",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "Class'TICharacterBase'",
+            "ObjectPath": "/Script/TheIsle"
+          }
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Owner",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnTemplate | DisableEditOnInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'TICharacterBase'",
+          "ObjectPath": "/Script/TheIsle"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "LastPouncer",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnTemplate | DisableEditOnInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'TICharacterBase'",
+          "ObjectPath": "/Script/TheIsle"
+        }
+      },
+      {
+        "Type": "ClassProperty",
+        "Name": "VocalAbility",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance | UObjectWrapper",
+        "PropertyClass": {
+          "ObjectName": "Class'Class'",
+          "ObjectPath": "/Script/CoreUObject"
+        },
+        "MetaClass": {
+          "ObjectName": "Class'GameplayAbility'",
+          "ObjectPath": "/Script/GameplayAbilities"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "bIsEnvenomated",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 1,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "OwnerRef",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnTemplate | DisableEditOnInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'TICharacterBase'",
+          "ObjectPath": "/Script/TheIsle"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_GA_ActivateVenomBase": {
+        "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+      },
+      "K2_ActivateAbility": {
+        "ObjectName": "Function'GA_ActivateVenomBase_C:K2_ActivateAbility'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.2"
+      },
+      "OnFinish_D6C904C94FEB16F63FED0BB121131352": {
+        "ObjectName": "Function'GA_ActivateVenomBase_C:OnFinish_D6C904C94FEB16F63FED0BB121131352'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.4"
+      },
+      "OnFinish_7F9C759A4EF7683EC585FF9EF119A964": {
+        "ObjectName": "Function'GA_ActivateVenomBase_C:OnFinish_7F9C759A4EF7683EC585FF9EF119A964'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.3"
+      },
+      "OnFinish_D6F208DC43365B890F6FCF96198FA246": {
+        "ObjectName": "Function'GA_ActivateVenomBase_C:OnFinish_D6F208DC43365B890F6FCF96198FA246'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.5"
+      }
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GA_ActivateVenomBase_C'Default__GA_ActivateVenomBase_C'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.6"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_GA_ActivateVenomBase",
+    "Outer": "GA_ActivateVenomBase_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "K2Node_MakeArray_Array",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "ConstParm | ReferenceParm",
+        "Inner": {
+          "Type": "ObjectProperty",
+          "Name": "K2Node_MakeArray_Array",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "Class'Actor'",
+            "ObjectPath": "/Script/Engine"
+          }
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate",
+        "Flags": "RF_Public",
+        "ElementSize": 32,
+        "SignatureFunction": {
+          "ObjectName": "Class'WaitDelayDelegate__DelegateSignature'",
+          "ObjectPath": "/Script/GameplayAbilities"
+        }
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_1",
+        "Flags": "RF_Public",
+        "ElementSize": 32,
+        "SignatureFunction": {
+          "ObjectName": "Class'WaitDelayDelegate__DelegateSignature'",
+          "ObjectPath": "/Script/GameplayAbilities"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_WaitDelay_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'AbilityTask_WaitDelay'",
+          "ObjectPath": "/Script/GameplayAbilities"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_GetIsAlive_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_K2_GetActorLocation_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 24,
+        "Struct": {
+          "ObjectName": "Class'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Array_Index_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Array_Index_Variable_1",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Loop_Counter_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Add_IntInt_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Array_Index_Variable_2",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "K2Node_MakeArray_Array_1",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "ConstParm | ReferenceParm",
+        "Inner": {
+          "Type": "ByteProperty",
+          "Name": "K2Node_MakeArray_Array_1",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": {
+            "ObjectName": "Class'EObjectTypeQuery'",
+            "ObjectPath": "/Script/Engine"
+          }
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "CallFunc_SphereOverlapActors_OutActors",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "ReferenceParm",
+        "Inner": {
+          "Type": "ObjectProperty",
+          "Name": "CallFunc_SphereOverlapActors_OutActors",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "Class'Actor'",
+            "ObjectPath": "/Script/Engine"
+          }
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_SphereOverlapActors_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_Array_Get_Item",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsThe_Isle_Troodon",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'TITroodon'",
+          "ObjectPath": "/Script/TheIsle"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Array_Length_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_GetGroupID_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "ConstParm"
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_GetMaxHealth_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_GetHealth_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "CallFunc_Divide_DoubleDouble_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate_2",
+        "Flags": "RF_Public",
+        "ElementSize": 32,
+        "SignatureFunction": {
+          "ObjectName": "Class'WaitDelayDelegate__DelegateSignature'",
+          "ObjectPath": "/Script/GameplayAbilities"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_GreaterEqual_DoubleDouble_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetAvatarActorFromActorInfo_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsThe_Isle_Character_Base",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'TICharacterBase'",
+          "ObjectPath": "/Script/TheIsle"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "CallFunc_Map_Keys_Keys",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "ReferenceParm",
+        "Inner": {
+          "Type": "ObjectProperty",
+          "Name": "CallFunc_Map_Keys_Keys",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "Class'TICharacterBase'",
+            "ObjectPath": "/Script/TheIsle"
+          }
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_Array_Get_Item_1",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'TICharacterBase'",
+          "ObjectPath": "/Script/TheIsle"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Array_Length_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Loop_Counter_Variable_1",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Loop_Counter_Variable_2",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Less_IntInt_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Add_IntInt_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Less_IntInt_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Add_IntInt_ReturnValue_2",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "CallFunc_Set_ToArray_Result",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "ReferenceParm",
+        "Inner": {
+          "Type": "ObjectProperty",
+          "Name": "CallFunc_Set_ToArray_Result",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "Class'TICharacterBase'",
+            "ObjectPath": "/Script/TheIsle"
+          }
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_Array_Get_Item_2",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'TICharacterBase'",
+          "ObjectPath": "/Script/TheIsle"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetAbilitySystemComponent_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'AbilitySystemComponent'",
+          "ObjectPath": "/Script/GameplayAbilities"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Array_Length_ReturnValue_2",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Less_IntInt_ReturnValue_2",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_TryActivateAbilityByClass_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_TryActivateAbilityByClass_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "CallFunc_RandomFloatInRange_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_WaitDelay_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'AbilityTask_WaitDelay'",
+          "ObjectPath": "/Script/GameplayAbilities"
+        }
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "CallFunc_SelectFloat_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_WaitDelay_ReturnValue_2",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'AbilityTask_WaitDelay'",
+          "ObjectPath": "/Script/GameplayAbilities"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue_2",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "CallFunc_Divide_DoubleDouble_B_ImplicitCast",
+        "Flags": "RF_Public",
+        "ElementSize": 8
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "CallFunc_Divide_DoubleDouble_A_ImplicitCast",
+        "Flags": "RF_Public",
+        "ElementSize": 8
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_WaitDelay_Time_ImplicitCast",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_WaitDelay_Time_ImplicitCast_1",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      }
+    ],
+    "ScriptBytecode": [
+      {
+        "Inst": "EX_PushExecutionFlow",
+        "StatementIndex": 0,
+        "PushingAddress": 2864,
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.ExecuteUbergraph_GA_ActivateVenomBase[2864]"
+      },
+      {
+        "Inst": "EX_ComputedJump",
+        "StatementIndex": 5,
+        "OffsetExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+            },
+            "Property": {
+              "Type": "IntProperty",
+              "Name": "EntryPoint",
+              "Flags": "RF_Public",
+              "ElementSize": 4,
+              "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_Context",
+        "StatementIndex": 15,
+        "ObjectExpression": {
+          "Inst": "EX_ObjectConst",
+          "Value": {
+            "ObjectName": "Class'Default__KismetArrayLibrary'",
+            "ObjectPath": "/Script/Engine"
+          }
+        },
+        "Offset": 37,
+        "RValuePointer": null,
+        "ContextExpression": {
+          "Inst": "EX_FinalFunction",
+          "Function": {
+            "ObjectName": "Class'KismetArrayLibrary:Array_Get'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+                },
+                "Property": {
+                  "Type": "ArrayProperty",
+                  "Name": "CallFunc_Set_ToArray_Result",
+                  "Flags": "RF_Public",
+                  "ElementSize": 16,
+                  "PropertyFlags": "ReferenceParm",
+                  "Inner": {
+                    "Type": "ObjectProperty",
+                    "Name": "CallFunc_Set_ToArray_Result",
+                    "Flags": "RF_Public",
+                    "ElementSize": 8,
+                    "PropertyClass": {
+                      "ObjectName": "Class'TICharacterBase'",
+                      "ObjectPath": "/Script/TheIsle"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+                },
+                "Property": {
+                  "Type": "IntProperty",
+                  "Name": "Temp_int_Array_Index_Variable_2",
+                  "Flags": "RF_Public",
+                  "ElementSize": 4
+                }
+              }
+            },
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+                },
+                "Property": {
+                  "Type": "ObjectProperty",
+                  "Name": "CallFunc_Array_Get_Item_2",
+                  "Flags": "RF_Public",
+                  "ElementSize": 8,
+                  "PropertyClass": {
+                    "ObjectName": "Class'TICharacterBase'",
+                    "ObjectPath": "/Script/TheIsle"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_LetObj",
+        "StatementIndex": 74,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "CallFunc_GetAbilitySystemComponent_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyFlags": "InstancedReference",
+              "PropertyClass": {
+                "ObjectName": "Class'AbilitySystemComponent'",
+                "ObjectPath": "/Script/GameplayAbilities"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Class'AbilitySystemBlueprintLibrary:GetAbilitySystemComponent'",
+            "ObjectPath": "/Script/GameplayAbilities"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+                },
+                "Property": {
+                  "Type": "ObjectProperty",
+                  "Name": "CallFunc_Array_Get_Item_2",
+                  "Flags": "RF_Public",
+                  "ElementSize": 8,
+                  "PropertyClass": {
+                    "ObjectName": "Class'TICharacterBase'",
+                    "ObjectPath": "/Script/TheIsle"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_LetBool",
+        "StatementIndex": 103,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_TryActivateAbilityByClass_ReturnValue_1",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_Context",
+          "ObjectExpression": {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+                "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+              },
+              "Property": {
+                "Type": "ObjectProperty",
+                "Name": "CallFunc_GetAbilitySystemComponent_ReturnValue",
+                "Flags": "RF_Public",
+                "ElementSize": 8,
+                "PropertyFlags": "InstancedReference",
+                "PropertyClass": {
+                  "ObjectName": "Class'AbilitySystemComponent'",
+                  "ObjectPath": "/Script/GameplayAbilities"
+                }
+              }
+            }
+          },
+          "Offset": 20,
+          "RValuePointer": {
+            "Owner": {
+              "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_TryActivateAbilityByClass_ReturnValue_1",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          },
+          "ContextExpression": {
+            "Inst": "EX_FinalFunction",
+            "Function": {
+              "ObjectName": "Class'AbilitySystemComponent:TryActivateAbilityByClass'",
+              "ObjectPath": "/Script/GameplayAbilities"
+            },
+            "Parameters": [
+              {
+                "Inst": "EX_InstanceVariable",
+                "Variable": {
+                  "Owner": {
+                    "ObjectName": "BlueprintGeneratedClass'GA_ActivateVenomBase_C'",
+                    "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.0"
+                  },
+                  "Property": {
+                    "Type": "ClassProperty",
+                    "Name": "VocalAbility",
+                    "Flags": "RF_Public | RF_LoadCompleted",
+                    "ElementSize": 8,
+                    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance | UObjectWrapper",
+                    "PropertyClass": {
+                      "ObjectName": "Class'Class'",
+                      "ObjectPath": "/Script/CoreUObject"
+                    },
+                    "MetaClass": {
+                      "ObjectName": "Class'GameplayAbility'",
+                      "ObjectPath": "/Script/GameplayAbilities"
+                    }
+                  }
+                }
+              },
+              {
+                "Inst": "EX_True"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "Inst": "EX_PopExecutionFlow",
+        "StatementIndex": 155
+      },
+      {
+        "Inst": "EX_VirtualFunction",
+        "StatementIndex": 156,
+        "Function": "K2_EndAbility",
+        "Parameters": []
+      },
+      {
+        "Inst": "EX_PopExecutionFlow",
+        "StatementIndex": 170
+      },
+      {
+        "Inst": "EX_LetObj",
+        "StatementIndex": 171,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "CallFunc_WaitDelay_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyClass": {
+                "ObjectName": "Class'AbilityTask_WaitDelay'",
+                "ObjectPath": "/Script/GameplayAbilities"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Class'AbilityTask_WaitDelay:WaitDelay'",
+            "ObjectPath": "/Script/GameplayAbilities"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_Self"
+            },
+            {
+              "Inst": "EX_FloatConst",
+              "Value": 2.0
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_LetBool",
+        "StatementIndex": 197,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_IsValid_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Class'KismetSystemLibrary:IsValid'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+                },
+                "Property": {
+                  "Type": "ObjectProperty",
+                  "Name": "CallFunc_WaitDelay_ReturnValue",
+                  "Flags": "RF_Public",
+                  "ElementSize": 8,
+                  "PropertyClass": {
+                    "ObjectName": "Class'AbilityTask_WaitDelay'",
+                    "ObjectPath": "/Script/GameplayAbilities"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_PopExecutionFlowIfNot",
+        "StatementIndex": 226,
+        "BooleanExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_IsValid_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_BindDelegate",
+        "StatementIndex": 236,
+        "FunctionName": "OnFinish_D6C904C94FEB16F63FED0BB121131352",
+        "Delegate": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+            },
+            "Property": {
+              "Type": "DelegateProperty",
+              "Name": "K2Node_CreateDelegate_OutputDelegate_1",
+              "Flags": "RF_Public",
+              "ElementSize": 32,
+              "SignatureFunction": {
+                "ObjectName": "Class'WaitDelayDelegate__DelegateSignature'",
+                "ObjectPath": "/Script/GameplayAbilities"
+              }
+            }
+          }
+        },
+        "ObjectTerm": {
+          "Inst": "EX_Self"
+        }
+      },
+      {
+        "Inst": "EX_AddMulticastDelegate",
+        "StatementIndex": 259,
+        "MulticastDelegate": {
+          "Inst": "EX_Context",
+          "ObjectExpression": {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+                "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+              },
+              "Property": {
+                "Type": "ObjectProperty",
+                "Name": "CallFunc_WaitDelay_ReturnValue",
+                "Flags": "RF_Public",
+                "ElementSize": 8,
+                "PropertyClass": {
+                  "ObjectName": "Class'AbilityTask_WaitDelay'",
+                  "ObjectPath": "/Script/GameplayAbilities"
+                }
+              }
+            }
+          },
+          "Offset": 9,
+          "RValuePointer": {
+            "Path": [
+              "OnFinish"
+            ],
+            "ResolvedOwner": {
+              "ObjectName": "Class'AbilityTask_WaitDelay'",
+              "ObjectPath": "/Script/GameplayAbilities"
+            }
+          },
+          "ContextExpression": {
+            "Inst": "EX_InstanceVariable",
+            "Variable": {
+              "Path": [
+                "OnFinish"
+              ],
+              "ResolvedOwner": {
+                "ObjectName": "Class'AbilityTask_WaitDelay'",
+                "ObjectPath": "/Script/GameplayAbilities"
+              }
+            }
+          }
+        },
+        "Delegate": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+            },
+            "Property": {
+              "Type": "DelegateProperty",
+              "Name": "K2Node_CreateDelegate_OutputDelegate_1",
+              "Flags": "RF_Public",
+              "ElementSize": 32,
+              "SignatureFunction": {
+                "ObjectName": "Class'WaitDelayDelegate__DelegateSignature'",
+                "ObjectPath": "/Script/GameplayAbilities"
+              }
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_Context",
+        "StatementIndex": 300,
+        "ObjectExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "CallFunc_WaitDelay_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyClass": {
+                "ObjectName": "Class'AbilityTask_WaitDelay'",
+                "ObjectPath": "/Script/GameplayAbilities"
+              }
+            }
+          }
+        },
+        "Offset": 10,
+        "RValuePointer": null,
+        "ContextExpression": {
+          "Inst": "EX_FinalFunction",
+          "Function": {
+            "ObjectName": "Class'GameplayTask:ReadyForActivation'",
+            "ObjectPath": "/Script/GameplayTasks"
+          },
+          "Parameters": []
+        }
+      },
+      {
+        "Inst": "EX_PopExecutionFlow",
+        "StatementIndex": 332
+      },
+      {
+        "Inst": "EX_LetBool",
+        "StatementIndex": 333,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_GetIsAlive_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_Context",
+          "ObjectExpression": {
+            "Inst": "EX_InstanceVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "BlueprintGeneratedClass'GA_ActivateVenomBase_C'",
+                "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.0"
+              },
+              "Property": {
+                "Type": "ObjectProperty",
+                "Name": "OwnerRef",
+                "Flags": "RF_Public | RF_LoadCompleted",
+                "ElementSize": 8,
+                "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnTemplate | DisableEditOnInstance",
+                "PropertyClass": {
+                  "ObjectName": "Class'TICharacterBase'",
+                  "ObjectPath": "/Script/TheIsle"
+                }
+              }
+            }
+          },
+          "Offset": 10,
+          "RValuePointer": {
+            "Owner": {
+              "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_GetIsAlive_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          },
+          "ContextExpression": {
+            "Inst": "EX_FinalFunction",
+            "Function": {
+              "ObjectName": "Class'TICharacterBase:GetIsAlive'",
+              "ObjectPath": "/Script/TheIsle"
+            },
+            "Parameters": []
+          }
+        }
+      },
+      {
+        "Inst": "EX_JumpIfNot",
+        "StatementIndex": 375,
+        "CodeOffset": 1317,
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.ExecuteUbergraph_GA_ActivateVenomBase[1317]",
+        "BooleanExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_GetIsAlive_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_LetObj",
+        "StatementIndex": 389,
+        "Variable": {
+          "Inst": "EX_InstanceVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "BlueprintGeneratedClass'GA_ActivateVenomBase_C'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.0"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "LastPouncer",
+              "Flags": "RF_Public | RF_LoadCompleted",
+              "ElementSize": 8,
+              "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnTemplate | DisableEditOnInstance",
+              "PropertyClass": {
+                "ObjectName": "Class'TICharacterBase'",
+                "ObjectPath": "/Script/TheIsle"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_Context",
+          "ObjectExpression": {
+            "Inst": "EX_InstanceVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "BlueprintGeneratedClass'GA_ActivateVenomBase_C'",
+                "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.0"
+              },
+              "Property": {
+                "Type": "ObjectProperty",
+                "Name": "OwnerRef",
+                "Flags": "RF_Public | RF_LoadCompleted",
+                "ElementSize": 8,
+                "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnTemplate | DisableEditOnInstance",
+                "PropertyClass": {
+                  "ObjectName": "Class'TICharacterBase'",
+                  "ObjectPath": "/Script/TheIsle"
+                }
+              }
+            }
+          },
+          "Offset": 9,
+          "RValuePointer": {
+            "Path": [
+              "MyLastVenomPouncer"
+            ],
+            "ResolvedOwner": {
+              "ObjectName": "Class'TICharacterBase'",
+              "ObjectPath": "/Script/TheIsle"
+            }
+          },
+          "ContextExpression": {
+            "Inst": "EX_InstanceVariable",
+            "Variable": {
+              "Path": [
+                "MyLastVenomPouncer"
+              ],
+              "ResolvedOwner": {
+                "ObjectName": "Class'TICharacterBase'",
+                "ObjectPath": "/Script/TheIsle"
+              }
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_SetArray",
+        "StatementIndex": 430,
+        "AssigningProperty": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+            },
+            "Property": {
+              "Type": "ArrayProperty",
+              "Name": "K2Node_MakeArray_Array",
+              "Flags": "RF_Public",
+              "ElementSize": 16,
+              "PropertyFlags": "ConstParm | ReferenceParm",
+              "Inner": {
+                "Type": "ObjectProperty",
+                "Name": "K2Node_MakeArray_Array",
+                "Flags": "RF_Public",
+                "ElementSize": 8,
+                "PropertyClass": {
+                  "ObjectName": "Class'Actor'",
+                  "ObjectPath": "/Script/Engine"
+                }
+              }
+            }
+          }
+        },
+        "Elements": [
+          {
+            "Inst": "EX_InstanceVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "BlueprintGeneratedClass'GA_ActivateVenomBase_C'",
+                "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.0"
+              },
+              "Property": {
+                "Type": "ObjectProperty",
+                "Name": "OwnerRef",
+                "Flags": "RF_Public | RF_LoadCompleted",
+                "ElementSize": 8,
+                "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnTemplate | DisableEditOnInstance",
+                "PropertyClass": {
+                  "ObjectName": "Class'TICharacterBase'",
+                  "ObjectPath": "/Script/TheIsle"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 450,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+            },
+            "Property": {
+              "Type": "StructProperty",
+              "Name": "CallFunc_K2_GetActorLocation_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 24,
+              "Struct": {
+                "ObjectName": "Class'Vector'",
+                "ObjectPath": "/Script/CoreUObject"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_Context",
+          "ObjectExpression": {
+            "Inst": "EX_InstanceVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "BlueprintGeneratedClass'GA_ActivateVenomBase_C'",
+                "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.0"
+              },
+              "Property": {
+                "Type": "ObjectProperty",
+                "Name": "OwnerRef",
+                "Flags": "RF_Public | RF_LoadCompleted",
+                "ElementSize": 8,
+                "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnTemplate | DisableEditOnInstance",
+                "PropertyClass": {
+                  "ObjectName": "Class'TICharacterBase'",
+                  "ObjectPath": "/Script/TheIsle"
+                }
+              }
+            }
+          },
+          "Offset": 10,
+          "RValuePointer": {
+            "Owner": {
+              "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+            },
+            "Property": {
+              "Type": "StructProperty",
+              "Name": "CallFunc_K2_GetActorLocation_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 24,
+              "Struct": {
+                "ObjectName": "Class'Vector'",
+                "ObjectPath": "/Script/CoreUObject"
+              }
+            }
+          },
+          "ContextExpression": {
+            "Inst": "EX_FinalFunction",
+            "Function": {
+              "ObjectName": "Class'Actor:K2_GetActorLocation'",
+              "ObjectPath": "/Script/Engine"
+            },
+            "Parameters": []
+          }
+        }
+      },
+      {
+        "Inst": "EX_SetArray",
+        "StatementIndex": 500,
+        "AssigningProperty": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+            },
+            "Property": {
+              "Type": "ArrayProperty",
+              "Name": "K2Node_MakeArray_Array_1",
+              "Flags": "RF_Public",
+              "ElementSize": 16,
+              "PropertyFlags": "ConstParm | ReferenceParm",
+              "Inner": {
+                "Type": "ByteProperty",
+                "Name": "K2Node_MakeArray_Array_1",
+                "Flags": "RF_Public",
+                "ElementSize": 1,
+                "Enum": {
+                  "ObjectName": "Class'EObjectTypeQuery'",
+                  "ObjectPath": "/Script/Engine"
+                }
+              }
+            }
+          }
+        },
+        "Elements": [
+          {
+            "Inst": "EX_ByteConst",
+            "Value": 2
+          },
+          {
+            "Inst": "EX_ByteConst",
+            "Value": 1
+          }
+        ]
+      },
+      {
+        "Inst": "EX_SetArray",
+        "StatementIndex": 515,
+        "AssigningProperty": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+            },
+            "Property": {
+              "Type": "ArrayProperty",
+              "Name": "CallFunc_SphereOverlapActors_OutActors",
+              "Flags": "RF_Public",
+              "ElementSize": 16,
+              "PropertyFlags": "ReferenceParm",
+              "Inner": {
+                "Type": "ObjectProperty",
+                "Name": "CallFunc_SphereOverlapActors_OutActors",
+                "Flags": "RF_Public",
+                "ElementSize": 8,
+                "PropertyClass": {
+                  "ObjectName": "Class'Actor'",
+                  "ObjectPath": "/Script/Engine"
+                }
+              }
+            }
+          }
+        },
+        "Elements": []
+      },
+      {
+        "Inst": "EX_LetBool",
+        "StatementIndex": 526,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_SphereOverlapActors_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Class'KismetSystemLibrary:SphereOverlapActors'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_Self"
+            },
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+                },
+                "Property": {
+                  "Type": "StructProperty",
+                  "Name": "CallFunc_K2_GetActorLocation_ReturnValue",
+                  "Flags": "RF_Public",
+                  "ElementSize": 24,
+                  "Struct": {
+                    "ObjectName": "Class'Vector'",
+                    "ObjectPath": "/Script/CoreUObject"
+                  }
+                }
+              }
+            },
+            {
+              "Inst": "EX_FloatConst",
+              "Value": 8000.0
+            },
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+                },
+                "Property": {
+                  "Type": "ArrayProperty",
+                  "Name": "K2Node_MakeArray_Array_1",
+                  "Flags": "RF_Public",
+                  "ElementSize": 16,
+                  "PropertyFlags": "ConstParm | ReferenceParm",
+                  "Inner": {
+                    "Type": "ByteProperty",
+                    "Name": "K2Node_MakeArray_Array_1",
+                    "Flags": "RF_Public",
+                    "ElementSize": 1,
+                    "Enum": {
+                      "ObjectName": "Class'EObjectTypeQuery'",
+                      "ObjectPath": "/Script/Engine"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "Inst": "EX_ObjectConst",
+              "Value": {
+                "ObjectName": "Class'TITroodon'",
+                "ObjectPath": "/Script/TheIsle"
+              }
+            },
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+                },
+                "Property": {
+                  "Type": "ArrayProperty",
+                  "Name": "K2Node_MakeArray_Array",
+                  "Flags": "RF_Public",
+                  "ElementSize": 16,
+                  "PropertyFlags": "ConstParm | ReferenceParm",
+                  "Inner": {
+                    "Type": "ObjectProperty",
+                    "Name": "K2Node_MakeArray_Array",
+                    "Flags": "RF_Public",
+                    "ElementSize": 8,
+                    "PropertyClass": {
+                      "ObjectName": "Class'Actor'",
+                      "ObjectPath": "/Script/Engine"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+                },
+                "Property": {
+                  "Type": "ArrayProperty",
+                  "Name": "CallFunc_SphereOverlapActors_OutActors",
+                  "Flags": "RF_Public",
+                  "ElementSize": 16,
+                  "PropertyFlags": "ReferenceParm",
+                  "Inner": {
+                    "Type": "ObjectProperty",
+                    "Name": "CallFunc_SphereOverlapActors_OutActors",
+                    "Flags": "RF_Public",
+                    "ElementSize": 8,
+                    "PropertyClass": {
+                      "ObjectName": "Class'Actor'",
+                      "ObjectPath": "/Script/Engine"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 597,
+        "Variable": {
+          "Inst": "EX_InstanceVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "BlueprintGeneratedClass'GA_ActivateVenomBase_C'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.0"
+            },
+            "Property": {
+              "Type": "ArrayProperty",
+              "Name": "TroodonsFound",
+              "Flags": "RF_Public | RF_LoadCompleted",
+              "ElementSize": 16,
+              "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnTemplate | DisableEditOnInstance",
+              "Inner": {
+                "Type": "ObjectProperty",
+                "Name": "TroodonsFound",
+                "Flags": "RF_Public",
+                "ElementSize": 8,
+                "PropertyClass": {
+                  "ObjectName": "Class'Actor'",
+                  "ObjectPath": "/Script/Engine"
+                }
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+            },
+            "Property": {
+              "Type": "ArrayProperty",
+              "Name": "CallFunc_SphereOverlapActors_OutActors",
+              "Flags": "RF_Public",
+              "ElementSize": 16,
+              "PropertyFlags": "ReferenceParm",
+              "Inner": {
+                "Type": "ObjectProperty",
+                "Name": "CallFunc_SphereOverlapActors_OutActors",
+                "Flags": "RF_Public",
+                "ElementSize": 8,
+                "PropertyClass": {
+                  "ObjectName": "Class'Actor'",
+                  "ObjectPath": "/Script/Engine"
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 624,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+            },
+            "Property": {
+              "Type": "IntProperty",
+              "Name": "Temp_int_Loop_Counter_Variable_2",
+              "Flags": "RF_Public",
+              "ElementSize": 4
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_IntConst",
+          "Value": 0
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 647,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+            },
+            "Property": {
+              "Type": "IntProperty",
+              "Name": "Temp_int_Array_Index_Variable_1",
+              "Flags": "RF_Public",
+              "ElementSize": 4
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_IntConst",
+          "Value": 0
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 670,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+            },
+            "Property": {
+              "Type": "IntProperty",
+              "Name": "CallFunc_Array_Length_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 4
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_Context",
+          "ObjectExpression": {
+            "Inst": "EX_ObjectConst",
+            "Value": {
+              "ObjectName": "Class'Default__KismetArrayLibrary'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          "Offset": 19,
+          "RValuePointer": {
+            "Owner": {
+              "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+            },
+            "Property": {
+              "Type": "IntProperty",
+              "Name": "CallFunc_Array_Length_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 4
+            }
+          },
+          "ContextExpression": {
+            "Inst": "EX_FinalFunction",
+            "Function": {
+              "ObjectName": "Class'KismetArrayLibrary:Array_Length'",
+              "ObjectPath": "/Script/Engine"
+            },
+            "Parameters": [
+              {
+                "Inst": "EX_InstanceVariable",
+                "Variable": {
+                  "Owner": {
+                    "ObjectName": "BlueprintGeneratedClass'GA_ActivateVenomBase_C'",
+                    "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.0"
+                  },
+                  "Property": {
+                    "Type": "ArrayProperty",
+                    "Name": "TroodonsFound",
+                    "Flags": "RF_Public | RF_LoadCompleted",
+                    "ElementSize": 16,
+                    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnTemplate | DisableEditOnInstance",
+                    "Inner": {
+                      "Type": "ObjectProperty",
+                      "Name": "TroodonsFound",
+                      "Flags": "RF_Public",
+                      "ElementSize": 8,
+                      "PropertyClass": {
+                        "ObjectName": "Class'Actor'",
+                        "ObjectPath": "/Script/Engine"
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "Inst": "EX_LetBool",
+        "StatementIndex": 729,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_Less_IntInt_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Class'KismetMathLibrary:Less_IntInt'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+                },
+                "Property": {
+                  "Type": "IntProperty",
+                  "Name": "Temp_int_Loop_Counter_Variable_2",
+                  "Flags": "RF_Public",
+                  "ElementSize": 4
+                }
+              }
+            },
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+                },
+                "Property": {
+                  "Type": "IntProperty",
+                  "Name": "CallFunc_Array_Length_ReturnValue",
+                  "Flags": "RF_Public",
+                  "ElementSize": 4
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_JumpIfNot",
+        "StatementIndex": 767,
+        "CodeOffset": 1332,
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.ExecuteUbergraph_GA_ActivateVenomBase[1332]",
+        "BooleanExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_Less_IntInt_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 781,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+            },
+            "Property": {
+              "Type": "IntProperty",
+              "Name": "Temp_int_Array_Index_Variable_1",
+              "Flags": "RF_Public",
+              "ElementSize": 4
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+            },
+            "Property": {
+              "Type": "IntProperty",
+              "Name": "Temp_int_Loop_Counter_Variable_2",
+              "Flags": "RF_Public",
+              "ElementSize": 4
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_PushExecutionFlow",
+        "StatementIndex": 808,
+        "PushingAddress": 2586,
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.ExecuteUbergraph_GA_ActivateVenomBase[2586]"
+      },
+      {
+        "Inst": "EX_Context",
+        "StatementIndex": 813,
+        "ObjectExpression": {
+          "Inst": "EX_ObjectConst",
+          "Value": {
+            "ObjectName": "Class'Default__KismetArrayLibrary'",
+            "ObjectPath": "/Script/Engine"
+          }
+        },
+        "Offset": 37,
+        "RValuePointer": null,
+        "ContextExpression": {
+          "Inst": "EX_FinalFunction",
+          "Function": {
+            "ObjectName": "Class'KismetArrayLibrary:Array_Get'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_InstanceVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "BlueprintGeneratedClass'GA_ActivateVenomBase_C'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.0"
+                },
+                "Property": {
+                  "Type": "ArrayProperty",
+                  "Name": "TroodonsFound",
+                  "Flags": "RF_Public | RF_LoadCompleted",
+                  "ElementSize": 16,
+                  "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnTemplate | DisableEditOnInstance",
+                  "Inner": {
+                    "Type": "ObjectProperty",
+                    "Name": "TroodonsFound",
+                    "Flags": "RF_Public",
+                    "ElementSize": 8,
+                    "PropertyClass": {
+                      "ObjectName": "Class'Actor'",
+                      "ObjectPath": "/Script/Engine"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+                },
+                "Property": {
+                  "Type": "IntProperty",
+                  "Name": "Temp_int_Array_Index_Variable_1",
+                  "Flags": "RF_Public",
+                  "ElementSize": 4
+                }
+              }
+            },
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+                },
+                "Property": {
+                  "Type": "ObjectProperty",
+                  "Name": "CallFunc_Array_Get_Item",
+                  "Flags": "RF_Public",
+                  "ElementSize": 8,
+                  "PropertyClass": {
+                    "ObjectName": "Class'Actor'",
+                    "ObjectPath": "/Script/Engine"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 872,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "K2Node_DynamicCast_AsThe_Isle_Troodon",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyClass": {
+                "ObjectName": "Class'TITroodon'",
+                "ObjectPath": "/Script/TheIsle"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_DynamicCast",
+          "InterfaceClass": {
+            "ObjectName": "Class'TITroodon'",
+            "ObjectPath": "/Script/TheIsle"
+          },
+          "Target": {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+                "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+              },
+              "Property": {
+                "Type": "ObjectProperty",
+                "Name": "CallFunc_Array_Get_Item",
+                "Flags": "RF_Public",
+                "ElementSize": 8,
+                "PropertyClass": {
+                  "ObjectName": "Class'Actor'",
+                  "ObjectPath": "/Script/Engine"
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 908,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "K2Node_DynamicCast_bSuccess",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_Cast",
+          "ConversionType": "CST_ObjectToBool",
+          "Target": {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+                "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+              },
+              "Property": {
+                "Type": "ObjectProperty",
+                "Name": "K2Node_DynamicCast_AsThe_Isle_Troodon",
+                "Flags": "RF_Public",
+                "ElementSize": 8,
+                "PropertyClass": {
+                  "ObjectName": "Class'TITroodon'",
+                  "ObjectPath": "/Script/TheIsle"
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_PopExecutionFlowIfNot",
+        "StatementIndex": 937,
+        "BooleanExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "K2Node_DynamicCast_bSuccess",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 947,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+            },
+            "Property": {
+              "Type": "FloatProperty",
+              "Name": "CallFunc_GetMaxHealth_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 4
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_Context",
+          "ObjectExpression": {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+                "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+              },
+              "Property": {
+                "Type": "ObjectProperty",
+                "Name": "K2Node_DynamicCast_AsThe_Isle_Troodon",
+                "Flags": "RF_Public",
+                "ElementSize": 8,
+                "PropertyClass": {
+                  "ObjectName": "Class'TITroodon'",
+                  "ObjectPath": "/Script/TheIsle"
+                }
+              }
+            }
+          },
+          "Offset": 14,
+          "RValuePointer": {
+            "Owner": {
+              "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+            },
+            "Property": {
+              "Type": "FloatProperty",
+              "Name": "CallFunc_GetMaxHealth_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 4
+            }
+          },
+          "ContextExpression": {
+            "Inst": "EX_VirtualFunction",
+            "Function": "GetMaxHealth",
+            "Parameters": []
+          }
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 1001,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+            },
+            "Property": {
+              "Type": "FloatProperty",
+              "Name": "CallFunc_GetHealth_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 4
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_Context",
+          "ObjectExpression": {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+                "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+              },
+              "Property": {
+                "Type": "ObjectProperty",
+                "Name": "K2Node_DynamicCast_AsThe_Isle_Troodon",
+                "Flags": "RF_Public",
+                "ElementSize": 8,
+                "PropertyClass": {
+                  "ObjectName": "Class'TITroodon'",
+                  "ObjectPath": "/Script/TheIsle"
+                }
+              }
+            }
+          },
+          "Offset": 14,
+          "RValuePointer": {
+            "Owner": {
+              "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+            },
+            "Property": {
+              "Type": "FloatProperty",
+              "Name": "CallFunc_GetHealth_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 4
+            }
+          },
+          "ContextExpression": {
+            "Inst": "EX_VirtualFunction",
+            "Function": "GetHealth",
+            "Parameters": []
+          }
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 1055,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+            },
+            "Property": {
+              "Type": "DoubleProperty",
+              "Name": "CallFunc_Divide_DoubleDouble_A_ImplicitCast",
+              "Flags": "RF_Public",
+              "ElementSize": 8
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_Cast",
+          "ConversionType": "CST_FloatToDouble",
+          "Target": {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+                "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+              },
+              "Property": {
+                "Type": "FloatProperty",
+                "Name": "CallFunc_GetHealth_ReturnValue",
+                "Flags": "RF_Public",
+                "ElementSize": 4
+              }
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 1084,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+            },
+            "Property": {
+              "Type": "DoubleProperty",
+              "Name": "CallFunc_Divide_DoubleDouble_B_ImplicitCast",
+              "Flags": "RF_Public",
+              "ElementSize": 8
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_Cast",
+          "ConversionType": "CST_FloatToDouble",
+          "Target": {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+                "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+              },
+              "Property": {
+                "Type": "FloatProperty",
+                "Name": "CallFunc_GetMaxHealth_ReturnValue",
+                "Flags": "RF_Public",
+                "ElementSize": 4
+              }
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 1113,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+            },
+            "Property": {
+              "Type": "DoubleProperty",
+              "Name": "CallFunc_Divide_DoubleDouble_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 8
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Class'KismetMathLibrary:Divide_DoubleDouble'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+                },
+                "Property": {
+                  "Type": "DoubleProperty",
+                  "Name": "CallFunc_Divide_DoubleDouble_A_ImplicitCast",
+                  "Flags": "RF_Public",
+                  "ElementSize": 8
+                }
+              }
+            },
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+                },
+                "Property": {
+                  "Type": "DoubleProperty",
+                  "Name": "CallFunc_Divide_DoubleDouble_B_ImplicitCast",
+                  "Flags": "RF_Public",
+                  "ElementSize": 8
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_LetBool",
+        "StatementIndex": 1159,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_GreaterEqual_DoubleDouble_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Class'KismetMathLibrary:GreaterEqual_DoubleDouble'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+                },
+                "Property": {
+                  "Type": "DoubleProperty",
+                  "Name": "CallFunc_Divide_DoubleDouble_ReturnValue",
+                  "Flags": "RF_Public",
+                  "ElementSize": 8
+                }
+              }
+            },
+            {
+              "Inst": "EX_DoubleConst",
+              "Value": 0.6
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_PopExecutionFlowIfNot",
+        "StatementIndex": 1197,
+        "BooleanExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_GreaterEqual_DoubleDouble_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 1207,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+            },
+            "Property": {
+              "Type": "IntProperty",
+              "Name": "CallFunc_GetGroupID_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 4,
+              "PropertyFlags": "ConstParm"
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_Context",
+          "ObjectExpression": {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+                "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+              },
+              "Property": {
+                "Type": "ObjectProperty",
+                "Name": "K2Node_DynamicCast_AsThe_Isle_Troodon",
+                "Flags": "RF_Public",
+                "ElementSize": 8,
+                "PropertyClass": {
+                  "ObjectName": "Class'TITroodon'",
+                  "ObjectPath": "/Script/TheIsle"
+                }
+              }
+            }
+          },
+          "Offset": 10,
+          "RValuePointer": {
+            "Owner": {
+              "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+            },
+            "Property": {
+              "Type": "IntProperty",
+              "Name": "CallFunc_GetGroupID_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 4,
+              "PropertyFlags": "ConstParm"
+            }
+          },
+          "ContextExpression": {
+            "Inst": "EX_FinalFunction",
+            "Function": {
+              "ObjectName": "Class'TICharacterBase:GetGroupID'",
+              "ObjectPath": "/Script/TheIsle"
+            },
+            "Parameters": []
+          }
+        }
+      },
+      {
+        "Inst": "EX_Context",
+        "StatementIndex": 1257,
+        "ObjectExpression": {
+          "Inst": "EX_ObjectConst",
+          "Value": {
+            "ObjectName": "Class'Default__BlueprintMapLibrary'",
+            "ObjectPath": "/Script/Engine"
+          }
+        },
+        "Offset": 37,
+        "RValuePointer": null,
+        "ContextExpression": {
+          "Inst": "EX_FinalFunction",
+          "Function": {
+            "ObjectName": "Class'BlueprintMapLibrary:Map_Add'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_InstanceVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "BlueprintGeneratedClass'GA_ActivateVenomBase_C'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.0"
+                },
+                "Property": {
+                  "Type": "MapProperty",
+                  "Name": "TargetsArray",
+                  "Flags": "RF_Public | RF_LoadCompleted",
+                  "ElementSize": 80,
+                  "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnTemplate | DisableEditOnInstance",
+                  "KeyProp": {
+                    "Type": "ObjectProperty",
+                    "Name": "TargetsArray",
+                    "Flags": "RF_Public",
+                    "ElementSize": 8,
+                    "PropertyClass": {
+                      "ObjectName": "Class'TICharacterBase'",
+                      "ObjectPath": "/Script/TheIsle"
+                    }
+                  },
+                  "ValueProp": {
+                    "Type": "IntProperty",
+                    "Name": "TargetsArray_Value",
+                    "Flags": "RF_Public",
+                    "ElementSize": 4
+                  }
+                }
+              }
+            },
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+                },
+                "Property": {
+                  "Type": "ObjectProperty",
+                  "Name": "K2Node_DynamicCast_AsThe_Isle_Troodon",
+                  "Flags": "RF_Public",
+                  "ElementSize": 8,
+                  "PropertyClass": {
+                    "ObjectName": "Class'TITroodon'",
+                    "ObjectPath": "/Script/TheIsle"
+                  }
+                }
+              }
+            },
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+                },
+                "Property": {
+                  "Type": "IntProperty",
+                  "Name": "CallFunc_GetGroupID_ReturnValue",
+                  "Flags": "RF_Public",
+                  "ElementSize": 4,
+                  "PropertyFlags": "ConstParm"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_PopExecutionFlow",
+        "StatementIndex": 1316
+      },
+      {
+        "Inst": "EX_VirtualFunction",
+        "StatementIndex": 1317,
+        "Function": "K2_EndAbility",
+        "Parameters": []
+      },
+      {
+        "Inst": "EX_PopExecutionFlow",
+        "StatementIndex": 1331
+      },
+      {
+        "Inst": "EX_SetArray",
+        "StatementIndex": 1332,
+        "AssigningProperty": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+            },
+            "Property": {
+              "Type": "ArrayProperty",
+              "Name": "CallFunc_Map_Keys_Keys",
+              "Flags": "RF_Public",
+              "ElementSize": 16,
+              "PropertyFlags": "ReferenceParm",
+              "Inner": {
+                "Type": "ObjectProperty",
+                "Name": "CallFunc_Map_Keys_Keys",
+                "Flags": "RF_Public",
+                "ElementSize": 8,
+                "PropertyClass": {
+                  "ObjectName": "Class'TICharacterBase'",
+                  "ObjectPath": "/Script/TheIsle"
+                }
+              }
+            }
+          }
+        },
+        "Elements": []
+      },
+      {
+        "Inst": "EX_Context",
+        "StatementIndex": 1343,
+        "ObjectExpression": {
+          "Inst": "EX_ObjectConst",
+          "Value": {
+            "ObjectName": "Class'Default__BlueprintMapLibrary'",
+            "ObjectPath": "/Script/Engine"
+          }
+        },
+        "Offset": 28,
+        "RValuePointer": null,
+        "ContextExpression": {
+          "Inst": "EX_FinalFunction",
+          "Function": {
+            "ObjectName": "Class'BlueprintMapLibrary:Map_Keys'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_InstanceVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "BlueprintGeneratedClass'GA_ActivateVenomBase_C'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.0"
+                },
+                "Property": {
+                  "Type": "MapProperty",
+                  "Name": "TargetsArray",
+                  "Flags": "RF_Public | RF_LoadCompleted",
+                  "ElementSize": 80,
+                  "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnTemplate | DisableEditOnInstance",
+                  "KeyProp": {
+                    "Type": "ObjectProperty",
+                    "Name": "TargetsArray",
+                    "Flags": "RF_Public",
+                    "ElementSize": 8,
+                    "PropertyClass": {
+                      "ObjectName": "Class'TICharacterBase'",
+                      "ObjectPath": "/Script/TheIsle"
+                    }
+                  },
+                  "ValueProp": {
+                    "Type": "IntProperty",
+                    "Name": "TargetsArray_Value",
+                    "Flags": "RF_Public",
+                    "ElementSize": 4
+                  }
+                }
+              }
+            },
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+                },
+                "Property": {
+                  "Type": "ArrayProperty",
+                  "Name": "CallFunc_Map_Keys_Keys",
+                  "Flags": "RF_Public",
+                  "ElementSize": 16,
+                  "PropertyFlags": "ReferenceParm",
+                  "Inner": {
+                    "Type": "ObjectProperty",
+                    "Name": "CallFunc_Map_Keys_Keys",
+                    "Flags": "RF_Public",
+                    "ElementSize": 8,
+                    "PropertyClass": {
+                      "ObjectName": "Class'TICharacterBase'",
+                      "ObjectPath": "/Script/TheIsle"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 1393,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+            },
+            "Property": {
+              "Type": "IntProperty",
+              "Name": "Temp_int_Loop_Counter_Variable_1",
+              "Flags": "RF_Public",
+              "ElementSize": 4
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_IntConst",
+          "Value": 0
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 1416,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+            },
+            "Property": {
+              "Type": "IntProperty",
+              "Name": "Temp_int_Array_Index_Variable",
+              "Flags": "RF_Public",
+              "ElementSize": 4
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_IntConst",
+          "Value": 0
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 1439,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+            },
+            "Property": {
+              "Type": "IntProperty",
+              "Name": "CallFunc_Array_Length_ReturnValue_1",
+              "Flags": "RF_Public",
+              "ElementSize": 4
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_Context",
+          "ObjectExpression": {
+            "Inst": "EX_ObjectConst",
+            "Value": {
+              "ObjectName": "Class'Default__KismetArrayLibrary'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          "Offset": 19,
+          "RValuePointer": {
+            "Owner": {
+              "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+            },
+            "Property": {
+              "Type": "IntProperty",
+              "Name": "CallFunc_Array_Length_ReturnValue_1",
+              "Flags": "RF_Public",
+              "ElementSize": 4
+            }
+          },
+          "ContextExpression": {
+            "Inst": "EX_FinalFunction",
+            "Function": {
+              "ObjectName": "Class'KismetArrayLibrary:Array_Length'",
+              "ObjectPath": "/Script/Engine"
+            },
+            "Parameters": [
+              {
+                "Inst": "EX_LocalVariable",
+                "Variable": {
+                  "Owner": {
+                    "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+                    "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+                  },
+                  "Property": {
+                    "Type": "ArrayProperty",
+                    "Name": "CallFunc_Map_Keys_Keys",
+                    "Flags": "RF_Public",
+                    "ElementSize": 16,
+                    "PropertyFlags": "ReferenceParm",
+                    "Inner": {
+                      "Type": "ObjectProperty",
+                      "Name": "CallFunc_Map_Keys_Keys",
+                      "Flags": "RF_Public",
+                      "ElementSize": 8,
+                      "PropertyClass": {
+                        "ObjectName": "Class'TICharacterBase'",
+                        "ObjectPath": "/Script/TheIsle"
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "Inst": "EX_LetBool",
+        "StatementIndex": 1498,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_Less_IntInt_ReturnValue_1",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Class'KismetMathLibrary:Less_IntInt'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+                },
+                "Property": {
+                  "Type": "IntProperty",
+                  "Name": "Temp_int_Loop_Counter_Variable_1",
+                  "Flags": "RF_Public",
+                  "ElementSize": 4
+                }
+              }
+            },
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+                },
+                "Property": {
+                  "Type": "IntProperty",
+                  "Name": "CallFunc_Array_Length_ReturnValue_1",
+                  "Flags": "RF_Public",
+                  "ElementSize": 4
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_JumpIfNot",
+        "StatementIndex": 1536,
+        "CodeOffset": 1766,
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.ExecuteUbergraph_GA_ActivateVenomBase[1766]",
+        "BooleanExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_Less_IntInt_ReturnValue_1",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 1550,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+            },
+            "Property": {
+              "Type": "IntProperty",
+              "Name": "Temp_int_Array_Index_Variable",
+              "Flags": "RF_Public",
+              "ElementSize": 4
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+            },
+            "Property": {
+              "Type": "IntProperty",
+              "Name": "Temp_int_Loop_Counter_Variable_1",
+              "Flags": "RF_Public",
+              "ElementSize": 4
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_PushExecutionFlow",
+        "StatementIndex": 1577,
+        "PushingAddress": 1692,
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.ExecuteUbergraph_GA_ActivateVenomBase[1692]"
+      },
+      {
+        "Inst": "EX_Context",
+        "StatementIndex": 1582,
+        "ObjectExpression": {
+          "Inst": "EX_ObjectConst",
+          "Value": {
+            "ObjectName": "Class'Default__KismetArrayLibrary'",
+            "ObjectPath": "/Script/Engine"
+          }
+        },
+        "Offset": 37,
+        "RValuePointer": null,
+        "ContextExpression": {
+          "Inst": "EX_FinalFunction",
+          "Function": {
+            "ObjectName": "Class'KismetArrayLibrary:Array_Get'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+                },
+                "Property": {
+                  "Type": "ArrayProperty",
+                  "Name": "CallFunc_Map_Keys_Keys",
+                  "Flags": "RF_Public",
+                  "ElementSize": 16,
+                  "PropertyFlags": "ReferenceParm",
+                  "Inner": {
+                    "Type": "ObjectProperty",
+                    "Name": "CallFunc_Map_Keys_Keys",
+                    "Flags": "RF_Public",
+                    "ElementSize": 8,
+                    "PropertyClass": {
+                      "ObjectName": "Class'TICharacterBase'",
+                      "ObjectPath": "/Script/TheIsle"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+                },
+                "Property": {
+                  "Type": "IntProperty",
+                  "Name": "Temp_int_Array_Index_Variable",
+                  "Flags": "RF_Public",
+                  "ElementSize": 4
+                }
+              }
+            },
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+                },
+                "Property": {
+                  "Type": "ObjectProperty",
+                  "Name": "CallFunc_Array_Get_Item_1",
+                  "Flags": "RF_Public",
+                  "ElementSize": 8,
+                  "PropertyClass": {
+                    "ObjectName": "Class'TICharacterBase'",
+                    "ObjectPath": "/Script/TheIsle"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_Context",
+        "StatementIndex": 1641,
+        "ObjectExpression": {
+          "Inst": "EX_ObjectConst",
+          "Value": {
+            "ObjectName": "Class'Default__BlueprintSetLibrary'",
+            "ObjectPath": "/Script/Engine"
+          }
+        },
+        "Offset": 28,
+        "RValuePointer": null,
+        "ContextExpression": {
+          "Inst": "EX_FinalFunction",
+          "Function": {
+            "ObjectName": "Class'BlueprintSetLibrary:Set_Add'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_InstanceVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "BlueprintGeneratedClass'GA_ActivateVenomBase_C'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.0"
+                },
+                "Property": {
+                  "Type": "SetProperty",
+                  "Name": "FinalTroodonsList",
+                  "Flags": "RF_Public | RF_LoadCompleted",
+                  "ElementSize": 80,
+                  "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnTemplate | DisableEditOnInstance",
+                  "ElementProp": {
+                    "Type": "ObjectProperty",
+                    "Name": "FinalTroodonsList",
+                    "Flags": "RF_Public",
+                    "ElementSize": 8,
+                    "PropertyClass": {
+                      "ObjectName": "Class'TICharacterBase'",
+                      "ObjectPath": "/Script/TheIsle"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+                },
+                "Property": {
+                  "Type": "ObjectProperty",
+                  "Name": "CallFunc_Array_Get_Item_1",
+                  "Flags": "RF_Public",
+                  "ElementSize": 8,
+                  "PropertyClass": {
+                    "ObjectName": "Class'TICharacterBase'",
+                    "ObjectPath": "/Script/TheIsle"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_PopExecutionFlow",
+        "StatementIndex": 1691
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 1692,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+            },
+            "Property": {
+              "Type": "IntProperty",
+              "Name": "CallFunc_Add_IntInt_ReturnValue_2",
+              "Flags": "RF_Public",
+              "ElementSize": 4
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Class'KismetMathLibrary:Add_IntInt'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+                },
+                "Property": {
+                  "Type": "IntProperty",
+                  "Name": "Temp_int_Loop_Counter_Variable_1",
+                  "Flags": "RF_Public",
+                  "ElementSize": 4
+                }
+              }
+            },
+            {
+              "Inst": "EX_IntConst",
+              "Value": 1
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 1734,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+            },
+            "Property": {
+              "Type": "IntProperty",
+              "Name": "Temp_int_Loop_Counter_Variable_1",
+              "Flags": "RF_Public",
+              "ElementSize": 4
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+            },
+            "Property": {
+              "Type": "IntProperty",
+              "Name": "CallFunc_Add_IntInt_ReturnValue_2",
+              "Flags": "RF_Public",
+              "ElementSize": 4
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_Jump",
+        "StatementIndex": 1761,
+        "CodeOffset": 1439,
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.ExecuteUbergraph_GA_ActivateVenomBase[1439]"
+      },
+      {
+        "Inst": "EX_PushExecutionFlow",
+        "StatementIndex": 1766,
+        "PushingAddress": 2021,
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.ExecuteUbergraph_GA_ActivateVenomBase[2021]"
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 1771,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+            },
+            "Property": {
+              "Type": "DoubleProperty",
+              "Name": "CallFunc_SelectFloat_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 8
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Class'KismetMathLibrary:SelectFloat'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_DoubleConst",
+              "Value": 0.5
+            },
+            {
+              "Inst": "EX_DoubleConst",
+              "Value": 0.15
+            },
+            {
+              "Inst": "EX_InstanceVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "BlueprintGeneratedClass'GA_ActivateVenomBase_C'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.0"
+                },
+                "Property": {
+                  "Type": "BoolProperty",
+                  "Name": "bIsEnvenomated",
+                  "Flags": "RF_Public | RF_LoadCompleted",
+                  "ElementSize": 1,
+                  "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+                  "FieldSize": 1,
+                  "ByteOffset": 0,
+                  "ByteMask": 1,
+                  "FieldMask": 255,
+                  "BoolSize": 1,
+                  "bIsNativeBool": true
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 1826,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+            },
+            "Property": {
+              "Type": "FloatProperty",
+              "Name": "CallFunc_WaitDelay_Time_ImplicitCast_1",
+              "Flags": "RF_Public",
+              "ElementSize": 4
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_Cast",
+          "ConversionType": "CST_DoubleToFloat",
+          "Target": {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+                "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+              },
+              "Property": {
+                "Type": "DoubleProperty",
+                "Name": "CallFunc_SelectFloat_ReturnValue",
+                "Flags": "RF_Public",
+                "ElementSize": 8
+              }
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_LetObj",
+        "StatementIndex": 1855,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "CallFunc_WaitDelay_ReturnValue_2",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyClass": {
+                "ObjectName": "Class'AbilityTask_WaitDelay'",
+                "ObjectPath": "/Script/GameplayAbilities"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Class'AbilityTask_WaitDelay:WaitDelay'",
+            "ObjectPath": "/Script/GameplayAbilities"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_Self"
+            },
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+                },
+                "Property": {
+                  "Type": "FloatProperty",
+                  "Name": "CallFunc_WaitDelay_Time_ImplicitCast_1",
+                  "Flags": "RF_Public",
+                  "ElementSize": 4
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_LetBool",
+        "StatementIndex": 1885,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_IsValid_ReturnValue_1",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Class'KismetSystemLibrary:IsValid'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+                },
+                "Property": {
+                  "Type": "ObjectProperty",
+                  "Name": "CallFunc_WaitDelay_ReturnValue_2",
+                  "Flags": "RF_Public",
+                  "ElementSize": 8,
+                  "PropertyClass": {
+                    "ObjectName": "Class'AbilityTask_WaitDelay'",
+                    "ObjectPath": "/Script/GameplayAbilities"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_PopExecutionFlowIfNot",
+        "StatementIndex": 1914,
+        "BooleanExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_IsValid_ReturnValue_1",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_BindDelegate",
+        "StatementIndex": 1924,
+        "FunctionName": "OnFinish_D6F208DC43365B890F6FCF96198FA246",
+        "Delegate": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+            },
+            "Property": {
+              "Type": "DelegateProperty",
+              "Name": "K2Node_CreateDelegate_OutputDelegate_2",
+              "Flags": "RF_Public",
+              "ElementSize": 32,
+              "SignatureFunction": {
+                "ObjectName": "Class'WaitDelayDelegate__DelegateSignature'",
+                "ObjectPath": "/Script/GameplayAbilities"
+              }
+            }
+          }
+        },
+        "ObjectTerm": {
+          "Inst": "EX_Self"
+        }
+      },
+      {
+        "Inst": "EX_AddMulticastDelegate",
+        "StatementIndex": 1947,
+        "MulticastDelegate": {
+          "Inst": "EX_Context",
+          "ObjectExpression": {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+                "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+              },
+              "Property": {
+                "Type": "ObjectProperty",
+                "Name": "CallFunc_WaitDelay_ReturnValue_2",
+                "Flags": "RF_Public",
+                "ElementSize": 8,
+                "PropertyClass": {
+                  "ObjectName": "Class'AbilityTask_WaitDelay'",
+                  "ObjectPath": "/Script/GameplayAbilities"
+                }
+              }
+            }
+          },
+          "Offset": 9,
+          "RValuePointer": {
+            "Path": [
+              "OnFinish"
+            ],
+            "ResolvedOwner": {
+              "ObjectName": "Class'AbilityTask_WaitDelay'",
+              "ObjectPath": "/Script/GameplayAbilities"
+            }
+          },
+          "ContextExpression": {
+            "Inst": "EX_InstanceVariable",
+            "Variable": {
+              "Path": [
+                "OnFinish"
+              ],
+              "ResolvedOwner": {
+                "ObjectName": "Class'AbilityTask_WaitDelay'",
+                "ObjectPath": "/Script/GameplayAbilities"
+              }
+            }
+          }
+        },
+        "Delegate": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+            },
+            "Property": {
+              "Type": "DelegateProperty",
+              "Name": "K2Node_CreateDelegate_OutputDelegate_2",
+              "Flags": "RF_Public",
+              "ElementSize": 32,
+              "SignatureFunction": {
+                "ObjectName": "Class'WaitDelayDelegate__DelegateSignature'",
+                "ObjectPath": "/Script/GameplayAbilities"
+              }
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_Context",
+        "StatementIndex": 1988,
+        "ObjectExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "CallFunc_WaitDelay_ReturnValue_2",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyClass": {
+                "ObjectName": "Class'AbilityTask_WaitDelay'",
+                "ObjectPath": "/Script/GameplayAbilities"
+              }
+            }
+          }
+        },
+        "Offset": 10,
+        "RValuePointer": null,
+        "ContextExpression": {
+          "Inst": "EX_FinalFunction",
+          "Function": {
+            "ObjectName": "Class'GameplayTask:ReadyForActivation'",
+            "ObjectPath": "/Script/GameplayTasks"
+          },
+          "Parameters": []
+        }
+      },
+      {
+        "Inst": "EX_PopExecutionFlow",
+        "StatementIndex": 2020
+      },
+      {
+        "Inst": "EX_SetArray",
+        "StatementIndex": 2021,
+        "AssigningProperty": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+            },
+            "Property": {
+              "Type": "ArrayProperty",
+              "Name": "CallFunc_Set_ToArray_Result",
+              "Flags": "RF_Public",
+              "ElementSize": 16,
+              "PropertyFlags": "ReferenceParm",
+              "Inner": {
+                "Type": "ObjectProperty",
+                "Name": "CallFunc_Set_ToArray_Result",
+                "Flags": "RF_Public",
+                "ElementSize": 8,
+                "PropertyClass": {
+                  "ObjectName": "Class'TICharacterBase'",
+                  "ObjectPath": "/Script/TheIsle"
+                }
+              }
+            }
+          }
+        },
+        "Elements": []
+      },
+      {
+        "Inst": "EX_Context",
+        "StatementIndex": 2032,
+        "ObjectExpression": {
+          "Inst": "EX_ObjectConst",
+          "Value": {
+            "ObjectName": "Class'Default__BlueprintSetLibrary'",
+            "ObjectPath": "/Script/Engine"
+          }
+        },
+        "Offset": 28,
+        "RValuePointer": null,
+        "ContextExpression": {
+          "Inst": "EX_FinalFunction",
+          "Function": {
+            "ObjectName": "Class'BlueprintSetLibrary:Set_ToArray'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_InstanceVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "BlueprintGeneratedClass'GA_ActivateVenomBase_C'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.0"
+                },
+                "Property": {
+                  "Type": "SetProperty",
+                  "Name": "FinalTroodonsList",
+                  "Flags": "RF_Public | RF_LoadCompleted",
+                  "ElementSize": 80,
+                  "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnTemplate | DisableEditOnInstance",
+                  "ElementProp": {
+                    "Type": "ObjectProperty",
+                    "Name": "FinalTroodonsList",
+                    "Flags": "RF_Public",
+                    "ElementSize": 8,
+                    "PropertyClass": {
+                      "ObjectName": "Class'TICharacterBase'",
+                      "ObjectPath": "/Script/TheIsle"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+                },
+                "Property": {
+                  "Type": "ArrayProperty",
+                  "Name": "CallFunc_Set_ToArray_Result",
+                  "Flags": "RF_Public",
+                  "ElementSize": 16,
+                  "PropertyFlags": "ReferenceParm",
+                  "Inner": {
+                    "Type": "ObjectProperty",
+                    "Name": "CallFunc_Set_ToArray_Result",
+                    "Flags": "RF_Public",
+                    "ElementSize": 8,
+                    "PropertyClass": {
+                      "ObjectName": "Class'TICharacterBase'",
+                      "ObjectPath": "/Script/TheIsle"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 2082,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+            },
+            "Property": {
+              "Type": "IntProperty",
+              "Name": "Temp_int_Loop_Counter_Variable",
+              "Flags": "RF_Public",
+              "ElementSize": 4
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_IntConst",
+          "Value": 0
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 2105,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+            },
+            "Property": {
+              "Type": "IntProperty",
+              "Name": "Temp_int_Array_Index_Variable_2",
+              "Flags": "RF_Public",
+              "ElementSize": 4
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_IntConst",
+          "Value": 0
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 2128,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+            },
+            "Property": {
+              "Type": "IntProperty",
+              "Name": "CallFunc_Array_Length_ReturnValue_2",
+              "Flags": "RF_Public",
+              "ElementSize": 4
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_Context",
+          "ObjectExpression": {
+            "Inst": "EX_ObjectConst",
+            "Value": {
+              "ObjectName": "Class'Default__KismetArrayLibrary'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          "Offset": 19,
+          "RValuePointer": {
+            "Owner": {
+              "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+            },
+            "Property": {
+              "Type": "IntProperty",
+              "Name": "CallFunc_Array_Length_ReturnValue_2",
+              "Flags": "RF_Public",
+              "ElementSize": 4
+            }
+          },
+          "ContextExpression": {
+            "Inst": "EX_FinalFunction",
+            "Function": {
+              "ObjectName": "Class'KismetArrayLibrary:Array_Length'",
+              "ObjectPath": "/Script/Engine"
+            },
+            "Parameters": [
+              {
+                "Inst": "EX_LocalVariable",
+                "Variable": {
+                  "Owner": {
+                    "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+                    "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+                  },
+                  "Property": {
+                    "Type": "ArrayProperty",
+                    "Name": "CallFunc_Set_ToArray_Result",
+                    "Flags": "RF_Public",
+                    "ElementSize": 16,
+                    "PropertyFlags": "ReferenceParm",
+                    "Inner": {
+                      "Type": "ObjectProperty",
+                      "Name": "CallFunc_Set_ToArray_Result",
+                      "Flags": "RF_Public",
+                      "ElementSize": 8,
+                      "PropertyClass": {
+                        "ObjectName": "Class'TICharacterBase'",
+                        "ObjectPath": "/Script/TheIsle"
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "Inst": "EX_LetBool",
+        "StatementIndex": 2187,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_Less_IntInt_ReturnValue_2",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Class'KismetMathLibrary:Less_IntInt'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+                },
+                "Property": {
+                  "Type": "IntProperty",
+                  "Name": "Temp_int_Loop_Counter_Variable",
+                  "Flags": "RF_Public",
+                  "ElementSize": 4
+                }
+              }
+            },
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+                },
+                "Property": {
+                  "Type": "IntProperty",
+                  "Name": "CallFunc_Array_Length_ReturnValue_2",
+                  "Flags": "RF_Public",
+                  "ElementSize": 4
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_JumpIfNot",
+        "StatementIndex": 2225,
+        "CodeOffset": 171,
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.ExecuteUbergraph_GA_ActivateVenomBase[171]",
+        "BooleanExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_Less_IntInt_ReturnValue_2",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 2239,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+            },
+            "Property": {
+              "Type": "IntProperty",
+              "Name": "Temp_int_Array_Index_Variable_2",
+              "Flags": "RF_Public",
+              "ElementSize": 4
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+            },
+            "Property": {
+              "Type": "IntProperty",
+              "Name": "Temp_int_Loop_Counter_Variable",
+              "Flags": "RF_Public",
+              "ElementSize": 4
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_PushExecutionFlow",
+        "StatementIndex": 2266,
+        "PushingAddress": 2512,
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.ExecuteUbergraph_GA_ActivateVenomBase[2512]"
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 2271,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+            },
+            "Property": {
+              "Type": "DoubleProperty",
+              "Name": "CallFunc_RandomFloatInRange_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 8
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Class'KismetMathLibrary:RandomFloatInRange'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_DoubleConst",
+              "Value": 0.1
+            },
+            {
+              "Inst": "EX_DoubleConst",
+              "Value": 0.4
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 2317,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+            },
+            "Property": {
+              "Type": "FloatProperty",
+              "Name": "CallFunc_WaitDelay_Time_ImplicitCast",
+              "Flags": "RF_Public",
+              "ElementSize": 4
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_Cast",
+          "ConversionType": "CST_DoubleToFloat",
+          "Target": {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+                "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+              },
+              "Property": {
+                "Type": "DoubleProperty",
+                "Name": "CallFunc_RandomFloatInRange_ReturnValue",
+                "Flags": "RF_Public",
+                "ElementSize": 8
+              }
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_LetObj",
+        "StatementIndex": 2346,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "CallFunc_WaitDelay_ReturnValue_1",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyClass": {
+                "ObjectName": "Class'AbilityTask_WaitDelay'",
+                "ObjectPath": "/Script/GameplayAbilities"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Class'AbilityTask_WaitDelay:WaitDelay'",
+            "ObjectPath": "/Script/GameplayAbilities"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_Self"
+            },
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+                },
+                "Property": {
+                  "Type": "FloatProperty",
+                  "Name": "CallFunc_WaitDelay_Time_ImplicitCast",
+                  "Flags": "RF_Public",
+                  "ElementSize": 4
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_LetBool",
+        "StatementIndex": 2376,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_IsValid_ReturnValue_2",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Class'KismetSystemLibrary:IsValid'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+                },
+                "Property": {
+                  "Type": "ObjectProperty",
+                  "Name": "CallFunc_WaitDelay_ReturnValue_1",
+                  "Flags": "RF_Public",
+                  "ElementSize": 8,
+                  "PropertyClass": {
+                    "ObjectName": "Class'AbilityTask_WaitDelay'",
+                    "ObjectPath": "/Script/GameplayAbilities"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_PopExecutionFlowIfNot",
+        "StatementIndex": 2405,
+        "BooleanExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_IsValid_ReturnValue_2",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_BindDelegate",
+        "StatementIndex": 2415,
+        "FunctionName": "OnFinish_7F9C759A4EF7683EC585FF9EF119A964",
+        "Delegate": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+            },
+            "Property": {
+              "Type": "DelegateProperty",
+              "Name": "K2Node_CreateDelegate_OutputDelegate",
+              "Flags": "RF_Public",
+              "ElementSize": 32,
+              "SignatureFunction": {
+                "ObjectName": "Class'WaitDelayDelegate__DelegateSignature'",
+                "ObjectPath": "/Script/GameplayAbilities"
+              }
+            }
+          }
+        },
+        "ObjectTerm": {
+          "Inst": "EX_Self"
+        }
+      },
+      {
+        "Inst": "EX_AddMulticastDelegate",
+        "StatementIndex": 2438,
+        "MulticastDelegate": {
+          "Inst": "EX_Context",
+          "ObjectExpression": {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+                "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+              },
+              "Property": {
+                "Type": "ObjectProperty",
+                "Name": "CallFunc_WaitDelay_ReturnValue_1",
+                "Flags": "RF_Public",
+                "ElementSize": 8,
+                "PropertyClass": {
+                  "ObjectName": "Class'AbilityTask_WaitDelay'",
+                  "ObjectPath": "/Script/GameplayAbilities"
+                }
+              }
+            }
+          },
+          "Offset": 9,
+          "RValuePointer": {
+            "Path": [
+              "OnFinish"
+            ],
+            "ResolvedOwner": {
+              "ObjectName": "Class'AbilityTask_WaitDelay'",
+              "ObjectPath": "/Script/GameplayAbilities"
+            }
+          },
+          "ContextExpression": {
+            "Inst": "EX_InstanceVariable",
+            "Variable": {
+              "Path": [
+                "OnFinish"
+              ],
+              "ResolvedOwner": {
+                "ObjectName": "Class'AbilityTask_WaitDelay'",
+                "ObjectPath": "/Script/GameplayAbilities"
+              }
+            }
+          }
+        },
+        "Delegate": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+            },
+            "Property": {
+              "Type": "DelegateProperty",
+              "Name": "K2Node_CreateDelegate_OutputDelegate",
+              "Flags": "RF_Public",
+              "ElementSize": 32,
+              "SignatureFunction": {
+                "ObjectName": "Class'WaitDelayDelegate__DelegateSignature'",
+                "ObjectPath": "/Script/GameplayAbilities"
+              }
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_Context",
+        "StatementIndex": 2479,
+        "ObjectExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "CallFunc_WaitDelay_ReturnValue_1",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyClass": {
+                "ObjectName": "Class'AbilityTask_WaitDelay'",
+                "ObjectPath": "/Script/GameplayAbilities"
+              }
+            }
+          }
+        },
+        "Offset": 10,
+        "RValuePointer": null,
+        "ContextExpression": {
+          "Inst": "EX_FinalFunction",
+          "Function": {
+            "ObjectName": "Class'GameplayTask:ReadyForActivation'",
+            "ObjectPath": "/Script/GameplayTasks"
+          },
+          "Parameters": []
+        }
+      },
+      {
+        "Inst": "EX_PopExecutionFlow",
+        "StatementIndex": 2511
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 2512,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+            },
+            "Property": {
+              "Type": "IntProperty",
+              "Name": "CallFunc_Add_IntInt_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 4
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Class'KismetMathLibrary:Add_IntInt'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+                },
+                "Property": {
+                  "Type": "IntProperty",
+                  "Name": "Temp_int_Loop_Counter_Variable",
+                  "Flags": "RF_Public",
+                  "ElementSize": 4
+                }
+              }
+            },
+            {
+              "Inst": "EX_IntConst",
+              "Value": 1
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 2554,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+            },
+            "Property": {
+              "Type": "IntProperty",
+              "Name": "Temp_int_Loop_Counter_Variable",
+              "Flags": "RF_Public",
+              "ElementSize": 4
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+            },
+            "Property": {
+              "Type": "IntProperty",
+              "Name": "CallFunc_Add_IntInt_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 4
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_Jump",
+        "StatementIndex": 2581,
+        "CodeOffset": 2128,
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.ExecuteUbergraph_GA_ActivateVenomBase[2128]"
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 2586,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+            },
+            "Property": {
+              "Type": "IntProperty",
+              "Name": "CallFunc_Add_IntInt_ReturnValue_1",
+              "Flags": "RF_Public",
+              "ElementSize": 4
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Class'KismetMathLibrary:Add_IntInt'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+                },
+                "Property": {
+                  "Type": "IntProperty",
+                  "Name": "Temp_int_Loop_Counter_Variable_2",
+                  "Flags": "RF_Public",
+                  "ElementSize": 4
+                }
+              }
+            },
+            {
+              "Inst": "EX_IntConst",
+              "Value": 1
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 2628,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+            },
+            "Property": {
+              "Type": "IntProperty",
+              "Name": "Temp_int_Loop_Counter_Variable_2",
+              "Flags": "RF_Public",
+              "ElementSize": 4
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+            },
+            "Property": {
+              "Type": "IntProperty",
+              "Name": "CallFunc_Add_IntInt_ReturnValue_1",
+              "Flags": "RF_Public",
+              "ElementSize": 4
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_Jump",
+        "StatementIndex": 2655,
+        "CodeOffset": 670,
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.ExecuteUbergraph_GA_ActivateVenomBase[670]"
+      },
+      {
+        "Inst": "EX_LetBool",
+        "StatementIndex": 2660,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_TryActivateAbilityByClass_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_Context",
+          "ObjectExpression": {
+            "Inst": "EX_Context",
+            "ObjectExpression": {
+              "Inst": "EX_InstanceVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "BlueprintGeneratedClass'GA_ActivateVenomBase_C'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.0"
+                },
+                "Property": {
+                  "Type": "ObjectProperty",
+                  "Name": "LastPouncer",
+                  "Flags": "RF_Public | RF_LoadCompleted",
+                  "ElementSize": 8,
+                  "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnTemplate | DisableEditOnInstance",
+                  "PropertyClass": {
+                    "ObjectName": "Class'TICharacterBase'",
+                    "ObjectPath": "/Script/TheIsle"
+                  }
+                }
+              }
+            },
+            "Offset": 9,
+            "RValuePointer": {
+              "Path": [
+                "AbilitySystemComponent"
+              ],
+              "ResolvedOwner": {
+                "ObjectName": "Class'TICharacterBase'",
+                "ObjectPath": "/Script/TheIsle"
+              }
+            },
+            "ContextExpression": {
+              "Inst": "EX_InstanceVariable",
+              "Variable": {
+                "Path": [
+                  "AbilitySystemComponent"
+                ],
+                "ResolvedOwner": {
+                  "ObjectName": "Class'TICharacterBase'",
+                  "ObjectPath": "/Script/TheIsle"
+                }
+              }
+            }
+          },
+          "Offset": 20,
+          "RValuePointer": {
+            "Owner": {
+              "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_TryActivateAbilityByClass_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          },
+          "ContextExpression": {
+            "Inst": "EX_FinalFunction",
+            "Function": {
+              "ObjectName": "Class'AbilitySystemComponent:TryActivateAbilityByClass'",
+              "ObjectPath": "/Script/GameplayAbilities"
+            },
+            "Parameters": [
+              {
+                "Inst": "EX_InstanceVariable",
+                "Variable": {
+                  "Owner": {
+                    "ObjectName": "BlueprintGeneratedClass'GA_ActivateVenomBase_C'",
+                    "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.0"
+                  },
+                  "Property": {
+                    "Type": "ClassProperty",
+                    "Name": "VocalAbility",
+                    "Flags": "RF_Public | RF_LoadCompleted",
+                    "ElementSize": 8,
+                    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance | UObjectWrapper",
+                    "PropertyClass": {
+                      "ObjectName": "Class'Class'",
+                      "ObjectPath": "/Script/CoreUObject"
+                    },
+                    "MetaClass": {
+                      "ObjectName": "Class'GameplayAbility'",
+                      "ObjectPath": "/Script/GameplayAbilities"
+                    }
+                  }
+                }
+              },
+              {
+                "Inst": "EX_True"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "Inst": "EX_PopExecutionFlow",
+        "StatementIndex": 2734
+      },
+      {
+        "Inst": "EX_LocalFinalFunction",
+        "StatementIndex": 2735,
+        "Function": {
+          "ObjectName": "Class'GameplayAbility:K2_ActivateAbility'",
+          "ObjectPath": "/Script/GameplayAbilities"
+        },
+        "Parameters": []
+      },
+      {
+        "Inst": "EX_LetObj",
+        "StatementIndex": 2745,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "CallFunc_GetAvatarActorFromActorInfo_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyClass": {
+                "ObjectName": "Class'Actor'",
+                "ObjectPath": "/Script/Engine"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_FinalFunction",
+          "Function": {
+            "ObjectName": "Class'GameplayAbility:GetAvatarActorFromActorInfo'",
+            "ObjectPath": "/Script/GameplayAbilities"
+          },
+          "Parameters": []
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 2765,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "K2Node_DynamicCast_AsThe_Isle_Character_Base",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyClass": {
+                "ObjectName": "Class'TICharacterBase'",
+                "ObjectPath": "/Script/TheIsle"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_DynamicCast",
+          "InterfaceClass": {
+            "ObjectName": "Class'TICharacterBase'",
+            "ObjectPath": "/Script/TheIsle"
+          },
+          "Target": {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+                "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+              },
+              "Property": {
+                "Type": "ObjectProperty",
+                "Name": "CallFunc_GetAvatarActorFromActorInfo_ReturnValue",
+                "Flags": "RF_Public",
+                "ElementSize": 8,
+                "PropertyClass": {
+                  "ObjectName": "Class'Actor'",
+                  "ObjectPath": "/Script/Engine"
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 2801,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "K2Node_DynamicCast_bSuccess_1",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_Cast",
+          "ConversionType": "CST_ObjectToBool",
+          "Target": {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+                "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+              },
+              "Property": {
+                "Type": "ObjectProperty",
+                "Name": "K2Node_DynamicCast_AsThe_Isle_Character_Base",
+                "Flags": "RF_Public",
+                "ElementSize": 8,
+                "PropertyClass": {
+                  "ObjectName": "Class'TICharacterBase'",
+                  "ObjectPath": "/Script/TheIsle"
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_PopExecutionFlowIfNot",
+        "StatementIndex": 2830,
+        "BooleanExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "K2Node_DynamicCast_bSuccess_1",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_LetObj",
+        "StatementIndex": 2840,
+        "Variable": {
+          "Inst": "EX_InstanceVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "BlueprintGeneratedClass'GA_ActivateVenomBase_C'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.0"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "OwnerRef",
+              "Flags": "RF_Public | RF_LoadCompleted",
+              "ElementSize": 8,
+              "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnTemplate | DisableEditOnInstance",
+              "PropertyClass": {
+                "ObjectName": "Class'TICharacterBase'",
+                "ObjectPath": "/Script/TheIsle"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "K2Node_DynamicCast_AsThe_Isle_Character_Base",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyClass": {
+                "ObjectName": "Class'TICharacterBase'",
+                "ObjectPath": "/Script/TheIsle"
+              }
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_Jump",
+        "StatementIndex": 2859,
+        "CodeOffset": 333,
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.ExecuteUbergraph_GA_ActivateVenomBase[333]"
+      },
+      {
+        "Inst": "EX_Return",
+        "StatementIndex": 2864,
+        "Expression": {
+          "Inst": "EX_Nothing"
+        }
+      },
+      {
+        "Inst": "EX_EndOfScript",
+        "StatementIndex": 2866
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction | FUNC_HasDefaults"
+  },
+  {
+    "Type": "Function",
+    "Name": "K2_ActivateAbility",
+    "Outer": "GA_ActivateVenomBase_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'GameplayAbility:K2_ActivateAbility'",
+      "ObjectPath": "/Script/GameplayAbilities"
+    },
+    "ScriptBytecode": [
+      {
+        "Inst": "EX_LocalFinalFunction",
+        "StatementIndex": 0,
+        "Function": {
+          "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+          "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+        },
+        "Parameters": [
+          {
+            "Inst": "EX_IntConst",
+            "Value": 2735
+          }
+        ],
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.ExecuteUbergraph_GA_ActivateVenomBase[2735]"
+      },
+      {
+        "Inst": "EX_Return",
+        "StatementIndex": 15,
+        "Expression": {
+          "Inst": "EX_Nothing"
+        }
+      },
+      {
+        "Inst": "EX_EndOfScript",
+        "StatementIndex": 17
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnFinish_7F9C759A4EF7683EC585FF9EF119A964",
+    "Outer": "GA_ActivateVenomBase_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "ScriptBytecode": [
+      {
+        "Inst": "EX_LocalFinalFunction",
+        "StatementIndex": 0,
+        "Function": {
+          "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+          "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+        },
+        "Parameters": [
+          {
+            "Inst": "EX_IntConst",
+            "Value": 15
+          }
+        ],
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.ExecuteUbergraph_GA_ActivateVenomBase[15]"
+      },
+      {
+        "Inst": "EX_Return",
+        "StatementIndex": 15,
+        "Expression": {
+          "Inst": "EX_Nothing"
+        }
+      },
+      {
+        "Inst": "EX_EndOfScript",
+        "StatementIndex": 17
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnFinish_D6C904C94FEB16F63FED0BB121131352",
+    "Outer": "GA_ActivateVenomBase_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "ScriptBytecode": [
+      {
+        "Inst": "EX_LocalFinalFunction",
+        "StatementIndex": 0,
+        "Function": {
+          "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+          "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+        },
+        "Parameters": [
+          {
+            "Inst": "EX_IntConst",
+            "Value": 156
+          }
+        ],
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.ExecuteUbergraph_GA_ActivateVenomBase[156]"
+      },
+      {
+        "Inst": "EX_Return",
+        "StatementIndex": 15,
+        "Expression": {
+          "Inst": "EX_Nothing"
+        }
+      },
+      {
+        "Inst": "EX_EndOfScript",
+        "StatementIndex": 17
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnFinish_D6F208DC43365B890F6FCF96198FA246",
+    "Outer": "GA_ActivateVenomBase_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "ScriptBytecode": [
+      {
+        "Inst": "EX_LocalFinalFunction",
+        "StatementIndex": 0,
+        "Function": {
+          "ObjectName": "Function'GA_ActivateVenomBase_C:ExecuteUbergraph_GA_ActivateVenomBase'",
+          "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.1"
+        },
+        "Parameters": [
+          {
+            "Inst": "EX_IntConst",
+            "Value": 2660
+          }
+        ],
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.ExecuteUbergraph_GA_ActivateVenomBase[2660]"
+      },
+      {
+        "Inst": "EX_Return",
+        "StatementIndex": 15,
+        "Expression": {
+          "Inst": "EX_Nothing"
+        }
+      },
+      {
+        "Inst": "EX_EndOfScript",
+        "StatementIndex": 17
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "GA_ActivateVenomBase_C",
+    "Name": "Default__GA_ActivateVenomBase_C",
+    "Class": "BlueprintGeneratedClass'/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.GA_ActivateVenomBase_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "UberGraphFrame": {},
+      "VocalAbility": {
+        "ObjectName": "BlueprintGeneratedClass'GA_VocalVenomStack1_C'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Vocals/GA_VocalVenomStack1.0"
+      },
+      "NetExecutionPolicy": "EGameplayAbilityNetExecutionPolicy::ServerOnly",
+      "NetSecurityPolicy": "EGameplayAbilityNetSecurityPolicy::ServerOnly",
+      "ActivationBlockedTags": [
+        "State.Dead",
+        "State.Lunged",
+        "State.Pounced",
+        "State.PouncedLarge"
+      ]
+    }
+  }
+]

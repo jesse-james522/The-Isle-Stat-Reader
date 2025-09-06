@@ -1,0 +1,64 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GA_StartFlight_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'TIGameplayAbilityStartFlight'",
+      "ObjectPath": "/Script/TheIsle"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GA_StartFlight_C'Default__GA_StartFlight_C'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/GA_StartFlight.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "GA_StartFlight_C",
+    "Name": "Default__GA_StartFlight_C",
+    "Class": "BlueprintGeneratedClass'/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/GA_StartFlight.GA_StartFlight_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AbilityTags": [
+        "Status.Launching"
+      ],
+      "CooldownGameplayEffectClass": {
+        "ObjectName": "BlueprintGeneratedClass'GE_TakeoffCooldown_C'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Effects/GE_TakeoffCooldown.0"
+      },
+      "ActivationOwnedTags": [
+        "Status.Launching"
+      ],
+      "ActivationBlockedTags": [
+        "State.Pounced",
+        "Ability.Skill.Nest",
+        "Ability.Skill.Rest",
+        "Ability.Skill.Wallow",
+        "State.Dead",
+        "Status.DisableMovement",
+        "Ability.Skill.PrimaryAttack",
+        "Ability.Skill.SecondaryAttack"
+      ],
+      "TargetBlockedTags": [
+        "State.Pounced",
+        "Ability.Skill.Nest",
+        "Ability.Skill.Rest",
+        "Ability.Skill.Wallow",
+        "State.Dead",
+        "Status.DisableMovement",
+        "State.Lunged",
+        "State.BlockAbilities"
+      ]
+    }
+  }
+]

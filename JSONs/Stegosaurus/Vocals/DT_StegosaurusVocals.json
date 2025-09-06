@@ -1,0 +1,277 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_StegosaurusVocals",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'Vocals'",
+        "ObjectPath": "/Script/TheIsle"
+      }
+    },
+    "Rows": {
+      "Generic": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Stegosaurus_Call_Generic'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Sound/MS_Stegosaurus_Call_Generic.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Broadcast": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Stegosaurus_Call_Broadcast'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Sound/MS_Stegosaurus_Call_Broadcast.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Attract": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Stegosaurus_Call_Attract'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Sound/MS_Stegosaurus_Call_Attract.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Threaten": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Stegosaurus_Call_Threaten'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Sound/MS_Stegosaurus_Call_Threaten.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Danger": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Stegosaurus_Call_Danger'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Sound/MS_Stegosaurus_Call_Danger.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "RegularPain": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Stegosaurus_Pain_Adult'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Sound/CU_Stegosaurus_Pain_Adult.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "ExtremePain": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Stegosaurua_ExtremePain_Adult'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Sound/CU_Stegosaurua_ExtremePain_Adult.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Death": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Stegosaurua_ExtremePain_Adult'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Sound/CU_Stegosaurua_ExtremePain_Adult.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "JuvenilePain": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Stegosaurus_Pain_Juv'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Sound/CU_Stegosaurus_Pain_Juv.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "JuvenileExtremePain": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Stegosaurua_ExtremePain_Adult'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Sound/CU_Stegosaurua_ExtremePain_Adult.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "JuvenileDeath": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Stegosaurus_Death_Juv'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Sound/CU_Stegosaurus_Death_Juv.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Attack": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Stego_Attack'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Sound/CU_Stego_Attack.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Bite": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Stegosaurus_Bite'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Sound/MS_Stegosaurus_Bite.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "PowerSwing1": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Stegosaurus_PowerSwing1'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Sound/MS_Stegosaurus_PowerSwing1.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "PowerSwing2": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Stegosaurus_PowerSwing2'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Sound/MS_Stegosaurus_PowerSwing2.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "PowerSwingStart": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Stegosaurus_Call_PowerSwing_Start'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Sound/MS_Stegosaurus_Call_PowerSwing_Start.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "PowerSwingEnd": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Stegosaurus_PowerSwing_End'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Sound/MS_Stegosaurus_PowerSwing_End.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "PowerSwingPrepare": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Stegosaurus_PowerSwing_Prepare'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Sound/MS_Stegosaurus_PowerSwing_Prepare.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Blinded": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Stegosaurua_Blinded_Adult1'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Sound/CU_Stegosaurua_Blinded_Adult1.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Eat": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Stegosaurus_Eat'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Sound/CU_Stegosaurus_Eat.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Drink": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Stegosaurus_Drink'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Sound/CU_Stegosaurus_Drink.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Snore": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Stegosaurus_Snore'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Sound/CU_Stegosaurus_Snore.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Grunt": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Stegosaurus_Grunt'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Sound/CU_Stegosaurus_Grunt.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Random": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Stegosaurus_Pain_Random'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Sound/CU_Stegosaurus_Pain_Random.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Sit": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Stegosaurus_Sit'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Sound/CU_Stegosaurus_Sit.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Stand": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Stegosaurus_Stand'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Sound/CU_Stegosaurus_Stand.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "HeadInjury": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Stegosaurus_HeadInjury'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Sound/CU_Stegosaurus_HeadInjury.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "CourtshipMale": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Stego_Courtship_Male'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Sound/CU_Stego_Courtship_Male.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "CourtshipFemale": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Stego_Courtship_Female'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Sound/CU_Stego_Courtship_Female.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Beg1": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Stego_Beg1'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Sound/CU_Stego_Beg1.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Beg2": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Stego_Beg2'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Sound/CU_Stego_Beg2.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Feed": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Stegosaurus_Feed'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Sound/CU_Stegosaurus_Feed.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Vomit": {
+        "VocalSoundCue": null,
+        "VocalEffect": null,
+        "VocalCurve": null
+      }
+    }
+  }
+]

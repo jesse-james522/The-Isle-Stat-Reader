@@ -1,0 +1,58 @@
+[
+  {
+    "Type": "CurveFloat",
+    "Name": "ATT_Tyrannosaurus_BroadcastDistance",
+    "Class": "UScriptClass'CurveFloat'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "FloatCurve": {
+        "Keys": [
+          {
+            "InterpMode": "RCIM_Cubic",
+            "TangentMode": "RCTM_User",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 0.0,
+            "Value": 10000.0,
+            "ArriveTangent": 10746.036,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 10746.036,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Cubic",
+            "TangentMode": "RCTM_User",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 1.5,
+            "Value": 45000.0,
+            "ArriveTangent": 17705.367,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 17705.367,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Cubic",
+            "TangentMode": "RCTM_User",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 10.0,
+            "Value": 200000.0,
+            "ArriveTangent": 16151.187,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 16151.187,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Cubic",
+            "TangentMode": "RCTM_User",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 120.0,
+            "Value": 1600000.0,
+            "ArriveTangent": 190.97273,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 190.97273,
+            "LeaveTangentWeight": 0.0
+          }
+        ]
+      }
+    }
+  }
+]

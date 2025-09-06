@@ -1,0 +1,48 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GA_CeratopsianFlipDiabloceratops_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'GA_CeratopsianFlip_C'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Attacks/GA_CeratopsianFlip.0"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GA_CeratopsianFlipDiabloceratops_C'Default__GA_CeratopsianFlipDiabloceratops_C'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Attacks/GA_CeratopsianFlipDiabloceratops.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "GA_CeratopsianFlipDiabloceratops_C",
+    "Name": "Default__GA_CeratopsianFlipDiabloceratops_C",
+    "Class": "BlueprintGeneratedClass'/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Attacks/GA_CeratopsianFlipDiabloceratops.GA_CeratopsianFlipDiabloceratops_C'",
+    "Template": {
+      "ObjectName": "GA_CeratopsianFlip_C'Default__GA_CeratopsianFlip_C'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Attacks/GA_CeratopsianFlip.3"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "TraceTimes": [
+        0.18,
+        0.24,
+        0.3,
+        0.36,
+        0.42,
+        0.48
+      ],
+      "bUseAttackCooldown": false,
+      "EndDelay": 1.0
+    }
+  }
+]

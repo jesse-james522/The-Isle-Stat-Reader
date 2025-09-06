@@ -1,0 +1,80 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GA_DirectionalBeipiaosaurusClawSwimming_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'TIGameplayAbilityDirectionalBeipiaosaurusClawSwimming'",
+      "ObjectPath": "/Script/TheIsle"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GA_DirectionalBeipiaosaurusClawSwimming_C'Default__GA_DirectionalBeipiaosaurusClawSwimming_C'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Attacks/Directional/GA_DirectionalBeipiaosaurusClawSwimming.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "GA_DirectionalBeipiaosaurusClawSwimming_C",
+    "Name": "Default__GA_DirectionalBeipiaosaurusClawSwimming_C",
+    "Class": "BlueprintGeneratedClass'/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Attacks/Directional/GA_DirectionalBeipiaosaurusClawSwimming.GA_DirectionalBeipiaosaurusClawSwimming_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SwimmingStaminaCostName": "Stamina.AltBiteSwim",
+      "SurfaceAttackName": "SurfaceClaw",
+      "UnderwaterAttackName": "UnderwaterClaw",
+      "DirectionalAttackMoveSpeed": 200.0,
+      "DirectionalAttackName": "AltBite",
+      "RotationRateF": 180.0,
+      "TraceTimesF": [
+        0.1
+      ],
+      "RotationRate45": 180.0,
+      "TraceTimes45": [
+        0.2
+      ],
+      "RotationRate90": 180.0,
+      "TraceTimes90": [
+        0.3
+      ],
+      "RotationRate135": 180.0,
+      "TraceTimes135": [
+        0.4
+      ],
+      "RotationRate180": 180.0,
+      "TraceTimes180": [
+        0.5
+      ],
+      "PlayJuvAnimGameplayEffect": {
+        "ObjectName": "BlueprintGeneratedClass'GE_PlayJuvAnim_C'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Effects/GE_PlayJuvAnim.0"
+      },
+      "MultipliedDamageAttribute": {
+        "AttributeName": "DamageHolder",
+        "Attribute": {
+          "Path": [
+            "DamageHolder"
+          ],
+          "ResolvedOwner": {
+            "ObjectName": "Class'TIAttributeSetBase'",
+            "ObjectPath": "/Script/TheIsle"
+          }
+        },
+        "AttributeOwner": {
+          "ObjectName": "Class'TIAttributeSetBase'",
+          "ObjectPath": "/Script/TheIsle"
+        }
+      },
+      "StaminaCostName": "Stamina.AltBiteSwim"
+    }
+  }
+]

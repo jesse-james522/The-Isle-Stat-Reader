@@ -1,0 +1,217 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GA_VocalThreaten_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'GA_VocalThreaten_C:ExecuteUbergraph_GA_VocalThreaten'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Vocals/GA_VocalThreaten.1"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'TIGameplayAbilityVocalThreaten'",
+      "ObjectPath": "/Script/TheIsle"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'GA_VocalThreaten_C:K2_ActivateAbility'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Vocals/GA_VocalThreaten.2"
+      },
+      {
+        "ObjectName": "Function'GA_VocalThreaten_C:ExecuteUbergraph_GA_VocalThreaten'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Vocals/GA_VocalThreaten.1"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_GA_VocalThreaten": {
+        "ObjectName": "Function'GA_VocalThreaten_C:ExecuteUbergraph_GA_VocalThreaten'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Vocals/GA_VocalThreaten.1"
+      },
+      "K2_ActivateAbility": {
+        "ObjectName": "Function'GA_VocalThreaten_C:K2_ActivateAbility'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Vocals/GA_VocalThreaten.2"
+      }
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GA_VocalThreaten_C'Default__GA_VocalThreaten_C'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Vocals/GA_VocalThreaten.3"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_GA_VocalThreaten",
+    "Outer": "GA_VocalThreaten_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "ScriptBytecode": [
+      {
+        "Inst": "EX_ComputedJump",
+        "StatementIndex": 0,
+        "OffsetExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_VocalThreaten_C:ExecuteUbergraph_GA_VocalThreaten'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Vocals/GA_VocalThreaten.1"
+            },
+            "Property": {
+              "Type": "IntProperty",
+              "Name": "EntryPoint",
+              "Flags": "RF_Public",
+              "ElementSize": 4,
+              "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_Return",
+        "StatementIndex": 10,
+        "Expression": {
+          "Inst": "EX_Nothing"
+        }
+      },
+      {
+        "Inst": "EX_EndOfScript",
+        "StatementIndex": 12
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "K2_ActivateAbility",
+    "Outer": "GA_VocalThreaten_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'GameplayAbility:K2_ActivateAbility'",
+      "ObjectPath": "/Script/GameplayAbilities"
+    },
+    "ScriptBytecode": [
+      {
+        "Inst": "EX_LocalFinalFunction",
+        "StatementIndex": 0,
+        "Function": {
+          "ObjectName": "Function'GA_VocalThreaten_C:ExecuteUbergraph_GA_VocalThreaten'",
+          "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Vocals/GA_VocalThreaten.1"
+        },
+        "Parameters": [
+          {
+            "Inst": "EX_IntConst",
+            "Value": 10
+          }
+        ],
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Vocals/GA_VocalThreaten.ExecuteUbergraph_GA_VocalThreaten[10]"
+      },
+      {
+        "Inst": "EX_Return",
+        "StatementIndex": 15,
+        "Expression": {
+          "Inst": "EX_Nothing"
+        }
+      },
+      {
+        "Inst": "EX_EndOfScript",
+        "StatementIndex": 17
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "GA_VocalThreaten_C",
+    "Name": "Default__GA_VocalThreaten_C",
+    "Class": "BlueprintGeneratedClass'/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Vocals/GA_VocalThreaten.GA_VocalThreaten_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "UberGraphFrame": {},
+      "MyAbilityTag": "Ability.Skill.VoiceThreaten",
+      "PlayJuvAnimGameplayEffect": {
+        "ObjectName": "BlueprintGeneratedClass'GE_PlayJuvAnim_C'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Effects/GE_PlayJuvAnim.0"
+      },
+      "TempAttackBuffEffect": {
+        "ObjectName": "BlueprintGeneratedClass'GE_TempAttackBoost_C'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Effects/GE_TempAttackBoost.0"
+      },
+      "TempDefenseBuffEffect": {
+        "ObjectName": "BlueprintGeneratedClass'GE_TempDefenseBoost_C'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Effects/GE_TempDefenseBoost.0"
+      },
+      "AbilityTagName": "Threaten",
+      "AbilityTags": [
+        "Ability.Skill.VoiceThreaten"
+      ],
+      "InstancingPolicy": "EGameplayAbilityInstancingPolicy::InstancedPerExecution",
+      "bRetriggerInstancedAbility": true,
+      "CooldownGameplayEffectClass": {
+        "ObjectName": "BlueprintGeneratedClass'GE_VocalBroadcastCooldown_C'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Effects/GE_VocalBroadcastCooldown.0"
+      },
+      "BlockAbilitiesWithTag": [
+        "Ability.Skill.Nest",
+        "Ability.Skill.PickUp",
+        "Ability.Skill.Rest",
+        "Ability.Skill.Scent",
+        "Ability.Skill.Use",
+        "Ability.Skill.Wallow"
+      ],
+      "ActivationOwnedTags": [
+        "Ability.Skill.VoiceThreaten"
+      ],
+      "ActivationBlockedTags": [
+        "Ability.Skill.PickUp",
+        "Ability.Skill.PrimaryAttack",
+        "Ability.Skill.SecondaryAttack",
+        "Ability.Skill.Use",
+        "State.Dead",
+        "Ability.Skill.Nest",
+        "Ability.Skill.Wallow",
+        "State.TemporaryRestBlocker",
+        "State.PickedUp",
+        "State.Pounced",
+        "Ability.Skill.Vocalize",
+        "Ability.Skill.VoiceBroadcast",
+        "Ability.Skill.VoiceFriendly",
+        "Ability.Skill.VoiceHelp",
+        "Ability.Skill.VoiceThreaten",
+        "State.UIBlockAbilities",
+        "State.BlockAbilities"
+      ]
+    }
+  }
+]

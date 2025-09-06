@@ -1,0 +1,1702 @@
+[
+  {
+    "Type": "TIDinosaurMontages",
+    "Name": "DA_TroodonMontages",
+    "Class": "UScriptClass'TIDinosaurMontages'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Vocals": {
+        "Generic": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_Vocal_Generic'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Vocal_Generic.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_Vocal_Generic'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Vocal_Generic.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_Vocal_Generic'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Vocal_Generic.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_Vocal_Generic'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Vocal_Generic.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_Vocal_Generic'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Vocal_Generic.0"
+          }
+        },
+        "Broadcast": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_Vocal_Broadcast'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Vocal_Broadcast.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_Vocal_Broadcast'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Vocal_Broadcast.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_Vocal_Broadcast'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Vocal_Broadcast.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_Vocal_Broadcast'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Vocal_Broadcast.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_Vocal_Broadcast'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Vocal_Broadcast.0"
+          }
+        },
+        "Attract": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_Vocal_Attract'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Vocal_Attract.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_Vocal_Attract'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Vocal_Attract.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_Vocal_Attract'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Vocal_Attract.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_Vocal_Attract'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Vocal_Attract.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_Vocal_Attract'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Vocal_Attract.0"
+          }
+        },
+        "Threaten": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_Vocal_Threaten'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Vocal_Threaten.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_Vocal_Threaten'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Vocal_Threaten.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_Vocal_Threaten'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Vocal_Threaten.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_Vocal_Threaten'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Vocal_Threaten.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_Vocal_Threaten'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Vocal_Threaten.0"
+          }
+        },
+        "Danger": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_Vocal_Danger'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Vocal_Danger.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_Vocal_Danger'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Vocal_Danger.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_Vocal_Danger'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Vocal_Danger.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_Vocal_Danger'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Vocal_Danger.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_Vocal_Danger'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Vocal_Danger.0"
+          }
+        }
+      },
+      "Eat": {
+        "EatIn": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_Eat_In'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Eat_In.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_Eat_In'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Eat_In.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_Eat_In'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Eat_In.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_Eat_In'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Eat_In.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_Eat_In'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Eat_In.0"
+          }
+        },
+        "EatEnd": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_Eat_Out'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Eat_Out.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_Eat_Out'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Eat_Out.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_Eat_Out'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Eat_Out.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_Eat_Out'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Eat_Out.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_Eat_Out'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Eat_Out.0"
+          }
+        },
+        "Swallow": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_Swallow'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Swallow.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_Swallow'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Swallow.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_Swallow'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Swallow.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_Swallow'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Swallow.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_Swallow'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Swallow.0"
+          }
+        },
+        "Vomit": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_Vomit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Vomit.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_Vomit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Vomit.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_Vomit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Vomit.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_Vomit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Vomit.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_Vomit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Vomit.0"
+          }
+        }
+      },
+      "Drink": {
+        "Hatchling": {
+          "ObjectName": "AnimMontage'AM_Troodon_Adult_Drink'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Drink.0"
+        },
+        "Juvenile": {
+          "ObjectName": "AnimMontage'AM_Troodon_Adult_Drink'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Drink.0"
+        },
+        "Subadult": {
+          "ObjectName": "AnimMontage'AM_Troodon_Adult_Drink'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Drink.0"
+        },
+        "Adult": {
+          "ObjectName": "AnimMontage'AM_Troodon_Adult_Drink'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Drink.0"
+        },
+        "Elder": {
+          "ObjectName": "AnimMontage'AM_Troodon_Adult_Drink'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Drink.0"
+        }
+      },
+      "DrinkEnd": {
+        "Hatchling": {
+          "ObjectName": "AnimMontage'AM_Troodon_Adult_Drink_Out'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Drink_Out.0"
+        },
+        "Juvenile": {
+          "ObjectName": "AnimMontage'AM_Troodon_Adult_Drink_Out'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Drink_Out.0"
+        },
+        "Subadult": {
+          "ObjectName": "AnimMontage'AM_Troodon_Adult_Drink_Out'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Drink_Out.0"
+        },
+        "Adult": {
+          "ObjectName": "AnimMontage'AM_Troodon_Adult_Drink_Out'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Drink_Out.0"
+        },
+        "Elder": {
+          "ObjectName": "AnimMontage'AM_Troodon_Adult_Drink_Out'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Drink_Out.0"
+        }
+      },
+      "Feed": {
+        "Hatchling": {
+          "ObjectName": "AnimMontage'AM_Troodon_Adult_Feed'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Feed.0"
+        },
+        "Juvenile": {
+          "ObjectName": "AnimMontage'AM_Troodon_Adult_Feed'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Feed.0"
+        },
+        "Subadult": {
+          "ObjectName": "AnimMontage'AM_Troodon_Adult_Feed'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Feed.0"
+        },
+        "Adult": {
+          "ObjectName": "AnimMontage'AM_Troodon_Adult_Feed'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Feed.0"
+        },
+        "Elder": {
+          "ObjectName": "AnimMontage'AM_Troodon_Adult_Feed'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Feed.0"
+        }
+      },
+      "Rest": {
+        "StandToSit": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_StandtoSit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_StandtoSit.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_StandtoSit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_StandtoSit.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_StandtoSit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_StandtoSit.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_StandtoSit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_StandtoSit.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_StandtoSit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_StandtoSit.0"
+          }
+        },
+        "SitToStand": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_SitToStand'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_SitToStand.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_SitToStand'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_SitToStand.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_SitToStand'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_SitToStand.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_SitToStand'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_SitToStand.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_SitToStand'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_SitToStand.0"
+          }
+        },
+        "SitToStandFast": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_SitToStandFast'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_SitToStandFast.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_SitToStandFast'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_SitToStandFast.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_SitToStandFast'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_SitToStandFast.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_SitToStandFast'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_SitToStandFast.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_SitToStandFast'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_SitToStandFast.0"
+          }
+        },
+        "SitToSleep": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_SitToSleep'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_SitToSleep.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_SitToSleep'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_SitToSleep.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_SitToSleep'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_SitToSleep.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_SitToSleep'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_SitToSleep.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_SitToSleep'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_SitToSleep.0"
+          }
+        },
+        "SleepToSit": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_SleepToSit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_SleepToSit.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_SleepToSit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_SleepToSit.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_SleepToSit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_SleepToSit.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_SleepToSit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_SleepToSit.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_SleepToSit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_SleepToSit.0"
+          }
+        }
+      },
+      "PickupL": {
+        "Hatchling": {
+          "ObjectName": "AnimMontage'AM_Troodon_Adult_Carry_Grab'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Carry_Grab.0"
+        },
+        "Juvenile": {
+          "ObjectName": "AnimMontage'AM_Troodon_Adult_Carry_Grab'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Carry_Grab.0"
+        },
+        "Subadult": {
+          "ObjectName": "AnimMontage'AM_Troodon_Adult_Carry_Grab'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Carry_Grab.0"
+        },
+        "Adult": {
+          "ObjectName": "AnimMontage'AM_Troodon_Adult_Carry_Grab'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Carry_Grab.0"
+        },
+        "Elder": {
+          "ObjectName": "AnimMontage'AM_Troodon_Adult_Carry_Grab'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Carry_Grab.0"
+        }
+      },
+      "PickupR": {
+        "Hatchling": {
+          "ObjectName": "AnimMontage'AM_Troodon_Adult_Carry_Grab'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Carry_Grab.0"
+        },
+        "Juvenile": {
+          "ObjectName": "AnimMontage'AM_Troodon_Adult_Carry_Grab'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Carry_Grab.0"
+        },
+        "Subadult": {
+          "ObjectName": "AnimMontage'AM_Troodon_Adult_Carry_Grab'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Carry_Grab.0"
+        },
+        "Adult": {
+          "ObjectName": "AnimMontage'AM_Troodon_Adult_Carry_Grab'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Carry_Grab.0"
+        },
+        "Elder": {
+          "ObjectName": "AnimMontage'AM_Troodon_Adult_Carry_Grab'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Carry_Grab.0"
+        }
+      },
+      "Bite": {
+        "Hatchling": {
+          "ObjectName": "AnimMontage'AM_Troodon_Adult_Bite'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Bite.0"
+        },
+        "Juvenile": {
+          "ObjectName": "AnimMontage'AM_Troodon_Adult_Bite'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Bite.0"
+        },
+        "Subadult": {
+          "ObjectName": "AnimMontage'AM_Troodon_Adult_Bite'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Bite.0"
+        },
+        "Adult": {
+          "ObjectName": "AnimMontage'AM_Troodon_Adult_Bite'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Bite.0"
+        },
+        "Elder": {
+          "ObjectName": "AnimMontage'AM_Troodon_Adult_Bite'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Bite.0"
+        }
+      },
+      "JumpAttackUp": {
+        "Hatchling": {
+          "ObjectName": "AnimMontage'AM_Troodon_Adult_Jump_Attack_Up'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Jump_Attack_Up.0"
+        },
+        "Juvenile": {
+          "ObjectName": "AnimMontage'AM_Troodon_Adult_Jump_Attack_Up'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Jump_Attack_Up.0"
+        },
+        "Subadult": {
+          "ObjectName": "AnimMontage'AM_Troodon_Adult_Jump_Attack_Up'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Jump_Attack_Up.0"
+        },
+        "Adult": {
+          "ObjectName": "AnimMontage'AM_Troodon_Adult_Jump_Attack_Up'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Jump_Attack_Up.0"
+        },
+        "Elder": {
+          "ObjectName": "AnimMontage'AM_Troodon_Adult_Jump_Attack_Up'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Jump_Attack_Up.0"
+        }
+      },
+      "JumpAttackDown": {
+        "Hatchling": {
+          "ObjectName": "AnimMontage'AM_Troodon_Adult_Jump_Attack_Down'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Jump_Attack_Down.0"
+        },
+        "Juvenile": {
+          "ObjectName": "AnimMontage'AM_Troodon_Adult_Jump_Attack_Down'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Jump_Attack_Down.0"
+        },
+        "Subadult": {
+          "ObjectName": "AnimMontage'AM_Troodon_Adult_Jump_Attack_Down'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Jump_Attack_Down.0"
+        },
+        "Adult": {
+          "ObjectName": "AnimMontage'AM_Troodon_Adult_Jump_Attack_Down'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Jump_Attack_Down.0"
+        },
+        "Elder": {
+          "ObjectName": "AnimMontage'AM_Troodon_Adult_Jump_Attack_Down'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Jump_Attack_Down.0"
+        }
+      },
+      "Court": {
+        "Male": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_CourtM'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_CourtM.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_CourtM'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_CourtM.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_CourtM'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_CourtM.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_CourtM'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_CourtM.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_CourtM'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_CourtM.0"
+          }
+        },
+        "Female": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_CourtF'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_CourtF.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_CourtF'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_CourtF.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_CourtF'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_CourtF.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_CourtF'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_CourtF.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_CourtF'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_CourtF.0"
+          }
+        }
+      },
+      "Nest": {
+        "Build": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_Nest'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Nest.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_Nest'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Nest.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_Nest'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Nest.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_Nest'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Nest.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_Nest'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Nest.0"
+          }
+        },
+        "Manage1": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_Nest_Manage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Nest_Manage.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_Nest_Manage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Nest_Manage.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_Nest_Manage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Nest_Manage.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_Nest_Manage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Nest_Manage.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_Nest_Manage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Nest_Manage.0"
+          }
+        },
+        "Manage2": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_Nest_Manage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Nest_Manage.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_Nest_Manage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Nest_Manage.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_Nest_Manage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Nest_Manage.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_Nest_Manage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Nest_Manage.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_Nest_Manage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Nest_Manage.0"
+          }
+        },
+        "Manage3": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_Nest_Manage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Nest_Manage.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_Nest_Manage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Nest_Manage.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_Nest_Manage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Nest_Manage.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_Nest_Manage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Nest_Manage.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_Nest_Manage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Nest_Manage.0"
+          }
+        }
+      },
+      "Hit": {
+        "Light": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_RecoilL'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_RecoilL.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_RecoilL'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_RecoilL.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_RecoilL'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_RecoilL.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_RecoilL'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_RecoilL.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_RecoilL'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_RecoilL.0"
+          }
+        },
+        "Heavy": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_RecoilH'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_RecoilH.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_RecoilH'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_RecoilH.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_RecoilH'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_RecoilH.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_RecoilH'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_RecoilH.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_RecoilH'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_RecoilH.0"
+          }
+        },
+        "StaggerF": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_StaggerF'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_StaggerF.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_StaggerF'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_StaggerF.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_StaggerF'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_StaggerF.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_StaggerF'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_StaggerF.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_StaggerF'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_StaggerF.0"
+          }
+        },
+        "StaggerB": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_StaggerB'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_StaggerB.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_StaggerB'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_StaggerB.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_StaggerB'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_StaggerB.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_StaggerB'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_StaggerB.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_StaggerB'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_StaggerB.0"
+          }
+        },
+        "StaggerR": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_StaggerR'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_StaggerR.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_StaggerR'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_StaggerR.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_StaggerR'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_StaggerR.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_StaggerR'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_StaggerR.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_StaggerR'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_StaggerR.0"
+          }
+        },
+        "StaggerL": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_StaggerL'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_StaggerL.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_StaggerL'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_StaggerL.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_StaggerL'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_StaggerL.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_StaggerL'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_StaggerL.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_StaggerL'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_StaggerL.0"
+          }
+        }
+      },
+      "Interact": {
+        "Wallow": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_Wallow'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Wallow.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_Wallow'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Wallow.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_Wallow'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Wallow.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_Wallow'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Wallow.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_Wallow'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Wallow.0"
+          }
+        },
+        "WallowRecover": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_Wallow_Recovery'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Wallow_Recovery.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_Wallow_Recovery'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Wallow_Recovery.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_Wallow_Recovery'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Wallow_Recovery.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_Wallow_Recovery'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Wallow_Recovery.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_Wallow_Recovery'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Wallow_Recovery.0"
+          }
+        },
+        "Salt": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_Salt'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Salt.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_Salt'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Salt.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_Salt'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Salt.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_Salt'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Salt.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_Salt'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Salt.0"
+          }
+        },
+        "Dig": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_Nest'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Nest.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_Nest'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Nest.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_Nest'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Nest.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_Nest'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Nest.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_Nest'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Nest.0"
+          }
+        },
+        "OpenCorpse": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_OpenBody'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_OpenBody.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_OpenBody'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_OpenBody.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_OpenBody'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_OpenBody.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_OpenBody'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_OpenBody.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Troodon_Adult_OpenBody'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_OpenBody.0"
+          }
+        }
+      },
+      "Blinded": {
+        "Hatchling": {
+          "ObjectName": "AnimMontage'AM_Troodon_Adult_Blind'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Blind.0"
+        },
+        "Juvenile": {
+          "ObjectName": "AnimMontage'AM_Troodon_Adult_Blind'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Blind.0"
+        },
+        "Subadult": {
+          "ObjectName": "AnimMontage'AM_Troodon_Adult_Blind'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Blind.0"
+        },
+        "Adult": {
+          "ObjectName": "AnimMontage'AM_Troodon_Adult_Blind'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Blind.0"
+        },
+        "Elder": {
+          "ObjectName": "AnimMontage'AM_Troodon_Adult_Blind'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Blind.0"
+        }
+      },
+      "PouncedStruggle": {
+        "Hatchling": {
+          "ObjectName": "AnimMontage'AM_Troodon_Adult_Pounced'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Pounced.0"
+        },
+        "Juvenile": {
+          "ObjectName": "AnimMontage'AM_Troodon_Adult_Pounced'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Pounced.0"
+        },
+        "Subadult": {
+          "ObjectName": "AnimMontage'AM_Troodon_Adult_Pounced'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Pounced.0"
+        },
+        "Adult": {
+          "ObjectName": "AnimMontage'AM_Troodon_Adult_Pounced'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Pounced.0"
+        },
+        "Elder": {
+          "ObjectName": "AnimMontage'AM_Troodon_Adult_Pounced'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Pounced.0"
+        }
+      },
+      "PouncedStruggleMoving": {
+        "Hatchling": {
+          "ObjectName": "AnimMontage'AM_Troodon_Adult_Pounced'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Pounced.0"
+        },
+        "Juvenile": {
+          "ObjectName": "AnimMontage'AM_Troodon_Adult_Pounced'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Pounced.0"
+        },
+        "Subadult": {
+          "ObjectName": "AnimMontage'AM_Troodon_Adult_Pounced'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Pounced.0"
+        },
+        "Adult": {
+          "ObjectName": "AnimMontage'AM_Troodon_Adult_Pounced'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Pounced.0"
+        },
+        "Elder": {
+          "ObjectName": "AnimMontage'AM_Troodon_Adult_Pounced'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Pounced.0"
+        }
+      },
+      "Unique": [
+        {
+          "Key": "PounceLand",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Troodon_Adult_Venom_Pounce_Land'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Venom_Pounce_Land.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Troodon_Adult_Venom_Pounce_Land'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Venom_Pounce_Land.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Troodon_Adult_Venom_Pounce_Land'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Venom_Pounce_Land.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Troodon_Adult_Venom_Pounce_Land'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Venom_Pounce_Land.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Troodon_Adult_Venom_Pounce_Land'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Venom_Pounce_Land.0"
+            }
+          }
+        },
+        {
+          "Key": "PounceRecovery",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Troodon_Adult_Venom_Pounce_Recover'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Venom_Pounce_Recover.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Troodon_Adult_Venom_Pounce_Recover'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Venom_Pounce_Recover.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Troodon_Adult_Venom_Pounce_Recover'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Venom_Pounce_Recover.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Troodon_Adult_Venom_Pounce_Recover'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Venom_Pounce_Recover.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Troodon_Adult_Venom_Pounce_Recover'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Venom_Pounce_Recover.0"
+            }
+          }
+        },
+        {
+          "Key": "PounceMiss",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Troodon_Adult_Venom_Pounce_Miss'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Venom_Pounce_Miss.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Troodon_Adult_Venom_Pounce_Miss'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Venom_Pounce_Miss.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Troodon_Adult_Venom_Pounce_Miss'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Venom_Pounce_Miss.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Troodon_Adult_Venom_Pounce_Miss'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Venom_Pounce_Miss.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Troodon_Adult_Venom_Pounce_Miss'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Venom_Pounce_Miss.0"
+            }
+          }
+        },
+        {
+          "Key": "PounceLandSmall",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Troodon_Adult_Venom_Pounce_Land'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Venom_Pounce_Land.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Troodon_Adult_Venom_Pounce_Land'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Venom_Pounce_Land.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Troodon_Adult_Venom_Pounce_Land'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Venom_Pounce_Land.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Troodon_Adult_Venom_Pounce_Land'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Venom_Pounce_Land.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Troodon_Adult_Venom_Pounce_Land'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Venom_Pounce_Land.0"
+            }
+          }
+        },
+        {
+          "Key": "PounceAttackLoopLatched",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Troodon_Adult_Venom_Pounce_BigLoop'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Venom_Pounce_BigLoop.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Troodon_Adult_Venom_Pounce_BigLoop'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Venom_Pounce_BigLoop.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Troodon_Adult_Venom_Pounce_BigLoop'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Venom_Pounce_BigLoop.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Troodon_Adult_Venom_Pounce_BigLoop'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Venom_Pounce_BigLoop.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Troodon_Adult_Venom_Pounce_BigLoop'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Venom_Pounce_BigLoop.0"
+            }
+          }
+        },
+        {
+          "Key": "PounceRecoveryLatched",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Troodon_Adult_Venom_Dismount'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Venom_Dismount.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Troodon_Adult_Venom_Dismount'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Venom_Dismount.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Troodon_Adult_Venom_Dismount'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Venom_Dismount.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Troodon_Adult_Venom_Dismount'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Venom_Dismount.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Troodon_Adult_Venom_Dismount'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Venom_Dismount.0"
+            }
+          }
+        },
+        {
+          "Key": "AdultPouncedRight",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Troodon_Adult_RecoilH'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_RecoilH.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Troodon_Adult_RecoilH'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_RecoilH.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Troodon_Adult_RecoilH'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_RecoilH.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Troodon_Adult_RecoilH'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_RecoilH.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Troodon_Adult_RecoilH'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_RecoilH.0"
+            }
+          }
+        },
+        {
+          "Key": "AdultPouncedLeft",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Troodon_Adult_RecoilH'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_RecoilH.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Troodon_Adult_RecoilH'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_RecoilH.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Troodon_Adult_RecoilH'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_RecoilH.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Troodon_Adult_RecoilH'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_RecoilH.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Troodon_Adult_RecoilH'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_RecoilH.0"
+            }
+          }
+        },
+        {
+          "Key": "AdultPouncedFront",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Troodon_Adult_RecoilH'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_RecoilH.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Troodon_Adult_RecoilH'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_RecoilH.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Troodon_Adult_RecoilH'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_RecoilH.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Troodon_Adult_RecoilH'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_RecoilH.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Troodon_Adult_RecoilH'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_RecoilH.0"
+            }
+          }
+        },
+        {
+          "Key": "AdultPouncedBack",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Troodon_Adult_RecoilH'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_RecoilH.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Troodon_Adult_RecoilH'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_RecoilH.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Troodon_Adult_RecoilH'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_RecoilH.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Troodon_Adult_RecoilH'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_RecoilH.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Troodon_Adult_RecoilH'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_RecoilH.0"
+            }
+          }
+        },
+        {
+          "Key": "VenomStack1",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Troodon_Adult_Vocal_VenomStack1'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Vocal_VenomStack1.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Troodon_Adult_Vocal_VenomStack1'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Vocal_VenomStack1.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Troodon_Adult_Vocal_VenomStack1'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Vocal_VenomStack1.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Troodon_Adult_Vocal_VenomStack1'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Vocal_VenomStack1.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Troodon_Adult_Vocal_VenomStack1'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Vocal_VenomStack1.0"
+            }
+          }
+        },
+        {
+          "Key": "VenomStack2",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Troodon_Adult_Vocal_VenomStack2'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Vocal_VenomStack2.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Troodon_Adult_Vocal_VenomStack2'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Vocal_VenomStack2.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Troodon_Adult_Vocal_VenomStack2'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Vocal_VenomStack2.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Troodon_Adult_Vocal_VenomStack2'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Vocal_VenomStack2.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Troodon_Adult_Vocal_VenomStack2'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Vocal_VenomStack2.0"
+            }
+          }
+        },
+        {
+          "Key": "VenomEnvenomated",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Troodon_Adult_Vocal_VenomEnvenomated'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Vocal_VenomEnvenomated.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Troodon_Adult_Vocal_VenomEnvenomated'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Vocal_VenomEnvenomated.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Troodon_Adult_Vocal_VenomEnvenomated'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Vocal_VenomEnvenomated.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Troodon_Adult_Vocal_VenomEnvenomated'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Vocal_VenomEnvenomated.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Troodon_Adult_Vocal_VenomEnvenomated'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Vocal_VenomEnvenomated.0"
+            }
+          }
+        },
+        {
+          "Key": "CorpseShake",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Troodon_Adult_Thrash'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Thrash.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Troodon_Adult_Thrash'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Thrash.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Troodon_Adult_Thrash'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Thrash.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Troodon_Adult_Thrash'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Thrash.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Troodon_Adult_Thrash'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Thrash.0"
+            }
+          }
+        },
+        {
+          "Key": "PounceAttackLoopSmall",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Troodon_Adult_Pinned_Attack'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Pinned_Attack.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Troodon_Adult_Pinned_Attack'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Pinned_Attack.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Troodon_Adult_Pinned_Attack'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Pinned_Attack.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Troodon_Adult_Pinned_Attack'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Pinned_Attack.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Troodon_Adult_Pinned_Attack'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Pinned_Attack.0"
+            }
+          }
+        },
+        {
+          "Key": "ThreatenAlt",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Troodon_Adult_Vocal_Threaten_Alt2'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Vocal_Threaten_Alt2.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Troodon_Adult_Vocal_Threaten_Alt2'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Vocal_Threaten_Alt2.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Troodon_Adult_Vocal_Threaten_Alt2'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Vocal_Threaten_Alt2.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Troodon_Adult_Vocal_Threaten_Alt2'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Vocal_Threaten_Alt2.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Troodon_Adult_Vocal_Threaten_Alt2'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Vocal_Threaten_Alt2.0"
+            }
+          }
+        },
+        {
+          "Key": "PounceAttackLoopBigNonNeutral - NOTUSED",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Troodon_Adult_Venom_Pounce_BigLoop'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Venom_Pounce_BigLoop.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Troodon_Adult_Venom_Pounce_BigLoop'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Venom_Pounce_BigLoop.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Troodon_Adult_Venom_Pounce_BigLoop'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Venom_Pounce_BigLoop.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Troodon_Adult_Venom_Pounce_BigLoop'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Venom_Pounce_BigLoop.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Troodon_Adult_Venom_Pounce_BigLoop'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Venom_Pounce_BigLoop.0"
+            }
+          }
+        },
+        {
+          "Key": "PounceAttackLoopMedium",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Troodon_Adult_Pinned_Attack'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Pinned_Attack.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Troodon_Adult_Pinned_Attack'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Pinned_Attack.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Troodon_Adult_Pinned_Attack'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Pinned_Attack.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Troodon_Adult_Pinned_Attack'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Pinned_Attack.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Troodon_Adult_Pinned_Attack'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Pinned_Attack.0"
+            }
+          }
+        },
+        {
+          "Key": "PounceAttackLoopBig",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Troodon_Adult_Pinned_Attack'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Pinned_Attack.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Troodon_Adult_Pinned_Attack'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Pinned_Attack.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Troodon_Adult_Pinned_Attack'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Pinned_Attack.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Troodon_Adult_Pinned_Attack'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Pinned_Attack.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Troodon_Adult_Pinned_Attack'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Pinned_Attack.0"
+            }
+          }
+        },
+        {
+          "Key": "PounceDeflect",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Troodon_Adult_Venom_Pounce_Deflect'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Venom_Pounce_Deflect.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Troodon_Adult_Venom_Pounce_Deflect'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Venom_Pounce_Deflect.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Troodon_Adult_Venom_Pounce_Deflect'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Venom_Pounce_Deflect.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Troodon_Adult_Venom_Pounce_Deflect'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Venom_Pounce_Deflect.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Troodon_Adult_Venom_Pounce_Deflect'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Venom_Pounce_Deflect.0"
+            }
+          }
+        },
+        {
+          "Key": "Gastrolith",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Troodon_Adult_Carry_Grab_Gastrolith'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Carry_Grab_Gastrolith.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Troodon_Adult_Carry_Grab_Gastrolith'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Carry_Grab_Gastrolith.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Troodon_Adult_Carry_Grab_Gastrolith'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Carry_Grab_Gastrolith.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Troodon_Adult_Carry_Grab_Gastrolith'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Carry_Grab_Gastrolith.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Troodon_Adult_Carry_Grab_Gastrolith'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Carry_Grab_Gastrolith.0"
+            }
+          }
+        }
+      ],
+      "UniqueDirectional": [
+        {
+          "Key": "AltBite",
+          "Value": {
+            "LF": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Troodon_Adult_Attack_F'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Attack_F.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Troodon_Adult_Attack_F'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Attack_F.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Troodon_Adult_Attack_F'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Attack_F.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Troodon_Adult_Attack_F'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Attack_F.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Troodon_Adult_Attack_F'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Attack_F.0"
+              }
+            },
+            "L45": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Troodon_Adult_Attack_L45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Attack_L45.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Troodon_Adult_Attack_L45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Attack_L45.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Troodon_Adult_Attack_L45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Attack_L45.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Troodon_Adult_Attack_L45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Attack_L45.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Troodon_Adult_Attack_L45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Attack_L45.0"
+              }
+            },
+            "L90": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Troodon_Adult_Attack_L90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Attack_L90.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Troodon_Adult_Attack_L90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Attack_L90.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Troodon_Adult_Attack_L90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Attack_L90.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Troodon_Adult_Attack_L90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Attack_L90.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Troodon_Adult_Attack_L90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Attack_L90.0"
+              }
+            },
+            "L135": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Troodon_Adult_Attack_L135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Attack_L135.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Troodon_Adult_Attack_L135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Attack_L135.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Troodon_Adult_Attack_L135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Attack_L135.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Troodon_Adult_Attack_L135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Attack_L135.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Troodon_Adult_Attack_L135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Attack_L135.0"
+              }
+            },
+            "L180": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Troodon_Adult_Attack_L180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Attack_L180.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Troodon_Adult_Attack_L180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Attack_L180.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Troodon_Adult_Attack_L180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Attack_L180.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Troodon_Adult_Attack_L180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Attack_L180.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Troodon_Adult_Attack_L180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Attack_L180.0"
+              }
+            },
+            "RF": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Troodon_Adult_Attack_F'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Attack_F.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Troodon_Adult_Attack_F'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Attack_F.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Troodon_Adult_Attack_F'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Attack_F.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Troodon_Adult_Attack_F'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Attack_F.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Troodon_Adult_Attack_F'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Attack_F.0"
+              }
+            },
+            "R45": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Troodon_Adult_Attack_R45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Attack_R45.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Troodon_Adult_Attack_R45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Attack_R45.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Troodon_Adult_Attack_R45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Attack_R45.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Troodon_Adult_Attack_R45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Attack_R45.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Troodon_Adult_Attack_R45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Attack_R45.0"
+              }
+            },
+            "R90": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Troodon_Adult_Attack_R90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Attack_R90.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Troodon_Adult_Attack_R90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Attack_R90.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Troodon_Adult_Attack_R90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Attack_R90.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Troodon_Adult_Attack_R90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Attack_R90.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Troodon_Adult_Attack_R90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Attack_R90.0"
+              }
+            },
+            "R135": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Troodon_Adult_Attack_R135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Attack_R135.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Troodon_Adult_Attack_R135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Attack_R135.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Troodon_Adult_Attack_R135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Attack_R135.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Troodon_Adult_Attack_R135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Attack_R135.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Troodon_Adult_Attack_R135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Attack_R135.0"
+              }
+            },
+            "R180": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Troodon_Adult_Attack_R180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Attack_R180.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Troodon_Adult_Attack_R180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Attack_R180.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Troodon_Adult_Attack_R180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Attack_R180.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Troodon_Adult_Attack_R180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Attack_R180.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Troodon_Adult_Attack_R180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Attack_R180.0"
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,842 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GA_SchoolFishPickUp_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'GA_PickupBase_C'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/PickUp/GA_PickupBase.0"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'GA_SchoolFishPickUp_C:ExecuteUbergraph_GA_SchoolFishPickUp'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/PickUp/GA_SchoolFishPickUp.1"
+      }
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'GA_SchoolFishPickUp_C:K2_ActivateAbility'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/PickUp/GA_SchoolFishPickUp.2"
+      },
+      {
+        "ObjectName": "Function'GA_SchoolFishPickUp_C:K2_OnEndAbility'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/PickUp/GA_SchoolFishPickUp.3"
+      },
+      {
+        "ObjectName": "Function'GA_SchoolFishPickUp_C:ExecuteUbergraph_GA_SchoolFishPickUp'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/PickUp/GA_SchoolFishPickUp.1"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_GA_SchoolFishPickUp": {
+        "ObjectName": "Function'GA_SchoolFishPickUp_C:ExecuteUbergraph_GA_SchoolFishPickUp'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/PickUp/GA_SchoolFishPickUp.1"
+      },
+      "K2_OnEndAbility": {
+        "ObjectName": "Function'GA_SchoolFishPickUp_C:K2_OnEndAbility'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/PickUp/GA_SchoolFishPickUp.3"
+      },
+      "K2_ActivateAbility": {
+        "ObjectName": "Function'GA_SchoolFishPickUp_C:K2_ActivateAbility'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/PickUp/GA_SchoolFishPickUp.2"
+      }
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GA_SchoolFishPickUp_C'Default__GA_SchoolFishPickUp_C'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/PickUp/GA_SchoolFishPickUp.4"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_GA_SchoolFishPickUp",
+    "Outer": "GA_SchoolFishPickUp_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetAvatarActorFromActorInfo_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsThe_Isle_Dinosaur_Base",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'TIDinosaurBase'",
+          "ObjectPath": "/Script/TheIsle"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_Event_bWasCancelled",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetAvatarActorFromActorInfo_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_DynamicCast_AsThe_Isle_Dinosaur_Base_1",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'TIDinosaurBase'",
+          "ObjectPath": "/Script/TheIsle"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_DynamicCast_bSuccess_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "ScriptBytecode": [
+      {
+        "Inst": "EX_ComputedJump",
+        "StatementIndex": 0,
+        "OffsetExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_SchoolFishPickUp_C:ExecuteUbergraph_GA_SchoolFishPickUp'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/PickUp/GA_SchoolFishPickUp.1"
+            },
+            "Property": {
+              "Type": "IntProperty",
+              "Name": "EntryPoint",
+              "Flags": "RF_Public",
+              "ElementSize": 4,
+              "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_LetObj",
+        "StatementIndex": 10,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_SchoolFishPickUp_C:ExecuteUbergraph_GA_SchoolFishPickUp'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/PickUp/GA_SchoolFishPickUp.1"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "CallFunc_GetAvatarActorFromActorInfo_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyClass": {
+                "ObjectName": "Class'Actor'",
+                "ObjectPath": "/Script/Engine"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_FinalFunction",
+          "Function": {
+            "ObjectName": "Class'GameplayAbility:GetAvatarActorFromActorInfo'",
+            "ObjectPath": "/Script/GameplayAbilities"
+          },
+          "Parameters": []
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 30,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_SchoolFishPickUp_C:ExecuteUbergraph_GA_SchoolFishPickUp'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/PickUp/GA_SchoolFishPickUp.1"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "K2Node_DynamicCast_AsThe_Isle_Dinosaur_Base",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyClass": {
+                "ObjectName": "Class'TIDinosaurBase'",
+                "ObjectPath": "/Script/TheIsle"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_DynamicCast",
+          "InterfaceClass": {
+            "ObjectName": "Class'TIDinosaurBase'",
+            "ObjectPath": "/Script/TheIsle"
+          },
+          "Target": {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'GA_SchoolFishPickUp_C:ExecuteUbergraph_GA_SchoolFishPickUp'",
+                "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/PickUp/GA_SchoolFishPickUp.1"
+              },
+              "Property": {
+                "Type": "ObjectProperty",
+                "Name": "CallFunc_GetAvatarActorFromActorInfo_ReturnValue",
+                "Flags": "RF_Public",
+                "ElementSize": 8,
+                "PropertyClass": {
+                  "ObjectName": "Class'Actor'",
+                  "ObjectPath": "/Script/Engine"
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 66,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_SchoolFishPickUp_C:ExecuteUbergraph_GA_SchoolFishPickUp'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/PickUp/GA_SchoolFishPickUp.1"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "K2Node_DynamicCast_bSuccess",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_Cast",
+          "ConversionType": "CST_ObjectToBool",
+          "Target": {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'GA_SchoolFishPickUp_C:ExecuteUbergraph_GA_SchoolFishPickUp'",
+                "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/PickUp/GA_SchoolFishPickUp.1"
+              },
+              "Property": {
+                "Type": "ObjectProperty",
+                "Name": "K2Node_DynamicCast_AsThe_Isle_Dinosaur_Base",
+                "Flags": "RF_Public",
+                "ElementSize": 8,
+                "PropertyClass": {
+                  "ObjectName": "Class'TIDinosaurBase'",
+                  "ObjectPath": "/Script/TheIsle"
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_JumpIfNot",
+        "StatementIndex": 95,
+        "CodeOffset": 370,
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/PickUp/GA_SchoolFishPickUp.ExecuteUbergraph_GA_SchoolFishPickUp[370]",
+        "BooleanExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_SchoolFishPickUp_C:ExecuteUbergraph_GA_SchoolFishPickUp'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/PickUp/GA_SchoolFishPickUp.1"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "K2Node_DynamicCast_bSuccess",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_Context",
+        "StatementIndex": 109,
+        "ObjectExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_SchoolFishPickUp_C:ExecuteUbergraph_GA_SchoolFishPickUp'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/PickUp/GA_SchoolFishPickUp.1"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "K2Node_DynamicCast_AsThe_Isle_Dinosaur_Base",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyClass": {
+                "ObjectName": "Class'TIDinosaurBase'",
+                "ObjectPath": "/Script/TheIsle"
+              }
+            }
+          }
+        },
+        "Offset": 37,
+        "RValuePointer": null,
+        "ContextExpression": {
+          "Inst": "EX_FinalFunction",
+          "Function": {
+            "ObjectName": "Class'TICharacterBase:RemoveSpecificTag'",
+            "ObjectPath": "/Script/TheIsle"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_StructConst",
+              "Struct": {
+                "ObjectName": "Class'GameplayTag'",
+                "ObjectPath": "/Script/GameplayTags"
+              },
+              "Properties": [
+                {
+                  "Inst": "EX_NameConst",
+                  "Value": "Event.Ability.BlockedBySchoolFish"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_Jump",
+        "StatementIndex": 168,
+        "CodeOffset": 370,
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/PickUp/GA_SchoolFishPickUp.ExecuteUbergraph_GA_SchoolFishPickUp[370]"
+      },
+      {
+        "Inst": "EX_LocalFinalFunction",
+        "StatementIndex": 173,
+        "Function": {
+          "ObjectName": "Class'GameplayAbility:K2_ActivateAbility'",
+          "ObjectPath": "/Script/GameplayAbilities"
+        },
+        "Parameters": []
+      },
+      {
+        "Inst": "EX_LetObj",
+        "StatementIndex": 183,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_SchoolFishPickUp_C:ExecuteUbergraph_GA_SchoolFishPickUp'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/PickUp/GA_SchoolFishPickUp.1"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "CallFunc_GetAvatarActorFromActorInfo_ReturnValue_1",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyClass": {
+                "ObjectName": "Class'Actor'",
+                "ObjectPath": "/Script/Engine"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_FinalFunction",
+          "Function": {
+            "ObjectName": "Class'GameplayAbility:GetAvatarActorFromActorInfo'",
+            "ObjectPath": "/Script/GameplayAbilities"
+          },
+          "Parameters": []
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 203,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_SchoolFishPickUp_C:ExecuteUbergraph_GA_SchoolFishPickUp'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/PickUp/GA_SchoolFishPickUp.1"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "K2Node_DynamicCast_AsThe_Isle_Dinosaur_Base_1",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyClass": {
+                "ObjectName": "Class'TIDinosaurBase'",
+                "ObjectPath": "/Script/TheIsle"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_DynamicCast",
+          "InterfaceClass": {
+            "ObjectName": "Class'TIDinosaurBase'",
+            "ObjectPath": "/Script/TheIsle"
+          },
+          "Target": {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'GA_SchoolFishPickUp_C:ExecuteUbergraph_GA_SchoolFishPickUp'",
+                "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/PickUp/GA_SchoolFishPickUp.1"
+              },
+              "Property": {
+                "Type": "ObjectProperty",
+                "Name": "CallFunc_GetAvatarActorFromActorInfo_ReturnValue_1",
+                "Flags": "RF_Public",
+                "ElementSize": 8,
+                "PropertyClass": {
+                  "ObjectName": "Class'Actor'",
+                  "ObjectPath": "/Script/Engine"
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 239,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_SchoolFishPickUp_C:ExecuteUbergraph_GA_SchoolFishPickUp'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/PickUp/GA_SchoolFishPickUp.1"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "K2Node_DynamicCast_bSuccess_1",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_Cast",
+          "ConversionType": "CST_ObjectToBool",
+          "Target": {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'GA_SchoolFishPickUp_C:ExecuteUbergraph_GA_SchoolFishPickUp'",
+                "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/PickUp/GA_SchoolFishPickUp.1"
+              },
+              "Property": {
+                "Type": "ObjectProperty",
+                "Name": "K2Node_DynamicCast_AsThe_Isle_Dinosaur_Base_1",
+                "Flags": "RF_Public",
+                "ElementSize": 8,
+                "PropertyClass": {
+                  "ObjectName": "Class'TIDinosaurBase'",
+                  "ObjectPath": "/Script/TheIsle"
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_JumpIfNot",
+        "StatementIndex": 268,
+        "CodeOffset": 370,
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/PickUp/GA_SchoolFishPickUp.ExecuteUbergraph_GA_SchoolFishPickUp[370]",
+        "BooleanExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_SchoolFishPickUp_C:ExecuteUbergraph_GA_SchoolFishPickUp'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/PickUp/GA_SchoolFishPickUp.1"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "K2Node_DynamicCast_bSuccess_1",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_Context",
+        "StatementIndex": 282,
+        "ObjectExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_SchoolFishPickUp_C:ExecuteUbergraph_GA_SchoolFishPickUp'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/PickUp/GA_SchoolFishPickUp.1"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "K2Node_DynamicCast_AsThe_Isle_Dinosaur_Base_1",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyClass": {
+                "ObjectName": "Class'TIDinosaurBase'",
+                "ObjectPath": "/Script/TheIsle"
+              }
+            }
+          }
+        },
+        "Offset": 37,
+        "RValuePointer": null,
+        "ContextExpression": {
+          "Inst": "EX_FinalFunction",
+          "Function": {
+            "ObjectName": "Class'TICharacterBase:AddSpecificTag'",
+            "ObjectPath": "/Script/TheIsle"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_StructConst",
+              "Struct": {
+                "ObjectName": "Class'GameplayTag'",
+                "ObjectPath": "/Script/GameplayTags"
+              },
+              "Properties": [
+                {
+                  "Inst": "EX_NameConst",
+                  "Value": "Event.Ability.BlockedBySchoolFish"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_Jump",
+        "StatementIndex": 341,
+        "CodeOffset": 370,
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/PickUp/GA_SchoolFishPickUp.ExecuteUbergraph_GA_SchoolFishPickUp[370]"
+      },
+      {
+        "Inst": "EX_LocalFinalFunction",
+        "StatementIndex": 346,
+        "Function": {
+          "ObjectName": "Class'GameplayAbility:K2_OnEndAbility'",
+          "ObjectPath": "/Script/GameplayAbilities"
+        },
+        "Parameters": [
+          {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'GA_SchoolFishPickUp_C:ExecuteUbergraph_GA_SchoolFishPickUp'",
+                "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/PickUp/GA_SchoolFishPickUp.1"
+              },
+              "Property": {
+                "Type": "BoolProperty",
+                "Name": "K2Node_Event_bWasCancelled",
+                "Flags": "RF_Public",
+                "ElementSize": 1,
+                "FieldSize": 1,
+                "ByteOffset": 0,
+                "ByteMask": 1,
+                "FieldMask": 255,
+                "BoolSize": 1,
+                "bIsNativeBool": true
+              }
+            }
+          }
+        ]
+      },
+      {
+        "Inst": "EX_Jump",
+        "StatementIndex": 365,
+        "CodeOffset": 10,
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/PickUp/GA_SchoolFishPickUp.ExecuteUbergraph_GA_SchoolFishPickUp[10]"
+      },
+      {
+        "Inst": "EX_Return",
+        "StatementIndex": 370,
+        "Expression": {
+          "Inst": "EX_Nothing"
+        }
+      },
+      {
+        "Inst": "EX_EndOfScript",
+        "StatementIndex": 372
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "K2_ActivateAbility",
+    "Outer": "GA_SchoolFishPickUp_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'GameplayAbility:K2_ActivateAbility'",
+      "ObjectPath": "/Script/GameplayAbilities"
+    },
+    "ScriptBytecode": [
+      {
+        "Inst": "EX_LocalFinalFunction",
+        "StatementIndex": 0,
+        "Function": {
+          "ObjectName": "Function'GA_SchoolFishPickUp_C:ExecuteUbergraph_GA_SchoolFishPickUp'",
+          "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/PickUp/GA_SchoolFishPickUp.1"
+        },
+        "Parameters": [
+          {
+            "Inst": "EX_IntConst",
+            "Value": 173
+          }
+        ],
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/PickUp/GA_SchoolFishPickUp.ExecuteUbergraph_GA_SchoolFishPickUp[173]"
+      },
+      {
+        "Inst": "EX_Return",
+        "StatementIndex": 15,
+        "Expression": {
+          "Inst": "EX_Nothing"
+        }
+      },
+      {
+        "Inst": "EX_EndOfScript",
+        "StatementIndex": 17
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "K2_OnEndAbility",
+    "Outer": "GA_SchoolFishPickUp_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'GameplayAbility:K2_OnEndAbility'",
+      "ObjectPath": "/Script/GameplayAbilities"
+    },
+    "ChildProperties": [
+      {
+        "Type": "BoolProperty",
+        "Name": "bWasCancelled",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "ScriptBytecode": [
+      {
+        "Inst": "EX_LetValueOnPersistentFrame",
+        "StatementIndex": 0,
+        "DestinationProperty": {
+          "Owner": {
+            "ObjectName": "Function'GA_SchoolFishPickUp_C:ExecuteUbergraph_GA_SchoolFishPickUp'",
+            "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/PickUp/GA_SchoolFishPickUp.1"
+          },
+          "Property": {
+            "Type": "BoolProperty",
+            "Name": "K2Node_Event_bWasCancelled",
+            "Flags": "RF_Public",
+            "ElementSize": 1,
+            "FieldSize": 1,
+            "ByteOffset": 0,
+            "ByteMask": 1,
+            "FieldMask": 255,
+            "BoolSize": 1,
+            "bIsNativeBool": true
+          }
+        },
+        "AssignmentExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_SchoolFishPickUp_C:K2_OnEndAbility'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/PickUp/GA_SchoolFishPickUp.3"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "bWasCancelled",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_LocalFinalFunction",
+        "StatementIndex": 18,
+        "Function": {
+          "ObjectName": "Function'GA_SchoolFishPickUp_C:ExecuteUbergraph_GA_SchoolFishPickUp'",
+          "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/PickUp/GA_SchoolFishPickUp.1"
+        },
+        "Parameters": [
+          {
+            "Inst": "EX_IntConst",
+            "Value": 346
+          }
+        ],
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/PickUp/GA_SchoolFishPickUp.ExecuteUbergraph_GA_SchoolFishPickUp[346]"
+      },
+      {
+        "Inst": "EX_Return",
+        "StatementIndex": 33,
+        "Expression": {
+          "Inst": "EX_Nothing"
+        }
+      },
+      {
+        "Inst": "EX_EndOfScript",
+        "StatementIndex": 35
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "GA_SchoolFishPickUp_C",
+    "Name": "Default__GA_SchoolFishPickUp_C",
+    "Class": "BlueprintGeneratedClass'/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/PickUp/GA_SchoolFishPickUp.GA_SchoolFishPickUp_C'",
+    "Template": {
+      "ObjectName": "GA_PickupBase_C'Default__GA_PickupBase_C'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/PickUp/GA_PickupBase.1"
+    },
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "UberGraphFrame": {},
+      "bShouldPlayAnim": false,
+      "bIsSkimming": true,
+      "AbilityTags": [
+        "Ability.Skill.PickUp.SchoolFish"
+      ],
+      "ActivationOwnedTags": [
+        "Ability.Skill.PickUp.SchoolFish"
+      ],
+      "ActivationBlockedTags": [
+        "State.Dead",
+        "Ability.Skill.Scent",
+        "Ability.Skill.VoiceBroadcast",
+        "Ability.Skill.VoiceFriendly",
+        "Ability.Skill.VoiceHelp",
+        "Ability.Skill.VoiceThreaten",
+        "Ability.Skill.Rest",
+        "Ability.Skill.Wallow",
+        "Ability.Skill.Nest",
+        "State.PickedUp",
+        "State.Pounced",
+        "State.PouncedLarge",
+        "Ability.Skill.Use",
+        "State.UIBlockAbilities",
+        "Ability.Skill.SecondaryAttack.UtahPounce",
+        "Ability.Skill.SecondaryAttackStationary",
+        "GameplayCue.Active.Swallowing",
+        "Ability.Skill.SecondaryAttack.Charge",
+        "State.Lunged"
+      ]
+    }
+  }
+]

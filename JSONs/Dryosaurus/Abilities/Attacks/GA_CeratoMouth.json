@@ -1,0 +1,81 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GA_CeratoMouth_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'TIGameplayAbilityCeratoMouth'",
+      "ObjectPath": "/Script/TheIsle"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GA_CeratoMouth_C'Default__GA_CeratoMouth_C'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Attacks/GA_CeratoMouth.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "GA_CeratoMouth_C",
+    "Name": "Default__GA_CeratoMouth_C",
+    "Class": "BlueprintGeneratedClass'/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Attacks/GA_CeratoMouth.GA_CeratoMouth_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "MontageName": "Mouth",
+      "Stage1MontageName": "ManualVomitStage1",
+      "Stage2MontageName": "ManualVomitStage2",
+      "Stage3MontageName": "ManualVomitStage3",
+      "ManualVomitDelay": 0.5,
+      "VomitEffect": {
+        "ObjectName": "BlueprintGeneratedClass'GE_CeratoVomitingForced_C'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Effects/GE_CeratoVomitingForced.0"
+      },
+      "AbilityTags": [
+        "Ability.Skill.SecondarySpecial"
+      ],
+      "CancelAbilitiesWithTag": [
+        "Ability.Skill.Vocalize",
+        "Ability.Skill.VoiceThreaten",
+        "Ability.Skill.VoiceHelp",
+        "Ability.Skill.VoiceFriendly",
+        "Ability.Skill.VoiceBroadcast",
+        "Ability.Skill.PouncedBuck"
+      ],
+      "BlockAbilitiesWithTag": [
+        "Ability.Skill.VoiceThreaten",
+        "Ability.Skill.VoiceHelp",
+        "Ability.Skill.VoiceFriendly",
+        "Ability.Skill.VoiceBroadcast",
+        "Ability.Skill.Vocalize"
+      ],
+      "ActivationOwnedTags": [
+        "Ability.Skill.SecondarySpecial"
+      ],
+      "ActivationBlockedTags": [
+        "State.UIBlockAbilities",
+        "Ability.Skill.Beg",
+        "Ability.Skill.Evade",
+        "Ability.Skill.Forage",
+        "Ability.Skill.Hatch",
+        "Ability.Skill.PickingUp",
+        "Ability.Skill.Nest",
+        "Ability.Skill.PrimaryAttack",
+        "Ability.Skill.Use",
+        "Ability.Skill.Shake",
+        "Ability.Skill.Rest",
+        "Ability.Skill.Wallow",
+        "State.Pounced",
+        "State.Dead",
+        "State.BlockAbilities"
+      ]
+    }
+  }
+]

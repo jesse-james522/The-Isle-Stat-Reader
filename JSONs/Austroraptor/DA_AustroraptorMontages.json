@@ -1,0 +1,1961 @@
+[
+  {
+    "Type": "TIDinosaurMontages",
+    "Name": "DA_AustroraptorMontages",
+    "Class": "UScriptClass'TIDinosaurMontages'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Vocals": {
+        "Generic": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Vocal_Threaten'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Vocal_Threaten.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Vocal_Threaten'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Vocal_Threaten.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Vocal_Threaten'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Vocal_Threaten.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Vocal_Threaten'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Vocal_Threaten.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Vocal_Threaten'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Vocal_Threaten.0"
+          }
+        },
+        "GenericSpecial": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Vocal_Threaten'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Vocal_Threaten.0"
+          }
+        },
+        "Broadcast": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Vocal_Threaten'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Vocal_Threaten.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Vocal_Threaten'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Vocal_Threaten.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Vocal_Threaten'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Vocal_Threaten.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Vocal_Threaten'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Vocal_Threaten.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Vocal_Threaten'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Vocal_Threaten.0"
+          }
+        },
+        "Attract": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Vocal_Threaten'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Vocal_Threaten.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Vocal_Threaten'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Vocal_Threaten.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Vocal_Threaten'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Vocal_Threaten.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Vocal_Threaten'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Vocal_Threaten.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Vocal_Threaten'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Vocal_Threaten.0"
+          }
+        },
+        "Threaten": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Vocal_Threaten'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Vocal_Threaten.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Vocal_Threaten'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Vocal_Threaten.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Vocal_Threaten'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Vocal_Threaten.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Vocal_Threaten'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Vocal_Threaten.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Vocal_Threaten'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Vocal_Threaten.0"
+          }
+        },
+        "Danger": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Vocal_Threaten'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Vocal_Threaten.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Vocal_Threaten'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Vocal_Threaten.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Vocal_Threaten'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Vocal_Threaten.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Vocal_Threaten'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Vocal_Threaten.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Vocal_Threaten'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Vocal_Threaten.0"
+          }
+        }
+      },
+      "Eat": {
+        "EatIn": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Eat_In'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Eat_In.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Eat_In'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Eat_In.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Eat_In'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Eat_In.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Eat_In'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Eat_In.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Eat_In'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Eat_In.0"
+          }
+        },
+        "EatEnd": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Eat_Out'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Eat_Out.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Eat_Out'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Eat_Out.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Eat_Out'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Eat_Out.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Eat_Out'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Eat_Out.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Eat_Out'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Eat_Out.0"
+          }
+        },
+        "Swallow": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Swallow'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Swallow.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Swallow'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Swallow.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Swallow'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Swallow.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Swallow'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Swallow.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Swallow'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Swallow.0"
+          }
+        },
+        "Vomit": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Vomit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Vomit.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Vomit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Vomit.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Vomit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Vomit.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Vomit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Vomit.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Vomit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Vomit.0"
+          }
+        }
+      },
+      "Drink": {
+        "Hatchling": {
+          "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Drink_In'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Drink_In.0"
+        },
+        "Juvenile": {
+          "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Drink_In'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Drink_In.0"
+        },
+        "Subadult": {
+          "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Drink_In'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Drink_In.0"
+        },
+        "Adult": {
+          "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Drink_In'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Drink_In.0"
+        },
+        "Elder": {
+          "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Drink_In'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Drink_In.0"
+        }
+      },
+      "DrinkEnd": {
+        "Hatchling": {
+          "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Drink_Out'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Drink_Out.0"
+        },
+        "Juvenile": {
+          "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Drink_Out'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Drink_Out.0"
+        },
+        "Subadult": {
+          "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Drink_Out'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Drink_Out.0"
+        },
+        "Adult": {
+          "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Drink_Out'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Drink_Out.0"
+        },
+        "Elder": {
+          "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Drink_Out'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Drink_Out.0"
+        }
+      },
+      "Feed": {
+        "Hatchling": {
+          "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Feed'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Feed.0"
+        },
+        "Juvenile": {
+          "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Feed'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Feed.0"
+        },
+        "Subadult": {
+          "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Feed'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Feed.0"
+        },
+        "Adult": {
+          "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Feed'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Feed.0"
+        },
+        "Elder": {
+          "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Feed'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Feed.0"
+        }
+      },
+      "Rest": {
+        "StandToSit": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_StandToSit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_StandToSit.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_StandToSit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_StandToSit.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_StandToSit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_StandToSit.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_StandToSit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_StandToSit.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_StandToSit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_StandToSit.0"
+          }
+        },
+        "SitToStand": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_SitToStand'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_SitToStand.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_SitToStand'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_SitToStand.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_SitToStand'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_SitToStand.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_SitToStand'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_SitToStand.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_SitToStand'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_SitToStand.0"
+          }
+        },
+        "SitToStandFast": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_SitToStand'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_SitToStand.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_SitToStand'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_SitToStand.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_SitToStand'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_SitToStand.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_SitToStand'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_SitToStand.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_SitToStand'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_SitToStand.0"
+          }
+        },
+        "SitToSleep": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_SitToSleep'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_SitToSleep.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_SitToSleep'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_SitToSleep.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_SitToSleep'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_SitToSleep.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_SitToSleep'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_SitToSleep.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_SitToSleep'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_SitToSleep.0"
+          }
+        },
+        "SleepToSit": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_SleepToSit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_SleepToSit.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_SleepToSit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_SleepToSit.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_SleepToSit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_SleepToSit.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_SleepToSit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_SleepToSit.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_SleepToSit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_SleepToSit.0"
+          }
+        }
+      },
+      "PickupL": {
+        "Hatchling": {
+          "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Grab'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Grab.0"
+        },
+        "Juvenile": {
+          "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Grab'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Grab.0"
+        },
+        "Subadult": {
+          "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Grab'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Grab.0"
+        },
+        "Adult": {
+          "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Grab'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Grab.0"
+        },
+        "Elder": {
+          "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Grab'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Grab.0"
+        }
+      },
+      "PickupR": {
+        "Hatchling": {
+          "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Grab'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Grab.0"
+        },
+        "Juvenile": {
+          "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Grab'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Grab.0"
+        },
+        "Subadult": {
+          "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Grab'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Grab.0"
+        },
+        "Adult": {
+          "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Grab'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Grab.0"
+        },
+        "Elder": {
+          "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Grab'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Grab.0"
+        }
+      },
+      "Bite": {
+        "Hatchling": {
+          "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Attack_Alt'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Attack_Alt.0"
+        },
+        "Juvenile": {
+          "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Attack_Alt'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Attack_Alt.0"
+        },
+        "Subadult": {
+          "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Attack_Alt'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Attack_Alt.0"
+        },
+        "Adult": {
+          "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Attack_Alt'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Attack_Alt.0"
+        },
+        "Elder": {
+          "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Attack_Alt'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Attack_Alt.0"
+        }
+      },
+      "JumpAttackUp": {
+        "Hatchling": {
+          "ObjectName": "AnimMontage'AM_Austroraptor_Adult_JumpHoriz_Kick_F'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_JumpHoriz_Kick_F.0"
+        },
+        "Juvenile": {
+          "ObjectName": "AnimMontage'AM_Austroraptor_Adult_JumpHoriz_Kick_F'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_JumpHoriz_Kick_F.0"
+        },
+        "Subadult": {
+          "ObjectName": "AnimMontage'AM_Austroraptor_Adult_JumpHoriz_Kick_F'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_JumpHoriz_Kick_F.0"
+        },
+        "Adult": {
+          "ObjectName": "AnimMontage'AM_Austroraptor_Adult_JumpHoriz_Kick_F'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_JumpHoriz_Kick_F.0"
+        },
+        "Elder": {
+          "ObjectName": "AnimMontage'AM_Austroraptor_Adult_JumpHoriz_Kick_F'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_JumpHoriz_Kick_F.0"
+        }
+      },
+      "Court": {
+        "Male": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_CourtM'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_CourtM.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_CourtM'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_CourtM.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_CourtM'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_CourtM.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_CourtM'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_CourtM.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_CourtM'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_CourtM.0"
+          }
+        },
+        "Female": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_CourtF'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_CourtF.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_CourtF'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_CourtF.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_CourtF'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_CourtF.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_CourtF'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_CourtF.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_CourtF'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_CourtF.0"
+          }
+        }
+      },
+      "Nest": {
+        "Build": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Nest'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Nest.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Nest'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Nest.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Nest'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Nest.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Nest'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Nest.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Nest'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Nest.0"
+          }
+        },
+        "Manage1": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Nest_Manage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Nest_Manage.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Nest_Manage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Nest_Manage.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Nest_Manage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Nest_Manage.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Nest_Manage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Nest_Manage.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Nest_Manage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Nest_Manage.0"
+          }
+        },
+        "Manage2": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Nest_Manage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Nest_Manage.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Nest_Manage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Nest_Manage.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Nest_Manage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Nest_Manage.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Nest_Manage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Nest_Manage.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Nest_Manage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Nest_Manage.0"
+          }
+        },
+        "Manage3": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Nest_Manage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Nest_Manage.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Nest_Manage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Nest_Manage.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Nest_Manage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Nest_Manage.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Nest_Manage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Nest_Manage.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Nest_Manage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Nest_Manage.0"
+          }
+        }
+      },
+      "Hit": {
+        "Light": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_RecoilL'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_RecoilL.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_RecoilL'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_RecoilL.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_RecoilL'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_RecoilL.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_RecoilL'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_RecoilL.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_RecoilL'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_RecoilL.0"
+          }
+        },
+        "Heavy": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_RecoilH'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_RecoilH.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_RecoilH'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_RecoilH.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_RecoilH'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_RecoilH.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_RecoilH'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_RecoilH.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_RecoilH'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_RecoilH.0"
+          }
+        },
+        "StaggerF": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_StaggerF'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_StaggerF.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_StaggerF'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_StaggerF.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_StaggerF'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_StaggerF.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_StaggerF'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_StaggerF.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_StaggerF'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_StaggerF.0"
+          }
+        },
+        "StaggerB": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_StaggerB'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_StaggerB.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_StaggerB'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_StaggerB.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_StaggerB'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_StaggerB.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_StaggerB'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_StaggerB.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_StaggerB'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_StaggerB.0"
+          }
+        },
+        "StaggerR": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_StaggerR'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_StaggerR.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_StaggerR'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_StaggerR.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_StaggerR'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_StaggerR.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_StaggerR'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_StaggerR.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_StaggerR'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_StaggerR.0"
+          }
+        },
+        "StaggerL": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_StaggerL'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_StaggerL.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_StaggerL'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_StaggerL.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_StaggerL'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_StaggerL.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_StaggerL'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_StaggerL.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_StaggerL'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_StaggerL.0"
+          }
+        }
+      },
+      "Interact": {
+        "Wallow": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Wallow'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Wallow.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Wallow'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Wallow.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Wallow'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Wallow.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Wallow'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Wallow.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Wallow'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Wallow.0"
+          }
+        },
+        "WallowRecover": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Wallow_Recover'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Wallow_Recover.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Wallow_Recover'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Wallow_Recover.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Wallow_Recover'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Wallow_Recover.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Wallow_Recover'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Wallow_Recover.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Wallow_Recover'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Wallow_Recover.0"
+          }
+        },
+        "Salt": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Salt'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Salt.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Salt'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Salt.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Salt'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Salt.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Salt'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Salt.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Salt'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Salt.0"
+          }
+        },
+        "Dig": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Dig'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Dig.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Dig'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Dig.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Dig'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Dig.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Dig'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Dig.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Dig'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Dig.0"
+          }
+        },
+        "OpenCorpse": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Allosaurus_Adult_OpenBody'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_OpenBody.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Allosaurus_Adult_OpenBody'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_OpenBody.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Allosaurus_Adult_OpenBody'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_OpenBody.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Allosaurus_Adult_OpenBody'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_OpenBody.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Allosaurus_Adult_OpenBody'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_OpenBody.0"
+          }
+        }
+      },
+      "Blinded": {
+        "Hatchling": {
+          "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Blind'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Blind.0"
+        },
+        "Juvenile": {
+          "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Blind'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Blind.0"
+        },
+        "Subadult": {
+          "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Blind'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Blind.0"
+        },
+        "Adult": {
+          "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Blind'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Blind.0"
+        },
+        "Elder": {
+          "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Blind'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Blind.0"
+        }
+      },
+      "PouncedStruggle": {
+        "Hatchling": {
+          "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Pounced'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Pounced.0"
+        },
+        "Juvenile": {
+          "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Pounced'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Pounced.0"
+        },
+        "Subadult": {
+          "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Pounced'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Pounced.0"
+        },
+        "Adult": {
+          "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Pounced'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Pounced.0"
+        },
+        "Elder": {
+          "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Pounced'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Pounced.0"
+        }
+      },
+      "PouncedStruggleMoving": {
+        "Hatchling": {
+          "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Pounced'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Pounced.0"
+        },
+        "Juvenile": {
+          "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Pounced'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Pounced.0"
+        },
+        "Subadult": {
+          "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Pounced'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Pounced.0"
+        },
+        "Adult": {
+          "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Pounced'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Pounced.0"
+        },
+        "Elder": {
+          "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Pounced'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Pounced.0"
+        }
+      },
+      "Unique": [
+        {
+          "Key": "PounceAttackLoopSmall",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Allosaurus_Adult_Grapple_Small_Loop'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_Grapple_Small_Loop.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Allosaurus_Adult_Grapple_Small_Loop'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_Grapple_Small_Loop.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Allosaurus_Adult_Grapple_Small_Loop'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_Grapple_Small_Loop.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Allosaurus_Adult_Grapple_Small_Loop'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_Grapple_Small_Loop.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Allosaurus_Adult_Grapple_Small_Loop'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_Grapple_Small_Loop.0"
+            }
+          }
+        },
+        {
+          "Key": "PounceRecovery",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Allosaurus_Adult_Grapple_Small_Recover'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_Grapple_Small_Recover.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Allosaurus_Adult_Grapple_Small_Recover'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_Grapple_Small_Recover.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Allosaurus_Adult_Grapple_Small_Recover'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_Grapple_Small_Recover.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Allosaurus_Adult_Grapple_Small_Recover'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_Grapple_Small_Recover.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Allosaurus_Adult_Grapple_Small_Recover'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_Grapple_Small_Recover.0"
+            }
+          }
+        },
+        {
+          "Key": "AdultPouncedRight",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Austroraptor_Adult_RecoilH'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_RecoilH.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Austroraptor_Adult_RecoilH'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_RecoilH.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Austroraptor_Adult_RecoilH'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_RecoilH.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Austroraptor_Adult_RecoilH'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_RecoilH.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Austroraptor_Adult_RecoilH'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_RecoilH.0"
+            }
+          }
+        },
+        {
+          "Key": "AdultPouncedLeft",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Austroraptor_Adult_RecoilH'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_RecoilH.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Austroraptor_Adult_RecoilH'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_RecoilH.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Austroraptor_Adult_RecoilH'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_RecoilH.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Austroraptor_Adult_RecoilH'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_RecoilH.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Austroraptor_Adult_RecoilH'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_RecoilH.0"
+            }
+          }
+        },
+        {
+          "Key": "AdultPouncedFront",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Austroraptor_Adult_RecoilH'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_RecoilH.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Austroraptor_Adult_RecoilH'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_RecoilH.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Austroraptor_Adult_RecoilH'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_RecoilH.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Austroraptor_Adult_RecoilH'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_RecoilH.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Austroraptor_Adult_RecoilH'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_RecoilH.0"
+            }
+          }
+        },
+        {
+          "Key": "AdultPouncedBack",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Austroraptor_Adult_RecoilH'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_RecoilH.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Austroraptor_Adult_RecoilH'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_RecoilH.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Austroraptor_Adult_RecoilH'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_RecoilH.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Austroraptor_Adult_RecoilH'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_RecoilH.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Austroraptor_Adult_RecoilH'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_RecoilH.0"
+            }
+          }
+        },
+        {
+          "Key": "CorpseShake",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Allosaurus_Adult_Thrash'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_Thrash.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Allosaurus_Adult_Thrash'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_Thrash.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Allosaurus_Adult_Thrash'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_Thrash.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Allosaurus_Adult_Thrash'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_Thrash.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Allosaurus_Adult_Thrash'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_Thrash.0"
+            }
+          }
+        },
+        {
+          "Key": "PounceAttackLoopMedium",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Allosaurus_Adult_Grapple_Medium_Loop'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_Grapple_Medium_Loop.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Allosaurus_Adult_Grapple_Medium_Loop'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_Grapple_Medium_Loop.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Allosaurus_Adult_Grapple_Medium_Loop'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_Grapple_Medium_Loop.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Allosaurus_Adult_Grapple_Medium_Loop'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_Grapple_Medium_Loop.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Allosaurus_Adult_Grapple_Medium_Loop'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_Grapple_Medium_Loop.0"
+            }
+          }
+        },
+        {
+          "Key": "PounceRecoveryLatched",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Allosaurus_Adult_Grapple_Large_Recover'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_Grapple_Large_Recover.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Allosaurus_Adult_Grapple_Large_Recover'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_Grapple_Large_Recover.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Allosaurus_Adult_Grapple_Large_Recover'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_Grapple_Large_Recover.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Allosaurus_Adult_Grapple_Large_Recover'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_Grapple_Large_Recover.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Allosaurus_Adult_Grapple_Large_Recover'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_Grapple_Large_Recover.0"
+            }
+          }
+        },
+        {
+          "Key": "PounceLandSmall",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Allosaurus_Adult_Grapple_Small_Start_Short'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_Grapple_Small_Start_Short.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Allosaurus_Adult_Grapple_Small_Start_Short'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_Grapple_Small_Start_Short.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Allosaurus_Adult_Grapple_Small_Start_Short'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_Grapple_Small_Start_Short.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Allosaurus_Adult_Grapple_Small_Start_Short'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_Grapple_Small_Start_Short.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Allosaurus_Adult_Grapple_Small_Start_Short'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_Grapple_Small_Start_Short.0"
+            }
+          }
+        },
+        {
+          "Key": "PounceAttackLoopBig",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Allosaurus_Adult_Grapple_Large_Loop'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_Grapple_Large_Loop.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Allosaurus_Adult_Grapple_Large_Loop'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_Grapple_Large_Loop.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Allosaurus_Adult_Grapple_Large_Loop'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_Grapple_Large_Loop.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Allosaurus_Adult_Grapple_Large_Loop'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_Grapple_Large_Loop.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Allosaurus_Adult_Grapple_Large_Loop'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_Grapple_Large_Loop.0"
+            }
+          }
+        },
+        {
+          "Key": "PounceAttackLoopLatched",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Allosaurus_Adult_Grapple_Large_Loop'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_Grapple_Large_Loop.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Allosaurus_Adult_Grapple_Large_Loop'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_Grapple_Large_Loop.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Allosaurus_Adult_Grapple_Large_Loop'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_Grapple_Large_Loop.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Allosaurus_Adult_Grapple_Large_Loop'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_Grapple_Large_Loop.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Allosaurus_Adult_Grapple_Large_Loop'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_Grapple_Large_Loop.0"
+            }
+          }
+        },
+        {
+          "Key": "Gastrolith",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Grab'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Grab.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Grab'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Grab.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Grab'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Grab.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Grab'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Grab.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Grab'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Grab.0"
+            }
+          }
+        },
+        {
+          "Key": "PounceMiss",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Allosaurus_Adult_Grapple_Miss'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_Grapple_Miss.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Allosaurus_Adult_Grapple_Miss'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_Grapple_Miss.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Allosaurus_Adult_Grapple_Miss'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_Grapple_Miss.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Allosaurus_Adult_Grapple_Miss'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_Grapple_Miss.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Allosaurus_Adult_Grapple_Miss'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_Grapple_Miss.0"
+            }
+          }
+        }
+      ],
+      "UniqueDirectional": [
+        {
+          "Key": "AltBite",
+          "Value": {
+            "LF": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Attack_L45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Attack_L45.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Allosaurus_Bite'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Bite.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Allosaurus_Bite'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Bite.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Allosaurus_Bite'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Bite.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Allosaurus_Bite'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Bite.0"
+              }
+            },
+            "L45": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Attack_L45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Attack_L45.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Attack_L45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Attack_L45.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Attack_L45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Attack_L45.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Attack_L45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Attack_L45.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Attack_L45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Attack_L45.0"
+              }
+            },
+            "L90": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Attack_L90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Attack_L90.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Attack_L90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Attack_L90.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Attack_L90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Attack_L90.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Attack_L90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Attack_L90.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Attack_L90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Attack_L90.0"
+              }
+            },
+            "L135": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Attack_L90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Attack_L90.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Attack_L90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Attack_L90.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Attack_L90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Attack_L90.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Attack_L90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Attack_L90.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Attack_L90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Attack_L90.0"
+              }
+            },
+            "L180": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Attack_L180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Attack_L180.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Attack_L180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Attack_L180.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Attack_L180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Attack_L180.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Attack_L180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Attack_L180.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Attack_L180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Attack_L180.0"
+              }
+            },
+            "RF": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Attack_R45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Attack_R45.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Allosaurus_Bite'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Bite.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Allosaurus_Bite'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Bite.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Allosaurus_Bite'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Bite.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Allosaurus_Bite'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Bite.0"
+              }
+            },
+            "R45": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Attack_R45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Attack_R45.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Attack_R45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Attack_R45.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Attack_R45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Attack_R45.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Attack_R45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Attack_R45.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Attack_R45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Attack_R45.0"
+              }
+            },
+            "R90": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Attack_R90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Attack_R90.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Attack_R90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Attack_R90.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Attack_R90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Attack_R90.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Attack_R90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Attack_R90.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Attack_R90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Attack_R90.0"
+              }
+            },
+            "R135": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Attack_R90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Attack_R90.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Attack_R90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Attack_R90.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Attack_R90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Attack_R90.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Attack_R90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Attack_R90.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Attack_R90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Attack_R90.0"
+              }
+            },
+            "R180": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Attack_R180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Attack_R180.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Attack_R180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Attack_R180.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Attack_R180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Attack_R180.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Attack_R180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Attack_R180.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Attack_R180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Attack_R180.0"
+              }
+            }
+          }
+        },
+        {
+          "Key": "WaterBite",
+          "Value": {
+            "LF": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Surface_AttackL45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Surface_AttackL45.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Surface_AttackL45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Surface_AttackL45.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Surface_AttackL45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Surface_AttackL45.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Surface_AttackL45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Surface_AttackL45.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Surface_AttackL45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Surface_AttackL45.0"
+              }
+            },
+            "L45": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Surface_AttackL45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Surface_AttackL45.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Surface_AttackL45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Surface_AttackL45.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Surface_AttackL45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Surface_AttackL45.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Surface_AttackL45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Surface_AttackL45.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Surface_AttackL45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Surface_AttackL45.0"
+              }
+            },
+            "L90": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Surface_AttackL90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Surface_AttackL90.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Surface_AttackL90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Surface_AttackL90.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Surface_AttackL90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Surface_AttackL90.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Surface_AttackL90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Surface_AttackL90.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Surface_AttackL90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Surface_AttackL90.0"
+              }
+            },
+            "L135": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Surface_AttackL135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Surface_AttackL135.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Surface_AttackL135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Surface_AttackL135.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Surface_AttackL135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Surface_AttackL135.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Surface_AttackL135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Surface_AttackL135.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Surface_AttackL135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Surface_AttackL135.0"
+              }
+            },
+            "L180": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Surface_AttackL180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Surface_AttackL180.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Surface_AttackL180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Surface_AttackL180.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Surface_AttackL180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Surface_AttackL180.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Surface_AttackL180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Surface_AttackL180.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Surface_AttackL180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Surface_AttackL180.0"
+              }
+            },
+            "RF": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Surface_AttackR45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Surface_AttackR45.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Surface_AttackR45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Surface_AttackR45.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Surface_AttackR45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Surface_AttackR45.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Surface_AttackR45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Surface_AttackR45.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Surface_AttackR45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Surface_AttackR45.0"
+              }
+            },
+            "R45": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Surface_AttackR45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Surface_AttackR45.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Surface_AttackR45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Surface_AttackR45.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Surface_AttackR45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Surface_AttackR45.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Surface_AttackR45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Surface_AttackR45.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Surface_AttackR45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Surface_AttackR45.0"
+              }
+            },
+            "R90": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Surface_AttackR90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Surface_AttackR90.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Surface_AttackR90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Surface_AttackR90.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Surface_AttackR90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Surface_AttackR90.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Surface_AttackR90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Surface_AttackR90.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Surface_AttackR90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Surface_AttackR90.0"
+              }
+            },
+            "R135": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Surface_AttackR135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Surface_AttackR135.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Surface_AttackR135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Surface_AttackR135.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Surface_AttackR135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Surface_AttackR135.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Surface_AttackR135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Surface_AttackR135.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Surface_AttackR135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Surface_AttackR135.0"
+              }
+            },
+            "R180": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Surface_AttackR180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Surface_AttackR180.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Surface_AttackR180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Surface_AttackR180.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Surface_AttackR180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Surface_AttackR180.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Surface_AttackR180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Surface_AttackR180.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Surface_AttackR180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Surface_AttackR180.0"
+              }
+            }
+          }
+        },
+        {
+          "Key": "underWaterAttack",
+          "Value": {
+            "LF": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Underwater_AttackL45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Underwater_AttackL45.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Underwater_AttackL45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Underwater_AttackL45.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Underwater_AttackL45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Underwater_AttackL45.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Underwater_AttackL45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Underwater_AttackL45.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Underwater_AttackL45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Underwater_AttackL45.0"
+              }
+            },
+            "L45": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Underwater_AttackL45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Underwater_AttackL45.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Underwater_AttackL45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Underwater_AttackL45.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Underwater_AttackL45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Underwater_AttackL45.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Underwater_AttackL45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Underwater_AttackL45.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Underwater_AttackL45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Underwater_AttackL45.0"
+              }
+            },
+            "L90": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Underwater_AttackL90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Underwater_AttackL90.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Underwater_AttackL90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Underwater_AttackL90.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Underwater_AttackL90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Underwater_AttackL90.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Underwater_AttackL90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Underwater_AttackL90.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Underwater_AttackL90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Underwater_AttackL90.0"
+              }
+            },
+            "L135": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Underwater_AttackL135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Underwater_AttackL135.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Underwater_AttackL135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Underwater_AttackL135.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Underwater_AttackL135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Underwater_AttackL135.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Underwater_AttackL135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Underwater_AttackL135.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Underwater_AttackL135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Underwater_AttackL135.0"
+              }
+            },
+            "L180": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Underwater_AttackL180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Underwater_AttackL180.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Underwater_AttackL180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Underwater_AttackL180.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Underwater_AttackL180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Underwater_AttackL180.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Underwater_AttackL180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Underwater_AttackL180.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Underwater_AttackL180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Underwater_AttackL180.0"
+              }
+            },
+            "RF": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Underwater_AttackR45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Underwater_AttackR45.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Underwater_AttackR45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Underwater_AttackR45.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Underwater_AttackR45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Underwater_AttackR45.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Underwater_AttackR45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Underwater_AttackR45.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Underwater_AttackR45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Underwater_AttackR45.0"
+              }
+            },
+            "R45": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Underwater_AttackR45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Underwater_AttackR45.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Underwater_AttackR45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Underwater_AttackR45.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Underwater_AttackR45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Underwater_AttackR45.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Underwater_AttackR45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Underwater_AttackR45.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Underwater_AttackR45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Underwater_AttackR45.0"
+              }
+            },
+            "R90": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Underwater_AttackR90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Underwater_AttackR90.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Underwater_AttackR90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Underwater_AttackR90.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Underwater_AttackR90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Underwater_AttackR90.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Underwater_AttackR90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Underwater_AttackR90.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Underwater_AttackR90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Underwater_AttackR90.0"
+              }
+            },
+            "R135": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Underwater_AttackR135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Underwater_AttackR135.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Underwater_AttackR135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Underwater_AttackR135.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Underwater_AttackR135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Underwater_AttackR135.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Underwater_AttackR135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Underwater_AttackR135.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Underwater_AttackR135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Underwater_AttackR135.0"
+              }
+            },
+            "R180": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Underwater_AttackR180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Underwater_AttackR180.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Underwater_AttackR180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Underwater_AttackR180.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Underwater_AttackR180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Underwater_AttackR180.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Underwater_AttackR180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Underwater_AttackR180.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Austroraptor_Adult_Underwater_AttackR180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Austroraptor/Animations/AM_Austroraptor_Adult_Underwater_AttackR180.0"
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+]

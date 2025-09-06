@@ -1,0 +1,227 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GA_VocalVenomStack2_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'GA_VocalVenomStack2_C:ExecuteUbergraph_GA_VocalVenomStack2'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Vocals/GA_VocalVenomStack2.1"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'TIGameplayAbilityVocalVenomStack2'",
+      "ObjectPath": "/Script/TheIsle"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'GA_VocalVenomStack2_C:K2_ActivateAbility'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Vocals/GA_VocalVenomStack2.2"
+      },
+      {
+        "ObjectName": "Function'GA_VocalVenomStack2_C:ExecuteUbergraph_GA_VocalVenomStack2'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Vocals/GA_VocalVenomStack2.1"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_GA_VocalVenomStack2": {
+        "ObjectName": "Function'GA_VocalVenomStack2_C:ExecuteUbergraph_GA_VocalVenomStack2'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Vocals/GA_VocalVenomStack2.1"
+      },
+      "K2_ActivateAbility": {
+        "ObjectName": "Function'GA_VocalVenomStack2_C:K2_ActivateAbility'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Vocals/GA_VocalVenomStack2.2"
+      }
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GA_VocalVenomStack2_C'Default__GA_VocalVenomStack2_C'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Vocals/GA_VocalVenomStack2.3"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_GA_VocalVenomStack2",
+    "Outer": "GA_VocalVenomStack2_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "ScriptBytecode": [
+      {
+        "Inst": "EX_ComputedJump",
+        "StatementIndex": 0,
+        "OffsetExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_VocalVenomStack2_C:ExecuteUbergraph_GA_VocalVenomStack2'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Vocals/GA_VocalVenomStack2.1"
+            },
+            "Property": {
+              "Type": "IntProperty",
+              "Name": "EntryPoint",
+              "Flags": "RF_Public",
+              "ElementSize": 4,
+              "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_LocalFinalFunction",
+        "StatementIndex": 10,
+        "Function": {
+          "ObjectName": "Class'GameplayAbility:K2_ActivateAbility'",
+          "ObjectPath": "/Script/GameplayAbilities"
+        },
+        "Parameters": []
+      },
+      {
+        "Inst": "EX_Jump",
+        "StatementIndex": 20,
+        "CodeOffset": 30,
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Vocals/GA_VocalVenomStack2.ExecuteUbergraph_GA_VocalVenomStack2[30]"
+      },
+      {
+        "Inst": "EX_Jump",
+        "StatementIndex": 25,
+        "CodeOffset": 10,
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Vocals/GA_VocalVenomStack2.ExecuteUbergraph_GA_VocalVenomStack2[10]"
+      },
+      {
+        "Inst": "EX_Return",
+        "StatementIndex": 30,
+        "Expression": {
+          "Inst": "EX_Nothing"
+        }
+      },
+      {
+        "Inst": "EX_EndOfScript",
+        "StatementIndex": 32
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "K2_ActivateAbility",
+    "Outer": "GA_VocalVenomStack2_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'GameplayAbility:K2_ActivateAbility'",
+      "ObjectPath": "/Script/GameplayAbilities"
+    },
+    "ScriptBytecode": [
+      {
+        "Inst": "EX_LocalFinalFunction",
+        "StatementIndex": 0,
+        "Function": {
+          "ObjectName": "Function'GA_VocalVenomStack2_C:ExecuteUbergraph_GA_VocalVenomStack2'",
+          "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Vocals/GA_VocalVenomStack2.1"
+        },
+        "Parameters": [
+          {
+            "Inst": "EX_IntConst",
+            "Value": 25
+          }
+        ],
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Vocals/GA_VocalVenomStack2.ExecuteUbergraph_GA_VocalVenomStack2[25]"
+      },
+      {
+        "Inst": "EX_Return",
+        "StatementIndex": 15,
+        "Expression": {
+          "Inst": "EX_Nothing"
+        }
+      },
+      {
+        "Inst": "EX_EndOfScript",
+        "StatementIndex": 17
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "GA_VocalVenomStack2_C",
+    "Name": "Default__GA_VocalVenomStack2_C",
+    "Class": "BlueprintGeneratedClass'/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Vocals/GA_VocalVenomStack2.GA_VocalVenomStack2_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "UberGraphFrame": {},
+      "MyAbilityTag": "Ability.Skill.Vocalize",
+      "PlayJuvAnimGameplayEffect": {
+        "ObjectName": "BlueprintGeneratedClass'GE_PlayJuvAnim_C'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Effects/GE_PlayJuvAnim.0"
+      },
+      "bHasIntensityModulation": false,
+      "TempAttackBuffEffect": {
+        "ObjectName": "BlueprintGeneratedClass'GE_TempAttackBoost_C'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Effects/GE_TempAttackBoost.0"
+      },
+      "TempDefenseBuffEffect": {
+        "ObjectName": "BlueprintGeneratedClass'GE_TempDefenseBoost_C'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Effects/GE_TempDefenseBoost.0"
+      },
+      "AbilityTagName": "VenomStack2",
+      "AbilityTags": [
+        "Ability.Skill.VocalizeVenomStack2"
+      ],
+      "InstancingPolicy": "EGameplayAbilityInstancingPolicy::InstancedPerExecution",
+      "bRetriggerInstancedAbility": true,
+      "CooldownGameplayEffectClass": {
+        "ObjectName": "BlueprintGeneratedClass'GE_VocalGenericCooldown_C'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Effects/GE_VocalGenericCooldown.0"
+      },
+      "ActivationOwnedTags": [
+        "Ability.Skill.VocalizeVenomStack2"
+      ],
+      "ActivationBlockedTags": [
+        "State.Dead",
+        "State.Pounced",
+        "State.Lunged",
+        "State.PouncedLarge",
+        "Ability.Skill.Scent",
+        "Ability.Skill.Shake",
+        "Ability.Skill.Use",
+        "Ability.Skill.SecondaryAttack",
+        "Ability.Skill.SecondaryAttackStationary",
+        "Ability.Skill.PrimaryAttackStationary",
+        "Ability.Skill.PrimaryAttack",
+        "Ability.Skill.Wallow",
+        "State.BlockAbilities"
+      ]
+    }
+  }
+]

@@ -1,0 +1,86 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GA_VocalBroadcastWithPickup_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'TIGameplayAbilityVocalBroadcast'",
+      "ObjectPath": "/Script/TheIsle"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GA_VocalBroadcastWithPickup_C'Default__GA_VocalBroadcastWithPickup_C'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Vocals/GA_VocalBroadcastWithPickup.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "GA_VocalBroadcastWithPickup_C",
+    "Name": "Default__GA_VocalBroadcastWithPickup_C",
+    "Class": "BlueprintGeneratedClass'/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Vocals/GA_VocalBroadcastWithPickup.GA_VocalBroadcastWithPickup_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "MyAbilityTag": "Ability.Skill.VoiceBroadcast",
+      "PlayJuvAnimGameplayEffect": {
+        "ObjectName": "BlueprintGeneratedClass'GE_PlayJuvAnim_C'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Effects/GE_PlayJuvAnim.0"
+      },
+      "TempAttackBuffEffect": {
+        "ObjectName": "BlueprintGeneratedClass'GE_TempAttackBoost_C'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Effects/GE_TempAttackBoost.0"
+      },
+      "TempDefenseBuffEffect": {
+        "ObjectName": "BlueprintGeneratedClass'GE_TempDefenseBoost_C'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Effects/GE_TempDefenseBoost.0"
+      },
+      "AbilityTagName": "Broadcast",
+      "AbilityTags": [
+        "Ability.Skill.VoiceBroadcast"
+      ],
+      "InstancingPolicy": "EGameplayAbilityInstancingPolicy::InstancedPerExecution",
+      "bRetriggerInstancedAbility": true,
+      "CooldownGameplayEffectClass": {
+        "ObjectName": "BlueprintGeneratedClass'GE_VocalBroadcastCooldown_C'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Effects/GE_VocalBroadcastCooldown.0"
+      },
+      "BlockAbilitiesWithTag": [
+        "Ability.Skill.Nest",
+        "Ability.Skill.PickUp",
+        "Ability.Skill.Rest",
+        "Ability.Skill.Scent",
+        "Ability.Skill.Use",
+        "Ability.Skill.Wallow"
+      ],
+      "ActivationOwnedTags": [
+        "Ability.Skill.VoiceBroadcast"
+      ],
+      "ActivationBlockedTags": [
+        "Ability.Skill.PrimaryAttack",
+        "Ability.Skill.SecondaryAttack",
+        "Ability.Skill.Use",
+        "State.Dead",
+        "Ability.Skill.Nest",
+        "Ability.Skill.Wallow",
+        "State.TemporaryRestBlocker",
+        "State.Pounced",
+        "State.PickedUp",
+        "Ability.Skill.Vocalize",
+        "Ability.Skill.VoiceBroadcast",
+        "Ability.Skill.VoiceFriendly",
+        "Ability.Skill.VoiceHelp",
+        "Ability.Skill.VoiceThreaten",
+        "State.UIBlockAbilities",
+        "State.BlockAbilities"
+      ]
+    }
+  }
+]

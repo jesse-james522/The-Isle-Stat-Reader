@@ -1,0 +1,248 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_PteranodonVocals",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'Vocals'",
+        "ObjectPath": "/Script/TheIsle"
+      }
+    },
+    "Rows": {
+      "Generic": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Pteranodon_Call_Generic'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pteranodon/Sound/MS_Pteranodon_Call_Generic.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Broadcast": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Pteranodon_Call_Broadcast'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pteranodon/Sound/MS_Pteranodon_Call_Broadcast.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Attract": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Pteranodon_Call_Attract'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pteranodon/Sound/MS_Pteranodon_Call_Attract.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Threaten": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Pteranodon_Call_Threaten'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pteranodon/Sound/MS_Pteranodon_Call_Threaten.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Danger": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Pteranodon_Call_Danger'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pteranodon/Sound/MS_Pteranodon_Call_Danger.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "RegularPain": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Ptera_RegularPain'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pteranodon/Sound/CU_Ptera_RegularPain.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "ExtremePain": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Ptera_Extremepain'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pteranodon/Sound/CU_Ptera_Extremepain.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Death": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Ptera_Extremepain'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pteranodon/Sound/CU_Ptera_Extremepain.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Bite": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Pteranodon_Bite'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pteranodon/Sound/MS_Pteranodon_Bite.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Wallow": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Ptera_Chirp'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pteranodon/Sound/CU_Ptera_Chirp.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Chirp": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Ptera_Chirp'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pteranodon/Sound/CU_Ptera_Chirp.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Caw": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Ptera_Caw'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pteranodon/Sound/CU_Ptera_Caw.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Coo": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Ptera_Coo'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pteranodon/Sound/CU_Ptera_Coo.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Beak": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Ptera_Beak_Clack'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pteranodon/Sound/CU_Ptera_Beak_Clack.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Cluck": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Ptera_Cluck'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pteranodon/Sound/CU_Ptera_Cluck.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "SitDown": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Ptera_SitDown'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pteranodon/Sound/CU_Ptera_SitDown.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "StandUp": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Ptera_StandUp'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pteranodon/Sound/CU_Ptera_StandUp.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "HeadInjury": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Ptera_HeadInjury'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pteranodon/Sound/CU_Ptera_HeadInjury.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "BeakSnap": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Ptera_Beak_Snap'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pteranodon/Sound/CU_Ptera_Beak_Snap.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "BeakClap": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Ptera_Beak_Clap'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pteranodon/Sound/CU_Ptera_Beak_Clap.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Grumble": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Ptera_Grumble'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pteranodon/Sound/CU_Ptera_Grumble.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Squawk": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Ptera_Squawk'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pteranodon/Sound/CU_Ptera_Squawk.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "HeadTiltF": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Ptera_HeadTiltF'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pteranodon/Sound/CU_Ptera_HeadTiltF.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "HeadTiltM": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Ptera_HeadTiltM'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pteranodon/Sound/CU_Ptera_HeadTiltM.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "HeadDip": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Ptera_HeadDip'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pteranodon/Sound/CU_Ptera_HeadDip.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Beg1": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Ptera_Hatchling_Beg1'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pteranodon/Sound/CU_Ptera_Hatchling_Beg1.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Beg2": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Ptera_Hatchling_Beg2'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pteranodon/Sound/CU_Ptera_Hatchling_Beg2.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Beg3": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Ptera_Hatchling_Beg3'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pteranodon/Sound/CU_Ptera_Hatchling_Beg3.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Feed": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Ptera_Feed'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pteranodon/Sound/CU_Ptera_Feed.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      }
+    }
+  }
+]

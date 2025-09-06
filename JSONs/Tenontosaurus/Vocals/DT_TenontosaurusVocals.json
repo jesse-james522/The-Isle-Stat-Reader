@@ -1,0 +1,269 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_TenontosaurusVocals",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'Vocals'",
+        "ObjectPath": "/Script/TheIsle"
+      }
+    },
+    "Rows": {
+      "Generic": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Tenontosaurus_Call_Generic'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tenontosaurus/Sounds/MS_Tenontosaurus_Call_Generic.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Broadcast": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Tenontosaurus_Call_Broadcast'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tenontosaurus/Sounds/MS_Tenontosaurus_Call_Broadcast.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Attract": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Tenontosaurus_Call_Attract'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tenontosaurus/Sounds/MS_Tenontosaurus_Call_Attract.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Threaten": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Tenontosaurus_Call_Threaten'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tenontosaurus/Sounds/MS_Tenontosaurus_Call_Threaten.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Danger": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Tenontosaurus_Call_Danger'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tenontosaurus/Sounds/MS_Tenontosaurus_Call_Danger.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "RegularPain": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Tenontosaurus_Pain_Adult'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tenontosaurus/Sounds/CU_Tenontosaurus_Pain_Adult.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "ExtremePain": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Tenontosaurus_Pain_Adult'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tenontosaurus/Sounds/CU_Tenontosaurus_Pain_Adult.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Death": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Tenontosaurus_Death_Adult'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tenontosaurus/Sounds/CU_Tenontosaurus_Death_Adult.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "JuvenilePain": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Tenontosaurus_Pain_Juvenile'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tenontosaurus/Sounds/CU_Tenontosaurus_Pain_Juvenile.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "JuvenileExtremePain": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Tenontosaurus_Pain_Juvenile_Extreme'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tenontosaurus/Sounds/CU_Tenontosaurus_Pain_Juvenile_Extreme.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "JuvenileDeath": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Tenontosaurus_Death_Juvenile'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tenontosaurus/Sounds/CU_Tenontosaurus_Death_Juvenile.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Bite": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Tenontosaurus_Bite'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tenontosaurus/Sounds/CU_Tenontosaurus_Bite.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Attack": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Tenontosaurus_Attack_Adult'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tenontosaurus/Sounds/CU_Tenontosaurus_Attack_Adult.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Slam": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Tenontosaurus_Slam_Adult'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tenontosaurus/Sounds/CU_Tenontosaurus_Slam_Adult.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Grunt": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Tenontosaurus_Grunt_Adult'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tenontosaurus/Sounds/CU_Tenontosaurus_Grunt_Adult.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Vomit": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Tenontosaurus_Vomit_Adult'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tenontosaurus/Sounds/CU_Tenontosaurus_Vomit_Adult.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Snore": {
+        "VocalSoundCue": null,
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Grumble": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Tenontosaurus_Grumble_Adult'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tenontosaurus/Sounds/CU_Tenontosaurus_Grumble_Adult.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Ruckle": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Tenontosaurus_Ruckle_Adult'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tenontosaurus/Sounds/CU_Tenontosaurus_Ruckle_Adult.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Blow": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Tenontosaurus_Blow_Adult'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tenontosaurus/Sounds/CU_Tenontosaurus_Blow_Adult.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Idle": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Tenontosaurus_Idle_Adult'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tenontosaurus/Sounds/CU_Tenontosaurus_Idle_Adult.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Exert": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Tenontosaurus_Exert_Adult'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tenontosaurus/Sounds/CU_Tenontosaurus_Exert_Adult.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Moan": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Hadrosaur_Generic_Grumbles'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/_Shared/Sound/Vocals/CU_Hadrosaur_Generic_Grumbles.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "HeadInjury": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Tenontosaurus_HeadInjury'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tenontosaurus/Sounds/CU_Tenontosaurus_HeadInjury.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "CourtshipMale": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Tenontosaurus_Courtship_Male'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tenontosaurus/Sounds/CU_Tenontosaurus_Courtship_Male.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "CourtshipFemale1": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Tenontosaurus_Courtship_Female1'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tenontosaurus/Sounds/CU_Tenontosaurus_Courtship_Female1.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "CourtshipFemale2": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Tenontosaurus_Courtship_Female2'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tenontosaurus/Sounds/CU_Tenontosaurus_Courtship_Female2.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Beg1": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Tenontosaurus_Beg1'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tenontosaurus/Sounds/CU_Tenontosaurus_Beg1.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Beg2": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Tenontosaurus_Beg2'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tenontosaurus/Sounds/CU_Tenontosaurus_Beg2.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Beg3": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Tenontosaurus_Beg3'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tenontosaurus/Sounds/CU_Tenontosaurus_Beg3.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Feed": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Tenontosaurus_Feed'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tenontosaurus/Sounds/CU_Tenontosaurus_Feed.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Consume": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Tenontosaurus_Consume'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tenontosaurus/Sounds/CU_Tenontosaurus_Consume.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      }
+    }
+  }
+]

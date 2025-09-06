@@ -1,0 +1,56 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GA_PounceLatchAttack1_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'TIGameplayAbilityPounceLatchAttack'",
+      "ObjectPath": "/Script/TheIsle"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GA_PounceLatchAttack1_C'Default__GA_PounceLatchAttack1_C'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Attacks/GA_PounceLatchAttack1.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "GA_PounceLatchAttack1_C",
+    "Name": "Default__GA_PounceLatchAttack1_C",
+    "Class": "BlueprintGeneratedClass'/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Attacks/GA_PounceLatchAttack1.GA_PounceLatchAttack1_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "MontageName": "PounceAttack1",
+      "bShouldApplyGoreMask": true,
+      "MyAbilityTag": "Ability.Skill.PounceLatchAttack1",
+      "BleedingChance": 0.0,
+      "BalanceAttributeRow": "Damage.Bite",
+      "AbilityTags": [
+        "Ability.Skill.PounceLatchAttack1"
+      ],
+      "CooldownGameplayEffectClass": {
+        "ObjectName": "BlueprintGeneratedClass'GE_AttackCooldown1_C'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Effects/GE_AttackCooldown1.0"
+      },
+      "CancelAbilitiesWithTag": [],
+      "ActivationOwnedTags": [
+        "Ability.Skill.PounceLatchAttack1"
+      ],
+      "ActivationRequiredTags": [
+        "Ability.Skill.SecondaryAttack"
+      ],
+      "ActivationBlockedTags": [
+        "Cooldown.Skills.Bite"
+      ]
+    }
+  }
+]

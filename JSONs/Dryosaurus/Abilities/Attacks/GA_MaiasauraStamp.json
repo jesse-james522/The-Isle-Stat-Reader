@@ -1,0 +1,41 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GA_MaiasauraStamp_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'TIGameplayAbilityMaiaStamp'",
+      "ObjectPath": "/Script/TheIsle"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GA_MaiasauraStamp_C'Default__GA_MaiasauraStamp_C'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Attacks/GA_MaiasauraStamp.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "GA_MaiasauraStamp_C",
+    "Name": "Default__GA_MaiasauraStamp_C",
+    "Class": "BlueprintGeneratedClass'/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Attacks/GA_MaiasauraStamp.GA_MaiasauraStamp_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "TraceTimes": [
+        2.7E-44,
+        0.0
+      ],
+      "PlayJuvAnimGameplayEffect": null,
+      "bBeganAttack": false,
+      "TreeFruitKnockdownAmount": 0.0
+    }
+  }
+]

@@ -1,0 +1,83 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GA_CorpseShake_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'TIGameplayAbilityCorpseShake'",
+      "ObjectPath": "/Script/TheIsle"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GA_CorpseShake_C'Default__GA_CorpseShake_C'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/GA_CorpseShake.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "GA_CorpseShake_C",
+    "Name": "Default__GA_CorpseShake_C",
+    "Class": "BlueprintGeneratedClass'/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/GA_CorpseShake.GA_CorpseShake_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "PlayJuvAnimGameplayEffect": {
+        "ObjectName": "BlueprintGeneratedClass'GE_PlayJuvAnim_C'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Effects/GE_PlayJuvAnim.0"
+      },
+      "AbilityTags": [
+        "Ability.Skill.Shake"
+      ],
+      "CooldownGameplayEffectClass": {
+        "ObjectName": "BlueprintGeneratedClass'GE_ShakeCorpseCooldown_C'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Effects/GE_ShakeCorpseCooldown.0"
+      },
+      "CancelAbilitiesWithTag": [
+        "Ability.Skill.Use",
+        "Ability.Skill.Vocalize",
+        "Ability.Skill.VoiceBroadcast",
+        "Ability.Skill.VoiceFriendly",
+        "Ability.Skill.VoiceHelp",
+        "Ability.Skill.VoiceThreaten"
+      ],
+      "BlockAbilitiesWithTag": [
+        "Ability.Skill.Rest",
+        "Ability.Skill.Scent",
+        "Ability.Skill.SecondaryAttack",
+        "Ability.Skill.Use",
+        "Ability.Skill.Vocalize",
+        "Ability.Skill.VoiceBroadcast",
+        "Ability.Skill.VoiceFriendly",
+        "Ability.Skill.VoiceHelp",
+        "Ability.Skill.VoiceThreaten",
+        "Ability.Skill.PrimaryAttack"
+      ],
+      "ActivationOwnedTags": [
+        "Ability.Skill.Shake"
+      ],
+      "ActivationBlockedTags": [
+        "State.Dead",
+        "Ability.Skill.Use",
+        "Ability.Skill.Nest",
+        "Ability.Skill.Rest",
+        "Ability.Skill.Wallow",
+        "State.Pounced",
+        "State.PickedUp",
+        "State.UIBlockAbilities",
+        "State.Lunged",
+        "Ability.Skill.PrimaryAttack"
+      ],
+      "SourceBlockedTags": [
+        "State.Dead"
+      ]
+    }
+  }
+]

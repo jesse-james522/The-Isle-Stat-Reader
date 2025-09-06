@@ -1,0 +1,60 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GA_DirectionalDryosaurusBitePrimary_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'GA_DirectionalDryosaurusBite_C'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Attacks/Directional/GA_DirectionalDryosaurusBite.0"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GA_DirectionalDryosaurusBitePrimary_C'Default__GA_DirectionalDryosaurusBitePrimary_C'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Attacks/Directional/GA_DirectionalDryosaurusBitePrimary.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "GA_DirectionalDryosaurusBitePrimary_C",
+    "Name": "Default__GA_DirectionalDryosaurusBitePrimary_C",
+    "Class": "BlueprintGeneratedClass'/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Attacks/Directional/GA_DirectionalDryosaurusBitePrimary.GA_DirectionalDryosaurusBitePrimary_C'",
+    "Template": {
+      "ObjectName": "GA_DirectionalDryosaurusBite_C'Default__GA_DirectionalDryosaurusBite_C'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Attacks/Directional/GA_DirectionalDryosaurusBite.1"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "bPrimaryAbility": true,
+      "TraceTimesF": [
+        0.14,
+        0.29
+      ],
+      "TraceTimes45": [
+        0.18,
+        0.35
+      ],
+      "TraceTimes90": [
+        0.21,
+        0.42
+      ],
+      "TraceTimes135": [
+        0.24,
+        0.48
+      ],
+      "TraceTimes180": [
+        0.45,
+        0.7
+      ],
+      "BleedingChance": 1.25
+    }
+  }
+]

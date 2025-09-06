@@ -1,0 +1,1424 @@
+[
+  {
+    "Type": "TIDinosaurMontages",
+    "Name": "DA_GallimimusMontages",
+    "Class": "UScriptClass'TIDinosaurMontages'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Vocals": {
+        "Generic": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Vocal_Generic'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Vocal_Generic.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Vocal_Generic'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Vocal_Generic.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Vocal_Generic'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Vocal_Generic.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Vocal_Generic'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Vocal_Generic.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Vocal_Generic'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Vocal_Generic.0"
+          }
+        },
+        "Broadcast": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Vocal_Broadcast'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Vocal_Broadcast.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Vocal_Broadcast'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Vocal_Broadcast.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Vocal_Broadcast'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Vocal_Broadcast.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Vocal_Broadcast'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Vocal_Broadcast.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Vocal_Broadcast'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Vocal_Broadcast.0"
+          }
+        },
+        "Attract": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Vocal_Friendly'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Vocal_Friendly.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Vocal_Friendly'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Vocal_Friendly.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Vocal_Friendly'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Vocal_Friendly.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Vocal_Friendly'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Vocal_Friendly.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Vocal_Friendly'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Vocal_Friendly.0"
+          }
+        },
+        "Threaten": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Vocal_Threaten'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Vocal_Threaten.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Vocal_Threaten'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Vocal_Threaten.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Vocal_Threaten'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Vocal_Threaten.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Vocal_Threaten'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Vocal_Threaten.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Vocal_Threaten'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Vocal_Threaten.0"
+          }
+        },
+        "Danger": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Vocal_Danger'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Vocal_Danger.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Vocal_Danger'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Vocal_Danger.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Vocal_Danger'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Vocal_Danger.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Vocal_Danger'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Vocal_Danger.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Vocal_Danger'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Vocal_Danger.0"
+          }
+        }
+      },
+      "Eat": {
+        "EatInLow": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Eat_Low_In'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Eat_Low_In.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Eat_Low_In'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Eat_Low_In.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Eat_Low_In'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Eat_Low_In.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Eat_Low_In'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Eat_Low_In.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Eat_Low_In'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Eat_Low_In.0"
+          }
+        },
+        "EatEndLow": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Eat_Low_Out'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Eat_Low_Out.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Eat_Low_Out'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Eat_Low_Out.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Eat_Low_Out'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Eat_Low_Out.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Eat_Low_Out'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Eat_Low_Out.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Eat_Low_Out'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Eat_Low_Out.0"
+          }
+        },
+        "EatIn": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Eat_Mid_In'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Eat_Mid_In.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Eat_Mid_In'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Eat_Mid_In.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Eat_Mid_In'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Eat_Mid_In.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Eat_Mid_In'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Eat_Mid_In.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Eat_Mid_In'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Eat_Mid_In.0"
+          }
+        },
+        "EatEnd": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Eat_Mid_Out'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Eat_Mid_Out.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Eat_Mid_Out'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Eat_Mid_Out.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Eat_Mid_Out'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Eat_Mid_Out.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Eat_Mid_Out'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Eat_Mid_Out.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Eat_Mid_Out'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Eat_Mid_Out.0"
+          }
+        },
+        "EatInHigh": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Eat_High_In'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Eat_High_In.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Eat_High_In'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Eat_High_In.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Eat_High_In'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Eat_High_In.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Eat_High_In'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Eat_High_In.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Eat_High_In'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Eat_High_In.0"
+          }
+        },
+        "EatEndHigh": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Eat_High_Out'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Eat_High_Out.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Eat_High_Out'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Eat_High_Out.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Eat_High_Out'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Eat_High_Out.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Eat_High_Out'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Eat_High_Out.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Eat_High_Out'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Eat_High_Out.0"
+          }
+        },
+        "Swallow": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Swallow'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Swallow.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Swallow'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Swallow.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Swallow'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Swallow.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Swallow'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Swallow.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Swallow'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Swallow.0"
+          }
+        },
+        "Vomit": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Vomit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Vomit.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Vomit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Vomit.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Vomit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Vomit.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Vomit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Vomit.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Vomit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Vomit.0"
+          }
+        }
+      },
+      "Drink": {
+        "Hatchling": {
+          "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Drink'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Drink.0"
+        },
+        "Juvenile": {
+          "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Drink'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Drink.0"
+        },
+        "Subadult": {
+          "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Drink'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Drink.0"
+        },
+        "Adult": {
+          "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Drink'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Drink.0"
+        },
+        "Elder": {
+          "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Drink'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Drink.0"
+        }
+      },
+      "DrinkEnd": {
+        "Hatchling": {
+          "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Drink_Out'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Drink_Out.0"
+        },
+        "Juvenile": {
+          "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Drink_Out'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Drink_Out.0"
+        },
+        "Subadult": {
+          "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Drink_Out'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Drink_Out.0"
+        },
+        "Adult": {
+          "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Drink_Out'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Drink_Out.0"
+        },
+        "Elder": {
+          "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Drink_Out'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Drink_Out.0"
+        }
+      },
+      "Feed": {
+        "Hatchling": {
+          "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Feed'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Feed.0"
+        },
+        "Juvenile": {
+          "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Feed'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Feed.0"
+        },
+        "Subadult": {
+          "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Feed'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Feed.0"
+        },
+        "Adult": {
+          "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Feed'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Feed.0"
+        },
+        "Elder": {
+          "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Feed'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Feed.0"
+        }
+      },
+      "Rest": {
+        "StandToSit": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_StandToSit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_StandToSit.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_StandToSit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_StandToSit.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_StandToSit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_StandToSit.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_StandToSit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_StandToSit.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_StandToSit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_StandToSit.0"
+          }
+        },
+        "SitToStand": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_SitToStand'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_SitToStand.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_SitToStand'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_SitToStand.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_SitToStand'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_SitToStand.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_SitToStand'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_SitToStand.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_SitToStand'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_SitToStand.0"
+          }
+        },
+        "SitToStandFast": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_SitToStandFast'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_SitToStandFast.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_SitToStandFast'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_SitToStandFast.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_SitToStandFast'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_SitToStandFast.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_SitToStandFast'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_SitToStandFast.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_SitToStandFast'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_SitToStandFast.0"
+          }
+        },
+        "SitToSleep": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_SitToSleep'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_SitToSleep.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_SitToSleep'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_SitToSleep.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_SitToSleep'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_SitToSleep.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_SitToSleep'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_SitToSleep.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_SitToSleep'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_SitToSleep.0"
+          }
+        },
+        "SleepToSit": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_SleepToSit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_SleepToSit.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_SleepToSit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_SleepToSit.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_SleepToSit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_SleepToSit.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_SleepToSit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_SleepToSit.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_SleepToSit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_SleepToSit.0"
+          }
+        }
+      },
+      "PickupL": {
+        "Hatchling": {
+          "ObjectName": "AnimMontage'AM_Gallimimus_Adult_GrabL'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_GrabL.0"
+        },
+        "Juvenile": {
+          "ObjectName": "AnimMontage'AM_Gallimimus_Adult_GrabL'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_GrabL.0"
+        },
+        "Subadult": {
+          "ObjectName": "AnimMontage'AM_Gallimimus_Adult_GrabL'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_GrabL.0"
+        },
+        "Adult": {
+          "ObjectName": "AnimMontage'AM_Gallimimus_Adult_GrabL'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_GrabL.0"
+        },
+        "Elder": {
+          "ObjectName": "AnimMontage'AM_Gallimimus_Adult_GrabL'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_GrabL.0"
+        }
+      },
+      "PickupR": {
+        "Hatchling": {
+          "ObjectName": "AnimMontage'AM_Gallimimus_Adult_GrabL'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_GrabL.0"
+        },
+        "Juvenile": {
+          "ObjectName": "AnimMontage'AM_Gallimimus_Adult_GrabL'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_GrabL.0"
+        },
+        "Subadult": {
+          "ObjectName": "AnimMontage'AM_Gallimimus_Adult_GrabL'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_GrabL.0"
+        },
+        "Adult": {
+          "ObjectName": "AnimMontage'AM_Gallimimus_Adult_GrabL'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_GrabL.0"
+        },
+        "Elder": {
+          "ObjectName": "AnimMontage'AM_Gallimimus_Adult_GrabL'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_GrabL.0"
+        }
+      },
+      "Bite": {
+        "Hatchling": {
+          "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Peck'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Peck.0"
+        },
+        "Juvenile": {
+          "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Peck'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Peck.0"
+        },
+        "Subadult": {
+          "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Peck'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Peck.0"
+        },
+        "Adult": {
+          "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Peck'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Peck.0"
+        },
+        "Elder": {
+          "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Peck'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Peck.0"
+        }
+      },
+      "Court": {
+        "Male": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_CourtM'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_CourtM.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_CourtM'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_CourtM.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_CourtM'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_CourtM.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_CourtM'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_CourtM.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_CourtM'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_CourtM.0"
+          }
+        },
+        "Female": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_CourtF'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_CourtF.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_CourtF'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_CourtF.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_CourtF'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_CourtF.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_CourtF'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_CourtF.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_CourtF'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_CourtF.0"
+          }
+        }
+      },
+      "Nest": {
+        "Build": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Nest'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Nest.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Nest'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Nest.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Nest'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Nest.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Nest'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Nest.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Nest'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Nest.0"
+          }
+        },
+        "Manage1": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Nest_Manage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Nest_Manage.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Nest_Manage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Nest_Manage.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Nest_Manage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Nest_Manage.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Nest_Manage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Nest_Manage.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Nest_Manage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Nest_Manage.0"
+          }
+        },
+        "Manage2": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Nest_Manage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Nest_Manage.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Nest_Manage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Nest_Manage.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Nest_Manage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Nest_Manage.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Nest_Manage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Nest_Manage.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Nest_Manage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Nest_Manage.0"
+          }
+        },
+        "Manage3": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Nest_Manage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Nest_Manage.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Nest_Manage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Nest_Manage.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Nest_Manage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Nest_Manage.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Nest_Manage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Nest_Manage.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Nest_Manage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Nest_Manage.0"
+          }
+        }
+      },
+      "Hit": {
+        "Light": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_RecoilL'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_RecoilL.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_RecoilL'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_RecoilL.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_RecoilL'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_RecoilL.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_RecoilL'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_RecoilL.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_RecoilL'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_RecoilL.0"
+          }
+        },
+        "Heavy": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_RecoilH'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_RecoilH.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_RecoilH'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_RecoilH.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_RecoilH'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_RecoilH.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_RecoilH'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_RecoilH.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_RecoilH'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_RecoilH.0"
+          }
+        },
+        "StaggerF": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_StaggerF'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_StaggerF.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_StaggerF'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_StaggerF.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_StaggerF'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_StaggerF.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_StaggerF'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_StaggerF.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_StaggerF'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_StaggerF.0"
+          }
+        },
+        "StaggerB": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_StaggerB'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_StaggerB.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_StaggerB'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_StaggerB.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_StaggerB'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_StaggerB.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_StaggerB'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_StaggerB.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_StaggerB'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_StaggerB.0"
+          }
+        },
+        "StaggerR": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_StaggerR'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_StaggerR.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_StaggerR'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_StaggerR.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_StaggerR'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_StaggerR.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_StaggerR'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_StaggerR.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_StaggerR'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_StaggerR.0"
+          }
+        },
+        "StaggerL": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_StaggerL'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_StaggerL.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_StaggerL'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_StaggerL.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_StaggerL'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_StaggerL.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_StaggerL'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_StaggerL.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_StaggerL'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_StaggerL.0"
+          }
+        }
+      },
+      "Interact": {
+        "Wallow": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Wallow'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Wallow.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Wallow'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Wallow.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Wallow'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Wallow.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Wallow'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Wallow.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Wallow'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Wallow.0"
+          }
+        },
+        "WallowRecover": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Wallow_Recover'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Wallow_Recover.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Wallow_Recover'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Wallow_Recover.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Wallow_Recover'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Wallow_Recover.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Wallow_Recover'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Wallow_Recover.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Wallow_Recover'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Wallow_Recover.0"
+          }
+        },
+        "Salt": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Salt'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Salt.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Salt'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Salt.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Salt'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Salt.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Salt'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Salt.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Salt'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Salt.0"
+          }
+        },
+        "Dig": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Dig'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Dig.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Dig'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Dig.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Dig'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Dig.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Dig'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Dig.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Dig'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Dig.0"
+          }
+        }
+      },
+      "Blinded": {
+        "Hatchling": {
+          "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Blind'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Blind.0"
+        },
+        "Juvenile": {
+          "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Blind'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Blind.0"
+        },
+        "Subadult": {
+          "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Blind'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Blind.0"
+        },
+        "Adult": {
+          "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Blind'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Blind.0"
+        },
+        "Elder": {
+          "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Blind'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Blind.0"
+        }
+      },
+      "PouncedStruggle": {
+        "Hatchling": {
+          "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Pounced'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Pounced.0"
+        },
+        "Juvenile": {
+          "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Pounced'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Pounced.0"
+        },
+        "Subadult": {
+          "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Pounced'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Pounced.0"
+        },
+        "Adult": {
+          "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Pounced'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Pounced.0"
+        },
+        "Elder": {
+          "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Pounced'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Pounced.0"
+        }
+      },
+      "PouncedStruggleMoving": {
+        "Hatchling": {
+          "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Pounced'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Pounced.0"
+        },
+        "Juvenile": {
+          "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Pounced'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Pounced.0"
+        },
+        "Subadult": {
+          "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Pounced'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Pounced.0"
+        },
+        "Adult": {
+          "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Pounced'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Pounced.0"
+        },
+        "Elder": {
+          "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Pounced'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Pounced.0"
+        }
+      },
+      "Unique": [
+        {
+          "Key": "GrabM",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Grab_Mid'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Grab_Mid.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Grab_Mid'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Grab_Mid.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Grab_Mid'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Grab_Mid.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Grab_Mid'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Grab_Mid.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Grab_Mid'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Grab_Mid.0"
+            }
+          }
+        },
+        {
+          "Key": "GrabH",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Grab_High'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Grab_High.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Grab_High'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Grab_High.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Grab_High'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Grab_High.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Grab_High'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Grab_High.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Grab_High'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Grab_High.0"
+            }
+          }
+        },
+        {
+          "Key": "SwallowHands",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Swallow_Hands'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Swallow_Hands.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Swallow_Hands'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Swallow_Hands.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Swallow_Hands'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Swallow_Hands.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Swallow_Hands'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Swallow_Hands.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Swallow_Hands'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Swallow_Hands.0"
+            }
+          }
+        },
+        {
+          "Key": "Kick",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Attack_Kick'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Attack_Kick.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Attack_Kick'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Attack_Kick.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Attack_Kick'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Attack_Kick.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Attack_Kick'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Attack_Kick.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Attack_Kick'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Attack_Kick.0"
+            }
+          }
+        },
+        {
+          "Key": "RunKickLeft",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Attack_RunKickL'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Attack_RunKickL.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Attack_RunKickL'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Attack_RunKickL.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Attack_RunKickL'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Attack_RunKickL.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Attack_RunKickL'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Attack_RunKickL.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Attack_RunKickL'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Attack_RunKickL.0"
+            }
+          }
+        },
+        {
+          "Key": "RunKickRight",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Attack_RunKickR'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Attack_RunKickR.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Attack_RunKickR'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Attack_RunKickR.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Attack_RunKickR'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Attack_RunKickR.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Attack_RunKickR'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Attack_RunKickR.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Attack_RunKickR'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Attack_RunKickR.0"
+            }
+          }
+        },
+        {
+          "Key": "JumpKickLeft",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Attack_JumpKickL'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Attack_JumpKickL.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Attack_JumpKickL'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Attack_JumpKickL.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Attack_JumpKickL'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Attack_JumpKickL.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Attack_JumpKickL'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Attack_JumpKickL.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Attack_JumpKickL'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Attack_JumpKickL.0"
+            }
+          }
+        },
+        {
+          "Key": "JumpKickRight",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Attack_JumpKickR'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Attack_JumpKickR.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Attack_JumpKickR'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Attack_JumpKickR.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Attack_JumpKickR'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Attack_JumpKickR.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Attack_JumpKickR'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Attack_JumpKickR.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Attack_JumpKickR'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Attack_JumpKickR.0"
+            }
+          }
+        },
+        {
+          "Key": "Mobilize",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Vocal_Mobilize'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Vocal_Mobilize.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Vocal_Mobilize'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Vocal_Mobilize.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Vocal_Mobilize'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Vocal_Mobilize.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Vocal_Mobilize'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Vocal_Mobilize.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Vocal_Mobilize'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Vocal_Mobilize.0"
+            }
+          }
+        }
+      ],
+      "UniqueDirectional": [
+        {
+          "Key": "AltBite",
+          "Value": {
+            "LF": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Kick_L'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Kick_L.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Kick_L'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Kick_L.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Kick_L'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Kick_L.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Kick_L'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Kick_L.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Kick_L'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Kick_L.0"
+              }
+            },
+            "L45": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Kick_L45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Kick_L45.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Kick_L45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Kick_L45.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Kick_L45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Kick_L45.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Kick_L45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Kick_L45.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Kick_L45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Kick_L45.0"
+              }
+            },
+            "L90": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Kick_L90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Kick_L90.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Kick_L90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Kick_L90.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Kick_L90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Kick_L90.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Kick_L90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Kick_L90.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Kick_L90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Kick_L90.0"
+              }
+            },
+            "L135": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Kick_L135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Kick_L135.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Kick_L135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Kick_L135.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Kick_L135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Kick_L135.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Kick_L135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Kick_L135.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Kick_L135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Kick_L135.0"
+              }
+            },
+            "L180": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Kick_L180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Kick_L180.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Kick_L180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Kick_L180.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Kick_L180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Kick_L180.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Kick_L180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Kick_L180.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Kick_L180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Kick_L180.0"
+              }
+            },
+            "RF": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Kick_R'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Kick_R.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Kick_R'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Kick_R.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Kick_R'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Kick_R.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Kick_R'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Kick_R.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Kick_R'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Kick_R.0"
+              }
+            },
+            "R45": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Kick_R45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Kick_R45.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Kick_R45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Kick_R45.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Kick_R45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Kick_R45.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Kick_R45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Kick_R45.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Kick_R45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Kick_R45.0"
+              }
+            },
+            "R90": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Kick_R90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Kick_R90.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Kick_R90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Kick_R90.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Kick_R90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Kick_R90.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Kick_R90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Kick_R90.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Kick_R90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Kick_R90.0"
+              }
+            },
+            "R135": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Kick_R135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Kick_R135.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Kick_R135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Kick_R135.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Kick_R135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Kick_R135.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Kick_R135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Kick_R135.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Kick_R135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Kick_R135.0"
+              }
+            },
+            "R180": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Kick_R180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Kick_R180.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Kick_R180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Kick_R180.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Kick_R180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Kick_R180.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Kick_R180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Kick_R180.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Gallimimus_Adult_Kick_R180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/AM_Gallimimus_Adult_Kick_R180.0"
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+]

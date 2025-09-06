@@ -1,0 +1,71 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "MMC_ScentRange_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'TIMMCDietAttribute'",
+      "ObjectPath": "/Script/TheIsle"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "MMC_ScentRange_C'Default__MMC_ScentRange_C'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Effects/Diet/MMCs/MMC_ScentRange.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "MMC_ScentRange_C",
+    "Name": "Default__MMC_ScentRange_C",
+    "Class": "BlueprintGeneratedClass'/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Effects/Diet/MMCs/MMC_ScentRange.MMC_ScentRange_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RelevantAttributesToCapture": [
+        {
+          "AttributeToCapture": {
+            "AttributeName": "DietMeter",
+            "Attribute": {
+              "Path": [],
+              "ResolvedOwner": null
+            },
+            "AttributeOwner": {
+              "ObjectName": "Class'TIAttributeSetBase'",
+              "ObjectPath": "/Script/TheIsle"
+            }
+          },
+          "AttributeSource": "EGameplayEffectAttributeCaptureSource::Source",
+          "bSnapshot": false
+        },
+        {
+          "AttributeToCapture": {
+            "AttributeName": "OriginalScentRange",
+            "Attribute": {
+              "Path": [
+                "OriginalScentRange"
+              ],
+              "ResolvedOwner": {
+                "ObjectName": "Class'TIAttributeSetBase'",
+                "ObjectPath": "/Script/TheIsle"
+              }
+            },
+            "AttributeOwner": {
+              "ObjectName": "Class'TIAttributeSetBase'",
+              "ObjectPath": "/Script/TheIsle"
+            }
+          },
+          "AttributeSource": "EGameplayEffectAttributeCaptureSource::Source",
+          "bSnapshot": false
+        }
+      ]
+    }
+  }
+]

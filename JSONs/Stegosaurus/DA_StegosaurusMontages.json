@@ -1,0 +1,1599 @@
+[
+  {
+    "Type": "TIDinosaurMontages",
+    "Name": "DA_StegosaurusMontages",
+    "Class": "UScriptClass'TIDinosaurMontages'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Vocals": {
+        "Generic": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Juvenile_Vocal_Generic'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Juvenile_Vocal_Generic.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Juvenile_Vocal_Generic'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Juvenile_Vocal_Generic.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_Vocal_Generic'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_Vocal_Generic.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_Vocal_Generic'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_Vocal_Generic.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_Vocal_Generic'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_Vocal_Generic.0"
+          }
+        },
+        "Broadcast": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Juvenile_Vocal_Broadcast'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Juvenile_Vocal_Broadcast.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Juvenile_Vocal_Broadcast'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Juvenile_Vocal_Broadcast.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_Vocal_Broadcast'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_Vocal_Broadcast.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_Vocal_Broadcast'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_Vocal_Broadcast.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_Vocal_Broadcast'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_Vocal_Broadcast.0"
+          }
+        },
+        "Attract": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Juvenile_Vocal_Attract'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Juvenile_Vocal_Attract.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Juvenile_Vocal_Attract'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Juvenile_Vocal_Attract.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_Vocal_Attract'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_Vocal_Attract.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_Vocal_Attract'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_Vocal_Attract.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_Vocal_Attract'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_Vocal_Attract.0"
+          }
+        },
+        "Threaten": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Juvenile_Vocal_Threaten'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Juvenile_Vocal_Threaten.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Juvenile_Vocal_Threaten'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Juvenile_Vocal_Threaten.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_Vocal_Threaten'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_Vocal_Threaten.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_Vocal_Threaten'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_Vocal_Threaten.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_Vocal_Threaten'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_Vocal_Threaten.0"
+          }
+        },
+        "Danger": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Juvenile_Vocal_Danger'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Juvenile_Vocal_Danger.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Juvenile_Vocal_Danger'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Juvenile_Vocal_Danger.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_Vocal_Danger'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_Vocal_Danger.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_Vocal_Danger'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_Vocal_Danger.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_Vocal_Danger'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_Vocal_Danger.0"
+          }
+        }
+      },
+      "Eat": {
+        "EatInLow": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Juvenile_EatLow'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Juvenile_EatLow.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Juvenile_EatLow'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Juvenile_EatLow.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_EatLow'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_EatLow.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_EatLow'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_EatLow.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_EatLow'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_EatLow.0"
+          }
+        },
+        "EatEndLow": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Juvenile_EatOutLow'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Juvenile_EatOutLow.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Juvenile_EatOutLow'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Juvenile_EatOutLow.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_EatOutLow'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_EatOutLow.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_EatOutLow'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_EatOutLow.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_EatOutLow'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_EatOutLow.0"
+          }
+        },
+        "EatIn": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Juvenile_Eat_In'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Juvenile_Eat_In.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Juvenile_Eat_In'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Juvenile_Eat_In.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_Eat_In'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_Eat_In.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_Eat_In'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_Eat_In.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_Eat_In'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_Eat_In.0"
+          }
+        },
+        "EatEnd": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Juvenile_Eat_Out'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Juvenile_Eat_Out.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Juvenile_Eat_Out'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Juvenile_Eat_Out.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_Eat_Out'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_Eat_Out.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_Eat_Out'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_Eat_Out.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_Eat_Out'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_Eat_Out.0"
+          }
+        },
+        "EatInHigh": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Juvenile_Eat_High'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Juvenile_Eat_High.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Juvenile_Eat_High'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Juvenile_Eat_High.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_Eat_High'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_Eat_High.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_Eat_High'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_Eat_High.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_Eat_High'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_Eat_High.0"
+          }
+        },
+        "EatEndHigh": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Juvenile_Eat_High_Out'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Juvenile_Eat_High_Out.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Juvenile_Eat_High_Out'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Juvenile_Eat_High_Out.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_Eat_High_Out'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_Eat_High_Out.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_Eat_High_Out'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_Eat_High_Out.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_Eat_High_Out'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_Eat_High_Out.0"
+          }
+        },
+        "Swallow": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_Swallow'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_Swallow.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_Swallow'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_Swallow.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_Swallow'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_Swallow.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_Swallow'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_Swallow.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_Swallow'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_Swallow.0"
+          }
+        },
+        "Vomit": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Juvenile_Vomit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Juvenile_Vomit.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Juvenile_Vomit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Juvenile_Vomit.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_Vomit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_Vomit.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_Vomit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_Vomit.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_Vomit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_Vomit.0"
+          }
+        }
+      },
+      "Drink": {
+        "Hatchling": {
+          "ObjectName": "AnimMontage'AM_Stegosaurus_Juvenile_Drink'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Juvenile_Drink.0"
+        },
+        "Juvenile": {
+          "ObjectName": "AnimMontage'AM_Stegosaurus_Juvenile_Drink'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Juvenile_Drink.0"
+        },
+        "Subadult": {
+          "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_Drink'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_Drink.0"
+        },
+        "Adult": {
+          "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_Drink'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_Drink.0"
+        },
+        "Elder": {
+          "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_Drink'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_Drink.0"
+        }
+      },
+      "DrinkEnd": {
+        "Hatchling": {
+          "ObjectName": "AnimMontage'AM_Stegosaurus_Juvenile_DrinkOut'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Juvenile_DrinkOut.0"
+        },
+        "Juvenile": {
+          "ObjectName": "AnimMontage'AM_Stegosaurus_Juvenile_DrinkOut'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Juvenile_DrinkOut.0"
+        },
+        "Subadult": {
+          "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_DrinkOut'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_DrinkOut.0"
+        },
+        "Adult": {
+          "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_DrinkOut'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_DrinkOut.0"
+        },
+        "Elder": {
+          "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_DrinkOut'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_DrinkOut.0"
+        }
+      },
+      "Feed": {
+        "Hatchling": {
+          "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_Feed'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_Feed.0"
+        },
+        "Juvenile": {
+          "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_Feed'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_Feed.0"
+        },
+        "Subadult": {
+          "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_Feed'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_Feed.0"
+        },
+        "Adult": {
+          "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_Feed'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_Feed.0"
+        },
+        "Elder": {
+          "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_Feed'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_Feed.0"
+        }
+      },
+      "Rest": {
+        "StandToSit": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Juvenile_StandToSit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Juvenile_StandToSit.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Juvenile_StandToSit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Juvenile_StandToSit.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_StandToSit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_StandToSit.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_StandToSit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_StandToSit.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_StandToSit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_StandToSit.0"
+          }
+        },
+        "SitToStand": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Juvenile_SitToStand'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Juvenile_SitToStand.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Juvenile_SitToStand'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Juvenile_SitToStand.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_SitToStand'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_SitToStand.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_SitToStand'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_SitToStand.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_SitToStand'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_SitToStand.0"
+          }
+        },
+        "SitToStandFast": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Juvenile_SitToStandFast'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Juvenile_SitToStandFast.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Juvenile_SitToStandFast'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Juvenile_SitToStandFast.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_SitToStandFast'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_SitToStandFast.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_SitToStandFast'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_SitToStandFast.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_SitToStandFast'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_SitToStandFast.0"
+          }
+        },
+        "SitToSleep": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Juvenile_SitToSleep'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Juvenile_SitToSleep.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Juvenile_SitToSleep'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Juvenile_SitToSleep.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_SitToSleep'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_SitToSleep.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_SitToSleep'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_SitToSleep.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_SitToSleep'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_SitToSleep.0"
+          }
+        },
+        "SleepToSit": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Juvenile_SleepToSit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Juvenile_SleepToSit.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Juvenile_SleepToSit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Juvenile_SleepToSit.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_SleepToSit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_SleepToSit.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_SleepToSit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_SleepToSit.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_SleepToSit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_SleepToSit.0"
+          }
+        }
+      },
+      "PickupL": {
+        "Hatchling": {
+          "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_GrabL'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_GrabL.0"
+        },
+        "Juvenile": {
+          "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_GrabL'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_GrabL.0"
+        },
+        "Subadult": {
+          "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_GrabL'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_GrabL.0"
+        },
+        "Adult": {
+          "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_GrabL'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_GrabL.0"
+        },
+        "Elder": {
+          "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_GrabL'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_GrabL.0"
+        }
+      },
+      "PickupR": {
+        "Hatchling": {
+          "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_GrabL'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_GrabL.0"
+        },
+        "Juvenile": {
+          "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_GrabL'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_GrabL.0"
+        },
+        "Subadult": {
+          "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_GrabL'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_GrabL.0"
+        },
+        "Adult": {
+          "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_GrabL'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_GrabL.0"
+        },
+        "Elder": {
+          "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_GrabL'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_GrabL.0"
+        }
+      },
+      "Bite": {
+        "Hatchling": {
+          "ObjectName": "AnimMontage'AM_Stegosaurus_Juvenile_Bite'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Juvenile_Bite.0"
+        },
+        "Juvenile": {
+          "ObjectName": "AnimMontage'AM_Stegosaurus_Juvenile_Bite'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Juvenile_Bite.0"
+        },
+        "Subadult": {
+          "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_Bite'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_Bite.0"
+        },
+        "Adult": {
+          "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_Bite'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_Bite.0"
+        },
+        "Elder": {
+          "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_Bite'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_Bite.0"
+        }
+      },
+      "Court": {
+        "Male": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_CourtM'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_CourtM.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_CourtM'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_CourtM.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_CourtM'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_CourtM.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_CourtM'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_CourtM.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_CourtM'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_CourtM.0"
+          }
+        },
+        "Female": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_CourtF'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_CourtF.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_CourtF'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_CourtF.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_CourtF'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_CourtF.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_CourtF'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_CourtF.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_CourtF'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_CourtF.0"
+          }
+        }
+      },
+      "Nest": {
+        "Build": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_Nest_Build'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_Nest_Build.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_Nest_Build'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_Nest_Build.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_Nest_Build'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_Nest_Build.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_Nest_Build'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_Nest_Build.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_Nest_Build'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_Nest_Build.0"
+          }
+        },
+        "Manage1": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_Nest_Manage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_Nest_Manage.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_Nest_Manage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_Nest_Manage.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_Nest_Manage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_Nest_Manage.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_Nest_Manage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_Nest_Manage.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_Nest_Manage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_Nest_Manage.0"
+          }
+        },
+        "Manage2": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_Nest_Manage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_Nest_Manage.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_Nest_Manage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_Nest_Manage.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_Nest_Manage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_Nest_Manage.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_Nest_Manage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_Nest_Manage.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_Nest_Manage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_Nest_Manage.0"
+          }
+        },
+        "Manage3": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_Nest_Manage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_Nest_Manage.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_Nest_Manage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_Nest_Manage.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_Nest_Manage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_Nest_Manage.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_Nest_Manage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_Nest_Manage.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_Nest_Manage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_Nest_Manage.0"
+          }
+        }
+      },
+      "Hit": {
+        "Light": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Juvenile_RecoilL'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Juvenile_RecoilL.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Juvenile_RecoilL'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Juvenile_RecoilL.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_RecoilL'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_RecoilL.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_RecoilL'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_RecoilL.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_RecoilL'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_RecoilL.0"
+          }
+        },
+        "Heavy": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Juvenile_RecoilH'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Juvenile_RecoilH.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Juvenile_RecoilH'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Juvenile_RecoilH.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_RecoilH'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_RecoilH.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_RecoilH'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_RecoilH.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_RecoilH'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_RecoilH.0"
+          }
+        },
+        "StaggerF": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Juvenile_StaggerF'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Juvenile_StaggerF.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Juvenile_StaggerF'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Juvenile_StaggerF.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_StaggerF'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_StaggerF.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_StaggerF'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_StaggerF.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_StaggerF'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_StaggerF.0"
+          }
+        },
+        "StaggerB": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Juvenile_StaggerB'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Juvenile_StaggerB.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Juvenile_StaggerB'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Juvenile_StaggerB.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_StaggerB'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_StaggerB.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_StaggerB'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_StaggerB.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_StaggerB'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_StaggerB.0"
+          }
+        },
+        "StaggerR": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Juvenile_StaggerR'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Juvenile_StaggerR.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Juvenile_StaggerR'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Juvenile_StaggerR.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_StaggerR'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_StaggerR.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_StaggerR'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_StaggerR.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_StaggerR'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_StaggerR.0"
+          }
+        },
+        "StaggerL": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Juvenile_StaggerL'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Juvenile_StaggerL.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Juvenile_StaggerL'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Juvenile_StaggerL.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_StaggerL'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_StaggerL.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_StaggerL'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_StaggerL.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_StaggerL'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_StaggerL.0"
+          }
+        }
+      },
+      "Interact": {
+        "Wallow": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Juvenile_Wallow'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Juvenile_Wallow.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Juvenile_Wallow'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Juvenile_Wallow.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_Wallow'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_Wallow.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_Wallow'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_Wallow.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_Wallow'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_Wallow.0"
+          }
+        },
+        "WallowRecover": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Juvenile_Wallow_Recover'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Juvenile_Wallow_Recover.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Juvenile_Wallow_Recover'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Juvenile_Wallow_Recover.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_Wallow_Recover'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_Wallow_Recover.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_Wallow_Recover'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_Wallow_Recover.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_Wallow_Recover'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_Wallow_Recover.0"
+          }
+        },
+        "Salt": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Juvenile_Salt'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Juvenile_Salt.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Juvenile_Salt'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Juvenile_Salt.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_Salt'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_Salt.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_Salt'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_Salt.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_Salt'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_Salt.0"
+          }
+        },
+        "Dig": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Juvenile_Dig'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Juvenile_Dig.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Juvenile_Dig'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Juvenile_Dig.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Juvenile_Dig'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Juvenile_Dig.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Juvenile_Dig'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Juvenile_Dig.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Stegosaurus_Juvenile_Dig'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Juvenile_Dig.0"
+          }
+        }
+      },
+      "Blinded": {
+        "Hatchling": {
+          "ObjectName": "AnimMontage'AM_Stegosaurus_Juvenile_Blinded'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Juvenile_Blinded.0"
+        },
+        "Juvenile": {
+          "ObjectName": "AnimMontage'AM_Stegosaurus_Juvenile_Blinded'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Juvenile_Blinded.0"
+        },
+        "Subadult": {
+          "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_Blinded'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_Blinded.0"
+        },
+        "Adult": {
+          "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_Blinded'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_Blinded.0"
+        },
+        "Elder": {
+          "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_Blinded'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_Blinded.0"
+        }
+      },
+      "PouncedStruggle": {
+        "Hatchling": {
+          "ObjectName": "AnimMontage'AM_Stegosaurus_Juvenile_Pounced'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Juvenile_Pounced.0"
+        },
+        "Juvenile": {
+          "ObjectName": "AnimMontage'AM_Stegosaurus_Juvenile_Pounced'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Juvenile_Pounced.0"
+        },
+        "Subadult": {
+          "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_Pounced'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_Pounced.0"
+        },
+        "Adult": {
+          "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_Pounced'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_Pounced.0"
+        },
+        "Elder": {
+          "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_Pounced'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_Pounced.0"
+        }
+      },
+      "PouncedStruggleMoving": {
+        "Hatchling": {
+          "ObjectName": "AnimMontage'AM_Stegosaurus_Juvenile_Pounced'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Juvenile_Pounced.0"
+        },
+        "Juvenile": {
+          "ObjectName": "AnimMontage'AM_Stegosaurus_Juvenile_Pounced'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Juvenile_Pounced.0"
+        },
+        "Subadult": {
+          "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_Pounced'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_Pounced.0"
+        },
+        "Adult": {
+          "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_Pounced'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_Pounced.0"
+        },
+        "Elder": {
+          "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_Pounced'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_Pounced.0"
+        }
+      },
+      "Unique": [
+        {
+          "Key": "AdultPouncedRight",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_RecoilL'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_RecoilL.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_RecoilL'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_RecoilL.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_RecoilL'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_RecoilL.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_RecoilL'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_RecoilL.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_RecoilL'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_RecoilL.0"
+            }
+          }
+        },
+        {
+          "Key": "AdultPouncedLeft",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_RecoilL'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_RecoilL.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_RecoilL'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_RecoilL.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_RecoilL'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_RecoilL.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_RecoilL'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_RecoilL.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_RecoilL'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_RecoilL.0"
+            }
+          }
+        },
+        {
+          "Key": "AdultPouncedFront",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_RecoilL'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_RecoilL.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_RecoilL'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_RecoilL.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_RecoilL'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_RecoilL.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_RecoilL'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_RecoilL.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_RecoilL'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_RecoilL.0"
+            }
+          }
+        },
+        {
+          "Key": "AdultPouncedBack",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_RecoilL'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_RecoilL.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_RecoilL'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_RecoilL.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_RecoilL'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_RecoilL.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_RecoilL'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_RecoilL.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_RecoilL'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_RecoilL.0"
+            }
+          }
+        },
+        {
+          "Key": "GrabM",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_GrabM'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_GrabM.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_GrabM'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_GrabM.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_GrabM'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_GrabM.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_GrabM'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_GrabM.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_GrabM'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_GrabM.0"
+            }
+          }
+        },
+        {
+          "Key": "GrabH",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_GrabH'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_GrabH.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_GrabH'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_GrabH.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_GrabH'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_GrabH.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_GrabH'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_GrabH.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_GrabH'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_GrabH.0"
+            }
+          }
+        },
+        {
+          "Key": "SwingRightSprint",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_SwingR'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_SwingR.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_SwingR'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_SwingR.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_SwingR'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_SwingR.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_SwingR'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_SwingR.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_SwingR'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_SwingR.0"
+            }
+          }
+        },
+        {
+          "Key": "SwingRightLow",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_SwingR90_Low'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_SwingR90_Low.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_SwingR90_Low'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_SwingR90_Low.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_SwingR90_Low'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_SwingR90_Low.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_SwingR90_Low'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_SwingR90_Low.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_SwingR90_Low'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_SwingR90_Low.0"
+            }
+          }
+        },
+        {
+          "Key": "SwingRightHigh",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_SwingR90_High'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_SwingR90_High.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_SwingR90_High'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_SwingR90_High.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_SwingR90_High'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_SwingR90_High.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_SwingR90_High'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_SwingR90_High.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_SwingR90_High'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_SwingR90_High.0"
+            }
+          }
+        },
+        {
+          "Key": "SwingRight",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_SwingR90_Mid'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_SwingR90_Mid.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_SwingR90_Mid'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_SwingR90_Mid.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_SwingR90_Mid'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_SwingR90_Mid.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_SwingR90_Mid'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_SwingR90_Mid.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_SwingR90_Mid'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_SwingR90_Mid.0"
+            }
+          }
+        },
+        {
+          "Key": "SwingLeftSprint",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_SwingL'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_SwingL.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_SwingL'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_SwingL.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_SwingL'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_SwingL.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_SwingL'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_SwingL.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_SwingL'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_SwingL.0"
+            }
+          }
+        },
+        {
+          "Key": "SwingLeftLow",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_SwingL90_Low'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_SwingL90_Low.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_SwingL90_Low'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_SwingL90_Low.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_SwingL90_Low'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_SwingL90_Low.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_SwingL90_Low'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_SwingL90_Low.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_SwingL90_Low'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_SwingL90_Low.0"
+            }
+          }
+        },
+        {
+          "Key": "SwingLeftHigh",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_SwingL90_High'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_SwingL90_High.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_SwingL90_High'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_SwingL90_High.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_SwingL90_High'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_SwingL90_High.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_SwingL90_High'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_SwingL90_High.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_SwingL90_High'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_SwingL90_High.0"
+            }
+          }
+        },
+        {
+          "Key": "SwingLeft",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_SwingL90_Mid'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_SwingL90_Mid.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_SwingL90_Mid'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_SwingL90_Mid.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_SwingL90_Mid'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_SwingL90_Mid.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_SwingL90_Mid'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_SwingL90_Mid.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_SwingL90_Mid'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_SwingL90_Mid.0"
+            }
+          }
+        },
+        {
+          "Key": "SwingRecoilRight",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_Swing_CollideR'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_Swing_CollideR.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_Swing_CollideR'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_Swing_CollideR.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_Swing_CollideR'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_Swing_CollideR.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_Swing_CollideR'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_Swing_CollideR.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_Swing_CollideR'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_Swing_CollideR.0"
+            }
+          }
+        },
+        {
+          "Key": "SwingRecoilLeft",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_Swing_CollideL'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_Swing_CollideL.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_Swing_CollideL'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_Swing_CollideL.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_Swing_CollideL'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_Swing_CollideL.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_Swing_CollideL'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_Swing_CollideL.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_Swing_CollideL'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_Swing_CollideL.0"
+            }
+          }
+        }
+      ],
+      "UniqueDirectional": [
+        {
+          "Key": "Tail",
+          "Value": {
+            "LF": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Stegosaurus_Juvenile_AttackTail_LF'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Juvenile_AttackTail_LF.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Stegosaurus_Juvenile_AttackTail_LF'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Juvenile_AttackTail_LF.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_AttackTail_LF'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_AttackTail_LF.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_AttackTail_LF'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_AttackTail_LF.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_AttackTail_LF'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_AttackTail_LF.0"
+              }
+            },
+            "L45": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Stegosaurus_Juvenile_AttackTail_L45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Juvenile_AttackTail_L45.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Stegosaurus_Juvenile_AttackTail_L45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Juvenile_AttackTail_L45.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_AttackTail_L45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_AttackTail_L45.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_AttackTail_L45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_AttackTail_L45.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_AttackTail_L45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_AttackTail_L45.0"
+              }
+            },
+            "L90": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Stegosaurus_Juvenile_AttackTail_L90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Juvenile_AttackTail_L90.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Stegosaurus_Juvenile_AttackTail_L90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Juvenile_AttackTail_L90.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_AttackTail_L90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_AttackTail_L90.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_AttackTail_L90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_AttackTail_L90.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_AttackTail_L90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_AttackTail_L90.0"
+              }
+            },
+            "L135": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Stegosaurus_Juvenile_AttackTail_L135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Juvenile_AttackTail_L135.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Stegosaurus_Juvenile_AttackTail_L135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Juvenile_AttackTail_L135.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_AttackTail_L135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_AttackTail_L135.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_AttackTail_L135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_AttackTail_L135.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_AttackTail_L135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_AttackTail_L135.0"
+              }
+            },
+            "L180": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Stegosaurus_Juvenile_AttackTail_L180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Juvenile_AttackTail_L180.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Stegosaurus_Juvenile_AttackTail_L180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Juvenile_AttackTail_L180.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_AttackTail_L180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_AttackTail_L180.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_AttackTail_L180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_AttackTail_L180.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_AttackTail_L180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_AttackTail_L180.0"
+              }
+            },
+            "RF": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Stegosaurus_Juvenile_AttackTail_RF'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Juvenile_AttackTail_RF.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Stegosaurus_Juvenile_AttackTail_RF'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Juvenile_AttackTail_RF.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_AttackTail_RF'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_AttackTail_RF.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_AttackTail_RF'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_AttackTail_RF.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_AttackTail_RF'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_AttackTail_RF.0"
+              }
+            },
+            "R45": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Stegosaurus_Juvenile_AttackTail_R45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Juvenile_AttackTail_R45.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Stegosaurus_Juvenile_AttackTail_R45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Juvenile_AttackTail_R45.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_AttackTail_R45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_AttackTail_R45.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_AttackTail_R45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_AttackTail_R45.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_AttackTail_R45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_AttackTail_R45.0"
+              }
+            },
+            "R90": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Stegosaurus_Juvenile_AttackTail_R90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Juvenile_AttackTail_R90.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Stegosaurus_Juvenile_AttackTail_R90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Juvenile_AttackTail_R90.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_AttackTail_R90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_AttackTail_R90.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_AttackTail_R90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_AttackTail_R90.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_AttackTail_R90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_AttackTail_R90.0"
+              }
+            },
+            "R135": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Stegosaurus_Juvenile_AttackTail_R135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Juvenile_AttackTail_R135.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Stegosaurus_Juvenile_AttackTail_R135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Juvenile_AttackTail_R135.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_AttackTail_R135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_AttackTail_R135.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_AttackTail_R135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_AttackTail_R135.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_AttackTail_R135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_AttackTail_R135.0"
+              }
+            },
+            "R180": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Stegosaurus_Juvenile_AttackTail_R180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Juvenile_AttackTail_R180.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Stegosaurus_Juvenile_AttackTail_R180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Juvenile_AttackTail_R180.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_AttackTail_R180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_AttackTail_R180.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_AttackTail_R180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_AttackTail_R180.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Stegosaurus_Adult_AttackTail_R180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/AM_Stegosaurus_Adult_AttackTail_R180.0"
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+]

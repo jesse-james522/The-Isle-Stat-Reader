@@ -1,0 +1,1484 @@
+[
+  {
+    "Type": "TIDinosaurMontages",
+    "Name": "DA_PachycephalosaurusMontages",
+    "Class": "UScriptClass'TIDinosaurMontages'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Vocals": {
+        "Generic": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Vocal_Generic'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Vocal_Generic.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Vocal_Generic'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Vocal_Generic.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Vocal_Generic'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Vocal_Generic.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Vocal_Generic'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Vocal_Generic.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Vocal_Generic'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Vocal_Generic.0"
+          }
+        },
+        "Broadcast": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Vocal_Broadcast'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Vocal_Broadcast.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Vocal_Broadcast'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Vocal_Broadcast.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Vocal_Broadcast'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Vocal_Broadcast.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Vocal_Broadcast'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Vocal_Broadcast.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Vocal_Broadcast'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Vocal_Broadcast.0"
+          }
+        },
+        "Attract": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Vocal_Attract'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Vocal_Attract.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Vocal_Attract'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Vocal_Attract.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Vocal_Attract'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Vocal_Attract.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Vocal_Attract'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Vocal_Attract.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Vocal_Attract'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Vocal_Attract.0"
+          }
+        },
+        "Threaten": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Vocal_Threaten'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Vocal_Threaten.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Vocal_Threaten'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Vocal_Threaten.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Vocal_Threaten'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Vocal_Threaten.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Vocal_Threaten'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Vocal_Threaten.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Vocal_Threaten'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Vocal_Threaten.0"
+          }
+        },
+        "Danger": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Vocal_Danger'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Vocal_Danger.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Vocal_Danger'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Vocal_Danger.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Vocal_Danger'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Vocal_Danger.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Vocal_Danger'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Vocal_Danger.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Vocal_Danger'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Vocal_Danger.0"
+          }
+        }
+      },
+      "Eat": {
+        "EatInLow": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Eat_Low_In'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Eat_Low_In.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Eat_Low_In'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Eat_Low_In.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Eat_Low_In'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Eat_Low_In.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Eat_Low_In'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Eat_Low_In.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Eat_Low_In'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Eat_Low_In.0"
+          }
+        },
+        "EatEndLow": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Eat_Low_End'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Eat_Low_End.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Eat_Low_End'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Eat_Low_End.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Eat_Low_End'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Eat_Low_End.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Eat_Low_End'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Eat_Low_End.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Eat_Low_End'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Eat_Low_End.0"
+          }
+        },
+        "EatIn": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_EatIn'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_EatIn.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_EatIn'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_EatIn.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_EatIn'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_EatIn.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_EatIn'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_EatIn.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_EatIn'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_EatIn.0"
+          }
+        },
+        "EatEnd": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_EatOut'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_EatOut.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_EatOut'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_EatOut.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_EatOut'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_EatOut.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_EatOut'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_EatOut.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_EatOut'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_EatOut.0"
+          }
+        },
+        "EatInHigh": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Eat_High_In'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Eat_High_In.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Eat_High_In'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Eat_High_In.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Eat_High_In'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Eat_High_In.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Eat_High_In'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Eat_High_In.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Eat_High_In'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Eat_High_In.0"
+          }
+        },
+        "EatEndHigh": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Eat_High_Out'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Eat_High_Out.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Eat_High_Out'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Eat_High_Out.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Eat_High_Out'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Eat_High_Out.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Eat_High_Out'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Eat_High_Out.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Eat_High_Out'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Eat_High_Out.0"
+          }
+        },
+        "Swallow": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Swallow'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Swallow.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Swallow'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Swallow.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Swallow'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Swallow.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Swallow'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Swallow.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Swallow'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Swallow.0"
+          }
+        },
+        "Vomit": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Vomit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Vomit.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Vomit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Vomit.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Vomit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Vomit.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Vomit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Vomit.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Vomit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Vomit.0"
+          }
+        }
+      },
+      "Drink": {
+        "Hatchling": {
+          "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_DrinkIn'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_DrinkIn.0"
+        },
+        "Juvenile": {
+          "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_DrinkIn'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_DrinkIn.0"
+        },
+        "Subadult": {
+          "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_DrinkIn'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_DrinkIn.0"
+        },
+        "Adult": {
+          "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_DrinkIn'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_DrinkIn.0"
+        },
+        "Elder": {
+          "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_DrinkIn'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_DrinkIn.0"
+        }
+      },
+      "DrinkEnd": {
+        "Hatchling": {
+          "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_DrinkOut'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_DrinkOut.0"
+        },
+        "Juvenile": {
+          "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_DrinkOut'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_DrinkOut.0"
+        },
+        "Subadult": {
+          "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_DrinkOut'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_DrinkOut.0"
+        },
+        "Adult": {
+          "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_DrinkOut'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_DrinkOut.0"
+        },
+        "Elder": {
+          "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_DrinkOut'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_DrinkOut.0"
+        }
+      },
+      "Feed": {
+        "Hatchling": {
+          "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Feed'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Feed.0"
+        },
+        "Juvenile": {
+          "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Feed'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Feed.0"
+        },
+        "Subadult": {
+          "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Feed'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Feed.0"
+        },
+        "Adult": {
+          "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Feed'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Feed.0"
+        },
+        "Elder": {
+          "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Feed'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Feed.0"
+        }
+      },
+      "Rest": {
+        "StandToSit": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_StandToSit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_StandToSit.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_StandToSit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_StandToSit.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_StandToSit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_StandToSit.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_StandToSit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_StandToSit.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_StandToSit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_StandToSit.0"
+          }
+        },
+        "SitToStand": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_SitToStand'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_SitToStand.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_SitToStand'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_SitToStand.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_SitToStand'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_SitToStand.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_SitToStand'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_SitToStand.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_SitToStand'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_SitToStand.0"
+          }
+        },
+        "SitToStandFast": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_SitToStandFast'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_SitToStandFast.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_SitToStandFast'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_SitToStandFast.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_SitToStandFast'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_SitToStandFast.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_SitToStandFast'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_SitToStandFast.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_SitToStandFast'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_SitToStandFast.0"
+          }
+        },
+        "SitToSleep": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_SittoSleep'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_SittoSleep.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_SittoSleep'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_SittoSleep.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_SittoSleep'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_SittoSleep.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_SittoSleep'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_SittoSleep.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_SittoSleep'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_SittoSleep.0"
+          }
+        },
+        "SleepToSit": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_SleeptoSit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_SleeptoSit.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_SleeptoSit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_SleeptoSit.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_SleeptoSit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_SleeptoSit.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_SleeptoSit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_SleeptoSit.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_SleeptoSit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_SleeptoSit.0"
+          }
+        }
+      },
+      "PickupL": {
+        "Hatchling": {
+          "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_GrabL'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_GrabL.0"
+        },
+        "Juvenile": {
+          "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_GrabL'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_GrabL.0"
+        },
+        "Subadult": {
+          "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_GrabL'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_GrabL.0"
+        },
+        "Adult": {
+          "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_GrabL'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_GrabL.0"
+        },
+        "Elder": {
+          "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_GrabL'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_GrabL.0"
+        }
+      },
+      "PickupR": {
+        "Hatchling": {
+          "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_GrabL'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_GrabL.0"
+        },
+        "Juvenile": {
+          "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_GrabL'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_GrabL.0"
+        },
+        "Subadult": {
+          "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_GrabL'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_GrabL.0"
+        },
+        "Adult": {
+          "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_GrabL'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_GrabL.0"
+        },
+        "Elder": {
+          "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_GrabL'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_GrabL.0"
+        }
+      },
+      "Bite": {
+        "Hatchling": {
+          "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Bite'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Bite.0"
+        },
+        "Juvenile": {
+          "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Bite'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Bite.0"
+        },
+        "Subadult": {
+          "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Bite'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Bite.0"
+        },
+        "Adult": {
+          "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Bite'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Bite.0"
+        },
+        "Elder": {
+          "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Bite'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Bite.0"
+        }
+      },
+      "Court": {
+        "Male": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_CourtM'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_CourtM.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_CourtM'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_CourtM.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_CourtM'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_CourtM.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_CourtM'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_CourtM.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_CourtM'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_CourtM.0"
+          }
+        },
+        "Female": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_CourtF'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_CourtF.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_CourtF'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_CourtF.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_CourtF'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_CourtF.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_CourtF'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_CourtF.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_CourtF'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_CourtF.0"
+          }
+        }
+      },
+      "Nest": {
+        "Build": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Nest'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Nest.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Nest'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Nest.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Nest'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Nest.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Nest'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Nest.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Nest'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Nest.0"
+          }
+        },
+        "Manage1": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Nest_Manage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Nest_Manage.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Nest_Manage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Nest_Manage.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Nest_Manage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Nest_Manage.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Nest_Manage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Nest_Manage.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Nest_Manage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Nest_Manage.0"
+          }
+        },
+        "Manage2": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Nest_Manage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Nest_Manage.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Nest_Manage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Nest_Manage.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Nest_Manage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Nest_Manage.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Nest_Manage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Nest_Manage.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Nest_Manage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Nest_Manage.0"
+          }
+        },
+        "Manage3": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Nest_Manage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Nest_Manage.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Nest_Manage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Nest_Manage.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Nest_Manage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Nest_Manage.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Nest_Manage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Nest_Manage.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Nest_Manage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Nest_Manage.0"
+          }
+        }
+      },
+      "Hit": {
+        "Light": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_RecoilL'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_RecoilL.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_RecoilL'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_RecoilL.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_RecoilL'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_RecoilL.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_RecoilL'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_RecoilL.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_RecoilL'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_RecoilL.0"
+          }
+        },
+        "Heavy": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_RecoilH'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_RecoilH.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_RecoilH'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_RecoilH.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_RecoilH'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_RecoilH.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_RecoilH'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_RecoilH.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_RecoilH'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_RecoilH.0"
+          }
+        },
+        "StaggerF": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_StaggerF'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_StaggerF.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_StaggerF'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_StaggerF.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_StaggerF'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_StaggerF.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_StaggerF'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_StaggerF.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_StaggerF'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_StaggerF.0"
+          }
+        },
+        "StaggerB": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_StaggerB'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_StaggerB.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_StaggerB'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_StaggerB.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_StaggerB'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_StaggerB.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_StaggerB'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_StaggerB.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_StaggerB'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_StaggerB.0"
+          }
+        },
+        "StaggerR": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_StaggerR'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_StaggerR.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_StaggerR'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_StaggerR.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_StaggerR'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_StaggerR.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_StaggerR'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_StaggerR.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_StaggerR'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_StaggerR.0"
+          }
+        },
+        "StaggerL": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_StaggerL'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_StaggerL.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_StaggerL'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_StaggerL.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_StaggerL'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_StaggerL.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_StaggerL'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_StaggerL.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_StaggerL'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_StaggerL.0"
+          }
+        }
+      },
+      "Interact": {
+        "Wallow": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Wallow'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Wallow.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Wallow'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Wallow.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Wallow'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Wallow.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Wallow'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Wallow.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Wallow'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Wallow.0"
+          }
+        },
+        "WallowRecover": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Wallow_Recover'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Wallow_Recover.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Wallow_Recover'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Wallow_Recover.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Wallow_Recover'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Wallow_Recover.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Wallow_Recover'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Wallow_Recover.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Wallow_Recover'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Wallow_Recover.0"
+          }
+        },
+        "Salt": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Juvenile_Graze_Tree'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Juvenile_Graze_Tree.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Juvenile_Graze_Tree'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Juvenile_Graze_Tree.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Graze_Tree'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Graze_Tree.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Graze_Tree'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Graze_Tree.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Graze_Tree'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Graze_Tree.0"
+          }
+        },
+        "Dig": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Nest'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Nest.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Nest'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Nest.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Nest'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Nest.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Nest'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Nest.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Nest'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Nest.0"
+          }
+        }
+      },
+      "Blinded": {
+        "Hatchling": {
+          "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Blind'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Blind.0"
+        },
+        "Juvenile": {
+          "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Blind'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Blind.0"
+        },
+        "Subadult": {
+          "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Blind'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Blind.0"
+        },
+        "Adult": {
+          "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Blind'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Blind.0"
+        },
+        "Elder": {
+          "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Blind'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Blind.0"
+        }
+      },
+      "PouncedStruggle": {
+        "Hatchling": {
+          "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Pounced'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Pounced.0"
+        },
+        "Juvenile": {
+          "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Pounced'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Pounced.0"
+        },
+        "Subadult": {
+          "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Pounced'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Pounced.0"
+        },
+        "Adult": {
+          "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Pounced'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Pounced.0"
+        },
+        "Elder": {
+          "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Pounced'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Pounced.0"
+        }
+      },
+      "PouncedStruggleMoving": {
+        "Hatchling": {
+          "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Pounced'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Pounced.0"
+        },
+        "Juvenile": {
+          "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Pounced'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Pounced.0"
+        },
+        "Subadult": {
+          "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Pounced'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Pounced.0"
+        },
+        "Adult": {
+          "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Pounced'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Pounced.0"
+        },
+        "Elder": {
+          "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Pounced'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Pounced.0"
+        }
+      },
+      "Unique": [
+        {
+          "Key": "AdultPouncedRight",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_RecoilH'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_RecoilH.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_RecoilH'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_RecoilH.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_RecoilH'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_RecoilH.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_RecoilH'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_RecoilH.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_RecoilH'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_RecoilH.0"
+            }
+          }
+        },
+        {
+          "Key": "AdultPouncedLeft",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_RecoilH'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_RecoilH.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_RecoilH'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_RecoilH.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_RecoilH'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_RecoilH.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_RecoilH'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_RecoilH.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_RecoilH'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_RecoilH.0"
+            }
+          }
+        },
+        {
+          "Key": "AdultPouncedFront",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_RecoilH'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_RecoilH.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_RecoilH'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_RecoilH.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_RecoilH'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_RecoilH.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_RecoilH'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_RecoilH.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_RecoilH'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_RecoilH.0"
+            }
+          }
+        },
+        {
+          "Key": "AdultPouncedBack",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_RecoilH'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_RecoilH.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_RecoilH'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_RecoilH.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_RecoilH'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_RecoilH.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_RecoilH'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_RecoilH.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_RecoilH'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_RecoilH.0"
+            }
+          }
+        },
+        {
+          "Key": "HeadButtStart",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Headbutt'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Headbutt.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Headbutt'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Headbutt.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Headbutt'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Headbutt.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Headbutt'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Headbutt.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Headbutt'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Headbutt.0"
+            }
+          }
+        },
+        {
+          "Key": "HeadButtMiss",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Headbutt_Miss'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Headbutt_Miss.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Headbutt_Miss'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Headbutt_Miss.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Headbutt_Miss'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Headbutt_Miss.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Headbutt_Miss'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Headbutt_Miss.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Headbutt_Miss'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Headbutt_Miss.0"
+            }
+          }
+        },
+        {
+          "Key": "HeadButtImpact",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Headbutt_Impact'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Headbutt_Impact.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Headbutt_Impact'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Headbutt_Impact.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Headbutt_Impact'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Headbutt_Impact.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Headbutt_Impact'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Headbutt_Impact.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Headbutt_Impact'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Headbutt_Impact.0"
+            }
+          }
+        },
+        {
+          "Key": "HeadButtRelease",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Headbutt_Release'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Headbutt_Release.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Headbutt_Release'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Headbutt_Release.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Headbutt_Release'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Headbutt_Release.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Headbutt_Release'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Headbutt_Release.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Headbutt_Release'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Headbutt_Release.0"
+            }
+          }
+        },
+        {
+          "Key": "HeadButtStartL",
+          "Value": {
+            "Hatchling": null,
+            "Juvenile": null,
+            "Subadult": null,
+            "Adult": null,
+            "Elder": null
+          }
+        },
+        {
+          "Key": "GrabM",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_GrabM'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_GrabM.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_GrabM'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_GrabM.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_GrabM'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_GrabM.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_GrabM'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_GrabM.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_GrabM'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_GrabM.0"
+            }
+          }
+        },
+        {
+          "Key": "GrabH",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_GrabH'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_GrabH.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_GrabH'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_GrabH.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_GrabH'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_GrabH.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_GrabH'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_GrabH.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_GrabH'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_GrabH.0"
+            }
+          }
+        },
+        {
+          "Key": "HeadButtGround",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Headbutt_Ground'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Headbutt_Ground.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Headbutt_Ground'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Headbutt_Ground.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Headbutt_Ground'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Headbutt_Ground.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Headbutt_Ground'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Headbutt_Ground.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Headbutt_Ground'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Headbutt_Ground.0"
+            }
+          }
+        }
+      ],
+      "UniqueDirectional": [
+        {
+          "Key": "DirectionalHeadbutt",
+          "Value": {
+            "LF": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Attack_F'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Attack_F.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Attack_F'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Attack_F.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Attack_F'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Attack_F.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Attack_F'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Attack_F.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Attack_F'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Attack_F.0"
+              }
+            },
+            "L45": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Attack_L45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Attack_L45.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Attack_L45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Attack_L45.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Attack_L45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Attack_L45.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Attack_L45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Attack_L45.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Attack_L45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Attack_L45.0"
+              }
+            },
+            "L90": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Attack_L90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Attack_L90.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Attack_L90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Attack_L90.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Attack_L90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Attack_L90.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Attack_L90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Attack_L90.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Attack_L90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Attack_L90.0"
+              }
+            },
+            "L135": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Attack_L135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Attack_L135.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Attack_L135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Attack_L135.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Attack_L135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Attack_L135.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Attack_L135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Attack_L135.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Attack_L135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Attack_L135.0"
+              }
+            },
+            "L180": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Attack_L180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Attack_L180.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Attack_L180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Attack_L180.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Attack_L180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Attack_L180.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Attack_L180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Attack_L180.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Attack_L180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Attack_L180.0"
+              }
+            },
+            "RF": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Attack_F'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Attack_F.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Attack_F'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Attack_F.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Attack_F'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Attack_F.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Attack_F'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Attack_F.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Attack_F'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Attack_F.0"
+              }
+            },
+            "R45": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Attack_R45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Attack_R45.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Attack_R45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Attack_R45.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Attack_R45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Attack_R45.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Attack_R45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Attack_R45.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Attack_R45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Attack_R45.0"
+              }
+            },
+            "R90": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Attack_R90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Attack_R90.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Attack_R90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Attack_R90.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Attack_R90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Attack_R90.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Attack_R90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Attack_R90.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Attack_R90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Attack_R90.0"
+              }
+            },
+            "R135": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Attack_R135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Attack_R135.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Attack_R135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Attack_R135.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Attack_R135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Attack_R135.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Attack_R135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Attack_R135.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Attack_R135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Attack_R135.0"
+              }
+            },
+            "R180": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Attack_R180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Attack_R180.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Attack_R180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Attack_R180.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Attack_R180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Attack_R180.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Attack_R180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Attack_R180.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Attack_R180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Attack_R180.0"
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+]

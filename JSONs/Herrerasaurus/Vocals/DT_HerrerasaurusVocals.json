@@ -1,0 +1,432 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_HerrerasaurusVocals",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'Vocals'",
+        "ObjectPath": "/Script/TheIsle"
+      }
+    },
+    "Rows": {
+      "Generic": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Herrerasaurus_Call_Generic'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Herrerasaurus/Sound/MS_Herrerasaurus_Call_Generic.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Broadcast": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Herrerasaurus_Call_Broadcast'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Herrerasaurus/Sound/MS_Herrerasaurus_Call_Broadcast.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Attract": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Herrerasaurus_Call_Attract'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Herrerasaurus/Sound/MS_Herrerasaurus_Call_Attract.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Threaten": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Herrerasaurus_Call_Threaten'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Herrerasaurus/Sound/MS_Herrerasaurus_Call_Threaten.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Danger": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Herrerasaurus_Call_Danger'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Herrerasaurus/Sound/MS_Herrerasaurus_Call_Danger.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "RegularPain": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Herrerasaurus_RegularPain'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Herrerasaurus/Sound/MS_Herrerasaurus_RegularPain.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "ExtremePain": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Herrerasaurus_ExtremePain'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Herrerasaurus/Sound/MS_Herrerasaurus_ExtremePain.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Death": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Herrerasaurus_Death'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Herrerasaurus/Sound/MS_Herrerasaurus_Death.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Bite": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Herrerasaurus_Bite'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Herrerasaurus/Sound/MS_Herrerasaurus_Bite.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Attack": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Herrerasaurus_Attack'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Herrerasaurus/Sound/MS_Herrerasaurus_Attack.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "PreAttack": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Herrerasaurus_PreAttack'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Herrerasaurus/Sound/MS_Herrerasaurus_PreAttack.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "JawSnap": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Herrerasaurus_JawSnap'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Herrerasaurus/Sound/MS_Herrerasaurus_JawSnap.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "PounceAttack": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Herrerasaurus_Pounce'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Herrerasaurus/Sound/MS_Herrerasaurus_Pounce.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Eat1": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Herrerasaurus_Eat1'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Herrerasaurus/Sound/MS_Herrerasaurus_Eat1.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Eat2": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Herrerasaurus_Eat2'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Herrerasaurus/Sound/MS_Herrerasaurus_Eat2.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Eat3": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Herrerasaurus_Eat3'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Herrerasaurus/Sound/MS_Herrerasaurus_Eat3.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Eat4": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Herrerasaurus_Eat4'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Herrerasaurus/Sound/MS_Herrerasaurus_Eat4.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Drink": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Herrerasaurus_Drink'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Herrerasaurus/Sound/MS_Herrerasaurus_Drink.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Idle": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Herrerasaurus_Idle'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Herrerasaurus/Sound/MS_Herrerasaurus_Idle.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Grunt": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Herrerasaurus_Grunt'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Herrerasaurus/Sound/MS_Herrerasaurus_Grunt.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Snort": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Herrerasaurus_Snort'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Herrerasaurus/Sound/MS_Herrerasaurus_Snort.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Jump": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Herrerasaurus_Jump'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Herrerasaurus/Sound/MS_Herrerasaurus_Jump.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Pounce": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Herrerasaurus_Pounce'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Herrerasaurus/Sound/MS_Herrerasaurus_Pounce.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "SnoreIn": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Herrerasaurus_SnoreIn'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Herrerasaurus/Sound/MS_Herrerasaurus_SnoreIn.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "SnoreOut": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Herrerasaurus_SnoreOut'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Herrerasaurus/Sound/MS_Herrerasaurus_SnoreOut.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Wretch": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Herrerasaurus_Wretch'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Herrerasaurus/Sound/MS_Herrerasaurus_Wretch.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Vomit": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Herrerasaurus_Vomit'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Herrerasaurus/Sound/MS_Herrerasaurus_Vomit.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "BlindCroak": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Herrerasaurus_Blind_Croak'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Herrerasaurus/Sound/MS_Herrerasaurus_Blind_Croak.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "BlindGrumble": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Herrerasaurus_Blind_Grumble'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Herrerasaurus/Sound/MS_Herrerasaurus_Blind_Grumble.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "BlindYelp": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Herrerasaurus_Blind_Yelp'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Herrerasaurus/Sound/MS_Herrerasaurus_Blind_Yelp.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Pounced": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Herrerasaurus_Pounced'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Herrerasaurus/Sound/MS_Herrerasaurus_Pounced.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Pinned1": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Herrerasaurus_Pinned1'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Herrerasaurus/Sound/MS_Herrerasaurus_Pinned1.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Pinned2": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Herrerasaurus_Pinned2'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Herrerasaurus/Sound/MS_Herrerasaurus_Pinned2.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Pinned3": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Herrerasaurus_Pinned3'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Herrerasaurus/Sound/MS_Herrerasaurus_Pinned3.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Pinned4": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Herrerasaurus_Pinned4'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Herrerasaurus/Sound/MS_Herrerasaurus_Pinned4.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Thrash": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Herrerasaurus_Thrash'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Herrerasaurus/Sound/MS_Herrerasaurus_Thrash.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Wallow1": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Herrerasaurus_Wallow1'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Herrerasaurus/Sound/MS_Herrerasaurus_Wallow1.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Wallow2": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Herrerasaurus_Wallow2'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Herrerasaurus/Sound/MS_Herrerasaurus_Wallow2.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Wallow3": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Herrerasaurus_Wallow3'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Herrerasaurus/Sound/MS_Herrerasaurus_Wallow3.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Wallow4": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Herrerasaurus_Wallow4'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Herrerasaurus/Sound/MS_Herrerasaurus_Wallow4.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "CourtM1": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Herrerasaurus_CourtM1'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Herrerasaurus/Sound/MS_Herrerasaurus_CourtM1.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "CourtM2": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Herrerasaurus_CourtM2'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Herrerasaurus/Sound/MS_Herrerasaurus_CourtM2.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "CourtM3": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Herrerasaurus_CourtM3'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Herrerasaurus/Sound/MS_Herrerasaurus_CourtM3.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "CourtM4": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Herrerasaurus_CourtM4'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Herrerasaurus/Sound/MS_Herrerasaurus_CourtM4.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "CourtF1": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Herrerasaurus_CourtF1'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Herrerasaurus/Sound/MS_Herrerasaurus_CourtF1.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "CourtF2": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Herrerasaurus_CourtF2'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Herrerasaurus/Sound/MS_Herrerasaurus_CourtF2.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "CourtF3": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Herrerasaurus_CourtF3'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Herrerasaurus/Sound/MS_Herrerasaurus_CourtF3.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "CourtF4": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Herrerasaurus_CourtF4'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Herrerasaurus/Sound/MS_Herrerasaurus_CourtF4.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Beg1": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Herrerasaurus_Beg1'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Herrerasaurus/Sound/MS_Herrerasaurus_Beg1.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Beg2": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Herrerasaurus_Beg2'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Herrerasaurus/Sound/MS_Herrerasaurus_Beg2.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Beg3": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Herrerasaurus_Beg3'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Herrerasaurus/Sound/MS_Herrerasaurus_Beg3.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "ClawSwipe": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Beipiaosaurus_Claw_Swipe'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Beipiaosaurus/Sound/CU_Beipiaosaurus_Claw_Swipe.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      }
+    }
+  }
+]

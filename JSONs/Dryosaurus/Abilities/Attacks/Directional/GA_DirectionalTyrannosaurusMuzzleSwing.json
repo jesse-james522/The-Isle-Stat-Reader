@@ -1,0 +1,124 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GA_DirectionalTyrannosaurusMuzzleSwing_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'TIGameplayAbilityDirectionalTyrannosaurusMuzzleSwing'",
+      "ObjectPath": "/Script/TheIsle"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GA_DirectionalTyrannosaurusMuzzleSwing_C'Default__GA_DirectionalTyrannosaurusMuzzleSwing_C'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Attacks/Directional/GA_DirectionalTyrannosaurusMuzzleSwing.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "GA_DirectionalTyrannosaurusMuzzleSwing_C",
+    "Name": "Default__GA_DirectionalTyrannosaurusMuzzleSwing_C",
+    "Class": "BlueprintGeneratedClass'/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Attacks/Directional/GA_DirectionalTyrannosaurusMuzzleSwing.GA_DirectionalTyrannosaurusMuzzleSwing_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DirectionalAttackMoveSpeed": 1.0,
+      "DirectionalAttackName": "DirectionalMuzzleSwing",
+      "MovementDurationF": 0.6,
+      "EndDelayF": 2.3,
+      "RotationRateF": 0.1,
+      "TraceTimesF": [
+        0.6,
+        0.66,
+        0.72,
+        0.78,
+        0.84,
+        0.9
+      ],
+      "SpeedMult45": 0.0,
+      "MovementDuration45": 0.45,
+      "EndDelay45": 1.4,
+      "RotationRate45": 0.1,
+      "TraceTimes45": [
+        0.3,
+        0.36,
+        0.42,
+        0.48
+      ],
+      "MovementDuration90": 0.56,
+      "EndDelay90": 1.4,
+      "RotationRate90": 160.0,
+      "TraceTimes90": [
+        0.24,
+        0.3,
+        0.36,
+        0.42,
+        0.48,
+        0.54,
+        0.6
+      ],
+      "MovementDuration135": 0.64,
+      "EndDelay135": 1.55,
+      "RotationRate135": 211.0,
+      "TraceTimes135": [
+        0.3,
+        0.36,
+        0.42,
+        0.48,
+        0.54,
+        0.6,
+        0.66,
+        0.72,
+        0.78,
+        0.84,
+        0.9
+      ],
+      "MovementDuration180": 0.64,
+      "EndDelay180": 1.55,
+      "RotationRate180": 281.25,
+      "TraceTimes180": [
+        0.3,
+        0.36,
+        0.42,
+        0.48,
+        0.54,
+        0.6,
+        0.66,
+        0.72,
+        0.78,
+        0.84,
+        0.9
+      ],
+      "PlayJuvAnimGameplayEffect": {
+        "ObjectName": "BlueprintGeneratedClass'GE_PlayJuvAnim_C'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Effects/GE_PlayJuvAnim.0"
+      },
+      "MultipliedDamageAttribute": {
+        "AttributeName": "DamageHolder",
+        "Attribute": {
+          "Path": [
+            "DamageHolder"
+          ],
+          "ResolvedOwner": {
+            "ObjectName": "Class'TIAttributeSetBase'",
+            "ObjectPath": "/Script/TheIsle"
+          }
+        },
+        "AttributeOwner": {
+          "ObjectName": "Class'TIAttributeSetBase'",
+          "ObjectPath": "/Script/TheIsle"
+        }
+      },
+      "bBlockedByLegsFracture": true,
+      "bCancelMontageWithMovementAfterAbilityEnds": true,
+      "StaminaCostName": "Stamina.AltBite"
+    }
+  }
+]

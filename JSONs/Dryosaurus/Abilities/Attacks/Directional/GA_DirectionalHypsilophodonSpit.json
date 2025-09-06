@@ -1,0 +1,84 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GA_DirectionalHypsilophodonSpit_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'TIGameplayAbilityDirectionalHypsilophodonSpit'",
+      "ObjectPath": "/Script/TheIsle"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GA_DirectionalHypsilophodonSpit_C'Default__GA_DirectionalHypsilophodonSpit_C'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Attacks/Directional/GA_DirectionalHypsilophodonSpit.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "GA_DirectionalHypsilophodonSpit_C",
+    "Name": "Default__GA_DirectionalHypsilophodonSpit_C",
+    "Class": "BlueprintGeneratedClass'/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Attacks/Directional/GA_DirectionalHypsilophodonSpit.GA_DirectionalHypsilophodonSpit_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AimParticleSystem": {
+        "ObjectName": "ParticleSystem'PS_HypsilophodonAim'",
+        "ObjectPath": "/Game/TheIsle/Effects/Character/Particles/PS_HypsilophodonAim.38"
+      },
+      "DirectionalAttackMoveSpeed": 10.0,
+      "bCanUseWhileSprinting": true,
+      "bOverrideWhenMovingForward": false,
+      "DirectionalAttackName": "Spit",
+      "RotationRateF": 200.0,
+      "TraceTimesF": [
+        0.12
+      ],
+      "RotationRate45": 200.0,
+      "TraceTimes45": [
+        0.13
+      ],
+      "RotationRate90": 200.0,
+      "TraceTimes90": [
+        0.13
+      ],
+      "RotationRate135": 200.0,
+      "TraceTimes135": [
+        0.14
+      ],
+      "RotationRate180": 200.0,
+      "TraceTimes180": [
+        0.16
+      ],
+      "AllowedMovementModes": [
+        "MOVE_Walking",
+        "MOVE_Custom"
+      ],
+      "MultipliedDamageAttribute": {
+        "AttributeName": "DamageHolder",
+        "Attribute": {
+          "Path": [
+            "DamageHolder"
+          ],
+          "ResolvedOwner": {
+            "ObjectName": "Class'TIAttributeSetBase'",
+            "ObjectPath": "/Script/TheIsle"
+          }
+        },
+        "AttributeOwner": {
+          "ObjectName": "Class'TIAttributeSetBase'",
+          "ObjectPath": "/Script/TheIsle"
+        }
+      },
+      "bReleaseToExecute": true,
+      "bCanFish": false
+    }
+  }
+]

@@ -1,0 +1,145 @@
+[
+  {
+    "Type": "TIGameplayAbilitySet",
+    "Name": "DA_AustroraptorGameplayAbilities",
+    "Class": "UScriptClass'TIGameplayAbilitySet'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Abilities": [
+        {
+          "Command": "ETIGameplayAbilityInputBinds::PrimaryAttack",
+          "GameplayAbilityClass": {
+            "ObjectName": "BlueprintGeneratedClass'GA_DirectionalCarnotaurusBitePrimary_C'",
+            "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Attacks/Directional/GA_DirectionalCarnotaurusBitePrimary.0"
+          }
+        },
+        {
+          "Command": "ETIGameplayAbilityInputBinds::PrimaryAttack",
+          "GameplayAbilityClass": {
+            "ObjectName": "BlueprintGeneratedClass'GA_Bite_Allo_C'",
+            "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Attacks/GA_Bite_Allo.0"
+          }
+        },
+        {
+          "Command": "ETIGameplayAbilityInputBinds::PrimaryAttackB",
+          "GameplayAbilityClass": {
+            "ObjectName": "BlueprintGeneratedClass'GA_DirectionalCarnotaurusBite_C'",
+            "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Attacks/Directional/GA_DirectionalCarnotaurusBite.0"
+          }
+        },
+        {
+          "Command": "ETIGameplayAbilityInputBinds::PrimaryAttackB",
+          "GameplayAbilityClass": {
+            "ObjectName": "BlueprintGeneratedClass'GA_Bite_Allo_C'",
+            "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Attacks/GA_Bite_Allo.0"
+          }
+        },
+        {
+          "Command": "ETIGameplayAbilityInputBinds::SecondaryAttack",
+          "GameplayAbilityClass": {
+            "ObjectName": "BlueprintGeneratedClass'GA_Ambush_C'",
+            "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Attacks/GA_Ambush.0"
+          }
+        },
+        {
+          "Command": "ETIGameplayAbilityInputBinds::Buck",
+          "GameplayAbilityClass": {
+            "ObjectName": "BlueprintGeneratedClass'GA_PounceStruggleAllosaurus_C'",
+            "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/PounceStruggle/GA_PounceStruggleAllosaurus.0"
+          }
+        },
+        {
+          "Command": "ETIGameplayAbilityInputBinds::Vocalize",
+          "GameplayAbilityClass": {
+            "ObjectName": "BlueprintGeneratedClass'GA_VocalGeneric_C'",
+            "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Vocals/GA_VocalGeneric.0"
+          }
+        },
+        {
+          "Command": "ETIGameplayAbilityInputBinds::VoiceBroadcast",
+          "GameplayAbilityClass": {
+            "ObjectName": "BlueprintGeneratedClass'GA_VocalBroadcast_C'",
+            "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Vocals/GA_VocalBroadcast.0"
+          }
+        },
+        {
+          "Command": "ETIGameplayAbilityInputBinds::VoiceFriendly",
+          "GameplayAbilityClass": {
+            "ObjectName": "BlueprintGeneratedClass'GA_VocalAttract_C'",
+            "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Vocals/GA_VocalAttract.0"
+          }
+        },
+        {
+          "Command": "ETIGameplayAbilityInputBinds::VoiceThreaten",
+          "GameplayAbilityClass": {
+            "ObjectName": "BlueprintGeneratedClass'GA_VocalThreaten_C'",
+            "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Vocals/GA_VocalThreaten.0"
+          }
+        },
+        {
+          "Command": "ETIGameplayAbilityInputBinds::VoiceHelp",
+          "GameplayAbilityClass": {
+            "ObjectName": "BlueprintGeneratedClass'GA_VocalDanger_C'",
+            "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Vocals/GA_VocalDanger.0"
+          }
+        },
+        {
+          "Command": "ETIGameplayAbilityInputBinds::Scent",
+          "GameplayAbilityClass": {
+            "ObjectName": "BlueprintGeneratedClass'GA_Scent_C'",
+            "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/GA_Scent.0"
+          }
+        },
+        {
+          "Command": "ETIGameplayAbilityInputBinds::Nest",
+          "GameplayAbilityClass": {
+            "ObjectName": "BlueprintGeneratedClass'GA_Court_C'",
+            "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/GA_Court.0"
+          }
+        },
+        {
+          "Command": "ETIGameplayAbilityInputBinds::Nest",
+          "GameplayAbilityClass": {
+            "ObjectName": "BlueprintGeneratedClass'GA_Nest_Debris_Large_C_C'",
+            "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/GA_Nest_Debris_Large_C.0"
+          }
+        },
+        {
+          "Command": "ETIGameplayAbilityInputBinds::Jump",
+          "GameplayAbilityClass": {
+            "ObjectName": "BlueprintGeneratedClass'GA_HatchClosedNest_C'",
+            "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/GA_HatchClosedNest.0"
+          }
+        },
+        {
+          "Command": "ETIGameplayAbilityInputBinds::PickupBody",
+          "GameplayAbilityClass": {
+            "ObjectName": "BlueprintGeneratedClass'GA_PickupBase_C'",
+            "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/PickUp/GA_PickupBase.0"
+          }
+        },
+        {
+          "Command": "ETIGameplayAbilityInputBinds::None",
+          "GameplayAbilityClass": {
+            "ObjectName": "BlueprintGeneratedClass'GA_ExternalPickUp_C'",
+            "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/PickUp/GA_ExternalPickUp.0"
+          }
+        },
+        {
+          "Command": "ETIGameplayAbilityInputBinds::PrimaryAttack",
+          "GameplayAbilityClass": {
+            "ObjectName": "BlueprintGeneratedClass'GA_CorpseShake_C'",
+            "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/GA_CorpseShake.0"
+          }
+        },
+        {
+          "Command": "ETIGameplayAbilityInputBinds::Use",
+          "GameplayAbilityClass": {
+            "ObjectName": "BlueprintGeneratedClass'GA_OpenCorpse_C'",
+            "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/GA_OpenCorpse.0"
+          }
+        }
+      ]
+    }
+  }
+]

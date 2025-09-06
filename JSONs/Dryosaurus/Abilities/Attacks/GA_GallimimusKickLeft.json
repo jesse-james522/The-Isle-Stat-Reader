@@ -1,0 +1,71 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GA_GallimimusKickLeft_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'TIGameplayAbilityGallimimusKick'",
+      "ObjectPath": "/Script/TheIsle"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GA_GallimimusKickLeft_C'Default__GA_GallimimusKickLeft_C'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Attacks/GA_GallimimusKickLeft.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "GA_GallimimusKickLeft_C",
+    "Name": "Default__GA_GallimimusKickLeft_C",
+    "Class": "BlueprintGeneratedClass'/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Attacks/GA_GallimimusKickLeft.GA_GallimimusKickLeft_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AllowedMovementModes": [
+        "MOVE_Walking",
+        "MOVE_Swimming",
+        "MOVE_Falling"
+      ],
+      "BleedingChance": 1.5,
+      "BalanceAttributeRow": "Ability.Skill.Forage_4",
+      "AbilityTriggers": [],
+      "CooldownGameplayEffectClass": {
+        "ObjectName": "BlueprintGeneratedClass'GE_AttackCooldown075_C'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Effects/GE_AttackCooldown075.0"
+      },
+      "CancelAbilitiesWithTag": [
+        "Ability.Skill.VoiceBroadcast",
+        "Ability.Skill.VoiceThreaten",
+        "Ability.Skill.VoiceHelp",
+        "Ability.Skill.VoiceFriendly",
+        "Ability.Skill.Use",
+        "Ability.Skill.Vocalize",
+        "Ability.Skill.PouncedBuck"
+      ],
+      "BlockAbilitiesWithTag": [
+        "Ability.Skill.Rest",
+        "Ability.Skill.Scent",
+        "Ability.Skill.SecondaryAttack",
+        "Ability.Skill.Use",
+        "Ability.Skill.Vocalize",
+        "Ability.Skill.VoiceBroadcast",
+        "Ability.Skill.VoiceFriendly",
+        "Ability.Skill.VoiceHelp",
+        "Ability.Skill.VoiceThreaten",
+        "Ability.Skill.PickUp",
+        "Ability.Skill.PrimaryAttack"
+      ],
+      "ActivationRequiredTags": [
+        "Ability.Skill.PrimaryAttack"
+      ]
+    }
+  }
+]

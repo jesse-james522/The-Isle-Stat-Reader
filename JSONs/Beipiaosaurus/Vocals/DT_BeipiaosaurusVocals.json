@@ -1,0 +1,336 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_BeipiaosaurusVocals",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'Vocals'",
+        "ObjectPath": "/Script/TheIsle"
+      }
+    },
+    "Rows": {
+      "Generic": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Beipiaosaurus_Call_Generic'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Beipiaosaurus/Sound/MS_Beipiaosaurus_Call_Generic.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Broadcast": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Beipiaosaurus_Call_Broadcast'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Beipiaosaurus/Sound/MS_Beipiaosaurus_Call_Broadcast.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Attract": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Beipiaosaurus_Call_Attract'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Beipiaosaurus/Sound/MS_Beipiaosaurus_Call_Attract.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Threaten": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Beipiaosaurus_Call_Threaten'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Beipiaosaurus/Sound/MS_Beipiaosaurus_Call_Threaten.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Danger": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Beipiaosaurus_Call_Danger'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Beipiaosaurus/Sound/MS_Beipiaosaurus_Call_Danger.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "UnderwaterGeneric": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Beipiaosaurus_Call_Underwater_Generic'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Beipiaosaurus/Sound/CU_Beipiaosaurus_Call_Underwater_Generic.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "UnderwaterBroadcast": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Beipiaosaurus_Call_Underwater_Broadcast'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Beipiaosaurus/Sound/CU_Beipiaosaurus_Call_Underwater_Broadcast.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "UnderwaterAttract": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Beipiaosaurus_Call_Underwater_Attract'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Beipiaosaurus/Sound/CU_Beipiaosaurus_Call_Underwater_Attract.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "UnderwaterThreaten": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Beipiaosaurus_Call_Underwater_Threaten'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Beipiaosaurus/Sound/CU_Beipiaosaurus_Call_Underwater_Threaten.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "UnderwaterDanger": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Beipiaosaurus_Call_Underwater_Danger'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Beipiaosaurus/Sound/CU_Beipiaosaurus_Call_Underwater_Danger.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "RegularPain": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Beipiaosaurus_Regular_Pain'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Beipiaosaurus/Sound/CU_Beipiaosaurus_Regular_Pain.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "ExtremePain": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Beipiaosaurus_Extreme_Pain'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Beipiaosaurus/Sound/CU_Beipiaosaurus_Extreme_Pain.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Death": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Beipiaosaurus_Death'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Beipiaosaurus/Sound/CU_Beipiaosaurus_Death.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Idle": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Beipiaosaurus_Idle'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Beipiaosaurus/Sound/CU_Beipiaosaurus_Idle.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Jump": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Beipiaosaurus_Jump'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Beipiaosaurus/Sound/CU_Beipiaosaurus_Jump.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Attack1": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Beipiaosaurus_Attack1'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Beipiaosaurus/Sound/MS_Beipiaosaurus_Attack1.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Attack2": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Beipiaosaurus_AltAttack2'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Beipiaosaurus/Sound/CU_Beipiaosaurus_AltAttack2.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "ClawAttack": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Beipiaosaurus_Attack'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Beipiaosaurus/Sound/CU_Beipiaosaurus_Attack.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "ClawSwipe": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Beipiaosaurus_Claw_Swipe'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Beipiaosaurus/Sound/CU_Beipiaosaurus_Claw_Swipe.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "ClawSwipeDouble": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Beipiaosaurus_Claw_Swipe_Double'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Beipiaosaurus/Sound/CU_Beipiaosaurus_Claw_Swipe_Double.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Bite": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Beipiaosaurus_Bite'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Beipiaosaurus/Sound/MS_Beipiaosaurus_Bite.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "JawSnap": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Beipiaosaurus_Jaw_Snap'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Beipiaosaurus/Sound/CU_Beipiaosaurus_Jaw_Snap.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Eat1": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Beipiaosaurus_Eat1'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Beipiaosaurus/Sound/CU_Beipiaosaurus_Eat1.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Eat2": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Beipiaosaurus_Eat2'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Beipiaosaurus/Sound/CU_Beipiaosaurus_Eat2.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Eat3": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Beipiaosaurus_Eat3'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Beipiaosaurus/Sound/CU_Beipiaosaurus_Eat3.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Drink": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Beipiaosaurus_Drink'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Beipiaosaurus/Sound/CU_Beipiaosaurus_Drink.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Blinded": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Beipiaosaurus_Blind'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Beipiaosaurus/Sound/CU_Beipiaosaurus_Blind.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Brush": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Beipiaosaurus_Blind_Foley'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Beipiaosaurus/Sound/CU_Beipiaosaurus_Blind_Foley.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Pinned": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Beipiaosaurus_Pinned'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Beipiaosaurus/Sound/CU_Beipiaosaurus_Pinned.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Pounced": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Beipiaosaurus_Pounced'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Beipiaosaurus/Sound/CU_Beipiaosaurus_Pounced.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "PouncedRustle": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Beipiaosaurus_Pounced_Foley'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Beipiaosaurus/Sound/CU_Beipiaosaurus_Pounced_Foley.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Snore": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Beipiaosaurus_Snore'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Beipiaosaurus/Sound/CU_Beipiaosaurus_Snore.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Stand": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Beipiaosaurus_Stand'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Beipiaosaurus/Sound/CU_Beipiaosaurus_Stand.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Sit": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Beipiaosaurus_Sit'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Beipiaosaurus/Sound/CU_Beipiaosaurus_Sit.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "CourtshipFemale": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Beipiaosaurus_Court_F'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Beipiaosaurus/Sound/CU_Beipiaosaurus_Court_F.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "CourtshipMale": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Beipiaosaurus_Court_M'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Beipiaosaurus/Sound/CU_Beipiaosaurus_Court_M.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Beg1": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Beipiaosaurus_Beg1'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Beipiaosaurus/Sound/CU_Beipiaosaurus_Beg1.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Beg2": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Beipiaosaurus_Beg2'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Beipiaosaurus/Sound/CU_Beipiaosaurus_Beg2.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Vomit": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Beipiaosaurus_Vomit'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Beipiaosaurus/Sound/CU_Beipiaosaurus_Vomit.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Feed": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Beipiaosaurus_Feed'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Beipiaosaurus/Sound/CU_Beipiaosaurus_Feed.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      }
+    }
+  }
+]

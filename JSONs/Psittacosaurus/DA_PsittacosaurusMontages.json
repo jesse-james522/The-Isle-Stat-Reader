@@ -1,0 +1,492 @@
+[
+  {
+    "Type": "TIDinosaurMontages",
+    "Name": "DA_PsittacosaurusMontages",
+    "Class": "UScriptClass'TIDinosaurMontages'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Vocals": {
+        "Generic": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Taco_Emote_Generic'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Psittacosaurus/Animations/LegacyAnimations/AM_Taco_Emote_Generic.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Taco_Emote_Generic'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Psittacosaurus/Animations/LegacyAnimations/AM_Taco_Emote_Generic.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Taco_Emote_Generic'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Psittacosaurus/Animations/LegacyAnimations/AM_Taco_Emote_Generic.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Taco_Emote_Generic'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Psittacosaurus/Animations/LegacyAnimations/AM_Taco_Emote_Generic.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Taco_Emote_Generic'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Psittacosaurus/Animations/LegacyAnimations/AM_Taco_Emote_Generic.0"
+          }
+        },
+        "Broadcast": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Taco_Emote_Broadcast'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Psittacosaurus/Animations/LegacyAnimations/AM_Taco_Emote_Broadcast.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Taco_Emote_Broadcast'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Psittacosaurus/Animations/LegacyAnimations/AM_Taco_Emote_Broadcast.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Taco_Emote_Broadcast'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Psittacosaurus/Animations/LegacyAnimations/AM_Taco_Emote_Broadcast.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Taco_Emote_Broadcast'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Psittacosaurus/Animations/LegacyAnimations/AM_Taco_Emote_Broadcast.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Taco_Emote_Broadcast'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Psittacosaurus/Animations/LegacyAnimations/AM_Taco_Emote_Broadcast.0"
+          }
+        },
+        "Attract": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Taco_Emote_Attract'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Psittacosaurus/Animations/LegacyAnimations/AM_Taco_Emote_Attract.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Taco_Emote_Attract'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Psittacosaurus/Animations/LegacyAnimations/AM_Taco_Emote_Attract.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Taco_Emote_Attract'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Psittacosaurus/Animations/LegacyAnimations/AM_Taco_Emote_Attract.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Taco_Emote_Attract'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Psittacosaurus/Animations/LegacyAnimations/AM_Taco_Emote_Attract.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Taco_Emote_Attract'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Psittacosaurus/Animations/LegacyAnimations/AM_Taco_Emote_Attract.0"
+          }
+        },
+        "Threaten": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Taco_Emote_Threaten'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Psittacosaurus/Animations/LegacyAnimations/AM_Taco_Emote_Threaten.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Taco_Emote_Threaten'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Psittacosaurus/Animations/LegacyAnimations/AM_Taco_Emote_Threaten.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Taco_Emote_Threaten'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Psittacosaurus/Animations/LegacyAnimations/AM_Taco_Emote_Threaten.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Taco_Emote_Threaten'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Psittacosaurus/Animations/LegacyAnimations/AM_Taco_Emote_Threaten.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Taco_Emote_Threaten'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Psittacosaurus/Animations/LegacyAnimations/AM_Taco_Emote_Threaten.0"
+          }
+        },
+        "Danger": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Taco_Emote_Danger'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Psittacosaurus/Animations/LegacyAnimations/AM_Taco_Emote_Danger.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Taco_Emote_Danger'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Psittacosaurus/Animations/LegacyAnimations/AM_Taco_Emote_Danger.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Taco_Emote_Danger'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Psittacosaurus/Animations/LegacyAnimations/AM_Taco_Emote_Danger.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Taco_Emote_Danger'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Psittacosaurus/Animations/LegacyAnimations/AM_Taco_Emote_Danger.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Taco_Emote_Danger'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Psittacosaurus/Animations/LegacyAnimations/AM_Taco_Emote_Danger.0"
+          }
+        }
+      },
+      "Eat": {
+        "EatIn": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Taco_Eat'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Psittacosaurus/Animations/LegacyAnimations/AM_Taco_Eat.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Taco_Eat'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Psittacosaurus/Animations/LegacyAnimations/AM_Taco_Eat.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Taco_Eat'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Psittacosaurus/Animations/LegacyAnimations/AM_Taco_Eat.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Taco_Eat'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Psittacosaurus/Animations/LegacyAnimations/AM_Taco_Eat.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Taco_Eat'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Psittacosaurus/Animations/LegacyAnimations/AM_Taco_Eat.0"
+          }
+        },
+        "Vomit": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Psittacosaurus_Adult_Vomit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Psittacosaurus/Animations/AM_Psittacosaurus_Adult_Vomit.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Psittacosaurus_Adult_Vomit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Psittacosaurus/Animations/AM_Psittacosaurus_Adult_Vomit.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Psittacosaurus_Adult_Vomit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Psittacosaurus/Animations/AM_Psittacosaurus_Adult_Vomit.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Psittacosaurus_Adult_Vomit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Psittacosaurus/Animations/AM_Psittacosaurus_Adult_Vomit.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Psittacosaurus_Adult_Vomit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Psittacosaurus/Animations/AM_Psittacosaurus_Adult_Vomit.0"
+          }
+        }
+      },
+      "Drink": {
+        "Hatchling": {
+          "ObjectName": "AnimMontage'AM_Taco_Drink'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Psittacosaurus/Animations/LegacyAnimations/AM_Taco_Drink.0"
+        },
+        "Juvenile": {
+          "ObjectName": "AnimMontage'AM_Taco_Drink'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Psittacosaurus/Animations/LegacyAnimations/AM_Taco_Drink.0"
+        },
+        "Subadult": {
+          "ObjectName": "AnimMontage'AM_Taco_Drink'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Psittacosaurus/Animations/LegacyAnimations/AM_Taco_Drink.0"
+        },
+        "Adult": {
+          "ObjectName": "AnimMontage'AM_Taco_Drink'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Psittacosaurus/Animations/LegacyAnimations/AM_Taco_Drink.0"
+        },
+        "Elder": {
+          "ObjectName": "AnimMontage'AM_Taco_Drink'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Psittacosaurus/Animations/LegacyAnimations/AM_Taco_Drink.0"
+        }
+      },
+      "Bite": {
+        "Hatchling": {
+          "ObjectName": "AnimMontage'AS_Taco_Attack_Montage'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Psittacosaurus/Animations/LegacyAnimations/AS_Taco_Attack_Montage.0"
+        },
+        "Juvenile": {
+          "ObjectName": "AnimMontage'AS_Taco_Attack_Montage'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Psittacosaurus/Animations/LegacyAnimations/AS_Taco_Attack_Montage.0"
+        },
+        "Subadult": {
+          "ObjectName": "AnimMontage'AS_Taco_Attack_Montage'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Psittacosaurus/Animations/LegacyAnimations/AS_Taco_Attack_Montage.0"
+        },
+        "Adult": {
+          "ObjectName": "AnimMontage'AS_Taco_Attack_Montage'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Psittacosaurus/Animations/LegacyAnimations/AS_Taco_Attack_Montage.0"
+        },
+        "Elder": {
+          "ObjectName": "AnimMontage'AS_Taco_Attack_Montage'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Psittacosaurus/Animations/LegacyAnimations/AS_Taco_Attack_Montage.0"
+        }
+      },
+      "Hit": {
+        "Light": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Psittacosaurus_Adult_RecoilL'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Psittacosaurus/Animations/LegacyAnimations/AM_Psittacosaurus_Adult_RecoilL.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Psittacosaurus_Adult_RecoilL'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Psittacosaurus/Animations/LegacyAnimations/AM_Psittacosaurus_Adult_RecoilL.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Psittacosaurus_Adult_RecoilL'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Psittacosaurus/Animations/LegacyAnimations/AM_Psittacosaurus_Adult_RecoilL.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Psittacosaurus_Adult_RecoilL'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Psittacosaurus/Animations/LegacyAnimations/AM_Psittacosaurus_Adult_RecoilL.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Psittacosaurus_Adult_RecoilL'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Psittacosaurus/Animations/LegacyAnimations/AM_Psittacosaurus_Adult_RecoilL.0"
+          }
+        },
+        "Heavy": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Psittacosaurus_Adult_RecoilH'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Psittacosaurus/Animations/LegacyAnimations/AM_Psittacosaurus_Adult_RecoilH.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Psittacosaurus_Adult_RecoilH'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Psittacosaurus/Animations/LegacyAnimations/AM_Psittacosaurus_Adult_RecoilH.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Psittacosaurus_Adult_RecoilH'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Psittacosaurus/Animations/LegacyAnimations/AM_Psittacosaurus_Adult_RecoilH.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Psittacosaurus_Adult_RecoilH'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Psittacosaurus/Animations/LegacyAnimations/AM_Psittacosaurus_Adult_RecoilH.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Psittacosaurus_Adult_RecoilH'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Psittacosaurus/Animations/LegacyAnimations/AM_Psittacosaurus_Adult_RecoilH.0"
+          }
+        },
+        "StaggerF": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Psittacosaurus_Adult_RecoilH'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Psittacosaurus/Animations/LegacyAnimations/AM_Psittacosaurus_Adult_RecoilH.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Psittacosaurus_Adult_RecoilH'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Psittacosaurus/Animations/LegacyAnimations/AM_Psittacosaurus_Adult_RecoilH.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Psittacosaurus_Adult_RecoilH'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Psittacosaurus/Animations/LegacyAnimations/AM_Psittacosaurus_Adult_RecoilH.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Psittacosaurus_Adult_RecoilH'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Psittacosaurus/Animations/LegacyAnimations/AM_Psittacosaurus_Adult_RecoilH.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Psittacosaurus_Adult_RecoilH'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Psittacosaurus/Animations/LegacyAnimations/AM_Psittacosaurus_Adult_RecoilH.0"
+          }
+        },
+        "StaggerB": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Psittacosaurus_Adult_RecoilH'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Psittacosaurus/Animations/LegacyAnimations/AM_Psittacosaurus_Adult_RecoilH.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Psittacosaurus_Adult_RecoilH'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Psittacosaurus/Animations/LegacyAnimations/AM_Psittacosaurus_Adult_RecoilH.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Psittacosaurus_Adult_RecoilH'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Psittacosaurus/Animations/LegacyAnimations/AM_Psittacosaurus_Adult_RecoilH.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Psittacosaurus_Adult_RecoilH'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Psittacosaurus/Animations/LegacyAnimations/AM_Psittacosaurus_Adult_RecoilH.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Psittacosaurus_Adult_RecoilH'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Psittacosaurus/Animations/LegacyAnimations/AM_Psittacosaurus_Adult_RecoilH.0"
+          }
+        },
+        "StaggerR": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Psittacosaurus_Adult_RecoilH'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Psittacosaurus/Animations/LegacyAnimations/AM_Psittacosaurus_Adult_RecoilH.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Psittacosaurus_Adult_RecoilH'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Psittacosaurus/Animations/LegacyAnimations/AM_Psittacosaurus_Adult_RecoilH.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Psittacosaurus_Adult_RecoilH'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Psittacosaurus/Animations/LegacyAnimations/AM_Psittacosaurus_Adult_RecoilH.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Psittacosaurus_Adult_RecoilH'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Psittacosaurus/Animations/LegacyAnimations/AM_Psittacosaurus_Adult_RecoilH.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Psittacosaurus_Adult_RecoilH'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Psittacosaurus/Animations/LegacyAnimations/AM_Psittacosaurus_Adult_RecoilH.0"
+          }
+        },
+        "StaggerL": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Psittacosaurus_Adult_RecoilH'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Psittacosaurus/Animations/LegacyAnimations/AM_Psittacosaurus_Adult_RecoilH.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Psittacosaurus_Adult_RecoilH'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Psittacosaurus/Animations/LegacyAnimations/AM_Psittacosaurus_Adult_RecoilH.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Psittacosaurus_Adult_RecoilH'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Psittacosaurus/Animations/LegacyAnimations/AM_Psittacosaurus_Adult_RecoilH.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Psittacosaurus_Adult_RecoilH'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Psittacosaurus/Animations/LegacyAnimations/AM_Psittacosaurus_Adult_RecoilH.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Psittacosaurus_Adult_RecoilH'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Psittacosaurus/Animations/LegacyAnimations/AM_Psittacosaurus_Adult_RecoilH.0"
+          }
+        }
+      },
+      "PouncedStruggle": {
+        "Hatchling": {
+          "ObjectName": "AnimMontage'A_Psittacosaurus_Adult_Pounced_Montage'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Psittacosaurus/Animations/A_Psittacosaurus_Adult_Pounced_Montage.0"
+        },
+        "Juvenile": {
+          "ObjectName": "AnimMontage'A_Psittacosaurus_Adult_Pounced_Montage'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Psittacosaurus/Animations/A_Psittacosaurus_Adult_Pounced_Montage.0"
+        },
+        "Subadult": {
+          "ObjectName": "AnimMontage'A_Psittacosaurus_Adult_Pounced_Montage'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Psittacosaurus/Animations/A_Psittacosaurus_Adult_Pounced_Montage.0"
+        },
+        "Adult": {
+          "ObjectName": "AnimMontage'A_Psittacosaurus_Adult_Pounced_Montage'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Psittacosaurus/Animations/A_Psittacosaurus_Adult_Pounced_Montage.0"
+        },
+        "Elder": {
+          "ObjectName": "AnimMontage'A_Psittacosaurus_Adult_Pounced_Montage'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Psittacosaurus/Animations/A_Psittacosaurus_Adult_Pounced_Montage.0"
+        }
+      },
+      "PouncedStruggleMoving": {
+        "Hatchling": {
+          "ObjectName": "AnimMontage'A_Psittacosaurus_Adult_Pounced_Montage'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Psittacosaurus/Animations/A_Psittacosaurus_Adult_Pounced_Montage.0"
+        },
+        "Juvenile": {
+          "ObjectName": "AnimMontage'A_Psittacosaurus_Adult_Pounced_Montage'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Psittacosaurus/Animations/A_Psittacosaurus_Adult_Pounced_Montage.0"
+        },
+        "Subadult": {
+          "ObjectName": "AnimMontage'A_Psittacosaurus_Adult_Pounced_Montage'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Psittacosaurus/Animations/A_Psittacosaurus_Adult_Pounced_Montage.0"
+        },
+        "Adult": {
+          "ObjectName": "AnimMontage'A_Psittacosaurus_Adult_Pounced_Montage'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Psittacosaurus/Animations/A_Psittacosaurus_Adult_Pounced_Montage.0"
+        },
+        "Elder": {
+          "ObjectName": "AnimMontage'A_Psittacosaurus_Adult_Pounced_Montage'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Psittacosaurus/Animations/A_Psittacosaurus_Adult_Pounced_Montage.0"
+        }
+      },
+      "Unique": [
+        {
+          "Key": "AdultPouncedRight",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Psittacosaurus_Adult_RecoilH'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Psittacosaurus/Animations/LegacyAnimations/AM_Psittacosaurus_Adult_RecoilH.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Psittacosaurus_Adult_RecoilH'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Psittacosaurus/Animations/LegacyAnimations/AM_Psittacosaurus_Adult_RecoilH.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Psittacosaurus_Adult_RecoilH'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Psittacosaurus/Animations/LegacyAnimations/AM_Psittacosaurus_Adult_RecoilH.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Psittacosaurus_Adult_RecoilH'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Psittacosaurus/Animations/LegacyAnimations/AM_Psittacosaurus_Adult_RecoilH.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Psittacosaurus_Adult_RecoilH'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Psittacosaurus/Animations/LegacyAnimations/AM_Psittacosaurus_Adult_RecoilH.0"
+            }
+          }
+        },
+        {
+          "Key": "AdultPouncedLeft",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Psittacosaurus_Adult_RecoilH'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Psittacosaurus/Animations/LegacyAnimations/AM_Psittacosaurus_Adult_RecoilH.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Psittacosaurus_Adult_RecoilH'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Psittacosaurus/Animations/LegacyAnimations/AM_Psittacosaurus_Adult_RecoilH.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Psittacosaurus_Adult_RecoilH'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Psittacosaurus/Animations/LegacyAnimations/AM_Psittacosaurus_Adult_RecoilH.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Psittacosaurus_Adult_RecoilH'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Psittacosaurus/Animations/LegacyAnimations/AM_Psittacosaurus_Adult_RecoilH.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Psittacosaurus_Adult_RecoilH'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Psittacosaurus/Animations/LegacyAnimations/AM_Psittacosaurus_Adult_RecoilH.0"
+            }
+          }
+        },
+        {
+          "Key": "AdultPouncedFront",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Psittacosaurus_Adult_RecoilH'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Psittacosaurus/Animations/LegacyAnimations/AM_Psittacosaurus_Adult_RecoilH.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Psittacosaurus_Adult_RecoilH'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Psittacosaurus/Animations/LegacyAnimations/AM_Psittacosaurus_Adult_RecoilH.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Psittacosaurus_Adult_RecoilH'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Psittacosaurus/Animations/LegacyAnimations/AM_Psittacosaurus_Adult_RecoilH.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Psittacosaurus_Adult_RecoilH'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Psittacosaurus/Animations/LegacyAnimations/AM_Psittacosaurus_Adult_RecoilH.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Psittacosaurus_Adult_RecoilH'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Psittacosaurus/Animations/LegacyAnimations/AM_Psittacosaurus_Adult_RecoilH.0"
+            }
+          }
+        },
+        {
+          "Key": "AdultPouncedBack",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Psittacosaurus_Adult_RecoilH'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Psittacosaurus/Animations/LegacyAnimations/AM_Psittacosaurus_Adult_RecoilH.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Psittacosaurus_Adult_RecoilH'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Psittacosaurus/Animations/LegacyAnimations/AM_Psittacosaurus_Adult_RecoilH.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Psittacosaurus_Adult_RecoilH'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Psittacosaurus/Animations/LegacyAnimations/AM_Psittacosaurus_Adult_RecoilH.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Psittacosaurus_Adult_RecoilH'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Psittacosaurus/Animations/LegacyAnimations/AM_Psittacosaurus_Adult_RecoilH.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Psittacosaurus_Adult_RecoilH'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Psittacosaurus/Animations/LegacyAnimations/AM_Psittacosaurus_Adult_RecoilH.0"
+            }
+          }
+        }
+      ]
+    }
+  }
+]

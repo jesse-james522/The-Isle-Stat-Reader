@@ -1,0 +1,52 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GA_BeipiForage_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'TIGameplayAbilityBeipiForage'",
+      "ObjectPath": "/Script/TheIsle"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GA_BeipiForage_C'Default__GA_BeipiForage_C'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/GA_BeipiForage.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "GA_BeipiForage_C",
+    "Name": "Default__GA_BeipiForage_C",
+    "Class": "BlueprintGeneratedClass'/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/GA_BeipiForage.GA_BeipiForage_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AIClass": {
+        "AssetPathName": "/Game/TheIsle/Core/Characters/Animals/Crab/BP_Crab.BP_Crab_C",
+        "SubPathString": ""
+      },
+      "AbilityTags": [
+        "Ability.Skill.Forage"
+      ],
+      "BlockAbilitiesWithTag": [
+        "Ability.Skill"
+      ],
+      "ActivationOwnedTags": [
+        "Ability.Skill.Forage",
+        "Status.DisableMovement"
+      ],
+      "ActivationBlockedTags": [
+        "Ability.Skill",
+        "State.BlockAbilities"
+      ]
+    }
+  }
+]

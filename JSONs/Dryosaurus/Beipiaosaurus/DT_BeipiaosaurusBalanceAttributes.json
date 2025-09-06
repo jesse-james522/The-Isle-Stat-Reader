@@ -1,0 +1,106 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_BeipiaosaurusBalanceAttributes",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'BalanceValues'",
+        "ObjectPath": "/Script/TheIsle"
+      }
+    },
+    "Rows": {
+      "Stamina.Regen.Standing": {
+        "AttributePercentageValues": 0.24
+      },
+      "Stamina.Regen.Walking": {
+        "AttributePercentageValues": 0.24
+      },
+      "Stamina.Regen.Trotting": {
+        "AttributePercentageValues": 0.24
+      },
+      "Stamina.Regen.Resting": {
+        "AttributePercentageValues": 0.24
+      },
+      "Stamina.Spending.Sprinting": {
+        "AttributePercentageValues": -0.65
+      },
+      "Stamina.Spending.SprintingHolding": {
+        "AttributePercentageValues": -0.96
+      },
+      "Stamina.Spending.SlowSwim": {
+        "AttributePercentageValues": -0.33
+      },
+      "Stamina.Spending.FastSwim": {
+        "AttributePercentageValues": -0.66
+      },
+      "Health.Regen": {
+        "AttributePercentageValues": 0.0925
+      },
+      "LockedHealth.Regen": {
+        "AttributePercentageValues": 0.03704
+      },
+      "Health.Regen.Resting": {
+        "AttributePercentageValues": 0.185
+      },
+      "Health.Damage.Hunger": {
+        "AttributePercentageValues": -0.166666
+      },
+      "Health.Damage.Thirst": {
+        "AttributePercentageValues": -0.166666
+      },
+      "Health.Damage.Oxygen": {
+        "AttributePercentageValues": -6.7
+      },
+      "Hunger.Decay": {
+        "AttributePercentageValues": -0.041667
+      },
+      "Thirst.Decay": {
+        "AttributePercentageValues": -0.0556
+      },
+      "Oxygen.Regen": {
+        "AttributePercentageValues": 10.0
+      },
+      "Oxygen.Decay": {
+        "AttributePercentageValues": -0.6
+      },
+      "Damage.Bite": {
+        "AttributePercentageValues": 20.0
+      },
+      "Damage.Claw": {
+        "AttributePercentageValues": 30.0
+      },
+      "Damage.DirectionalClaw": {
+        "AttributePercentageValues": 23.33
+      },
+      "Damage.DirectionalClawSwimming": {
+        "AttributePercentageValues": 35.0
+      },
+      "Stamina.Spending.GetUpFast": {
+        "AttributePercentageValues": -20.0
+      },
+      "Stamina.Spending.Jump": {
+        "AttributePercentageValues": -0.05
+      },
+      "Hunger.Spending.Spit": {
+        "AttributePercentageValues": 0.1
+      },
+      "Blood.Regen.Standing": {
+        "AttributePercentageValues": 0.0925
+      },
+      "Blood.Regen.Resting": {
+        "AttributePercentageValues": 0.185
+      },
+      "Stamina.Spending.MudWalking": {
+        "AttributePercentageValues": -1.0
+      },
+      "Stamina.AltBite": {
+        "AttributePercentageValues": -0.02
+      },
+      "Stamina.AltBiteSwim": {
+        "AttributePercentageValues": 0.0
+      }
+    }
+  }
+]

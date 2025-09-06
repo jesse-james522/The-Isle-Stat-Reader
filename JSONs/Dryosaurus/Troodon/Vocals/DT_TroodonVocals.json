@@ -1,0 +1,425 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_TroodonVocals",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'Vocals'",
+        "ObjectPath": "/Script/TheIsle"
+      }
+    },
+    "Rows": {
+      "Generic": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Troodon_Call_Generic'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Sounds/MS_Troodon_Call_Generic.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Broadcast": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Troodon_Call_Broadcast'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Sounds/MS_Troodon_Call_Broadcast.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Attract": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Troodon_Call_Attract'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Sounds/MS_Troodon_Call_Attract.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Threaten": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Troodon_Call_Threaten'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Sounds/MS_Troodon_Call_Threaten.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Danger": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Troodon_Call_Danger'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Sounds/MS_Troodon_Call_Danger.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "RegularPain": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Troodon_RegularPain'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Sounds/CU_Troodon_RegularPain.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "ExtremePain": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Troodon_ExtremePain'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Sounds/CU_Troodon_ExtremePain.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Death": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Troodon_Death'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Sounds/CU_Troodon_Death.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "PreAttack": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Troodon_PreAttack'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Sounds/CU_Troodon_PreAttack.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Bite": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Troodon_Bite'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Sounds/MS_Troodon_Bite.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Attack": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Troodon_Attack'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Sounds/CU_Troodon_Attack.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "VenomPounce": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Troodon_VenomPounce'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Sounds/CU_Troodon_VenomPounce.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "VenomPounceBite": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Troodon_VenomPounce_Bite'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Sounds/CU_Troodon_VenomPounce_Bite.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "VenomPounceLand": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Troodon_VenomPounce_Land'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Sounds/CU_Troodon_VenomPounce_Land.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Jump": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Troodon_Jump'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Sounds/CU_Troodon_Jump.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "JumpAttackDown": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Troodon_JumpAttack_Down'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Sounds/CU_Troodon_JumpAttack_Down.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "JumpAttackUp": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Troodon_JumpAttack_Up'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Sounds/CU_Troodon_JumpAttack_Up.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Breath": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Troodon_Breath'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Sounds/CU_Troodon_Breath.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Snore": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Troodon_Snore'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Sounds/CU_Troodon_Snore.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Blind": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Troodon_Blind'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Sounds/CU_Troodon_Blind.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Pinned": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Troodon_Pinned'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Sounds/CU_Troodon_Pinned.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Scream": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Troodon_Scream'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Sounds/CU_Troodon_Scream.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Wallow": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Troodon_Wallow'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Sounds/CU_Troodon_Wallow.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Purr": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Troodon_Purr'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Sounds/CU_Troodon_Purr.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Laugh": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Troodon_Laugh'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Sounds/CU_Troodon_Laugh.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Pounced": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Troodon_Pounced'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Sounds/CU_Troodon_Pounced.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Giggle": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Troodon_Eat_Giggle'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Sounds/CU_Troodon_Eat_Giggle.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Gorge": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Troodon_Eat_Gorge'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Sounds/CU_Troodon_Eat_Gorge.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Snarl": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Troodon_Eat_Snarl'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Sounds/CU_Troodon_Eat_Snarl.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Snap": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Troodon_Eat_Snap'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Sounds/CU_Troodon_Eat_Snap.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Drink": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Troodon_Drink'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Sounds/CU_Troodon_Drink.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Sit": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Troodon_Sit'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Sounds/CU_Troodon_Sit.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Stand": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Troodon_Stand'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Sounds/CU_Troodon_Stand.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Stagger": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Troodon_Stagger'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Sounds/CU_Troodon_Stagger.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Chirps": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Troodon_Chirps'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Sounds/CU_Troodon_Chirps.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Trill": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Troodon_Trill'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Sounds/CU_Troodon_Trill.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Woop": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Troodon_Woop'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Sounds/CU_Troodon_Woop.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Feed": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Troodon_Feed'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Sounds/CU_Troodon_Feed.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Court": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Troodon_Court'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Sounds/CU_Troodon_Court.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "CourtFemale": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Troodon_Female_Court'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Sounds/CU_Troodon_Female_Court.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "CourtMale": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Troodon_Male_Court'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Sounds/CU_Troodon_Male_Court.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Hatch": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Troodon_Hatch'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Sounds/CU_Troodon_Hatch.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Beg1": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Troodon_Beg1'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Sounds/CU_Troodon_Beg1.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Beg2": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Troodon_Beg2'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Sounds/CU_Troodon_Beg2.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Beg3": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Troodon_Beg3'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Sounds/CU_Troodon_Beg3.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Beg4": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Troodon_Beg1'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Sounds/CU_Troodon_Beg1.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Beg5": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Troodon_Beg5'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Sounds/CU_Troodon_Beg5.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "VenomStack1": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Troodon_VenomStack_Hiss'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Sounds/CU_Troodon_VenomStack_Hiss.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": {
+          "ObjectName": "CurveFloat'ATT_Troodon_CloseRoarDistance'",
+          "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Troodon/Vocals/ATT_Troodon_CloseRoarDistance.0"
+        }
+      },
+      "VenomStack2": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Troodon_VenomStack_Warble'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Sounds/CU_Troodon_VenomStack_Warble.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": {
+          "ObjectName": "CurveFloat'ATT_Troodon_CloseRoarDistance'",
+          "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Troodon/Vocals/ATT_Troodon_CloseRoarDistance.0"
+        }
+      },
+      "VenomEnvenomated": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Troodon_VenomStack_Scream'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Sounds/CU_Troodon_VenomStack_Scream.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": {
+          "ObjectName": "CurveFloat'ATT_Troodon_CloseRoarDistance'",
+          "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Troodon/Vocals/ATT_Troodon_CloseRoarDistance.0"
+        }
+      }
+    }
+  }
+]

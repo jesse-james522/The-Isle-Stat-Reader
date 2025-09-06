@@ -1,0 +1,60 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GA_NestBuild_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'TIGameplayAbilityNestBuild'",
+      "ObjectPath": "/Script/TheIsle"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GA_NestBuild_C'Default__GA_NestBuild_C'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/GA_NestBuild.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "GA_NestBuild_C",
+    "Name": "Default__GA_NestBuild_C",
+    "Class": "BlueprintGeneratedClass'/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/GA_NestBuild.GA_NestBuild_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AbilityTags": [
+        "Ability.Skill.Nest"
+      ],
+      "ActivationOwnedTags": [
+        "Ability.Skill.Nest",
+        "Status.DisableMovement"
+      ],
+      "ActivationBlockedTags": [
+        "State.UIBlockAbilities",
+        "Ability.Skill.Nest",
+        "Ability.Skill.PickingUp",
+        "Ability.Skill.PouncedBuck",
+        "Ability.Skill.PrimaryAttack",
+        "Ability.Skill.PrimaryAttackStationary",
+        "Ability.Skill.SecondaryAttack",
+        "Ability.Skill.Scent",
+        "Ability.Skill.Rest",
+        "Ability.Skill.Vocalize",
+        "Ability.Skill.Wallow",
+        "Ability.Skill.VoiceThreaten",
+        "Ability.Skill.VoiceHelp",
+        "Ability.Skill.VoiceFriendly",
+        "Ability.Skill.VoiceBroadcast",
+        "Ability.Skill.SecondaryAttackStationary",
+        "State.BlockAbilities"
+      ]
+    }
+  }
+]

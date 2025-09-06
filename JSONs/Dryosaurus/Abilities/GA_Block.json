@@ -1,0 +1,61 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GA_Block_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'TIGameplayAbilitySparringBlock'",
+      "ObjectPath": "/Script/TheIsle"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GA_Block_C'Default__GA_Block_C'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/GA_Block.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "GA_Block_C",
+    "Name": "Default__GA_Block_C",
+    "Class": "BlueprintGeneratedClass'/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/GA_Block.GA_Block_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AbilityTags": [
+        "Ability.Skill.Block"
+      ],
+      "CooldownGameplayEffectClass": {
+        "ObjectName": "BlueprintGeneratedClass'GE_BlockCooldown1_C'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Effects/GE_BlockCooldown1.0"
+      },
+      "ActivationOwnedTags": [
+        "Ability.Skill.Block"
+      ],
+      "ActivationBlockedTags": [
+        "Ability.Skill.Beg",
+        "Ability.Skill.Evade",
+        "Ability.Skill.Forage",
+        "Ability.Skill.Nest",
+        "Ability.Skill.PickUp",
+        "Ability.Skill.PickingUp",
+        "Ability.Skill.PrimaryAttackStationary",
+        "Ability.Skill.PrimaryAttack",
+        "Ability.Skill.SecondaryAttack",
+        "Ability.Skill.Salt",
+        "Ability.Skill.Rest",
+        "Ability.Skill.Use",
+        "Ability.Skill.SecondarySpecial",
+        "Ability.Skill.SecondaryAttackStationary",
+        "Ability.Skill.Wallow"
+      ]
+    }
+  }
+]

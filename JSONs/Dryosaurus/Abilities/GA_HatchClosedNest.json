@@ -1,0 +1,47 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GA_HatchClosedNest_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'TIGameplayAbilityHatchClosedNest'",
+      "ObjectPath": "/Script/TheIsle"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GA_HatchClosedNest_C'Default__GA_HatchClosedNest_C'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/GA_HatchClosedNest.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "GA_HatchClosedNest_C",
+    "Name": "Default__GA_HatchClosedNest_C",
+    "Class": "BlueprintGeneratedClass'/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/GA_HatchClosedNest.GA_HatchClosedNest_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AbilityTags": [
+        "Ability.Skill.Hatch"
+      ],
+      "BlockAbilitiesWithTag": [
+        "Ability.Skill"
+      ],
+      "ActivationOwnedTags": [
+        "Ability.Skill.Hatch",
+        "Status.DisableMovement",
+        "Status.DisableJump",
+        "Status.DisableKnockdown",
+        "Status.DisableCrouch"
+      ]
+    }
+  }
+]

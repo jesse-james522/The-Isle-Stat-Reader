@@ -1,0 +1,91 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_CompyBalanceAttributes",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'BalanceValues'",
+        "ObjectPath": "/Script/TheIsle"
+      }
+    },
+    "Rows": {
+      "Stamina.Regen.Standing": {
+        "AttributePercentageValues": -0.025
+      },
+      "Stamina.Regen.Walking": {
+        "AttributePercentageValues": 0.66
+      },
+      "Stamina.Regen.Trotting": {
+        "AttributePercentageValues": 0.5
+      },
+      "Stamina.Regen.Resting": {
+        "AttributePercentageValues": 1.33
+      },
+      "Stamina.Spending.Sprinting": {
+        "AttributePercentageValues": -0.83
+      },
+      "Stamina.Spending.SprintingHolding": {
+        "AttributePercentageValues": -0.93
+      },
+      "Stamina.Spending.SlowSwim": {
+        "AttributePercentageValues": -0.55
+      },
+      "Stamina.Spending.FastSwim": {
+        "AttributePercentageValues": -1.1
+      },
+      "Health.Regen": {
+        "AttributePercentageValues": 0.1384
+      },
+      "LockedHealth.Regen": {
+        "AttributePercentageValues": 0.03704
+      },
+      "Health.Regen.Resting": {
+        "AttributePercentageValues": 0.2768
+      },
+      "Health.Damage.Hunger": {
+        "AttributePercentageValues": -0.166666
+      },
+      "Health.Damage.Thirst": {
+        "AttributePercentageValues": -0.166666
+      },
+      "Health.Damage.Oxygen": {
+        "AttributePercentageValues": -6.7
+      },
+      "Hunger.Decay": {
+        "AttributePercentageValues": -0.037
+      },
+      "Thirst.Decay": {
+        "AttributePercentageValues": -0.037
+      },
+      "Oxygen.Regen": {
+        "AttributePercentageValues": 5.0
+      },
+      "Oxygen.Decay": {
+        "AttributePercentageValues": -5.0
+      },
+      "Damage.Bite": {
+        "AttributePercentageValues": 0.1
+      },
+      "Stamina.Spending.GetUpFast": {
+        "AttributePercentageValues": -20.0
+      },
+      "Stamina.Spending.Jump": {
+        "AttributePercentageValues": 0.0
+      },
+      "Blood.Regen.Standing": {
+        "AttributePercentageValues": 0.1384
+      },
+      "Blood.Regen.Resting": {
+        "AttributePercentageValues": 0.2768
+      },
+      "Stamina.Spending.MudWalking": {
+        "AttributePercentageValues": -1.0
+      },
+      "Stamina.Evade": {
+        "AttributePercentageValues": -0.025
+      }
+    }
+  }
+]

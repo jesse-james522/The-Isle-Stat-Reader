@@ -1,0 +1,80 @@
+[
+  {
+    "Type": "CurveFloat",
+    "Name": "Curve_HatchShake",
+    "Class": "UScriptClass'CurveFloat'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "FloatCurve": {
+        "Keys": [
+          {
+            "InterpMode": "RCIM_Cubic",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 0.0,
+            "Value": 4.7648356E-09,
+            "ArriveTangent": 5.0000005,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 5.0000005,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Cubic",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 0.2,
+            "Value": 1.0000001,
+            "ArriveTangent": -1.875,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": -1.875,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Cubic",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 0.4,
+            "Value": -0.75,
+            "ArriveTangent": -1.2500002,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": -1.2500002,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Cubic",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 0.6,
+            "Value": 0.5,
+            "ArriveTangent": 1.25,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 1.25,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Cubic",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 0.8,
+            "Value": -0.25,
+            "ArriveTangent": -1.2500001,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": -1.2500001,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Cubic",
+            "TangentMode": "RCTM_User",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 1.0,
+            "Value": 4.7648356E-09,
+            "ArriveTangent": 1.7095105E-07,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 1.7095105E-07,
+            "LeaveTangentWeight": 0.0
+          }
+        ]
+      }
+    }
+  }
+]

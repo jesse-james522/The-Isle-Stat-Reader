@@ -1,0 +1,78 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GA_HallucinationSpawn_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'TIGameplayAbilityHallucination'",
+      "ObjectPath": "/Script/TheIsle"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GA_HallucinationSpawn_C'Default__GA_HallucinationSpawn_C'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/GA_HallucinationSpawn.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "GA_HallucinationSpawn_C",
+    "Name": "Default__GA_HallucinationSpawn_C",
+    "Class": "BlueprintGeneratedClass'/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/GA_HallucinationSpawn.GA_HallucinationSpawn_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AbilityTags": [
+        "Ability.Skill.SecondaryAttack"
+      ],
+      "CooldownGameplayEffectClass": {
+        "ObjectName": "BlueprintGeneratedClass'GE_HallucinationCooldown_C'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Effects/GE_HallucinationCooldown.0"
+      },
+      "CancelAbilitiesWithTag": [
+        "Ability.Skill.Use",
+        "Ability.Skill.Vocalize",
+        "Ability.Skill.VoiceBroadcast",
+        "Ability.Skill.VoiceFriendly",
+        "Ability.Skill.VoiceHelp",
+        "Ability.Skill.VoiceThreaten"
+      ],
+      "BlockAbilitiesWithTag": [
+        "Ability.Skill.Rest",
+        "Ability.Skill.Scent",
+        "Ability.Skill.SecondaryAttack",
+        "Ability.Skill.Use",
+        "Ability.Skill.Vocalize",
+        "Ability.Skill.VoiceBroadcast",
+        "Ability.Skill.VoiceFriendly",
+        "Ability.Skill.VoiceHelp",
+        "Ability.Skill.VoiceThreaten"
+      ],
+      "ActivationOwnedTags": [
+        "Ability.Skill.SecondaryAttack"
+      ],
+      "ActivationBlockedTags": [
+        "State.Dead",
+        "Ability.Skill.Use",
+        "Ability.Skill.Nest",
+        "Ability.Skill.Rest",
+        "Ability.Skill.Wallow",
+        "State.Pounced",
+        "State.PickedUp",
+        "State.UIBlockAbilities",
+        "State.Lunged",
+        "State.BlockAbilities"
+      ],
+      "TargetBlockedTags": [
+        "State.Dead"
+      ]
+    }
+  }
+]

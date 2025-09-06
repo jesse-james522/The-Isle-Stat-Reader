@@ -1,0 +1,48 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GA_Nest_Debris_Hypsilophodon_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'GA_Nest_Debris_Small_H_C'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/GA_Nest_Debris_Small_H.0"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GA_Nest_Debris_Hypsilophodon_C'Default__GA_Nest_Debris_Hypsilophodon_C'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/GA_Nest_Debris_Hypsilophodon.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "GA_Nest_Debris_Hypsilophodon_C",
+    "Name": "Default__GA_Nest_Debris_Hypsilophodon_C",
+    "Class": "BlueprintGeneratedClass'/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/GA_Nest_Debris_Hypsilophodon.GA_Nest_Debris_Hypsilophodon_C'",
+    "Template": {
+      "ObjectName": "GA_Nest_Debris_Small_H_C'Default__GA_Nest_Debris_Small_H_C'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/GA_Nest_Debris_Small_H.1"
+    },
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Radius": 120.0,
+      "MaximumVerticalTolerance": 0.0,
+      "NestClass": {
+        "AssetPathName": "/Game/TheIsle/Core/Placeables/Dinosaur/BP_Nest_Debris_Small_H_Hypsilophodon.BP_Nest_Debris_Small_H_Hypsilophodon_C",
+        "SubPathString": ""
+      },
+      "NestImage": {
+        "ObjectName": "Texture2D'T_Nest_Hypsi'",
+        "ObjectPath": "/Game/TheIsle_Old/UI/Menu/NestMenu/T_Nest_Hypsi.0"
+      }
+    }
+  }
+]

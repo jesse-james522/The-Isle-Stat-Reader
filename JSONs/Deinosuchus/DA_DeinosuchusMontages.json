@@ -1,0 +1,1673 @@
+[
+  {
+    "Type": "TIDinosaurMontages",
+    "Name": "DA_DeinosuchusMontages",
+    "Class": "UScriptClass'TIDinosaurMontages'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Vocals": {
+        "Generic": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Hatchling_Vocal_Generic'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Hatchling_Vocal_Generic.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Hatchling_Vocal_Generic'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Hatchling_Vocal_Generic.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_Vocal_Generic'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_Vocal_Generic.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_Vocal_Generic'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_Vocal_Generic.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_Vocal_Generic'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_Vocal_Generic.0"
+          }
+        },
+        "Broadcast": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Hatchling_Vocal_Broadcast'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Hatchling_Vocal_Broadcast.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Hatchling_Vocal_Broadcast'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Hatchling_Vocal_Broadcast.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_Vocal_Broadcast'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_Vocal_Broadcast.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_Vocal_Broadcast'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_Vocal_Broadcast.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_Vocal_Broadcast'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_Vocal_Broadcast.0"
+          }
+        },
+        "Attract": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Hatchling_Vocal_Attract'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Hatchling_Vocal_Attract.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Hatchling_Vocal_Attract'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Hatchling_Vocal_Attract.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_Vocal_Attract'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_Vocal_Attract.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_Vocal_Attract'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_Vocal_Attract.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_Vocal_Attract'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_Vocal_Attract.0"
+          }
+        },
+        "Threaten": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Hatchling_Vocal_Threaten'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Hatchling_Vocal_Threaten.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Hatchling_Vocal_Threaten'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Hatchling_Vocal_Threaten.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_Vocal_Threaten'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_Vocal_Threaten.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_Vocal_Threaten'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_Vocal_Threaten.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_Vocal_Threaten'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_Vocal_Threaten.0"
+          }
+        },
+        "Danger": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Hatchling_Vocal_Danger'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Hatchling_Vocal_Danger.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Hatchling_Vocal_Danger'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Hatchling_Vocal_Danger.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_Vocal_Danger'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_Vocal_Danger.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_Vocal_Danger'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_Vocal_Danger.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_Vocal_Danger'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_Vocal_Danger.0"
+          }
+        }
+      },
+      "Eat": {
+        "EatIn": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_EatLoop'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_EatLoop.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_EatLoop'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_EatLoop.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_EatLoop'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_EatLoop.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_EatLoop'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_EatLoop.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_EatLoop'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_EatLoop.0"
+          }
+        },
+        "EatEnd": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_EatOut'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_EatOut.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_EatOut'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_EatOut.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_EatOut'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_EatOut.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_EatOut'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_EatOut.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_EatOut'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_EatOut.0"
+          }
+        },
+        "Swallow": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_Swallow'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_Swallow.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_Swallow'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_Swallow.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_Swallow'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_Swallow.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_Swallow'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_Swallow.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_Swallow'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_Swallow.0"
+          }
+        },
+        "Vomit": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_Vomit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_Vomit.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_Vomit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_Vomit.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_Vomit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_Vomit.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_Vomit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_Vomit.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_Vomit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_Vomit.0"
+          }
+        }
+      },
+      "Drink": {
+        "Hatchling": {
+          "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_DrinkIn'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_DrinkIn.0"
+        },
+        "Juvenile": {
+          "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_DrinkIn'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_DrinkIn.0"
+        },
+        "Subadult": {
+          "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_DrinkIn'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_DrinkIn.0"
+        },
+        "Adult": {
+          "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_DrinkIn'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_DrinkIn.0"
+        },
+        "Elder": {
+          "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_DrinkIn'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_DrinkIn.0"
+        }
+      },
+      "Rest": {
+        "StandToSit": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_StandtoSit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_StandtoSit.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_StandtoSit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_StandtoSit.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_StandtoSit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_StandtoSit.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_StandtoSit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_StandtoSit.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_StandtoSit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_StandtoSit.0"
+          }
+        },
+        "SitToStand": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_SittoStand'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_SittoStand.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_SittoStand'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_SittoStand.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_SittoStand'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_SittoStand.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_SittoStand'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_SittoStand.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_SittoStand'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_SittoStand.0"
+          }
+        },
+        "SitToStandFast": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_SittoStandFast'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_SittoStandFast.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_SittoStandFast'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_SittoStandFast.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_SittoStandFast'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_SittoStandFast.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_SittoStandFast'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_SittoStandFast.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_SittoStandFast'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_SittoStandFast.0"
+          }
+        },
+        "SitToSleep": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_SittoSleep'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_SittoSleep.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_SittoSleep'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_SittoSleep.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_SittoSleep'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_SittoSleep.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_SittoSleep'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_SittoSleep.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_SittoSleep'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_SittoSleep.0"
+          }
+        },
+        "SleepToSit": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_SleeptoSit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_SleeptoSit.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_SleeptoSit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_SleeptoSit.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_SleeptoSit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_SleeptoSit.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_SleeptoSit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_SleeptoSit.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_SleeptoSit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_SleeptoSit.0"
+          }
+        }
+      },
+      "PickupL": {
+        "Hatchling": {
+          "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_GrabL'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_GrabL.0"
+        },
+        "Juvenile": {
+          "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_GrabL'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_GrabL.0"
+        },
+        "Subadult": {
+          "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_Carry_GrabL'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_Carry_GrabL.0"
+        },
+        "Adult": {
+          "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_Carry_GrabL'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_Carry_GrabL.0"
+        },
+        "Elder": {
+          "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_Carry_GrabL'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_Carry_GrabL.0"
+        }
+      },
+      "PickupR": {
+        "Hatchling": {
+          "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_GrabR'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_GrabR.0"
+        },
+        "Juvenile": {
+          "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_GrabR'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_GrabR.0"
+        },
+        "Subadult": {
+          "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_Carry_GrabR'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_Carry_GrabR.0"
+        },
+        "Adult": {
+          "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_Carry_GrabR'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_Carry_GrabR.0"
+        },
+        "Elder": {
+          "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_Carry_GrabR'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_Carry_GrabR.0"
+        }
+      },
+      "Bite": {
+        "Hatchling": {
+          "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_AttackR'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_AttackR.0"
+        },
+        "Juvenile": {
+          "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_AttackR'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_AttackR.0"
+        },
+        "Subadult": {
+          "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_AttackR'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_AttackR.0"
+        },
+        "Adult": {
+          "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_AttackR'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_AttackR.0"
+        },
+        "Elder": {
+          "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_AttackR'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_AttackR.0"
+        }
+      },
+      "Court": {
+        "Male": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_CourtM'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_CourtM.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_CourtM'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_CourtM.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_CourtM'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_CourtM.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_CourtM'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_CourtM.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_CourtM'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_CourtM.0"
+          }
+        },
+        "Female": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_CourtF'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_CourtF.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_CourtF'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_CourtF.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_CourtF'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_CourtF.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_CourtF'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_CourtF.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_CourtF'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_CourtF.0"
+          }
+        }
+      },
+      "Nest": {
+        "Build": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_Nest_Manage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_Nest_Manage.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_Nest_Manage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_Nest_Manage.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_Nest_Manage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_Nest_Manage.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_Nest_Manage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_Nest_Manage.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_Nest_Manage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_Nest_Manage.0"
+          }
+        },
+        "Manage1": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_Nest_Manage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_Nest_Manage.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_Nest_Manage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_Nest_Manage.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_Nest_Manage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_Nest_Manage.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_Nest_Manage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_Nest_Manage.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_Nest_Manage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_Nest_Manage.0"
+          }
+        },
+        "Manage2": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_Nest_Manage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_Nest_Manage.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_Nest_Manage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_Nest_Manage.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_Nest_Manage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_Nest_Manage.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_Nest_Manage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_Nest_Manage.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_Nest_Manage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_Nest_Manage.0"
+          }
+        },
+        "Manage3": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_Nest_Manage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_Nest_Manage.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_Nest_Manage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_Nest_Manage.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_Nest_Manage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_Nest_Manage.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_Nest_Manage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_Nest_Manage.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_Nest_Manage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_Nest_Manage.0"
+          }
+        }
+      },
+      "Hit": {
+        "Light": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_RecoilL'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/Am_Deinosuchus_Juvenile_RecoilL.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_RecoilL'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/Am_Deinosuchus_Juvenile_RecoilL.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_RecoilL'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_RecoilL.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_RecoilL'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_RecoilL.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_RecoilL'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_RecoilL.0"
+          }
+        },
+        "Heavy": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_RecoilH'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_RecoilH.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_RecoilH'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_RecoilH.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_RecoilH'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_RecoilH.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_RecoilH'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_RecoilH.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_RecoilH'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_RecoilH.0"
+          }
+        },
+        "StaggerF": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_StaggerR'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_StaggerR.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_StaggerR'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_StaggerR.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_StaggerR'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_StaggerR.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_StaggerR'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_StaggerR.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_StaggerR'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_StaggerR.0"
+          }
+        },
+        "StaggerB": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_StaggerL'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_StaggerL.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_StaggerL'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_StaggerL.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_StaggerL'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_StaggerL.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_StaggerL'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_StaggerL.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_StaggerL'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_StaggerL.0"
+          }
+        },
+        "StaggerR": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_StaggerR'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_StaggerR.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_StaggerR'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_StaggerR.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_StaggerR'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_StaggerR.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_StaggerR'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_StaggerR.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_StaggerR'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_StaggerR.0"
+          }
+        },
+        "StaggerL": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_StaggerL'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_StaggerL.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_StaggerL'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_StaggerL.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_StaggerL'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_StaggerL.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_StaggerL'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_StaggerL.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_StaggerL'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_StaggerL.0"
+          }
+        }
+      },
+      "Interact": {
+        "Dig": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_Nest_ManageAlt'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_Nest_ManageAlt.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_Nest_ManageAlt'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_Nest_ManageAlt.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_Nest_ManageAlt'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_Nest_ManageAlt.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_Nest_ManageAlt'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_Nest_ManageAlt.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_Nest_ManageAlt'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_Nest_ManageAlt.0"
+          }
+        },
+        "OpenCorpse": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_OpenBody'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_OpenBody.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_OpenBody'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_OpenBody.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_OpenBody'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_OpenBody.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_OpenBody'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_OpenBody.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_OpenBody'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_OpenBody.0"
+          }
+        }
+      },
+      "Blinded": {
+        "Hatchling": {
+          "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_Blind'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_Blind.0"
+        },
+        "Juvenile": {
+          "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_Blind'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_Blind.0"
+        },
+        "Subadult": {
+          "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_Blind'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_Blind.0"
+        },
+        "Adult": {
+          "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_Blind'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_Blind.0"
+        },
+        "Elder": {
+          "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_Blind'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_Blind.0"
+        }
+      },
+      "PouncedStruggle": {
+        "Hatchling": {
+          "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_Pinned_Loop'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_Pinned_Loop.0"
+        },
+        "Juvenile": {
+          "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_Pinned_Loop'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_Pinned_Loop.0"
+        },
+        "Subadult": {
+          "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_Pinned_Loop'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_Pinned_Loop.0"
+        },
+        "Adult": {
+          "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_Pinned_Loop'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_Pinned_Loop.0"
+        },
+        "Elder": {
+          "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_Pinned_Loop'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_Pinned_Loop.0"
+        }
+      },
+      "PouncedStruggleMoving": {
+        "Hatchling": {
+          "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_Pinned_Loop'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_Pinned_Loop.0"
+        },
+        "Juvenile": {
+          "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_Pinned_Loop'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_Pinned_Loop.0"
+        },
+        "Subadult": {
+          "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_Pinned_Loop'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_Pinned_Loop.0"
+        },
+        "Adult": {
+          "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_Pinned_Loop'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_Pinned_Loop.0"
+        },
+        "Elder": {
+          "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_Pinned_Loop'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_Pinned_Loop.0"
+        }
+      },
+      "Unique": [
+        {
+          "Key": "LungeStart",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_Lunge_Shore'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_Lunge_Shore.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_Lunge_Shore'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_Lunge_Shore.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_Lunge_Shore'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_Lunge_Shore.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_Lunge_Shore'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_Lunge_Shore.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_Lunge_Shore'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_Lunge_Shore.0"
+            }
+          }
+        },
+        {
+          "Key": "AdultPouncedRight",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_RecoilH'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_RecoilH.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_RecoilH'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_RecoilH.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_RecoilH'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_RecoilH.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_RecoilH'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_RecoilH.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_RecoilH'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_RecoilH.0"
+            }
+          }
+        },
+        {
+          "Key": "AdultPouncedLeft",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_RecoilH'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_RecoilH.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_RecoilH'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_RecoilH.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_RecoilH'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_RecoilH.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_RecoilH'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_RecoilH.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_RecoilH'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_RecoilH.0"
+            }
+          }
+        },
+        {
+          "Key": "AdultPouncedFront",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_RecoilH'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_RecoilH.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_RecoilH'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_RecoilH.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_RecoilH'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_RecoilH.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_RecoilH'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_RecoilH.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_RecoilH'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_RecoilH.0"
+            }
+          }
+        },
+        {
+          "Key": "AdultPouncedBack",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_RecoilH'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_RecoilH.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_RecoilH'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_RecoilH.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_RecoilH'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_RecoilH.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_RecoilH'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_RecoilH.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_RecoilH'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_RecoilH.0"
+            }
+          }
+        },
+        {
+          "Key": "LungeStartUnderwater",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_Lunge_Water'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_Lunge_Water.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_Lunge_Water'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_Lunge_Water.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_Lunge_Water'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_Lunge_Water.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_Lunge_Water'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_Lunge_Water.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_Lunge_Water'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_Lunge_Water.0"
+            }
+          }
+        },
+        {
+          "Key": "EatLoopSwimming",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_EatLoopSwim'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_EatLoopSwim.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_EatLoopSwim'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_EatLoopSwim.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_EatLoopSwim'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_EatLoopSwim.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_EatLoopSwim'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_EatLoopSwim.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_EatLoopSwim'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_EatLoopSwim.0"
+            }
+          }
+        },
+        {
+          "Key": "EatOutSwimming",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_EatOut_Swim'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_EatOut_Swim.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_EatOut_Swim'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_EatOut_Swim.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_EatOut_Swim'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_EatOut_Swim.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_EatOut_Swim'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_EatOut_Swim.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_EatOut_Swim'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_EatOut_Swim.0"
+            }
+          }
+        },
+        {
+          "Key": "EatLoopWater",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_EatLoopWater'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_EatLoopWater.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_EatLoopWater'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_EatLoopWater.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_EatLoopWater'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_EatLoopWater.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_EatLoopWater'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_EatLoopWater.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_EatLoopWater'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_EatLoopWater.0"
+            }
+          }
+        },
+        {
+          "Key": "EatOutWater",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_EatOut_Water'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_EatOut_Water.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_EatOut_Water'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_EatOut_Water.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_EatOut_Water'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_EatOut_Water.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_EatOut_Water'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_EatOut_Water.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_EatOut_Water'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_EatOut_Water.0"
+            }
+          }
+        },
+        {
+          "Key": "LungeShake",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_Lunge_Shake'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_Lunge_Shake.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_Lunge_Shake'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_Lunge_Shake.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_Lunge_Shake'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_Lunge_Shake.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_Lunge_Shake'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_Lunge_Shake.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_Lunge_Shake'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_Lunge_Shake.0"
+            }
+          }
+        },
+        {
+          "Key": "BroadcastSwim",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_Vocal_Broadcast_Swim'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_Vocal_Broadcast_Swim.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_Vocal_Broadcast_Swim'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_Vocal_Broadcast_Swim.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_Vocal_Broadcast_Swim'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_Vocal_Broadcast_Swim.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_Vocal_Broadcast_Swim'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_Vocal_Broadcast_Swim.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_Vocal_Broadcast_Swim'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_Vocal_Broadcast_Swim.0"
+            }
+          }
+        },
+        {
+          "Key": "BroadcastWater",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_Vocal_Broadcast_Water'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_Vocal_Broadcast_Water.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_Vocal_Broadcast_Water'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_Vocal_Broadcast_Water.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_Vocal_Broadcast_Water'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_Vocal_Broadcast_Water.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_Vocal_Broadcast_Water'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_Vocal_Broadcast_Water.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_Vocal_Broadcast_Water'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_Vocal_Broadcast_Water.0"
+            }
+          }
+        },
+        {
+          "Key": "LungeShakeSwimming",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_Swim_Lunge_Shake'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_Swim_Lunge_Shake.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_Swim_Lunge_Shake'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_Swim_Lunge_Shake.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_Swim_Lunge_Shake'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_Swim_Lunge_Shake.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_Swim_Lunge_Shake'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_Swim_Lunge_Shake.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_Swim_Lunge_Shake'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_Swim_Lunge_Shake.0"
+            }
+          }
+        },
+        {
+          "Key": "CorpseShake",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_ThrashR'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_ThrashR.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_ThrashR'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_ThrashR.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_ThrashR'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_ThrashR.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_ThrashR'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_ThrashR.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_ThrashR'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_ThrashR.0"
+            }
+          }
+        },
+        {
+          "Key": "CorpseShakeWater",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_ThrashL'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_ThrashL.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_ThrashL'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_ThrashL.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_ThrashL'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_ThrashL.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_ThrashL'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_ThrashL.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_ThrashL'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_ThrashL.0"
+            }
+          }
+        },
+        {
+          "Key": "Gastrolith",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_GrabR_Gastrolith'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_GrabR_Gastrolith.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_GrabR_Gastrolith'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_GrabR_Gastrolith.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_Carry_GrabR_Gastrolith'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_Carry_GrabR_Gastrolith.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_Carry_GrabR_Gastrolith'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_Carry_GrabR_Gastrolith.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_Carry_GrabR_Gastrolith'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_Carry_GrabR_Gastrolith.0"
+            }
+          }
+        }
+      ],
+      "UniqueDirectional": [
+        {
+          "Key": "Bite",
+          "Value": {
+            "LF": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_AttackBite_F'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_AttackBite_F.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_AttackBite_F'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_AttackBite_F.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_AttackBite_F'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_AttackBite_F.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_AttackBite_F'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_AttackBite_F.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_AttackBite_F'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_AttackBite_F.0"
+              }
+            },
+            "L45": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_AttackBite_L45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_AttackBite_L45.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_AttackBite_L45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_AttackBite_L45.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_AttackBite_L45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_AttackBite_L45.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_AttackBite_L45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_AttackBite_L45.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_AttackBite_L45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_AttackBite_L45.0"
+              }
+            },
+            "L90": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_AttackBite_L90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_AttackBite_L90.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_AttackBite_L90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_AttackBite_L90.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_AttackBite_L90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_AttackBite_L90.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_AttackBite_L90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_AttackBite_L90.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_AttackBite_L90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_AttackBite_L90.0"
+              }
+            },
+            "L135": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_AttackBite_L135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_AttackBite_L135.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_AttackBite_L135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_AttackBite_L135.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_AttackBite_L135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_AttackBite_L135.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_AttackBite_L135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_AttackBite_L135.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_AttackBite_L135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_AttackBite_L135.0"
+              }
+            },
+            "L180": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_AttackBite_L180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_AttackBite_L180.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_AttackBite_L180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_AttackBite_L180.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_AttackBite_L180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_AttackBite_L180.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_AttackBite_L180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_AttackBite_L180.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_AttackBite_L180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_AttackBite_L180.0"
+              }
+            },
+            "RF": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_AttackBite_F'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_AttackBite_F.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_AttackBite_F'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_AttackBite_F.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_AttackBite_F'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_AttackBite_F.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_AttackBite_F'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_AttackBite_F.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_AttackBite_F'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_AttackBite_F.0"
+              }
+            },
+            "R45": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_AttackBite_R45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_AttackBite_R45.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_AttackBite_R45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_AttackBite_R45.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_AttackBite_R45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_AttackBite_R45.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_AttackBite_R45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_AttackBite_R45.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_AttackBite_R45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_AttackBite_R45.0"
+              }
+            },
+            "R90": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_AttackBite_R90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_AttackBite_R90.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_AttackBite_R90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_AttackBite_R90.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_AttackBite_R90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_AttackBite_R90.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_AttackBite_R90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_AttackBite_R90.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_AttackBite_R90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_AttackBite_R90.0"
+              }
+            },
+            "R135": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_AttackBite_R135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_AttackBite_R135.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_AttackBite_R135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_AttackBite_R135.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_AttackBite_R135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_AttackBite_R135.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_AttackBite_R135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_AttackBite_R135.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_AttackBite_R135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_AttackBite_R135.0"
+              }
+            },
+            "R180": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_AttackBite_R180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_AttackBite_R180.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_AttackBite_R180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_AttackBite_R180.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_AttackBite_R180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_AttackBite_R180.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_AttackBite_R180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_AttackBite_R180.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_AttackBite_R180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_AttackBite_R180.0"
+              }
+            }
+          }
+        },
+        {
+          "Key": "WaterBite",
+          "Value": {
+            "LF": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_WaterAttackBite_F'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_WaterAttackBite_F.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_WaterAttackBite_F'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_WaterAttackBite_F.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_WaterAttackBite_F'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_WaterAttackBite_F.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_WaterAttackBite_F'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_WaterAttackBite_F.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_WaterAttackBite_F'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_WaterAttackBite_F.0"
+              }
+            },
+            "L45": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_WaterAttackBite_L45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_WaterAttackBite_L45.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_WaterAttackBite_L45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_WaterAttackBite_L45.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_WaterAttackBite_L45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_WaterAttackBite_L45.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_WaterAttackBite_L45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_WaterAttackBite_L45.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_WaterAttackBite_L45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_WaterAttackBite_L45.0"
+              }
+            },
+            "L90": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_WaterAttackBite_L90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_WaterAttackBite_L90.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_WaterAttackBite_L90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_WaterAttackBite_L90.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_WaterAttackBite_L90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_WaterAttackBite_L90.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_WaterAttackBite_L90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_WaterAttackBite_L90.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_WaterAttackBite_L90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_WaterAttackBite_L90.0"
+              }
+            },
+            "L135": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_WaterAttackBite_L135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_WaterAttackBite_L135.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_WaterAttackBite_L135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_WaterAttackBite_L135.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_WaterAttackBite_L135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_WaterAttackBite_L135.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_WaterAttackBite_L135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_WaterAttackBite_L135.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_WaterAttackBite_L135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_WaterAttackBite_L135.0"
+              }
+            },
+            "L180": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_WaterAttackBite_L180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_WaterAttackBite_L180.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_WaterAttackBite_L180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_WaterAttackBite_L180.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_WaterAttackBite_L180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_WaterAttackBite_L180.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_WaterAttackBite_L180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_WaterAttackBite_L180.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_WaterAttackBite_L180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_WaterAttackBite_L180.0"
+              }
+            },
+            "RF": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_WaterAttackBite_F'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_WaterAttackBite_F.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_WaterAttackBite_F'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_WaterAttackBite_F.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_WaterAttackBite_F'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_WaterAttackBite_F.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_WaterAttackBite_F'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_WaterAttackBite_F.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_WaterAttackBite_F'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_WaterAttackBite_F.0"
+              }
+            },
+            "R45": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_WaterAttackBite_R45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_WaterAttackBite_R45.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_WaterAttackBite_R45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_WaterAttackBite_R45.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_WaterAttackBite_R45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_WaterAttackBite_R45.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_WaterAttackBite_R45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_WaterAttackBite_R45.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_WaterAttackBite_R45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_WaterAttackBite_R45.0"
+              }
+            },
+            "R90": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_WaterAttackBite_R90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_WaterAttackBite_R90.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_WaterAttackBite_R90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_WaterAttackBite_R90.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_WaterAttackBite_R90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_WaterAttackBite_R90.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_WaterAttackBite_R90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_WaterAttackBite_R90.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_WaterAttackBite_R90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_WaterAttackBite_R90.0"
+              }
+            },
+            "R135": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_WaterAttackBite_R135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_WaterAttackBite_R135.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_WaterAttackBite_R135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_WaterAttackBite_R135.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_WaterAttackBite_R135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_WaterAttackBite_R135.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_WaterAttackBite_R135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_WaterAttackBite_R135.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_WaterAttackBite_R135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_WaterAttackBite_R135.0"
+              }
+            },
+            "R180": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_WaterAttackBite_R180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_WaterAttackBite_R180.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_WaterAttackBite_R180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_WaterAttackBite_R180.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_WaterAttackBite_R180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_WaterAttackBite_R180.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_WaterAttackBite_R180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_WaterAttackBite_R180.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_WaterAttackBite_R180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_WaterAttackBite_R180.0"
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+]

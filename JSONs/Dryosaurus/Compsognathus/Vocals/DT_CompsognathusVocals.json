@@ -1,0 +1,240 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_CompsognathusVocals",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'Vocals'",
+        "ObjectPath": "/Script/TheIsle"
+      }
+    },
+    "Rows": {
+      "Generic": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Compsognathus_Call_Generic'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Compsognathus/Sound/CU_Compsognathus_Call_Generic.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Broadcast": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Compsognathus_Call_Broadcast'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Compsognathus/Sound/CU_Compsognathus_Call_Broadcast.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Attract": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Compsognathus_Call_Attract'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Compsognathus/Sound/CU_Compsognathus_Call_Attract.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Threaten": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Compsognathus_Call_Threaten'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Compsognathus/Sound/CU_Compsognathus_Call_Threaten.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Danger": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Compsognathus_Call_Danger'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Compsognathus/Sound/CU_Compsognathus_Call_Danger.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "RegularPain": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Compsognathus_Pain'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Compsognathus/Sound/CU_Compsognathus_Pain.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "ExtremePain": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Compsognathus_Pain'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Compsognathus/Sound/CU_Compsognathus_Pain.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Death": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Compsognathus_Pain'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Compsognathus/Sound/CU_Compsognathus_Pain.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Aggro": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Compsognathus_Aggro'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Compsognathus/Sound/CU_Compsognathus_Aggro.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Chatter": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Compsognathus_Chatter'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Compsognathus/Sound/CU_Compsognathus_Chatter.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "ChirpAggro": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Compsognathus_Chirp_Aggressive'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Compsognathus/Sound/CU_Compsognathus_Chirp_Aggressive.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "ChirpLong": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Compsognathus_Chirp_Long'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Compsognathus/Sound/CU_Compsognathus_Chirp_Long.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "ChirpSingle": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Compsognathus_Chirp_Single'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Compsognathus/Sound/CU_Compsognathus_Chirp_Single.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Chitter": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Compsognathus_Chitter'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Compsognathus/Sound/CU_Compsognathus_Chitter.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Coo": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Compsognathus_Coo'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Compsognathus/Sound/CU_Compsognathus_Coo.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Croak": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Compsognathus_Croak'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Compsognathus/Sound/CU_Compsognathus_Croak.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Cry": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Compsognathus_Cry'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Compsognathus/Sound/CU_Compsognathus_Cry.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Eat": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Compsognathus_Eat'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Compsognathus/Sound/CU_Compsognathus_Eat.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Hiss": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Compsognathus_Hiss'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Compsognathus/Sound/CU_Compsognathus_Hiss.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Screech": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Compsognathus_Screech'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Compsognathus/Sound/CU_Compsognathus_Screech.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Skitter": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Compsognathus_Skitter'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Compsognathus/Sound/CU_Compsognathus_Skitter.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Snarl": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Compsognathus_Snarl'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Compsognathus/Sound/CU_Compsognathus_Snarl.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Squawk": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Compsognathus_Squawk'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Compsognathus/Sound/CU_Compsognathus_Squawk.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Squeak": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Compsognathus_Squeak'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Compsognathus/Sound/CU_Compsognathus_Squeak.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Trill": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Compsognathus_Trill'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Compsognathus/Sound/CU_Compsognathus_Trill.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Whine": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Compsognathus_Whine'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Compsognathus/Sound/CU_Compsognathus_Whine.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Yelp": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Compsognathus_Yelp'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Compsognathus/Sound/CU_Compsognathus_Yelp.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Bite": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Compsognathus_Bite'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Compsognathus/Sound/CU_Compsognathus_Bite.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      }
+    }
+  }
+]

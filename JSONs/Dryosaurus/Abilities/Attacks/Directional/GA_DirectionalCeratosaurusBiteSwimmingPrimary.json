@@ -1,0 +1,45 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GA_DirectionalCeratosaurusBiteSwimmingPrimary_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'GA_DirectionalCeratosaurusBiteSwimming_C'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Attacks/Directional/GA_DirectionalCeratosaurusBiteSwimming.0"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GA_DirectionalCeratosaurusBiteSwimmingPrimary_C'Default__GA_DirectionalCeratosaurusBiteSwimmingPrimary_C'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Attacks/Directional/GA_DirectionalCeratosaurusBiteSwimmingPrimary.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "GA_DirectionalCeratosaurusBiteSwimmingPrimary_C",
+    "Name": "Default__GA_DirectionalCeratosaurusBiteSwimmingPrimary_C",
+    "Class": "BlueprintGeneratedClass'/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Attacks/Directional/GA_DirectionalCeratosaurusBiteSwimmingPrimary.GA_DirectionalCeratosaurusBiteSwimmingPrimary_C'",
+    "Template": {
+      "ObjectName": "GA_DirectionalCeratosaurusBiteSwimming_C'Default__GA_DirectionalCeratosaurusBiteSwimming_C'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Attacks/Directional/GA_DirectionalCeratosaurusBiteSwimming.1"
+    },
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "bPrimaryAbility": true,
+      "TraceTimesF": [
+        0.3
+      ],
+      "TraceTimes45": [
+        0.3
+      ]
+    }
+  }
+]

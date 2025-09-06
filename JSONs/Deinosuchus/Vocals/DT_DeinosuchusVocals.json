@@ -1,0 +1,232 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_DeinosuchusVocals",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'Vocals'",
+        "ObjectPath": "/Script/TheIsle"
+      }
+    },
+    "Rows": {
+      "Generic": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Deinosuchus_Call_Generic'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Sound/MS_Deinosuchus_Call_Generic.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Broadcast": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Deinosuchus_Call_Broadcast'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Sound/MS_Deinosuchus_Call_Broadcast.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "BroadcastWater": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Deinosuchus_Call_Broadcast_Swim'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Sound/MS_Deinosuchus_Call_Broadcast_Swim.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Attract": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Deinosuchus_Call_Attract'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Sound/MS_Deinosuchus_Call_Attract.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Threaten": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Deinosuchus_Call_Threaten'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Sound/MS_Deinosuchus_Call_Threaten.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Danger": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Deinosuchus_Call_Danger'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Sound/MS_Deinosuchus_Call_Danger.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "RegularPain": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Deino_Pain_Dynamic'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Sound/CU_Deino_Pain_Dynamic.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "ExtremePain": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Deino_ExtremePain'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Sound/CU_Deino_ExtremePain.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Death": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Deino_Pain_Dynamic'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Sound/CU_Deino_Pain_Dynamic.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Bite": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Deinosuchus_Bite'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Sound/MS_Deinosuchus_Bite.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Growl": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Deino_Growl'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Sound/CU_Deino_Growl.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Idle": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Deino_Idle'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Sound/CU_Deino_Idle.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "IdleWater": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Deino_Idle_Water'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Sound/CU_Deino_Idle_Water.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Jaw": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Deino_Jaw'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Sound/CU_Deino_Jaw.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Snap": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Deino_Jaw_Snap'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Sound/CU_Deino_Jaw_Snap.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Eat": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Deino_Eat'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Sound/CU_Deino_Eat.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Lunge": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Deinosuchus_Lunge'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Sound/MS_Deinosuchus_Lunge.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Hiss": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Deino_Hiss'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Sound/CU_Deino_Hiss.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "HissLong": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Deino_Hiss_Long'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Sound/CU_Deino_Hiss_Long.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Breath": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Deino_Breath'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Sound/CU_Deino_Breath.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "ExhaleWater": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Deino_Exhale_Water'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Sound/CU_Deino_Exhale_Water.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "InhaleWater": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Deino_Water_Inhale'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Sound/CU_Deino_Water_Inhale.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "UnderwaterGrowl": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Deino_Underwater_Growl'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Sound/CU_Deino_Underwater_Growl.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "TailDrag": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Deino_TailDrag'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Sound/CU_Deino_TailDrag.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "HeadInjury": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Deino_HeadInjury'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Sound/CU_Deino_HeadInjury.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "CourtshipMale": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Deino_Courtship_Male'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Sound/CU_Deino_Courtship_Male.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "CourtshipFemale": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Deino_Courtship_Female'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Sound/CU_Deino_Courtship_Female.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      }
+    }
+  }
+]

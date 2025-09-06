@@ -1,0 +1,130 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GA_PickupBaseGalli_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'TIGameplayAbilityPickUp'",
+      "ObjectPath": "/Script/TheIsle"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GA_PickupBaseGalli_C'Default__GA_PickupBaseGalli_C'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/PickUp/GA_PickupBaseGalli.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "GA_PickupBaseGalli_C",
+    "Name": "Default__GA_PickupBaseGalli_C",
+    "Class": "BlueprintGeneratedClass'/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/PickUp/GA_PickupBaseGalli.GA_PickupBaseGalli_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "GoreClassToSpawn": {
+        "ObjectName": "BlueprintGeneratedClass'BP_PieceOfMeat_C'",
+        "ObjectPath": "/Game/TheIsle/Core/PickablePieces/BP_PieceOfMeat.0"
+      },
+      "IntestineClassToSpawn": {
+        "ObjectName": "BlueprintGeneratedClass'BP_GoreIntestines_C'",
+        "ObjectPath": "/Game/TheIsle/Core/PickablePieces/BP_GoreIntestines.0"
+      },
+      "HeartClassToSpawn": {
+        "ObjectName": "BlueprintGeneratedClass'BP_GoreHeart_C'",
+        "ObjectPath": "/Game/TheIsle/Core/PickablePieces/BP_GoreHeart.0"
+      },
+      "LungeLClassToSpawn": {
+        "ObjectName": "BlueprintGeneratedClass'BP_GoreLungeLeft_C'",
+        "ObjectPath": "/Game/TheIsle/Core/PickablePieces/BP_GoreLungeLeft.0"
+      },
+      "LungeRClassToSpawn": {
+        "ObjectName": "BlueprintGeneratedClass'BP_GoreLungeRight_C'",
+        "ObjectPath": "/Game/TheIsle/Core/PickablePieces/BP_GoreLungeRight.0"
+      },
+      "StomachClassToSpawn": {
+        "ObjectName": "BlueprintGeneratedClass'BP_GoreStomach_C'",
+        "ObjectPath": "/Game/TheIsle/Core/PickablePieces/BP_GoreStomach.0"
+      },
+      "PlayJuvAnimGameplayEffect": {
+        "ObjectName": "BlueprintGeneratedClass'GE_PlayJuvAnim_C'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Effects/GE_PlayJuvAnim.0"
+      },
+      "CarryGameplayEffectImpale": {
+        "ObjectName": "BlueprintGeneratedClass'GE_ExecutePickedHornsImpale_C'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Effects/GE_ExecutePickedHornsImpale.0"
+      },
+      "HandleDeadGameplayEffect": {
+        "ObjectName": "BlueprintGeneratedClass'GE_ExecuteHandleDead_C'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Effects/GE_ExecuteHandleDead.0"
+      },
+      "HandleDeadWaterGameplayEffect": {
+        "ObjectName": "BlueprintGeneratedClass'GE_ExecuteHandleDeadOnWater_C'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Effects/GE_ExecuteHandleDeadOnWater.0"
+      },
+      "ReduceFoodValueGameplayEffect": {
+        "ObjectName": "BlueprintGeneratedClass'GE_ReduceFoodValue_C'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Effects/GE_ReduceFoodValue.0"
+      },
+      "AbilityTags": [
+        "Ability.Skill.PickUp"
+      ],
+      "CooldownGameplayEffectClass": {
+        "ObjectName": "BlueprintGeneratedClass'GE_PickupCooldown_C'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Effects/GE_PickupCooldown.0"
+      },
+      "CancelAbilitiesWithTag": [
+        "Ability.Skill.VoiceBroadcast",
+        "Ability.Skill.VoiceFriendly",
+        "Ability.Skill.VoiceHelp",
+        "Ability.Skill.VoiceThreaten",
+        "Ability.Skill.PrimaryAttack",
+        "Ability.Skill.PickUp.Impale",
+        "Ability.Skill.PickUp.External",
+        "Ability.Skill.PickUp.SchoolFish",
+        "Ability.Skill.SecondaryAttack.DeinoLunge",
+        "Ability.Skill.Use"
+      ],
+      "BlockAbilitiesWithTag": [
+        "Ability.Skill.Rest",
+        "Ability.Skill.SecondaryAttackStationary",
+        "Ability.Skill.SecondaryAttack.UtahPounce",
+        "Ability.Skill.Nest",
+        "Ability.Skill.Wallow",
+        "Ability.Skill.SecondaryAttack.DeinoLunge"
+      ],
+      "ActivationOwnedTags": [
+        "Ability.Skill.PickUp"
+      ],
+      "ActivationBlockedTags": [
+        "State.Dead",
+        "Ability.Skill.Scent",
+        "Ability.Skill.VoiceBroadcast",
+        "Ability.Skill.VoiceFriendly",
+        "Ability.Skill.VoiceHelp",
+        "Ability.Skill.Rest",
+        "Ability.Skill.Wallow",
+        "Ability.Skill.Nest",
+        "State.PickedUp",
+        "State.Pounced",
+        "State.PouncedLarge",
+        "State.UIBlockAbilities",
+        "Ability.Skill.SecondaryAttack.UtahPounce",
+        "Ability.Skill.SecondaryAttackStationary",
+        "GameplayCue.Active.Swallowing",
+        "Ability.Skill.PrimaryAttack",
+        "Ability.Skill.SecondaryAttack.Charge",
+        "Cooldown.Skills.Secondary",
+        "Status.Launching",
+        "State.Lunged"
+      ]
+    }
+  }
+]

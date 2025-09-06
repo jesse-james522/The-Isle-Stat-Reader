@@ -1,0 +1,91 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GA_Spear_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'TIGameplayAbilitySpear'",
+      "ObjectPath": "/Script/TheIsle"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GA_Spear_C'Default__GA_Spear_C'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/GA_Spear.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "GA_Spear_C",
+    "Name": "Default__GA_Spear_C",
+    "Class": "BlueprintGeneratedClass'/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/GA_Spear.GA_Spear_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RabbitClass": {
+        "AssetPathName": "/Game/TheIsle/Core/Characters/Animals/Rabbit/BP_Rabbit.BP_Rabbit_C",
+        "SubPathString": ""
+      },
+      "FishClass": {
+        "AssetPathName": "/Game/TheIsle/Core/Spawnables/Spearing/BP_SpearingFish.BP_SpearingFish_C",
+        "SubPathString": ""
+      },
+      "ClamClass": {
+        "AssetPathName": "/Game/TheIsle/Core/Spawnables/Spearing/BP_SpearingClam.BP_SpearingClam_C",
+        "SubPathString": ""
+      },
+      "AbilityTags": [
+        "Ability.Skill.Spear"
+      ],
+      "BlockAbilitiesWithTag": [
+        "Ability.Skill.Beg",
+        "Ability.Skill.Block",
+        "Ability.Skill.BurrowDig",
+        "Ability.Skill.Evade",
+        "Ability.Skill.Forage",
+        "Ability.Skill.Graze",
+        "Ability.Skill.Nest",
+        "Ability.Skill.OpenCorpse",
+        "Ability.Skill.PickUp",
+        "Ability.Skill.PouncedBuck",
+        "Ability.Skill.PrimaryAttack",
+        "Ability.Skill.Rest",
+        "Ability.Skill.Salt",
+        "Ability.Skill.Scent",
+        "Ability.Skill.PounceLatchAttack2",
+        "Ability.Skill.PrimaryAttackStationary",
+        "Ability.Skill.SecondarySpecial",
+        "Ability.Skill.SecondaryAttackStationary",
+        "Ability.Skill.SecondaryAttack",
+        "Ability.Skill.Shake",
+        "Ability.Skill.Signal",
+        "Ability.Skill.SpecialAttack",
+        "Ability.Skill.Thrash",
+        "Ability.Skill.Throw",
+        "Ability.Skill.Use",
+        "Ability.Skill.Vocalize",
+        "Ability.Skill.VoiceBroadcast",
+        "Ability.Skill.VoiceFriendly",
+        "Ability.Skill.VoiceHelp",
+        "Ability.Skill.Wallow",
+        "Ability.Skill.VoiceThreatenAuto",
+        "Ability.Skill.VoiceThreaten"
+      ],
+      "ActivationOwnedTags": [
+        "Ability.Skill.Spear",
+        "Status.DisableMovement",
+        "Status.DisableHeadtracking"
+      ],
+      "ActivationBlockedTags": [
+        "Ability.Skill"
+      ]
+    }
+  }
+]

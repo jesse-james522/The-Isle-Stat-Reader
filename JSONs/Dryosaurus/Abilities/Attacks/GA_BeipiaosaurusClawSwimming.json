@@ -1,0 +1,41 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GA_BeipiaosaurusClawSwimming_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'GA_BeipiaosaurusClawGround_C'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Attacks/GA_BeipiaosaurusClawGround.0"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GA_BeipiaosaurusClawSwimming_C'Default__GA_BeipiaosaurusClawSwimming_C'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Attacks/GA_BeipiaosaurusClawSwimming.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "GA_BeipiaosaurusClawSwimming_C",
+    "Name": "Default__GA_BeipiaosaurusClawSwimming_C",
+    "Class": "BlueprintGeneratedClass'/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Attacks/GA_BeipiaosaurusClawSwimming.GA_BeipiaosaurusClawSwimming_C'",
+    "Template": {
+      "ObjectName": "GA_BeipiaosaurusClawGround_C'Default__GA_BeipiaosaurusClawGround_C'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Attacks/GA_BeipiaosaurusClawGround.3"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AllowedMovementModes": [
+        "MOVE_Swimming"
+      ]
+    }
+  }
+]

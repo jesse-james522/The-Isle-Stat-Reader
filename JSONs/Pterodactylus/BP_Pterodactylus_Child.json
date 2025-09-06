@@ -1,0 +1,1072 @@
+[
+  {
+    "Type": "AudioComponent",
+    "Name": "HeartbeatAudio",
+    "Outer": "Default__BP_Pterodactylus_Child_C",
+    "Class": "UScriptClass'AudioComponent'",
+    "Template": {
+      "ObjectName": "AudioComponent'Default__BP_Pterodactylus_C:HeartbeatAudio'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Pterodactylus/BP_Pterodactylus.0"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SkeletalMeshComponentBudgeted'Default__BP_Pterodactylus_Child_C:CharacterMesh0'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Pterodactylus/BP_Pterodactylus_Child.24"
+      }
+    }
+  },
+  {
+    "Type": "AudioComponent",
+    "Name": "Wind",
+    "Outer": "Default__BP_Pterodactylus_Child_C",
+    "Class": "UScriptClass'AudioComponent'",
+    "Template": {
+      "ObjectName": "AudioComponent'Default__BP_Pterodactylus_C:Wind'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Pterodactylus/BP_Pterodactylus.1"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SkeletalMeshComponentBudgeted'Default__BP_Pterodactylus_Child_C:CharacterMesh0'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Pterodactylus/BP_Pterodactylus_Child.24"
+      }
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_Pterodactylus_Child_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Pterodactylus_C'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Pterodactylus/BP_Pterodactylus.2"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "bHasCookedComponentInstancingData": true,
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_Pterodactylus_Child_C:SimpleConstructionScript_0'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Pterodactylus/BP_Pterodactylus_Child.21"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler'BP_Pterodactylus_Child_C:InheritableComponentHandler'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Pterodactylus/BP_Pterodactylus_Child.12"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'BP_Pterodactylus_Child_C:ExecuteUbergraph_BP_Pterodactylus_Child'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Pterodactylus/BP_Pterodactylus_Child.10"
+      }
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BP_Pterodactylus_Child_C:ReceiveBeginPlay'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Pterodactylus/BP_Pterodactylus_Child.11"
+      },
+      {
+        "ObjectName": "Function'BP_Pterodactylus_Child_C:CustomEvent'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Pterodactylus/BP_Pterodactylus_Child.9"
+      },
+      {
+        "ObjectName": "Function'BP_Pterodactylus_Child_C:ExecuteUbergraph_BP_Pterodactylus_Child'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Pterodactylus/BP_Pterodactylus_Child.10"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_BP_Pterodactylus_Child": {
+        "ObjectName": "Function'BP_Pterodactylus_Child_C:ExecuteUbergraph_BP_Pterodactylus_Child'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Pterodactylus/BP_Pterodactylus_Child.10"
+      },
+      "CustomEvent": {
+        "ObjectName": "Function'BP_Pterodactylus_Child_C:CustomEvent'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Pterodactylus/BP_Pterodactylus_Child.9"
+      },
+      "ReceiveBeginPlay": {
+        "ObjectName": "Function'BP_Pterodactylus_Child_C:ReceiveBeginPlay'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Pterodactylus/BP_Pterodactylus_Child.11"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_NoExport | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Game",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_Pterodactylus_Child_C'Default__BP_Pterodactylus_Child_C'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Pterodactylus/BP_Pterodactylus_Child.6"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "FishDetector",
+    "Outer": "Default__BP_Pterodactylus_Child_C",
+    "Class": "UScriptClass'BoxComponent'",
+    "Template": {
+      "ObjectName": "BoxComponent'Default__BP_Pterodactylus_C:FishDetector'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Pterodactylus/BP_Pterodactylus.3"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SkeletalMeshComponentBudgeted'Default__BP_Pterodactylus_Child_C:CharacterMesh0'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Pterodactylus/BP_Pterodactylus_Child.24"
+      }
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "InteractableDetector",
+    "Outer": "Default__BP_Pterodactylus_Child_C",
+    "Class": "UScriptClass'BoxComponent'",
+    "Template": {
+      "ObjectName": "BoxComponent'Default__BP_Pterodactylus_C:InteractableDetector'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Pterodactylus/BP_Pterodactylus.4"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_Pterodactylus_Child_C:CollisionCylinder'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Pterodactylus/BP_Pterodactylus_Child.8"
+      }
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "PouncebleArea",
+    "Outer": "Default__BP_Pterodactylus_Child_C",
+    "Class": "UScriptClass'BoxComponent'",
+    "Template": {
+      "ObjectName": "BoxComponent'Default__BP_Pterodactylus_C:PouncebleArea'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Pterodactylus/BP_Pterodactylus.5"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_Pterodactylus_Child_C:CollisionCylinder'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Pterodactylus/BP_Pterodactylus_Child.8"
+      }
+    }
+  },
+  {
+    "Type": "BP_Pterodactylus_Child_C",
+    "Name": "Default__BP_Pterodactylus_Child_C",
+    "Class": "BlueprintGeneratedClass'/Game/TheIsle/Core/Characters/Dinosaurs/Pterodactylus/BP_Pterodactylus_Child.BP_Pterodactylus_Child_C'",
+    "Template": {
+      "ObjectName": "BP_Pterodactylus_C'Default__BP_Pterodactylus_C'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Pterodactylus/BP_Pterodactylus.6"
+    },
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "UberGraphFrame": {},
+      "FishDetector": {
+        "ObjectName": "BoxComponent'Default__BP_Pterodactylus_Child_C:FishDetector'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Pterodactylus/BP_Pterodactylus_Child.3"
+      },
+      "Wind": {
+        "ObjectName": "AudioComponent'Default__BP_Pterodactylus_Child_C:Wind'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Pterodactylus/BP_Pterodactylus_Child.1"
+      },
+      "DinosaurMovement": {
+        "ObjectName": "TIFlyingDinosaurMovementComponent'Default__BP_Pterodactylus_Child_C:CharMoveComp'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Pterodactylus/BP_Pterodactylus_Child.33"
+      },
+      "AntiCheatComponent": {
+        "ObjectName": "TIAntiCheatComponent'Default__BP_Pterodactylus_Child_C:AntiCheatComponent'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Pterodactylus/BP_Pterodactylus_Child.31"
+      },
+      "AbilitySystemComponent": {
+        "ObjectName": "TIAbilitySystemComponent'Default__BP_Pterodactylus_Child_C:AbilitySystemComponent'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Pterodactylus/BP_Pterodactylus_Child.30"
+      }
+    }
+  },
+  {
+    "Type": "CameraComponent",
+    "Name": "Main Camera",
+    "Outer": "Default__BP_Pterodactylus_Child_C",
+    "Class": "UScriptClass'CameraComponent'",
+    "Template": {
+      "ObjectName": "CameraComponent'Default__BP_Pterodactylus_C:Main Camera'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Pterodactylus/BP_Pterodactylus.7"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SpringArmComponent'Default__BP_Pterodactylus_Child_C:Spring Arm'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Pterodactylus/BP_Pterodactylus_Child.27"
+      }
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "CollisionCylinder",
+    "Outer": "Default__BP_Pterodactylus_Child_C",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Template": {
+      "ObjectName": "CapsuleComponent'Default__BP_Pterodactylus_C:CollisionCylinder'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Pterodactylus/BP_Pterodactylus.8"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "Function",
+    "Name": "CustomEvent",
+    "Outer": "BP_Pterodactylus_Child_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "ScriptBytecode": [
+      {
+        "Inst": "EX_LocalFinalFunction",
+        "StatementIndex": 0,
+        "Function": {
+          "ObjectName": "Function'BP_Pterodactylus_Child_C:ExecuteUbergraph_BP_Pterodactylus_Child'",
+          "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Pterodactylus/BP_Pterodactylus_Child.10"
+        },
+        "Parameters": [
+          {
+            "Inst": "EX_IntConst",
+            "Value": 15
+          }
+        ],
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Pterodactylus/BP_Pterodactylus_Child.ExecuteUbergraph_BP_Pterodactylus_Child[15]"
+      },
+      {
+        "Inst": "EX_Return",
+        "StatementIndex": 15,
+        "Expression": {
+          "Inst": "EX_Nothing"
+        }
+      },
+      {
+        "Inst": "EX_EndOfScript",
+        "StatementIndex": 17
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BP_Pterodactylus_Child",
+    "Outer": "BP_Pterodactylus_Child_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsPlayerControlled_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate",
+        "Flags": "RF_Public",
+        "ElementSize": 32,
+        "SignatureFunction": {
+          "ObjectName": "Class'TimerDynamicDelegate__DelegateSignature'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_HasAuthority_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_K2_SetTimerDelegate_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "Class'TimerHandle'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_HasAuthority_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "ScriptBytecode": [
+      {
+        "Inst": "EX_PushExecutionFlow",
+        "StatementIndex": 0,
+        "PushingAddress": 224,
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Pterodactylus/BP_Pterodactylus_Child.ExecuteUbergraph_BP_Pterodactylus_Child[224]"
+      },
+      {
+        "Inst": "EX_ComputedJump",
+        "StatementIndex": 5,
+        "OffsetExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'BP_Pterodactylus_Child_C:ExecuteUbergraph_BP_Pterodactylus_Child'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Pterodactylus/BP_Pterodactylus_Child.10"
+            },
+            "Property": {
+              "Type": "IntProperty",
+              "Name": "EntryPoint",
+              "Flags": "RF_Public",
+              "ElementSize": 4,
+              "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_PopExecutionFlow",
+        "StatementIndex": 15
+      },
+      {
+        "Inst": "EX_LocalFinalFunction",
+        "StatementIndex": 16,
+        "Function": {
+          "ObjectName": "Function'BP_Pterodactylus_C:ReceiveBeginPlay'",
+          "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Pterodactylus/BP_Pterodactylus.11"
+        },
+        "Parameters": []
+      },
+      {
+        "Inst": "EX_PushExecutionFlow",
+        "StatementIndex": 26,
+        "PushingAddress": 70,
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Pterodactylus/BP_Pterodactylus_Child.ExecuteUbergraph_BP_Pterodactylus_Child[70]"
+      },
+      {
+        "Inst": "EX_LetBool",
+        "StatementIndex": 31,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'BP_Pterodactylus_Child_C:ExecuteUbergraph_BP_Pterodactylus_Child'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Pterodactylus/BP_Pterodactylus_Child.10"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_IsPlayerControlled_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_VirtualFunction",
+          "Function": "IsPlayerControlled",
+          "Parameters": []
+        }
+      },
+      {
+        "Inst": "EX_JumpIfNot",
+        "StatementIndex": 55,
+        "CodeOffset": 178,
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Pterodactylus/BP_Pterodactylus_Child.ExecuteUbergraph_BP_Pterodactylus_Child[178]",
+        "BooleanExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'BP_Pterodactylus_Child_C:ExecuteUbergraph_BP_Pterodactylus_Child'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Pterodactylus/BP_Pterodactylus_Child.10"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_IsPlayerControlled_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_PopExecutionFlow",
+        "StatementIndex": 69
+      },
+      {
+        "Inst": "EX_LetBool",
+        "StatementIndex": 70,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'BP_Pterodactylus_Child_C:ExecuteUbergraph_BP_Pterodactylus_Child'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Pterodactylus/BP_Pterodactylus_Child.10"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_HasAuthority_ReturnValue_1",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_FinalFunction",
+          "Function": {
+            "ObjectName": "Class'Actor:HasAuthority'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": []
+        }
+      },
+      {
+        "Inst": "EX_PopExecutionFlowIfNot",
+        "StatementIndex": 90,
+        "BooleanExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'BP_Pterodactylus_Child_C:ExecuteUbergraph_BP_Pterodactylus_Child'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Pterodactylus/BP_Pterodactylus_Child.10"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_HasAuthority_ReturnValue_1",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_BindDelegate",
+        "StatementIndex": 100,
+        "FunctionName": "CustomEvent",
+        "Delegate": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'BP_Pterodactylus_Child_C:ExecuteUbergraph_BP_Pterodactylus_Child'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Pterodactylus/BP_Pterodactylus_Child.10"
+            },
+            "Property": {
+              "Type": "DelegateProperty",
+              "Name": "K2Node_CreateDelegate_OutputDelegate",
+              "Flags": "RF_Public",
+              "ElementSize": 32,
+              "SignatureFunction": {
+                "ObjectName": "Class'TimerDynamicDelegate__DelegateSignature'",
+                "ObjectPath": "/Script/Engine"
+              }
+            }
+          }
+        },
+        "ObjectTerm": {
+          "Inst": "EX_Self"
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 123,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'BP_Pterodactylus_Child_C:ExecuteUbergraph_BP_Pterodactylus_Child'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Pterodactylus/BP_Pterodactylus_Child.10"
+            },
+            "Property": {
+              "Type": "StructProperty",
+              "Name": "CallFunc_K2_SetTimerDelegate_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "Struct": {
+                "ObjectName": "Class'TimerHandle'",
+                "ObjectPath": "/Script/Engine"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Class'KismetSystemLibrary:K2_SetTimerDelegate'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'BP_Pterodactylus_Child_C:ExecuteUbergraph_BP_Pterodactylus_Child'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Pterodactylus/BP_Pterodactylus_Child.10"
+                },
+                "Property": {
+                  "Type": "DelegateProperty",
+                  "Name": "K2Node_CreateDelegate_OutputDelegate",
+                  "Flags": "RF_Public",
+                  "ElementSize": 32,
+                  "SignatureFunction": {
+                    "ObjectName": "Class'TimerDynamicDelegate__DelegateSignature'",
+                    "ObjectPath": "/Script/Engine"
+                  }
+                }
+              }
+            },
+            {
+              "Inst": "EX_FloatConst",
+              "Value": 9.0
+            },
+            {
+              "Inst": "EX_True"
+            },
+            {
+              "Inst": "EX_False"
+            },
+            {
+              "Inst": "EX_FloatConst",
+              "Value": 0.0
+            },
+            {
+              "Inst": "EX_FloatConst",
+              "Value": 0.0
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_PopExecutionFlow",
+        "StatementIndex": 177
+      },
+      {
+        "Inst": "EX_LetBool",
+        "StatementIndex": 178,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'BP_Pterodactylus_Child_C:ExecuteUbergraph_BP_Pterodactylus_Child'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Pterodactylus/BP_Pterodactylus_Child.10"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_HasAuthority_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_FinalFunction",
+          "Function": {
+            "ObjectName": "Class'Actor:HasAuthority'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": []
+        }
+      },
+      {
+        "Inst": "EX_PopExecutionFlowIfNot",
+        "StatementIndex": 198,
+        "BooleanExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'BP_Pterodactylus_Child_C:ExecuteUbergraph_BP_Pterodactylus_Child'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Pterodactylus/BP_Pterodactylus_Child.10"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_HasAuthority_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_FinalFunction",
+        "StatementIndex": 208,
+        "Function": {
+          "ObjectName": "Class'TIDinosaurBase:SetGrowth'",
+          "ObjectPath": "/Script/TheIsle"
+        },
+        "Parameters": [
+          {
+            "Inst": "EX_FloatConst",
+            "Value": 1.0
+          }
+        ]
+      },
+      {
+        "Inst": "EX_PopExecutionFlow",
+        "StatementIndex": 223
+      },
+      {
+        "Inst": "EX_Return",
+        "StatementIndex": 224,
+        "Expression": {
+          "Inst": "EX_Nothing"
+        }
+      },
+      {
+        "Inst": "EX_EndOfScript",
+        "StatementIndex": 226
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction | FUNC_HasDefaults"
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceiveBeginPlay",
+    "Outer": "BP_Pterodactylus_Child_C",
+    "Class": "UScriptClass'Function'",
+    "Super": {
+      "ObjectName": "Function'BP_Pterodactylus_C:ReceiveBeginPlay'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Pterodactylus/BP_Pterodactylus.11"
+    },
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "ScriptBytecode": [
+      {
+        "Inst": "EX_LocalFinalFunction",
+        "StatementIndex": 0,
+        "Function": {
+          "ObjectName": "Function'BP_Pterodactylus_Child_C:ExecuteUbergraph_BP_Pterodactylus_Child'",
+          "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Pterodactylus/BP_Pterodactylus_Child.10"
+        },
+        "Parameters": [
+          {
+            "Inst": "EX_IntConst",
+            "Value": 16
+          }
+        ],
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Pterodactylus/BP_Pterodactylus_Child.ExecuteUbergraph_BP_Pterodactylus_Child[16]"
+      },
+      {
+        "Inst": "EX_Return",
+        "StatementIndex": 15,
+        "Expression": {
+          "Inst": "EX_Nothing"
+        }
+      },
+      {
+        "Inst": "EX_EndOfScript",
+        "StatementIndex": 17
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Outer": "BP_Pterodactylus_Child_C",
+    "Class": "UScriptClass'InheritableComponentHandler'",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "NavigationInvokerComponent",
+    "Name": "Navigation Invoker",
+    "Outer": "Default__BP_Pterodactylus_Child_C",
+    "Class": "UScriptClass'NavigationInvokerComponent'",
+    "Template": {
+      "ObjectName": "NavigationInvokerComponent'Default__BP_Pterodactylus_C:Navigation Invoker'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Pterodactylus/BP_Pterodactylus.12"
+    },
+    "Flags": "RF_Public | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "NavigationInvokerComponent",
+    "Name": "NavigationInvoker",
+    "Outer": "Default__BP_Pterodactylus_Child_C",
+    "Class": "UScriptClass'NavigationInvokerComponent'",
+    "Template": {
+      "ObjectName": "NavigationInvokerComponent'Default__BP_Pterodactylus_C:NavigationInvoker'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Pterodactylus/BP_Pterodactylus.13"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "PhysicalAnimationComponent",
+    "Name": "PhysicalAnim",
+    "Outer": "Default__BP_Pterodactylus_Child_C",
+    "Class": "UScriptClass'PhysicalAnimationComponent'",
+    "Template": {
+      "ObjectName": "PhysicalAnimationComponent'Default__BP_Pterodactylus_C:PhysicalAnim'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Pterodactylus/BP_Pterodactylus.14"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "PhysicsConstraintComponent",
+    "Name": "PhysicsConstraints",
+    "Outer": "Default__BP_Pterodactylus_Child_C",
+    "Class": "UScriptClass'PhysicsConstraintComponent'",
+    "Template": {
+      "ObjectName": "PhysicsConstraintComponent'Default__BP_Pterodactylus_C:PhysicsConstraints'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Pterodactylus/BP_Pterodactylus.15"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_Pterodactylus_Child_C:CollisionCylinder'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Pterodactylus/BP_Pterodactylus_Child.8"
+      }
+    }
+  },
+  {
+    "Type": "PhysicsHandleComponent",
+    "Name": "PhysicsHandle",
+    "Outer": "Default__BP_Pterodactylus_Child_C",
+    "Class": "UScriptClass'PhysicsHandleComponent'",
+    "Template": {
+      "ObjectName": "PhysicsHandleComponent'Default__BP_Pterodactylus_C:PhysicsHandle'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Pterodactylus/BP_Pterodactylus.16"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "BP_Pterodactylus_Child_C",
+    "Class": "UScriptClass'SceneComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "Draglocation",
+    "Outer": "Default__BP_Pterodactylus_Child_C",
+    "Class": "UScriptClass'SceneComponent'",
+    "Template": {
+      "ObjectName": "SceneComponent'Default__BP_Pterodactylus_C:Draglocation'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Pterodactylus/BP_Pterodactylus.18"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SkeletalMeshComponentBudgeted'Default__BP_Pterodactylus_Child_C:CharacterMesh0'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Pterodactylus/BP_Pterodactylus_Child.24"
+      }
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_Pterodactylus_Child_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Pterodactylus/BP_Pterodactylus_Child.18"
+      },
+      "VariableGUID": "06BD5D54-48B8D458-1F691985-36C27A9C",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "BP_Pterodactylus_Child_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_Pterodactylus_Child_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Pterodactylus/BP_Pterodactylus_Child.20"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponent",
+    "Name": "RibsMeatMesh",
+    "Outer": "Default__BP_Pterodactylus_Child_C",
+    "Class": "UScriptClass'SkeletalMeshComponent'",
+    "Template": {
+      "ObjectName": "SkeletalMeshComponent'Default__BP_Pterodactylus_C:RibsMeatMesh'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Pterodactylus/BP_Pterodactylus.21"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LeaderPoseComponent": {
+        "ObjectName": "SkeletalMeshComponentBudgeted'Default__BP_Pterodactylus_Child_C:CharacterMesh0'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Pterodactylus/BP_Pterodactylus_Child.24"
+      },
+      "AttachParent": {
+        "ObjectName": "SkeletalMeshComponentBudgeted'Default__BP_Pterodactylus_Child_C:CharacterMesh0'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Pterodactylus/BP_Pterodactylus_Child.24"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponent",
+    "Name": "SkeletonMesh",
+    "Outer": "Default__BP_Pterodactylus_Child_C",
+    "Class": "UScriptClass'SkeletalMeshComponent'",
+    "Template": {
+      "ObjectName": "SkeletalMeshComponent'Default__BP_Pterodactylus_C:SkeletonMesh'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Pterodactylus/BP_Pterodactylus.22"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LeaderPoseComponent": {
+        "ObjectName": "SkeletalMeshComponentBudgeted'Default__BP_Pterodactylus_Child_C:CharacterMesh0'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Pterodactylus/BP_Pterodactylus_Child.24"
+      },
+      "AttachParent": {
+        "ObjectName": "SkeletalMeshComponentBudgeted'Default__BP_Pterodactylus_Child_C:CharacterMesh0'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Pterodactylus/BP_Pterodactylus_Child.24"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponentBudgeted",
+    "Name": "CharacterMesh0",
+    "Outer": "Default__BP_Pterodactylus_Child_C",
+    "Class": "UScriptClass'SkeletalMeshComponentBudgeted'",
+    "Template": {
+      "ObjectName": "SkeletalMeshComponentBudgeted'Default__BP_Pterodactylus_C:CharacterMesh0'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Pterodactylus/BP_Pterodactylus.23"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_Pterodactylus_Child_C:CollisionCylinder'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Pterodactylus/BP_Pterodactylus_Child.8"
+      }
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CorpseDisableDetector",
+    "Outer": "Default__BP_Pterodactylus_Child_C",
+    "Class": "UScriptClass'SphereComponent'",
+    "Template": {
+      "ObjectName": "SphereComponent'Default__BP_Pterodactylus_C:CorpseDisableDetector'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Pterodactylus/BP_Pterodactylus.24"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_Pterodactylus_Child_C:CollisionCylinder'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Pterodactylus/BP_Pterodactylus_Child.8"
+      }
+    }
+  },
+  {
+    "Type": "SplineComponent",
+    "Name": "ThroatSpline",
+    "Outer": "Default__BP_Pterodactylus_Child_C",
+    "Class": "UScriptClass'SplineComponent'",
+    "Template": {
+      "ObjectName": "SplineComponent'Default__BP_Pterodactylus_C:ThroatSpline'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Pterodactylus/BP_Pterodactylus.25"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SkeletalMeshComponentBudgeted'Default__BP_Pterodactylus_Child_C:CharacterMesh0'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Pterodactylus/BP_Pterodactylus_Child.24"
+      }
+    }
+  },
+  {
+    "Type": "SpringArmComponent",
+    "Name": "Spring Arm",
+    "Outer": "Default__BP_Pterodactylus_Child_C",
+    "Class": "UScriptClass'SpringArmComponent'",
+    "Template": {
+      "ObjectName": "SpringArmComponent'Default__BP_Pterodactylus_C:Spring Arm'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Pterodactylus/BP_Pterodactylus.26"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_Pterodactylus_Child_C:CollisionCylinder'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Pterodactylus/BP_Pterodactylus_Child.8"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "BuoyancyPlane",
+    "Outer": "Default__BP_Pterodactylus_Child_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Template": {
+      "ObjectName": "StaticMeshComponent'Default__BP_Pterodactylus_C:BuoyancyPlane'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Pterodactylus/BP_Pterodactylus.27"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "bEvaluateWorldPositionOffsetInRayTracing": true,
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_Pterodactylus_Child_C:CollisionCylinder'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Pterodactylus/BP_Pterodactylus_Child.8"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "ThroatMesh",
+    "Outer": "Default__BP_Pterodactylus_Child_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Template": {
+      "ObjectName": "StaticMeshComponent'Default__BP_Pterodactylus_C:ThroatMesh'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Pterodactylus/BP_Pterodactylus.28"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "bEvaluateWorldPositionOffsetInRayTracing": true,
+      "AttachParent": {
+        "ObjectName": "SkeletalMeshComponentBudgeted'Default__BP_Pterodactylus_Child_C:CharacterMesh0'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Pterodactylus/BP_Pterodactylus_Child.24"
+      }
+    }
+  },
+  {
+    "Type": "TIAbilitySystemComponent",
+    "Name": "AbilitySystemComponent",
+    "Outer": "Default__BP_Pterodactylus_Child_C",
+    "Class": "UScriptClass'TIAbilitySystemComponent'",
+    "Template": {
+      "ObjectName": "TIAbilitySystemComponent'Default__BP_Pterodactylus_C:AbilitySystemComponent'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Pterodactylus/BP_Pterodactylus.29"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "TIAntiCheatComponent",
+    "Name": "AntiCheatComponent",
+    "Outer": "Default__BP_Pterodactylus_Child_C",
+    "Class": "UScriptClass'TIAntiCheatComponent'",
+    "Template": {
+      "ObjectName": "TIAntiCheatComponent'Default__BP_Pterodactylus_C:AntiCheatComponent'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Pterodactylus/BP_Pterodactylus.30"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "TIAttributeSetDinosaur",
+    "Name": "AttributeSetBase",
+    "Outer": "Default__BP_Pterodactylus_Child_C",
+    "Class": "UScriptClass'TIAttributeSetDinosaur'",
+    "Template": {
+      "ObjectName": "TIAttributeSetDinosaur'Default__BP_Pterodactylus_C:AttributeSetBase'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Pterodactylus/BP_Pterodactylus.31"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "TIFlyingDinosaurMovementComponent",
+    "Name": "CharMoveComp",
+    "Outer": "Default__BP_Pterodactylus_Child_C",
+    "Class": "UScriptClass'TIFlyingDinosaurMovementComponent'",
+    "Template": {
+      "ObjectName": "TIFlyingDinosaurMovementComponent'Default__BP_Pterodactylus_C:CharMoveComp'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Pterodactylus/BP_Pterodactylus.32"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "TIFootstepsComponent",
+    "Name": "FootstepsComponent",
+    "Outer": "Default__BP_Pterodactylus_Child_C",
+    "Class": "UScriptClass'TIFootstepsComponent'",
+    "Template": {
+      "ObjectName": "TIFootstepsComponent'Default__BP_Pterodactylus_C:FootstepsComponent'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Pterodactylus/BP_Pterodactylus.33"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "WidgetComponent",
+    "Name": "NameWidget",
+    "Outer": "Default__BP_Pterodactylus_Child_C",
+    "Class": "UScriptClass'WidgetComponent'",
+    "Template": {
+      "ObjectName": "WidgetComponent'Default__BP_Pterodactylus_C:NameWidget'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Pterodactylus/BP_Pterodactylus.34"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_Pterodactylus_Child_C:CollisionCylinder'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Pterodactylus/BP_Pterodactylus_Child.8"
+      }
+    }
+  }
+]

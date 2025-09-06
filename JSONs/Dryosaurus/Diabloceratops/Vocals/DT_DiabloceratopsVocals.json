@@ -1,0 +1,496 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_DiabloceratopsVocals",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'Vocals'",
+        "ObjectPath": "/Script/TheIsle"
+      }
+    },
+    "Rows": {
+      "Generic": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Diabloceratops_Call_Generic'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Diabloceratops/Sound/MS_Diabloceratops_Call_Generic.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Broadcast": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Diabloceratops_Call_Broadcast'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Diabloceratops/Sound/MS_Diabloceratops_Call_Broadcast.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Attract": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Diabloceratops_Call_Attract'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Diabloceratops/Sound/MS_Diabloceratops_Call_Attract.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Threaten": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Diabloceratops_Call_Threaten'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Diabloceratops/Sound/MS_Diabloceratops_Call_Threaten.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Danger": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Diabloceratops_Call_Danger'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Diabloceratops/Sound/MS_Diabloceratops_Call_Danger.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "RegularPain": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Diabloceratops_Regular_Pain'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Diabloceratops/Sound/MS_Diabloceratops_Regular_Pain.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "ExtremePain": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Diabloceratops_Extreme_Pain'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Diabloceratops/Sound/MS_Diabloceratops_Extreme_Pain.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Death": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Diabloceratops_Death'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Diabloceratops/Sound/MS_Diabloceratops_Death.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Attack": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Diabloceratops_Attack'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Diabloceratops/Sound/MS_Diabloceratops_Attack.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "AltAttack": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Diabloceratops_AltAttack'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Diabloceratops/Sound/MS_Diabloceratops_AltAttack.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "PreAttack": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Diabloceratops_PreAttack'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Diabloceratops/Sound/MS_Diabloceratops_PreAttack.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Bite": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Diabloceratops_Bite'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Diabloceratops/Sound/MS_Diabloceratops_Bite.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "BeakSnap": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Diabloceratops_Beak_Snap'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Diabloceratops/Sound/MS_Diabloceratops_Beak_Snap.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Grunt": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Diabloceratops_Grunt'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Diabloceratops/Sound/MS_Diabloceratops_Grunt.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Huff": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Diabloceratops_Huff'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Diabloceratops/Sound/MS_Diabloceratops_Huff.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Inhale": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Diabloceratops_Inhale'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Diabloceratops/Sound/MS_Diabloceratops_Inhale.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Exhale": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Diabloceratops_Exhale'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Diabloceratops/Sound/MS_Diabloceratops_Exhale.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Beg1": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Diabloceratops_Beg1'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Diabloceratops/Sound/MS_Diabloceratops_Beg1.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Beg2": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Diabloceratops_Beg2'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Diabloceratops/Sound/MS_Diabloceratops_Beg2.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Beg3": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Diabloceratops_Beg3'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Diabloceratops/Sound/MS_Diabloceratops_Beg3.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Feed": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Diabloceratops_Feed'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Diabloceratops/Sound/MS_Diabloceratops_Feed.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Vomit": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Diabloceratops_Vomit'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Diabloceratops/Sound/MS_Diabloceratops_Vomit.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Drink": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Diabloceratops_Drink'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Diabloceratops/Sound/MS_Diabloceratops_Drink.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Eat": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Diabloceratops_Eat'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Diabloceratops/Sound/MS_Diabloceratops_Eat.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Sit": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Diabloceratops_Sit'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Diabloceratops/Sound/MS_Diabloceratops_Sit.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Stand": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Diabloceratops_Stand'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Diabloceratops/Sound/MS_Diabloceratops_Stand.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Snore": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Diabloceratops_Snore'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Diabloceratops/Sound/MS_Diabloceratops_Snore.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Pinned1": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Diabloceratops_Pinned1'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Diabloceratops/Sound/MS_Diabloceratops_Pinned1.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Pinned2": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Diabloceratops_Pinned2'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Diabloceratops/Sound/MS_Diabloceratops_Pinned2.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Pinned3": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Diabloceratops_Pinned3'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Diabloceratops/Sound/MS_Diabloceratops_Pinned3.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Pounced1": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Diabloceratops_Pounced'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Diabloceratops/Sound/MS_Diabloceratops_Pounced.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Pounced2": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Diabloceratops_Pounced2'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Diabloceratops/Sound/MS_Diabloceratops_Pounced2.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Blind": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Diabloceratops_Blind'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Diabloceratops/Sound/MS_Diabloceratops_Blind.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "BlindFoley": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Diabloceratops_Blind_Foley'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Diabloceratops/Sound/MS_Diabloceratops_Blind_Foley.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "CourtMIn": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Diabloceratops_CourtM_In'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Diabloceratops/Sound/MS_Diabloceratops_CourtM_In.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "CourtMOut": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Diabloceratops_CourtM_Out'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Diabloceratops/Sound/MS_Diabloceratops_CourtM_Out.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "CourtMChirp": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Diabloceratops_CourtM_Chirp'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Diabloceratops/Sound/MS_Diabloceratops_CourtM_Chirp.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "CourtMBleat": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Diabloceratops_CourtM_Bleat'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Diabloceratops/Sound/MS_Diabloceratops_CourtM_Bleat.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "CourtMGrumble": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Diabloceratops_CourtM_Grumble'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Diabloceratops/Sound/MS_Diabloceratops_CourtM_Grumble.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "CourtFIn": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Diabloceratops_CourtF_In'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Diabloceratops/Sound/MS_Diabloceratops_CourtF_In.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "CourtFOut": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Diabloceratops_CourtF_Out'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Diabloceratops/Sound/MS_Diabloceratops_CourtF_Out.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "CourtFChirp": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Diabloceratops_CourtF_Chirp'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Diabloceratops/Sound/MS_Diabloceratops_CourtF_Chirp.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "CourtFBleat": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Diabloceratops_CourtF_Bleat'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Diabloceratops/Sound/MS_Diabloceratops_CourtF_Bleat.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "CourtFGrumble": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Diabloceratops_CourtF_Grumble'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Diabloceratops/Sound/MS_Diabloceratops_CourtF_Grumble.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "CourtBeakSnap": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Diabloceratops_Court_BeakSnap'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Diabloceratops/Sound/MS_Diabloceratops_Court_BeakSnap.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "SparBegin": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Diabloceratops_Spar_Begin'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Diabloceratops/Sound/MS_Diabloceratops_Spar_Begin.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "SparRam": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Diabloceratops_Spar_Ram'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Diabloceratops/Sound/MS_Diabloceratops_Spar_Ram.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "SparRammed": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Diabloceratops_Spar_Rammed'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Diabloceratops/Sound/MS_Diabloceratops_Spar_Rammed.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "SparTrample": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Diabloceratops_Spar_Trample'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Diabloceratops/Sound/MS_Diabloceratops_Spar_Trample.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "SparFlip": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Diabloceratops_Spar_Flip'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Diabloceratops/Sound/MS_Diabloceratops_Spar_Flip.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "SparSnort": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Diabloceratops_Spar_Snort'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Diabloceratops/Sound/MS_Diabloceratops_Spar_Snort.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "SparGrunt": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Diabloceratops_Spar_Grunt'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Diabloceratops/Sound/MS_Diabloceratops_Spar_Grunt.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "SparGroan": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Diabloceratops_Spar_Groan'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Diabloceratops/Sound/MS_Diabloceratops_Spar_Groan.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "SparFlung": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Diabloceratops_Spar_Flung'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Diabloceratops/Sound/MS_Diabloceratops_Spar_Flung.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "SparExert": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Diabloceratops_Spar_Exert'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Diabloceratops/Sound/MS_Diabloceratops_Spar_Exert.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "SparInhale": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Diabloceratops_Spar_Inhale'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Diabloceratops/Sound/MS_Diabloceratops_Spar_Inhale.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Wallow1": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Diabloceratops_Wallow1'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Diabloceratops/Sound/MS_Diabloceratops_Wallow1.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Wallow2": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Diabloceratops_Wallow2'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Diabloceratops/Sound/MS_Diabloceratops_Wallow2.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "WallowGrunt": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Diabloceratops_Wallow_Grunt'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Diabloceratops/Sound/MS_Diabloceratops_Wallow_Grunt.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "ImpaleWhoosh": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Gore_Impale_Whoosh_Med'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/_Shared/Sound/Metasounds/Gore/MS_Gore_Impale_Whoosh_Med.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      }
+    }
+  }
+]

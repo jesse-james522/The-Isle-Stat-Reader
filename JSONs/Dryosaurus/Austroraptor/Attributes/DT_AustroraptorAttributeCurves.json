@@ -1,0 +1,565 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_AustroraptorAttributeCurves",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'GameplayCurveData'",
+        "ObjectPath": "/Script/TheIsle"
+      }
+    },
+    "Rows": {
+      "Health": {
+        "GameplayAttribute": {
+          "AttributeName": "Health",
+          "Attribute": {
+            "Path": [
+              "Health"
+            ],
+            "ResolvedOwner": {
+              "ObjectName": "Class'TIAttributeSetBase'",
+              "ObjectPath": "/Script/TheIsle"
+            }
+          },
+          "AttributeOwner": {
+            "ObjectName": "Class'TIAttributeSetBase'",
+            "ObjectPath": "/Script/TheIsle"
+          }
+        },
+        "AttributeCurve": {
+          "ObjectName": "CurveLinearColor'ATT_Austroraptor_Weight'",
+          "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Austroraptor/Attributes/ATT_Austroraptor_Weight.0"
+        }
+      },
+      "MaxHealth": {
+        "GameplayAttribute": {
+          "AttributeName": "MaxHealth",
+          "Attribute": {
+            "Path": [
+              "MaxHealth"
+            ],
+            "ResolvedOwner": {
+              "ObjectName": "Class'TIAttributeSetBase'",
+              "ObjectPath": "/Script/TheIsle"
+            }
+          },
+          "AttributeOwner": {
+            "ObjectName": "Class'TIAttributeSetBase'",
+            "ObjectPath": "/Script/TheIsle"
+          }
+        },
+        "AttributeCurve": {
+          "ObjectName": "CurveLinearColor'ATT_Austroraptor_Weight'",
+          "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Austroraptor/Attributes/ATT_Austroraptor_Weight.0"
+        }
+      },
+      "Stamina": {
+        "GameplayAttribute": {
+          "AttributeName": "Stamina",
+          "Attribute": {
+            "Path": [
+              "Stamina"
+            ],
+            "ResolvedOwner": {
+              "ObjectName": "Class'TIAttributeSetBase'",
+              "ObjectPath": "/Script/TheIsle"
+            }
+          },
+          "AttributeOwner": {
+            "ObjectName": "Class'TIAttributeSetBase'",
+            "ObjectPath": "/Script/TheIsle"
+          }
+        },
+        "AttributeCurve": {
+          "ObjectName": "CurveLinearColor'ATT_Austroraptor_MaxStamina'",
+          "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Austroraptor/Attributes/ATT_Austroraptor_MaxStamina.0"
+        }
+      },
+      "MaxStamina": {
+        "GameplayAttribute": {
+          "AttributeName": "MaxStamina",
+          "Attribute": {
+            "Path": [
+              "MaxStamina"
+            ],
+            "ResolvedOwner": {
+              "ObjectName": "Class'TIAttributeSetBase'",
+              "ObjectPath": "/Script/TheIsle"
+            }
+          },
+          "AttributeOwner": {
+            "ObjectName": "Class'TIAttributeSetBase'",
+            "ObjectPath": "/Script/TheIsle"
+          }
+        },
+        "AttributeCurve": {
+          "ObjectName": "CurveLinearColor'ATT_Austroraptor_MaxStamina'",
+          "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Austroraptor/Attributes/ATT_Austroraptor_MaxStamina.0"
+        }
+      },
+      "Thirst": {
+        "GameplayAttribute": {
+          "AttributeName": "Thirst",
+          "Attribute": {
+            "Path": [
+              "Thirst"
+            ],
+            "ResolvedOwner": {
+              "ObjectName": "Class'TIAttributeSetBase'",
+              "ObjectPath": "/Script/TheIsle"
+            }
+          },
+          "AttributeOwner": {
+            "ObjectName": "Class'TIAttributeSetBase'",
+            "ObjectPath": "/Script/TheIsle"
+          }
+        },
+        "AttributeCurve": {
+          "ObjectName": "CurveLinearColor'ATT_Austroraptor_MaxThirst'",
+          "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Austroraptor/Attributes/ATT_Austroraptor_MaxThirst.0"
+        }
+      },
+      "MaxThirst": {
+        "GameplayAttribute": {
+          "AttributeName": "MaxThirst",
+          "Attribute": {
+            "Path": [
+              "MaxThirst"
+            ],
+            "ResolvedOwner": {
+              "ObjectName": "Class'TIAttributeSetBase'",
+              "ObjectPath": "/Script/TheIsle"
+            }
+          },
+          "AttributeOwner": {
+            "ObjectName": "Class'TIAttributeSetBase'",
+            "ObjectPath": "/Script/TheIsle"
+          }
+        },
+        "AttributeCurve": {
+          "ObjectName": "CurveLinearColor'ATT_Austroraptor_MaxThirst'",
+          "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Austroraptor/Attributes/ATT_Austroraptor_MaxThirst.0"
+        }
+      },
+      "AttackPower": {
+        "GameplayAttribute": {
+          "AttributeName": "AttackPower",
+          "Attribute": {
+            "Path": [
+              "AttackPower"
+            ],
+            "ResolvedOwner": {
+              "ObjectName": "Class'TIAttributeSetDinosaur'",
+              "ObjectPath": "/Script/TheIsle"
+            }
+          },
+          "AttributeOwner": {
+            "ObjectName": "Class'TIAttributeSetDinosaur'",
+            "ObjectPath": "/Script/TheIsle"
+          }
+        },
+        "AttributeCurve": {
+          "ObjectName": "CurveLinearColor'ATT_Austroraptor_AttackPower'",
+          "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Austroraptor/Attributes/ATT_Austroraptor_AttackPower.0"
+        }
+      },
+      "DefensePower": {
+        "GameplayAttribute": {
+          "AttributeName": "DefensePower",
+          "Attribute": {
+            "Path": [
+              "DefensePower"
+            ],
+            "ResolvedOwner": {
+              "ObjectName": "Class'TIAttributeSetDinosaur'",
+              "ObjectPath": "/Script/TheIsle"
+            }
+          },
+          "AttributeOwner": {
+            "ObjectName": "Class'TIAttributeSetDinosaur'",
+            "ObjectPath": "/Script/TheIsle"
+          }
+        },
+        "AttributeCurve": {
+          "ObjectName": "CurveLinearColor'ATT_Austroraptor_DefensePower'",
+          "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Austroraptor/Attributes/ATT_Austroraptor_DefensePower.0"
+        }
+      },
+      "Weight": {
+        "GameplayAttribute": {
+          "AttributeName": "Weight",
+          "Attribute": {
+            "Path": [
+              "Weight"
+            ],
+            "ResolvedOwner": {
+              "ObjectName": "Class'TIAttributeSetBase'",
+              "ObjectPath": "/Script/TheIsle"
+            }
+          },
+          "AttributeOwner": {
+            "ObjectName": "Class'TIAttributeSetBase'",
+            "ObjectPath": "/Script/TheIsle"
+          }
+        },
+        "AttributeCurve": {
+          "ObjectName": "CurveLinearColor'ATT_Austroraptor_Weight'",
+          "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Austroraptor/Attributes/ATT_Austroraptor_Weight.0"
+        }
+      },
+      "WalkSpeed": {
+        "GameplayAttribute": {
+          "AttributeName": "WalkSpeed",
+          "Attribute": {
+            "Path": [],
+            "ResolvedOwner": null
+          },
+          "AttributeOwner": {
+            "ObjectName": "Class'TIAttributeSetBase'",
+            "ObjectPath": "/Script/TheIsle"
+          }
+        },
+        "AttributeCurve": {
+          "ObjectName": "CurveLinearColor'ATT_Austroraptor_WalkSpeed'",
+          "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Austroraptor/Attributes/ATT_Austroraptor_WalkSpeed.0"
+        }
+      },
+      "TrotSpeed": {
+        "GameplayAttribute": {
+          "AttributeName": "TrotSpeed",
+          "Attribute": {
+            "Path": [],
+            "ResolvedOwner": null
+          },
+          "AttributeOwner": {
+            "ObjectName": "Class'TIAttributeSetBase'",
+            "ObjectPath": "/Script/TheIsle"
+          }
+        },
+        "AttributeCurve": {
+          "ObjectName": "CurveLinearColor'ATT_Austroraptor_TrotSpeed'",
+          "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Austroraptor/Attributes/ATT_Austroraptor_TrotSpeed.0"
+        }
+      },
+      "SprintSpeed": {
+        "GameplayAttribute": {
+          "AttributeName": "SprintSpeed",
+          "Attribute": {
+            "Path": [],
+            "ResolvedOwner": null
+          },
+          "AttributeOwner": {
+            "ObjectName": "Class'TIAttributeSetBase'",
+            "ObjectPath": "/Script/TheIsle"
+          }
+        },
+        "AttributeCurve": {
+          "ObjectName": "CurveLinearColor'ATT_Austroraptor_SprintSpeed'",
+          "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Austroraptor/Attributes/ATT_Austroraptor_SprintSpeed.0"
+        }
+      },
+      "CrouchSpeed": {
+        "GameplayAttribute": {
+          "AttributeName": "CrouchSpeed",
+          "Attribute": {
+            "Path": [],
+            "ResolvedOwner": null
+          },
+          "AttributeOwner": {
+            "ObjectName": "Class'TIAttributeSetBase'",
+            "ObjectPath": "/Script/TheIsle"
+          }
+        },
+        "AttributeCurve": {
+          "ObjectName": "CurveLinearColor'ATT_Austroraptor_CrouchSpeed'",
+          "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Austroraptor/Attributes/ATT_Austroraptor_CrouchSpeed.0"
+        }
+      },
+      "SlowSwimSpeed": {
+        "GameplayAttribute": {
+          "AttributeName": "SlowSwimSpeed",
+          "Attribute": {
+            "Path": [],
+            "ResolvedOwner": null
+          },
+          "AttributeOwner": {
+            "ObjectName": "Class'TIAttributeSetBase'",
+            "ObjectPath": "/Script/TheIsle"
+          }
+        },
+        "AttributeCurve": {
+          "ObjectName": "CurveLinearColor'ATT_Austroraptor_SlowSwimSpeed'",
+          "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Austroraptor/Attributes/ATT_Austroraptor_SlowSwimSpeed.0"
+        }
+      },
+      "FastSwimSpeed": {
+        "GameplayAttribute": {
+          "AttributeName": "FastSwimSpeed",
+          "Attribute": {
+            "Path": [],
+            "ResolvedOwner": null
+          },
+          "AttributeOwner": {
+            "ObjectName": "Class'TIAttributeSetBase'",
+            "ObjectPath": "/Script/TheIsle"
+          }
+        },
+        "AttributeCurve": {
+          "ObjectName": "CurveLinearColor'ATT_Austroraptor_FastSwimSpeed'",
+          "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Austroraptor/Attributes/ATT_Austroraptor_FastSwimSpeed.0"
+        }
+      },
+      "Oxygen": {
+        "GameplayAttribute": {
+          "AttributeName": "Oxygen",
+          "Attribute": {
+            "Path": [
+              "Oxygen"
+            ],
+            "ResolvedOwner": {
+              "ObjectName": "Class'TIAttributeSetBase'",
+              "ObjectPath": "/Script/TheIsle"
+            }
+          },
+          "AttributeOwner": {
+            "ObjectName": "Class'TIAttributeSetBase'",
+            "ObjectPath": "/Script/TheIsle"
+          }
+        },
+        "AttributeCurve": {
+          "ObjectName": "CurveLinearColor'ATT_Austroraptor_MaxOxygen'",
+          "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Austroraptor/Attributes/ATT_Austroraptor_MaxOxygen.0"
+        }
+      },
+      "MaxOxygen": {
+        "GameplayAttribute": {
+          "AttributeName": "MaxOxygen",
+          "Attribute": {
+            "Path": [
+              "MaxOxygen"
+            ],
+            "ResolvedOwner": {
+              "ObjectName": "Class'TIAttributeSetBase'",
+              "ObjectPath": "/Script/TheIsle"
+            }
+          },
+          "AttributeOwner": {
+            "ObjectName": "Class'TIAttributeSetBase'",
+            "ObjectPath": "/Script/TheIsle"
+          }
+        },
+        "AttributeCurve": {
+          "ObjectName": "CurveLinearColor'ATT_Austroraptor_MaxOxygen'",
+          "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Austroraptor/Attributes/ATT_Austroraptor_MaxOxygen.0"
+        }
+      },
+      "Scale": {
+        "GameplayAttribute": {
+          "AttributeName": "Scale",
+          "Attribute": {
+            "Path": [
+              "Scale"
+            ],
+            "ResolvedOwner": {
+              "ObjectName": "Class'TIAttributeSetBase'",
+              "ObjectPath": "/Script/TheIsle"
+            }
+          },
+          "AttributeOwner": {
+            "ObjectName": "Class'TIAttributeSetBase'",
+            "ObjectPath": "/Script/TheIsle"
+          }
+        },
+        "AttributeCurve": {
+          "ObjectName": "CurveLinearColor'ATT_Austroraptor_Scale'",
+          "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Austroraptor/Attributes/ATT_Austroraptor_Scale.0"
+        }
+      },
+      "PackRange": {
+        "GameplayAttribute": {
+          "AttributeName": "PackRange",
+          "Attribute": {
+            "Path": [
+              "PackRange"
+            ],
+            "ResolvedOwner": {
+              "ObjectName": "Class'TIAttributeSetBase'",
+              "ObjectPath": "/Script/TheIsle"
+            }
+          },
+          "AttributeOwner": {
+            "ObjectName": "Class'TIAttributeSetBase'",
+            "ObjectPath": "/Script/TheIsle"
+          }
+        },
+        "AttributeCurve": {
+          "ObjectName": "CurveLinearColor'ATT_Austroraptor_PackRange'",
+          "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Austroraptor/Attributes/ATT_Austroraptor_PackRange.0"
+        }
+      },
+      "PackValue": {
+        "GameplayAttribute": {
+          "AttributeName": "PackValue",
+          "Attribute": {
+            "Path": [
+              "PackValue"
+            ],
+            "ResolvedOwner": {
+              "ObjectName": "Class'TIAttributeSetBase'",
+              "ObjectPath": "/Script/TheIsle"
+            }
+          },
+          "AttributeOwner": {
+            "ObjectName": "Class'TIAttributeSetBase'",
+            "ObjectPath": "/Script/TheIsle"
+          }
+        },
+        "AttributeCurve": {
+          "ObjectName": "CurveLinearColor'ATT_Austroraptor_PackValue'",
+          "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Austroraptor/Attributes/ATT_Austroraptor_PackValue.0"
+        }
+      },
+      "PackValueMixed": {
+        "GameplayAttribute": {
+          "AttributeName": "PackValueMixed",
+          "Attribute": {
+            "Path": [
+              "PackValueMixed"
+            ],
+            "ResolvedOwner": {
+              "ObjectName": "Class'TIAttributeSetBase'",
+              "ObjectPath": "/Script/TheIsle"
+            }
+          },
+          "AttributeOwner": {
+            "ObjectName": "Class'TIAttributeSetBase'",
+            "ObjectPath": "/Script/TheIsle"
+          }
+        },
+        "AttributeCurve": {
+          "ObjectName": "CurveLinearColor'ATT_Austroraptor_PackValueMixed'",
+          "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Austroraptor/Attributes/ATT_Austroraptor_PackValueMixed.0"
+        }
+      },
+      "Blood": {
+        "GameplayAttribute": {
+          "AttributeName": "Blood",
+          "Attribute": {
+            "Path": [
+              "Blood"
+            ],
+            "ResolvedOwner": {
+              "ObjectName": "Class'TIAttributeSetBase'",
+              "ObjectPath": "/Script/TheIsle"
+            }
+          },
+          "AttributeOwner": {
+            "ObjectName": "Class'TIAttributeSetBase'",
+            "ObjectPath": "/Script/TheIsle"
+          }
+        },
+        "AttributeCurve": {
+          "ObjectName": "CurveLinearColor'ATT_Austroraptor_Weight'",
+          "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Austroraptor/Attributes/ATT_Austroraptor_Weight.0"
+        }
+      },
+      "MaxBlood": {
+        "GameplayAttribute": {
+          "AttributeName": "MaxBlood",
+          "Attribute": {
+            "Path": [
+              "MaxBlood"
+            ],
+            "ResolvedOwner": {
+              "ObjectName": "Class'TIAttributeSetBase'",
+              "ObjectPath": "/Script/TheIsle"
+            }
+          },
+          "AttributeOwner": {
+            "ObjectName": "Class'TIAttributeSetBase'",
+            "ObjectPath": "/Script/TheIsle"
+          }
+        },
+        "AttributeCurve": {
+          "ObjectName": "CurveLinearColor'ATT_Austroraptor_Weight'",
+          "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Austroraptor/Attributes/ATT_Austroraptor_Weight.0"
+        }
+      },
+      "NightVisionRange": {
+        "GameplayAttribute": {
+          "AttributeName": "NightVisionRange",
+          "Attribute": {
+            "Path": [
+              "NightVisionRange"
+            ],
+            "ResolvedOwner": {
+              "ObjectName": "Class'TIAttributeSetBase'",
+              "ObjectPath": "/Script/TheIsle"
+            }
+          },
+          "AttributeOwner": {
+            "ObjectName": "Class'TIAttributeSetBase'",
+            "ObjectPath": "/Script/TheIsle"
+          }
+        },
+        "AttributeCurve": {
+          "ObjectName": "CurveLinearColor'ATT_Austroraptor_NightVisionRange'",
+          "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Austroraptor/Attributes/ATT_Austroraptor_NightVisionRange.0"
+        }
+      },
+      "CrouchWalkSpeed": {
+        "GameplayAttribute": {
+          "AttributeName": "WalkSpeed",
+          "Attribute": {
+            "Path": [],
+            "ResolvedOwner": null
+          },
+          "AttributeOwner": {
+            "ObjectName": "Class'TIAttributeSetBase'",
+            "ObjectPath": "/Script/TheIsle"
+          }
+        },
+        "AttributeCurve": {
+          "ObjectName": "CurveLinearColor'ATT_Austroraptor_CrouchSpeed'",
+          "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Austroraptor/Attributes/ATT_Austroraptor_CrouchSpeed.0"
+        }
+      },
+      "CrouchTrotSpeed": {
+        "GameplayAttribute": {
+          "AttributeName": "WalkSpeed",
+          "Attribute": {
+            "Path": [],
+            "ResolvedOwner": null
+          },
+          "AttributeOwner": {
+            "ObjectName": "Class'TIAttributeSetBase'",
+            "ObjectPath": "/Script/TheIsle"
+          }
+        },
+        "AttributeCurve": {
+          "ObjectName": "CurveLinearColor'ATT_Austroraptor_CrouchSpeed'",
+          "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Austroraptor/Attributes/ATT_Austroraptor_CrouchSpeed.0"
+        }
+      },
+      "CrouchSprintSpeed": {
+        "GameplayAttribute": {
+          "AttributeName": "WalkSpeed",
+          "Attribute": {
+            "Path": [],
+            "ResolvedOwner": null
+          },
+          "AttributeOwner": {
+            "ObjectName": "Class'TIAttributeSetBase'",
+            "ObjectPath": "/Script/TheIsle"
+          }
+        },
+        "AttributeCurve": {
+          "ObjectName": "CurveLinearColor'ATT_Austroraptor_CrouchSpeed'",
+          "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Austroraptor/Attributes/ATT_Austroraptor_CrouchSpeed.0"
+        }
+      }
+    }
+  }
+]

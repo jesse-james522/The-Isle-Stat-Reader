@@ -1,0 +1,2258 @@
+[
+  {
+    "Type": "TIDinosaurMontages",
+    "Name": "DA_TyrannosaurusMontages",
+    "Class": "UScriptClass'TIDinosaurMontages'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Vocals": {
+        "Generic": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Hatchling_Generic'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Hatchling_Generic.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Juvenile_Generic'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Juvenile_Generic.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Subadult_Generic'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Subadult_Generic.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Vocal_Generic'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Vocal_Generic.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Vocal_Generic'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Vocal_Generic.0"
+          }
+        },
+        "Broadcast": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Hatchling_Vocal_Broadcast'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Hatchling_Vocal_Broadcast.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Juvenile_Vocal_Broadcast'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Juvenile_Vocal_Broadcast.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Subadult_Vocal_Broadcast'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_SubAdult_Vocal_Broadcast.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Vocal_Broadcast'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Vocal_Broadcast.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Vocal_Broadcast'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Vocal_Broadcast.0"
+          }
+        },
+        "Attract": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Hatchling_Vocal_Attract'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Hatchling_Vocal_Attract.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Juvenile_Vocal_Attract'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Juvenile_Vocal_Attract.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_SubAdult_Vocal_Attract'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_SubAdult_Vocal_Attract.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Vocal_Attract'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Vocal_Attract.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Vocal_Attract'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Vocal_Attract.0"
+          }
+        },
+        "Threaten": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Hatchling_Vocal_Threaten'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Hatchling_Vocal_Threaten.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Juvenile_Vocal_Threaten_RF'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Juvenile_Vocal_Threaten_RF.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Subadult_Vocal_Threaten'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_SubAdult_Vocal_Threaten.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Vocal_Threaten'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Vocal_Threaten.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Vocal_Threaten'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Vocal_Threaten.0"
+          }
+        },
+        "Danger": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Hatchling_Vocal_Danger'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Hatchling_Vocal_Danger.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Juvenile_Vocal_Danger'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Juvenile_Vocal_Danger.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_SubAdult_Vocal_Danger'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_SubAdult_Vocal_Danger.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Vocal_Danger'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Vocal_Danger.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Vocal_Danger'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Vocal_Danger.0"
+          }
+        }
+      },
+      "Eat": {
+        "EatIn": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Hatchling_Eat3_In'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Hatchling_Eat3_In.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Juvenile_Eat3_In'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Juvenile_Eat3_In.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_SubAdult_Eat3_In'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_SubAdult_Eat3_In.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Eat3_In'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Eat3_In.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Eat3_In'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Eat3_In.0"
+          }
+        },
+        "EatEnd": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Hatchling_Eat3_Out'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Hatchling_Eat3_Out.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Juvenile_Eat3_Out'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Juvenile_Eat3_Out.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_SubAdult_Eat3_Out'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_SubAdult_Eat3_Out.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Eat3_Out'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Eat3_Out.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Eat3_Out'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Eat3_Out.0"
+          }
+        },
+        "Swallow": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Hatchling_Swallow'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Hatchling_Swallow.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Juvenile_Swallow'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Juvenile_Swallow.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Subadult_Swallow'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Subadult_Swallow.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Swallow'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Swallow.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Swallow'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Swallow.0"
+          }
+        },
+        "Vomit": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Hatchling_Vomit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Hatchling_Vomit.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Juvenile_Vomit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Juvenile_Vomit.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Subadult_Vomit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Subadult_Vomit.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Vomit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Vomit.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Vomit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Vomit.0"
+          }
+        }
+      },
+      "Drink": {
+        "Hatchling": {
+          "ObjectName": "AnimMontage'AM_Tyrannosaurus_Hatchling_Drink2_In'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Hatchling_Drink2_In.0"
+        },
+        "Juvenile": {
+          "ObjectName": "AnimMontage'AM_Tyrannosaurus_Juvenile_Drink2_In'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Juvenile_Drink2_In.0"
+        },
+        "Subadult": {
+          "ObjectName": "AnimMontage'AM_Tyrannosaurus_SubAdult_Drink2_In'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_SubAdult_Drink2_In.0"
+        },
+        "Adult": {
+          "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Drink2In'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Drink2In.0"
+        },
+        "Elder": {
+          "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Drink2In'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Drink2In.0"
+        }
+      },
+      "DrinkEnd": {
+        "Hatchling": {
+          "ObjectName": "AnimMontage'AM_Tyrannosaurus_Hatchling_Drink2_Out'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Hatchling_Drink2_Out.0"
+        },
+        "Juvenile": {
+          "ObjectName": "AnimMontage'AM_Tyrannosaurus_Juvenile_Drink2_Out'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Juvenile_Drink2_Out.0"
+        },
+        "Subadult": {
+          "ObjectName": "AnimMontage'AM_Tyrannosaurus_SubAdult_Drink2_Out'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_SubAdult_Drink2_Out.0"
+        },
+        "Adult": {
+          "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Drink2_Out'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Drink2_Out.0"
+        },
+        "Elder": {
+          "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Drink2_Out'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Drink2_Out.0"
+        }
+      },
+      "Feed": {
+        "Hatchling": {
+          "ObjectName": "AnimMontage'AM_Tyrannosaurus_Hatchling_Feed'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Hatchling_Feed.0"
+        },
+        "Juvenile": {
+          "ObjectName": "AnimMontage'AM_Tyrannosaurus_Juvenile_Feed'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Juvenile_Feed.0"
+        },
+        "Subadult": {
+          "ObjectName": "AnimMontage'AM_Tyrannosaurus_Subadult_Feed'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Subadult_Feed.0"
+        },
+        "Adult": {
+          "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Feed'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Feed.0"
+        },
+        "Elder": {
+          "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Feed'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Feed.0"
+        }
+      },
+      "Rest": {
+        "StandToSit": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Hatchling_StandToSit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Hatchling_StandToSit.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Juvenile_StandToSit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Juvenile_StandToSit.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Subadult_StandToSit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Subadult_StandToSit.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_StandToSit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_StandToSit.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_StandToSit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_StandToSit.0"
+          }
+        },
+        "SitToStand": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Hatchling_SitToStand'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Hatchling_SitToStand.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Juvenile_SitToStand'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Juvenile_SitToStand.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Subadult_SitToStand'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Subadult_SitToStand.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_SitToStand'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_SitToStand.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_SitToStand'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_SitToStand.0"
+          }
+        },
+        "SitToStandFast": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Hatchling_SitToStandFast'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Hatchling_SitToStandFast.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Juvenile_SitToStandFast'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Juvenile_SitToStandFast.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Subadult_SitToStandFast'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Subadult_SitToStandFast.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_SitToStandFast'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_SitToStandFast.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_SitToStandFast'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_SitToStandFast.0"
+          }
+        },
+        "SitToSleep": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Hatchling_SitToSleep'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Hatchling_SitToSleep.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Juvenile_SitToSleep'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Juvenile_SitToSleep.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Subadult_SitToSleep'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Subadult_SitToSleep.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_SitToSleep'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_SitToSleep.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_SitToSleep'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_SitToSleep.0"
+          }
+        },
+        "SleepToSit": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Hatchling_SleepToSit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Hatchling_SleepToSit.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Juvenile_SleepToSit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Juvenile_SleepToSit.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Subadult_SleepToSit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Subadult_SleepToSit.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_SleepToSit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_SleepToSit.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_SleepToSit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_SleepToSit.0"
+          }
+        }
+      },
+      "PickupL": {
+        "Hatchling": {
+          "ObjectName": "AnimMontage'AM_Tyrannosaurus_Hatchling_Carry_Grab'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Hatchling_Carry_Grab.0"
+        },
+        "Juvenile": {
+          "ObjectName": "AnimMontage'AM_Tyrannosaurus_Juvenile_Carry_Grab'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Juvenile_Carry_Grab.0"
+        },
+        "Subadult": {
+          "ObjectName": "AnimMontage'AM_Tyrannosaurus_Subadult_Carry_Grab'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Subadult_Carry_Grab.0"
+        },
+        "Adult": {
+          "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Carry_Grab'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Carry_Grab.0"
+        },
+        "Elder": {
+          "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Carry_Grab'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Carry_Grab.0"
+        }
+      },
+      "PickupR": {
+        "Hatchling": {
+          "ObjectName": "AnimMontage'AM_Tyrannosaurus_Hatchling_Carry_Grab'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Hatchling_Carry_Grab.0"
+        },
+        "Juvenile": {
+          "ObjectName": "AnimMontage'AM_Tyrannosaurus_Juvenile_Carry_Grab'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Juvenile_Carry_Grab.0"
+        },
+        "Subadult": {
+          "ObjectName": "AnimMontage'AM_Tyrannosaurus_Subadult_Carry_Grab'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Subadult_Carry_Grab.0"
+        },
+        "Adult": {
+          "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Carry_Grab'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Carry_Grab.0"
+        },
+        "Elder": {
+          "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Carry_Grab'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Carry_Grab.0"
+        }
+      },
+      "Bite": {
+        "Hatchling": {
+          "ObjectName": "AnimMontage'AM_Tyrannosaurus_Hatchling_Bite'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Hatchling_Bite.0"
+        },
+        "Juvenile": {
+          "ObjectName": "AnimMontage'AM_Tyrannosaurus_Juvenile_Bite'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Juvenile_Bite.0"
+        },
+        "Subadult": {
+          "ObjectName": "AnimMontage'AM_Tyrannosaurus_SubAdult_Bite'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_SubAdult_Bite.0"
+        },
+        "Adult": {
+          "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Bite'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Bite.0"
+        },
+        "Elder": {
+          "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Bite'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Bite.0"
+        }
+      },
+      "Court": {
+        "Male": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Subadult_CourtM'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Subadult_CourtM.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Subadult_CourtM'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Subadult_CourtM.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Subadult_CourtM'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Subadult_CourtM.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_CourtM'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_CourtM.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_CourtM'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_CourtM.0"
+          }
+        },
+        "Female": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Subadult_CourtF'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Subadult_CourtF.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Subadult_CourtF'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Subadult_CourtF.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Subadult_CourtF'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Subadult_CourtF.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_CourtF'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_CourtF.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_CourtF'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_CourtF.0"
+          }
+        }
+      },
+      "Nest": {
+        "Build": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Subadult_Nest_Build'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Subadult_Nest_Build.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Subadult_Nest_Build'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Subadult_Nest_Build.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Subadult_Nest_Build'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Subadult_Nest_Build.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Nest_Build'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Nest_Build.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Nest_Build'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Nest_Build.0"
+          }
+        },
+        "Manage1": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Subadult_Nest_Manage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Subadult_Nest_Manage.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Subadult_Nest_Manage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Subadult_Nest_Manage.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Subadult_Nest_Manage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Subadult_Nest_Manage.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Nest_Manage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Nest_Manage.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Nest_Manage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Nest_Manage.0"
+          }
+        },
+        "Manage2": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Nest_Manage_Arms'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Nest_Manage_Arms.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Subadult_Nest_Manage_Arms'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Subadult_Nest_Manage_Arms.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Subadult_Nest_Manage_Arms'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Subadult_Nest_Manage_Arms.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Nest_Manage_Arms'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Nest_Manage_Arms.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Nest_Manage_Arms'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Nest_Manage_Arms.0"
+          }
+        },
+        "Manage3": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Subadult_Nest_Manage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Subadult_Nest_Manage.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Subadult_Nest_Manage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Subadult_Nest_Manage.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Subadult_Nest_Manage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Subadult_Nest_Manage.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Nest_Manage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Nest_Manage.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Nest_Manage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Nest_Manage.0"
+          }
+        }
+      },
+      "Hit": {
+        "Light": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Hatchling_RecoilL'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Hatchling_RecoilL.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Juvenile_RecoilL'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Juvenile_RecoilL.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_SubAdult_RecoilL'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_SubAdult_RecoilL.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_RecoilL'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_RecoilL.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_RecoilL'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_RecoilL.0"
+          }
+        },
+        "Heavy": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Hatchling_RecoilH'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Hatchling_RecoilH.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Juvenile_RecoilH'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Juvenile_RecoilH.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_SubAdult_RecoilH'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_SubAdult_RecoilH.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_RecoilH'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_RecoilH.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_RecoilH'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_RecoilH.0"
+          }
+        },
+        "StaggerF": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Hatchling_StaggerF'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Hatchling_StaggerF.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Juvenile_StaggerF'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Juvenile_StaggerF.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_SubAdult_StaggerF'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_SubAdult_StaggerF.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_StaggerF'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_StaggerF.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_StaggerF'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_StaggerF.0"
+          }
+        },
+        "StaggerB": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Hatchling_StaggerB'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Hatchling_StaggerB.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Juvenile_StaggerB'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Juvenile_StaggerB.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_SubAdult_StaggerB'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_SubAdult_StaggerB.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_StaggerB'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_StaggerB.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_StaggerB'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_StaggerB.0"
+          }
+        },
+        "StaggerR": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Hatchling_StaggerR'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Hatchling_StaggerR.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Juvenile_StaggerR'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Juvenile_StaggerR.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_SubAdult_StaggerR'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_SubAdult_StaggerR.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_StaggerR'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_StaggerR.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_StaggerR'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_StaggerR.0"
+          }
+        },
+        "StaggerL": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Hatchling_StaggerL'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Hatchling_StaggerL.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Juvenile_StaggerL'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Juvenile_StaggerL.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_SubAdult_StaggerL'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_SubAdult_StaggerL.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_StaggerL'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_StaggerL.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_StaggerL'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_StaggerL.0"
+          }
+        }
+      },
+      "Interact": {
+        "Wallow": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Hatchling_Wallow'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Hatchling_Wallow.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Juvenile_Wallow'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Juvenile_Wallow.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Subadult_Wallow'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Subadult_Wallow.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Wallow'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Wallow.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Wallow'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Wallow.0"
+          }
+        },
+        "WallowRecover": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Hatchling_Wallow_Recover'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Hatchling_Wallow_Recover.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Juvenile_Wallow_Recover'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Juvenile_Wallow_Recover.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Subadult_Wallow_Recover'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Subadult_Wallow_Recover.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Wallow_Recover'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Wallow_Recover.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Wallow_Recover'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Wallow_Recover.0"
+          }
+        },
+        "Salt": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Hatchling_Salt'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Hatchling_Salt.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Juvenile_Salt'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Juvenile_Salt.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Subadult_Salt'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Subadult_Salt.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Salt'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Salt.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Salt'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Salt.0"
+          }
+        },
+        "Dig": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Hatchling_Dig'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Hatchling_Dig.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Juvenile_Dig'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Juvenile_Dig.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Subadult_Dig'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Subadult_Dig.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Dig'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Dig.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Dig'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Dig.0"
+          }
+        },
+        "OpenCorpse": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Hatchling_OpenBody'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Hatchling_OpenBody.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Juvenile_OpenBody'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Juvenile_OpenBody.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Subadult_OpenBody'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Subadult_OpenBody.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_OpenBody'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_OpenBody.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_OpenBody'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_OpenBody.0"
+          }
+        }
+      },
+      "Blinded": {
+        "Hatchling": {
+          "ObjectName": "AnimMontage'AM_Tyrannosaurus_Hatchling_Blind'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Hatchling_Blind.0"
+        },
+        "Juvenile": {
+          "ObjectName": "AnimMontage'AM_Tyrannosaurus_Juvenile_Blind'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Juvenile_Blind.0"
+        },
+        "Subadult": {
+          "ObjectName": "AnimMontage'AM_Tyrannosaurus_Subadult_Blind'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Subadult_Blind.0"
+        },
+        "Adult": {
+          "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Blind'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Blind.0"
+        },
+        "Elder": {
+          "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Blind'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Blind.0"
+        }
+      },
+      "PouncedStruggle": {
+        "Hatchling": {
+          "ObjectName": "AnimMontage'AM_Tyrannosaurus_Hatchling_Pounced'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Hatchling_Pounced.0"
+        },
+        "Juvenile": {
+          "ObjectName": "AnimMontage'AM_Tyrannosaurus_Juvenile_Pounced'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Juvenile_Pounced.0"
+        },
+        "Subadult": {
+          "ObjectName": "AnimMontage'AM_Tyrannosaurus_Subadult_Pounced'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Subadult_Pounced.0"
+        },
+        "Adult": {
+          "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Pounced'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Pounced.0"
+        },
+        "Elder": {
+          "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Pounced'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Pounced.0"
+        }
+      },
+      "PouncedStruggleMoving": {
+        "Hatchling": {
+          "ObjectName": "AnimMontage'AM_Tyrannosaurus_Hatchling_Pounced'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Hatchling_Pounced.0"
+        },
+        "Juvenile": {
+          "ObjectName": "AnimMontage'AM_Tyrannosaurus_Juvenile_Pounced'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Juvenile_Pounced.0"
+        },
+        "Subadult": {
+          "ObjectName": "AnimMontage'AM_Tyrannosaurus_Subadult_Pounced'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Subadult_Pounced.0"
+        },
+        "Adult": {
+          "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Pounced'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Pounced.0"
+        },
+        "Elder": {
+          "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Pounced'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Pounced.0"
+        }
+      },
+      "Unique": [
+        {
+          "Key": "CorpseShake",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Hatchling_Thrash'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Hatchling_Thrash.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Juvenile_Thrash'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Juvenile_Thrash.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_SubAdult_Thrash'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_SubAdult_Thrash.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Thrash'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Thrash.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Thrash'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Thrash.0"
+            }
+          }
+        },
+        {
+          "Key": "HeadButtStart",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Hatchling_HeadbuttF'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Hatchling_HeadbuttF.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Juvenile_HeadbuttF'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Juvenile_HeadbuttF.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_SubAdult_HeadbuttF'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_SubAdult_HeadbuttF.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_HeadbuttF'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_HeadbuttF.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_HeadbuttF'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_HeadbuttF.0"
+            }
+          }
+        },
+        {
+          "Key": "LungeStart",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Hatchling_CrushLF'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Hatchling_CrushLF.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Juvenile_CrushLF'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Juvenile_CrushLF.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_SubAdult_CrushLF'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_SubAdult_CrushLF.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_CrushLF'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_CrushLF.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_CrushLF'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_CrushLF.0"
+            }
+          }
+        },
+        {
+          "Key": "LungeHit",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Hatchling_Crush_Maul'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Hatchling_Crush_Maul.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Juvenile_Crush_Maul'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Juvenile_Crush_Maul.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_SubAdult_Crush_Maul'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_SubAdult_Crush_Maul.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Crush_Maul'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Crush_Maul.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Crush_Maul'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Crush_Maul.0"
+            }
+          }
+        },
+        {
+          "Key": "ThrowR",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Hatchling_Crush_ThrowR'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Hatchling_Crush_ThrowR.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Juvenile_Crush_ThrowR'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Juvenile_Crush_ThrowR.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_SubAdult_Crush_ThrowR'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_SubAdult_Crush_ThrowR.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Crush_ThrowR'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Crush_ThrowR.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Crush_ThrowR'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Crush_ThrowR.0"
+            }
+          }
+        },
+        {
+          "Key": "LungeMutilate",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Hatchling_Crush_Maul'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Hatchling_Crush_Maul.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Juvenile_Crush_Maul'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Juvenile_Crush_Maul.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_SubAdult_Crush_Maul'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_SubAdult_Crush_Maul.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Crush_Maul'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Crush_Maul.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Crush_Maul'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Crush_Maul.0"
+            }
+          }
+        },
+        {
+          "Key": "LungeStartLarge",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Hatchling_CrushLF_Large'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Hatchling_CrushLF_Large.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Juvenile_CrushLF_Large'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Juvenile_CrushLF_Large.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_SubAdult_CrushLF_Large'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_SubAdult_CrushLF_Large.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_CrushLF_Large'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_CrushLF_Large.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_CrushLF_Large'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_CrushLF_Large.0"
+            }
+          }
+        },
+        {
+          "Key": "CrushBite",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Hatchling_Crush_Bite'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Hatchling_Crush_Bite.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Juvenile_Crush_Bite'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Juvenile_Crush_Bite.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_SubAdult_Crush_Bite'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_SubAdult_Crush_Bite.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Crush_Bite'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Crush_Bite.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Crush_Bite'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Crush_Bite.0"
+            }
+          }
+        },
+        {
+          "Key": "CrushKill",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Hatchling_Crush_Kill_Alt'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Hatchling_Crush_Kill_Alt.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Juvenile_Crush_Kill_Alt'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Juvenile_Crush_Kill_Alt.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_SubAdult_Crush_Kill_Alt'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_SubAdult_Crush_Kill_Alt.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Crush_Kill_Alt'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Crush_Kill_Alt.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Crush_Kill_Alt'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Crush_Kill_Alt.0"
+            }
+          }
+        },
+        {
+          "Key": "ThrowU",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Hatchling_Crush_ThrowU'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Hatchling_Crush_ThrowU.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Juvenile_Crush_ThrowU'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Juvenile_Crush_ThrowU.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_SubAdult_Crush_ThrowU'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_SubAdult_Crush_ThrowU.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Crush_ThrowU'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Crush_ThrowU.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Crush_ThrowU'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Crush_ThrowU.0"
+            }
+          }
+        },
+        {
+          "Key": "FlipL",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Hatchling_Crouch_FlipL'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Hatchling_Crouch_FlipL.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Juvenile_Crouch_FlipL'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Juvenile_Crouch_FlipL.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_SubAdult_Crouch_FlipL'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_SubAdult_Crouch_FlipL.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Crouch_FlipL'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Crouch_FlipL.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Crouch_FlipL'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Crouch_FlipL.0"
+            }
+          }
+        },
+        {
+          "Key": "FlipR",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Hatchling_Crouch_FlipR'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Hatchling_Crouch_FlipR.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Juvenile_Crouch_FlipR'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Juvenile_Crouch_FlipR.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_SubAdult_Crouch_FlipR'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_SubAdult_Crouch_FlipR.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Crouch_FlipR'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Crouch_FlipR.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Crouch_FlipR'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Crouch_FlipR.0"
+            }
+          }
+        },
+        {
+          "Key": "MuzzleSwingF",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Hatchling_HeadbuttFToIdle'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Hatchling_HeadbuttFToIdle.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Juvenile_HeadbuttFToIdle'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Juvenile_HeadbuttFToIdle.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_SubAdult_HeadbuttFToIdle'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_SubAdult_HeadbuttFToIdle.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_HeadbuttFToIdle'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_HeadbuttFToIdle.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_HeadbuttFToIdle'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_HeadbuttFToIdle.0"
+            }
+          }
+        },
+        {
+          "Key": "MuzzleSwingL",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Hatchling_HeadbuttFToIdle'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Hatchling_HeadbuttFToIdle.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Juvenile_HeadbuttFToIdle'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Juvenile_HeadbuttFToIdle.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_SubAdult_HeadbuttFToIdle'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_SubAdult_HeadbuttFToIdle.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_HeadbuttFToIdle'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_HeadbuttFToIdle.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_HeadbuttFToIdle'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_HeadbuttFToIdle.0"
+            }
+          }
+        },
+        {
+          "Key": "MuzzleSwingR",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Hatchling_HeadbuttFToIdle'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Hatchling_HeadbuttFToIdle.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Juvenile_HeadbuttFToIdle'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Juvenile_HeadbuttFToIdle.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_SubAdult_HeadbuttFToIdle'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_SubAdult_HeadbuttFToIdle.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_HeadbuttFToIdle'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_HeadbuttFToIdle.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_HeadbuttFToIdle'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_HeadbuttFToIdle.0"
+            }
+          }
+        },
+        {
+          "Key": "MuzzleSwingTap",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Hatchling_MuzzleSwingF'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Hatchling_MuzzleSwingF.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Juvenile_MuzzleSwingF'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Juvenile_MuzzleSwingF.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_SubAdult_MuzzleSwingF'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_SubAdult_MuzzleSwingF.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_MuzzleSwingFTap'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_MuzzleSwingFTap.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_MuzzleSwingFTap'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_MuzzleSwingFTap.0"
+            }
+          }
+        },
+        {
+          "Key": "Gastrolith",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Hatchling_Carry_Grab_Gastrolith'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Hatchling_Carry_Grab_Gastrolith.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Juvenile_Carry_Grab_Gastrolith'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Juvenile_Carry_Grab_Gastrolith.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Subadult_Carry_Grab_Gastrolith'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Subadult_Carry_Grab_Gastrolith.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Carry_Grab_Gastrolith'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Carry_Grab_Gastrolith.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Carry_Grab_Gastrolith'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Carry_Grab_Gastrolith.0"
+            }
+          }
+        },
+        {
+          "Key": "MuzzleSwingFSprint",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Hatchling_HeadbuttF_SprinttoIdle'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Hatchling_HeadbuttF_SprinttoIdle.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Juvenile_HeadbuttF_SprinttoIdle'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Juvenile_HeadbuttF_SprinttoIdle.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Subadult_HeadbuttF_SprinttoIdle'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Subadult_HeadbuttF_SprinttoIdle.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_HeadbuttF_SprinttoIdle'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_HeadbuttF_SprinttoIdle.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_HeadbuttF_SprinttoIdle'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_HeadbuttF_SprinttoIdle.0"
+            }
+          }
+        },
+        {
+          "Key": "ThrowL",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Hatchling_Crush_ThrowL'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Hatchling_Crush_ThrowL.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Juvenile_Crush_ThrowL'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Juvenile_Crush_ThrowL.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_SubAdult_Crush_ThrowL'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_SubAdult_Crush_ThrowL.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Crush_ThrowL'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Crush_ThrowL.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Crush_ThrowL'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Crush_ThrowL.0"
+            }
+          }
+        },
+        {
+          "Key": "SparRam",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Hatchling_Bite'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Hatchling_Bite.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Juvenile_Bite'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Juvenile_Bite.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_SubAdult_Bite'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_SubAdult_Bite.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Bite'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Bite.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Bite'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Bite.0"
+            }
+          }
+        },
+        {
+          "Key": "SparFlipL",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Hatchling_Spar_FlipL'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Hatchling_Spar_FlipL.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Juvenile_Spar_FlipL'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Juvenile_Spar_FlipL.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_SubAdult_Spar_FlipL'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_SubAdult_Spar_FlipL.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Spar_FlipL'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Spar_FlipL.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Spar_FlipL'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Spar_FlipL.0"
+            }
+          }
+        },
+        {
+          "Key": "SparFlipR",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Hatchling_Spar_FlipR'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Hatchling_Spar_FlipR.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Juvenile_Spar_FlipR'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Juvenile_Spar_FlipR.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_SubAdult_Spar_FlipR'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_SubAdult_Spar_FlipR.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Spar_FlipR'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Spar_FlipR.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Spar_FlipR'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Spar_FlipR.0"
+            }
+          }
+        },
+        {
+          "Key": "SparFlungL",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_PlaceholderR'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_PlaceholderR.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_PlaceholderR'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_PlaceholderR.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_PlaceholderR'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_PlaceholderR.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_PlaceholderR'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_PlaceholderR.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_PlaceholderR'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_PlaceholderR.0"
+            }
+          }
+        },
+        {
+          "Key": "SparFlungR",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_PlaceholderL'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_PlaceholderL.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_PlaceholderL'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_PlaceholderL.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_PlaceholderL'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_PlaceholderL.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_PlaceholderL'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_PlaceholderL.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_PlaceholderL'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_PlaceholderL.0"
+            }
+          }
+        },
+        {
+          "Key": "SparSidestepL",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Hatchling_Spar_SidestepL'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Hatchling_Spar_SidestepL.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Juvenile_Spar_SidestepL'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Juvenile_Spar_SidestepL.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_SubAdult_Spar_SidestepL'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_SubAdult_Spar_SidestepL.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Spar_SidestepL'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Spar_SidestepL.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Spar_SidestepL'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Spar_SidestepL.0"
+            }
+          }
+        },
+        {
+          "Key": "SparSidestepR",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Hatchling_Spar_SidestepR'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Hatchling_Spar_SidestepR.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Juvenile_Spar_SidestepR'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Juvenile_Spar_SidestepR.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_SubAdult_Spar_SidestepR'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_SubAdult_Spar_SidestepR.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Spar_SidestepR'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Spar_SidestepR.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Spar_SidestepR'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Spar_SidestepR.0"
+            }
+          }
+        },
+        {
+          "Key": "SparFlipU",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Hatchling_Spar_FlipU'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Hatchling_Spar_FlipU.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Juvenile_Spar_FlipU'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Juvenile_Spar_FlipU.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_SubAdult_Spar_FlipU'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_SubAdult_Spar_FlipU.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Spar_FlipU'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Spar_FlipU.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Spar_FlipU'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Spar_FlipU.0"
+            }
+          }
+        }
+      ],
+      "UniqueDirectional": [
+        {
+          "Key": "AltBite",
+          "Value": {
+            "LF": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Hatchling_Directional_Attack_F'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Hatchling_Directional_Attack_F.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Juvenile_Directional_Attack_F'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Juvenile_Directional_Attack_F.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Subadult_Directional_Attack_F'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Subadult_Directional_Attack_F.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Directional_Attack_F'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Directional_Attack_F.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Directional_Attack_F'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Directional_Attack_F.0"
+              }
+            },
+            "L45": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Hatchling_Directional_Attack_L45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Hatchling_Directional_Attack_L45.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Juvenile_Directional_Attack_L45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Juvenile_Directional_Attack_L45.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Subadult_Directional_Attack_L45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Subadult_Directional_Attack_L45.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Directional_Attack_L45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Directional_Attack_L45.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Directional_Attack_L45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Directional_Attack_L45.0"
+              }
+            },
+            "L90": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Hatchling_Directional_Attack_L90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Hatchling_Directional_Attack_L90.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Juvenile_Directional_Attack_L90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Juvenile_Directional_Attack_L90.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Subadult_Directional_Attack_L90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Subadult_Directional_Attack_L90.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Directional_Attack_L90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Directional_Attack_L90.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Directional_Attack_L90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Directional_Attack_L90.0"
+              }
+            },
+            "L135": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Hatchling_Directional_Attack_L135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Hatchling_Directional_Attack_L135.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Juvenile_Directional_Attack_L135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Juvenile_Directional_Attack_L135.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Subadult_Directional_Attack_L135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Subadult_Directional_Attack_L135.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Directional_Attack_L135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Directional_Attack_L135.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Directional_Attack_L135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Directional_Attack_L135.0"
+              }
+            },
+            "L180": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Hatchling_Directional_Attack_L180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Hatchling_Directional_Attack_L180.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Juvenile_Directional_Attack_L180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Juvenile_Directional_Attack_L180.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Subadult_Directional_Attack_L180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Subadult_Directional_Attack_L180.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Directional_Attack_L180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Directional_Attack_L180.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Directional_Attack_L180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Directional_Attack_L180.0"
+              }
+            },
+            "RF": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Hatchling_Directional_Attack_F'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Hatchling_Directional_Attack_F.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Juvenile_Directional_Attack_F'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Juvenile_Directional_Attack_F.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Subadult_Directional_Attack_F'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Subadult_Directional_Attack_F.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Directional_Attack_F'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Directional_Attack_F.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Directional_Attack_F'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Directional_Attack_F.0"
+              }
+            },
+            "R45": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Hatchling_Directional_Attack_R45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Hatchling_Directional_Attack_R45.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Juvenile_Directional_Attack_R45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Juvenile_Directional_Attack_R45.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Subadult_Directional_Attack_R45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Subadult_Directional_Attack_R45.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Directional_Attack_R45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Directional_Attack_R45.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Directional_Attack_R45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Directional_Attack_R45.0"
+              }
+            },
+            "R90": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Hatchling_Directional_Attack_R90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Hatchling_Directional_Attack_R90.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Juvenile_Directional_Attack_R90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Juvenile_Directional_Attack_R90.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Subadult_Directional_Attack_R90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Subadult_Directional_Attack_R90.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Directional_Attack_R90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Directional_Attack_R90.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Directional_Attack_R90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Directional_Attack_R90.0"
+              }
+            },
+            "R135": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Hatchling_Directional_Attack_R135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Hatchling_Directional_Attack_R135.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Juvenile_Directional_Attack_R135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Juvenile_Directional_Attack_R135.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Subadult_Directional_Attack_R135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Subadult_Directional_Attack_R135.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Directional_Attack_R135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Directional_Attack_R135.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Directional_Attack_R135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Directional_Attack_R135.0"
+              }
+            },
+            "R180": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Hatchling_Directional_Attack_R180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Hatchling_Directional_Attack_R180.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Juvenile_Directional_Attack_R180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Juvenile_Directional_Attack_R180.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Subadult_Directional_Attack_R180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Subadult_Directional_Attack_R180.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Directional_Attack_R180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Directional_Attack_R180.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Directional_Attack_R180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Directional_Attack_R180.0"
+              }
+            }
+          }
+        },
+        {
+          "Key": "DirectionalMuzzleSwing",
+          "Value": {
+            "LF": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Hatchling_MuzzleSwingF'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Hatchling_MuzzleSwingF.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Juvenile_MuzzleSwingF'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Juvenile_MuzzleSwingF.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_SubAdult_MuzzleSwingF'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_SubAdult_MuzzleSwingF.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_MuzzleSwingF'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_MuzzleSwingF.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_MuzzleSwingF'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_MuzzleSwingF.0"
+              }
+            },
+            "L45": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Hatchling_MuzzleSwing_L45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Hatchling_MuzzleSwing_L45.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Juvenile_MuzzleSwing_L45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Juvenile_MuzzleSwing_L45.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_SubAdult_MuzzleSwing_L45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_SubAdult_MuzzleSwing_L45.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_MuzzleSwing_L45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_MuzzleSwing_L45.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_MuzzleSwing_L45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_MuzzleSwing_L45.0"
+              }
+            },
+            "L90": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Hatchling_MuzzleSwing_L90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Hatchling_MuzzleSwing_L90.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Juvenile_MuzzleSwing_L90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Juvenile_MuzzleSwing_L90.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_SubAdult_MuzzleSwing_L90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_SubAdult_MuzzleSwing_L90.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_MuzzleSwing_L90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_MuzzleSwing_L90.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_MuzzleSwing_L90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_MuzzleSwing_L90.0"
+              }
+            },
+            "L135": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Hatchling_MuzzleSwing_L135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Hatchling_MuzzleSwing_L135.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Juvenile_MuzzleSwing_L135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Juvenile_MuzzleSwing_L135.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Subadult_MuzzleSwing_L135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Subadult_MuzzleSwing_L135.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_MuzzleSwing_L135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_MuzzleSwing_L135.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_MuzzleSwing_L135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_MuzzleSwing_L135.0"
+              }
+            },
+            "L180": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Hatchling_MuzzleSwing_L180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Hatchling_MuzzleSwing_L180.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Juvenile_MuzzleSwing_L180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Juvenile_MuzzleSwing_L180.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Subadult_MuzzleSwing_L180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Subadult_MuzzleSwing_L180.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_MuzzleSwing_L180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_MuzzleSwing_L180.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_MuzzleSwing_L180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_MuzzleSwing_L180.0"
+              }
+            },
+            "RF": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Hatchling_MuzzleSwingF'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Hatchling_MuzzleSwingF.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Juvenile_MuzzleSwingF'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Juvenile_MuzzleSwingF.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_SubAdult_MuzzleSwingF'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_SubAdult_MuzzleSwingF.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_MuzzleSwingF'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_MuzzleSwingF.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_MuzzleSwingF'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_MuzzleSwingF.0"
+              }
+            },
+            "R45": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Hatchling_MuzzleSwing_R45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Hatchling_MuzzleSwing_R45.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Juvenile_MuzzleSwing_R45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Juvenile_MuzzleSwing_R45.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_SubAdult_MuzzleSwing_R45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_SubAdult_MuzzleSwing_R45.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_MuzzleSwing_R45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_MuzzleSwing_R45.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_MuzzleSwing_R45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_MuzzleSwing_R45.0"
+              }
+            },
+            "R90": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Hatchling_MuzzleSwing_R90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Hatchling_MuzzleSwing_R90.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Juvenile_MuzzleSwing_R90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Juvenile_MuzzleSwing_R90.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_SubAdult_MuzzleSwing_R90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_SubAdult_MuzzleSwing_R90.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_MuzzleSwing_R90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_MuzzleSwing_R90.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_MuzzleSwing_R90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_MuzzleSwing_R90.0"
+              }
+            },
+            "R135": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Hatchling_MuzzleSwing_R135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Hatchling_MuzzleSwing_R135.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Juvenile_MuzzleSwing_R135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Juvenile_MuzzleSwing_R135.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Subadult_MuzzleSwing_R135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Subadult_MuzzleSwing_R135.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_MuzzleSwing_R135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_MuzzleSwing_R135.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_MuzzleSwing_R135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_MuzzleSwing_R135.0"
+              }
+            },
+            "R180": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Hatchling_MuzzleSwing_R180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Hatchling_MuzzleSwing_R180.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Juvenile_MuzzleSwing_R180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Juvenile_MuzzleSwing_R180.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Subadult_MuzzleSwing_R180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Subadult_MuzzleSwing_R180.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_MuzzleSwing_R180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_MuzzleSwing_R180.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_MuzzleSwing_R180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_MuzzleSwing_R180.0"
+              }
+            }
+          }
+        },
+        {
+          "Key": "AltBiteSwimming",
+          "Value": {
+            "LF": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Hatchling_Swim_Directional_Attack_F'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Hatchling_Swim_Directional_Attack_F.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Juvenile_Swim_Directional_Attack_F'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Juvenile_Swim_Directional_Attack_F.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Subadult_Swim_Directional_Attack_F'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Subadult_Swim_Directional_Attack_F.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Swim_Attack_F'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Swim_Attack_F.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Swim_Attack_F'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Swim_Attack_F.0"
+              }
+            },
+            "L45": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Hatchling_Swim_Directional_Attack_L45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Hatchling_Swim_Directional_Attack_L45.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Juvenile_Swim_Directional_Attack_L45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Juvenile_Swim_Directional_Attack_L45.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Subadult_Swim_Directional_Attack_L45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Subadult_Swim_Directional_Attack_L45.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Swim_Attack_L45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Swim_Attack_L45.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Swim_Attack_L45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Swim_Attack_L45.0"
+              }
+            },
+            "L90": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Hatchling_Swim_Directional_Attack_L90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Hatchling_Swim_Directional_Attack_L90.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Juvenile_Swim_Directional_Attack_L90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Juvenile_Swim_Directional_Attack_L90.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Subadult_Swim_Directional_Attack_L90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Subadult_Swim_Directional_Attack_L90.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Swim_Attack_L90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Swim_Attack_L90.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Swim_Attack_L90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Swim_Attack_L90.0"
+              }
+            },
+            "L135": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Hatchling_Swim_Directional_Attack_L90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Hatchling_Swim_Directional_Attack_L90.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Juvenile_Swim_Directional_Attack_L90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Juvenile_Swim_Directional_Attack_L90.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Subadult_Swim_Directional_Attack_L90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Subadult_Swim_Directional_Attack_L90.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Swim_Attack_L90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Swim_Attack_L90.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Swim_Attack_L90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Swim_Attack_L90.0"
+              }
+            },
+            "L180": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Hatchling_Swim_Directional_Attack_L180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Hatchling_Swim_Directional_Attack_L180.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Juvenile_Swim_Directional_Attack_L180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Juvenile_Swim_Directional_Attack_L180.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Subadult_Swim_Directional_Attack_L180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Subadult_Swim_Directional_Attack_L180.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Swim_Attack_L180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Swim_Attack_L180.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Swim_Attack_L180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Swim_Attack_L180.0"
+              }
+            },
+            "RF": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Hatchling_Swim_Directional_Attack_F'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Hatchling_Swim_Directional_Attack_F.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Juvenile_Swim_Directional_Attack_F'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Juvenile_Swim_Directional_Attack_F.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Subadult_Swim_Directional_Attack_F'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Subadult_Swim_Directional_Attack_F.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Swim_Attack_F'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Swim_Attack_F.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Swim_Attack_F'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Swim_Attack_F.0"
+              }
+            },
+            "R45": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Hatchling_Swim_Directional_Attack_R45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Hatchling_Swim_Directional_Attack_R45.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Juvenile_Swim_Directional_Attack_R45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Juvenile_Swim_Directional_Attack_R45.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Subadult_Swim_Directional_Attack_R45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Subadult_Swim_Directional_Attack_R45.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Swim_Attack_R45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Swim_Attack_R45.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Swim_Attack_R45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Swim_Attack_R45.0"
+              }
+            },
+            "R90": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Hatchling_Swim_Directional_Attack_R90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Hatchling_Swim_Directional_Attack_R90.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Juvenile_Swim_Directional_Attack_R90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Juvenile_Swim_Directional_Attack_R90.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Subadult_Swim_Directional_Attack_R90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Subadult_Swim_Directional_Attack_R90.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Swim_Attack_R90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Swim_Attack_R90.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Swim_Attack_R90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Swim_Attack_R90.0"
+              }
+            },
+            "R135": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Hatchling_Swim_Directional_Attack_R90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Hatchling_Swim_Directional_Attack_R90.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Juvenile_Swim_Directional_Attack_R90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Juvenile_Swim_Directional_Attack_R90.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Subadult_Swim_Directional_Attack_R90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Subadult_Swim_Directional_Attack_R90.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Swim_Attack_R90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Swim_Attack_R90.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Swim_Attack_R90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Swim_Attack_R90.0"
+              }
+            },
+            "R180": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Hatchling_Swim_Directional_Attack_R180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Hatchling_Swim_Directional_Attack_R180.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Juvenile_Swim_Directional_Attack_R180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Juvenile_Swim_Directional_Attack_R180.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Subadult_Swim_Directional_Attack_R180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Subadult_Swim_Directional_Attack_R180.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Swim_Attack_R180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Swim_Attack_R180.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_Swim_Attack_R180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_Swim_Attack_R180.0"
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+]

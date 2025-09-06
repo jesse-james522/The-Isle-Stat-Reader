@@ -1,0 +1,240 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_HypsilophodonVocals",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'Vocals'",
+        "ObjectPath": "/Script/TheIsle"
+      }
+    },
+    "Rows": {
+      "Generic": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Hypsilophodon_Call_Generic'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Hypsilophodon/Sounds/MS_Hypsilophodon_Call_Generic.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Broadcast": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Hypsilophodon_Call_Broadcast'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Hypsilophodon/Sounds/MS_Hypsilophodon_Call_Broadcast.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Attract": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Hypsilophodon_Call_Attract'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Hypsilophodon/Sounds/MS_Hypsilophodon_Call_Attract.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Threaten": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Hypsilophodon_Call_Threaten'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Hypsilophodon/Sounds/MS_Hypsilophodon_Call_Threaten.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Danger": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Hypsilophodon_Call_Danger'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Hypsilophodon/Sounds/MS_Hypsilophodon_Call_Danger.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "RegularPain": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Hypsilophodon_RegularPain'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Hypsilophodon/Sounds/CU_Hypsilophodon_RegularPain.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "ExtremePain": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Hypsilophodon_ExtremePain'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Hypsilophodon/Sounds/CU_Hypsilophodon_ExtremePain.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Death": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Hypsilophodon_ExtremePain'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Hypsilophodon/Sounds/CU_Hypsilophodon_ExtremePain.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "JuvenilePain": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Hypsilophodon_RegularPain'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Hypsilophodon/Sounds/CU_Hypsilophodon_RegularPain.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "JuvenileExtremePain": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Hypsilophodon_ExtremePain'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Hypsilophodon/Sounds/CU_Hypsilophodon_ExtremePain.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "JuvenileDeath": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Hypsilophodon_ExtremePain'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Hypsilophodon/Sounds/CU_Hypsilophodon_ExtremePain.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Spit": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Hypsilophodon_Spit'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Hypsilophodon/Sounds/CU_Hypsilophodon_Spit.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Wallow": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Hypsilophodon_Wallow'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Hypsilophodon/Sounds/CU_Hypsilophodon_Wallow.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Sniff": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Hypsilophodon_Sniff_Adult'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Hypsilophodon/Sounds/CU_Hypsilophodon_Sniff_Adult.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Bite": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Hypsilophodon_Bite'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Hypsilophodon/Sounds/MS_Hypsilophodon_Bite.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Blinded": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Hypsilophodon_Blinded'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Hypsilophodon/Sounds/CU_Hypsilophodon_Blinded.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Pinned": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Hypsilophodon_Pinned_Adult'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Hypsilophodon/Sounds/CU_Hypsilophodon_Pinned_Adult.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Snore": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Hypsilophodon_Snore_Vocal_Adult'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Hypsilophodon/Sounds/CU_Hypsilophodon_Snore_Vocal_Adult.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "SniffChirp": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Hypsilophodon_Sniff_Chirp'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Hypsilophodon/Sounds/CU_Hypsilophodon_Sniff_Chirp.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "BreathSprint": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Hypsilophodon_Breath_Sprint'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Hypsilophodon/Sounds/CU_Hypsilophodon_Breath_Sprint.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Breath": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Hypsilophodon_Breath_Sprint'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Hypsilophodon/Sounds/CU_Hypsilophodon_Breath_Sprint.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "HeadInjury": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Hypsilophodon_HeadInjury'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Hypsilophodon/Sounds/CU_Hypsilophodon_HeadInjury.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "CourtshipFemale": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Hypsilophodon_Courtship_Female'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Hypsilophodon/Sounds/CU_Hypsilophodon_Courtship_Female.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "CourtshipMaleChirp": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Hypsilophodon_Courtship_Male_Chirps'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Hypsilophodon/Sounds/CU_Hypsilophodon_Courtship_Male_Chirps.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "CourtshipMaleDisplay": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Hypsilophodon_Courtship_Male_Display'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Hypsilophodon/Sounds/CU_Hypsilophodon_Courtship_Male_Display.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "CourtshipMaleAntenna": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Hypsilophodon_Courtship_Male_Antenna'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Hypsilophodon/Sounds/CU_Hypsilophodon_Courtship_Male_Antenna.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Beg": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Hypsilophodon_Hatchling_Beg'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Hypsilophodon/Sounds/CU_Hypsilophodon_Hatchling_Beg.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Feed": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Hypsilophodon_Feed'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Hypsilophodon/Sounds/CU_Hypsilophodon_Feed.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      }
+    }
+  }
+]

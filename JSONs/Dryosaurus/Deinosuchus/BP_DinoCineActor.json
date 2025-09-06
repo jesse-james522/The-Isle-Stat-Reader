@@ -1,0 +1,2085 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_DinoCineActor_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "bHasCookedComponentInstancingData": true,
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_DinoCineActor_C:SimpleConstructionScript_0'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Deinosuchus/BP_DinoCineActor.8"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'BP_DinoCineActor_C:ExecuteUbergraph_BP_DinoCineActor'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Deinosuchus/BP_DinoCineActor.2"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'Actor'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BP_DinoCineActor_C:UserConstructionScript'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Deinosuchus/BP_DinoCineActor.4"
+      },
+      {
+        "ObjectName": "Function'BP_DinoCineActor_C:ReceiveBeginPlay'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Deinosuchus/BP_DinoCineActor.3"
+      },
+      {
+        "ObjectName": "Function'BP_DinoCineActor_C:ExecuteUbergraph_BP_DinoCineActor'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Deinosuchus/BP_DinoCineActor.2"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SkeletalMesh",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SkeletalMeshComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "DefaultSceneRoot",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SceneComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "GrowthValue",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible"
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "AnimationToPlay",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible",
+        "PropertyClass": {
+          "ObjectName": "Class'AnimSequenceBase'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "AnimationPosition",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible"
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "SkeletalMeshToUse",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible",
+        "PropertyClass": {
+          "ObjectName": "Class'SkeletalMesh'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_BP_DinoCineActor": {
+        "ObjectName": "Function'BP_DinoCineActor_C:ExecuteUbergraph_BP_DinoCineActor'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Deinosuchus/BP_DinoCineActor.2"
+      },
+      "ReceiveBeginPlay": {
+        "ObjectName": "Function'BP_DinoCineActor_C:ReceiveBeginPlay'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Deinosuchus/BP_DinoCineActor.3"
+      },
+      "UserConstructionScript": {
+        "ObjectName": "Function'BP_DinoCineActor_C:UserConstructionScript'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Deinosuchus/BP_DinoCineActor.4"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_NoExport | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_DinoCineActor_C'Default__BP_DinoCineActor_C'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Deinosuchus/BP_DinoCineActor.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BP_DinoCineActor_C",
+    "Name": "Default__BP_DinoCineActor_C",
+    "Class": "BlueprintGeneratedClass'/Game/TheIsle/Core/Characters/Dinosaurs/Deinosuchus/BP_DinoCineActor.BP_DinoCineActor_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "UberGraphFrame": {},
+      "AnimationToPlay": {
+        "ObjectName": "AnimSequence'A_Omniraptor_Adult_Idle'",
+        "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Omniraptor/Animations/A_Omniraptor_Adult_Idle.2"
+      },
+      "SkeletalMeshToUse": {
+        "ObjectName": "SkeletalMesh'SK_Omniraptor'",
+        "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Omniraptor/Mesh/SK_Omniraptor.6"
+      }
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BP_DinoCineActor",
+    "Outer": "BP_DinoCineActor_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetMaterial_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'MaterialInterface'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "CallFunc_Subtract_DoubleDouble_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_CreateDynamicMaterialInstance_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'MaterialInstanceDynamic'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "CallFunc_FClamp_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_MakeVector_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 24,
+        "Struct": {
+          "ObjectName": "Class'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_SetMorphTarget_Value_ImplicitCast",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_SetScalarParameterValue_Value_ImplicitCast",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      }
+    ],
+    "ScriptBytecode": [
+      {
+        "Inst": "EX_ComputedJump",
+        "StatementIndex": 0,
+        "OffsetExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'BP_DinoCineActor_C:ExecuteUbergraph_BP_DinoCineActor'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Deinosuchus/BP_DinoCineActor.2"
+            },
+            "Property": {
+              "Type": "IntProperty",
+              "Name": "EntryPoint",
+              "Flags": "RF_Public",
+              "ElementSize": 4,
+              "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_Context",
+        "StatementIndex": 10,
+        "ObjectExpression": {
+          "Inst": "EX_InstanceVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "BlueprintGeneratedClass'BP_DinoCineActor_C'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Deinosuchus/BP_DinoCineActor.0"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "SkeletalMesh",
+              "Flags": "RF_Public | RF_LoadCompleted",
+              "ElementSize": 8,
+              "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+              "PropertyClass": {
+                "ObjectName": "Class'SkeletalMeshComponent'",
+                "ObjectPath": "/Script/Engine"
+              }
+            }
+          }
+        },
+        "Offset": 24,
+        "RValuePointer": null,
+        "ContextExpression": {
+          "Inst": "EX_VirtualFunction",
+          "Function": "SetSkinnedAssetAndUpdate",
+          "Parameters": [
+            {
+              "Inst": "EX_InstanceVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "BlueprintGeneratedClass'BP_DinoCineActor_C'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Deinosuchus/BP_DinoCineActor.0"
+                },
+                "Property": {
+                  "Type": "ObjectProperty",
+                  "Name": "SkeletalMeshToUse",
+                  "Flags": "RF_Public | RF_LoadCompleted",
+                  "ElementSize": 8,
+                  "PropertyFlags": "Edit | BlueprintVisible",
+                  "PropertyClass": {
+                    "ObjectName": "Class'SkeletalMesh'",
+                    "ObjectPath": "/Script/Engine"
+                  }
+                }
+              }
+            },
+            {
+              "Inst": "EX_True"
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_Context",
+        "StatementIndex": 56,
+        "ObjectExpression": {
+          "Inst": "EX_InstanceVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "BlueprintGeneratedClass'BP_DinoCineActor_C'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Deinosuchus/BP_DinoCineActor.0"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "SkeletalMesh",
+              "Flags": "RF_Public | RF_LoadCompleted",
+              "ElementSize": 8,
+              "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+              "PropertyClass": {
+                "ObjectName": "Class'SkeletalMeshComponent'",
+                "ObjectPath": "/Script/Engine"
+              }
+            }
+          }
+        },
+        "Offset": 19,
+        "RValuePointer": null,
+        "ContextExpression": {
+          "Inst": "EX_FinalFunction",
+          "Function": {
+            "ObjectName": "Class'SkeletalMeshComponent:SetAnimation'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_InstanceVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "BlueprintGeneratedClass'BP_DinoCineActor_C'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Deinosuchus/BP_DinoCineActor.0"
+                },
+                "Property": {
+                  "Type": "ObjectProperty",
+                  "Name": "AnimationToPlay",
+                  "Flags": "RF_Public | RF_LoadCompleted",
+                  "ElementSize": 8,
+                  "PropertyFlags": "Edit | BlueprintVisible",
+                  "PropertyClass": {
+                    "ObjectName": "Class'AnimSequenceBase'",
+                    "ObjectPath": "/Script/Engine"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 97,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'BP_DinoCineActor_C:ExecuteUbergraph_BP_DinoCineActor'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Deinosuchus/BP_DinoCineActor.2"
+            },
+            "Property": {
+              "Type": "DoubleProperty",
+              "Name": "CallFunc_Subtract_DoubleDouble_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 8
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Class'KismetMathLibrary:Subtract_DoubleDouble'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_DoubleConst",
+              "Value": 1.0
+            },
+            {
+              "Inst": "EX_InstanceVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "BlueprintGeneratedClass'BP_DinoCineActor_C'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Deinosuchus/BP_DinoCineActor.0"
+                },
+                "Property": {
+                  "Type": "DoubleProperty",
+                  "Name": "GrowthValue",
+                  "Flags": "RF_Public | RF_LoadCompleted",
+                  "ElementSize": 8,
+                  "PropertyFlags": "Edit | BlueprintVisible"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 143,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'BP_DinoCineActor_C:ExecuteUbergraph_BP_DinoCineActor'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Deinosuchus/BP_DinoCineActor.2"
+            },
+            "Property": {
+              "Type": "FloatProperty",
+              "Name": "CallFunc_SetMorphTarget_Value_ImplicitCast",
+              "Flags": "RF_Public",
+              "ElementSize": 4
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_Cast",
+          "ConversionType": "CST_DoubleToFloat",
+          "Target": {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'BP_DinoCineActor_C:ExecuteUbergraph_BP_DinoCineActor'",
+                "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Deinosuchus/BP_DinoCineActor.2"
+              },
+              "Property": {
+                "Type": "DoubleProperty",
+                "Name": "CallFunc_Subtract_DoubleDouble_ReturnValue",
+                "Flags": "RF_Public",
+                "ElementSize": 8
+              }
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_Context",
+        "StatementIndex": 172,
+        "ObjectExpression": {
+          "Inst": "EX_InstanceVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "BlueprintGeneratedClass'BP_DinoCineActor_C'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Deinosuchus/BP_DinoCineActor.0"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "SkeletalMesh",
+              "Flags": "RF_Public | RF_LoadCompleted",
+              "ElementSize": 8,
+              "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+              "PropertyClass": {
+                "ObjectName": "Class'SkeletalMeshComponent'",
+                "ObjectPath": "/Script/Engine"
+              }
+            }
+          }
+        },
+        "Offset": 33,
+        "RValuePointer": null,
+        "ContextExpression": {
+          "Inst": "EX_FinalFunction",
+          "Function": {
+            "ObjectName": "Class'SkeletalMeshComponent:SetMorphTarget'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_NameConst",
+              "Value": "Utahraptor_Juv_Morph"
+            },
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'BP_DinoCineActor_C:ExecuteUbergraph_BP_DinoCineActor'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Deinosuchus/BP_DinoCineActor.2"
+                },
+                "Property": {
+                  "Type": "FloatProperty",
+                  "Name": "CallFunc_SetMorphTarget_Value_ImplicitCast",
+                  "Flags": "RF_Public",
+                  "ElementSize": 4
+                }
+              }
+            },
+            {
+              "Inst": "EX_True"
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 227,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'BP_DinoCineActor_C:ExecuteUbergraph_BP_DinoCineActor'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Deinosuchus/BP_DinoCineActor.2"
+            },
+            "Property": {
+              "Type": "DoubleProperty",
+              "Name": "CallFunc_FClamp_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 8
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Class'KismetMathLibrary:FClamp'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_InstanceVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "BlueprintGeneratedClass'BP_DinoCineActor_C'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Deinosuchus/BP_DinoCineActor.0"
+                },
+                "Property": {
+                  "Type": "DoubleProperty",
+                  "Name": "GrowthValue",
+                  "Flags": "RF_Public | RF_LoadCompleted",
+                  "ElementSize": 8,
+                  "PropertyFlags": "Edit | BlueprintVisible"
+                }
+              }
+            },
+            {
+              "Inst": "EX_DoubleConst",
+              "Value": 0.30000001192092896
+            },
+            {
+              "Inst": "EX_DoubleConst",
+              "Value": 1.0
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 282,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'BP_DinoCineActor_C:ExecuteUbergraph_BP_DinoCineActor'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Deinosuchus/BP_DinoCineActor.2"
+            },
+            "Property": {
+              "Type": "StructProperty",
+              "Name": "CallFunc_MakeVector_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 24,
+              "Struct": {
+                "ObjectName": "Class'Vector'",
+                "ObjectPath": "/Script/CoreUObject"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Class'KismetMathLibrary:MakeVector'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'BP_DinoCineActor_C:ExecuteUbergraph_BP_DinoCineActor'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Deinosuchus/BP_DinoCineActor.2"
+                },
+                "Property": {
+                  "Type": "DoubleProperty",
+                  "Name": "CallFunc_FClamp_ReturnValue",
+                  "Flags": "RF_Public",
+                  "ElementSize": 8
+                }
+              }
+            },
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'BP_DinoCineActor_C:ExecuteUbergraph_BP_DinoCineActor'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Deinosuchus/BP_DinoCineActor.2"
+                },
+                "Property": {
+                  "Type": "DoubleProperty",
+                  "Name": "CallFunc_FClamp_ReturnValue",
+                  "Flags": "RF_Public",
+                  "ElementSize": 8
+                }
+              }
+            },
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'BP_DinoCineActor_C:ExecuteUbergraph_BP_DinoCineActor'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Deinosuchus/BP_DinoCineActor.2"
+                },
+                "Property": {
+                  "Type": "DoubleProperty",
+                  "Name": "CallFunc_FClamp_ReturnValue",
+                  "Flags": "RF_Public",
+                  "ElementSize": 8
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_FinalFunction",
+        "StatementIndex": 337,
+        "Function": {
+          "ObjectName": "Class'Actor:SetActorScale3D'",
+          "ObjectPath": "/Script/Engine"
+        },
+        "Parameters": [
+          {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'BP_DinoCineActor_C:ExecuteUbergraph_BP_DinoCineActor'",
+                "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Deinosuchus/BP_DinoCineActor.2"
+              },
+              "Property": {
+                "Type": "StructProperty",
+                "Name": "CallFunc_MakeVector_ReturnValue",
+                "Flags": "RF_Public",
+                "ElementSize": 24,
+                "Struct": {
+                  "ObjectName": "Class'Vector'",
+                  "ObjectPath": "/Script/CoreUObject"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "Inst": "EX_LetObj",
+        "StatementIndex": 356,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'BP_DinoCineActor_C:ExecuteUbergraph_BP_DinoCineActor'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Deinosuchus/BP_DinoCineActor.2"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "CallFunc_GetMaterial_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyClass": {
+                "ObjectName": "Class'MaterialInterface'",
+                "ObjectPath": "/Script/Engine"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_Context",
+          "ObjectExpression": {
+            "Inst": "EX_InstanceVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "BlueprintGeneratedClass'BP_DinoCineActor_C'",
+                "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Deinosuchus/BP_DinoCineActor.0"
+              },
+              "Property": {
+                "Type": "ObjectProperty",
+                "Name": "SkeletalMesh",
+                "Flags": "RF_Public | RF_LoadCompleted",
+                "ElementSize": 8,
+                "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+                "PropertyClass": {
+                  "ObjectName": "Class'SkeletalMeshComponent'",
+                  "ObjectPath": "/Script/Engine"
+                }
+              }
+            }
+          },
+          "Offset": 19,
+          "RValuePointer": {
+            "Owner": {
+              "ObjectName": "Function'BP_DinoCineActor_C:ExecuteUbergraph_BP_DinoCineActor'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Deinosuchus/BP_DinoCineActor.2"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "CallFunc_GetMaterial_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyClass": {
+                "ObjectName": "Class'MaterialInterface'",
+                "ObjectPath": "/Script/Engine"
+              }
+            }
+          },
+          "ContextExpression": {
+            "Inst": "EX_VirtualFunction",
+            "Function": "GetMaterial",
+            "Parameters": [
+              {
+                "Inst": "EX_IntConst",
+                "Value": 0
+              }
+            ]
+          }
+        }
+      },
+      {
+        "Inst": "EX_LetObj",
+        "StatementIndex": 407,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'BP_DinoCineActor_C:ExecuteUbergraph_BP_DinoCineActor'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Deinosuchus/BP_DinoCineActor.2"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "CallFunc_CreateDynamicMaterialInstance_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyClass": {
+                "ObjectName": "Class'MaterialInstanceDynamic'",
+                "ObjectPath": "/Script/Engine"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_Context",
+          "ObjectExpression": {
+            "Inst": "EX_InstanceVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "BlueprintGeneratedClass'BP_DinoCineActor_C'",
+                "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Deinosuchus/BP_DinoCineActor.0"
+              },
+              "Property": {
+                "Type": "ObjectProperty",
+                "Name": "SkeletalMesh",
+                "Flags": "RF_Public | RF_LoadCompleted",
+                "ElementSize": 8,
+                "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+                "PropertyClass": {
+                  "ObjectName": "Class'SkeletalMeshComponent'",
+                  "ObjectPath": "/Script/Engine"
+                }
+              }
+            }
+          },
+          "Offset": 41,
+          "RValuePointer": {
+            "Owner": {
+              "ObjectName": "Function'BP_DinoCineActor_C:ExecuteUbergraph_BP_DinoCineActor'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Deinosuchus/BP_DinoCineActor.2"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "CallFunc_CreateDynamicMaterialInstance_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyClass": {
+                "ObjectName": "Class'MaterialInstanceDynamic'",
+                "ObjectPath": "/Script/Engine"
+              }
+            }
+          },
+          "ContextExpression": {
+            "Inst": "EX_VirtualFunction",
+            "Function": "CreateDynamicMaterialInstance",
+            "Parameters": [
+              {
+                "Inst": "EX_IntConst",
+                "Value": 0
+              },
+              {
+                "Inst": "EX_LocalVariable",
+                "Variable": {
+                  "Owner": {
+                    "ObjectName": "Function'BP_DinoCineActor_C:ExecuteUbergraph_BP_DinoCineActor'",
+                    "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Deinosuchus/BP_DinoCineActor.2"
+                  },
+                  "Property": {
+                    "Type": "ObjectProperty",
+                    "Name": "CallFunc_GetMaterial_ReturnValue",
+                    "Flags": "RF_Public",
+                    "ElementSize": 8,
+                    "PropertyClass": {
+                      "ObjectName": "Class'MaterialInterface'",
+                      "ObjectPath": "/Script/Engine"
+                    }
+                  }
+                }
+              },
+              {
+                "Inst": "EX_NameConst",
+                "Value": "None"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "Inst": "EX_Context",
+        "StatementIndex": 480,
+        "ObjectExpression": {
+          "Inst": "EX_InstanceVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "BlueprintGeneratedClass'BP_DinoCineActor_C'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Deinosuchus/BP_DinoCineActor.0"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "SkeletalMesh",
+              "Flags": "RF_Public | RF_LoadCompleted",
+              "ElementSize": 8,
+              "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+              "PropertyClass": {
+                "ObjectName": "Class'SkeletalMeshComponent'",
+                "ObjectPath": "/Script/Engine"
+              }
+            }
+          }
+        },
+        "Offset": 28,
+        "RValuePointer": null,
+        "ContextExpression": {
+          "Inst": "EX_VirtualFunction",
+          "Function": "SetMaterial",
+          "Parameters": [
+            {
+              "Inst": "EX_IntConst",
+              "Value": 0
+            },
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'BP_DinoCineActor_C:ExecuteUbergraph_BP_DinoCineActor'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Deinosuchus/BP_DinoCineActor.2"
+                },
+                "Property": {
+                  "Type": "ObjectProperty",
+                  "Name": "CallFunc_CreateDynamicMaterialInstance_ReturnValue",
+                  "Flags": "RF_Public",
+                  "ElementSize": 8,
+                  "PropertyClass": {
+                    "ObjectName": "Class'MaterialInstanceDynamic'",
+                    "ObjectPath": "/Script/Engine"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 530,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'BP_DinoCineActor_C:ExecuteUbergraph_BP_DinoCineActor'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Deinosuchus/BP_DinoCineActor.2"
+            },
+            "Property": {
+              "Type": "FloatProperty",
+              "Name": "CallFunc_SetScalarParameterValue_Value_ImplicitCast",
+              "Flags": "RF_Public",
+              "ElementSize": 4
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_Cast",
+          "ConversionType": "CST_DoubleToFloat",
+          "Target": {
+            "Inst": "EX_InstanceVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "BlueprintGeneratedClass'BP_DinoCineActor_C'",
+                "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Deinosuchus/BP_DinoCineActor.0"
+              },
+              "Property": {
+                "Type": "DoubleProperty",
+                "Name": "GrowthValue",
+                "Flags": "RF_Public | RF_LoadCompleted",
+                "ElementSize": 8,
+                "PropertyFlags": "Edit | BlueprintVisible"
+              }
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_Context",
+        "StatementIndex": 559,
+        "ObjectExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'BP_DinoCineActor_C:ExecuteUbergraph_BP_DinoCineActor'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Deinosuchus/BP_DinoCineActor.2"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "CallFunc_CreateDynamicMaterialInstance_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyClass": {
+                "ObjectName": "Class'MaterialInstanceDynamic'",
+                "ObjectPath": "/Script/Engine"
+              }
+            }
+          }
+        },
+        "Offset": 32,
+        "RValuePointer": null,
+        "ContextExpression": {
+          "Inst": "EX_FinalFunction",
+          "Function": {
+            "ObjectName": "Class'MaterialInstanceDynamic:SetScalarParameterValue'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_NameConst",
+              "Value": "GrowthAmount"
+            },
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'BP_DinoCineActor_C:ExecuteUbergraph_BP_DinoCineActor'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Deinosuchus/BP_DinoCineActor.2"
+                },
+                "Property": {
+                  "Type": "FloatProperty",
+                  "Name": "CallFunc_SetScalarParameterValue_Value_ImplicitCast",
+                  "Flags": "RF_Public",
+                  "ElementSize": 4
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_Return",
+        "StatementIndex": 613,
+        "Expression": {
+          "Inst": "EX_Nothing"
+        }
+      },
+      {
+        "Inst": "EX_EndOfScript",
+        "StatementIndex": 615
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceiveBeginPlay",
+    "Outer": "BP_DinoCineActor_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'Actor:ReceiveBeginPlay'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "ScriptBytecode": [
+      {
+        "Inst": "EX_LocalFinalFunction",
+        "StatementIndex": 0,
+        "Function": {
+          "ObjectName": "Function'BP_DinoCineActor_C:ExecuteUbergraph_BP_DinoCineActor'",
+          "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Deinosuchus/BP_DinoCineActor.2"
+        },
+        "Parameters": [
+          {
+            "Inst": "EX_IntConst",
+            "Value": 10
+          }
+        ],
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Deinosuchus/BP_DinoCineActor.ExecuteUbergraph_BP_DinoCineActor[10]"
+      },
+      {
+        "Inst": "EX_Return",
+        "StatementIndex": 15,
+        "Expression": {
+          "Inst": "EX_Nothing"
+        }
+      },
+      {
+        "Inst": "EX_EndOfScript",
+        "StatementIndex": 17
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "UserConstructionScript",
+    "Outer": "BP_DinoCineActor_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'Actor:UserConstructionScript'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "ChildProperties": [
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_GetPlayLength_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_GetMaterial_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'MaterialInterface'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "CallFunc_Multiply_DoubleDouble_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_CreateDynamicMaterialInstance_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'MaterialInstanceDynamic'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "CallFunc_FClamp_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_MakeVector_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 24,
+        "Struct": {
+          "ObjectName": "Class'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "CallFunc_Multiply_DoubleDouble_A_ImplicitCast",
+        "Flags": "RF_Public",
+        "ElementSize": 8
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_OverrideAnimationData_Position_ImplicitCast",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_SetScalarParameterValue_Value_ImplicitCast",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      }
+    ],
+    "ScriptBytecode": [
+      {
+        "Inst": "EX_Context",
+        "StatementIndex": 0,
+        "ObjectExpression": {
+          "Inst": "EX_InstanceVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "BlueprintGeneratedClass'BP_DinoCineActor_C'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Deinosuchus/BP_DinoCineActor.0"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "SkeletalMesh",
+              "Flags": "RF_Public | RF_LoadCompleted",
+              "ElementSize": 8,
+              "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+              "PropertyClass": {
+                "ObjectName": "Class'SkeletalMeshComponent'",
+                "ObjectPath": "/Script/Engine"
+              }
+            }
+          }
+        },
+        "Offset": 24,
+        "RValuePointer": null,
+        "ContextExpression": {
+          "Inst": "EX_VirtualFunction",
+          "Function": "SetSkinnedAssetAndUpdate",
+          "Parameters": [
+            {
+              "Inst": "EX_InstanceVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "BlueprintGeneratedClass'BP_DinoCineActor_C'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Deinosuchus/BP_DinoCineActor.0"
+                },
+                "Property": {
+                  "Type": "ObjectProperty",
+                  "Name": "SkeletalMeshToUse",
+                  "Flags": "RF_Public | RF_LoadCompleted",
+                  "ElementSize": 8,
+                  "PropertyFlags": "Edit | BlueprintVisible",
+                  "PropertyClass": {
+                    "ObjectName": "Class'SkeletalMesh'",
+                    "ObjectPath": "/Script/Engine"
+                  }
+                }
+              }
+            },
+            {
+              "Inst": "EX_True"
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 46,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'BP_DinoCineActor_C:UserConstructionScript'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Deinosuchus/BP_DinoCineActor.4"
+            },
+            "Property": {
+              "Type": "FloatProperty",
+              "Name": "CallFunc_GetPlayLength_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 4
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_Context",
+          "ObjectExpression": {
+            "Inst": "EX_InstanceVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "BlueprintGeneratedClass'BP_DinoCineActor_C'",
+                "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Deinosuchus/BP_DinoCineActor.0"
+              },
+              "Property": {
+                "Type": "ObjectProperty",
+                "Name": "AnimationToPlay",
+                "Flags": "RF_Public | RF_LoadCompleted",
+                "ElementSize": 8,
+                "PropertyFlags": "Edit | BlueprintVisible",
+                "PropertyClass": {
+                  "ObjectName": "Class'AnimSequenceBase'",
+                  "ObjectPath": "/Script/Engine"
+                }
+              }
+            }
+          },
+          "Offset": 14,
+          "RValuePointer": {
+            "Owner": {
+              "ObjectName": "Function'BP_DinoCineActor_C:UserConstructionScript'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Deinosuchus/BP_DinoCineActor.4"
+            },
+            "Property": {
+              "Type": "FloatProperty",
+              "Name": "CallFunc_GetPlayLength_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 4
+            }
+          },
+          "ContextExpression": {
+            "Inst": "EX_VirtualFunction",
+            "Function": "GetPlayLength",
+            "Parameters": []
+          }
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 100,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'BP_DinoCineActor_C:UserConstructionScript'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Deinosuchus/BP_DinoCineActor.4"
+            },
+            "Property": {
+              "Type": "DoubleProperty",
+              "Name": "CallFunc_Multiply_DoubleDouble_A_ImplicitCast",
+              "Flags": "RF_Public",
+              "ElementSize": 8
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_Cast",
+          "ConversionType": "CST_FloatToDouble",
+          "Target": {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'BP_DinoCineActor_C:UserConstructionScript'",
+                "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Deinosuchus/BP_DinoCineActor.4"
+              },
+              "Property": {
+                "Type": "FloatProperty",
+                "Name": "CallFunc_GetPlayLength_ReturnValue",
+                "Flags": "RF_Public",
+                "ElementSize": 4
+              }
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 129,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'BP_DinoCineActor_C:UserConstructionScript'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Deinosuchus/BP_DinoCineActor.4"
+            },
+            "Property": {
+              "Type": "DoubleProperty",
+              "Name": "CallFunc_Multiply_DoubleDouble_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 8
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Class'KismetMathLibrary:Multiply_DoubleDouble'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'BP_DinoCineActor_C:UserConstructionScript'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Deinosuchus/BP_DinoCineActor.4"
+                },
+                "Property": {
+                  "Type": "DoubleProperty",
+                  "Name": "CallFunc_Multiply_DoubleDouble_A_ImplicitCast",
+                  "Flags": "RF_Public",
+                  "ElementSize": 8
+                }
+              }
+            },
+            {
+              "Inst": "EX_InstanceVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "BlueprintGeneratedClass'BP_DinoCineActor_C'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Deinosuchus/BP_DinoCineActor.0"
+                },
+                "Property": {
+                  "Type": "DoubleProperty",
+                  "Name": "AnimationPosition",
+                  "Flags": "RF_Public | RF_LoadCompleted",
+                  "ElementSize": 8,
+                  "PropertyFlags": "Edit | BlueprintVisible"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 175,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'BP_DinoCineActor_C:UserConstructionScript'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Deinosuchus/BP_DinoCineActor.4"
+            },
+            "Property": {
+              "Type": "FloatProperty",
+              "Name": "CallFunc_OverrideAnimationData_Position_ImplicitCast",
+              "Flags": "RF_Public",
+              "ElementSize": 4
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_Cast",
+          "ConversionType": "CST_DoubleToFloat",
+          "Target": {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'BP_DinoCineActor_C:UserConstructionScript'",
+                "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Deinosuchus/BP_DinoCineActor.4"
+              },
+              "Property": {
+                "Type": "DoubleProperty",
+                "Name": "CallFunc_Multiply_DoubleDouble_ReturnValue",
+                "Flags": "RF_Public",
+                "ElementSize": 8
+              }
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_Context",
+        "StatementIndex": 204,
+        "ObjectExpression": {
+          "Inst": "EX_InstanceVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "BlueprintGeneratedClass'BP_DinoCineActor_C'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Deinosuchus/BP_DinoCineActor.0"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "SkeletalMesh",
+              "Flags": "RF_Public | RF_LoadCompleted",
+              "ElementSize": 8,
+              "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+              "PropertyClass": {
+                "ObjectName": "Class'SkeletalMeshComponent'",
+                "ObjectPath": "/Script/Engine"
+              }
+            }
+          }
+        },
+        "Offset": 35,
+        "RValuePointer": null,
+        "ContextExpression": {
+          "Inst": "EX_FinalFunction",
+          "Function": {
+            "ObjectName": "Class'SkeletalMeshComponent:OverrideAnimationData'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_InstanceVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "BlueprintGeneratedClass'BP_DinoCineActor_C'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Deinosuchus/BP_DinoCineActor.0"
+                },
+                "Property": {
+                  "Type": "ObjectProperty",
+                  "Name": "AnimationToPlay",
+                  "Flags": "RF_Public | RF_LoadCompleted",
+                  "ElementSize": 8,
+                  "PropertyFlags": "Edit | BlueprintVisible",
+                  "PropertyClass": {
+                    "ObjectName": "Class'AnimSequenceBase'",
+                    "ObjectPath": "/Script/Engine"
+                  }
+                }
+              }
+            },
+            {
+              "Inst": "EX_True"
+            },
+            {
+              "Inst": "EX_True"
+            },
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'BP_DinoCineActor_C:UserConstructionScript'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Deinosuchus/BP_DinoCineActor.4"
+                },
+                "Property": {
+                  "Type": "FloatProperty",
+                  "Name": "CallFunc_OverrideAnimationData_Position_ImplicitCast",
+                  "Flags": "RF_Public",
+                  "ElementSize": 4
+                }
+              }
+            },
+            {
+              "Inst": "EX_FloatConst",
+              "Value": 1.0
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 261,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'BP_DinoCineActor_C:UserConstructionScript'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Deinosuchus/BP_DinoCineActor.4"
+            },
+            "Property": {
+              "Type": "DoubleProperty",
+              "Name": "CallFunc_FClamp_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 8
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Class'KismetMathLibrary:FClamp'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_InstanceVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "BlueprintGeneratedClass'BP_DinoCineActor_C'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Deinosuchus/BP_DinoCineActor.0"
+                },
+                "Property": {
+                  "Type": "DoubleProperty",
+                  "Name": "GrowthValue",
+                  "Flags": "RF_Public | RF_LoadCompleted",
+                  "ElementSize": 8,
+                  "PropertyFlags": "Edit | BlueprintVisible"
+                }
+              }
+            },
+            {
+              "Inst": "EX_DoubleConst",
+              "Value": 0.30000001192092896
+            },
+            {
+              "Inst": "EX_DoubleConst",
+              "Value": 1.0
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 316,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'BP_DinoCineActor_C:UserConstructionScript'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Deinosuchus/BP_DinoCineActor.4"
+            },
+            "Property": {
+              "Type": "StructProperty",
+              "Name": "CallFunc_MakeVector_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 24,
+              "Struct": {
+                "ObjectName": "Class'Vector'",
+                "ObjectPath": "/Script/CoreUObject"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Class'KismetMathLibrary:MakeVector'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'BP_DinoCineActor_C:UserConstructionScript'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Deinosuchus/BP_DinoCineActor.4"
+                },
+                "Property": {
+                  "Type": "DoubleProperty",
+                  "Name": "CallFunc_FClamp_ReturnValue",
+                  "Flags": "RF_Public",
+                  "ElementSize": 8
+                }
+              }
+            },
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'BP_DinoCineActor_C:UserConstructionScript'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Deinosuchus/BP_DinoCineActor.4"
+                },
+                "Property": {
+                  "Type": "DoubleProperty",
+                  "Name": "CallFunc_FClamp_ReturnValue",
+                  "Flags": "RF_Public",
+                  "ElementSize": 8
+                }
+              }
+            },
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'BP_DinoCineActor_C:UserConstructionScript'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Deinosuchus/BP_DinoCineActor.4"
+                },
+                "Property": {
+                  "Type": "DoubleProperty",
+                  "Name": "CallFunc_FClamp_ReturnValue",
+                  "Flags": "RF_Public",
+                  "ElementSize": 8
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_FinalFunction",
+        "StatementIndex": 371,
+        "Function": {
+          "ObjectName": "Class'Actor:SetActorScale3D'",
+          "ObjectPath": "/Script/Engine"
+        },
+        "Parameters": [
+          {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'BP_DinoCineActor_C:UserConstructionScript'",
+                "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Deinosuchus/BP_DinoCineActor.4"
+              },
+              "Property": {
+                "Type": "StructProperty",
+                "Name": "CallFunc_MakeVector_ReturnValue",
+                "Flags": "RF_Public",
+                "ElementSize": 24,
+                "Struct": {
+                  "ObjectName": "Class'Vector'",
+                  "ObjectPath": "/Script/CoreUObject"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "Inst": "EX_LetObj",
+        "StatementIndex": 390,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'BP_DinoCineActor_C:UserConstructionScript'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Deinosuchus/BP_DinoCineActor.4"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "CallFunc_GetMaterial_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyClass": {
+                "ObjectName": "Class'MaterialInterface'",
+                "ObjectPath": "/Script/Engine"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_Context",
+          "ObjectExpression": {
+            "Inst": "EX_InstanceVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "BlueprintGeneratedClass'BP_DinoCineActor_C'",
+                "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Deinosuchus/BP_DinoCineActor.0"
+              },
+              "Property": {
+                "Type": "ObjectProperty",
+                "Name": "SkeletalMesh",
+                "Flags": "RF_Public | RF_LoadCompleted",
+                "ElementSize": 8,
+                "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+                "PropertyClass": {
+                  "ObjectName": "Class'SkeletalMeshComponent'",
+                  "ObjectPath": "/Script/Engine"
+                }
+              }
+            }
+          },
+          "Offset": 19,
+          "RValuePointer": {
+            "Owner": {
+              "ObjectName": "Function'BP_DinoCineActor_C:UserConstructionScript'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Deinosuchus/BP_DinoCineActor.4"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "CallFunc_GetMaterial_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyClass": {
+                "ObjectName": "Class'MaterialInterface'",
+                "ObjectPath": "/Script/Engine"
+              }
+            }
+          },
+          "ContextExpression": {
+            "Inst": "EX_VirtualFunction",
+            "Function": "GetMaterial",
+            "Parameters": [
+              {
+                "Inst": "EX_IntConst",
+                "Value": 0
+              }
+            ]
+          }
+        }
+      },
+      {
+        "Inst": "EX_LetObj",
+        "StatementIndex": 441,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'BP_DinoCineActor_C:UserConstructionScript'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Deinosuchus/BP_DinoCineActor.4"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "CallFunc_CreateDynamicMaterialInstance_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyClass": {
+                "ObjectName": "Class'MaterialInstanceDynamic'",
+                "ObjectPath": "/Script/Engine"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_Context",
+          "ObjectExpression": {
+            "Inst": "EX_InstanceVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "BlueprintGeneratedClass'BP_DinoCineActor_C'",
+                "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Deinosuchus/BP_DinoCineActor.0"
+              },
+              "Property": {
+                "Type": "ObjectProperty",
+                "Name": "SkeletalMesh",
+                "Flags": "RF_Public | RF_LoadCompleted",
+                "ElementSize": 8,
+                "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+                "PropertyClass": {
+                  "ObjectName": "Class'SkeletalMeshComponent'",
+                  "ObjectPath": "/Script/Engine"
+                }
+              }
+            }
+          },
+          "Offset": 41,
+          "RValuePointer": {
+            "Owner": {
+              "ObjectName": "Function'BP_DinoCineActor_C:UserConstructionScript'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Deinosuchus/BP_DinoCineActor.4"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "CallFunc_CreateDynamicMaterialInstance_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyClass": {
+                "ObjectName": "Class'MaterialInstanceDynamic'",
+                "ObjectPath": "/Script/Engine"
+              }
+            }
+          },
+          "ContextExpression": {
+            "Inst": "EX_VirtualFunction",
+            "Function": "CreateDynamicMaterialInstance",
+            "Parameters": [
+              {
+                "Inst": "EX_IntConst",
+                "Value": 0
+              },
+              {
+                "Inst": "EX_LocalVariable",
+                "Variable": {
+                  "Owner": {
+                    "ObjectName": "Function'BP_DinoCineActor_C:UserConstructionScript'",
+                    "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Deinosuchus/BP_DinoCineActor.4"
+                  },
+                  "Property": {
+                    "Type": "ObjectProperty",
+                    "Name": "CallFunc_GetMaterial_ReturnValue",
+                    "Flags": "RF_Public",
+                    "ElementSize": 8,
+                    "PropertyClass": {
+                      "ObjectName": "Class'MaterialInterface'",
+                      "ObjectPath": "/Script/Engine"
+                    }
+                  }
+                }
+              },
+              {
+                "Inst": "EX_NameConst",
+                "Value": "None"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "Inst": "EX_Context",
+        "StatementIndex": 514,
+        "ObjectExpression": {
+          "Inst": "EX_InstanceVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "BlueprintGeneratedClass'BP_DinoCineActor_C'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Deinosuchus/BP_DinoCineActor.0"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "SkeletalMesh",
+              "Flags": "RF_Public | RF_LoadCompleted",
+              "ElementSize": 8,
+              "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+              "PropertyClass": {
+                "ObjectName": "Class'SkeletalMeshComponent'",
+                "ObjectPath": "/Script/Engine"
+              }
+            }
+          }
+        },
+        "Offset": 28,
+        "RValuePointer": null,
+        "ContextExpression": {
+          "Inst": "EX_VirtualFunction",
+          "Function": "SetMaterial",
+          "Parameters": [
+            {
+              "Inst": "EX_IntConst",
+              "Value": 0
+            },
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'BP_DinoCineActor_C:UserConstructionScript'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Deinosuchus/BP_DinoCineActor.4"
+                },
+                "Property": {
+                  "Type": "ObjectProperty",
+                  "Name": "CallFunc_CreateDynamicMaterialInstance_ReturnValue",
+                  "Flags": "RF_Public",
+                  "ElementSize": 8,
+                  "PropertyClass": {
+                    "ObjectName": "Class'MaterialInstanceDynamic'",
+                    "ObjectPath": "/Script/Engine"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 564,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'BP_DinoCineActor_C:UserConstructionScript'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Deinosuchus/BP_DinoCineActor.4"
+            },
+            "Property": {
+              "Type": "FloatProperty",
+              "Name": "CallFunc_SetScalarParameterValue_Value_ImplicitCast",
+              "Flags": "RF_Public",
+              "ElementSize": 4
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_Cast",
+          "ConversionType": "CST_DoubleToFloat",
+          "Target": {
+            "Inst": "EX_InstanceVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "BlueprintGeneratedClass'BP_DinoCineActor_C'",
+                "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Deinosuchus/BP_DinoCineActor.0"
+              },
+              "Property": {
+                "Type": "DoubleProperty",
+                "Name": "GrowthValue",
+                "Flags": "RF_Public | RF_LoadCompleted",
+                "ElementSize": 8,
+                "PropertyFlags": "Edit | BlueprintVisible"
+              }
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_Context",
+        "StatementIndex": 593,
+        "ObjectExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'BP_DinoCineActor_C:UserConstructionScript'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Deinosuchus/BP_DinoCineActor.4"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "CallFunc_CreateDynamicMaterialInstance_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyClass": {
+                "ObjectName": "Class'MaterialInstanceDynamic'",
+                "ObjectPath": "/Script/Engine"
+              }
+            }
+          }
+        },
+        "Offset": 32,
+        "RValuePointer": null,
+        "ContextExpression": {
+          "Inst": "EX_FinalFunction",
+          "Function": {
+            "ObjectName": "Class'MaterialInstanceDynamic:SetScalarParameterValue'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_NameConst",
+              "Value": "GrowthAmount"
+            },
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'BP_DinoCineActor_C:UserConstructionScript'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Deinosuchus/BP_DinoCineActor.4"
+                },
+                "Property": {
+                  "Type": "FloatProperty",
+                  "Name": "CallFunc_SetScalarParameterValue_Value_ImplicitCast",
+                  "Flags": "RF_Public",
+                  "ElementSize": 4
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_Return",
+        "StatementIndex": 647,
+        "Expression": {
+          "Inst": "EX_Nothing"
+        }
+      },
+      {
+        "Inst": "EX_EndOfScript",
+        "StatementIndex": 649
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "BP_DinoCineActor_C",
+    "Class": "UScriptClass'SceneComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_DinoCineActor_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Deinosuchus/BP_DinoCineActor.5"
+      },
+      "CookedComponentInstancingData": {
+        "bHasValidCookedData": true
+      },
+      "ChildNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_DinoCineActor_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Deinosuchus/BP_DinoCineActor.7"
+        }
+      ],
+      "VariableGUID": "A68E6966-435ACCEA-2A5E3DAD-D58D595E",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SkeletalMeshComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SkeletalMeshComponent'BP_DinoCineActor_C:SkeletalMesh_GEN_VARIABLE'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Deinosuchus/BP_DinoCineActor.9"
+      },
+      "CookedComponentInstancingData": {
+        "ChangedPropertyList": [
+          {
+            "PropertyName": "AnimationData",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'SkeletalMeshComponent'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "AnimToPlay",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'SingleAnimationPlayData'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "AnimationMode",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'SkeletalMeshComponent'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "ClothingSimulationFactory",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'SkeletalMeshComponent'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "SkeletalMesh",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'SkeletalMeshComponent'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "SkinnedAsset",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'SkeletalMeshComponent'",
+              "ObjectPath": "/Script/Engine"
+            }
+          }
+        ],
+        "bHasValidCookedData": true
+      },
+      "VariableGUID": "AC372EA4-42695783-E62F35AE-3060F11F",
+      "InternalVariableName": "SkeletalMesh"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "BP_DinoCineActor_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_DinoCineActor_C:SimpleConstructionScript_0.SCS_Node_0'",
+          "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Deinosuchus/BP_DinoCineActor.6"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_DinoCineActor_C:SimpleConstructionScript_0.SCS_Node_0'",
+          "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Deinosuchus/BP_DinoCineActor.6"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_DinoCineActor_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Deinosuchus/BP_DinoCineActor.7"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_DinoCineActor_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Deinosuchus/BP_DinoCineActor.6"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponent",
+    "Name": "SkeletalMesh_GEN_VARIABLE",
+    "Outer": "BP_DinoCineActor_C",
+    "Class": "UScriptClass'SkeletalMeshComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AnimationData": {
+        "AnimToPlay": {
+          "ObjectName": "AnimSequence'A_Omniraptor_Adult_Idle'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Omniraptor/Animations/A_Omniraptor_Adult_Idle.2"
+        }
+      },
+      "AnimationMode": "EAnimationMode::AnimationSingleNode",
+      "ClothingSimulationFactory": {
+        "ObjectName": "Class'ClothingSimulationFactoryNv'",
+        "ObjectPath": "/Script/ClothingSystemRuntimeNv"
+      },
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_Omniraptor'",
+        "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Omniraptor/Mesh/SK_Omniraptor.6"
+      },
+      "SkinnedAsset": {
+        "ObjectName": "SkeletalMesh'SK_Omniraptor'",
+        "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Omniraptor/Mesh/SK_Omniraptor.6"
+      }
+    }
+  }
+]

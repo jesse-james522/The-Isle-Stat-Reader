@@ -1,0 +1,96 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "MMC_VomitMaxHunger_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'TIMMCVomitRevertValue'",
+      "ObjectPath": "/Script/TheIsle"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "MMC_VomitMaxHunger_C'Default__MMC_VomitMaxHunger_C'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Effects/MMC_VomitMaxHunger.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "MMC_VomitMaxHunger_C",
+    "Name": "Default__MMC_VomitMaxHunger_C",
+    "Class": "BlueprintGeneratedClass'/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Effects/MMC_VomitMaxHunger.MMC_VomitMaxHunger_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RelevantAttributesToCapture": [
+        {
+          "AttributeToCapture": {
+            "AttributeName": "MaxHunger",
+            "Attribute": {
+              "Path": [
+                "MaxHunger"
+              ],
+              "ResolvedOwner": {
+                "ObjectName": "Class'TIAttributeSetBase'",
+                "ObjectPath": "/Script/TheIsle"
+              }
+            },
+            "AttributeOwner": {
+              "ObjectName": "Class'TIAttributeSetBase'",
+              "ObjectPath": "/Script/TheIsle"
+            }
+          },
+          "AttributeSource": "EGameplayEffectAttributeCaptureSource::Source",
+          "bSnapshot": false
+        },
+        {
+          "AttributeToCapture": {
+            "AttributeName": "OriginalMaxHunger",
+            "Attribute": {
+              "Path": [
+                "OriginalMaxHunger"
+              ],
+              "ResolvedOwner": {
+                "ObjectName": "Class'TIAttributeSetBase'",
+                "ObjectPath": "/Script/TheIsle"
+              }
+            },
+            "AttributeOwner": {
+              "ObjectName": "Class'TIAttributeSetBase'",
+              "ObjectPath": "/Script/TheIsle"
+            }
+          },
+          "AttributeSource": "EGameplayEffectAttributeCaptureSource::Source",
+          "bSnapshot": false
+        },
+        {
+          "AttributeToCapture": {
+            "AttributeName": "VomitSickRemainingTime",
+            "Attribute": {
+              "Path": [
+                "VomitSickRemainingTime"
+              ],
+              "ResolvedOwner": {
+                "ObjectName": "Class'TIAttributeSetBase'",
+                "ObjectPath": "/Script/TheIsle"
+              }
+            },
+            "AttributeOwner": {
+              "ObjectName": "Class'TIAttributeSetBase'",
+              "ObjectPath": "/Script/TheIsle"
+            }
+          },
+          "AttributeSource": "EGameplayEffectAttributeCaptureSource::Source",
+          "bSnapshot": false
+        }
+      ]
+    }
+  }
+]

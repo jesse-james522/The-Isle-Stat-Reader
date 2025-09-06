@@ -1,0 +1,123 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GA_DirectionalPachycephalosaurusHeadbutt_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'TIGameplayAbilityDirectionalPachycephalosaurusHeadbutt'",
+      "ObjectPath": "/Script/TheIsle"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GA_DirectionalPachycephalosaurusHeadbutt_C'Default__GA_DirectionalPachycephalosaurusHeadbutt_C'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Attacks/Directional/GA_DirectionalPachycephalosaurusHeadbutt.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "GA_DirectionalPachycephalosaurusHeadbutt_C",
+    "Name": "Default__GA_DirectionalPachycephalosaurusHeadbutt_C",
+    "Class": "BlueprintGeneratedClass'/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Attacks/Directional/GA_DirectionalPachycephalosaurusHeadbutt.GA_DirectionalPachycephalosaurusHeadbutt_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HitImpactSound": {
+        "ObjectName": "SoundCue'CU_Blunt_Force_Impact_Med'",
+        "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/_Shared/Sound/Foley/CU_Blunt_Force_impact_Med.0"
+      },
+      "DirectionalAttackMoveSpeed": 375.0,
+      "DirectionalAttackName": "DirectionalHeadbutt",
+      "RotationRateF": 152.0,
+      "TraceTimesF": [
+        0.18,
+        0.24,
+        0.3,
+        0.36,
+        0.42,
+        0.48,
+        0.54,
+        0.6,
+        0.66
+      ],
+      "RotationRate45": 152.0,
+      "TraceTimes45": [
+        0.18,
+        0.24,
+        0.3,
+        0.36,
+        0.42,
+        0.48,
+        0.54,
+        0.6,
+        0.66
+      ],
+      "RotationRate90": 152.0,
+      "TraceTimes90": [
+        0.18,
+        0.24,
+        0.3,
+        0.36,
+        0.42,
+        0.48,
+        0.54,
+        0.6,
+        0.66,
+        0.72
+      ],
+      "RotationRate135": 152.0,
+      "TraceTimes135": [
+        0.36,
+        0.42,
+        0.48,
+        0.54,
+        0.6,
+        0.66,
+        0.72,
+        0.78,
+        0.84
+      ],
+      "RotationRate180": 152.0,
+      "TraceTimes180": [
+        0.48,
+        0.54,
+        0.6,
+        0.66,
+        0.72,
+        0.78,
+        0.84,
+        0.9,
+        0.96
+      ],
+      "PlayJuvAnimGameplayEffect": {
+        "ObjectName": "BlueprintGeneratedClass'GE_PlayJuvAnim_C'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Effects/GE_PlayJuvAnim.0"
+      },
+      "MultipliedDamageAttribute": {
+        "AttributeName": "DamageHolder",
+        "Attribute": {
+          "Path": [
+            "DamageHolder"
+          ],
+          "ResolvedOwner": {
+            "ObjectName": "Class'TIAttributeSetBase'",
+            "ObjectPath": "/Script/TheIsle"
+          }
+        },
+        "AttributeOwner": {
+          "ObjectName": "Class'TIAttributeSetBase'",
+          "ObjectPath": "/Script/TheIsle"
+        }
+      },
+      "bBlockedByLegsFracture": true,
+      "StaminaCostName": "Stamina.AltBite"
+    }
+  }
+]

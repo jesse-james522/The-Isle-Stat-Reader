@@ -1,0 +1,134 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GA_PounceStruggle_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'TIGameplayAbilityPounceStruggle'",
+      "ObjectPath": "/Script/TheIsle"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GA_PounceStruggle_C'Default__GA_PounceStruggle_C'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/PounceStruggle/GA_PounceStruggle.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "GA_PounceStruggle_C",
+    "Name": "Default__GA_PounceStruggle_C",
+    "Class": "BlueprintGeneratedClass'/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/PounceStruggle/GA_PounceStruggle.GA_PounceStruggle_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "PlayJuvAnimGameplayEffect": {
+        "ObjectName": "BlueprintGeneratedClass'GE_PlayJuvAnim_C'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Effects/GE_PlayJuvAnim.0"
+      },
+      "DamageAttribute": {
+        "AttributeName": "AttackPower",
+        "Attribute": {
+          "Path": [
+            "AttackPower"
+          ],
+          "ResolvedOwner": {
+            "ObjectName": "Class'TIAttributeSetDinosaur'",
+            "ObjectPath": "/Script/TheIsle"
+          }
+        },
+        "AttributeOwner": {
+          "ObjectName": "Class'TIAttributeSetDinosaur'",
+          "ObjectPath": "/Script/TheIsle"
+        }
+      },
+      "MaxStaminaAttribute": {
+        "AttributeName": "MaxStamina",
+        "Attribute": {
+          "Path": [
+            "MaxStamina"
+          ],
+          "ResolvedOwner": {
+            "ObjectName": "Class'TIAttributeSetBase'",
+            "ObjectPath": "/Script/TheIsle"
+          }
+        },
+        "AttributeOwner": {
+          "ObjectName": "Class'TIAttributeSetBase'",
+          "ObjectPath": "/Script/TheIsle"
+        }
+      },
+      "StaminaDamage": 150.0,
+      "PounceStruggleTimes": [
+        1.0,
+        1.5,
+        4.0,
+        4.5
+      ],
+      "StaminaCostEffect": {
+        "ObjectName": "BlueprintGeneratedClass'GE_StaminaCost_C'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Effects/GE_StaminaCost.0"
+      },
+      "AbilityTags": [
+        "Ability.Skill.PouncedBuck"
+      ],
+      "CostGameplayEffectClass": {
+        "ObjectName": "BlueprintGeneratedClass'GE_BuckCooldown_C'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Effects/GE_BuckCooldown.0"
+      },
+      "CooldownGameplayEffectClass": {
+        "ObjectName": "BlueprintGeneratedClass'GE_BuckCooldown_C'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Effects/GE_BuckCooldown.0"
+      },
+      "CancelAbilitiesWithTag": [
+        "Ability.Skill.PickUp",
+        "Ability.Skill.PrimaryAttack",
+        "Ability.Skill.PrimaryAttackStationary",
+        "Ability.Skill.Scent",
+        "Ability.Skill.SecondaryAttack",
+        "Ability.Skill.SecondaryAttackStationary",
+        "Ability.Skill.VoiceThreaten",
+        "Ability.Skill.VoiceHelp",
+        "Ability.Skill.VoiceFriendly",
+        "Ability.Skill.VoiceBroadcast",
+        "Ability.Skill.Vocalize"
+      ],
+      "BlockAbilitiesWithTag": [
+        "Ability.Skill.Nest",
+        "Ability.Skill.PickUp",
+        "Ability.Skill.Rest",
+        "Ability.Skill.Scent",
+        "Ability.Skill.Use",
+        "Ability.Skill.Wallow",
+        "Ability.Skill.VoiceThreaten",
+        "Ability.Skill.VoiceHelp",
+        "Ability.Skill.VoiceFriendly",
+        "Ability.Skill.VoiceBroadcast",
+        "Ability.Skill.Vocalize"
+      ],
+      "ActivationOwnedTags": [
+        "Ability.Skill.PouncedBuck"
+      ],
+      "ActivationRequiredTags": [
+        "State.PouncedLarge"
+      ],
+      "ActivationBlockedTags": [
+        "State.Dead",
+        "Ability.Skill.Nest",
+        "Ability.Skill.Rest",
+        "Ability.Skill.Wallow",
+        "State.PickedUp",
+        "State.UIBlockAbilities",
+        "Ability.Skill.Use",
+        "State.BlockAbilities"
+      ]
+    }
+  }
+]

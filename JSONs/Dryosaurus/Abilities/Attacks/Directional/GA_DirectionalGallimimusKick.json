@@ -1,0 +1,87 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GA_DirectionalGallimimusKick_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'TIGameplayAbilityDirectionalGallimimusKick'",
+      "ObjectPath": "/Script/TheIsle"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GA_DirectionalGallimimusKick_C'Default__GA_DirectionalGallimimusKick_C'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Attacks/Directional/GA_DirectionalGallimimusKick.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "GA_DirectionalGallimimusKick_C",
+    "Name": "Default__GA_DirectionalGallimimusKick_C",
+    "Class": "BlueprintGeneratedClass'/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Attacks/Directional/GA_DirectionalGallimimusKick.GA_DirectionalGallimimusKick_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DirectionalAttackMoveSpeed": 150.0,
+      "DirectionalAttackName": "AltBite",
+      "SpeedMultF": 0.0,
+      "RotationRateF": 20.0,
+      "TraceTimesF": [
+        0.09,
+        0.15
+      ],
+      "SpeedMult45": 0.0,
+      "RotationRate45": 20.0,
+      "TraceTimes45": [
+        0.09,
+        0.15
+      ],
+      "SpeedMult90": 0.0,
+      "RotationRate90": 40.0,
+      "TraceTimes90": [
+        0.09,
+        0.15
+      ],
+      "SpeedMult135": 0.0,
+      "RotationRate135": 55.0,
+      "TraceTimes135": [
+        0.12,
+        0.15
+      ],
+      "SpeedMult180": 0.0,
+      "RotationRate180": 70.0,
+      "TraceTimes180": [
+        0.12,
+        0.15
+      ],
+      "PlayJuvAnimGameplayEffect": {
+        "ObjectName": "BlueprintGeneratedClass'GE_PlayJuvAnim_C'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Effects/GE_PlayJuvAnim.0"
+      },
+      "MultipliedDamageAttribute": {
+        "AttributeName": "DamageHolder",
+        "Attribute": {
+          "Path": [
+            "DamageHolder"
+          ],
+          "ResolvedOwner": {
+            "ObjectName": "Class'TIAttributeSetBase'",
+            "ObjectPath": "/Script/TheIsle"
+          }
+        },
+        "AttributeOwner": {
+          "ObjectName": "Class'TIAttributeSetBase'",
+          "ObjectPath": "/Script/TheIsle"
+        }
+      },
+      "StaminaCostName": "Stamina.AltBite"
+    }
+  }
+]

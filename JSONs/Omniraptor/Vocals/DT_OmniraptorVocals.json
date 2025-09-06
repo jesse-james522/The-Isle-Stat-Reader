@@ -1,0 +1,344 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_OmniraptorVocals",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'Vocals'",
+        "ObjectPath": "/Script/TheIsle"
+      }
+    },
+    "Rows": {
+      "Generic": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Omniraptor_Call_Generic'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Omniraptor/Sound/MS_Omniraptor_Call_Generic.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Broadcast": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Omniraptor_Call_Broadcast'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Omniraptor/Sound/MS_Omniraptor_Call_Broadcast.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Attract": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Omniraptor_Call_Attract'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Omniraptor/Sound/MS_Omniraptor_Call_Attract.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Threaten": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Omniraptor_Call_Threaten'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Omniraptor/Sound/MS_Omniraptor_Call_Threaten.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Danger": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Omniraptor_Call_Danger'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Omniraptor/Sound/MS_Omniraptor_Call_Danger.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "RegularPain": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Omniraptor_Pain'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Omniraptor/Sound/CU_Omniraptor_Pain.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "ExtremePain": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Omniraptor_Pain_Extreme'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Omniraptor/Sound/CU_Omniraptor_Pain_Extreme.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Death": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Omniraptor_Death'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Omniraptor/Sound/CU_Omniraptor_Death.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "JuvenilePain": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Omniraptor_Pain_Juv'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Omniraptor/Sound/CU_Omniraptor_Pain_Juv.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "JuvenileExtremePain": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Omniraptor_Pain_Juv_Extreme'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Omniraptor/Sound/CU_Omniraptor_Pain_Juv_Extreme.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "JuvenileDeath": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Omniraptor_Death_Juv'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Omniraptor/Sound/CU_Omniraptor_Death_Juv.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Bite": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Omniraptor_Bite'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Omniraptor/Sound/MS_Omniraptor_Bite.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Trill": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Omniraptor_Trill'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Omniraptor/Sound/CU_Omniraptor_Trill.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Chirps": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Omniraptor_Chirps'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Omniraptor/Sound/CU_Omniraptor_Chirps.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "ChirpsDeep": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Omniraptor_Chirps_Deep'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Omniraptor/Sound/CU_Omniraptor_Chirps_Deep.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Eat": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Omniraptor_Eat'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Omniraptor/Sound/CU_Omniraptor_Eat.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Idle": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Omniraptor_Idle'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Omniraptor/Sound/CU_Omniraptor_Idle.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Jump": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Omniraptor_Jump'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Omniraptor/Sound/CU_Omniraptor_Jump.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "JumpFast": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Omniraptor_Jump_Fast'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Omniraptor/Sound/CU_Omniraptor_Jump_Fast.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "JumpAttackUp": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Omniraptor_JumpAttack_Up'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Omniraptor/Sound/CU_Omniraptor_JumpAttack_Up.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "JumpAttackDown": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Omniraptor_JumpAttack_Down'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Omniraptor/Sound/CU_Omniraptor_JumpAttack_Down.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Nuzzle": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Omniraptor_Nuzzle'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Omniraptor/Sound/CU_Omniraptor_Nuzzle.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "PounceIn": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Omniraptor_Pounce_In'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Omniraptor/Sound/CU_Omniraptor_Pounce_In.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Pounce": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Omniraptor_Pounce'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Omniraptor/Sound/CU_Omniraptor_Pounce.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "PounceThrown": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Omniraptor_Pounce_Thrown'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Omniraptor/Sound/CU_Omniraptor_Pounce_Thrown.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "SitDown": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Omniraptor_Sitdown'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Omniraptor/Sound/CU_Omniraptor_Sitdown.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "StandUp": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Omniraptor_Standup'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Omniraptor/Sound/CU_Omniraptor_Standup.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Snore": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Omniraptor_Snore'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Omniraptor/Sound/CU_Omniraptor_Snore.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Drink": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Omniraptor_Drink'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Omniraptor/Sound/CU_Omniraptor_Drink.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "HeadInjury": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Omniraptor_HeadInjury'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Omniraptor/Sound/CU_Omniraptor_HeadInjury.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "CourtshipMalePurr": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Omniraptor_Courtship_Male_Purr'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Omniraptor/Sound/CU_Omniraptor_Courtship_Male_Purr.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "CourtshipMaleChuff": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Omniraptor_Courtship_Male_Chuff'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Omniraptor/Sound/CU_Omniraptor_Courtship_Male_Chuff.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "CourtshipMaleBow": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Omniraptor_Courtship_Male_Bow'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Omniraptor/Sound/CU_Omniraptor_Courtship_Male_Bow.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "CourtshipFemale": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Omniraptor_Courtship_Female'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Omniraptor/Sound/CU_Omniraptor_Courtship_Female.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Hatch": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Omniraptor_Hatchling_Hatch'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Omniraptor/Sound/CU_Omniraptor_Hatchling_Hatch.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Beg1": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Omniraptor_Hatchling_Beg1'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Omniraptor/Sound/CU_Omniraptor_Hatchling_Beg1.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Beg2": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Omniraptor_Hatchling_Beg2'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Omniraptor/Sound/CU_Omniraptor_Hatchling_Beg2.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Beg3": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Omniraptor_Hatchling_Beg3'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Omniraptor/Sound/CU_Omniraptor_Hatchling_Beg3.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Feed": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Omniraptor_Feed'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Omniraptor/Sound/CU_Omniraptor_Feed.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Consume": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Omniraptor_Hatchling_Consume'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Omniraptor/Sound/CU_Omniraptor_Hatchling_Consume.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Growl": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Omniraptor_Nuzzle'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Omniraptor/Sound/CU_Omniraptor_Nuzzle.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      }
+    }
+  }
+]

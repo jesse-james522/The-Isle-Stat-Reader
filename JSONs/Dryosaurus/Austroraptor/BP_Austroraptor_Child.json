@@ -1,0 +1,943 @@
+[
+  {
+    "Type": "AudioComponent",
+    "Name": "HeartbeatAudio",
+    "Outer": "Default__BP_Austroraptor_Child_C",
+    "Class": "UScriptClass'AudioComponent'",
+    "Template": {
+      "ObjectName": "AudioComponent'Default__BP_Austroraptor_C:HeartbeatAudio'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Austroraptor/BP_Austroraptor.0"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SkeletalMeshComponentBudgeted'Default__BP_Austroraptor_Child_C:CharacterMesh0'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Austroraptor/BP_Austroraptor_Child.22"
+      }
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_Austroraptor_Child_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Austroraptor_C'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Austroraptor/BP_Austroraptor.1"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "bHasCookedComponentInstancingData": true,
+      "ComponentClassOverrides": [
+        {
+          "ComponentName": "RibsMeatMesh",
+          "ComponentClass": {
+            "ObjectName": "Class'SkeletalMeshComponentBudgeted'",
+            "ObjectPath": "/Script/AnimationBudgetAllocator"
+          }
+        },
+        {
+          "ComponentName": "SkeletonMesh",
+          "ComponentClass": {
+            "ObjectName": "Class'SkeletalMeshComponentBudgeted'",
+            "ObjectPath": "/Script/AnimationBudgetAllocator"
+          }
+        }
+      ],
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_Austroraptor_Child_C:SimpleConstructionScript_0'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Austroraptor/BP_Austroraptor_Child.21"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler'BP_Austroraptor_Child_C:InheritableComponentHandler'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Austroraptor/BP_Austroraptor_Child.12"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'BP_Austroraptor_Child_C:ExecuteUbergraph_BP_Austroraptor_Child'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Austroraptor/BP_Austroraptor_Child.8"
+      }
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BP_Austroraptor_Child_C:ReceiveBeginPlay'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Austroraptor/BP_Austroraptor_Child.9"
+      },
+      {
+        "ObjectName": "Function'BP_Austroraptor_Child_C:ReceiveTick'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Austroraptor/BP_Austroraptor_Child.11"
+      },
+      {
+        "ObjectName": "Function'BP_Austroraptor_Child_C:ReceiveDestroyed'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Austroraptor/BP_Austroraptor_Child.10"
+      },
+      {
+        "ObjectName": "Function'BP_Austroraptor_Child_C:ExecuteUbergraph_BP_Austroraptor_Child'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Austroraptor/BP_Austroraptor_Child.8"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "BP_FluidImplementation1",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_FluidImplementation_C'",
+          "ObjectPath": "/Game/FluidInteractionTool/Blueprints/BP_FluidImplementation.0"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_BP_Austroraptor_Child": {
+        "ObjectName": "Function'BP_Austroraptor_Child_C:ExecuteUbergraph_BP_Austroraptor_Child'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Austroraptor/BP_Austroraptor_Child.8"
+      },
+      "ReceiveDestroyed": {
+        "ObjectName": "Function'BP_Austroraptor_Child_C:ReceiveDestroyed'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Austroraptor/BP_Austroraptor_Child.10"
+      },
+      "ReceiveTick": {
+        "ObjectName": "Function'BP_Austroraptor_Child_C:ReceiveTick'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Austroraptor/BP_Austroraptor_Child.11"
+      },
+      "ReceiveBeginPlay": {
+        "ObjectName": "Function'BP_Austroraptor_Child_C:ReceiveBeginPlay'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Austroraptor/BP_Austroraptor_Child.9"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Game",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_Austroraptor_Child_C'Default__BP_Austroraptor_Child_C'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Austroraptor/BP_Austroraptor_Child.4"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "InteractableDetector",
+    "Outer": "Default__BP_Austroraptor_Child_C",
+    "Class": "UScriptClass'BoxComponent'",
+    "Template": {
+      "ObjectName": "BoxComponent'Default__BP_Austroraptor_C:InteractableDetector'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Austroraptor/BP_Austroraptor.2"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_Austroraptor_Child_C:CollisionCylinder'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Austroraptor/BP_Austroraptor_Child.7"
+      }
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "PouncebleArea",
+    "Outer": "Default__BP_Austroraptor_Child_C",
+    "Class": "UScriptClass'BoxComponent'",
+    "Template": {
+      "ObjectName": "BoxComponent'Default__BP_Austroraptor_C:PouncebleArea'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Austroraptor/BP_Austroraptor.3"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_Austroraptor_Child_C:CollisionCylinder'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Austroraptor/BP_Austroraptor_Child.7"
+      }
+    }
+  },
+  {
+    "Type": "BP_Austroraptor_Child_C",
+    "Name": "Default__BP_Austroraptor_Child_C",
+    "Class": "BlueprintGeneratedClass'/Game/TheIsle/Core/Characters/Dinosaurs/Austroraptor/BP_Austroraptor_Child.BP_Austroraptor_Child_C'",
+    "Template": {
+      "ObjectName": "BP_Austroraptor_C'Default__BP_Austroraptor_C'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Austroraptor/BP_Austroraptor.4"
+    },
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "UberGraphFrame": {}
+    }
+  },
+  {
+    "Type": "BP_FluidImplementation_C",
+    "Name": "BP_FluidImplementation1_GEN_VARIABLE",
+    "Outer": "BP_Austroraptor_Child_C",
+    "Class": "BlueprintGeneratedClass'/Game/FluidInteractionTool/Blueprints/BP_FluidImplementation.BP_FluidImplementation_C'",
+    "Template": {
+      "ObjectName": "BP_FluidImplementation_C'Default__BP_FluidImplementation_C'",
+      "ObjectPath": "/Game/FluidInteractionTool/Blueprints/BP_FluidImplementation.1"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "TraceOffsetUp": 140.0,
+      "TraceOffsetDown": -50.0,
+      "UsePerBoneTrace": true,
+      "FluidDrawSize": 0.009,
+      "FluidMaxDrawIntensity": 0.011,
+      "VelocityDeterminesIntensity": false,
+      "VelocityDivideIntensity": 1.0,
+      "VelocityBegin": 1.0
+    }
+  },
+  {
+    "Type": "CameraComponent",
+    "Name": "Main Camera",
+    "Outer": "Default__BP_Austroraptor_Child_C",
+    "Class": "UScriptClass'CameraComponent'",
+    "Template": {
+      "ObjectName": "CameraComponent'Default__BP_Austroraptor_C:Main Camera'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Austroraptor/BP_Austroraptor.6"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SpringArmComponent'Default__BP_Austroraptor_Child_C:Spring Arm'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Austroraptor/BP_Austroraptor_Child.27"
+      }
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "CollisionCylinder",
+    "Outer": "Default__BP_Austroraptor_Child_C",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Template": {
+      "ObjectName": "CapsuleComponent'Default__BP_Austroraptor_C:CollisionCylinder'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Austroraptor/BP_Austroraptor.7"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BP_Austroraptor_Child",
+    "Outer": "BP_Austroraptor_Child_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "K2Node_Event_DeltaSeconds",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      }
+    ],
+    "ScriptBytecode": [
+      {
+        "Inst": "EX_ComputedJump",
+        "StatementIndex": 0,
+        "OffsetExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'BP_Austroraptor_Child_C:ExecuteUbergraph_BP_Austroraptor_Child'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Austroraptor/BP_Austroraptor_Child.8"
+            },
+            "Property": {
+              "Type": "IntProperty",
+              "Name": "EntryPoint",
+              "Flags": "RF_Public",
+              "ElementSize": 4,
+              "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_LocalFinalFunction",
+        "StatementIndex": 10,
+        "Function": {
+          "ObjectName": "Function'BP_Austroraptor_C:ReceiveDestroyed'",
+          "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Austroraptor/BP_Austroraptor.10"
+        },
+        "Parameters": []
+      },
+      {
+        "Inst": "EX_Jump",
+        "StatementIndex": 20,
+        "CodeOffset": 69,
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Austroraptor/BP_Austroraptor_Child.ExecuteUbergraph_BP_Austroraptor_Child[69]"
+      },
+      {
+        "Inst": "EX_LocalFinalFunction",
+        "StatementIndex": 25,
+        "Function": {
+          "ObjectName": "Function'BP_Austroraptor_C:ReceiveBeginPlay'",
+          "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Austroraptor/BP_Austroraptor.9"
+        },
+        "Parameters": []
+      },
+      {
+        "Inst": "EX_Jump",
+        "StatementIndex": 35,
+        "CodeOffset": 69,
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Austroraptor/BP_Austroraptor_Child.ExecuteUbergraph_BP_Austroraptor_Child[69]"
+      },
+      {
+        "Inst": "EX_LocalFinalFunction",
+        "StatementIndex": 40,
+        "Function": {
+          "ObjectName": "Function'BP_Austroraptor_C:ReceiveTick'",
+          "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Austroraptor/BP_Austroraptor.11"
+        },
+        "Parameters": [
+          {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'BP_Austroraptor_Child_C:ExecuteUbergraph_BP_Austroraptor_Child'",
+                "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Austroraptor/BP_Austroraptor_Child.8"
+              },
+              "Property": {
+                "Type": "FloatProperty",
+                "Name": "K2Node_Event_DeltaSeconds",
+                "Flags": "RF_Public",
+                "ElementSize": 4
+              }
+            }
+          }
+        ]
+      },
+      {
+        "Inst": "EX_Jump",
+        "StatementIndex": 59,
+        "CodeOffset": 69,
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Austroraptor/BP_Austroraptor_Child.ExecuteUbergraph_BP_Austroraptor_Child[69]"
+      },
+      {
+        "Inst": "EX_Jump",
+        "StatementIndex": 64,
+        "CodeOffset": 10,
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Austroraptor/BP_Austroraptor_Child.ExecuteUbergraph_BP_Austroraptor_Child[10]"
+      },
+      {
+        "Inst": "EX_Return",
+        "StatementIndex": 69,
+        "Expression": {
+          "Inst": "EX_Nothing"
+        }
+      },
+      {
+        "Inst": "EX_EndOfScript",
+        "StatementIndex": 71
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceiveBeginPlay",
+    "Outer": "BP_Austroraptor_Child_C",
+    "Class": "UScriptClass'Function'",
+    "Super": {
+      "ObjectName": "Function'BP_Austroraptor_C:ReceiveBeginPlay'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Austroraptor/BP_Austroraptor.9"
+    },
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "ScriptBytecode": [
+      {
+        "Inst": "EX_LocalFinalFunction",
+        "StatementIndex": 0,
+        "Function": {
+          "ObjectName": "Function'BP_Austroraptor_Child_C:ExecuteUbergraph_BP_Austroraptor_Child'",
+          "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Austroraptor/BP_Austroraptor_Child.8"
+        },
+        "Parameters": [
+          {
+            "Inst": "EX_IntConst",
+            "Value": 25
+          }
+        ],
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Austroraptor/BP_Austroraptor_Child.ExecuteUbergraph_BP_Austroraptor_Child[25]"
+      },
+      {
+        "Inst": "EX_Return",
+        "StatementIndex": 15,
+        "Expression": {
+          "Inst": "EX_Nothing"
+        }
+      },
+      {
+        "Inst": "EX_EndOfScript",
+        "StatementIndex": 17
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceiveDestroyed",
+    "Outer": "BP_Austroraptor_Child_C",
+    "Class": "UScriptClass'Function'",
+    "Super": {
+      "ObjectName": "Function'BP_Austroraptor_C:ReceiveDestroyed'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Austroraptor/BP_Austroraptor.10"
+    },
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "ScriptBytecode": [
+      {
+        "Inst": "EX_LocalFinalFunction",
+        "StatementIndex": 0,
+        "Function": {
+          "ObjectName": "Function'BP_Austroraptor_Child_C:ExecuteUbergraph_BP_Austroraptor_Child'",
+          "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Austroraptor/BP_Austroraptor_Child.8"
+        },
+        "Parameters": [
+          {
+            "Inst": "EX_IntConst",
+            "Value": 64
+          }
+        ],
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Austroraptor/BP_Austroraptor_Child.ExecuteUbergraph_BP_Austroraptor_Child[64]"
+      },
+      {
+        "Inst": "EX_Return",
+        "StatementIndex": 15,
+        "Expression": {
+          "Inst": "EX_Nothing"
+        }
+      },
+      {
+        "Inst": "EX_EndOfScript",
+        "StatementIndex": 17
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceiveTick",
+    "Outer": "BP_Austroraptor_Child_C",
+    "Class": "UScriptClass'Function'",
+    "Super": {
+      "ObjectName": "Function'BP_Austroraptor_C:ReceiveTick'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Austroraptor/BP_Austroraptor.11"
+    },
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "ChildProperties": [
+      {
+        "Type": "FloatProperty",
+        "Name": "DeltaSeconds",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "ScriptBytecode": [
+      {
+        "Inst": "EX_LetValueOnPersistentFrame",
+        "StatementIndex": 0,
+        "DestinationProperty": {
+          "Owner": {
+            "ObjectName": "Function'BP_Austroraptor_Child_C:ExecuteUbergraph_BP_Austroraptor_Child'",
+            "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Austroraptor/BP_Austroraptor_Child.8"
+          },
+          "Property": {
+            "Type": "FloatProperty",
+            "Name": "K2Node_Event_DeltaSeconds",
+            "Flags": "RF_Public",
+            "ElementSize": 4
+          }
+        },
+        "AssignmentExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'BP_Austroraptor_Child_C:ReceiveTick'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Austroraptor/BP_Austroraptor_Child.11"
+            },
+            "Property": {
+              "Type": "FloatProperty",
+              "Name": "DeltaSeconds",
+              "Flags": "RF_Public",
+              "ElementSize": 4,
+              "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_LocalFinalFunction",
+        "StatementIndex": 18,
+        "Function": {
+          "ObjectName": "Function'BP_Austroraptor_Child_C:ExecuteUbergraph_BP_Austroraptor_Child'",
+          "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Austroraptor/BP_Austroraptor_Child.8"
+        },
+        "Parameters": [
+          {
+            "Inst": "EX_IntConst",
+            "Value": 40
+          }
+        ],
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Austroraptor/BP_Austroraptor_Child.ExecuteUbergraph_BP_Austroraptor_Child[40]"
+      },
+      {
+        "Inst": "EX_Return",
+        "StatementIndex": 33,
+        "Expression": {
+          "Inst": "EX_Nothing"
+        }
+      },
+      {
+        "Inst": "EX_EndOfScript",
+        "StatementIndex": 35
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Outer": "BP_Austroraptor_Child_C",
+    "Class": "UScriptClass'InheritableComponentHandler'",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "NavigationInvokerComponent",
+    "Name": "NavigationInvoker",
+    "Outer": "Default__BP_Austroraptor_Child_C",
+    "Class": "UScriptClass'NavigationInvokerComponent'",
+    "Template": {
+      "ObjectName": "NavigationInvokerComponent'Default__BP_Austroraptor_C:NavigationInvoker'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Austroraptor/BP_Austroraptor.13"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "PhysicalAnimationComponent",
+    "Name": "PhysicalAnim",
+    "Outer": "Default__BP_Austroraptor_Child_C",
+    "Class": "UScriptClass'PhysicalAnimationComponent'",
+    "Template": {
+      "ObjectName": "PhysicalAnimationComponent'Default__BP_Austroraptor_C:PhysicalAnim'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Austroraptor/BP_Austroraptor.14"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "PhysicsConstraintComponent",
+    "Name": "PhysicsConstraints",
+    "Outer": "Default__BP_Austroraptor_Child_C",
+    "Class": "UScriptClass'PhysicsConstraintComponent'",
+    "Template": {
+      "ObjectName": "PhysicsConstraintComponent'Default__BP_Austroraptor_C:PhysicsConstraints'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Austroraptor/BP_Austroraptor.15"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_Austroraptor_Child_C:CollisionCylinder'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Austroraptor/BP_Austroraptor_Child.7"
+      }
+    }
+  },
+  {
+    "Type": "PhysicsHandleComponent",
+    "Name": "PhysicsHandle",
+    "Outer": "Default__BP_Austroraptor_Child_C",
+    "Class": "UScriptClass'PhysicsHandleComponent'",
+    "Template": {
+      "ObjectName": "PhysicsHandleComponent'Default__BP_Austroraptor_C:PhysicsHandle'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Austroraptor/BP_Austroraptor.16"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "BP_Austroraptor_Child_C",
+    "Class": "UScriptClass'SceneComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "Draglocation",
+    "Outer": "Default__BP_Austroraptor_Child_C",
+    "Class": "UScriptClass'SceneComponent'",
+    "Template": {
+      "ObjectName": "SceneComponent'Default__BP_Austroraptor_C:Draglocation'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Austroraptor/BP_Austroraptor.18"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SkeletalMeshComponentBudgeted'Default__BP_Austroraptor_Child_C:CharacterMesh0'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Austroraptor/BP_Austroraptor_Child.22"
+      }
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_Austroraptor_Child_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Austroraptor/BP_Austroraptor_Child.17"
+      },
+      "VariableGuid": "3C99B2FF-43E4D529-2C66DB9F-FE39222E",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_FluidImplementation_C'",
+        "ObjectPath": "/Game/FluidInteractionTool/Blueprints/BP_FluidImplementation.0"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BP_FluidImplementation_C'BP_Austroraptor_Child_C:BP_FluidImplementation1_GEN_VARIABLE'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Austroraptor/BP_Austroraptor_Child.5"
+      },
+      "CookedComponentInstancingData": {
+        "ChangedPropertyList": [
+          {
+            "PropertyName": "TraceOffsetUp",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "BlueprintGeneratedClass'BP_FluidImplementation_C'",
+              "ObjectPath": "/Game/FluidInteractionTool/Blueprints/BP_FluidImplementation.0"
+            }
+          },
+          {
+            "PropertyName": "TraceOffsetDown",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "BlueprintGeneratedClass'BP_FluidImplementation_C'",
+              "ObjectPath": "/Game/FluidInteractionTool/Blueprints/BP_FluidImplementation.0"
+            }
+          },
+          {
+            "PropertyName": "UsePerBoneTrace",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "BlueprintGeneratedClass'BP_FluidImplementation_C'",
+              "ObjectPath": "/Game/FluidInteractionTool/Blueprints/BP_FluidImplementation.0"
+            }
+          },
+          {
+            "PropertyName": "FluidDrawSize",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "BlueprintGeneratedClass'BP_FluidImplementation_C'",
+              "ObjectPath": "/Game/FluidInteractionTool/Blueprints/BP_FluidImplementation.0"
+            }
+          },
+          {
+            "PropertyName": "FluidMaxDrawIntensity",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "BlueprintGeneratedClass'BP_FluidImplementation_C'",
+              "ObjectPath": "/Game/FluidInteractionTool/Blueprints/BP_FluidImplementation.0"
+            }
+          },
+          {
+            "PropertyName": "VelocityDeterminesIntensity",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "BlueprintGeneratedClass'BP_FluidImplementation_C'",
+              "ObjectPath": "/Game/FluidInteractionTool/Blueprints/BP_FluidImplementation.0"
+            }
+          },
+          {
+            "PropertyName": "VelocityDivideIntensity",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "BlueprintGeneratedClass'BP_FluidImplementation_C'",
+              "ObjectPath": "/Game/FluidInteractionTool/Blueprints/BP_FluidImplementation.0"
+            }
+          },
+          {
+            "PropertyName": "VelocityBegin",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "BlueprintGeneratedClass'BP_FluidImplementation_C'",
+              "ObjectPath": "/Game/FluidInteractionTool/Blueprints/BP_FluidImplementation.0"
+            }
+          }
+        ],
+        "bHasValidCookedData": true
+      },
+      "VariableGuid": "DFBB8AB3-41BA12C7-D1E414A1-9158C83D",
+      "InternalVariableName": "BP_FluidImplementation1"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "BP_Austroraptor_Child_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_Austroraptor_Child_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Austroraptor/BP_Austroraptor_Child.20"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_Austroraptor_Child_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Austroraptor/BP_Austroraptor_Child.20"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_Austroraptor_Child_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Austroraptor/BP_Austroraptor_Child.19"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponentBudgeted",
+    "Name": "CharacterMesh0",
+    "Outer": "Default__BP_Austroraptor_Child_C",
+    "Class": "UScriptClass'SkeletalMeshComponentBudgeted'",
+    "Template": {
+      "ObjectName": "SkeletalMeshComponentBudgeted'Default__BP_Austroraptor_C:CharacterMesh0'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Austroraptor/BP_Austroraptor.22"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_Austroraptor_Child_C:CollisionCylinder'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Austroraptor/BP_Austroraptor_Child.7"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponentBudgeted",
+    "Name": "RibsMeatMesh",
+    "Outer": "Default__BP_Austroraptor_Child_C",
+    "Class": "UScriptClass'SkeletalMeshComponentBudgeted'",
+    "Template": {
+      "ObjectName": "SkeletalMeshComponentBudgeted'Default__BP_Austroraptor_C:RibsMeatMesh'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Austroraptor/BP_Austroraptor.23"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LeaderPoseComponent": {
+        "ObjectName": "SkeletalMeshComponentBudgeted'Default__BP_Austroraptor_Child_C:CharacterMesh0'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Austroraptor/BP_Austroraptor_Child.22"
+      },
+      "AttachParent": {
+        "ObjectName": "SkeletalMeshComponentBudgeted'Default__BP_Austroraptor_Child_C:CharacterMesh0'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Austroraptor/BP_Austroraptor_Child.22"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponentBudgeted",
+    "Name": "SkeletonMesh",
+    "Outer": "Default__BP_Austroraptor_Child_C",
+    "Class": "UScriptClass'SkeletalMeshComponentBudgeted'",
+    "Template": {
+      "ObjectName": "SkeletalMeshComponentBudgeted'Default__BP_Austroraptor_C:SkeletonMesh'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Austroraptor/BP_Austroraptor.24"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LeaderPoseComponent": {
+        "ObjectName": "SkeletalMeshComponentBudgeted'Default__BP_Austroraptor_Child_C:CharacterMesh0'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Austroraptor/BP_Austroraptor_Child.22"
+      },
+      "AttachParent": {
+        "ObjectName": "SkeletalMeshComponentBudgeted'Default__BP_Austroraptor_Child_C:CharacterMesh0'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Austroraptor/BP_Austroraptor_Child.22"
+      }
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CorpseDisableDetector",
+    "Outer": "Default__BP_Austroraptor_Child_C",
+    "Class": "UScriptClass'SphereComponent'",
+    "Template": {
+      "ObjectName": "SphereComponent'Default__BP_Austroraptor_C:CorpseDisableDetector'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Austroraptor/BP_Austroraptor.25"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_Austroraptor_Child_C:CollisionCylinder'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Austroraptor/BP_Austroraptor_Child.7"
+      }
+    }
+  },
+  {
+    "Type": "SplineComponent",
+    "Name": "ThroatSpline",
+    "Outer": "Default__BP_Austroraptor_Child_C",
+    "Class": "UScriptClass'SplineComponent'",
+    "Template": {
+      "ObjectName": "SplineComponent'Default__BP_Austroraptor_C:ThroatSpline'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Austroraptor/BP_Austroraptor.26"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SkeletalMeshComponentBudgeted'Default__BP_Austroraptor_Child_C:CharacterMesh0'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Austroraptor/BP_Austroraptor_Child.22"
+      }
+    }
+  },
+  {
+    "Type": "SpringArmComponent",
+    "Name": "Spring Arm",
+    "Outer": "Default__BP_Austroraptor_Child_C",
+    "Class": "UScriptClass'SpringArmComponent'",
+    "Template": {
+      "ObjectName": "SpringArmComponent'Default__BP_Austroraptor_C:Spring Arm'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Austroraptor/BP_Austroraptor.27"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_Austroraptor_Child_C:CollisionCylinder'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Austroraptor/BP_Austroraptor_Child.7"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "BuoyancyPlane",
+    "Outer": "Default__BP_Austroraptor_Child_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Template": {
+      "ObjectName": "StaticMeshComponent'Default__BP_Austroraptor_C:BuoyancyPlane'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Austroraptor/BP_Austroraptor.28"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_Austroraptor_Child_C:CollisionCylinder'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Austroraptor/BP_Austroraptor_Child.7"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "ThroatMesh",
+    "Outer": "Default__BP_Austroraptor_Child_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Template": {
+      "ObjectName": "StaticMeshComponent'Default__BP_Austroraptor_C:ThroatMesh'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Austroraptor/BP_Austroraptor.29"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SkeletalMeshComponentBudgeted'Default__BP_Austroraptor_Child_C:CharacterMesh0'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Austroraptor/BP_Austroraptor_Child.22"
+      }
+    }
+  },
+  {
+    "Type": "TIAbilitySystemComponent",
+    "Name": "AbilitySystemComponent",
+    "Outer": "Default__BP_Austroraptor_Child_C",
+    "Class": "UScriptClass'TIAbilitySystemComponent'",
+    "Template": {
+      "ObjectName": "TIAbilitySystemComponent'Default__BP_Austroraptor_C:AbilitySystemComponent'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Austroraptor/BP_Austroraptor.30"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "TIAntiCheatComponent",
+    "Name": "AntiCheatComponent",
+    "Outer": "Default__BP_Austroraptor_Child_C",
+    "Class": "UScriptClass'TIAntiCheatComponent'",
+    "Template": {
+      "ObjectName": "TIAntiCheatComponent'Default__BP_Austroraptor_C:AntiCheatComponent'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Austroraptor/BP_Austroraptor.31"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "TIAttributeSetDinosaur",
+    "Name": "AttributeSetBase",
+    "Outer": "Default__BP_Austroraptor_Child_C",
+    "Class": "UScriptClass'TIAttributeSetDinosaur'",
+    "Template": {
+      "ObjectName": "TIAttributeSetDinosaur'Default__BP_Austroraptor_C:AttributeSetBase'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Austroraptor/BP_Austroraptor.32"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "TIDinosaurMovementComponent",
+    "Name": "CharMoveComp",
+    "Outer": "Default__BP_Austroraptor_Child_C",
+    "Class": "UScriptClass'TIDinosaurMovementComponent'",
+    "Template": {
+      "ObjectName": "TIDinosaurMovementComponent'Default__BP_Austroraptor_C:CharMoveComp'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Austroraptor/BP_Austroraptor.33"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "TIFootstepsComponent",
+    "Name": "FootstepsComponent",
+    "Outer": "Default__BP_Austroraptor_Child_C",
+    "Class": "UScriptClass'TIFootstepsComponent'",
+    "Template": {
+      "ObjectName": "TIFootstepsComponent'Default__BP_Austroraptor_C:FootstepsComponent'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Austroraptor/BP_Austroraptor.34"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "WidgetComponent",
+    "Name": "NameWidget",
+    "Outer": "Default__BP_Austroraptor_Child_C",
+    "Class": "UScriptClass'WidgetComponent'",
+    "Template": {
+      "ObjectName": "WidgetComponent'Default__BP_Austroraptor_C:NameWidget'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Austroraptor/BP_Austroraptor.35"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_Austroraptor_Child_C:CollisionCylinder'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Austroraptor/BP_Austroraptor_Child.7"
+      }
+    }
+  }
+]

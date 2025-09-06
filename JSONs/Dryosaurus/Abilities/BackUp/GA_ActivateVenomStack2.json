@@ -1,0 +1,193 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GA_ActivateVenomStack2_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'GA_ActivateVenomBase_C'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.0"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "UberGraphFunction": {
+        "ObjectName": "Function'GA_ActivateVenomStack2_C:ExecuteUbergraph_GA_ActivateVenomStack2'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomStack2.1"
+      }
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'GA_ActivateVenomStack2_C:K2_ActivateAbility'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomStack2.2"
+      },
+      {
+        "ObjectName": "Function'GA_ActivateVenomStack2_C:ExecuteUbergraph_GA_ActivateVenomStack2'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomStack2.1"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_GA_ActivateVenomStack2": {
+        "ObjectName": "Function'GA_ActivateVenomStack2_C:ExecuteUbergraph_GA_ActivateVenomStack2'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomStack2.1"
+      },
+      "K2_ActivateAbility": {
+        "ObjectName": "Function'GA_ActivateVenomStack2_C:K2_ActivateAbility'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomStack2.2"
+      }
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GA_ActivateVenomStack2_C'Default__GA_ActivateVenomStack2_C'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomStack2.3"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_GA_ActivateVenomStack2",
+    "Outer": "GA_ActivateVenomStack2_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "ScriptBytecode": [
+      {
+        "Inst": "EX_ComputedJump",
+        "StatementIndex": 0,
+        "OffsetExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'GA_ActivateVenomStack2_C:ExecuteUbergraph_GA_ActivateVenomStack2'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomStack2.1"
+            },
+            "Property": {
+              "Type": "IntProperty",
+              "Name": "EntryPoint",
+              "Flags": "RF_Public",
+              "ElementSize": 4,
+              "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_LocalFinalFunction",
+        "StatementIndex": 10,
+        "Function": {
+          "ObjectName": "Function'GA_ActivateVenomBase_C:K2_ActivateAbility'",
+          "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.2"
+        },
+        "Parameters": []
+      },
+      {
+        "Inst": "EX_Jump",
+        "StatementIndex": 20,
+        "CodeOffset": 30,
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomStack2.ExecuteUbergraph_GA_ActivateVenomStack2[30]"
+      },
+      {
+        "Inst": "EX_Jump",
+        "StatementIndex": 25,
+        "CodeOffset": 10,
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomStack2.ExecuteUbergraph_GA_ActivateVenomStack2[10]"
+      },
+      {
+        "Inst": "EX_Return",
+        "StatementIndex": 30,
+        "Expression": {
+          "Inst": "EX_Nothing"
+        }
+      },
+      {
+        "Inst": "EX_EndOfScript",
+        "StatementIndex": 32
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "K2_ActivateAbility",
+    "Outer": "GA_ActivateVenomStack2_C",
+    "Class": "UScriptClass'Function'",
+    "Super": {
+      "ObjectName": "Function'GA_ActivateVenomBase_C:K2_ActivateAbility'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.2"
+    },
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "ScriptBytecode": [
+      {
+        "Inst": "EX_LocalFinalFunction",
+        "StatementIndex": 0,
+        "Function": {
+          "ObjectName": "Function'GA_ActivateVenomStack2_C:ExecuteUbergraph_GA_ActivateVenomStack2'",
+          "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomStack2.1"
+        },
+        "Parameters": [
+          {
+            "Inst": "EX_IntConst",
+            "Value": 25
+          }
+        ],
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomStack2.ExecuteUbergraph_GA_ActivateVenomStack2[25]"
+      },
+      {
+        "Inst": "EX_Return",
+        "StatementIndex": 15,
+        "Expression": {
+          "Inst": "EX_Nothing"
+        }
+      },
+      {
+        "Inst": "EX_EndOfScript",
+        "StatementIndex": 17
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "GA_ActivateVenomStack2_C",
+    "Name": "Default__GA_ActivateVenomStack2_C",
+    "Class": "BlueprintGeneratedClass'/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomStack2.GA_ActivateVenomStack2_C'",
+    "Template": {
+      "ObjectName": "GA_ActivateVenomBase_C'Default__GA_ActivateVenomBase_C'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/BackUp/GA_ActivateVenomBase.6"
+    },
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "UberGraphFrame": {},
+      "VocalAbility": {
+        "ObjectName": "BlueprintGeneratedClass'GA_VocalVenomStack2_C'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Vocals/GA_VocalVenomStack2.0"
+      }
+    }
+  }
+]

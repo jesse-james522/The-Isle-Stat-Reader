@@ -1,0 +1,47 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GA_FootprintScent_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'TIGameplayAbilityFootprintScent'",
+      "ObjectPath": "/Script/TheIsle"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GA_FootprintScent_C'Default__GA_FootprintScent_C'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/GA_FootprintScent.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "GA_FootprintScent_C",
+    "Name": "Default__GA_FootprintScent_C",
+    "Class": "BlueprintGeneratedClass'/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/GA_FootprintScent.GA_FootprintScent_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "TrackingMesh": {
+        "ObjectName": "StaticMesh'SM_ScentCone'",
+        "ObjectPath": "/Game/TheIsle/Temp/ScentEffect/SM_ScentCone.2"
+      },
+      "AbilityTags": [
+        "Ability.Passive.FootprintScent"
+      ],
+      "ActivationOwnedTags": [
+        "Ability.Passive.FootprintScent"
+      ],
+      "ActivationBlockedTags": [
+        "Ability.Passive.FootprintScent"
+      ]
+    }
+  }
+]

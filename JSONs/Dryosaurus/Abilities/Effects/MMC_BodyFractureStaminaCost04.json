@@ -1,0 +1,77 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "MMC_BodyFractureStaminaCost04_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'TIMMCBodyFractureStaminaCost'",
+      "ObjectPath": "/Script/TheIsle"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "MMC_BodyFractureStaminaCost04_C'Default__MMC_BodyFractureStaminaCost04_C'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Effects/MMC_BodyFractureStaminaCost04.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "MMC_BodyFractureStaminaCost04_C",
+    "Name": "Default__MMC_BodyFractureStaminaCost04_C",
+    "Class": "BlueprintGeneratedClass'/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Effects/MMC_BodyFractureStaminaCost04.MMC_BodyFractureStaminaCost04_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "StaminaCostPercentage": 0.04,
+      "RelevantAttributesToCapture": [
+        {
+          "AttributeToCapture": {
+            "AttributeName": "BodyFractureStaminaModifier",
+            "Attribute": {
+              "Path": [
+                "BodyFractureStaminaModifier"
+              ],
+              "ResolvedOwner": {
+                "ObjectName": "Class'TIAttributeSetBase'",
+                "ObjectPath": "/Script/TheIsle"
+              }
+            },
+            "AttributeOwner": {
+              "ObjectName": "Class'TIAttributeSetBase'",
+              "ObjectPath": "/Script/TheIsle"
+            }
+          },
+          "AttributeSource": "EGameplayEffectAttributeCaptureSource::Source",
+          "bSnapshot": false
+        },
+        {
+          "AttributeToCapture": {
+            "AttributeName": "MaxStamina",
+            "Attribute": {
+              "Path": [
+                "MaxStamina"
+              ],
+              "ResolvedOwner": {
+                "ObjectName": "Class'TIAttributeSetBase'",
+                "ObjectPath": "/Script/TheIsle"
+              }
+            },
+            "AttributeOwner": {
+              "ObjectName": "Class'TIAttributeSetBase'",
+              "ObjectPath": "/Script/TheIsle"
+            }
+          },
+          "AttributeSource": "EGameplayEffectAttributeCaptureSource::Source",
+          "bSnapshot": false
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,240 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_DryosaurusVocals",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'Vocals'",
+        "ObjectPath": "/Script/TheIsle"
+      }
+    },
+    "Rows": {
+      "Generic": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Dryosaurus_Call_Generic'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Dryosaurus/Sound/MS_Dryosaurus_Call_Generic.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Broadcast": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Dryosaurus_Call_Broadcast'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Dryosaurus/Sound/MS_Dryosaurus_Call_Broadcast.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Attract": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Dryosaurus_Call_Attract'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Dryosaurus/Sound/MS_Dryosaurus_Call_Attract.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Threaten": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Dryosaurus_Call_Threaten'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Dryosaurus/Sound/MS_Dryosaurus_Call_Threaten.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Danger": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Dryosaurus_Call_Danger'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Dryosaurus/Sound/MS_Dryosaurus_Call_Danger.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "RegularPain": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Dryosaurus_Pain'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Dryosaurus/Sound/CU_Dryosaurus_Pain.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "ExtremePain": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Dryosaurus_Pain'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Dryosaurus/Sound/CU_Dryosaurus_Pain.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Death": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Dryosaurus_Death'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Dryosaurus/Sound/CU_Dryosaurus_Death.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "JuvenilePain": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Dryosaurus_Juv_Pain'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Dryosaurus/Sound/CU_Dryosaurus_Juv_Pain.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "JuvenileExtremePain": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Dryosaurus_Juv_Pain'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Dryosaurus/Sound/CU_Dryosaurus_Juv_Pain.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "JuvenileDeath": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Dryosaurus_Juv_Death'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Dryosaurus/Sound/CU_Dryosaurus_Juv_Death.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Attack1": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Dryosaurus_Attack1'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Dryosaurus/Sound/MS_Dryosaurus_Attack1.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Attack2": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Dryosaurus_Attack2'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Dryosaurus/Sound/MS_Dryosaurus_Attack2.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Attack3": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Dryosaurus_Attack3'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Dryosaurus/Sound/MS_Dryosaurus_Attack3.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Bite": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Dryosaurus_Bite'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Dryosaurus/Sound/MS_Dryosaurus_Bite.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Dodge": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Dryosaurus_Turn'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Dryosaurus/Sound/CU_Dryosaurus_Turn.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Chirp": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Dryosaurus_Chirp'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Dryosaurus/Sound/CU_Dryosaurus_Chirp.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Coo": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Dryosaurus_Coo'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Dryosaurus/Sound/CU_Dryosaurus_Coo.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Idle": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Dryosaurus_Idle'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Dryosaurus/Sound/CU_Dryosaurus_Idle.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Yelp": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Dryosaurus_Yelp'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Dryosaurus/Sound/CU_Dryosaurus_Yelp.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "HeadInjury": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Dryosaurus_HeadInjury'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Dryosaurus/Sound/CU_Dryosaurus_HeadInjury.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "CourtshipFemale1": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Dryosaurus_Courtship_Female1'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Dryosaurus/Sound/CU_Dryosaurus_Courtship_Female1.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "CourtshipFemale2": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Dryosaurus_Courtship_Female2'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Dryosaurus/Sound/CU_Dryosaurus_Courtship_Female2.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "CourtshipMale1": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Dryosaurus_Courtship_Male1'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Dryosaurus/Sound/CU_Dryosaurus_Courtship_Male1.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "CourtshipMale2": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Dryosaurus_Courtship_Male2'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Dryosaurus/Sound/CU_Dryosaurus_Courtship_Male2.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Beg": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Dryosaurus_Hatchling_Beg'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Dryosaurus/Sound/CU_Dryosaurus_Hatchling_Beg.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Feed": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Dryosaurus_Feed'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Dryosaurus/Sound/CU_Dryosaurus_Feed.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "TailWhip": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Dryosaurus_TailWhip'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Dryosaurus/Sound/MS_Dryosaurus_TailWhip.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      }
+    }
+  }
+]

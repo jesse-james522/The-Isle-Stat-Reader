@@ -1,0 +1,69 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GA_Nest_Debris_Large_C_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'GA_Nest_C'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/GA_Nest.0"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GA_Nest_Debris_Large_C_C'Default__GA_Nest_Debris_Large_C_C'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/GA_Nest_Debris_Large_C.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "GA_Nest_Debris_Large_C_C",
+    "Name": "Default__GA_Nest_Debris_Large_C_C",
+    "Class": "BlueprintGeneratedClass'/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/GA_Nest_Debris_Large_C.GA_Nest_Debris_Large_C_C'",
+    "Template": {
+      "ObjectName": "GA_Nest_C'Default__GA_Nest_C'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/GA_Nest.1"
+    },
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "NestClass": {
+        "AssetPathName": "/Game/TheIsle/Core/Placeables/Dinosaur/BP_Nest_Debris_Large_C.BP_Nest_Debris_Large_C_C",
+        "SubPathString": ""
+      },
+      "NestImage": {
+        "ObjectName": "Texture2D'T_Nest_Debris'",
+        "ObjectPath": "/Game/TheIsle_Old/UI/Menu/NestMenu/T_Nest_Debris.0"
+      },
+      "ActivationBlockedTags": [
+        "State.Dead",
+        "Ability.Skill.PickUp",
+        "Ability.Skill.SecondaryAttack",
+        "Ability.Skill.Wallow",
+        "Ability.Skill.Rest",
+        "Ability.Skill.Scent",
+        "Ability.Skill.Use",
+        "State.PickedUp",
+        "State.TemporaryRestBlocker",
+        "Ability.Skill.PrimaryAttack",
+        "Ability.Skill.Vocalize",
+        "Ability.Skill.VoiceBroadcast",
+        "Ability.Skill.VoiceFriendly",
+        "Ability.Skill.VoiceHelp",
+        "Ability.Skill.VoiceThreaten",
+        "State.Pounced",
+        "State.PouncedLarge",
+        "State.UIBlockAbilities",
+        "Status.Launching",
+        "State.Lunged",
+        "State.BlockAbilities"
+      ]
+    }
+  }
+]

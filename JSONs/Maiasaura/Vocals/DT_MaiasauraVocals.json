@@ -1,0 +1,464 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_MaiasauraVocals",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'Vocals'",
+        "ObjectPath": "/Script/TheIsle"
+      }
+    },
+    "Rows": {
+      "Generic": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Maiasaura_Call_Generic'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Maiasaura/Sound/MS_Maiasaura_Call_Generic.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Broadcast": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Maiasaura_Call_Broadcast'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Maiasaura/Sound/MS_Maiasaura_Call_Broadcast.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Attract": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Maiasaura_Call_Attract'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Maiasaura/Sound/MS_Maiasaura_Call_Attract.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Threaten": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Maiasaura_Call_Threaten'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Maiasaura/Sound/MS_Maiasaura_Call_Threaten.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Danger": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Maiasaura_Call_Danger'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Maiasaura/Sound/MS_Maiasaura_Call_Danger.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "RegularPain": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Maiasaura_RegularPain'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Maiasaura/Sound/MS_Maiasaura_RegularPain.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "ExtremePain": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Maiasaura_ExtremePain'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Maiasaura/Sound/MS_Maiasaura_ExtremePain.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Death": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Maiasaura_Death'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Maiasaura/Sound/MS_Maiasaura_Death.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "AttackLong": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Maiasaura_Attack_Long'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Maiasaura/Sound/MS_Maiasaura_Attack_Long.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "AttackShort": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Maiasaura_Attack_Short'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Maiasaura/Sound/MS_Maiasaura_Attack_Short.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Headbutt": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Maiasaura_Attack_Headbutt'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Maiasaura/Sound/MS_Maiasaura_Attack_Headbutt.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Box": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Maiasaura_Box'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Maiasaura/Sound/MS_Maiasaura_Box.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Stamp": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Maiasaura_Stamp'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Maiasaura/Sound/MS_Maiasaura_Stamp.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Stomp": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Maiasaura_Stomp'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Maiasaura/Sound/MS_Maiasaura_Stomp.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Shove": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Maiasaura_Shove'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Maiasaura/Sound/MS_Maiasaura_Shove.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Vomit": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Maiasaura_Vomit'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Maiasaura/Sound/MS_Maiasaura_Vomit.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Idle": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Maiasaura_Idle'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Maiasaura/Sound/MS_Maiasaura_Idle.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "PreAttack": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Maiasaura_PreAttack'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Maiasaura/Sound/MS_Maiasaura_PreAttack.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Blubber": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Maiasaura_Blubber'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Maiasaura/Sound/MS_Maiasaura_Blubber.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Bleat": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Maiasaura_Bleat'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Maiasaura/Sound/MS_Maiasaura_Bleat.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "HeadShake": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Maiasaura_HeadShake'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Maiasaura/Sound/MS_Maiasaura_HeadShake.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Gurgle": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Maiasaura_Gurgle'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Maiasaura/Sound/MS_Maiasaura_Gurgle.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Drink": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Maiasaura_Drink'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Maiasaura/Sound/MS_Maiasaura_Drink.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Eat": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Maiasaura_Eat'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Maiasaura/Sound/MS_Maiasaura_Eat.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Stand": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Maiasaura_Stand'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Maiasaura/Sound/MS_Maiasaura_Stand.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "SitDown": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Maiasaura_SitDown'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Maiasaura/Sound/MS_Maiasaura_SitDown.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "SitUp": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Maiasaura_SitUp'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Maiasaura/Sound/MS_Maiasaura_SitUp.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Snore": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Maiasaura_Snore'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Maiasaura/Sound/MS_Maiasaura_Snore.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Wallow1": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Maiasaura_Wallow1'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Maiasaura/Sound/MS_Maiasaura_Wallow1.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Wallow2": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Maiasaura_Wallow2'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Maiasaura/Sound/MS_Maiasaura_Wallow2.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Pinned1": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Maiasaura_Pinned1'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Maiasaura/Sound/MS_Maiasaura_Pinned1.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Pinned2": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Maiasaura_Pinned2'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Maiasaura/Sound/MS_Maiasaura_Pinned2.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Pinned3": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Maiasaura_Pinned3'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Maiasaura/Sound/MS_Maiasaura_Pinned3.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Pinned4": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Maiasaura_Pinned4'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Maiasaura/Sound/MS_Maiasaura_Pinned4.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Pinned5": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Maiasaura_Pinned5'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Maiasaura/Sound/MS_Maiasaura_Pinned5.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Pinned6": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Maiasaura_Pinned6'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Maiasaura/Sound/MS_Maiasaura_Pinned6.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Pinned7": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Maiasaura_Pinned7'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Maiasaura/Sound/MS_Maiasaura_Pinned7.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Struggle": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Maiasaura_Struggle'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Maiasaura/Sound/MS_Maiasaura_Struggle.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Pounced1": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Maiasaura_Pounced1'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Maiasaura/Sound/MS_Maiasaura_Pounced1.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Pounced2": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Maiasaura_Pounced2'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Maiasaura/Sound/MS_Maiasaura_Pounced2.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Pounced3": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Maiasaura_Pounced3'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Maiasaura/Sound/MS_Maiasaura_Pounced3.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Pounced4": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Maiasaura_Pounced4'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Maiasaura/Sound/MS_Maiasaura_Pounced4.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Blind1": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Maiasaura_Blind1'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Maiasaura/Sound/MS_Maiasaura_Blind1.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Blind2": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Maiasaura_Blind2'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Maiasaura/Sound/MS_Maiasaura_Blind2.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "BlindFoley": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Maiasaura_Blind_Foley'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Maiasaura/Sound/MS_Maiasaura_Blind_Foley.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "CourtM": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Maiasaura_CourtM'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Maiasaura/Sound/MS_Maiasaura_CourtM.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "CourtMStartQuad": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Maiasaura_CourtM_Start_Quad'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Maiasaura/Sound/MS_Maiasaura_CourtM_Start_Quad.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "CourtMStartBiped": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Maiasaura_CourtM_Start_Biped'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Maiasaura/Sound/MS_Maiasaura_CourtM_Start_Biped.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "CourtEnd": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Maiasaura_Court_End'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Maiasaura/Sound/MS_Maiasaura_Court_End.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "CourtMPatter": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Maiasaura_CourtM_Patter'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Maiasaura/Sound/MS_Maiasaura_CourtM_Patter.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "CourtF": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Maiasaura_CourtF'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Maiasaura/Sound/MS_Maiasaura_CourtF.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "CourtFStartBiped": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Maiasaura_CourtF_Start_Biped'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Maiasaura/Sound/MS_Maiasaura_CourtF_Start_Biped.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "CourtFPatter": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Maiasaura_CourtF_Patter'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Maiasaura/Sound/MS_Maiasaura_CourtF_Patter.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Beg1": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Maiasaura_Beg1'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Maiasaura/Sound/MS_Maiasaura_Beg1.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Beg2": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Maiasaura_Beg2'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Maiasaura/Sound/MS_Maiasaura_Beg2.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Feed": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Maiasaura_Feed'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Maiasaura/Sound/MS_Maiasaura_Feed.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      }
+    }
+  }
+]

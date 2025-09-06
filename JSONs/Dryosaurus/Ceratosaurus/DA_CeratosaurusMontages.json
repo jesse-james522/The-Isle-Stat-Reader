@@ -1,0 +1,1555 @@
+[
+  {
+    "Type": "TIDinosaurMontages",
+    "Name": "DA_CeratosaurusMontages",
+    "Class": "UScriptClass'TIDinosaurMontages'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Vocals": {
+        "Generic": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Vocal_Generic'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Vocal_Generic.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Vocal_Generic'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Vocal_Generic.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Vocal_Generic'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Vocal_Generic.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Vocal_Generic'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Vocal_Generic.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Vocal_Generic'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Vocal_Generic.0"
+          }
+        },
+        "Broadcast": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Vocal_Broadcast'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Vocal_Broadcast.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Vocal_Broadcast'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Vocal_Broadcast.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Vocal_Broadcast'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Vocal_Broadcast.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Vocal_Broadcast'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Vocal_Broadcast.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Vocal_Broadcast'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Vocal_Broadcast.0"
+          }
+        },
+        "Attract": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Vocal_Attract'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Vocal_Attract.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Vocal_Attract'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Vocal_Attract.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Vocal_Attract'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Vocal_Attract.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Vocal_Attract'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Vocal_Attract.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Vocal_Attract'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Vocal_Attract.0"
+          }
+        },
+        "Threaten": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Vocal_Threaten'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Vocal_Threaten.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Vocal_Threaten'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Vocal_Threaten.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Vocal_Threaten'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Vocal_Threaten.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Vocal_Threaten'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Vocal_Threaten.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Vocal_Threaten'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Vocal_Threaten.0"
+          }
+        },
+        "ThreatenSpecial": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Vocal_ThreatenLoop'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Vocal_ThreatenLoop.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Vocal_ThreatenLoop'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Vocal_ThreatenLoop.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Vocal_ThreatenLoop'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Vocal_ThreatenLoop.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Vocal_ThreatenLoop'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Vocal_ThreatenLoop.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Vocal_ThreatenLoop'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Vocal_ThreatenLoop.0"
+          }
+        },
+        "Danger": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Vocal_Danger'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Vocal_Danger.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Vocal_Danger'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Vocal_Danger.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Vocal_Danger'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Vocal_Danger.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Vocal_Danger'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Vocal_Danger.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Vocal_Danger'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Vocal_Danger.0"
+          }
+        }
+      },
+      "Eat": {
+        "EatIn": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Eat'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Eat.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Eat'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Eat.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Eat'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Eat.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Eat'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Eat.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Eat'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Eat.0"
+          }
+        },
+        "EatEnd": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_EatOut'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_EatOut.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_EatOut'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_EatOut.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_EatOut'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_EatOut.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_EatOut'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_EatOut.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_EatOut'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_EatOut.0"
+          }
+        },
+        "Swallow": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Swallow'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Swallow.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Swallow'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Swallow.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Swallow'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Swallow.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Swallow'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Swallow.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Swallow'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Swallow.0"
+          }
+        },
+        "Vomit": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Vomit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Vomit.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Vomit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Vomit.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Vomit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Vomit.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Vomit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Vomit.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Vomit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Vomit.0"
+          }
+        }
+      },
+      "Drink": {
+        "Hatchling": {
+          "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Drink'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Drink.0"
+        },
+        "Juvenile": {
+          "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Drink'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Drink.0"
+        },
+        "Subadult": {
+          "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Drink'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Drink.0"
+        },
+        "Adult": {
+          "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Drink'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Drink.0"
+        },
+        "Elder": {
+          "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Drink'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Drink.0"
+        }
+      },
+      "DrinkEnd": {
+        "Hatchling": {
+          "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Drink_Out'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Drink_Out.0"
+        },
+        "Juvenile": {
+          "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Drink_Out'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Drink_Out.0"
+        },
+        "Subadult": {
+          "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Drink_Out'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Drink_Out.0"
+        },
+        "Adult": {
+          "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Drink_Out'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Drink_Out.0"
+        },
+        "Elder": {
+          "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Drink_Out'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Drink_Out.0"
+        }
+      },
+      "Feed": {
+        "Hatchling": {
+          "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Feed'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Feed.0"
+        },
+        "Juvenile": {
+          "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Feed'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Feed.0"
+        },
+        "Subadult": {
+          "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Feed'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Feed.0"
+        },
+        "Adult": {
+          "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Feed'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Feed.0"
+        },
+        "Elder": {
+          "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Feed'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Feed.0"
+        }
+      },
+      "Rest": {
+        "StandToSit": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_StandToSit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_StandToSit.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_StandToSit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_StandToSit.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_StandToSit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_StandToSit.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_StandToSit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_StandToSit.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_StandToSit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_StandToSit.0"
+          }
+        },
+        "SitToStand": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_SitToStand'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_SitToStand.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_SitToStand'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_SitToStand.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_SitToStand'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_SitToStand.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_SitToStand'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_SitToStand.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_SitToStand'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_SitToStand.0"
+          }
+        },
+        "SitToStandFast": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_SitToStandFast'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_SitToStandFast.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_SitToStandFast'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_SitToStandFast.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_SitToStandFast'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_SitToStandFast.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_SitToStandFast'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_SitToStandFast.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_SitToStandFast'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_SitToStandFast.0"
+          }
+        },
+        "SitToSleep": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_SitToSleep'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_SitToSleep.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_SitToSleep'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_SitToSleep.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_SitToSleep'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_SitToSleep.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_SitToSleep'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_SitToSleep.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_SitToSleep'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_SitToSleep.0"
+          }
+        },
+        "SleepToSit": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_SleepToSit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_SleepToSit.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_SleepToSit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_SleepToSit.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_SleepToSit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_SleepToSit.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_SleepToSit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_SleepToSit.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_SleepToSit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_SleepToSit.0"
+          }
+        }
+      },
+      "PickupL": {
+        "Hatchling": {
+          "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Grab'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Grab.0"
+        },
+        "Juvenile": {
+          "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Grab'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Grab.0"
+        },
+        "Subadult": {
+          "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Grab'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Grab.0"
+        },
+        "Adult": {
+          "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Grab'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Grab.0"
+        },
+        "Elder": {
+          "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Grab'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Grab.0"
+        }
+      },
+      "PickupR": {
+        "Hatchling": {
+          "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Grab'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Grab.0"
+        },
+        "Juvenile": {
+          "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Grab'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Grab.0"
+        },
+        "Subadult": {
+          "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Grab'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Grab.0"
+        },
+        "Adult": {
+          "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Grab'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Grab.0"
+        },
+        "Elder": {
+          "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Grab'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Grab.0"
+        }
+      },
+      "Bite": {
+        "Hatchling": {
+          "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Bite'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Bite.0"
+        },
+        "Juvenile": {
+          "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Bite'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Bite.0"
+        },
+        "Subadult": {
+          "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Bite'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Bite.0"
+        },
+        "Adult": {
+          "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Bite'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Bite.0"
+        },
+        "Elder": {
+          "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Bite'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Bite.0"
+        }
+      },
+      "Court": {
+        "Male": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_CourtM'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_CourtM.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_CourtM'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_CourtM.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_CourtM'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_CourtM.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_CourtM'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_CourtM.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_CourtM'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_CourtM.0"
+          }
+        },
+        "Female": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_CourtF'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_CourtF.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_CourtF'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_CourtF.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_CourtF'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_CourtF.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_CourtF'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_CourtF.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_CourtF'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_CourtF.0"
+          }
+        }
+      },
+      "Nest": {
+        "Build": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Nest'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Nest.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Nest'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Nest.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Nest'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Nest.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Nest'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Nest.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Nest'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Nest.0"
+          }
+        },
+        "Manage1": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_NestManage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_NestManage.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_NestManage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_NestManage.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_NestManage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_NestManage.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_NestManage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_NestManage.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_NestManage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_NestManage.0"
+          }
+        },
+        "Manage2": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_NestManage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_NestManage.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_NestManage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_NestManage.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_NestManage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_NestManage.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_NestManage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_NestManage.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_NestManage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_NestManage.0"
+          }
+        },
+        "Manage3": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_NestManage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_NestManage.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_NestManage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_NestManage.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_NestManage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_NestManage.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_NestManage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_NestManage.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_NestManage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_NestManage.0"
+          }
+        }
+      },
+      "Hit": {
+        "Light": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_RecoilL'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_RecoilL.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_RecoilL'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_RecoilL.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_RecoilL'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_RecoilL.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_RecoilL'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_RecoilL.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_RecoilL'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_RecoilL.0"
+          }
+        },
+        "Heavy": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_RecoilH'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_RecoilH.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_RecoilH'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_RecoilH.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_RecoilH'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_RecoilH.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_RecoilH'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_RecoilH.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_RecoilH'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_RecoilH.0"
+          }
+        },
+        "StaggerF": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_StaggerF'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_StaggerF.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_StaggerF'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_StaggerF.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_StaggerF'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_StaggerF.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_StaggerF'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_StaggerF.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_StaggerF'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_StaggerF.0"
+          }
+        },
+        "StaggerB": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_StaggerB'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_StaggerB.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_StaggerB'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_StaggerB.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_StaggerB'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_StaggerB.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_StaggerB'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_StaggerB.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_StaggerB'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_StaggerB.0"
+          }
+        },
+        "StaggerR": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_StaggerR'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_StaggerR.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_StaggerR'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_StaggerR.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_StaggerR'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_StaggerR.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_StaggerR'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_StaggerR.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_StaggerR'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_StaggerR.0"
+          }
+        },
+        "StaggerL": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_StaggerL'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_StaggerL.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_StaggerL'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_StaggerL.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_StaggerL'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_StaggerL.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_StaggerL'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_StaggerL.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_StaggerL'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_StaggerL.0"
+          }
+        }
+      },
+      "Interact": {
+        "Wallow": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Wallow'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Wallow.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Wallow'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Wallow.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Wallow'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Wallow.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Wallow'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Wallow.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Wallow'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Wallow.0"
+          }
+        },
+        "WallowRecover": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Wallow_Recover'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Wallow_Recover.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Wallow_Recover'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Wallow_Recover.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Wallow_Recover'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Wallow_Recover.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Wallow_Recover'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Wallow_Recover.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Wallow_Recover'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Wallow_Recover.0"
+          }
+        },
+        "Salt": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Salt'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Salt.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Salt'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Salt.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Salt'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Salt.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Salt'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Salt.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Salt'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Salt.0"
+          }
+        },
+        "Dig": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'A_Ceratosaurus_Adult_Dig_Montage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/A_Ceratosaurus_Adult_Dig_Montage.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'A_Ceratosaurus_Adult_Dig_Montage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/A_Ceratosaurus_Adult_Dig_Montage.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'A_Ceratosaurus_Adult_Dig_Montage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/A_Ceratosaurus_Adult_Dig_Montage.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'A_Ceratosaurus_Adult_Dig_Montage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/A_Ceratosaurus_Adult_Dig_Montage.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'A_Ceratosaurus_Adult_Dig_Montage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/A_Ceratosaurus_Adult_Dig_Montage.0"
+          }
+        },
+        "OpenCorpse": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_OpenBody'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_OpenBody.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_OpenBody'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_OpenBody.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_OpenBody'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_OpenBody.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_OpenBody'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_OpenBody.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_OpenBody'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_OpenBody.0"
+          }
+        }
+      },
+      "Blinded": {
+        "Hatchling": {
+          "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Blind'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Blind.0"
+        },
+        "Juvenile": {
+          "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Blind'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Blind.0"
+        },
+        "Subadult": {
+          "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Blind'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Blind.0"
+        },
+        "Adult": {
+          "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Blind'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Blind.0"
+        },
+        "Elder": {
+          "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Blind'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Blind.0"
+        }
+      },
+      "PouncedStruggle": {
+        "Hatchling": {
+          "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Pounced'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Pounced.0"
+        },
+        "Juvenile": {
+          "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Pounced'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Pounced.0"
+        },
+        "Subadult": {
+          "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Pounced'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Pounced.0"
+        },
+        "Adult": {
+          "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Pounced'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Pounced.0"
+        },
+        "Elder": {
+          "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Pounced'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Pounced.0"
+        }
+      },
+      "PouncedStruggleMoving": {
+        "Hatchling": {
+          "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Pounced'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Pounced.0"
+        },
+        "Juvenile": {
+          "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Pounced'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Pounced.0"
+        },
+        "Subadult": {
+          "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Pounced'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Pounced.0"
+        },
+        "Adult": {
+          "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Pounced'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Pounced.0"
+        },
+        "Elder": {
+          "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Pounced'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Pounced.0"
+        }
+      },
+      "Unique": [
+        {
+          "Key": "CorpseShake",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Thrash'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Thrash.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Thrash'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Thrash.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Thrash'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Thrash.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Thrash'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Thrash.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Thrash'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Thrash.0"
+            }
+          }
+        },
+        {
+          "Key": "Mouth",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Mouth'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Mouth.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Mouth'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Mouth.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Mouth'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Mouth.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Mouth'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Mouth.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Mouth'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Mouth.0"
+            }
+          }
+        },
+        {
+          "Key": "ChargedBite",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Bite_Charged_Run'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Bite_Charged_Run.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Bite_Charged_Run'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Bite_Charged_Run.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Bite_Charged_Run'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Bite_Charged_Run.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Bite_Charged_Run'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Bite_Charged_Run.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Bite_Charged_Run'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Bite_Charged_Run.0"
+            }
+          }
+        },
+        {
+          "Key": "ManualVomitStage1",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Vomit_Stage1'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Vomit_Stage1.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Vomit_Stage1'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Vomit_Stage1.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Vomit_Stage1'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Vomit_Stage1.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Vomit_Stage1'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Vomit_Stage1.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Vomit_Stage1'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Vomit_Stage1.0"
+            }
+          }
+        },
+        {
+          "Key": "ManualVomitStage2",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Vomit_Stage2'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Vomit_Stage2.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Vomit_Stage2'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Vomit_Stage2.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Vomit_Stage2'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Vomit_Stage2.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Vomit_Stage2'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Vomit_Stage2.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Vomit_Stage2'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Vomit_Stage2.0"
+            }
+          }
+        },
+        {
+          "Key": "ManualVomitStage3",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Vomit_Stage3'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Vomit_Stage3.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Vomit_Stage3'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Vomit_Stage3.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Vomit_Stage3'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Vomit_Stage3.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Vomit_Stage3'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Vomit_Stage3.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Vomit_Stage3'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Vomit_Stage3.0"
+            }
+          }
+        },
+        {
+          "Key": "Gastrolith",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Grab_Gastrolith'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Grab_Gastrolith.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Grab_Gastrolith'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Grab_Gastrolith.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Grab_Gastrolith'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Grab_Gastrolith.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Grab_Gastrolith'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Grab_Gastrolith.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Grab_Gastrolith'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Grab_Gastrolith.0"
+            }
+          }
+        }
+      ],
+      "UniqueDirectional": [
+        {
+          "Key": "AltBite",
+          "Value": {
+            "LF": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_AttackBite_F'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_AttackBite_F.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_AttackBite_F'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_AttackBite_F.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_AttackBite_F'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_AttackBite_F.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_AttackBite_F'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_AttackBite_F.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_AttackBite_F'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_AttackBite_F.0"
+              }
+            },
+            "L45": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_AttackBite_L45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_AttackBite_L45.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_AttackBite_L45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_AttackBite_L45.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_AttackBite_L45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_AttackBite_L45.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_AttackBite_L45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_AttackBite_L45.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_AttackBite_L45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_AttackBite_L45.0"
+              }
+            },
+            "L90": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_AttackBite_L90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_AttackBite_L90.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_AttackBite_L90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_AttackBite_L90.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_AttackBite_L90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_AttackBite_L90.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_AttackBite_L90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_AttackBite_L90.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_AttackBite_L90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_AttackBite_L90.0"
+              }
+            },
+            "L135": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_AttackBite_L135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_AttackBite_L135.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_AttackBite_L135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_AttackBite_L135.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_AttackBite_L135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_AttackBite_L135.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_AttackBite_L135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_AttackBite_L135.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_AttackBite_L135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_AttackBite_L135.0"
+              }
+            },
+            "L180": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_AttackBite_L180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_AttackBite_L180.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_AttackBite_L180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_AttackBite_L180.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_AttackBite_L180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_AttackBite_L180.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_AttackBite_L180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_AttackBite_L180.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_AttackBite_L180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_AttackBite_L180.0"
+              }
+            },
+            "RF": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_AttackBite_F'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_AttackBite_F.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_AttackBite_F'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_AttackBite_F.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_AttackBite_F'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_AttackBite_F.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_AttackBite_F'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_AttackBite_F.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_AttackBite_F'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_AttackBite_F.0"
+              }
+            },
+            "R45": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_AttackBite_R45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_AttackBite_R45.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_AttackBite_R45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_AttackBite_R45.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_AttackBite_R45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_AttackBite_R45.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_AttackBite_R45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_AttackBite_R45.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_AttackBite_R45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_AttackBite_R45.0"
+              }
+            },
+            "R90": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_AttackBite_R90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_AttackBite_R90.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_AttackBite_R90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_AttackBite_R90.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_AttackBite_R90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_AttackBite_R90.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_AttackBite_R90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_AttackBite_R90.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_AttackBite_R90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_AttackBite_R90.0"
+              }
+            },
+            "R135": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_AttackBite_R135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_AttackBite_R135.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_AttackBite_R135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_AttackBite_R135.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_AttackBite_R135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_AttackBite_R135.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_AttackBite_R135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_AttackBite_R135.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_AttackBite_R135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_AttackBite_R135.0"
+              }
+            },
+            "R180": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_AttackBite_R180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_AttackBite_R180.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_AttackBite_R180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_AttackBite_R180.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_AttackBite_R180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_AttackBite_R180.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_AttackBite_R180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_AttackBite_R180.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_AttackBite_R180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_AttackBite_R180.0"
+              }
+            }
+          }
+        },
+        {
+          "Key": "AltBiteSwimming",
+          "Value": {
+            "LF": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Swim_AttackF'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Swim_AttackF.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Swim_AttackF'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Swim_AttackF.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Swim_AttackF'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Swim_AttackF.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Swim_AttackF'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Swim_AttackF.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Swim_AttackF'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Swim_AttackF.0"
+              }
+            },
+            "L45": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Swim_AttackF'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Swim_AttackF.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Swim_AttackF'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Swim_AttackF.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Swim_AttackF'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Swim_AttackF.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Swim_AttackF'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Swim_AttackF.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Swim_AttackF'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Swim_AttackF.0"
+              }
+            },
+            "L90": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Swim_AttackL90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Swim_AttackL90.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Swim_AttackL90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Swim_AttackL90.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Swim_AttackL90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Swim_AttackL90.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Swim_AttackL90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Swim_AttackL90.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Swim_AttackL90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Swim_AttackL90.0"
+              }
+            },
+            "L135": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Swim_AttackL90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Swim_AttackL90.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Swim_AttackL90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Swim_AttackL90.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Swim_AttackL90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Swim_AttackL90.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Swim_AttackL90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Swim_AttackL90.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Swim_AttackL90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Swim_AttackL90.0"
+              }
+            },
+            "L180": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Swim_AttackL180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Swim_AttackL180.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Swim_AttackL180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Swim_AttackL180.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Swim_AttackL180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Swim_AttackL180.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Swim_AttackL180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Swim_AttackL180.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Swim_AttackL180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Swim_AttackL180.0"
+              }
+            },
+            "RF": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Swim_AttackF'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Swim_AttackF.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Swim_AttackF'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Swim_AttackF.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Swim_AttackF'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Swim_AttackF.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Swim_AttackF'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Swim_AttackF.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Swim_AttackF'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Swim_AttackF.0"
+              }
+            },
+            "R45": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Swim_AttackF'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Swim_AttackF.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Swim_AttackF'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Swim_AttackF.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Swim_AttackF'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Swim_AttackF.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Swim_AttackF'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Swim_AttackF.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Swim_AttackF'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Swim_AttackF.0"
+              }
+            },
+            "R90": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Swim_AttackR90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Swim_AttackR90.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Swim_AttackR90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Swim_AttackR90.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Swim_AttackR90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Swim_AttackR90.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Swim_AttackR90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Swim_AttackR90.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Swim_AttackR90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Swim_AttackR90.0"
+              }
+            },
+            "R135": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Swim_AttackR90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Swim_AttackR90.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Swim_AttackR90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Swim_AttackR90.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Swim_AttackR90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Swim_AttackR90.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Swim_AttackR90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Swim_AttackR90.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Swim_AttackR90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Swim_AttackR90.0"
+              }
+            },
+            "R180": {
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Swim_AttackR180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Swim_AttackR180.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Swim_AttackR180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Swim_AttackR180.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Swim_AttackR180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Swim_AttackR180.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Swim_AttackR180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Swim_AttackR180.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Ceratosaurus_Adult_Swim_AttackR180'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/AM_Ceratosaurus_Adult_Swim_AttackR180.0"
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+]

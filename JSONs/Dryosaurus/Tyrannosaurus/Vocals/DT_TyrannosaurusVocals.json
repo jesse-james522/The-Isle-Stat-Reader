@@ -1,0 +1,432 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_TyrannosaurusVocals",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'Vocals'",
+        "ObjectPath": "/Script/TheIsle"
+      }
+    },
+    "Rows": {
+      "Generic": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_TyrannosaurusRex_Call_Generic'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Sound/MS_TyrannosaurusRex_Call_Generic.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "GenericPaleo": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_TyrannosaurusRex_Call_Generic_Paleo'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Sound/MS_TyrannosaurusRex_Call_Generic_Paleo.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Broadcast": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_TyrannosaurusRex_Call_Broadcast'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Sound/MS_TyrannosaurusRex_Call_Broadcast.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "BroadcastPaleo": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_TyrannosaurusRex_Call_Broadcast_Paleo'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Sound/MS_TyrannosaurusRex_Call_Broadcast_Paleo.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Attract": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_TyrannosaurusRex_Call_Attract'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Sound/MS_TyrannosaurusRex_Call_Attract.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Threaten": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_TyrannosaurusRex_Call_Threaten'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Sound/MS_TyrannosaurusRex_Call_Threaten.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Danger": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_TyrannosaurusRex_Call_Danger'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Sound/MS_TyrannosaurusRex_Call_Danger.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "RegularPain": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_TyrannosaurusRex_RegularPain'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Sound/MS_TyrannosaurusRex_RegularPain.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "ExtremePain": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_TyrannosaurusRex_ExtremePain'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Sound/MS_TyrannosaurusRex_ExtremePain.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Death": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_TyrannosaurusRex_Death'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Sound/MS_TyrannosaurusRex_Death.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Attack": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_TyrannosaurusRex_Attack'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Sound/MS_TyrannosaurusRex_Attack.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Bite": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Tyrannosaurus_Bite'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Sound/MS_Tyrannosaurus_Bite.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Drink": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Tyrannosaurus_Adult_Drink'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Sound/OldCues/CU_Tyrannosaurus_Adult_Drink.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "DrinkOut": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Tyrannosaurus_Adult_Drink_Out'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Sound/OldCues/CU_Tyrannosaurus_Adult_Drink_Out.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "DrinkShort": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Tyrannosaurus_Adult_Drink_Short'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Sound/OldCues/CU_Tyrannosaurus_Adult_Drink_Short.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Eat": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_TyrannosaurusRex_Eat'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Sound/MS_TyrannosaurusRex_Eat.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Chomp": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Tyrannosaurus_Chomp'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Sound/OldCues/CU_Tyrannosaurus_Chomp.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Exhale": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_TyrannosaurusRex_Exhale'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Sound/MS_TyrannosaurusRex_Exhale.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "ExhaleLegacy": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Tyrannosaurus_Exhale'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Sound/OldCues/CU_Tyrannosaurus_Exhale.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "IdleShort": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_TyrannosaurusRex_Idle'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Sound/MS_TyrannosaurusRex_Idle.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Inhale": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_TyrannosaurusRex_Inhale'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Sound/MS_TyrannosaurusRex_Inhale.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "InhaleLegacy": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Tyrannosaurus_Inhale'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Sound/OldCues/CU_Tyrannosaurus_Inhale.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Stand": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_TyrannosaurusRex_Stand'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Sound/MS_TyrannosaurusRex_Stand.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Sit": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_TyrannosaurusRex_Sit'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Sound/MS_TyrannosaurusRex_Sit.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Idle": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_TyrannosaurusRex_Idle'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Sound/MS_TyrannosaurusRex_Idle.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Flutter": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_TyrannosaurusRex_Flutter'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Sound/MS_TyrannosaurusRex_Flutter.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Snarl": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_TyrannosaurusRex_Snarl'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Sound/MS_TyrannosaurusRex_Snarl.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Drumming": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_TyrannosaurusRex_Drumming'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Sound/MS_TyrannosaurusRex_Drumming.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Throb": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_TyrannosaurusRex_Throb'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Sound/MS_TyrannosaurusRex_Throb.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Purr": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_TyrannosaurusRex_Purr'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Sound/MS_TyrannosaurusRex_Purr.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Grumble": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_TyrannosaurusRex_Grumble'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Sound/MS_TyrannosaurusRex_Grumble.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Inquisitive": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_TyrannosaurusRex_Inquisitive'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Sound/MS_TyrannosaurusRex_Inquisitive.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "LongGrowl": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_TyrannosaurusRex_LongGrowl'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Sound/MS_TyrannosaurusRex_LongGrowl.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Thrash": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_TyrannosaurusRex_ThrashNew'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Sound/MS_TyrannosaurusRex_ThrashNew.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Crush": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_TyrannosaurusRex_Crush'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Sound/MS_TyrannosaurusRex_Crush.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "JawSnap": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_TyrannosaurusRex_JawSnap'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Sound/MS_TyrannosaurusRex_JawSnap.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Throw": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_TyrannosaurusRex_Throw'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Sound/MS_TyrannosaurusRex_Throw.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Shake": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_TyrannosaurusRex_Shake'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Sound/MS_TyrannosaurusRex_Shake.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Pounced": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_TyrannosaurusRex_Pounced'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Sound/MS_TyrannosaurusRex_Pounced.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Rumble": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_TyrannosaurusRex_Rumble'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Sound/MS_TyrannosaurusRex_Rumble.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Feed": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Tyrannosaurus_Feed'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Sound/MS_Tyrannosaurus_Feed.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Vomit": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_TyrannosaurusRex_Vomit'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Sound/MS_TyrannosaurusRex_Vomit.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Snort": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_TyrannosaurusRex_Snort'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Sound/MS_TyrannosaurusRex_Snort.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Exert": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_TyrannosaurusRex_Snort'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Sound/MS_TyrannosaurusRex_Snort.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Blind": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_TyrannosaurusRex_Blind'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Sound/MS_TyrannosaurusRex_Blind.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Headbutt": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_TyrannosaurusRex_Headbutt'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Sound/MS_TyrannosaurusRex_Headbutt.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Pinned": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_TyrannosaurusRex_Pinned'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Sound/MS_TyrannosaurusRex_Pinned.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "CourtF": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Tyrannosaurus_CourtF'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Sound/MS_Tyrannosaurus_CourtF.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "CourtM": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Tyrannosaurus_CourtM'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Sound/MS_Tyrannosaurus_CourtM.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "SparGrowl": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_TyrannosaurusRex_Spar_Growl'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Sound/MS_TyrannosaurusRex_Spar_Growl.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "SparIdle": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_TyrannosaurusRex_Spar_Idle'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Sound/MS_TyrannosaurusRex_Spar_Idle.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "SparPained": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_TyrannosaurusRex_Spar_Pained'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Sound/MS_TyrannosaurusRex_Spar_Pained.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      }
+    }
+  }
+]

@@ -1,0 +1,416 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_GallimimusVocals",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'Vocals'",
+        "ObjectPath": "/Script/TheIsle"
+      }
+    },
+    "Rows": {
+      "Generic": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Gallimimus_Call_Generic'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Sound/MS_Gallimimus_Call_Generic.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Broadcast": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Gallimimus_Call_Broadcast'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Sound/MS_Gallimimus_Call_Broadcast.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Attract": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Gallimimus_Call_Attract'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Sound/MS_Gallimimus_Call_Attract.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Threaten": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Gallimimus_Call_Threaten'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Sound/MS_Gallimimus_Call_Threaten.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Danger": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Gallimimus_Call_Danger'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Sound/MS_Gallimimus_Call_Danger.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Mobilize": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Gallimimus_Call_Mobilize'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Sound/CU_Gallimimus_Call_Mobilize.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "RegularPain": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Gallimimus_Regular_Pain'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Sound/CU_Gallimimus_Regular_Pain.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "ExtremePain": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Gallimimus_Extreme_Pain'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Sound/CU_Gallimimus_Extreme_Pain.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Death": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Gallimimus_Death'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Sound/CU_Gallimimus_Death.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Grunt": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Gallimimus_Grunt'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Sound/CU_Gallimimus_Grunt.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Honk": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Gallimimus_Honks'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Sound/CU_Gallimimus_Honks.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Chuckle": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Gallimimus_Chuckle'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Sound/CU_Gallimimus_Chuckle.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Cluck": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Gallimimus_Cluck'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Sound/CU_Gallimimus_Cluck.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Grumble": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Gallimimus_Grumble'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Sound/CU_Gallimimus_Grumble.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Croak": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Gallimimus_Croak'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Sound/CU_Gallimimus_Croak.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Nicker": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Gallimimus_Nicker'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Sound/CU_Gallimimus_Nicker.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Peck": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Gallimimus_Peck'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Sound/MS_Gallimimus_Peck.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Attack": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Gallimimus_Attack'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Sound/CU_Gallimimus_Attack.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "AttackWhoosh": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Gallimimus_Attack_Whoosh'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Sound/CU_Gallimimus_Attack_Whoosh.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Kick": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Gallimimus_Kick'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Sound/CU_Gallimimus_Kick.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "KickRunning": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Gallimimus_Kick_Running'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Sound/CU_Gallimimus_Kick_Running.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "KickClosedMouth": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Galli_Kick_ClosedMouth'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Sound/MS_Galli_Kick_ClosedMouth.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "KickWhoosh": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Gallimimus_Attack_WhooshSingle'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Sound/CU_Gallimimus_Attack_WhooshSingle.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Eat1": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Gallimimus_Eat1'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Sound/CU_Gallimimus_Eat1.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Eat2": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Gallimimus_Eat2'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Sound/CU_Gallimimus_Eat2.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Eat3": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Gallimimus_Eat3'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Sound/CU_Gallimimus_Eat3.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Eat4": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Gallimimus_Eat4'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Sound/CU_Gallimimus_Eat4.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Jump": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Gallimimus_Jump'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Sound/CU_Gallimimus_Jump.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "SitDown": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Gallimimus_Sit'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Sound/CU_Gallimimus_Sit.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Sleep": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Gallimimus_Sleep'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Sound/CU_Gallimimus_Sleep.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Snore": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Gallimimus_Snore'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Sound/CU_Gallimimus_Snore.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Drink": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Gallimimus_Drink'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Sound/CU_Gallimimus_Drink.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Pinned1": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Gallimimus_Pinned1'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Sound/CU_Gallimimus_Pinned1.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Pinned2": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Gallimimus_Pinned2'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Sound/CU_Gallimimus_Pinned2.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Pinned3": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Gallimimus_Pinned3'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Sound/CU_Gallimimus_Pinned3.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Pounced1": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Gallimimus_Pounced1'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Sound/CU_Gallimimus_Pounced1.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Pounced2": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Gallimimus_Pounced2'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Sound/CU_Gallimimus_Pounced2.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Pounced3": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Gallimimus_Pounced3'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Sound/CU_Gallimimus_Pounced3.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Vomit": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Gallimimus_Vomit'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Sound/CU_Gallimimus_Vomit.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Feed": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Gallimimus_Feed'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Sound/CU_Gallimimus_Feed.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Blind": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Gallimimus_Blind'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Sound/CU_Gallimimus_Blind.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Wallow1": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Gallimimus_Wallow1'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Sound/CU_Gallimimus_Wallow1.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Wallow2": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Gallimimus_Wallow2'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Sound/CU_Gallimimus_Wallow2.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Wallow3": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Gallimimus_Wallow3'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Sound/CU_Gallimimus_Wallow3.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Wallow4": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Gallimimus_Wallow4'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Sound/CU_Gallimimus_Wallow4.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "CourtF": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Gallimimus_CourtF'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Sound/CU_Gallimimus_CourtF.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "CourtM": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Gallimimus_CourtM'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Sound/CU_Gallimimus_CourtM.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Beg1": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Gallimimus_Beg1'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Sound/CU_Gallimimus_Beg1.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Beg2": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Gallimimus_Beg2'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Sound/CU_Gallimimus_Beg2.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Beg3": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Gallimimus_Beg3'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Sound/CU_Gallimimus_Beg3.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      }
+    }
+  }
+]

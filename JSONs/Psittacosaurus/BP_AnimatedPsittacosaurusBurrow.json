@@ -1,0 +1,1016 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_AnimatedPsittacosaurusBurrow_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "bHasCookedComponentInstancingData": true,
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_AnimatedPsittacosaurusBurrow_C:SimpleConstructionScript_0'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Psittacosaurus/BP_AnimatedPsittacosaurusBurrow.9"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'BP_AnimatedPsittacosaurusBurrow_C:ExecuteUbergraph_BP_AnimatedPsittacosaurusBurrow'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Psittacosaurus/BP_AnimatedPsittacosaurusBurrow.4"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'TIPsittacosaurusBurrow'",
+      "ObjectPath": "/Script/TheIsle"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BP_AnimatedPsittacosaurusBurrow_C:ReceiveBeginPlay'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Psittacosaurus/BP_AnimatedPsittacosaurusBurrow.5"
+      },
+      {
+        "ObjectName": "Function'BP_AnimatedPsittacosaurusBurrow_C:AnimateBurrow'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Psittacosaurus/BP_AnimatedPsittacosaurusBurrow.3"
+      },
+      {
+        "ObjectName": "Function'BP_AnimatedPsittacosaurusBurrow_C:ExecuteUbergraph_BP_AnimatedPsittacosaurusBurrow'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Psittacosaurus/BP_AnimatedPsittacosaurusBurrow.4"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "AnimationGrowHandle",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "Struct": {
+          "ObjectName": "Class'TimerHandle'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_BP_AnimatedPsittacosaurusBurrow": {
+        "ObjectName": "Function'BP_AnimatedPsittacosaurusBurrow_C:ExecuteUbergraph_BP_AnimatedPsittacosaurusBurrow'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Psittacosaurus/BP_AnimatedPsittacosaurusBurrow.4"
+      },
+      "AnimateBurrow": {
+        "ObjectName": "Function'BP_AnimatedPsittacosaurusBurrow_C:AnimateBurrow'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Psittacosaurus/BP_AnimatedPsittacosaurusBurrow.3"
+      },
+      "ReceiveBeginPlay": {
+        "ObjectName": "Function'BP_AnimatedPsittacosaurusBurrow_C:ReceiveBeginPlay'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Psittacosaurus/BP_AnimatedPsittacosaurusBurrow.5"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_NoExport | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_AnimatedPsittacosaurusBurrow_C'Default__BP_AnimatedPsittacosaurusBurrow_C'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Psittacosaurus/BP_AnimatedPsittacosaurusBurrow.2"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "BiteBox",
+    "Outer": "Default__BP_AnimatedPsittacosaurusBurrow_C",
+    "Class": "UScriptClass'BoxComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BoxExtent": {
+        "X": 120.0,
+        "Y": 120.0,
+        "Z": 80.0
+      },
+      "BodyInstance": {
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "TinyCollision",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "SmallCollision",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "MediumCollision",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "LargeCollision",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "WeatherCamera",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "Detector",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "bCanEverAffectNavigation": false
+    }
+  },
+  {
+    "Type": "BP_AnimatedPsittacosaurusBurrow_C",
+    "Name": "Default__BP_AnimatedPsittacosaurusBurrow_C",
+    "Class": "BlueprintGeneratedClass'/Game/TheIsle/Core/Characters/Dinosaurs/Psittacosaurus/BP_AnimatedPsittacosaurusBurrow.BP_AnimatedPsittacosaurusBurrow_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "UberGraphFrame": {},
+      "AnimationGrowHandle": {
+        "Handle": 0
+      },
+      "BurrowMesh": {
+        "ObjectName": "StaticMeshComponent'Default__BP_AnimatedPsittacosaurusBurrow_C:BurrowMesh'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Psittacosaurus/BP_AnimatedPsittacosaurusBurrow.10"
+      },
+      "BiteBox": {
+        "ObjectName": "BoxComponent'Default__BP_AnimatedPsittacosaurusBurrow_C:BiteBox'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Psittacosaurus/BP_AnimatedPsittacosaurusBurrow.1"
+      },
+      "NestEntryPoint": {
+        "ObjectName": "SceneComponent'Default__BP_AnimatedPsittacosaurusBurrow_C:NestEntryPoint'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Psittacosaurus/BP_AnimatedPsittacosaurusBurrow.7"
+      },
+      "DirtHitFix": {
+        "ObjectName": "NiagaraSystem'NS_DigDirtVFX'",
+        "ObjectPath": "/Game/TheIsle/VFX/Charactervfx/Niagara/NS_DigDirtVFX.19"
+      },
+      "DestroyedHitFx": {
+        "ObjectName": "NiagaraSystem'NS_ImpactDirt_Large'",
+        "ObjectPath": "/Game/TheIsle/VFX/Impact/Niagara/Footstep/NS_ImpactDirt_Large.18"
+      },
+      "bReplicates": true,
+      "RootComponent": {
+        "ObjectName": "BoxComponent'Default__BP_AnimatedPsittacosaurusBurrow_C:BiteBox'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Psittacosaurus/BP_AnimatedPsittacosaurusBurrow.1"
+      }
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "AnimateBurrow",
+    "Outer": "BP_AnimatedPsittacosaurusBurrow_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "ScriptBytecode": [
+      {
+        "Inst": "EX_LocalFinalFunction",
+        "StatementIndex": 0,
+        "Function": {
+          "ObjectName": "Function'BP_AnimatedPsittacosaurusBurrow_C:ExecuteUbergraph_BP_AnimatedPsittacosaurusBurrow'",
+          "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Psittacosaurus/BP_AnimatedPsittacosaurusBurrow.4"
+        },
+        "Parameters": [
+          {
+            "Inst": "EX_IntConst",
+            "Value": 162
+          }
+        ],
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Psittacosaurus/BP_AnimatedPsittacosaurusBurrow.ExecuteUbergraph_BP_AnimatedPsittacosaurusBurrow[162]"
+      },
+      {
+        "Inst": "EX_Return",
+        "StatementIndex": 15,
+        "Expression": {
+          "Inst": "EX_Nothing"
+        }
+      },
+      {
+        "Inst": "EX_EndOfScript",
+        "StatementIndex": 17
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BP_AnimatedPsittacosaurusBurrow",
+    "Outer": "BP_AnimatedPsittacosaurusBurrow_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_K2_GetComponentScale_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 24,
+        "Struct": {
+          "ObjectName": "Class'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_Add_VectorVector_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 24,
+        "Struct": {
+          "ObjectName": "Class'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_EqualEqual_VectorVector_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "DelegateProperty",
+        "Name": "K2Node_CreateDelegate_OutputDelegate",
+        "Flags": "RF_Public",
+        "ElementSize": 32,
+        "SignatureFunction": {
+          "ObjectName": "Class'TimerDynamicDelegate__DelegateSignature'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_K2_SetTimerDelegate_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "Class'TimerHandle'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "ScriptBytecode": [
+      {
+        "Inst": "EX_ComputedJump",
+        "StatementIndex": 0,
+        "OffsetExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'BP_AnimatedPsittacosaurusBurrow_C:ExecuteUbergraph_BP_AnimatedPsittacosaurusBurrow'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Psittacosaurus/BP_AnimatedPsittacosaurusBurrow.4"
+            },
+            "Property": {
+              "Type": "IntProperty",
+              "Name": "EntryPoint",
+              "Flags": "RF_Public",
+              "ElementSize": 4,
+              "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_Context",
+        "StatementIndex": 10,
+        "ObjectExpression": {
+          "Inst": "EX_InstanceVariable",
+          "Variable": {
+            "Path": [
+              "BiteBox"
+            ],
+            "ResolvedOwner": {
+              "ObjectName": "Class'TIBaseBurrow'",
+              "ObjectPath": "/Script/TheIsle"
+            }
+          }
+        },
+        "Offset": 16,
+        "RValuePointer": null,
+        "ContextExpression": {
+          "Inst": "EX_VirtualFunction",
+          "Function": "SetCollisionEnabled",
+          "Parameters": [
+            {
+              "Inst": "EX_ByteConst",
+              "Value": 3
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_Jump",
+        "StatementIndex": 48,
+        "CodeOffset": 463,
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Psittacosaurus/BP_AnimatedPsittacosaurusBurrow.ExecuteUbergraph_BP_AnimatedPsittacosaurusBurrow[463]"
+      },
+      {
+        "Inst": "EX_BindDelegate",
+        "StatementIndex": 53,
+        "FunctionName": "AnimateBurrow",
+        "Delegate": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'BP_AnimatedPsittacosaurusBurrow_C:ExecuteUbergraph_BP_AnimatedPsittacosaurusBurrow'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Psittacosaurus/BP_AnimatedPsittacosaurusBurrow.4"
+            },
+            "Property": {
+              "Type": "DelegateProperty",
+              "Name": "K2Node_CreateDelegate_OutputDelegate",
+              "Flags": "RF_Public",
+              "ElementSize": 32,
+              "SignatureFunction": {
+                "ObjectName": "Class'TimerDynamicDelegate__DelegateSignature'",
+                "ObjectPath": "/Script/Engine"
+              }
+            }
+          }
+        },
+        "ObjectTerm": {
+          "Inst": "EX_Self"
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 76,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'BP_AnimatedPsittacosaurusBurrow_C:ExecuteUbergraph_BP_AnimatedPsittacosaurusBurrow'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Psittacosaurus/BP_AnimatedPsittacosaurusBurrow.4"
+            },
+            "Property": {
+              "Type": "StructProperty",
+              "Name": "CallFunc_K2_SetTimerDelegate_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "Struct": {
+                "ObjectName": "Class'TimerHandle'",
+                "ObjectPath": "/Script/Engine"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Class'KismetSystemLibrary:K2_SetTimerDelegate'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'BP_AnimatedPsittacosaurusBurrow_C:ExecuteUbergraph_BP_AnimatedPsittacosaurusBurrow'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Psittacosaurus/BP_AnimatedPsittacosaurusBurrow.4"
+                },
+                "Property": {
+                  "Type": "DelegateProperty",
+                  "Name": "K2Node_CreateDelegate_OutputDelegate",
+                  "Flags": "RF_Public",
+                  "ElementSize": 32,
+                  "SignatureFunction": {
+                    "ObjectName": "Class'TimerDynamicDelegate__DelegateSignature'",
+                    "ObjectPath": "/Script/Engine"
+                  }
+                }
+              }
+            },
+            {
+              "Inst": "EX_FloatConst",
+              "Value": 0.25
+            },
+            {
+              "Inst": "EX_True"
+            },
+            {
+              "Inst": "EX_False"
+            },
+            {
+              "Inst": "EX_FloatConst",
+              "Value": 0.0
+            },
+            {
+              "Inst": "EX_FloatConst",
+              "Value": 0.0
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 130,
+        "Variable": {
+          "Inst": "EX_InstanceVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "BlueprintGeneratedClass'BP_AnimatedPsittacosaurusBurrow_C'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Psittacosaurus/BP_AnimatedPsittacosaurusBurrow.0"
+            },
+            "Property": {
+              "Type": "StructProperty",
+              "Name": "AnimationGrowHandle",
+              "Flags": "RF_Public | RF_LoadCompleted",
+              "ElementSize": 8,
+              "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+              "Struct": {
+                "ObjectName": "Class'TimerHandle'",
+                "ObjectPath": "/Script/Engine"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'BP_AnimatedPsittacosaurusBurrow_C:ExecuteUbergraph_BP_AnimatedPsittacosaurusBurrow'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Psittacosaurus/BP_AnimatedPsittacosaurusBurrow.4"
+            },
+            "Property": {
+              "Type": "StructProperty",
+              "Name": "CallFunc_K2_SetTimerDelegate_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "Struct": {
+                "ObjectName": "Class'TimerHandle'",
+                "ObjectPath": "/Script/Engine"
+              }
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_Jump",
+        "StatementIndex": 157,
+        "CodeOffset": 463,
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Psittacosaurus/BP_AnimatedPsittacosaurusBurrow.ExecuteUbergraph_BP_AnimatedPsittacosaurusBurrow[463]"
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 162,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'BP_AnimatedPsittacosaurusBurrow_C:ExecuteUbergraph_BP_AnimatedPsittacosaurusBurrow'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Psittacosaurus/BP_AnimatedPsittacosaurusBurrow.4"
+            },
+            "Property": {
+              "Type": "StructProperty",
+              "Name": "CallFunc_K2_GetComponentScale_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 24,
+              "Struct": {
+                "ObjectName": "Class'Vector'",
+                "ObjectPath": "/Script/CoreUObject"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_Context",
+          "ObjectExpression": {
+            "Inst": "EX_InstanceVariable",
+            "Variable": {
+              "Path": [
+                "BurrowMesh"
+              ],
+              "ResolvedOwner": {
+                "ObjectName": "Class'TIBaseBurrow'",
+                "ObjectPath": "/Script/TheIsle"
+              }
+            }
+          },
+          "Offset": 10,
+          "RValuePointer": {
+            "Owner": {
+              "ObjectName": "Function'BP_AnimatedPsittacosaurusBurrow_C:ExecuteUbergraph_BP_AnimatedPsittacosaurusBurrow'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Psittacosaurus/BP_AnimatedPsittacosaurusBurrow.4"
+            },
+            "Property": {
+              "Type": "StructProperty",
+              "Name": "CallFunc_K2_GetComponentScale_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 24,
+              "Struct": {
+                "ObjectName": "Class'Vector'",
+                "ObjectPath": "/Script/CoreUObject"
+              }
+            }
+          },
+          "ContextExpression": {
+            "Inst": "EX_FinalFunction",
+            "Function": {
+              "ObjectName": "Class'SceneComponent:K2_GetComponentScale'",
+              "ObjectPath": "/Script/Engine"
+            },
+            "Parameters": []
+          }
+        }
+      },
+      {
+        "Inst": "EX_LetBool",
+        "StatementIndex": 212,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'BP_AnimatedPsittacosaurusBurrow_C:ExecuteUbergraph_BP_AnimatedPsittacosaurusBurrow'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Psittacosaurus/BP_AnimatedPsittacosaurusBurrow.4"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_EqualEqual_VectorVector_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Class'KismetMathLibrary:EqualEqual_VectorVector'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'BP_AnimatedPsittacosaurusBurrow_C:ExecuteUbergraph_BP_AnimatedPsittacosaurusBurrow'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Psittacosaurus/BP_AnimatedPsittacosaurusBurrow.4"
+                },
+                "Property": {
+                  "Type": "StructProperty",
+                  "Name": "CallFunc_K2_GetComponentScale_ReturnValue",
+                  "Flags": "RF_Public",
+                  "ElementSize": 24,
+                  "Struct": {
+                    "ObjectName": "Class'Vector'",
+                    "ObjectPath": "/Script/CoreUObject"
+                  }
+                }
+              }
+            },
+            {
+              "Inst": "EX_VectorConst",
+              "Value": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            },
+            {
+              "Inst": "EX_FloatConst",
+              "Value": 0.1
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_JumpIfNot",
+        "StatementIndex": 271,
+        "CodeOffset": 310,
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Psittacosaurus/BP_AnimatedPsittacosaurusBurrow.ExecuteUbergraph_BP_AnimatedPsittacosaurusBurrow[310]",
+        "BooleanExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'BP_AnimatedPsittacosaurusBurrow_C:ExecuteUbergraph_BP_AnimatedPsittacosaurusBurrow'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Psittacosaurus/BP_AnimatedPsittacosaurusBurrow.4"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "CallFunc_EqualEqual_VectorVector_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_CallMath",
+        "StatementIndex": 285,
+        "Function": {
+          "ObjectName": "Class'KismetSystemLibrary:K2_ClearAndInvalidateTimerHandle'",
+          "ObjectPath": "/Script/Engine"
+        },
+        "Parameters": [
+          {
+            "Inst": "EX_Self"
+          },
+          {
+            "Inst": "EX_InstanceVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "BlueprintGeneratedClass'BP_AnimatedPsittacosaurusBurrow_C'",
+                "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Psittacosaurus/BP_AnimatedPsittacosaurusBurrow.0"
+              },
+              "Property": {
+                "Type": "StructProperty",
+                "Name": "AnimationGrowHandle",
+                "Flags": "RF_Public | RF_LoadCompleted",
+                "ElementSize": 8,
+                "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+                "Struct": {
+                  "ObjectName": "Class'TimerHandle'",
+                  "ObjectPath": "/Script/Engine"
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "Inst": "EX_Jump",
+        "StatementIndex": 305,
+        "CodeOffset": 10,
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Psittacosaurus/BP_AnimatedPsittacosaurusBurrow.ExecuteUbergraph_BP_AnimatedPsittacosaurusBurrow[10]"
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 310,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'BP_AnimatedPsittacosaurusBurrow_C:ExecuteUbergraph_BP_AnimatedPsittacosaurusBurrow'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Psittacosaurus/BP_AnimatedPsittacosaurusBurrow.4"
+            },
+            "Property": {
+              "Type": "StructProperty",
+              "Name": "CallFunc_K2_GetComponentScale_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 24,
+              "Struct": {
+                "ObjectName": "Class'Vector'",
+                "ObjectPath": "/Script/CoreUObject"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_Context",
+          "ObjectExpression": {
+            "Inst": "EX_InstanceVariable",
+            "Variable": {
+              "Path": [
+                "BurrowMesh"
+              ],
+              "ResolvedOwner": {
+                "ObjectName": "Class'TIBaseBurrow'",
+                "ObjectPath": "/Script/TheIsle"
+              }
+            }
+          },
+          "Offset": 10,
+          "RValuePointer": {
+            "Owner": {
+              "ObjectName": "Function'BP_AnimatedPsittacosaurusBurrow_C:ExecuteUbergraph_BP_AnimatedPsittacosaurusBurrow'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Psittacosaurus/BP_AnimatedPsittacosaurusBurrow.4"
+            },
+            "Property": {
+              "Type": "StructProperty",
+              "Name": "CallFunc_K2_GetComponentScale_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 24,
+              "Struct": {
+                "ObjectName": "Class'Vector'",
+                "ObjectPath": "/Script/CoreUObject"
+              }
+            }
+          },
+          "ContextExpression": {
+            "Inst": "EX_FinalFunction",
+            "Function": {
+              "ObjectName": "Class'SceneComponent:K2_GetComponentScale'",
+              "ObjectPath": "/Script/Engine"
+            },
+            "Parameters": []
+          }
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 360,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'BP_AnimatedPsittacosaurusBurrow_C:ExecuteUbergraph_BP_AnimatedPsittacosaurusBurrow'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Psittacosaurus/BP_AnimatedPsittacosaurusBurrow.4"
+            },
+            "Property": {
+              "Type": "StructProperty",
+              "Name": "CallFunc_Add_VectorVector_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 24,
+              "Struct": {
+                "ObjectName": "Class'Vector'",
+                "ObjectPath": "/Script/CoreUObject"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Class'KismetMathLibrary:Add_VectorVector'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'BP_AnimatedPsittacosaurusBurrow_C:ExecuteUbergraph_BP_AnimatedPsittacosaurusBurrow'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Psittacosaurus/BP_AnimatedPsittacosaurusBurrow.4"
+                },
+                "Property": {
+                  "Type": "StructProperty",
+                  "Name": "CallFunc_K2_GetComponentScale_ReturnValue",
+                  "Flags": "RF_Public",
+                  "ElementSize": 24,
+                  "Struct": {
+                    "ObjectName": "Class'Vector'",
+                    "ObjectPath": "/Script/CoreUObject"
+                  }
+                }
+              }
+            },
+            {
+              "Inst": "EX_VectorConst",
+              "Value": {
+                "X": 0.1,
+                "Y": 0.1,
+                "Z": 0.1
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_Context",
+        "StatementIndex": 422,
+        "ObjectExpression": {
+          "Inst": "EX_InstanceVariable",
+          "Variable": {
+            "Path": [
+              "BurrowMesh"
+            ],
+            "ResolvedOwner": {
+              "ObjectName": "Class'TIBaseBurrow'",
+              "ObjectPath": "/Script/TheIsle"
+            }
+          }
+        },
+        "Offset": 19,
+        "RValuePointer": null,
+        "ContextExpression": {
+          "Inst": "EX_FinalFunction",
+          "Function": {
+            "ObjectName": "Class'SceneComponent:SetWorldScale3D'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'BP_AnimatedPsittacosaurusBurrow_C:ExecuteUbergraph_BP_AnimatedPsittacosaurusBurrow'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Psittacosaurus/BP_AnimatedPsittacosaurusBurrow.4"
+                },
+                "Property": {
+                  "Type": "StructProperty",
+                  "Name": "CallFunc_Add_VectorVector_ReturnValue",
+                  "Flags": "RF_Public",
+                  "ElementSize": 24,
+                  "Struct": {
+                    "ObjectName": "Class'Vector'",
+                    "ObjectPath": "/Script/CoreUObject"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_Return",
+        "StatementIndex": 463,
+        "Expression": {
+          "Inst": "EX_Nothing"
+        }
+      },
+      {
+        "Inst": "EX_EndOfScript",
+        "StatementIndex": 465
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction | FUNC_HasDefaults"
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceiveBeginPlay",
+    "Outer": "BP_AnimatedPsittacosaurusBurrow_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'Actor:ReceiveBeginPlay'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "ScriptBytecode": [
+      {
+        "Inst": "EX_LocalFinalFunction",
+        "StatementIndex": 0,
+        "Function": {
+          "ObjectName": "Function'BP_AnimatedPsittacosaurusBurrow_C:ExecuteUbergraph_BP_AnimatedPsittacosaurusBurrow'",
+          "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Psittacosaurus/BP_AnimatedPsittacosaurusBurrow.4"
+        },
+        "Parameters": [
+          {
+            "Inst": "EX_IntConst",
+            "Value": 53
+          }
+        ],
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Psittacosaurus/BP_AnimatedPsittacosaurusBurrow.ExecuteUbergraph_BP_AnimatedPsittacosaurusBurrow[53]"
+      },
+      {
+        "Inst": "EX_Return",
+        "StatementIndex": 15,
+        "Expression": {
+          "Inst": "EX_Nothing"
+        }
+      },
+      {
+        "Inst": "EX_EndOfScript",
+        "StatementIndex": 17
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "BP_AnimatedPsittacosaurusBurrow_C",
+    "Class": "UScriptClass'SceneComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "NestEntryPoint",
+    "Outer": "Default__BP_AnimatedPsittacosaurusBurrow_C",
+    "Class": "UScriptClass'SceneComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "BoxComponent'Default__BP_AnimatedPsittacosaurusBurrow_C:BiteBox'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Psittacosaurus/BP_AnimatedPsittacosaurusBurrow.1"
+      },
+      "RelativeLocation": {
+        "X": 3.56685,
+        "Y": -72.39866,
+        "Z": 35.483074
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.0,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_AnimatedPsittacosaurusBurrow_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Psittacosaurus/BP_AnimatedPsittacosaurusBurrow.6"
+      },
+      "VariableGUID": "114DBE3E-4AC72D2B-AF65DCBC-1AACEA09",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "BP_AnimatedPsittacosaurusBurrow_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_AnimatedPsittacosaurusBurrow_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Psittacosaurus/BP_AnimatedPsittacosaurusBurrow.8"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "BurrowMesh",
+    "Outer": "Default__BP_AnimatedPsittacosaurusBurrow_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_Burrow_Mound'",
+        "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/_Shared/Spawnables/Burrow/Mesh/SM_Burrow_Mound.2"
+      },
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_WorldStatic",
+        "CollisionProfileName": "Custom"
+      },
+      "AttachParent": {
+        "ObjectName": "BoxComponent'Default__BP_AnimatedPsittacosaurusBurrow_C:BiteBox'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Psittacosaurus/BP_AnimatedPsittacosaurusBurrow.1"
+      },
+      "RelativeLocation": {
+        "X": -9.736343E-06,
+        "Y": 9.324415,
+        "Z": 0.4839334
+      },
+      "RelativeScale3D": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "bCanEverAffectNavigation": false
+    }
+  }
+]

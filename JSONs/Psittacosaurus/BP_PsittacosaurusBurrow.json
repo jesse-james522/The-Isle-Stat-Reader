@@ -1,0 +1,262 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_PsittacosaurusBurrow_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "bHasCookedComponentInstancingData": true,
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_PsittacosaurusBurrow_C:SimpleConstructionScript_0'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Psittacosaurus/BP_PsittacosaurusBurrow.6"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'TIPsittacosaurusBurrow'",
+      "ObjectPath": "/Script/TheIsle"
+    },
+    "ClassFlags": "CLASS_Config | CLASS_NoExport | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_PsittacosaurusBurrow_C'Default__BP_PsittacosaurusBurrow_C'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Psittacosaurus/BP_PsittacosaurusBurrow.2"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "BiteBox",
+    "Outer": "Default__BP_PsittacosaurusBurrow_C",
+    "Class": "UScriptClass'BoxComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BoxExtent": {
+        "X": 120.0,
+        "Y": 120.0,
+        "Z": 80.0
+      },
+      "BodyInstance": {
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "TinyCollision",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "SmallCollision",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "MediumCollision",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "LargeCollision",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "WeatherCamera",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "Detector",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "bCanEverAffectNavigation": false
+    }
+  },
+  {
+    "Type": "BP_PsittacosaurusBurrow_C",
+    "Name": "Default__BP_PsittacosaurusBurrow_C",
+    "Class": "BlueprintGeneratedClass'/Game/TheIsle/Core/Characters/Dinosaurs/Psittacosaurus/BP_PsittacosaurusBurrow.BP_PsittacosaurusBurrow_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BurrowMesh": {
+        "ObjectName": "StaticMeshComponent'Default__BP_PsittacosaurusBurrow_C:BurrowMesh'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Psittacosaurus/BP_PsittacosaurusBurrow.7"
+      },
+      "BiteBox": {
+        "ObjectName": "BoxComponent'Default__BP_PsittacosaurusBurrow_C:BiteBox'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Psittacosaurus/BP_PsittacosaurusBurrow.1"
+      },
+      "NestEntryPoint": {
+        "ObjectName": "SceneComponent'Default__BP_PsittacosaurusBurrow_C:NestEntryPoint'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Psittacosaurus/BP_PsittacosaurusBurrow.4"
+      },
+      "DirtHitFix": {
+        "ObjectName": "NiagaraSystem'NS_DigDirtVFX'",
+        "ObjectPath": "/Game/TheIsle/VFX/Charactervfx/Niagara/NS_DigDirtVFX.19"
+      },
+      "DestroyedHitFx": {
+        "ObjectName": "NiagaraSystem'NS_ImpactDirt_Large'",
+        "ObjectPath": "/Game/TheIsle/VFX/Impact/Niagara/Footstep/NS_ImpactDirt_Large.18"
+      },
+      "bReplicates": true,
+      "NetUpdateFrequency": 5.0,
+      "RootComponent": {
+        "ObjectName": "BoxComponent'Default__BP_PsittacosaurusBurrow_C:BiteBox'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Psittacosaurus/BP_PsittacosaurusBurrow.1"
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "BP_PsittacosaurusBurrow_C",
+    "Class": "UScriptClass'SceneComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "NestEntryPoint",
+    "Outer": "Default__BP_PsittacosaurusBurrow_C",
+    "Class": "UScriptClass'SceneComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "BoxComponent'Default__BP_PsittacosaurusBurrow_C:BiteBox'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Psittacosaurus/BP_PsittacosaurusBurrow.1"
+      },
+      "RelativeLocation": {
+        "X": 2.9852245,
+        "Y": -106.075195,
+        "Z": 21.24163
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 90.0,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_PsittacosaurusBurrow_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Psittacosaurus/BP_PsittacosaurusBurrow.3"
+      },
+      "VariableGUID": "114DBE3E-4AC72D2B-AF65DCBC-1AACEA09",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "BP_PsittacosaurusBurrow_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_PsittacosaurusBurrow_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Psittacosaurus/BP_PsittacosaurusBurrow.5"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "BurrowMesh",
+    "Outer": "Default__BP_PsittacosaurusBurrow_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_Burrow_Mound'",
+        "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/_Shared/Spawnables/Burrow/Mesh/SM_Burrow_Mound.2"
+      },
+      "bGenerateOverlapEvents": false,
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_WorldStatic",
+        "CollisionProfileName": "Custom",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "TinyCollision",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "SmallCollision",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "MediumCollision",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "WeatherCamera",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            }
+          ]
+        }
+      },
+      "AttachParent": {
+        "ObjectName": "BoxComponent'Default__BP_PsittacosaurusBurrow_C:BiteBox'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Psittacosaurus/BP_PsittacosaurusBurrow.1"
+      },
+      "RelativeLocation": {
+        "X": 5.946696E-13,
+        "Y": -7.394128,
+        "Z": 0.48393345
+      },
+      "bCanEverAffectNavigation": false
+    }
+  }
+]

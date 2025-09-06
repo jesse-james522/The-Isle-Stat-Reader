@@ -1,10 +1,10 @@
-# The-Isle-Stat-Reader
+# **Interactive JSON Plotter**
 
 This is a Python script that reads stat graphs and stat files from *The Isle* to give the most accurate stat overview you can get.
 
 ---
 
-## **Features**
+## **🔧 Features**
 
 - **Interactive Graphs**  
   Plots data curves with tooltips that display the exact values at each data point when you hover over them.
@@ -16,11 +16,11 @@ This is a Python script that reads stat graphs and stat files from *The Isle* to
   For `BalanceAttributes` files, the tool presents the data in a clean, readable table instead of a plot.
 
 - **Virtual Plots**  
-  It can combine data from `BalanceAttributes` and `AttackPower` files to create "virtual" graphs that show the actual damage output of each attack type.
+  It can combine data from `BalanceAttributes` and `AttackPower` files to create *virtual* graphs that show the actual damage output of each attack type.
 
 ---
 
-## **How to Build**
+## **📦 How to Build**
 
 ### **1. Prerequisites**
 
@@ -96,3 +96,45 @@ The GUI window will appear automatically.
   Use the checkbox and entry field to manually set a different path — but **file structure must be the same**.
 
 ---
+
+## Building as an Executable (.exe)
+
+You can bundle this script into a standalone executable using [PyInstaller](https://pyinstaller.org/).
+
+### **1. Install PyInstaller**
+If you haven't already:
+```bash
+pip install pyinstaller
+```
+
+### **2. Recommended Build Command (with bundled JSONs)**
+
+Make sure your folder contains the following:
+
+```
+/Your-Project-Folder/
+├── UEJSONReader.py
+└── /JSONs/
+    ├── /Allosaurus/
+    └── /Pachycephalosaurus/
+```
+
+Then run this in your terminal (Windows syntax):
+
+```bash
+py -m PyInstaller --onefile --noconsole ^
+  --add-data "JSONs;JSONs" ^
+  UEJSONReader.py
+```
+
+> ⚠️ Note: Use `:` instead of `;` on macOS/Linux:
+> ```bash
+> --add-data "JSONs:JSONs"
+> ```
+
+This command will:
+- Bundle the entire `JSONs` folder inside the `.exe`
+- Suppress the console window (useful for GUI apps)
+- Output `dist/UEJSONReader.exe` that includes everything
+
+No changes to your Python code are needed as long as you're using the included `find_jsons_folder()` function.

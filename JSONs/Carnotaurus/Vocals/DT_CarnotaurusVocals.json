@@ -1,0 +1,288 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_CarnotaurusVocals",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'Vocals'",
+        "ObjectPath": "/Script/TheIsle"
+      }
+    },
+    "Rows": {
+      "Generic": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Carnotaurus_Call_Generic'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Carnotaurus/Sound/MS_Carnotaurus_Call_Generic.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Broadcast": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Carnotaurus_Call_Broadcast'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Carnotaurus/Sound/MS_Carnotaurus_Call_Broadcast.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Attract": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Carnotaurus_Call_Attract'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Carnotaurus/Sound/MS_Carnotaurus_Call_Attract.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Threaten": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Carnotaurus_Call_Threaten'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Carnotaurus/Sound/MS_Carnotaurus_Call_Threaten.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Danger": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Carnotaurus_Call_Danger'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Carnotaurus/Sound/MS_Carnotaurus_Call_Danger.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "RegularPain": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Carno_Pain'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Carnotaurus/Sound/CU_Carno_Pain.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "ExtremePain": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Carno_ExtremePain_Adult'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Carnotaurus/Sound/CU_Carno_ExtremePain_Adult.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "DynamicPain": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Carno_Pain_Dynamic'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Carnotaurus/Sound/CU_Carno_Pain_Dynamic.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Death": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Carno_Death'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Carnotaurus/Sound/CU_Carno_Death.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "JuvenilePain": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Carno_Juv_Pain'",
+          "ObjectPath": "/Game/TheIsle/Sound/DinoVocals/Carno/Juvenile/CUEs/CU_Carno_Juv_Pain.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "JuvenileExtremePain": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Carno_Juv_Pain'",
+          "ObjectPath": "/Game/TheIsle/Sound/DinoVocals/Carno/Juvenile/CUEs/CU_Carno_Juv_Pain.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "JuvenileDeath": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Carno_Juv_Death'",
+          "ObjectPath": "/Game/TheIsle/Sound/DinoVocals/Carno/Juvenile/CUEs/CU_Carno_Juv_Death.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Wallow": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Carno_Wallow'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Carnotaurus/Sound/CU_Carno_Wallow.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Bite": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Carnotaurus_Bite'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Carnotaurus/Sound/MS_Carnotaurus_Bite.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Eat": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Carno_Eat'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Carnotaurus/Sound/CU_Carno_Eat.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Snore": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Carno_Snore'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Carnotaurus/Sound/CU_Carno_Snore.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Idle": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Carno_Idle'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Carnotaurus/Sound/CU_Carno_Idle.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Charge": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Carno_Charge_Adult'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Carnotaurus/Sound/CU_Carno_Charge_Adult.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Stagger": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Carno_Stagger_Adult'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Carnotaurus/Sound/CU_Carno_Stagger_Adult.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "EatShort": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Carno_Eat_Short'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Carnotaurus/Sound/CU_Carno_Eat_Short.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Pinned": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Carno_Pinned'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Carnotaurus/Sound/CU_Carno_Pinned.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Stand": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Carno_Standup'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Carnotaurus/Sound/CU_Carno_Standup.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Sit": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Carno_SitDown'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Carnotaurus/Sound/CU_Carno_SitDown.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Random": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Carno_Pain_Random'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Carnotaurus/Sound/CU_Carno_Pain_Random.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "HeadInjury": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Carno_HeadInjury'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Carnotaurus/Sound/CU_Carno_HeadInjury.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "CourtshipFemaleMoan": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Carno_Courtship_Female_Moan'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Carnotaurus/Sound/CU_Carno_Courtship_Female_Moan.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "CourtshipFemaleSniff": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Carno_Courtship_Female_Sniff'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Carnotaurus/Sound/CU_Carno_Courtship_Female_Sniff.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "CourtshipMaleSniff": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Carno_Courtship_Male_Sniff'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Carnotaurus/Sound/CU_Carno_Courtship_Male_Sniff.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "CourtshipMaleShake": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Carno_Courtship_Male_Shake'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Carnotaurus/Sound/CU_Carno_Courtship_Male_Shake.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "CourtshipMaleDisplay": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Carno_Courtship_Male_Display'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Carnotaurus/Sound/CU_Carno_Courtship_Male_Display.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "CourtshipMalePurr": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Carno_Courtship_Male_Purr'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Carnotaurus/Sound/CU_Carno_Courtship_Male_Purr.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Beg": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Carno_Hatchling_Beg'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Carnotaurus/Sound/CU_Carno_Hatchling_Beg.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Feed": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Carno_Feed'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Carnotaurus/Sound/CU_Carno_Feed.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Consume": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Carno_Hatchling_Consume'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Carnotaurus/Sound/CU_Carno_Hatchling_Consume.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      }
+    }
+  }
+]

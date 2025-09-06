@@ -1,0 +1,82 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GA_SpearAttack_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'TIGameplayAbilitySpearAttack'",
+      "ObjectPath": "/Script/TheIsle"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GA_SpearAttack_C'Default__GA_SpearAttack_C'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/GA_SpearAttack.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "GA_SpearAttack_C",
+    "Name": "Default__GA_SpearAttack_C",
+    "Class": "BlueprintGeneratedClass'/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/GA_SpearAttack.GA_SpearAttack_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "PickUpAbility": {
+        "ObjectName": "BlueprintGeneratedClass'GA_SchoolFishPickUp_C'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/PickUp/GA_SchoolFishPickUp.0"
+      },
+      "AbilityTags": [
+        "Ability.Skill.SpearAttack"
+      ],
+      "BlockAbilitiesWithTag": [
+        "Ability.Skill.Beg",
+        "Ability.Skill.Block",
+        "Ability.Skill.BurrowDig",
+        "Ability.Skill.Evade",
+        "Ability.Skill.Forage",
+        "Ability.Skill.Graze",
+        "Ability.Skill.Nest",
+        "Ability.Skill.OpenCorpse",
+        "Ability.Skill.PouncedBuck",
+        "Ability.Skill.PrimaryAttack",
+        "Ability.Skill.Rest",
+        "Ability.Skill.Salt",
+        "Ability.Skill.Scent",
+        "Ability.Skill.PounceLatchAttack2",
+        "Ability.Skill.PrimaryAttackStationary",
+        "Ability.Skill.SecondarySpecial",
+        "Ability.Skill.SecondaryAttackStationary",
+        "Ability.Skill.SecondaryAttack",
+        "Ability.Skill.Shake",
+        "Ability.Skill.Signal",
+        "Ability.Skill.SpecialAttack",
+        "Ability.Skill.Thrash",
+        "Ability.Skill.Throw",
+        "Ability.Skill.Use",
+        "Ability.Skill.Vocalize",
+        "Ability.Skill.VoiceBroadcast",
+        "Ability.Skill.VoiceFriendly",
+        "Ability.Skill.VoiceHelp",
+        "Ability.Skill.Wallow",
+        "Ability.Skill.VoiceThreatenAuto",
+        "Ability.Skill.VoiceThreaten"
+      ],
+      "ActivationOwnedTags": [
+        "Status.DisableMovement",
+        "Status.DisableHeadtracking",
+        "Ability.Skill.SpearAttack"
+      ],
+      "ActivationRequiredTags": [
+        "Ability.Skill.Spear"
+      ]
+    }
+  }
+]

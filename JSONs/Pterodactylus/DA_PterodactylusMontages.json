@@ -1,0 +1,512 @@
+[
+  {
+    "Type": "TIDinosaurMontages",
+    "Name": "DA_PterodactylusMontages",
+    "Class": "UScriptClass'TIDinosaurMontages'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Vocals": {
+        "Generic": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Hypsilophodon_Adult_Vocal_Generic'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Hypsilophodon/Animations/AM_Hypsilophodon_Adult_Vocal_Generic.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Hypsilophodon_Adult_Vocal_Generic'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Hypsilophodon/Animations/AM_Hypsilophodon_Adult_Vocal_Generic.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Hypsilophodon_Adult_Vocal_Generic'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Hypsilophodon/Animations/AM_Hypsilophodon_Adult_Vocal_Generic.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Hypsilophodon_Adult_Vocal_Generic'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Hypsilophodon/Animations/AM_Hypsilophodon_Adult_Vocal_Generic.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Hypsilophodon_Adult_Vocal_Generic'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Hypsilophodon/Animations/AM_Hypsilophodon_Adult_Vocal_Generic.0"
+          }
+        },
+        "Attract": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Hypsilophodon_Adult_Vocal_Attract'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Hypsilophodon/Animations/AM_Hypsilophodon_Adult_Vocal_Attract.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Hypsilophodon_Adult_Vocal_Attract'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Hypsilophodon/Animations/AM_Hypsilophodon_Adult_Vocal_Attract.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Hypsilophodon_Adult_Vocal_Attract'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Hypsilophodon/Animations/AM_Hypsilophodon_Adult_Vocal_Attract.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Hypsilophodon_Adult_Vocal_Attract'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Hypsilophodon/Animations/AM_Hypsilophodon_Adult_Vocal_Attract.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Hypsilophodon_Adult_Vocal_Attract'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Hypsilophodon/Animations/AM_Hypsilophodon_Adult_Vocal_Attract.0"
+          }
+        },
+        "Threaten": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Hypsilophodon_Adult_Vocal_Threaten'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Hypsilophodon/Animations/AM_Hypsilophodon_Adult_Vocal_Threaten.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Hypsilophodon_Adult_Vocal_Threaten'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Hypsilophodon/Animations/AM_Hypsilophodon_Adult_Vocal_Threaten.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Hypsilophodon_Adult_Vocal_Threaten'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Hypsilophodon/Animations/AM_Hypsilophodon_Adult_Vocal_Threaten.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Hypsilophodon_Adult_Vocal_Threaten'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Hypsilophodon/Animations/AM_Hypsilophodon_Adult_Vocal_Threaten.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Hypsilophodon_Adult_Vocal_Threaten'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Hypsilophodon/Animations/AM_Hypsilophodon_Adult_Vocal_Threaten.0"
+          }
+        },
+        "Danger": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Hypsilophodon_Adult_Vocal_Danger'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Hypsilophodon/Animations/AM_Hypsilophodon_Adult_Vocal_Danger.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Hypsilophodon_Adult_Vocal_Danger'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Hypsilophodon/Animations/AM_Hypsilophodon_Adult_Vocal_Danger.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Hypsilophodon_Adult_Vocal_Danger'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Hypsilophodon/Animations/AM_Hypsilophodon_Adult_Vocal_Danger.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Hypsilophodon_Adult_Vocal_Danger'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Hypsilophodon/Animations/AM_Hypsilophodon_Adult_Vocal_Danger.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Hypsilophodon_Adult_Vocal_Danger'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Hypsilophodon/Animations/AM_Hypsilophodon_Adult_Vocal_Danger.0"
+          }
+        }
+      },
+      "Eat": {
+        "EatIn": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'A_Pterodactylus_Adult_Eat_Montage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pterodactylus/Animations/A_Pterodactylus_Adult_Eat_Montage.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'A_Pterodactylus_Adult_Eat_Montage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pterodactylus/Animations/A_Pterodactylus_Adult_Eat_Montage.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'A_Pterodactylus_Adult_Eat_Montage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pterodactylus/Animations/A_Pterodactylus_Adult_Eat_Montage.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'A_Pterodactylus_Adult_Eat_Montage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pterodactylus/Animations/A_Pterodactylus_Adult_Eat_Montage.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'A_Pterodactylus_Adult_Eat_Montage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pterodactylus/Animations/A_Pterodactylus_Adult_Eat_Montage.0"
+          }
+        },
+        "EatEnd": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'A_Pterodactylus_Adult_Eat_Montage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pterodactylus/Animations/A_Pterodactylus_Adult_Eat_Montage.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'A_Pterodactylus_Adult_Eat_Montage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pterodactylus/Animations/A_Pterodactylus_Adult_Eat_Montage.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'A_Pterodactylus_Adult_Eat_Montage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pterodactylus/Animations/A_Pterodactylus_Adult_Eat_Montage.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'A_Pterodactylus_Adult_Eat_Montage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pterodactylus/Animations/A_Pterodactylus_Adult_Eat_Montage.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'A_Pterodactylus_Adult_Eat_Montage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pterodactylus/Animations/A_Pterodactylus_Adult_Eat_Montage.0"
+          }
+        },
+        "Vomit": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Hypsilophodon_Adult_Vomit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Hypsilophodon/Animations/AM_Hypsilophodon_Adult_Vomit.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Hypsilophodon_Adult_Vomit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Hypsilophodon/Animations/AM_Hypsilophodon_Adult_Vomit.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Hypsilophodon_Adult_Vomit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Hypsilophodon/Animations/AM_Hypsilophodon_Adult_Vomit.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Hypsilophodon_Adult_Vomit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Hypsilophodon/Animations/AM_Hypsilophodon_Adult_Vomit.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Hypsilophodon_Adult_Vomit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Hypsilophodon/Animations/AM_Hypsilophodon_Adult_Vomit.0"
+          }
+        }
+      },
+      "Drink": {
+        "Hatchling": {
+          "ObjectName": "AnimMontage'AM_Pterodactylus_Adult_DrinkIn'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pterodactylus/Animations/AM_Pterodactylus_Adult_DrinkIn.0"
+        },
+        "Juvenile": {
+          "ObjectName": "AnimMontage'AM_Pterodactylus_Adult_DrinkIn'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pterodactylus/Animations/AM_Pterodactylus_Adult_DrinkIn.0"
+        },
+        "Subadult": {
+          "ObjectName": "AnimMontage'AM_Pterodactylus_Adult_DrinkIn'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pterodactylus/Animations/AM_Pterodactylus_Adult_DrinkIn.0"
+        },
+        "Adult": {
+          "ObjectName": "AnimMontage'AM_Pterodactylus_Adult_DrinkIn'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pterodactylus/Animations/AM_Pterodactylus_Adult_DrinkIn.0"
+        },
+        "Elder": {
+          "ObjectName": "AnimMontage'AM_Pterodactylus_Adult_DrinkIn'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pterodactylus/Animations/AM_Pterodactylus_Adult_DrinkIn.0"
+        }
+      },
+      "Rest": {
+        "StandToSit": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Hypsilophodon_Adult_StandToSit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Hypsilophodon/Animations/AM_Hypsilophodon_Adult_StandToSit.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Hypsilophodon_Adult_StandToSit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Hypsilophodon/Animations/AM_Hypsilophodon_Adult_StandToSit.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Hypsilophodon_Adult_StandToSit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Hypsilophodon/Animations/AM_Hypsilophodon_Adult_StandToSit.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Hypsilophodon_Adult_StandToSit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Hypsilophodon/Animations/AM_Hypsilophodon_Adult_StandToSit.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Hypsilophodon_Adult_StandToSit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Hypsilophodon/Animations/AM_Hypsilophodon_Adult_StandToSit.0"
+          }
+        },
+        "SitToStand": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Hypsilophodon_Adult_SitToStand'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Hypsilophodon/Animations/AM_Hypsilophodon_Adult_SitToStand.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Hypsilophodon_Adult_SitToStand'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Hypsilophodon/Animations/AM_Hypsilophodon_Adult_SitToStand.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Hypsilophodon_Adult_SitToStand'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Hypsilophodon/Animations/AM_Hypsilophodon_Adult_SitToStand.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Hypsilophodon_Adult_SitToStand'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Hypsilophodon/Animations/AM_Hypsilophodon_Adult_SitToStand.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Hypsilophodon_Adult_SitToStand'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Hypsilophodon/Animations/AM_Hypsilophodon_Adult_SitToStand.0"
+          }
+        },
+        "SitToStandFast": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Hypsilophodon_Adult_SitToStandFast'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Hypsilophodon/Animations/AM_Hypsilophodon_Adult_SitToStandFast.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Hypsilophodon_Adult_SitToStandFast'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Hypsilophodon/Animations/AM_Hypsilophodon_Adult_SitToStandFast.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Hypsilophodon_Adult_SitToStandFast'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Hypsilophodon/Animations/AM_Hypsilophodon_Adult_SitToStandFast.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Hypsilophodon_Adult_SitToStandFast'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Hypsilophodon/Animations/AM_Hypsilophodon_Adult_SitToStandFast.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Hypsilophodon_Adult_SitToStandFast'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Hypsilophodon/Animations/AM_Hypsilophodon_Adult_SitToStandFast.0"
+          }
+        },
+        "SitToSleep": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Hypsilophodon_Adult_SitToSleep'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Hypsilophodon/Animations/AM_Hypsilophodon_Adult_SitToSleep.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Hypsilophodon_Adult_SitToSleep'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Hypsilophodon/Animations/AM_Hypsilophodon_Adult_SitToSleep.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Hypsilophodon_Adult_SitToSleep'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Hypsilophodon/Animations/AM_Hypsilophodon_Adult_SitToSleep.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Hypsilophodon_Adult_SitToSleep'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Hypsilophodon/Animations/AM_Hypsilophodon_Adult_SitToSleep.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Hypsilophodon_Adult_SitToSleep'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Hypsilophodon/Animations/AM_Hypsilophodon_Adult_SitToSleep.0"
+          }
+        },
+        "SleepToSit": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Hypsilophodon_Adult_SleepToSit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Hypsilophodon/Animations/AM_Hypsilophodon_Adult_SleepToSit.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Hypsilophodon_Adult_SleepToSit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Hypsilophodon/Animations/AM_Hypsilophodon_Adult_SleepToSit.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Hypsilophodon_Adult_SleepToSit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Hypsilophodon/Animations/AM_Hypsilophodon_Adult_SleepToSit.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Hypsilophodon_Adult_SleepToSit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Hypsilophodon/Animations/AM_Hypsilophodon_Adult_SleepToSit.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Hypsilophodon_Adult_SleepToSit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Hypsilophodon/Animations/AM_Hypsilophodon_Adult_SleepToSit.0"
+          }
+        }
+      },
+      "Bite": {
+        "Hatchling": {
+          "ObjectName": "AnimMontage'A_Pterodactylus_Adult_Attack_Montage'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pterodactylus/Animations/A_Pterodactylus_Adult_Attack_Montage.0"
+        },
+        "Juvenile": {
+          "ObjectName": "AnimMontage'A_Pterodactylus_Adult_Attack_Montage'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pterodactylus/Animations/A_Pterodactylus_Adult_Attack_Montage.0"
+        },
+        "Subadult": {
+          "ObjectName": "AnimMontage'A_Pterodactylus_Adult_Attack_Montage'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pterodactylus/Animations/A_Pterodactylus_Adult_Attack_Montage.0"
+        },
+        "Adult": {
+          "ObjectName": "AnimMontage'A_Pterodactylus_Adult_Attack_Montage'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pterodactylus/Animations/A_Pterodactylus_Adult_Attack_Montage.0"
+        },
+        "Elder": {
+          "ObjectName": "AnimMontage'A_Pterodactylus_Adult_Attack_Montage'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pterodactylus/Animations/A_Pterodactylus_Adult_Attack_Montage.0"
+        }
+      },
+      "Hit": {
+        "Heavy": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Pterodactylus_Adult_RecoilH'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pterodactylus/Animations/AM_Pterodactylus_Adult_RecoilH.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Pterodactylus_Adult_RecoilH'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pterodactylus/Animations/AM_Pterodactylus_Adult_RecoilH.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Pterodactylus_Adult_RecoilH'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pterodactylus/Animations/AM_Pterodactylus_Adult_RecoilH.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Pterodactylus_Adult_RecoilH'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pterodactylus/Animations/AM_Pterodactylus_Adult_RecoilH.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Pterodactylus_Adult_RecoilH'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pterodactylus/Animations/AM_Pterodactylus_Adult_RecoilH.0"
+          }
+        }
+      },
+      "Interact": {
+        "Wallow": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Hypsilophodon_Adult_Wallow'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Hypsilophodon/Animations/AM_Hypsilophodon_Adult_Wallow.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Hypsilophodon_Adult_Wallow'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Hypsilophodon/Animations/AM_Hypsilophodon_Adult_Wallow.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Hypsilophodon_Adult_Wallow'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Hypsilophodon/Animations/AM_Hypsilophodon_Adult_Wallow.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Hypsilophodon_Adult_Wallow'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Hypsilophodon/Animations/AM_Hypsilophodon_Adult_Wallow.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Hypsilophodon_Adult_Wallow'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Hypsilophodon/Animations/AM_Hypsilophodon_Adult_Wallow.0"
+          }
+        },
+        "WallowRecover": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Hypsilophodon_Adult_Wallow_Recover'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Hypsilophodon/Animations/AM_Hypsilophodon_Adult_Wallow_Recover.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Hypsilophodon_Adult_Wallow_Recover'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Hypsilophodon/Animations/AM_Hypsilophodon_Adult_Wallow_Recover.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Hypsilophodon_Adult_Wallow_Recover'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Hypsilophodon/Animations/AM_Hypsilophodon_Adult_Wallow_Recover.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Hypsilophodon_Adult_Wallow_Recover'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Hypsilophodon/Animations/AM_Hypsilophodon_Adult_Wallow_Recover.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Hypsilophodon_Adult_Wallow_Recover'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Hypsilophodon/Animations/AM_Hypsilophodon_Adult_Wallow_Recover.0"
+          }
+        },
+        "Salt": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Hypsilophodon_Adult_Salt'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Hypsilophodon/Animations/AM_Hypsilophodon_Adult_Salt.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Hypsilophodon_Adult_Salt'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Hypsilophodon/Animations/AM_Hypsilophodon_Adult_Salt.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Hypsilophodon_Adult_Salt'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Hypsilophodon/Animations/AM_Hypsilophodon_Adult_Salt.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Hypsilophodon_Adult_Salt'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Hypsilophodon/Animations/AM_Hypsilophodon_Adult_Salt.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Hypsilophodon_Adult_Salt'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Hypsilophodon/Animations/AM_Hypsilophodon_Adult_Salt.0"
+          }
+        }
+      },
+      "Blinded": {
+        "Hatchling": {
+          "ObjectName": "AnimMontage'AM_Hypsilophodon_Adult_Blinded'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Hypsilophodon/Animations/AM_Hypsilophodon_Adult_Blinded.0"
+        },
+        "Juvenile": {
+          "ObjectName": "AnimMontage'AM_Hypsilophodon_Adult_Blinded'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Hypsilophodon/Animations/AM_Hypsilophodon_Adult_Blinded.0"
+        },
+        "Subadult": {
+          "ObjectName": "AnimMontage'AM_Hypsilophodon_Adult_Blinded'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Hypsilophodon/Animations/AM_Hypsilophodon_Adult_Blinded.0"
+        },
+        "Adult": {
+          "ObjectName": "AnimMontage'AM_Hypsilophodon_Adult_Blinded'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Hypsilophodon/Animations/AM_Hypsilophodon_Adult_Blinded.0"
+        },
+        "Elder": {
+          "ObjectName": "AnimMontage'AM_Hypsilophodon_Adult_Blinded'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Hypsilophodon/Animations/AM_Hypsilophodon_Adult_Blinded.0"
+        }
+      },
+      "PouncedStruggle": {
+        "Hatchling": {
+          "ObjectName": "AnimMontage'AM_Hypsilophodon_Adult_Pounced'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Hypsilophodon/Animations/AM_Hypsilophodon_Adult_Pounced.0"
+        },
+        "Juvenile": {
+          "ObjectName": "AnimMontage'AM_Hypsilophodon_Adult_Pounced'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Hypsilophodon/Animations/AM_Hypsilophodon_Adult_Pounced.0"
+        },
+        "Subadult": {
+          "ObjectName": "AnimMontage'AM_Hypsilophodon_Adult_Pounced'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Hypsilophodon/Animations/AM_Hypsilophodon_Adult_Pounced.0"
+        },
+        "Adult": {
+          "ObjectName": "AnimMontage'AM_Hypsilophodon_Adult_Pounced'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Hypsilophodon/Animations/AM_Hypsilophodon_Adult_Pounced.0"
+        },
+        "Elder": {
+          "ObjectName": "AnimMontage'AM_Hypsilophodon_Adult_Pounced'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Hypsilophodon/Animations/AM_Hypsilophodon_Adult_Pounced.0"
+        }
+      },
+      "Unique": [
+        {
+          "Key": "SkimCatch",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Pteranodon_Adult_SkimF_Catch'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pteranodon/Animations/AM_Pteranodon_Adult_SkimF_Catch.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Pteranodon_Adult_SkimF_Catch'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pteranodon/Animations/AM_Pteranodon_Adult_SkimF_Catch.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Pteranodon_Adult_SkimF_Catch'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pteranodon/Animations/AM_Pteranodon_Adult_SkimF_Catch.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Pteranodon_Adult_SkimF_Catch'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pteranodon/Animations/AM_Pteranodon_Adult_SkimF_Catch.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Pteranodon_Adult_SkimF_Catch'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pteranodon/Animations/AM_Pteranodon_Adult_SkimF_Catch.0"
+            }
+          }
+        },
+        {
+          "Key": "FlyingBite",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'A_Pterodactylus_Adult_Harass_Montage'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pterodactylus/Animations/A_Pterodactylus_Adult_Harass_Montage.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'A_Pterodactylus_Adult_Harass_Montage'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pterodactylus/Animations/A_Pterodactylus_Adult_Harass_Montage.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'A_Pterodactylus_Adult_Harass_Montage'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pterodactylus/Animations/A_Pterodactylus_Adult_Harass_Montage.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'A_Pterodactylus_Adult_Harass_Montage'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pterodactylus/Animations/A_Pterodactylus_Adult_Harass_Montage.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'A_Pterodactylus_Adult_Harass_Montage'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pterodactylus/Animations/A_Pterodactylus_Adult_Harass_Montage.0"
+            }
+          }
+        }
+      ]
+    }
+  }
+]

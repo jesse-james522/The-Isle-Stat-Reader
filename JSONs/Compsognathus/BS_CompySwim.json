@@ -1,0 +1,208 @@
+[
+  {
+    "Type": "BlendSpace",
+    "Name": "BS_CompySwim",
+    "Class": "UScriptClass'BlendSpace'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "InterpolationParam": {
+        "InterpolationTime": 0.3,
+        "InterpolationType": "EFilterInterpolationType::BSIT_Average"
+      },
+      "InterpolationParam[1]": {
+        "InterpolationTime": 0.3,
+        "InterpolationType": "EFilterInterpolationType::BSIT_Average"
+      },
+      "bTargetWeightInterpolationEaseInOut": false,
+      "AnimLength": 2.0,
+      "bInterpolateUsingGrid": true,
+      "SampleData": [
+        {
+          "Animation": {
+            "ObjectName": "AnimSequence'A_Compsognathus_Adult_SwimF'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Compsognathus/Animations/A_Compsognathus_Adult_SwimF.0"
+          },
+          "SampleValue": {
+            "X": 49.5,
+            "Y": 2.0,
+            "Z": 0.0
+          },
+          "RateScale": 1.0
+        },
+        {
+          "Animation": {
+            "ObjectName": "AnimSequence'A_Compsognathus_Adult_SwimF'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Compsognathus/Animations/A_Compsognathus_Adult_SwimF.0"
+          },
+          "SampleValue": {
+            "X": 49.5,
+            "Y": 1.0,
+            "Z": 0.0
+          },
+          "RateScale": 1.0
+        },
+        {
+          "Animation": {
+            "ObjectName": "AnimSequence'A_Compsognathus_Adult_SwimF'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Compsognathus/Animations/A_Compsognathus_Adult_SwimF.0"
+          },
+          "SampleValue": {
+            "X": -1.0,
+            "Y": 2.0,
+            "Z": 0.0
+          },
+          "RateScale": 1.0
+        },
+        {
+          "Animation": {
+            "ObjectName": "AnimSequence'A_Compsognathus_Adult_SwimF'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Compsognathus/Animations/A_Compsognathus_Adult_SwimF.0"
+          },
+          "SampleValue": {
+            "X": 100.0,
+            "Y": 2.0,
+            "Z": 0.0
+          },
+          "RateScale": 1.0
+        },
+        {
+          "Animation": {
+            "ObjectName": "AnimSequence'A_Compsognathus_Adult_SwimF'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Compsognathus/Animations/A_Compsognathus_Adult_SwimF.0"
+          },
+          "SampleValue": {
+            "X": 100.0,
+            "Y": 1.0,
+            "Z": 0.0
+          },
+          "RateScale": 1.0
+        },
+        {
+          "Animation": {
+            "ObjectName": "AnimSequence'A_Compsognathus_Adult_SwimF'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Compsognathus/Animations/A_Compsognathus_Adult_SwimF.0"
+          },
+          "SampleValue": {
+            "X": -1.0,
+            "Y": 1.0,
+            "Z": 0.0
+          },
+          "RateScale": 1.0
+        }
+      ],
+      "GridSamples": [
+        {
+          "Indices": 5,
+          "Indices[1]": 1,
+          "Indices[2]": -1,
+          "Weights": 1.0,
+          "Weights[1]": 0.0,
+          "Weights[2]": 0.0
+        },
+        {
+          "Indices": 5,
+          "Indices[1]": 1,
+          "Indices[2]": -1,
+          "Weights": 0.0,
+          "Weights[1]": 1.0,
+          "Weights[2]": 0.0
+        },
+        {
+          "Indices": 1,
+          "Indices[1]": 4,
+          "Indices[2]": -1,
+          "Weights": 0.0,
+          "Weights[1]": 1.0,
+          "Weights[2]": 0.0
+        },
+        {
+          "Indices": 5,
+          "Indices[1]": 1,
+          "Indices[2]": 2,
+          "Weights": 1.0,
+          "Weights[1]": 0.0,
+          "Weights[2]": 0.0
+        },
+        {
+          "Indices": 1,
+          "Indices[1]": 4,
+          "Indices[2]": 0,
+          "Weights": 1.0,
+          "Weights[1]": 0.0,
+          "Weights[2]": 0.0
+        },
+        {
+          "Indices": 4,
+          "Indices[1]": 3,
+          "Indices[2]": 0,
+          "Weights": 1.0,
+          "Weights[1]": 0.0,
+          "Weights[2]": 0.0
+        },
+        {
+          "Indices": 5,
+          "Indices[1]": 1,
+          "Indices[2]": 2,
+          "Weights": -0.0,
+          "Weights[1]": 0.0,
+          "Weights[2]": 1.0
+        },
+        {
+          "Indices": 1,
+          "Indices[1]": 0,
+          "Indices[2]": 2,
+          "Weights": 0.0,
+          "Weights[1]": 1.0,
+          "Weights[2]": 0.0
+        },
+        {
+          "Indices": 4,
+          "Indices[1]": 3,
+          "Indices[2]": 0,
+          "Weights": 0.0,
+          "Weights[1]": 1.0,
+          "Weights[2]": 0.0
+        },
+        {
+          "Indices": 1,
+          "Indices[1]": 2,
+          "Indices[2]": -1,
+          "Weights": 0.0,
+          "Weights[1]": 1.0,
+          "Weights[2]": 0.0
+        },
+        {
+          "Indices": 4,
+          "Indices[1]": 0,
+          "Indices[2]": -1,
+          "Weights": 0.0,
+          "Weights[1]": 1.0,
+          "Weights[2]": 0.0
+        },
+        {
+          "Indices": 4,
+          "Indices[1]": 3,
+          "Indices[2]": -1,
+          "Weights": 0.0,
+          "Weights[1]": 1.0,
+          "Weights[2]": 0.0
+        }
+      ],
+      "BlendParameters": {
+        "DisplayName": "Turn",
+        "Min": -1.0,
+        "GridNum": 2
+      },
+      "BlendParameters[1]": {
+        "DisplayName": "Speed]",
+        "Max": 3.0,
+        "GridNum": 3
+      },
+      "Skeleton": {
+        "ObjectName": "Skeleton'SKEL_Compsognathus'",
+        "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Compsognathus/Mesh/SKEL_Compsognathus.15"
+      }
+    },
+    "SkeletonGuid": "405BA008-4666D6D7-F5790EB5-4140BF17"
+  }
+]

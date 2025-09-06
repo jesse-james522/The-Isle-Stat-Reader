@@ -1,0 +1,392 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_PachycephalosaurusVocals",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'Vocals'",
+        "ObjectPath": "/Script/TheIsle"
+      }
+    },
+    "Rows": {
+      "Generic": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Pachycephalosaurus_Call_Generic'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Sound/MS_Pachycephalosaurus_Call_Generic.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Broadcast": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Pachycephalosaurus_Call_Broadcast'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Sound/MS_Pachycephalosaurus_Call_Broadcast.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Attract": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Pachycephalosaurus_Call_Attract'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Sound/MS_Pachycephalosaurus_Call_Attract.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Threaten": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Pachycephalosaurus_Call_Threaten'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Sound/MS_Pachycephalosaurus_Call_Threaten.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Danger": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Pachycephalosaurus_Call_Danger'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Sound/MS_Pachycephalosaurus_Call_Danger.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "RegularPain": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Pachycephalosaurus_RegularPain'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Sound/CU_Pachycephalosaurus_RegularPain.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "ExtremePain": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Pachycephalosaurus_ExtremePain'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Sound/CU_Pachycephalosaurus_ExtremePain.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Death": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Pachycephalosaurus_Death'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Sound/CU_Pachycephalosaurus_Death.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Bite": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Pachycephalosaurus_Bite'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Sound/MS_Pachycephalosaurus_Bite.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Eat": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Pachycephalosaurus_Eat'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Sound/CU_Pachycephalosaurus_Eat.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Drink": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Pachycephalosaurus_Drink'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Sound/CU_Pachycephalosaurus_Drink.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Idle1": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Pachycephalosaurus_Idle_1'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Sound/CU_Pachycephalosaurus_Idle_1.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Idle2": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Pachycephalosaurus_Idle_2'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Sound/CU_Pachycephalosaurus_Idle_2.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Nicker": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Pachycephalosaurus_Nicker'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Sound/CU_Pachycephalosaurus_Nicker.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Snort": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Pachycephalosaurus_Snort'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Sound/CU_Pachycephalosaurus_Snort.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Chuff": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Pachycephalosaurus_Chuff'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Sound/CU_Pachycephalosaurus_Chuff.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Sniff": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Pachycephalosaurus_Sniff'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Sound/CU_Pachycephalosaurus_Sniff.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Blow": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Pachycephalosaurus_Blow'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Sound/CU_Pachycephalosaurus_Blow.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Attack": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Pachycephalosaurus_Attack'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Sound/CU_Pachycephalosaurus_Attack.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Headbutt": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Pachycephalosaurus_Headbutt'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Sound/CU_Pachycephalosaurus_Headbutt.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "SitDown": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Pachycephalosaurus_SitDown'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Sound/CU_Pachycephalosaurus_SitDown.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "StandUp": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Pachycephalosaurus_StandUp'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Sound/CU_Pachycephalosaurus_StandUp.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Bleat": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Pachycephalosaurus_Bleat'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Sound/CU_Pachycephalosaurus_Bleat.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Cry": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Pachycephalosaurus_Cry'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Sound/CU_Pachycephalosaurus_Cry.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Growl": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Pachycephalosaurus_Growl'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Sound/CU_Pachycephalosaurus_Growl.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Croak": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Pachycephalosaurus_Croak'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Sound/CU_Pachycephalosaurus_Croak.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Choke": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Pachycephalosaurus_Choke'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Sound/CU_Pachycephalosaurus_Choke.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Puff": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Pachycephalosaurus_Puff'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Sound/CU_Pachycephalosaurus_Puff.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Grumble": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Pachycephalosaurus_Grumble'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Sound/CU_Pachycephalosaurus_Grumble.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Honk": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Pachycephalosaurus_Honk'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Sound/CU_Pachycephalosaurus_Honk.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Flutter": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Pachycephalosaurus_Flutter'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Sound/CU_Pachycephalosaurus_Flutter.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Snarl": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Pachycephalosaurus_Snarl'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Sound/CU_Pachycephalosaurus_Snarl.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Groan": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Pachycephalosaurus_Groan'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Sound/CU_Pachycephalosaurus_Groan.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Moan": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Pachycephalosaurus_Moan'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Sound/CU_Pachycephalosaurus_Moan.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Screech": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Pachycephalosaurus_Screech'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Sound/CU_Pachycephalosaurus_Screech.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "HeadInjury": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Pachycephalosaurus_HeadInjury'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Sound/CU_Pachycephalosaurus_HeadInjury.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "CourtshipMale1": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Pachycephalosaurus_Courtship_Male1'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Sound/CU_Pachycephalosaurus_Courtship_Male1.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "CourtshipMale2": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Pachycephalosaurus_Courtship_Male2'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Sound/CU_Pachycephalosaurus_Courtship_Male2.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "CourtshipMale3": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Pachycephalosaurus_Courtship_Male3'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Sound/CU_Pachycephalosaurus_Courtship_Male3.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "CourtshipFemale1": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Pachycephalosaurus_Courtship_Female1'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Sound/CU_Pachycephalosaurus_Courtship_Female1.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "CourtshipFemale2": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Pachycephalosaurus_Courtship_Female2'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Sound/CU_Pachycephalosaurus_Courtship_Female2.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "CourtshipFemale3": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Pachycephalosaurus_Courtship_Female3'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Sound/CU_Pachycephalosaurus_Courtship_Female3.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Beg1": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Pachycephalosaurus_Hatchling_Beg1'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Sound/CU_Pachycephalosaurus_Hatchling_Beg1.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Beg2": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Pachycephalosaurus_Hatchling_Beg2'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Sound/CU_Pachycephalosaurus_Hatchling_Beg2.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Feed": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Pachycephalosaurus_Feed'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Sound/CU_Pachycephalosaurus_Feed.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "PreAttack": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Pachycephalosaurus_Headbutt_Pre'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Sound/CU_Pachycephalosaurus_Headbutt_Pre.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Whoosh": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Gallimimus_Attack_Whoosh'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Sound/CU_Gallimimus_Attack_Whoosh.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      }
+    }
+  }
+]

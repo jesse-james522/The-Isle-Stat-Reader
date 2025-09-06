@@ -1,0 +1,205 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_PterodactylusVocals",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'Vocals'",
+        "ObjectPath": "/Script/TheIsle"
+      }
+    },
+    "Rows": {
+      "Call1": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Pterodactylus_Call1'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pterodactylus/Sounds/CU_Pterodactylus_Call1.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Call2": {
+        "VocalSoundCue": null,
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Attack": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Pterodactylus_Attack'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pterodactylus/Sounds/CU_Pterodactylus_Attack.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Death": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Pterodactylus_Death'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pterodactylus/Sounds/CU_Pterodactylus_Death.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Hop": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Pterodactylus_Hop'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pterodactylus/Sounds/CU_Pterodactylus_Hop.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Idle1": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Pterodactylus_Idle1'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pterodactylus/Sounds/CU_Pterodactylus_Idle1.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Idle2": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Pterodactylus_Idle2'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pterodactylus/Sounds/CU_Pterodactylus_Idle2.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Idle3": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Pterodactylus_Idle3'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pterodactylus/Sounds/CU_Pterodactylus_Idle3.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "IdleWarble": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Pterodactylus_Idle_Warble'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pterodactylus/Sounds/CU_Pterodactylus_Idle_Warble.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Gurgle": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Pterodactylus_Gurgle'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pterodactylus/Sounds/CU_Pterodactylus_Gurgle.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "IdleExcited1": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Pterodactylus_IdleExcited1'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pterodactylus/Sounds/CU_Pterodactylus_IdleExcited1.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "IdleExcited2": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Pterodactylus_IdleExcited2'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pterodactylus/Sounds/CU_Pterodactylus_IdleExcited2.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "IdleExcited3": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Pterodactylus_IdleExcited3'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pterodactylus/Sounds/CU_Pterodactylus_IdleExcited3.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "IdleExcited4": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Pterodactylus_IdleExcited4'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pterodactylus/Sounds/CU_Pterodactylus_IdleExcited4.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Eat1": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Pterodactylus_Eat1'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pterodactylus/Sounds/CU_Pterodactylus_Eat1.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Eat2": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Pterodactylus_Eat2'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pterodactylus/Sounds/CU_Pterodactylus_Eat2.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Eat3": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Pterodactylus_Eat3'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pterodactylus/Sounds/CU_Pterodactylus_Eat3.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Eat4": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Pterodactylus_Eat4'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pterodactylus/Sounds/CU_Pterodactylus_Eat4.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Eat5": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Pterodactylus_Eat5'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pterodactylus/Sounds/CU_Pterodactylus_Eat5.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "EatAlt1": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Pterodactylus_EatAlt1'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pterodactylus/Sounds/CU_Pterodactylus_EatAlt1.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "EatAlt2": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Pterodactylus_EatAlt2'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pterodactylus/Sounds/CU_Pterodactylus_EatAlt2.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "EatAlt3": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Pterodactylus_EatAlt3'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pterodactylus/Sounds/CU_Pterodactylus_EatAlt3.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "EatAlt4": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Pterodactylus_EatAlt4'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pterodactylus/Sounds/CU_Pterodactylus_EatAlt4.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "EatAlt5": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Pterodactylus_EatAlt5'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pterodactylus/Sounds/CU_Pterodactylus_EatAlt5.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      }
+    }
+  }
+]

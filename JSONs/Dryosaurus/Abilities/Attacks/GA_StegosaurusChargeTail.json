@@ -1,0 +1,54 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GA_StegosaurusChargeTail_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'TIGameplayAbilityStegosaurusChargeTail'",
+      "ObjectPath": "/Script/TheIsle"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GA_StegosaurusChargeTail_C'Default__GA_StegosaurusChargeTail_C'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Attacks/GA_StegosaurusChargeTail.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "GA_StegosaurusChargeTail_C",
+    "Name": "Default__GA_StegosaurusChargeTail_C",
+    "Class": "BlueprintGeneratedClass'/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Attacks/GA_StegosaurusChargeTail.GA_StegosaurusChargeTail_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AbilityTags": [
+        "State.StegosaurusChargingTail"
+      ],
+      "BlockAbilitiesWithTag": [
+        "Ability.Skill.PickUp",
+        "Ability.Skill.Nest",
+        "Ability.Skill.Salt",
+        "Ability.Skill.Rest",
+        "Ability.Skill.Use",
+        "Ability.Skill.Wallow",
+        "Ability.Skill.Beg"
+      ],
+      "ActivationOwnedTags": [
+        "State.StegosaurusChargingTail",
+        "State.BlockScent"
+      ],
+      "ActivationBlockedTags": [
+        "Ability.Skill.Use",
+        "Ability.Skill.Rest"
+      ]
+    }
+  }
+]

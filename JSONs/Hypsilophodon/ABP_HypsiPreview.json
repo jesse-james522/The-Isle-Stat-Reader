@@ -1,0 +1,5068 @@
+[
+  {
+    "Type": "ABP_HypsiPreview_C",
+    "Name": "Default__ABP_HypsiPreview_C",
+    "Class": "AnimBlueprintGeneratedClass'/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.ABP_HypsiPreview_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "UberGraphFrame": {},
+      "AnimBlueprintExtension_PropertyAccess": {},
+      "AnimBlueprintExtension_Base": {},
+      "AnimGraphNode_Root": {
+        "Result": {
+          "LinkID": 14
+        }
+      },
+      "AnimGraphNode_SequencePlayer_7": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'A_Hypsilophodon_Adult_Idle'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Hypsilophodon/Animations/A_Hypsilophodon_Adult_Idle.3"
+        },
+        "PlayRateScaleBiasClampState": {},
+        "BlendWeight": 0.0,
+        "InternalTimeAccumulator": 0.0
+      },
+      "AnimGraphNode_ApplyAdditive_6": {
+        "base": {
+          "LinkID": 1
+        },
+        "Additive": {
+          "LinkID": 3
+        },
+        "Alpha": 1.0,
+        "AlphaScaleBias": {
+          "Scale": 1.0,
+          "Bias": 0.0
+        },
+        "LODThreshold": -1,
+        "AlphaBoolBlend": {
+          "BlendInTime": 0.0,
+          "BlendOutTime": 0.0,
+          "BlendOption": "EAlphaBlendOption::Linear",
+          "bInitialized": false,
+          "CustomCurve": null,
+          "AlphaBlend": {
+            "CustomCurve": null,
+            "BlendTime": 0.2,
+            "BlendOption": "EAlphaBlendOption::Linear"
+          }
+        },
+        "AlphaCurveName": "None",
+        "AlphaScaleBiasClamp": {
+          "bMapRange": false,
+          "bClampResult": false,
+          "bInterpResult": false,
+          "InRange": {
+            "Min": 0.0,
+            "Max": 1.0
+          },
+          "OutRange": {
+            "Min": 0.0,
+            "Max": 1.0
+          },
+          "Scale": 1.0,
+          "Bias": 0.0,
+          "ClampMin": 0.0,
+          "ClampMax": 1.0,
+          "InterpSpeedIncreasing": 10.0,
+          "InterpSpeedDecreasing": 10.0
+        },
+        "AlphaInputType": "EAnimAlphaInputType::Float",
+        "bAlphaBoolEnabled": true
+      },
+      "AnimGraphNode_SequencePlayer_6": {
+        "Sequence": null,
+        "PlayRateScaleBiasClampState": {},
+        "BlendWeight": 0.0,
+        "InternalTimeAccumulator": 0.0
+      },
+      "AnimGraphNode_ApplyAdditive_5": {
+        "base": {
+          "LinkID": 2
+        },
+        "Additive": {
+          "LinkID": 5
+        },
+        "Alpha": 1.0,
+        "AlphaScaleBias": {
+          "Scale": 1.0,
+          "Bias": 0.0
+        },
+        "LODThreshold": -1,
+        "AlphaBoolBlend": {
+          "BlendInTime": 0.0,
+          "BlendOutTime": 0.0,
+          "BlendOption": "EAlphaBlendOption::Linear",
+          "bInitialized": false,
+          "CustomCurve": null,
+          "AlphaBlend": {
+            "CustomCurve": null,
+            "BlendTime": 0.2,
+            "BlendOption": "EAlphaBlendOption::Linear"
+          }
+        },
+        "AlphaCurveName": "None",
+        "AlphaScaleBiasClamp": {
+          "bMapRange": false,
+          "bClampResult": false,
+          "bInterpResult": false,
+          "InRange": {
+            "Min": 0.0,
+            "Max": 1.0
+          },
+          "OutRange": {
+            "Min": 0.0,
+            "Max": 1.0
+          },
+          "Scale": 1.0,
+          "Bias": 0.0,
+          "ClampMin": 0.0,
+          "ClampMax": 1.0,
+          "InterpSpeedIncreasing": 10.0,
+          "InterpSpeedDecreasing": 10.0
+        },
+        "AlphaInputType": "EAnimAlphaInputType::Float",
+        "bAlphaBoolEnabled": true
+      },
+      "AnimGraphNode_SequencePlayer_5": {
+        "Sequence": null,
+        "PlayRateScaleBiasClampState": {},
+        "BlendWeight": 0.0,
+        "InternalTimeAccumulator": 0.0
+      },
+      "AnimGraphNode_ApplyAdditive_4": {
+        "base": {
+          "LinkID": 4
+        },
+        "Additive": {
+          "LinkID": 7
+        },
+        "Alpha": 1.0,
+        "AlphaScaleBias": {
+          "Scale": 1.0,
+          "Bias": 0.0
+        },
+        "LODThreshold": -1,
+        "AlphaBoolBlend": {
+          "BlendInTime": 0.0,
+          "BlendOutTime": 0.0,
+          "BlendOption": "EAlphaBlendOption::Linear",
+          "bInitialized": false,
+          "CustomCurve": null,
+          "AlphaBlend": {
+            "CustomCurve": null,
+            "BlendTime": 0.2,
+            "BlendOption": "EAlphaBlendOption::Linear"
+          }
+        },
+        "AlphaCurveName": "None",
+        "AlphaScaleBiasClamp": {
+          "bMapRange": false,
+          "bClampResult": false,
+          "bInterpResult": false,
+          "InRange": {
+            "Min": 0.0,
+            "Max": 1.0
+          },
+          "OutRange": {
+            "Min": 0.0,
+            "Max": 1.0
+          },
+          "Scale": 1.0,
+          "Bias": 0.0,
+          "ClampMin": 0.0,
+          "ClampMax": 1.0,
+          "InterpSpeedIncreasing": 10.0,
+          "InterpSpeedDecreasing": 10.0
+        },
+        "AlphaInputType": "EAnimAlphaInputType::Float",
+        "bAlphaBoolEnabled": true
+      },
+      "AnimGraphNode_SequencePlayer_4": {
+        "Sequence": null,
+        "PlayRateScaleBiasClampState": {},
+        "BlendWeight": 0.0,
+        "InternalTimeAccumulator": 0.0
+      },
+      "AnimGraphNode_ApplyAdditive_3": {
+        "base": {
+          "LinkID": 6
+        },
+        "Additive": {
+          "LinkID": 9
+        },
+        "Alpha": 1.0,
+        "AlphaScaleBias": {
+          "Scale": 1.0,
+          "Bias": 0.0
+        },
+        "LODThreshold": -1,
+        "AlphaBoolBlend": {
+          "BlendInTime": 0.0,
+          "BlendOutTime": 0.0,
+          "BlendOption": "EAlphaBlendOption::Linear",
+          "bInitialized": false,
+          "CustomCurve": null,
+          "AlphaBlend": {
+            "CustomCurve": null,
+            "BlendTime": 0.2,
+            "BlendOption": "EAlphaBlendOption::Linear"
+          }
+        },
+        "AlphaCurveName": "None",
+        "AlphaScaleBiasClamp": {
+          "bMapRange": false,
+          "bClampResult": false,
+          "bInterpResult": false,
+          "InRange": {
+            "Min": 0.0,
+            "Max": 1.0
+          },
+          "OutRange": {
+            "Min": 0.0,
+            "Max": 1.0
+          },
+          "Scale": 1.0,
+          "Bias": 0.0,
+          "ClampMin": 0.0,
+          "ClampMax": 1.0,
+          "InterpSpeedIncreasing": 10.0,
+          "InterpSpeedDecreasing": 10.0
+        },
+        "AlphaInputType": "EAnimAlphaInputType::Float",
+        "bAlphaBoolEnabled": true
+      },
+      "AnimGraphNode_SequencePlayer_3": {
+        "Sequence": null,
+        "PlayRateScaleBiasClampState": {},
+        "BlendWeight": 0.0,
+        "InternalTimeAccumulator": 0.0
+      },
+      "AnimGraphNode_ApplyAdditive_2": {
+        "base": {
+          "LinkID": 8
+        },
+        "Additive": {
+          "LinkID": 11
+        },
+        "Alpha": 1.0,
+        "AlphaScaleBias": {
+          "Scale": 1.0,
+          "Bias": 0.0
+        },
+        "LODThreshold": -1,
+        "AlphaBoolBlend": {
+          "BlendInTime": 0.0,
+          "BlendOutTime": 0.0,
+          "BlendOption": "EAlphaBlendOption::Linear",
+          "bInitialized": false,
+          "CustomCurve": null,
+          "AlphaBlend": {
+            "CustomCurve": null,
+            "BlendTime": 0.2,
+            "BlendOption": "EAlphaBlendOption::Linear"
+          }
+        },
+        "AlphaCurveName": "None",
+        "AlphaScaleBiasClamp": {
+          "bMapRange": false,
+          "bClampResult": false,
+          "bInterpResult": false,
+          "InRange": {
+            "Min": 0.0,
+            "Max": 1.0
+          },
+          "OutRange": {
+            "Min": 0.0,
+            "Max": 1.0
+          },
+          "Scale": 1.0,
+          "Bias": 0.0,
+          "ClampMin": 0.0,
+          "ClampMax": 1.0,
+          "InterpSpeedIncreasing": 10.0,
+          "InterpSpeedDecreasing": 10.0
+        },
+        "AlphaInputType": "EAnimAlphaInputType::Float",
+        "bAlphaBoolEnabled": true
+      },
+      "AnimGraphNode_SequencePlayer_2": {
+        "Sequence": null,
+        "PlayRateScaleBiasClampState": {},
+        "BlendWeight": 0.0,
+        "InternalTimeAccumulator": 0.0
+      },
+      "AnimGraphNode_ApplyAdditive_1": {
+        "base": {
+          "LinkID": 10
+        },
+        "Additive": {
+          "LinkID": 13
+        },
+        "Alpha": 1.0,
+        "AlphaScaleBias": {
+          "Scale": 1.0,
+          "Bias": 0.0
+        },
+        "LODThreshold": -1,
+        "AlphaBoolBlend": {
+          "BlendInTime": 0.0,
+          "BlendOutTime": 0.0,
+          "BlendOption": "EAlphaBlendOption::Linear",
+          "bInitialized": false,
+          "CustomCurve": null,
+          "AlphaBlend": {
+            "CustomCurve": null,
+            "BlendTime": 0.2,
+            "BlendOption": "EAlphaBlendOption::Linear"
+          }
+        },
+        "AlphaCurveName": "None",
+        "AlphaScaleBiasClamp": {
+          "bMapRange": false,
+          "bClampResult": false,
+          "bInterpResult": false,
+          "InRange": {
+            "Min": 0.0,
+            "Max": 1.0
+          },
+          "OutRange": {
+            "Min": 0.0,
+            "Max": 1.0
+          },
+          "Scale": 1.0,
+          "Bias": 0.0,
+          "ClampMin": 0.0,
+          "ClampMax": 1.0,
+          "InterpSpeedIncreasing": 10.0,
+          "InterpSpeedDecreasing": 10.0
+        },
+        "AlphaInputType": "EAnimAlphaInputType::Float",
+        "bAlphaBoolEnabled": true
+      },
+      "AnimGraphNode_SequencePlayer_1": {
+        "Sequence": null,
+        "PlayRateScaleBiasClampState": {},
+        "BlendWeight": 0.0,
+        "InternalTimeAccumulator": 0.0
+      },
+      "AnimGraphNode_ApplyAdditive": {
+        "base": {
+          "LinkID": 12
+        },
+        "Additive": {
+          "LinkID": 15
+        },
+        "Alpha": 1.0,
+        "AlphaScaleBias": {
+          "Scale": 1.0,
+          "Bias": 0.0
+        },
+        "LODThreshold": -1,
+        "AlphaBoolBlend": {
+          "BlendInTime": 0.0,
+          "BlendOutTime": 0.0,
+          "BlendOption": "EAlphaBlendOption::Linear",
+          "bInitialized": false,
+          "CustomCurve": null,
+          "AlphaBlend": {
+            "CustomCurve": null,
+            "BlendTime": 0.2,
+            "BlendOption": "EAlphaBlendOption::Linear"
+          }
+        },
+        "AlphaCurveName": "None",
+        "AlphaScaleBiasClamp": {
+          "bMapRange": false,
+          "bClampResult": false,
+          "bInterpResult": false,
+          "InRange": {
+            "Min": 0.0,
+            "Max": 1.0
+          },
+          "OutRange": {
+            "Min": 0.0,
+            "Max": 1.0
+          },
+          "Scale": 1.0,
+          "Bias": 0.0,
+          "ClampMin": 0.0,
+          "ClampMax": 1.0,
+          "InterpSpeedIncreasing": 10.0,
+          "InterpSpeedDecreasing": 10.0
+        },
+        "AlphaInputType": "EAnimAlphaInputType::Float",
+        "bAlphaBoolEnabled": true
+      },
+      "AnimGraphNode_SequencePlayer": {
+        "Sequence": null,
+        "PlayRateScaleBiasClampState": {},
+        "BlendWeight": 0.0,
+        "InternalTimeAccumulator": 0.0
+      },
+      "Custom Additive 6": {
+        "ObjectName": "AnimSequence'A_Hypsilophodon_Adult_Eyebrow05'",
+        "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Hypsilophodon/Animations/A_Hypsilophodon_Adult_Eyebrow05.0"
+      },
+      "Custom Additive 5": {
+        "ObjectName": "AnimSequence'A_Hypsilophodon_Adult_Eyebrow04'",
+        "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Hypsilophodon/Animations/A_Hypsilophodon_Adult_Eyebrow04.0"
+      },
+      "Custom Additive 4": {
+        "ObjectName": "AnimSequence'A_Hypsilophodon_Adult_Eyebrow03'",
+        "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Hypsilophodon/Animations/A_Hypsilophodon_Adult_Eyebrow03.0"
+      },
+      "Custom Additive 3": {
+        "ObjectName": "AnimSequence'A_Hypsilophodon_Adult_Eyebrow02'",
+        "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Hypsilophodon/Animations/A_Hypsilophodon_Adult_Eyebrow02.0"
+      },
+      "Custom Additive 2": {
+        "ObjectName": "AnimSequence'A_Hypsilophodon_Adult_Eyebrow01'",
+        "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Hypsilophodon/Animations/A_Hypsilophodon_Adult_Eyebrow01.0"
+      },
+      "Custom Additive 1": {
+        "ObjectName": "AnimSequence'A_Hypsilophodon_Adult_JumpCharge'",
+        "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Hypsilophodon/Animations/A_Hypsilophodon_Adult_JumpCharge.0"
+      },
+      "Juvenile Additive": {
+        "ObjectName": "AnimSequence'A_Hypsilophodon_Juvenile_Additive'",
+        "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Hypsilophodon/Animations/A_Hypsilophodon_Juvenile_Additive.0"
+      }
+    },
+    "SerializedSparseClassDataStruct": "ScriptStruct'/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.ABP_HypsiPreview_C:AnimBlueprintGeneratedConstantData'",
+    "SerializedSparseClassData": {
+      "__NameProperty_127": "AnimGraph",
+      "__StructProperty_128": {
+        "ClassName": "None",
+        "FunctionName": "None"
+      },
+      "__BoolProperty_129": true,
+      "__FloatProperty_130": 0.0,
+      "__StructProperty_131": {
+        "bMapRange": false,
+        "bClampResult": false,
+        "bInterpResult": false,
+        "InRange": {
+          "Min": 0.0,
+          "Max": 1.0
+        },
+        "OutRange": {
+          "Min": 0.0,
+          "Max": 1.0
+        },
+        "Scale": 1.0,
+        "Bias": 0.0,
+        "ClampMin": 0.0,
+        "ClampMax": 1.0,
+        "InterpSpeedIncreasing": 10.0,
+        "InterpSpeedDecreasing": 10.0
+      },
+      "__FloatProperty_132": 1.0,
+      "__EnumProperty_133": "EAnimSyncMethod::DoNotSync",
+      "__BoolProperty_134": false,
+      "__ByteProperty_135": "EAnimGroupRole::CanBeLeader",
+      "__NameProperty_136": "None",
+      "AnimBlueprintExtension_PropertyAccess": {
+        "Library": {
+          "PathSegments": [
+            {
+              "Name": "Juvenile Additive",
+              "Struct": null,
+              "Property": {
+                "Path": [
+                  "Juvenile Additive"
+                ],
+                "ResolvedOwner": {
+                  "ObjectName": "AnimBlueprintGeneratedClass'ABP_HypsiPreview_C'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.1"
+                }
+              },
+              "Function": null,
+              "ArrayIndex": -1,
+              "Flags": 2
+            },
+            {
+              "Name": "AnimGraphNode_SequencePlayer",
+              "Struct": {
+                "ObjectName": "Class'AnimNode_SequencePlayer'",
+                "ObjectPath": "/Script/Engine"
+              },
+              "Property": {
+                "Path": [
+                  "AnimGraphNode_SequencePlayer"
+                ],
+                "ResolvedOwner": {
+                  "ObjectName": "AnimBlueprintGeneratedClass'ABP_HypsiPreview_C'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.1"
+                }
+              },
+              "Function": null,
+              "ArrayIndex": -1,
+              "Flags": 1
+            },
+            {
+              "Name": "Sequence",
+              "Struct": null,
+              "Property": {
+                "Path": [
+                  "Sequence"
+                ],
+                "ResolvedOwner": {
+                  "ObjectName": "Class'AnimNode_SequencePlayer'",
+                  "ObjectPath": "/Script/Engine"
+                }
+              },
+              "Function": null,
+              "ArrayIndex": -1,
+              "Flags": 2
+            },
+            {
+              "Name": "Custom Additive 6",
+              "Struct": null,
+              "Property": {
+                "Path": [
+                  "Custom Additive 6"
+                ],
+                "ResolvedOwner": {
+                  "ObjectName": "AnimBlueprintGeneratedClass'ABP_HypsiPreview_C'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.1"
+                }
+              },
+              "Function": null,
+              "ArrayIndex": -1,
+              "Flags": 2
+            },
+            {
+              "Name": "AnimGraphNode_SequencePlayer_1",
+              "Struct": {
+                "ObjectName": "Class'AnimNode_SequencePlayer'",
+                "ObjectPath": "/Script/Engine"
+              },
+              "Property": {
+                "Path": [
+                  "AnimGraphNode_SequencePlayer_1"
+                ],
+                "ResolvedOwner": {
+                  "ObjectName": "AnimBlueprintGeneratedClass'ABP_HypsiPreview_C'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.1"
+                }
+              },
+              "Function": null,
+              "ArrayIndex": -1,
+              "Flags": 1
+            },
+            {
+              "Name": "Sequence",
+              "Struct": null,
+              "Property": {
+                "Path": [
+                  "Sequence"
+                ],
+                "ResolvedOwner": {
+                  "ObjectName": "Class'AnimNode_SequencePlayer'",
+                  "ObjectPath": "/Script/Engine"
+                }
+              },
+              "Function": null,
+              "ArrayIndex": -1,
+              "Flags": 2
+            },
+            {
+              "Name": "Custom Additive 6 Alpha",
+              "Struct": null,
+              "Property": {
+                "Path": [
+                  "Custom Additive 6 Alpha"
+                ],
+                "ResolvedOwner": {
+                  "ObjectName": "AnimBlueprintGeneratedClass'ABP_HypsiPreview_C'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.1"
+                }
+              },
+              "Function": null,
+              "ArrayIndex": -1,
+              "Flags": 2
+            },
+            {
+              "Name": "AnimGraphNode_ApplyAdditive_1",
+              "Struct": {
+                "ObjectName": "Class'AnimNode_ApplyAdditive'",
+                "ObjectPath": "/Script/AnimGraphRuntime"
+              },
+              "Property": {
+                "Path": [
+                  "AnimGraphNode_ApplyAdditive_1"
+                ],
+                "ResolvedOwner": {
+                  "ObjectName": "AnimBlueprintGeneratedClass'ABP_HypsiPreview_C'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.1"
+                }
+              },
+              "Function": null,
+              "ArrayIndex": -1,
+              "Flags": 1
+            },
+            {
+              "Name": "Alpha",
+              "Struct": null,
+              "Property": {
+                "Path": [
+                  "Alpha"
+                ],
+                "ResolvedOwner": {
+                  "ObjectName": "Class'AnimNode_ApplyAdditive'",
+                  "ObjectPath": "/Script/AnimGraphRuntime"
+                }
+              },
+              "Function": null,
+              "ArrayIndex": -1,
+              "Flags": 2
+            },
+            {
+              "Name": "Custom Additive 5",
+              "Struct": null,
+              "Property": {
+                "Path": [
+                  "Custom Additive 5"
+                ],
+                "ResolvedOwner": {
+                  "ObjectName": "AnimBlueprintGeneratedClass'ABP_HypsiPreview_C'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.1"
+                }
+              },
+              "Function": null,
+              "ArrayIndex": -1,
+              "Flags": 2
+            },
+            {
+              "Name": "AnimGraphNode_SequencePlayer_2",
+              "Struct": {
+                "ObjectName": "Class'AnimNode_SequencePlayer'",
+                "ObjectPath": "/Script/Engine"
+              },
+              "Property": {
+                "Path": [
+                  "AnimGraphNode_SequencePlayer_2"
+                ],
+                "ResolvedOwner": {
+                  "ObjectName": "AnimBlueprintGeneratedClass'ABP_HypsiPreview_C'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.1"
+                }
+              },
+              "Function": null,
+              "ArrayIndex": -1,
+              "Flags": 1
+            },
+            {
+              "Name": "Sequence",
+              "Struct": null,
+              "Property": {
+                "Path": [
+                  "Sequence"
+                ],
+                "ResolvedOwner": {
+                  "ObjectName": "Class'AnimNode_SequencePlayer'",
+                  "ObjectPath": "/Script/Engine"
+                }
+              },
+              "Function": null,
+              "ArrayIndex": -1,
+              "Flags": 2
+            },
+            {
+              "Name": "Custom Additive 5 Alpha",
+              "Struct": null,
+              "Property": {
+                "Path": [
+                  "Custom Additive 5 Alpha"
+                ],
+                "ResolvedOwner": {
+                  "ObjectName": "AnimBlueprintGeneratedClass'ABP_HypsiPreview_C'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.1"
+                }
+              },
+              "Function": null,
+              "ArrayIndex": -1,
+              "Flags": 2
+            },
+            {
+              "Name": "AnimGraphNode_ApplyAdditive_2",
+              "Struct": {
+                "ObjectName": "Class'AnimNode_ApplyAdditive'",
+                "ObjectPath": "/Script/AnimGraphRuntime"
+              },
+              "Property": {
+                "Path": [
+                  "AnimGraphNode_ApplyAdditive_2"
+                ],
+                "ResolvedOwner": {
+                  "ObjectName": "AnimBlueprintGeneratedClass'ABP_HypsiPreview_C'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.1"
+                }
+              },
+              "Function": null,
+              "ArrayIndex": -1,
+              "Flags": 1
+            },
+            {
+              "Name": "Alpha",
+              "Struct": null,
+              "Property": {
+                "Path": [
+                  "Alpha"
+                ],
+                "ResolvedOwner": {
+                  "ObjectName": "Class'AnimNode_ApplyAdditive'",
+                  "ObjectPath": "/Script/AnimGraphRuntime"
+                }
+              },
+              "Function": null,
+              "ArrayIndex": -1,
+              "Flags": 2
+            },
+            {
+              "Name": "Custom Additive 4",
+              "Struct": null,
+              "Property": {
+                "Path": [
+                  "Custom Additive 4"
+                ],
+                "ResolvedOwner": {
+                  "ObjectName": "AnimBlueprintGeneratedClass'ABP_HypsiPreview_C'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.1"
+                }
+              },
+              "Function": null,
+              "ArrayIndex": -1,
+              "Flags": 2
+            },
+            {
+              "Name": "AnimGraphNode_SequencePlayer_3",
+              "Struct": {
+                "ObjectName": "Class'AnimNode_SequencePlayer'",
+                "ObjectPath": "/Script/Engine"
+              },
+              "Property": {
+                "Path": [
+                  "AnimGraphNode_SequencePlayer_3"
+                ],
+                "ResolvedOwner": {
+                  "ObjectName": "AnimBlueprintGeneratedClass'ABP_HypsiPreview_C'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.1"
+                }
+              },
+              "Function": null,
+              "ArrayIndex": -1,
+              "Flags": 1
+            },
+            {
+              "Name": "Sequence",
+              "Struct": null,
+              "Property": {
+                "Path": [
+                  "Sequence"
+                ],
+                "ResolvedOwner": {
+                  "ObjectName": "Class'AnimNode_SequencePlayer'",
+                  "ObjectPath": "/Script/Engine"
+                }
+              },
+              "Function": null,
+              "ArrayIndex": -1,
+              "Flags": 2
+            },
+            {
+              "Name": "Custom Additive 4 Alpha",
+              "Struct": null,
+              "Property": {
+                "Path": [
+                  "Custom Additive 4 Alpha"
+                ],
+                "ResolvedOwner": {
+                  "ObjectName": "AnimBlueprintGeneratedClass'ABP_HypsiPreview_C'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.1"
+                }
+              },
+              "Function": null,
+              "ArrayIndex": -1,
+              "Flags": 2
+            },
+            {
+              "Name": "AnimGraphNode_ApplyAdditive_3",
+              "Struct": {
+                "ObjectName": "Class'AnimNode_ApplyAdditive'",
+                "ObjectPath": "/Script/AnimGraphRuntime"
+              },
+              "Property": {
+                "Path": [
+                  "AnimGraphNode_ApplyAdditive_3"
+                ],
+                "ResolvedOwner": {
+                  "ObjectName": "AnimBlueprintGeneratedClass'ABP_HypsiPreview_C'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.1"
+                }
+              },
+              "Function": null,
+              "ArrayIndex": -1,
+              "Flags": 1
+            },
+            {
+              "Name": "Alpha",
+              "Struct": null,
+              "Property": {
+                "Path": [
+                  "Alpha"
+                ],
+                "ResolvedOwner": {
+                  "ObjectName": "Class'AnimNode_ApplyAdditive'",
+                  "ObjectPath": "/Script/AnimGraphRuntime"
+                }
+              },
+              "Function": null,
+              "ArrayIndex": -1,
+              "Flags": 2
+            },
+            {
+              "Name": "Custom Additive 3",
+              "Struct": null,
+              "Property": {
+                "Path": [
+                  "Custom Additive 3"
+                ],
+                "ResolvedOwner": {
+                  "ObjectName": "AnimBlueprintGeneratedClass'ABP_HypsiPreview_C'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.1"
+                }
+              },
+              "Function": null,
+              "ArrayIndex": -1,
+              "Flags": 2
+            },
+            {
+              "Name": "AnimGraphNode_SequencePlayer_4",
+              "Struct": {
+                "ObjectName": "Class'AnimNode_SequencePlayer'",
+                "ObjectPath": "/Script/Engine"
+              },
+              "Property": {
+                "Path": [
+                  "AnimGraphNode_SequencePlayer_4"
+                ],
+                "ResolvedOwner": {
+                  "ObjectName": "AnimBlueprintGeneratedClass'ABP_HypsiPreview_C'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.1"
+                }
+              },
+              "Function": null,
+              "ArrayIndex": -1,
+              "Flags": 1
+            },
+            {
+              "Name": "Sequence",
+              "Struct": null,
+              "Property": {
+                "Path": [
+                  "Sequence"
+                ],
+                "ResolvedOwner": {
+                  "ObjectName": "Class'AnimNode_SequencePlayer'",
+                  "ObjectPath": "/Script/Engine"
+                }
+              },
+              "Function": null,
+              "ArrayIndex": -1,
+              "Flags": 2
+            },
+            {
+              "Name": "Custom Additive 3 Alpha",
+              "Struct": null,
+              "Property": {
+                "Path": [
+                  "Custom Additive 3 Alpha"
+                ],
+                "ResolvedOwner": {
+                  "ObjectName": "AnimBlueprintGeneratedClass'ABP_HypsiPreview_C'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.1"
+                }
+              },
+              "Function": null,
+              "ArrayIndex": -1,
+              "Flags": 2
+            },
+            {
+              "Name": "AnimGraphNode_ApplyAdditive_4",
+              "Struct": {
+                "ObjectName": "Class'AnimNode_ApplyAdditive'",
+                "ObjectPath": "/Script/AnimGraphRuntime"
+              },
+              "Property": {
+                "Path": [
+                  "AnimGraphNode_ApplyAdditive_4"
+                ],
+                "ResolvedOwner": {
+                  "ObjectName": "AnimBlueprintGeneratedClass'ABP_HypsiPreview_C'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.1"
+                }
+              },
+              "Function": null,
+              "ArrayIndex": -1,
+              "Flags": 1
+            },
+            {
+              "Name": "Alpha",
+              "Struct": null,
+              "Property": {
+                "Path": [
+                  "Alpha"
+                ],
+                "ResolvedOwner": {
+                  "ObjectName": "Class'AnimNode_ApplyAdditive'",
+                  "ObjectPath": "/Script/AnimGraphRuntime"
+                }
+              },
+              "Function": null,
+              "ArrayIndex": -1,
+              "Flags": 2
+            },
+            {
+              "Name": "Custom Additive 2",
+              "Struct": null,
+              "Property": {
+                "Path": [
+                  "Custom Additive 2"
+                ],
+                "ResolvedOwner": {
+                  "ObjectName": "AnimBlueprintGeneratedClass'ABP_HypsiPreview_C'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.1"
+                }
+              },
+              "Function": null,
+              "ArrayIndex": -1,
+              "Flags": 2
+            },
+            {
+              "Name": "AnimGraphNode_SequencePlayer_5",
+              "Struct": {
+                "ObjectName": "Class'AnimNode_SequencePlayer'",
+                "ObjectPath": "/Script/Engine"
+              },
+              "Property": {
+                "Path": [
+                  "AnimGraphNode_SequencePlayer_5"
+                ],
+                "ResolvedOwner": {
+                  "ObjectName": "AnimBlueprintGeneratedClass'ABP_HypsiPreview_C'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.1"
+                }
+              },
+              "Function": null,
+              "ArrayIndex": -1,
+              "Flags": 1
+            },
+            {
+              "Name": "Sequence",
+              "Struct": null,
+              "Property": {
+                "Path": [
+                  "Sequence"
+                ],
+                "ResolvedOwner": {
+                  "ObjectName": "Class'AnimNode_SequencePlayer'",
+                  "ObjectPath": "/Script/Engine"
+                }
+              },
+              "Function": null,
+              "ArrayIndex": -1,
+              "Flags": 2
+            },
+            {
+              "Name": "Custom Additive 2 Alpha",
+              "Struct": null,
+              "Property": {
+                "Path": [
+                  "Custom Additive 2 Alpha"
+                ],
+                "ResolvedOwner": {
+                  "ObjectName": "AnimBlueprintGeneratedClass'ABP_HypsiPreview_C'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.1"
+                }
+              },
+              "Function": null,
+              "ArrayIndex": -1,
+              "Flags": 2
+            },
+            {
+              "Name": "AnimGraphNode_ApplyAdditive_5",
+              "Struct": {
+                "ObjectName": "Class'AnimNode_ApplyAdditive'",
+                "ObjectPath": "/Script/AnimGraphRuntime"
+              },
+              "Property": {
+                "Path": [
+                  "AnimGraphNode_ApplyAdditive_5"
+                ],
+                "ResolvedOwner": {
+                  "ObjectName": "AnimBlueprintGeneratedClass'ABP_HypsiPreview_C'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.1"
+                }
+              },
+              "Function": null,
+              "ArrayIndex": -1,
+              "Flags": 1
+            },
+            {
+              "Name": "Alpha",
+              "Struct": null,
+              "Property": {
+                "Path": [
+                  "Alpha"
+                ],
+                "ResolvedOwner": {
+                  "ObjectName": "Class'AnimNode_ApplyAdditive'",
+                  "ObjectPath": "/Script/AnimGraphRuntime"
+                }
+              },
+              "Function": null,
+              "ArrayIndex": -1,
+              "Flags": 2
+            },
+            {
+              "Name": "Custom Additive 1",
+              "Struct": null,
+              "Property": {
+                "Path": [
+                  "Custom Additive 1"
+                ],
+                "ResolvedOwner": {
+                  "ObjectName": "AnimBlueprintGeneratedClass'ABP_HypsiPreview_C'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.1"
+                }
+              },
+              "Function": null,
+              "ArrayIndex": -1,
+              "Flags": 2
+            },
+            {
+              "Name": "AnimGraphNode_SequencePlayer_6",
+              "Struct": {
+                "ObjectName": "Class'AnimNode_SequencePlayer'",
+                "ObjectPath": "/Script/Engine"
+              },
+              "Property": {
+                "Path": [
+                  "AnimGraphNode_SequencePlayer_6"
+                ],
+                "ResolvedOwner": {
+                  "ObjectName": "AnimBlueprintGeneratedClass'ABP_HypsiPreview_C'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.1"
+                }
+              },
+              "Function": null,
+              "ArrayIndex": -1,
+              "Flags": 1
+            },
+            {
+              "Name": "Sequence",
+              "Struct": null,
+              "Property": {
+                "Path": [
+                  "Sequence"
+                ],
+                "ResolvedOwner": {
+                  "ObjectName": "Class'AnimNode_SequencePlayer'",
+                  "ObjectPath": "/Script/Engine"
+                }
+              },
+              "Function": null,
+              "ArrayIndex": -1,
+              "Flags": 2
+            },
+            {
+              "Name": "Custom Additive 1 Alpha",
+              "Struct": null,
+              "Property": {
+                "Path": [
+                  "Custom Additive 1 Alpha"
+                ],
+                "ResolvedOwner": {
+                  "ObjectName": "AnimBlueprintGeneratedClass'ABP_HypsiPreview_C'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.1"
+                }
+              },
+              "Function": null,
+              "ArrayIndex": -1,
+              "Flags": 2
+            },
+            {
+              "Name": "AnimGraphNode_ApplyAdditive_6",
+              "Struct": {
+                "ObjectName": "Class'AnimNode_ApplyAdditive'",
+                "ObjectPath": "/Script/AnimGraphRuntime"
+              },
+              "Property": {
+                "Path": [
+                  "AnimGraphNode_ApplyAdditive_6"
+                ],
+                "ResolvedOwner": {
+                  "ObjectName": "AnimBlueprintGeneratedClass'ABP_HypsiPreview_C'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.1"
+                }
+              },
+              "Function": null,
+              "ArrayIndex": -1,
+              "Flags": 1
+            },
+            {
+              "Name": "Alpha",
+              "Struct": null,
+              "Property": {
+                "Path": [
+                  "Alpha"
+                ],
+                "ResolvedOwner": {
+                  "ObjectName": "Class'AnimNode_ApplyAdditive'",
+                  "ObjectPath": "/Script/AnimGraphRuntime"
+                }
+              },
+              "Function": null,
+              "ArrayIndex": -1,
+              "Flags": 2
+            }
+          ],
+          "SrcPaths": [
+            {
+              "PathSegmentStartIndex": 0,
+              "PathSegmentCount": 1
+            },
+            {
+              "PathSegmentStartIndex": 3,
+              "PathSegmentCount": 1
+            },
+            {
+              "PathSegmentStartIndex": 6,
+              "PathSegmentCount": 1
+            },
+            {
+              "PathSegmentStartIndex": 9,
+              "PathSegmentCount": 1
+            },
+            {
+              "PathSegmentStartIndex": 12,
+              "PathSegmentCount": 1
+            },
+            {
+              "PathSegmentStartIndex": 15,
+              "PathSegmentCount": 1
+            },
+            {
+              "PathSegmentStartIndex": 18,
+              "PathSegmentCount": 1
+            },
+            {
+              "PathSegmentStartIndex": 21,
+              "PathSegmentCount": 1
+            },
+            {
+              "PathSegmentStartIndex": 24,
+              "PathSegmentCount": 1
+            },
+            {
+              "PathSegmentStartIndex": 27,
+              "PathSegmentCount": 1
+            },
+            {
+              "PathSegmentStartIndex": 30,
+              "PathSegmentCount": 1
+            },
+            {
+              "PathSegmentStartIndex": 33,
+              "PathSegmentCount": 1
+            },
+            {
+              "PathSegmentStartIndex": 36,
+              "PathSegmentCount": 1
+            }
+          ],
+          "DestPaths": [
+            {
+              "PathSegmentStartIndex": 1,
+              "PathSegmentCount": 2
+            },
+            {
+              "PathSegmentStartIndex": 4,
+              "PathSegmentCount": 2
+            },
+            {
+              "PathSegmentStartIndex": 7,
+              "PathSegmentCount": 2
+            },
+            {
+              "PathSegmentStartIndex": 10,
+              "PathSegmentCount": 2
+            },
+            {
+              "PathSegmentStartIndex": 13,
+              "PathSegmentCount": 2
+            },
+            {
+              "PathSegmentStartIndex": 16,
+              "PathSegmentCount": 2
+            },
+            {
+              "PathSegmentStartIndex": 19,
+              "PathSegmentCount": 2
+            },
+            {
+              "PathSegmentStartIndex": 22,
+              "PathSegmentCount": 2
+            },
+            {
+              "PathSegmentStartIndex": 25,
+              "PathSegmentCount": 2
+            },
+            {
+              "PathSegmentStartIndex": 28,
+              "PathSegmentCount": 2
+            },
+            {
+              "PathSegmentStartIndex": 31,
+              "PathSegmentCount": 2
+            },
+            {
+              "PathSegmentStartIndex": 34,
+              "PathSegmentCount": 2
+            },
+            {
+              "PathSegmentStartIndex": 37,
+              "PathSegmentCount": 2
+            }
+          ],
+          "CopyBatchArray": [
+            {
+              "Copies": [
+                {
+                  "AccessIndex": 0,
+                  "DestAccessStartIndex": 0,
+                  "DestAccessEndIndex": 1,
+                  "Type": "EPropertyAccessCopyType::Object"
+                },
+                {
+                  "AccessIndex": 1,
+                  "DestAccessStartIndex": 1,
+                  "DestAccessEndIndex": 2,
+                  "Type": "EPropertyAccessCopyType::Object"
+                },
+                {
+                  "AccessIndex": 2,
+                  "DestAccessStartIndex": 2,
+                  "DestAccessEndIndex": 3,
+                  "Type": "EPropertyAccessCopyType::DemoteDoubleToFloat"
+                },
+                {
+                  "AccessIndex": 3,
+                  "DestAccessStartIndex": 3,
+                  "DestAccessEndIndex": 4,
+                  "Type": "EPropertyAccessCopyType::Object"
+                },
+                {
+                  "AccessIndex": 4,
+                  "DestAccessStartIndex": 4,
+                  "DestAccessEndIndex": 5,
+                  "Type": "EPropertyAccessCopyType::DemoteDoubleToFloat"
+                },
+                {
+                  "AccessIndex": 5,
+                  "DestAccessStartIndex": 5,
+                  "DestAccessEndIndex": 6,
+                  "Type": "EPropertyAccessCopyType::Object"
+                },
+                {
+                  "AccessIndex": 6,
+                  "DestAccessStartIndex": 6,
+                  "DestAccessEndIndex": 7,
+                  "Type": "EPropertyAccessCopyType::DemoteDoubleToFloat"
+                },
+                {
+                  "AccessIndex": 7,
+                  "DestAccessStartIndex": 7,
+                  "DestAccessEndIndex": 8,
+                  "Type": "EPropertyAccessCopyType::Object"
+                },
+                {
+                  "AccessIndex": 8,
+                  "DestAccessStartIndex": 8,
+                  "DestAccessEndIndex": 9,
+                  "Type": "EPropertyAccessCopyType::DemoteDoubleToFloat"
+                },
+                {
+                  "AccessIndex": 9,
+                  "DestAccessStartIndex": 9,
+                  "DestAccessEndIndex": 10,
+                  "Type": "EPropertyAccessCopyType::Object"
+                },
+                {
+                  "AccessIndex": 10,
+                  "DestAccessStartIndex": 10,
+                  "DestAccessEndIndex": 11,
+                  "Type": "EPropertyAccessCopyType::DemoteDoubleToFloat"
+                },
+                {
+                  "AccessIndex": 11,
+                  "DestAccessStartIndex": 11,
+                  "DestAccessEndIndex": 12,
+                  "Type": "EPropertyAccessCopyType::Object"
+                },
+                {
+                  "AccessIndex": 12,
+                  "DestAccessStartIndex": 12,
+                  "DestAccessEndIndex": 13,
+                  "Type": "EPropertyAccessCopyType::DemoteDoubleToFloat"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "AnimBlueprintExtension_Base": {},
+      "AnimGraphNode_Root": {
+        "CopyRecords": [],
+        "Function": null,
+        "BoundFunction": "None"
+      },
+      "AnimGraphNode_SequencePlayer_7": {
+        "CopyRecords": [],
+        "Function": null,
+        "BoundFunction": "None"
+      },
+      "AnimGraphNode_ApplyAdditive_6": {
+        "CopyRecords": [
+          {
+            "CopyIndex": 12,
+            "PostCopyOperation": "EPostCopyOperation::None",
+            "bOnlyUpdateWhenActive": false
+          }
+        ],
+        "Function": null,
+        "BoundFunction": "None"
+      },
+      "AnimGraphNode_SequencePlayer_6": {
+        "CopyRecords": [
+          {
+            "CopyIndex": 11,
+            "PostCopyOperation": "EPostCopyOperation::None",
+            "bOnlyUpdateWhenActive": false
+          }
+        ],
+        "Function": null,
+        "BoundFunction": "None"
+      },
+      "AnimGraphNode_ApplyAdditive_5": {
+        "CopyRecords": [
+          {
+            "CopyIndex": 10,
+            "PostCopyOperation": "EPostCopyOperation::None",
+            "bOnlyUpdateWhenActive": false
+          }
+        ],
+        "Function": null,
+        "BoundFunction": "None"
+      },
+      "AnimGraphNode_SequencePlayer_5": {
+        "CopyRecords": [
+          {
+            "CopyIndex": 9,
+            "PostCopyOperation": "EPostCopyOperation::None",
+            "bOnlyUpdateWhenActive": false
+          }
+        ],
+        "Function": null,
+        "BoundFunction": "None"
+      },
+      "AnimGraphNode_ApplyAdditive_4": {
+        "CopyRecords": [
+          {
+            "CopyIndex": 8,
+            "PostCopyOperation": "EPostCopyOperation::None",
+            "bOnlyUpdateWhenActive": false
+          }
+        ],
+        "Function": null,
+        "BoundFunction": "None"
+      },
+      "AnimGraphNode_SequencePlayer_4": {
+        "CopyRecords": [
+          {
+            "CopyIndex": 7,
+            "PostCopyOperation": "EPostCopyOperation::None",
+            "bOnlyUpdateWhenActive": false
+          }
+        ],
+        "Function": null,
+        "BoundFunction": "None"
+      },
+      "AnimGraphNode_ApplyAdditive_3": {
+        "CopyRecords": [
+          {
+            "CopyIndex": 6,
+            "PostCopyOperation": "EPostCopyOperation::None",
+            "bOnlyUpdateWhenActive": false
+          }
+        ],
+        "Function": null,
+        "BoundFunction": "None"
+      },
+      "AnimGraphNode_SequencePlayer_3": {
+        "CopyRecords": [
+          {
+            "CopyIndex": 5,
+            "PostCopyOperation": "EPostCopyOperation::None",
+            "bOnlyUpdateWhenActive": false
+          }
+        ],
+        "Function": null,
+        "BoundFunction": "None"
+      },
+      "AnimGraphNode_ApplyAdditive_2": {
+        "CopyRecords": [
+          {
+            "CopyIndex": 4,
+            "PostCopyOperation": "EPostCopyOperation::None",
+            "bOnlyUpdateWhenActive": false
+          }
+        ],
+        "Function": null,
+        "BoundFunction": "None"
+      },
+      "AnimGraphNode_SequencePlayer_2": {
+        "CopyRecords": [
+          {
+            "CopyIndex": 3,
+            "PostCopyOperation": "EPostCopyOperation::None",
+            "bOnlyUpdateWhenActive": false
+          }
+        ],
+        "Function": null,
+        "BoundFunction": "None"
+      },
+      "AnimGraphNode_ApplyAdditive_1": {
+        "CopyRecords": [
+          {
+            "CopyIndex": 2,
+            "PostCopyOperation": "EPostCopyOperation::None",
+            "bOnlyUpdateWhenActive": false
+          }
+        ],
+        "Function": null,
+        "BoundFunction": "None"
+      },
+      "AnimGraphNode_SequencePlayer_1": {
+        "CopyRecords": [
+          {
+            "CopyIndex": 1,
+            "PostCopyOperation": "EPostCopyOperation::None",
+            "bOnlyUpdateWhenActive": false
+          }
+        ],
+        "Function": null,
+        "BoundFunction": "None"
+      },
+      "AnimGraphNode_ApplyAdditive": {
+        "CopyRecords": [],
+        "Function": {
+          "ObjectName": "Function'ABP_HypsiPreview_C:EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_HypsiPreview_AnimGraphNode_ApplyAdditive_CC310B174A68017BCC5095BBC17F1C19'",
+          "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.4"
+        },
+        "BoundFunction": "EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_HypsiPreview_AnimGraphNode_ApplyAdditive_CC310B174A68017BCC5095BBC17F1C19"
+      },
+      "AnimGraphNode_SequencePlayer": {
+        "CopyRecords": [
+          {
+            "CopyIndex": 0,
+            "PostCopyOperation": "EPostCopyOperation::None",
+            "bOnlyUpdateWhenActive": false
+          }
+        ],
+        "Function": null,
+        "BoundFunction": "None"
+      }
+    }
+  },
+  {
+    "Type": "AnimBlueprintGeneratedClass",
+    "Name": "ABP_HypsiPreview_C",
+    "Class": "UScriptClass'AnimBlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "TargetSkeleton": {
+        "ObjectName": "Skeleton'SKEL_Hypsilophodon'",
+        "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Hypsilophodon/Mesh/SKEL_Hypsilophodon.20"
+      },
+      "GraphAssetPlayerInformation": [
+        {
+          "Key": "AnimGraph",
+          "Value": {
+            "PlayerNodeIndices": [
+              0,
+              2,
+              4,
+              6,
+              8,
+              10,
+              12,
+              14
+            ]
+          }
+        }
+      ],
+      "AnimNodeData": [
+        {
+          "AnimClassInterface": {
+            "ObjectName": "AnimBlueprintGeneratedClass'ABP_HypsiPreview_C'",
+            "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.1"
+          },
+          "Entries": [
+            1,
+            1,
+            1,
+            4294967295,
+            0,
+            9,
+            4294967295
+          ],
+          "NodeIndex": 0,
+          "Flags": 0
+        },
+        {
+          "AnimClassInterface": {
+            "ObjectName": "AnimBlueprintGeneratedClass'ABP_HypsiPreview_C'",
+            "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.1"
+          },
+          "Entries": [
+            1,
+            1,
+            1,
+            4294967295,
+            4294967295,
+            4294967295,
+            4294967295,
+            4294967295,
+            9,
+            8,
+            7,
+            6,
+            7,
+            4294967295,
+            5,
+            5,
+            4,
+            4294967295,
+            3,
+            2,
+            7
+          ],
+          "NodeIndex": 1,
+          "Flags": 0
+        },
+        {
+          "AnimClassInterface": {
+            "ObjectName": "AnimBlueprintGeneratedClass'ABP_HypsiPreview_C'",
+            "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.1"
+          },
+          "Entries": [
+            1,
+            1,
+            1,
+            4294967295,
+            4294967295,
+            4294967295,
+            4294967295,
+            4294967295,
+            4294967295,
+            4294967295,
+            4294967295,
+            4294967295,
+            4294967295
+          ],
+          "NodeIndex": 2,
+          "Flags": 0
+        },
+        {
+          "AnimClassInterface": {
+            "ObjectName": "AnimBlueprintGeneratedClass'ABP_HypsiPreview_C'",
+            "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.1"
+          },
+          "Entries": [
+            1,
+            1,
+            1,
+            4294967295,
+            4294967295,
+            4294967295,
+            4294967295,
+            4294967295,
+            9,
+            8,
+            7,
+            6,
+            7,
+            4294967295,
+            5,
+            5,
+            4,
+            4294967295,
+            3,
+            2,
+            7
+          ],
+          "NodeIndex": 3,
+          "Flags": 0
+        },
+        {
+          "AnimClassInterface": {
+            "ObjectName": "AnimBlueprintGeneratedClass'ABP_HypsiPreview_C'",
+            "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.1"
+          },
+          "Entries": [
+            1,
+            1,
+            1,
+            4294967295,
+            4294967295,
+            4294967295,
+            4294967295,
+            4294967295,
+            4294967295,
+            4294967295,
+            4294967295,
+            4294967295,
+            4294967295
+          ],
+          "NodeIndex": 4,
+          "Flags": 0
+        },
+        {
+          "AnimClassInterface": {
+            "ObjectName": "AnimBlueprintGeneratedClass'ABP_HypsiPreview_C'",
+            "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.1"
+          },
+          "Entries": [
+            1,
+            1,
+            1,
+            4294967295,
+            4294967295,
+            4294967295,
+            4294967295,
+            4294967295,
+            9,
+            8,
+            7,
+            6,
+            7,
+            4294967295,
+            5,
+            5,
+            4,
+            4294967295,
+            3,
+            2,
+            7
+          ],
+          "NodeIndex": 5,
+          "Flags": 0
+        },
+        {
+          "AnimClassInterface": {
+            "ObjectName": "AnimBlueprintGeneratedClass'ABP_HypsiPreview_C'",
+            "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.1"
+          },
+          "Entries": [
+            1,
+            1,
+            1,
+            4294967295,
+            4294967295,
+            4294967295,
+            4294967295,
+            4294967295,
+            4294967295,
+            4294967295,
+            4294967295,
+            4294967295,
+            4294967295
+          ],
+          "NodeIndex": 6,
+          "Flags": 0
+        },
+        {
+          "AnimClassInterface": {
+            "ObjectName": "AnimBlueprintGeneratedClass'ABP_HypsiPreview_C'",
+            "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.1"
+          },
+          "Entries": [
+            1,
+            1,
+            1,
+            4294967295,
+            4294967295,
+            4294967295,
+            4294967295,
+            4294967295,
+            9,
+            8,
+            7,
+            6,
+            7,
+            4294967295,
+            5,
+            5,
+            4,
+            4294967295,
+            3,
+            2,
+            7
+          ],
+          "NodeIndex": 7,
+          "Flags": 0
+        },
+        {
+          "AnimClassInterface": {
+            "ObjectName": "AnimBlueprintGeneratedClass'ABP_HypsiPreview_C'",
+            "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.1"
+          },
+          "Entries": [
+            1,
+            1,
+            1,
+            4294967295,
+            4294967295,
+            4294967295,
+            4294967295,
+            4294967295,
+            4294967295,
+            4294967295,
+            4294967295,
+            4294967295,
+            4294967295
+          ],
+          "NodeIndex": 8,
+          "Flags": 0
+        },
+        {
+          "AnimClassInterface": {
+            "ObjectName": "AnimBlueprintGeneratedClass'ABP_HypsiPreview_C'",
+            "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.1"
+          },
+          "Entries": [
+            1,
+            1,
+            1,
+            4294967295,
+            4294967295,
+            4294967295,
+            4294967295,
+            4294967295,
+            9,
+            8,
+            7,
+            6,
+            7,
+            4294967295,
+            5,
+            5,
+            4,
+            4294967295,
+            3,
+            2,
+            7
+          ],
+          "NodeIndex": 9,
+          "Flags": 0
+        },
+        {
+          "AnimClassInterface": {
+            "ObjectName": "AnimBlueprintGeneratedClass'ABP_HypsiPreview_C'",
+            "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.1"
+          },
+          "Entries": [
+            1,
+            1,
+            1,
+            4294967295,
+            4294967295,
+            4294967295,
+            4294967295,
+            4294967295,
+            4294967295,
+            4294967295,
+            4294967295,
+            4294967295,
+            4294967295
+          ],
+          "NodeIndex": 10,
+          "Flags": 0
+        },
+        {
+          "AnimClassInterface": {
+            "ObjectName": "AnimBlueprintGeneratedClass'ABP_HypsiPreview_C'",
+            "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.1"
+          },
+          "Entries": [
+            1,
+            1,
+            1,
+            4294967295,
+            4294967295,
+            4294967295,
+            4294967295,
+            4294967295,
+            9,
+            8,
+            7,
+            6,
+            7,
+            4294967295,
+            5,
+            5,
+            4,
+            4294967295,
+            3,
+            2,
+            7
+          ],
+          "NodeIndex": 11,
+          "Flags": 0
+        },
+        {
+          "AnimClassInterface": {
+            "ObjectName": "AnimBlueprintGeneratedClass'ABP_HypsiPreview_C'",
+            "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.1"
+          },
+          "Entries": [
+            1,
+            1,
+            1,
+            4294967295,
+            4294967295,
+            4294967295,
+            4294967295,
+            4294967295,
+            4294967295,
+            4294967295,
+            4294967295,
+            4294967295,
+            4294967295
+          ],
+          "NodeIndex": 12,
+          "Flags": 0
+        },
+        {
+          "AnimClassInterface": {
+            "ObjectName": "AnimBlueprintGeneratedClass'ABP_HypsiPreview_C'",
+            "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.1"
+          },
+          "Entries": [
+            1,
+            1,
+            1,
+            4294967295,
+            4294967295,
+            4294967295,
+            4294967295,
+            4294967295,
+            9,
+            8,
+            7,
+            6,
+            7,
+            4294967295,
+            5,
+            5,
+            4,
+            4294967295,
+            3,
+            2,
+            7
+          ],
+          "NodeIndex": 13,
+          "Flags": 0
+        },
+        {
+          "AnimClassInterface": {
+            "ObjectName": "AnimBlueprintGeneratedClass'ABP_HypsiPreview_C'",
+            "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.1"
+          },
+          "Entries": [
+            1,
+            1,
+            1,
+            4294967295,
+            4294967295,
+            4294967295,
+            4294967295,
+            4294967295,
+            4294967295,
+            4294967295,
+            4294967295,
+            4294967295,
+            4294967295
+          ],
+          "NodeIndex": 14,
+          "Flags": 0
+        },
+        {
+          "AnimClassInterface": {
+            "ObjectName": "AnimBlueprintGeneratedClass'ABP_HypsiPreview_C'",
+            "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.1"
+          },
+          "Entries": [
+            1,
+            1,
+            1,
+            4294967295,
+            4294967295,
+            4294967295,
+            4294967295,
+            4294967295,
+            9,
+            8,
+            7,
+            6,
+            7,
+            4294967295,
+            5,
+            5,
+            4,
+            4294967295,
+            3,
+            2,
+            7
+          ],
+          "NodeIndex": 15,
+          "Flags": 0
+        }
+      ],
+      "NodeTypeMap": [
+        {
+          "Key": "Class'/Script/Engine.AnimNode_SequencePlayer'",
+          "Value": {
+            "NameToIndexMap": [
+              {
+                "Key": "InitialUpdateFunction",
+                "Value": 0
+              },
+              {
+                "Key": "BecomeRelevantFunction",
+                "Value": 1
+              },
+              {
+                "Key": "UpdateFunction",
+                "Value": 2
+              },
+              {
+                "Key": "GroupIndex",
+                "Value": 3
+              },
+              {
+                "Key": "GroupScope",
+                "Value": 4
+              },
+              {
+                "Key": "BlendWeight",
+                "Value": 5
+              },
+              {
+                "Key": "InternalTimeAccumulator",
+                "Value": 6
+              },
+              {
+                "Key": "PlayRateScaleBiasClampState",
+                "Value": 7
+              },
+              {
+                "Key": "GroupName",
+                "Value": 8
+              },
+              {
+                "Key": "GroupRole",
+                "Value": 9
+              },
+              {
+                "Key": "bOverridePositionWhenJoiningSyncGroupAsLeader",
+                "Value": 10
+              },
+              {
+                "Key": "Method",
+                "Value": 11
+              },
+              {
+                "Key": "bIgnoreForRelevancyTest",
+                "Value": 12
+              },
+              {
+                "Key": "Sequence",
+                "Value": 13
+              },
+              {
+                "Key": "PlayRateBasis",
+                "Value": 14
+              },
+              {
+                "Key": "PlayRate",
+                "Value": 15
+              },
+              {
+                "Key": "PlayRateScaleBiasClampConstants",
+                "Value": 16
+              },
+              {
+                "Key": "PlayRateScaleBiasClamp",
+                "Value": 17
+              },
+              {
+                "Key": "StartPosition",
+                "Value": 18
+              },
+              {
+                "Key": "bLoopAnimation",
+                "Value": 19
+              },
+              {
+                "Key": "bStartFromMatchingPose",
+                "Value": 20
+              }
+            ],
+            "NumProperties": 21
+          }
+        },
+        {
+          "Key": "Class'/Script/Engine.AnimNode_SequencePlayerBase'",
+          "Value": {
+            "NameToIndexMap": [
+              {
+                "Key": "InitialUpdateFunction",
+                "Value": 0
+              },
+              {
+                "Key": "BecomeRelevantFunction",
+                "Value": 1
+              },
+              {
+                "Key": "UpdateFunction",
+                "Value": 2
+              },
+              {
+                "Key": "GroupIndex",
+                "Value": 3
+              },
+              {
+                "Key": "GroupScope",
+                "Value": 4
+              },
+              {
+                "Key": "BlendWeight",
+                "Value": 5
+              },
+              {
+                "Key": "InternalTimeAccumulator",
+                "Value": 6
+              },
+              {
+                "Key": "PlayRateScaleBiasClampState",
+                "Value": 7
+              }
+            ],
+            "NumProperties": 8
+          }
+        },
+        {
+          "Key": "Class'/Script/Engine.AnimNode_AssetPlayerBase'",
+          "Value": {
+            "NameToIndexMap": [
+              {
+                "Key": "InitialUpdateFunction",
+                "Value": 0
+              },
+              {
+                "Key": "BecomeRelevantFunction",
+                "Value": 1
+              },
+              {
+                "Key": "UpdateFunction",
+                "Value": 2
+              },
+              {
+                "Key": "GroupIndex",
+                "Value": 3
+              },
+              {
+                "Key": "GroupScope",
+                "Value": 4
+              },
+              {
+                "Key": "BlendWeight",
+                "Value": 5
+              },
+              {
+                "Key": "InternalTimeAccumulator",
+                "Value": 6
+              }
+            ],
+            "NumProperties": 7
+          }
+        },
+        {
+          "Key": "Class'/Script/Engine.AnimNode_AssetPlayerRelevancyBase'",
+          "Value": {
+            "NameToIndexMap": [
+              {
+                "Key": "InitialUpdateFunction",
+                "Value": 0
+              },
+              {
+                "Key": "BecomeRelevantFunction",
+                "Value": 1
+              },
+              {
+                "Key": "UpdateFunction",
+                "Value": 2
+              }
+            ],
+            "NumProperties": 3
+          }
+        },
+        {
+          "Key": "Class'/Script/Engine.AnimNode_Base'",
+          "Value": {
+            "NameToIndexMap": [
+              {
+                "Key": "InitialUpdateFunction",
+                "Value": 0
+              },
+              {
+                "Key": "BecomeRelevantFunction",
+                "Value": 1
+              },
+              {
+                "Key": "UpdateFunction",
+                "Value": 2
+              }
+            ],
+            "NumProperties": 3
+          }
+        },
+        {
+          "Key": "Class'/Script/AnimGraphRuntime.AnimNode_ApplyAdditive'",
+          "Value": {
+            "NameToIndexMap": [
+              {
+                "Key": "InitialUpdateFunction",
+                "Value": 0
+              },
+              {
+                "Key": "BecomeRelevantFunction",
+                "Value": 1
+              },
+              {
+                "Key": "UpdateFunction",
+                "Value": 2
+              },
+              {
+                "Key": "Base",
+                "Value": 3
+              },
+              {
+                "Key": "Additive",
+                "Value": 4
+              },
+              {
+                "Key": "Alpha",
+                "Value": 5
+              },
+              {
+                "Key": "AlphaScaleBias",
+                "Value": 6
+              },
+              {
+                "Key": "LODThreshold",
+                "Value": 7
+              },
+              {
+                "Key": "AlphaBoolBlend",
+                "Value": 8
+              },
+              {
+                "Key": "AlphaCurveName",
+                "Value": 9
+              },
+              {
+                "Key": "AlphaScaleBiasClamp",
+                "Value": 10
+              },
+              {
+                "Key": "AlphaInputType",
+                "Value": 11
+              },
+              {
+                "Key": "bAlphaBoolEnabled",
+                "Value": 12
+              }
+            ],
+            "NumProperties": 13
+          }
+        },
+        {
+          "Key": "Class'/Script/Engine.AnimNode_Root'",
+          "Value": {
+            "NameToIndexMap": [
+              {
+                "Key": "InitialUpdateFunction",
+                "Value": 0
+              },
+              {
+                "Key": "BecomeRelevantFunction",
+                "Value": 1
+              },
+              {
+                "Key": "UpdateFunction",
+                "Value": 2
+              },
+              {
+                "Key": "Result",
+                "Value": 3
+              },
+              {
+                "Key": "Name",
+                "Value": 4
+              },
+              {
+                "Key": "LayerGroup",
+                "Value": 5
+              },
+              {
+                "Key": "Group",
+                "Value": 6
+              }
+            ],
+            "NumProperties": 7
+          }
+        }
+      ],
+      "UberGraphFunction": {
+        "ObjectName": "Function'ABP_HypsiPreview_C:ExecuteUbergraph_ABP_HypsiPreview'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.5"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'AnimInstance'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'ABP_HypsiPreview_C:AnimGraph'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.2"
+      },
+      {
+        "ObjectName": "Function'ABP_HypsiPreview_C:EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_HypsiPreview_AnimGraphNode_ApplyAdditive_CC310B174A68017BCC5095BBC17F1C19'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.4"
+      },
+      {
+        "ObjectName": "Function'ABP_HypsiPreview_C:BlueprintUpdateAnimation'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.3"
+      },
+      {
+        "ObjectName": "Function'ABP_HypsiPreview_C:ExecuteUbergraph_ABP_HypsiPreview'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.5"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "AnimBlueprintExtension_PropertyAccess",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "Class'AnimSubsystemInstance'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "AnimBlueprintExtension_Base",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "Struct": {
+          "ObjectName": "Class'AnimSubsystemInstance'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "AnimGraphNode_Root",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 200,
+        "Struct": {
+          "ObjectName": "Class'AnimNode_Root'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "AnimGraphNode_SequencePlayer_7",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 328,
+        "Struct": {
+          "ObjectName": "Class'AnimNode_SequencePlayer'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "AnimGraphNode_ApplyAdditive_6",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 344,
+        "Struct": {
+          "ObjectName": "Class'AnimNode_ApplyAdditive'",
+          "ObjectPath": "/Script/AnimGraphRuntime"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "AnimGraphNode_SequencePlayer_6",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 328,
+        "Struct": {
+          "ObjectName": "Class'AnimNode_SequencePlayer'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "AnimGraphNode_ApplyAdditive_5",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 344,
+        "Struct": {
+          "ObjectName": "Class'AnimNode_ApplyAdditive'",
+          "ObjectPath": "/Script/AnimGraphRuntime"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "AnimGraphNode_SequencePlayer_5",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 328,
+        "Struct": {
+          "ObjectName": "Class'AnimNode_SequencePlayer'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "AnimGraphNode_ApplyAdditive_4",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 344,
+        "Struct": {
+          "ObjectName": "Class'AnimNode_ApplyAdditive'",
+          "ObjectPath": "/Script/AnimGraphRuntime"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "AnimGraphNode_SequencePlayer_4",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 328,
+        "Struct": {
+          "ObjectName": "Class'AnimNode_SequencePlayer'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "AnimGraphNode_ApplyAdditive_3",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 344,
+        "Struct": {
+          "ObjectName": "Class'AnimNode_ApplyAdditive'",
+          "ObjectPath": "/Script/AnimGraphRuntime"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "AnimGraphNode_SequencePlayer_3",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 328,
+        "Struct": {
+          "ObjectName": "Class'AnimNode_SequencePlayer'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "AnimGraphNode_ApplyAdditive_2",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 344,
+        "Struct": {
+          "ObjectName": "Class'AnimNode_ApplyAdditive'",
+          "ObjectPath": "/Script/AnimGraphRuntime"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "AnimGraphNode_SequencePlayer_2",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 328,
+        "Struct": {
+          "ObjectName": "Class'AnimNode_SequencePlayer'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "AnimGraphNode_ApplyAdditive_1",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 344,
+        "Struct": {
+          "ObjectName": "Class'AnimNode_ApplyAdditive'",
+          "ObjectPath": "/Script/AnimGraphRuntime"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "AnimGraphNode_SequencePlayer_1",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 328,
+        "Struct": {
+          "ObjectName": "Class'AnimNode_SequencePlayer'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "AnimGraphNode_ApplyAdditive",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 344,
+        "Struct": {
+          "ObjectName": "Class'AnimNode_ApplyAdditive'",
+          "ObjectPath": "/Script/AnimGraphRuntime"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "AnimGraphNode_SequencePlayer",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 328,
+        "Struct": {
+          "ObjectName": "Class'AnimNode_SequencePlayer'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "Growth",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "Custom Additive 1 Alpha",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "DeltaSeconds",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "Custom Additive 2 Alpha",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "Custom Additive 3 Alpha",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "Custom Additive 4 Alpha",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "Custom Additive 5 Alpha",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "Custom Additive 6 Alpha",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Custom Additive 6",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'AnimSequenceBase'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Custom Additive 5",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'AnimSequenceBase'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Custom Additive 4",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'AnimSequenceBase'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Custom Additive 3",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'AnimSequenceBase'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Custom Additive 2",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'AnimSequenceBase'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Custom Additive 1",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'AnimSequenceBase'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Juvenile Additive",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'AnimSequenceBase'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "IsFemale",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 1,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_ABP_HypsiPreview": {
+        "ObjectName": "Function'ABP_HypsiPreview_C:ExecuteUbergraph_ABP_HypsiPreview'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.5"
+      },
+      "BlueprintUpdateAnimation": {
+        "ObjectName": "Function'ABP_HypsiPreview_C:BlueprintUpdateAnimation'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.3"
+      },
+      "EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_HypsiPreview_AnimGraphNode_ApplyAdditive_CC310B174A68017BCC5095BBC17F1C19": {
+        "ObjectName": "Function'ABP_HypsiPreview_C:EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_HypsiPreview_AnimGraphNode_ApplyAdditive_CC310B174A68017BCC5095BBC17F1C19'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.4"
+      },
+      "AnimGraph": {
+        "ObjectName": "Function'ABP_HypsiPreview_C:AnimGraph'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.2"
+      }
+    },
+    "ClassFlags": "CLASS_Transient | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'SkeletalMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "ABP_HypsiPreview_C'Default__ABP_HypsiPreview_C'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.0"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "AnimGraph",
+    "Outer": "ABP_HypsiPreview_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "AnimGraph",
+        "Flags": "RF_Public",
+        "ElementSize": 24,
+        "PropertyFlags": "Parm | OutParm",
+        "Struct": {
+          "ObjectName": "Class'PoseLink'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "ScriptBytecode": [
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 0,
+        "Variable": {
+          "Inst": "EX_LocalOutVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'ABP_HypsiPreview_C:AnimGraph'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.2"
+            },
+            "Property": {
+              "Type": "StructProperty",
+              "Name": "AnimGraph",
+              "Flags": "RF_Public",
+              "ElementSize": 24,
+              "PropertyFlags": "Parm | OutParm",
+              "Struct": {
+                "ObjectName": "Class'PoseLink'",
+                "ObjectPath": "/Script/Engine"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_StructConst",
+          "Struct": {
+            "ObjectName": "Class'PoseLink'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Properties": [
+            {
+              "Inst": "EX_IntConst",
+              "Value": -1
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_Return",
+        "StatementIndex": 37,
+        "Expression": {
+          "Inst": "EX_Nothing"
+        }
+      },
+      {
+        "Inst": "EX_EndOfScript",
+        "StatementIndex": 39
+      }
+    ],
+    "FunctionFlags": "FUNC_HasOutParms | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "BlueprintUpdateAnimation",
+    "Outer": "ABP_HypsiPreview_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'AnimInstance:BlueprintUpdateAnimation'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "ChildProperties": [
+      {
+        "Type": "FloatProperty",
+        "Name": "DeltaTimeX",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "ScriptBytecode": [
+      {
+        "Inst": "EX_LetValueOnPersistentFrame",
+        "StatementIndex": 0,
+        "DestinationProperty": {
+          "Owner": {
+            "ObjectName": "Function'ABP_HypsiPreview_C:ExecuteUbergraph_ABP_HypsiPreview'",
+            "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.5"
+          },
+          "Property": {
+            "Type": "FloatProperty",
+            "Name": "K2Node_Event_DeltaTimeX",
+            "Flags": "RF_Public",
+            "ElementSize": 4
+          }
+        },
+        "AssignmentExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'ABP_HypsiPreview_C:BlueprintUpdateAnimation'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.3"
+            },
+            "Property": {
+              "Type": "FloatProperty",
+              "Name": "DeltaTimeX",
+              "Flags": "RF_Public",
+              "ElementSize": 4,
+              "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_LocalFinalFunction",
+        "StatementIndex": 18,
+        "Function": {
+          "ObjectName": "Function'ABP_HypsiPreview_C:ExecuteUbergraph_ABP_HypsiPreview'",
+          "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.5"
+        },
+        "Parameters": [
+          {
+            "Inst": "EX_IntConst",
+            "Value": 126
+          }
+        ],
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.ExecuteUbergraph_ABP_HypsiPreview[126]"
+      },
+      {
+        "Inst": "EX_Return",
+        "StatementIndex": 33,
+        "Expression": {
+          "Inst": "EX_Nothing"
+        }
+      },
+      {
+        "Inst": "EX_EndOfScript",
+        "StatementIndex": 35
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_HypsiPreview_AnimGraphNode_ApplyAdditive_CC310B174A68017BCC5095BBC17F1C19",
+    "Outer": "ABP_HypsiPreview_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "ScriptBytecode": [
+      {
+        "Inst": "EX_LocalFinalFunction",
+        "StatementIndex": 0,
+        "Function": {
+          "ObjectName": "Function'ABP_HypsiPreview_C:ExecuteUbergraph_ABP_HypsiPreview'",
+          "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.5"
+        },
+        "Parameters": [
+          {
+            "Inst": "EX_IntConst",
+            "Value": 10
+          }
+        ],
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.ExecuteUbergraph_ABP_HypsiPreview[10]"
+      },
+      {
+        "Inst": "EX_Return",
+        "StatementIndex": 15,
+        "Expression": {
+          "Inst": "EX_Nothing"
+        }
+      },
+      {
+        "Inst": "EX_EndOfScript",
+        "StatementIndex": 17
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_ABP_HypsiPreview",
+    "Outer": "ABP_HypsiPreview_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "K2Node_Event_DeltaTimeX",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "CallFunc_Subtract_DoubleDouble_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "CallFunc_FInterpTo_Constant_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "CallFunc_SelectFloat_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "CallFunc_Multiply_DoubleDouble_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "CallFunc_FClamp_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "CallFunc_Subtract_DoubleDouble_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 8
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "CallFunc_Subtract_DoubleDouble_ReturnValue_2",
+        "Flags": "RF_Public",
+        "ElementSize": 8
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "CallFunc_FClamp_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 8
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "CallFunc_Subtract_DoubleDouble_ReturnValue_3",
+        "Flags": "RF_Public",
+        "ElementSize": 8
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "CallFunc_Subtract_DoubleDouble_ReturnValue_4",
+        "Flags": "RF_Public",
+        "ElementSize": 8
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "CallFunc_FClamp_ReturnValue_2",
+        "Flags": "RF_Public",
+        "ElementSize": 8
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "CallFunc_Subtract_DoubleDouble_ReturnValue_5",
+        "Flags": "RF_Public",
+        "ElementSize": 8
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "CallFunc_Subtract_DoubleDouble_ReturnValue_6",
+        "Flags": "RF_Public",
+        "ElementSize": 8
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "CallFunc_FClamp_ReturnValue_3",
+        "Flags": "RF_Public",
+        "ElementSize": 8
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "CallFunc_Subtract_DoubleDouble_ReturnValue_7",
+        "Flags": "RF_Public",
+        "ElementSize": 8
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "CallFunc_Subtract_DoubleDouble_ReturnValue_8",
+        "Flags": "RF_Public",
+        "ElementSize": 8
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "CallFunc_FClamp_ReturnValue_4",
+        "Flags": "RF_Public",
+        "ElementSize": 8
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "CallFunc_Subtract_DoubleDouble_ReturnValue_9",
+        "Flags": "RF_Public",
+        "ElementSize": 8
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "K2Node_VariableSet_DeltaSeconds_ImplicitCast",
+        "Flags": "RF_Public",
+        "ElementSize": 8
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "K2Node_StructMemberSet_Alpha_ImplicitCast",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      }
+    ],
+    "ScriptBytecode": [
+      {
+        "Inst": "EX_ComputedJump",
+        "StatementIndex": 0,
+        "OffsetExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'ABP_HypsiPreview_C:ExecuteUbergraph_ABP_HypsiPreview'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.5"
+            },
+            "Property": {
+              "Type": "IntProperty",
+              "Name": "EntryPoint",
+              "Flags": "RF_Public",
+              "ElementSize": 4,
+              "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 10,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'ABP_HypsiPreview_C:ExecuteUbergraph_ABP_HypsiPreview'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.5"
+            },
+            "Property": {
+              "Type": "DoubleProperty",
+              "Name": "CallFunc_Subtract_DoubleDouble_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 8
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Class'KismetMathLibrary:Subtract_DoubleDouble'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_DoubleConst",
+              "Value": 1.0
+            },
+            {
+              "Inst": "EX_InstanceVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "AnimBlueprintGeneratedClass'ABP_HypsiPreview_C'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.1"
+                },
+                "Property": {
+                  "Type": "DoubleProperty",
+                  "Name": "Growth",
+                  "Flags": "RF_Public | RF_LoadCompleted",
+                  "ElementSize": 8,
+                  "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 56,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'ABP_HypsiPreview_C:ExecuteUbergraph_ABP_HypsiPreview'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.5"
+            },
+            "Property": {
+              "Type": "FloatProperty",
+              "Name": "K2Node_StructMemberSet_Alpha_ImplicitCast",
+              "Flags": "RF_Public",
+              "ElementSize": 4
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_Cast",
+          "ConversionType": "CST_DoubleToFloat",
+          "Target": {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'ABP_HypsiPreview_C:ExecuteUbergraph_ABP_HypsiPreview'",
+                "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.5"
+              },
+              "Property": {
+                "Type": "DoubleProperty",
+                "Name": "CallFunc_Subtract_DoubleDouble_ReturnValue",
+                "Flags": "RF_Public",
+                "ElementSize": 8
+              }
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 85,
+        "Variable": {
+          "Inst": "EX_StructMemberContext",
+          "Property": {
+            "Path": [
+              "Alpha"
+            ],
+            "ResolvedOwner": {
+              "ObjectName": "Class'AnimNode_ApplyAdditive'",
+              "ObjectPath": "/Script/AnimGraphRuntime"
+            }
+          },
+          "StructExpression": {
+            "Inst": "EX_InstanceVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "AnimBlueprintGeneratedClass'ABP_HypsiPreview_C'",
+                "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.1"
+              },
+              "Property": {
+                "Type": "StructProperty",
+                "Name": "AnimGraphNode_ApplyAdditive",
+                "Flags": "RF_Public | RF_LoadCompleted",
+                "ElementSize": 344,
+                "Struct": {
+                  "ObjectName": "Class'AnimNode_ApplyAdditive'",
+                  "ObjectPath": "/Script/AnimGraphRuntime"
+                }
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'ABP_HypsiPreview_C:ExecuteUbergraph_ABP_HypsiPreview'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.5"
+            },
+            "Property": {
+              "Type": "FloatProperty",
+              "Name": "K2Node_StructMemberSet_Alpha_ImplicitCast",
+              "Flags": "RF_Public",
+              "ElementSize": 4
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_Jump",
+        "StatementIndex": 121,
+        "CodeOffset": 1602,
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.ExecuteUbergraph_ABP_HypsiPreview[1602]"
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 126,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'ABP_HypsiPreview_C:ExecuteUbergraph_ABP_HypsiPreview'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.5"
+            },
+            "Property": {
+              "Type": "DoubleProperty",
+              "Name": "K2Node_VariableSet_DeltaSeconds_ImplicitCast",
+              "Flags": "RF_Public",
+              "ElementSize": 8
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_Cast",
+          "ConversionType": "CST_FloatToDouble",
+          "Target": {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Owner": {
+                "ObjectName": "Function'ABP_HypsiPreview_C:ExecuteUbergraph_ABP_HypsiPreview'",
+                "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.5"
+              },
+              "Property": {
+                "Type": "FloatProperty",
+                "Name": "K2Node_Event_DeltaTimeX",
+                "Flags": "RF_Public",
+                "ElementSize": 4
+              }
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 155,
+        "Variable": {
+          "Inst": "EX_InstanceVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "AnimBlueprintGeneratedClass'ABP_HypsiPreview_C'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.1"
+            },
+            "Property": {
+              "Type": "DoubleProperty",
+              "Name": "DeltaSeconds",
+              "Flags": "RF_Public | RF_LoadCompleted",
+              "ElementSize": 8,
+              "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'ABP_HypsiPreview_C:ExecuteUbergraph_ABP_HypsiPreview'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.5"
+            },
+            "Property": {
+              "Type": "DoubleProperty",
+              "Name": "K2Node_VariableSet_DeltaSeconds_ImplicitCast",
+              "Flags": "RF_Public",
+              "ElementSize": 8
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 182,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'ABP_HypsiPreview_C:ExecuteUbergraph_ABP_HypsiPreview'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.5"
+            },
+            "Property": {
+              "Type": "DoubleProperty",
+              "Name": "CallFunc_FInterpTo_Constant_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 8
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Class'KismetMathLibrary:FInterpTo_Constant'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_InstanceVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "AnimBlueprintGeneratedClass'ABP_HypsiPreview_C'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.1"
+                },
+                "Property": {
+                  "Type": "DoubleProperty",
+                  "Name": "Custom Additive 1 Alpha",
+                  "Flags": "RF_Public | RF_LoadCompleted",
+                  "ElementSize": 8,
+                  "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+                }
+              }
+            },
+            {
+              "Inst": "EX_DoubleConst",
+              "Value": 0.0
+            },
+            {
+              "Inst": "EX_InstanceVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "AnimBlueprintGeneratedClass'ABP_HypsiPreview_C'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.1"
+                },
+                "Property": {
+                  "Type": "DoubleProperty",
+                  "Name": "DeltaSeconds",
+                  "Flags": "RF_Public | RF_LoadCompleted",
+                  "ElementSize": 8,
+                  "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+                }
+              }
+            },
+            {
+              "Inst": "EX_DoubleConst",
+              "Value": 5.0
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 246,
+        "Variable": {
+          "Inst": "EX_InstanceVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "AnimBlueprintGeneratedClass'ABP_HypsiPreview_C'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.1"
+            },
+            "Property": {
+              "Type": "DoubleProperty",
+              "Name": "Custom Additive 1 Alpha",
+              "Flags": "RF_Public | RF_LoadCompleted",
+              "ElementSize": 8,
+              "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'ABP_HypsiPreview_C:ExecuteUbergraph_ABP_HypsiPreview'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.5"
+            },
+            "Property": {
+              "Type": "DoubleProperty",
+              "Name": "CallFunc_FInterpTo_Constant_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 8
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 273,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'ABP_HypsiPreview_C:ExecuteUbergraph_ABP_HypsiPreview'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.5"
+            },
+            "Property": {
+              "Type": "DoubleProperty",
+              "Name": "CallFunc_SelectFloat_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 8
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Class'KismetMathLibrary:SelectFloat'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_DoubleConst",
+              "Value": 0.0
+            },
+            {
+              "Inst": "EX_InstanceVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "AnimBlueprintGeneratedClass'ABP_HypsiPreview_C'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.1"
+                },
+                "Property": {
+                  "Type": "DoubleProperty",
+                  "Name": "Growth",
+                  "Flags": "RF_Public | RF_LoadCompleted",
+                  "ElementSize": 8,
+                  "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+                }
+              }
+            },
+            {
+              "Inst": "EX_InstanceVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "AnimBlueprintGeneratedClass'ABP_HypsiPreview_C'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.1"
+                },
+                "Property": {
+                  "Type": "BoolProperty",
+                  "Name": "IsFemale",
+                  "Flags": "RF_Public | RF_LoadCompleted",
+                  "ElementSize": 1,
+                  "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+                  "FieldSize": 1,
+                  "ByteOffset": 0,
+                  "ByteMask": 1,
+                  "FieldMask": 255,
+                  "BoolSize": 1,
+                  "bIsNativeBool": true
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 328,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'ABP_HypsiPreview_C:ExecuteUbergraph_ABP_HypsiPreview'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.5"
+            },
+            "Property": {
+              "Type": "DoubleProperty",
+              "Name": "CallFunc_Multiply_DoubleDouble_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 8
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Class'KismetMathLibrary:Multiply_DoubleDouble'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'ABP_HypsiPreview_C:ExecuteUbergraph_ABP_HypsiPreview'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.5"
+                },
+                "Property": {
+                  "Type": "DoubleProperty",
+                  "Name": "CallFunc_SelectFloat_ReturnValue",
+                  "Flags": "RF_Public",
+                  "ElementSize": 8
+                }
+              }
+            },
+            {
+              "Inst": "EX_DoubleConst",
+              "Value": 5.0
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 374,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'ABP_HypsiPreview_C:ExecuteUbergraph_ABP_HypsiPreview'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.5"
+            },
+            "Property": {
+              "Type": "DoubleProperty",
+              "Name": "CallFunc_FClamp_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 8
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Class'KismetMathLibrary:FClamp'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'ABP_HypsiPreview_C:ExecuteUbergraph_ABP_HypsiPreview'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.5"
+                },
+                "Property": {
+                  "Type": "DoubleProperty",
+                  "Name": "CallFunc_Multiply_DoubleDouble_ReturnValue",
+                  "Flags": "RF_Public",
+                  "ElementSize": 8
+                }
+              }
+            },
+            {
+              "Inst": "EX_DoubleConst",
+              "Value": 0.0
+            },
+            {
+              "Inst": "EX_DoubleConst",
+              "Value": 1.0
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 429,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'ABP_HypsiPreview_C:ExecuteUbergraph_ABP_HypsiPreview'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.5"
+            },
+            "Property": {
+              "Type": "DoubleProperty",
+              "Name": "CallFunc_Subtract_DoubleDouble_ReturnValue_2",
+              "Flags": "RF_Public",
+              "ElementSize": 8
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Class'KismetMathLibrary:Subtract_DoubleDouble'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_DoubleConst",
+              "Value": 1.0
+            },
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'ABP_HypsiPreview_C:ExecuteUbergraph_ABP_HypsiPreview'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.5"
+                },
+                "Property": {
+                  "Type": "DoubleProperty",
+                  "Name": "CallFunc_FClamp_ReturnValue",
+                  "Flags": "RF_Public",
+                  "ElementSize": 8
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 475,
+        "Variable": {
+          "Inst": "EX_InstanceVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "AnimBlueprintGeneratedClass'ABP_HypsiPreview_C'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.1"
+            },
+            "Property": {
+              "Type": "DoubleProperty",
+              "Name": "Custom Additive 2 Alpha",
+              "Flags": "RF_Public | RF_LoadCompleted",
+              "ElementSize": 8,
+              "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'ABP_HypsiPreview_C:ExecuteUbergraph_ABP_HypsiPreview'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.5"
+            },
+            "Property": {
+              "Type": "DoubleProperty",
+              "Name": "CallFunc_Subtract_DoubleDouble_ReturnValue_2",
+              "Flags": "RF_Public",
+              "ElementSize": 8
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 502,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'ABP_HypsiPreview_C:ExecuteUbergraph_ABP_HypsiPreview'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.5"
+            },
+            "Property": {
+              "Type": "DoubleProperty",
+              "Name": "CallFunc_SelectFloat_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 8
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Class'KismetMathLibrary:SelectFloat'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_DoubleConst",
+              "Value": 0.0
+            },
+            {
+              "Inst": "EX_InstanceVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "AnimBlueprintGeneratedClass'ABP_HypsiPreview_C'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.1"
+                },
+                "Property": {
+                  "Type": "DoubleProperty",
+                  "Name": "Growth",
+                  "Flags": "RF_Public | RF_LoadCompleted",
+                  "ElementSize": 8,
+                  "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+                }
+              }
+            },
+            {
+              "Inst": "EX_InstanceVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "AnimBlueprintGeneratedClass'ABP_HypsiPreview_C'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.1"
+                },
+                "Property": {
+                  "Type": "BoolProperty",
+                  "Name": "IsFemale",
+                  "Flags": "RF_Public | RF_LoadCompleted",
+                  "ElementSize": 1,
+                  "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+                  "FieldSize": 1,
+                  "ByteOffset": 0,
+                  "ByteMask": 1,
+                  "FieldMask": 255,
+                  "BoolSize": 1,
+                  "bIsNativeBool": true
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 557,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'ABP_HypsiPreview_C:ExecuteUbergraph_ABP_HypsiPreview'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.5"
+            },
+            "Property": {
+              "Type": "DoubleProperty",
+              "Name": "CallFunc_Multiply_DoubleDouble_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 8
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Class'KismetMathLibrary:Multiply_DoubleDouble'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'ABP_HypsiPreview_C:ExecuteUbergraph_ABP_HypsiPreview'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.5"
+                },
+                "Property": {
+                  "Type": "DoubleProperty",
+                  "Name": "CallFunc_SelectFloat_ReturnValue",
+                  "Flags": "RF_Public",
+                  "ElementSize": 8
+                }
+              }
+            },
+            {
+              "Inst": "EX_DoubleConst",
+              "Value": 5.0
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 603,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'ABP_HypsiPreview_C:ExecuteUbergraph_ABP_HypsiPreview'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.5"
+            },
+            "Property": {
+              "Type": "DoubleProperty",
+              "Name": "CallFunc_Subtract_DoubleDouble_ReturnValue_8",
+              "Flags": "RF_Public",
+              "ElementSize": 8
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Class'KismetMathLibrary:Subtract_DoubleDouble'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'ABP_HypsiPreview_C:ExecuteUbergraph_ABP_HypsiPreview'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.5"
+                },
+                "Property": {
+                  "Type": "DoubleProperty",
+                  "Name": "CallFunc_Multiply_DoubleDouble_ReturnValue",
+                  "Flags": "RF_Public",
+                  "ElementSize": 8
+                }
+              }
+            },
+            {
+              "Inst": "EX_DoubleConst",
+              "Value": 1.0
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 649,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'ABP_HypsiPreview_C:ExecuteUbergraph_ABP_HypsiPreview'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.5"
+            },
+            "Property": {
+              "Type": "DoubleProperty",
+              "Name": "CallFunc_FClamp_ReturnValue_4",
+              "Flags": "RF_Public",
+              "ElementSize": 8
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Class'KismetMathLibrary:FClamp'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'ABP_HypsiPreview_C:ExecuteUbergraph_ABP_HypsiPreview'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.5"
+                },
+                "Property": {
+                  "Type": "DoubleProperty",
+                  "Name": "CallFunc_Subtract_DoubleDouble_ReturnValue_8",
+                  "Flags": "RF_Public",
+                  "ElementSize": 8
+                }
+              }
+            },
+            {
+              "Inst": "EX_DoubleConst",
+              "Value": 0.0
+            },
+            {
+              "Inst": "EX_DoubleConst",
+              "Value": 1.0
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 704,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'ABP_HypsiPreview_C:ExecuteUbergraph_ABP_HypsiPreview'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.5"
+            },
+            "Property": {
+              "Type": "DoubleProperty",
+              "Name": "CallFunc_Subtract_DoubleDouble_ReturnValue_9",
+              "Flags": "RF_Public",
+              "ElementSize": 8
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Class'KismetMathLibrary:Subtract_DoubleDouble'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_DoubleConst",
+              "Value": 1.0
+            },
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'ABP_HypsiPreview_C:ExecuteUbergraph_ABP_HypsiPreview'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.5"
+                },
+                "Property": {
+                  "Type": "DoubleProperty",
+                  "Name": "CallFunc_FClamp_ReturnValue_4",
+                  "Flags": "RF_Public",
+                  "ElementSize": 8
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 750,
+        "Variable": {
+          "Inst": "EX_InstanceVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "AnimBlueprintGeneratedClass'ABP_HypsiPreview_C'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.1"
+            },
+            "Property": {
+              "Type": "DoubleProperty",
+              "Name": "Custom Additive 3 Alpha",
+              "Flags": "RF_Public | RF_LoadCompleted",
+              "ElementSize": 8,
+              "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'ABP_HypsiPreview_C:ExecuteUbergraph_ABP_HypsiPreview'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.5"
+            },
+            "Property": {
+              "Type": "DoubleProperty",
+              "Name": "CallFunc_Subtract_DoubleDouble_ReturnValue_9",
+              "Flags": "RF_Public",
+              "ElementSize": 8
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 777,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'ABP_HypsiPreview_C:ExecuteUbergraph_ABP_HypsiPreview'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.5"
+            },
+            "Property": {
+              "Type": "DoubleProperty",
+              "Name": "CallFunc_SelectFloat_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 8
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Class'KismetMathLibrary:SelectFloat'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_DoubleConst",
+              "Value": 0.0
+            },
+            {
+              "Inst": "EX_InstanceVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "AnimBlueprintGeneratedClass'ABP_HypsiPreview_C'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.1"
+                },
+                "Property": {
+                  "Type": "DoubleProperty",
+                  "Name": "Growth",
+                  "Flags": "RF_Public | RF_LoadCompleted",
+                  "ElementSize": 8,
+                  "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+                }
+              }
+            },
+            {
+              "Inst": "EX_InstanceVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "AnimBlueprintGeneratedClass'ABP_HypsiPreview_C'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.1"
+                },
+                "Property": {
+                  "Type": "BoolProperty",
+                  "Name": "IsFemale",
+                  "Flags": "RF_Public | RF_LoadCompleted",
+                  "ElementSize": 1,
+                  "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+                  "FieldSize": 1,
+                  "ByteOffset": 0,
+                  "ByteMask": 1,
+                  "FieldMask": 255,
+                  "BoolSize": 1,
+                  "bIsNativeBool": true
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 832,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'ABP_HypsiPreview_C:ExecuteUbergraph_ABP_HypsiPreview'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.5"
+            },
+            "Property": {
+              "Type": "DoubleProperty",
+              "Name": "CallFunc_Multiply_DoubleDouble_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 8
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Class'KismetMathLibrary:Multiply_DoubleDouble'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'ABP_HypsiPreview_C:ExecuteUbergraph_ABP_HypsiPreview'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.5"
+                },
+                "Property": {
+                  "Type": "DoubleProperty",
+                  "Name": "CallFunc_SelectFloat_ReturnValue",
+                  "Flags": "RF_Public",
+                  "ElementSize": 8
+                }
+              }
+            },
+            {
+              "Inst": "EX_DoubleConst",
+              "Value": 5.0
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 878,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'ABP_HypsiPreview_C:ExecuteUbergraph_ABP_HypsiPreview'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.5"
+            },
+            "Property": {
+              "Type": "DoubleProperty",
+              "Name": "CallFunc_Subtract_DoubleDouble_ReturnValue_5",
+              "Flags": "RF_Public",
+              "ElementSize": 8
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Class'KismetMathLibrary:Subtract_DoubleDouble'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'ABP_HypsiPreview_C:ExecuteUbergraph_ABP_HypsiPreview'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.5"
+                },
+                "Property": {
+                  "Type": "DoubleProperty",
+                  "Name": "CallFunc_Multiply_DoubleDouble_ReturnValue",
+                  "Flags": "RF_Public",
+                  "ElementSize": 8
+                }
+              }
+            },
+            {
+              "Inst": "EX_DoubleConst",
+              "Value": 2.0
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 924,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'ABP_HypsiPreview_C:ExecuteUbergraph_ABP_HypsiPreview'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.5"
+            },
+            "Property": {
+              "Type": "DoubleProperty",
+              "Name": "CallFunc_FClamp_ReturnValue_3",
+              "Flags": "RF_Public",
+              "ElementSize": 8
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Class'KismetMathLibrary:FClamp'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'ABP_HypsiPreview_C:ExecuteUbergraph_ABP_HypsiPreview'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.5"
+                },
+                "Property": {
+                  "Type": "DoubleProperty",
+                  "Name": "CallFunc_Subtract_DoubleDouble_ReturnValue_5",
+                  "Flags": "RF_Public",
+                  "ElementSize": 8
+                }
+              }
+            },
+            {
+              "Inst": "EX_DoubleConst",
+              "Value": 0.0
+            },
+            {
+              "Inst": "EX_DoubleConst",
+              "Value": 1.0
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 979,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'ABP_HypsiPreview_C:ExecuteUbergraph_ABP_HypsiPreview'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.5"
+            },
+            "Property": {
+              "Type": "DoubleProperty",
+              "Name": "CallFunc_Subtract_DoubleDouble_ReturnValue_7",
+              "Flags": "RF_Public",
+              "ElementSize": 8
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Class'KismetMathLibrary:Subtract_DoubleDouble'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_DoubleConst",
+              "Value": 1.0
+            },
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'ABP_HypsiPreview_C:ExecuteUbergraph_ABP_HypsiPreview'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.5"
+                },
+                "Property": {
+                  "Type": "DoubleProperty",
+                  "Name": "CallFunc_FClamp_ReturnValue_3",
+                  "Flags": "RF_Public",
+                  "ElementSize": 8
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 1025,
+        "Variable": {
+          "Inst": "EX_InstanceVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "AnimBlueprintGeneratedClass'ABP_HypsiPreview_C'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.1"
+            },
+            "Property": {
+              "Type": "DoubleProperty",
+              "Name": "Custom Additive 4 Alpha",
+              "Flags": "RF_Public | RF_LoadCompleted",
+              "ElementSize": 8,
+              "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'ABP_HypsiPreview_C:ExecuteUbergraph_ABP_HypsiPreview'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.5"
+            },
+            "Property": {
+              "Type": "DoubleProperty",
+              "Name": "CallFunc_Subtract_DoubleDouble_ReturnValue_7",
+              "Flags": "RF_Public",
+              "ElementSize": 8
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 1052,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'ABP_HypsiPreview_C:ExecuteUbergraph_ABP_HypsiPreview'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.5"
+            },
+            "Property": {
+              "Type": "DoubleProperty",
+              "Name": "CallFunc_SelectFloat_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 8
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Class'KismetMathLibrary:SelectFloat'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_DoubleConst",
+              "Value": 0.0
+            },
+            {
+              "Inst": "EX_InstanceVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "AnimBlueprintGeneratedClass'ABP_HypsiPreview_C'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.1"
+                },
+                "Property": {
+                  "Type": "DoubleProperty",
+                  "Name": "Growth",
+                  "Flags": "RF_Public | RF_LoadCompleted",
+                  "ElementSize": 8,
+                  "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+                }
+              }
+            },
+            {
+              "Inst": "EX_InstanceVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "AnimBlueprintGeneratedClass'ABP_HypsiPreview_C'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.1"
+                },
+                "Property": {
+                  "Type": "BoolProperty",
+                  "Name": "IsFemale",
+                  "Flags": "RF_Public | RF_LoadCompleted",
+                  "ElementSize": 1,
+                  "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+                  "FieldSize": 1,
+                  "ByteOffset": 0,
+                  "ByteMask": 1,
+                  "FieldMask": 255,
+                  "BoolSize": 1,
+                  "bIsNativeBool": true
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 1107,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'ABP_HypsiPreview_C:ExecuteUbergraph_ABP_HypsiPreview'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.5"
+            },
+            "Property": {
+              "Type": "DoubleProperty",
+              "Name": "CallFunc_Multiply_DoubleDouble_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 8
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Class'KismetMathLibrary:Multiply_DoubleDouble'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'ABP_HypsiPreview_C:ExecuteUbergraph_ABP_HypsiPreview'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.5"
+                },
+                "Property": {
+                  "Type": "DoubleProperty",
+                  "Name": "CallFunc_SelectFloat_ReturnValue",
+                  "Flags": "RF_Public",
+                  "ElementSize": 8
+                }
+              }
+            },
+            {
+              "Inst": "EX_DoubleConst",
+              "Value": 5.0
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 1153,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'ABP_HypsiPreview_C:ExecuteUbergraph_ABP_HypsiPreview'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.5"
+            },
+            "Property": {
+              "Type": "DoubleProperty",
+              "Name": "CallFunc_Subtract_DoubleDouble_ReturnValue_4",
+              "Flags": "RF_Public",
+              "ElementSize": 8
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Class'KismetMathLibrary:Subtract_DoubleDouble'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'ABP_HypsiPreview_C:ExecuteUbergraph_ABP_HypsiPreview'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.5"
+                },
+                "Property": {
+                  "Type": "DoubleProperty",
+                  "Name": "CallFunc_Multiply_DoubleDouble_ReturnValue",
+                  "Flags": "RF_Public",
+                  "ElementSize": 8
+                }
+              }
+            },
+            {
+              "Inst": "EX_DoubleConst",
+              "Value": 3.0
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 1199,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'ABP_HypsiPreview_C:ExecuteUbergraph_ABP_HypsiPreview'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.5"
+            },
+            "Property": {
+              "Type": "DoubleProperty",
+              "Name": "CallFunc_FClamp_ReturnValue_2",
+              "Flags": "RF_Public",
+              "ElementSize": 8
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Class'KismetMathLibrary:FClamp'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'ABP_HypsiPreview_C:ExecuteUbergraph_ABP_HypsiPreview'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.5"
+                },
+                "Property": {
+                  "Type": "DoubleProperty",
+                  "Name": "CallFunc_Subtract_DoubleDouble_ReturnValue_4",
+                  "Flags": "RF_Public",
+                  "ElementSize": 8
+                }
+              }
+            },
+            {
+              "Inst": "EX_DoubleConst",
+              "Value": 0.0
+            },
+            {
+              "Inst": "EX_DoubleConst",
+              "Value": 1.0
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 1254,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'ABP_HypsiPreview_C:ExecuteUbergraph_ABP_HypsiPreview'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.5"
+            },
+            "Property": {
+              "Type": "DoubleProperty",
+              "Name": "CallFunc_Subtract_DoubleDouble_ReturnValue_6",
+              "Flags": "RF_Public",
+              "ElementSize": 8
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Class'KismetMathLibrary:Subtract_DoubleDouble'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_DoubleConst",
+              "Value": 1.0
+            },
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'ABP_HypsiPreview_C:ExecuteUbergraph_ABP_HypsiPreview'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.5"
+                },
+                "Property": {
+                  "Type": "DoubleProperty",
+                  "Name": "CallFunc_FClamp_ReturnValue_2",
+                  "Flags": "RF_Public",
+                  "ElementSize": 8
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 1300,
+        "Variable": {
+          "Inst": "EX_InstanceVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "AnimBlueprintGeneratedClass'ABP_HypsiPreview_C'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.1"
+            },
+            "Property": {
+              "Type": "DoubleProperty",
+              "Name": "Custom Additive 5 Alpha",
+              "Flags": "RF_Public | RF_LoadCompleted",
+              "ElementSize": 8,
+              "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'ABP_HypsiPreview_C:ExecuteUbergraph_ABP_HypsiPreview'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.5"
+            },
+            "Property": {
+              "Type": "DoubleProperty",
+              "Name": "CallFunc_Subtract_DoubleDouble_ReturnValue_6",
+              "Flags": "RF_Public",
+              "ElementSize": 8
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 1327,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'ABP_HypsiPreview_C:ExecuteUbergraph_ABP_HypsiPreview'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.5"
+            },
+            "Property": {
+              "Type": "DoubleProperty",
+              "Name": "CallFunc_SelectFloat_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 8
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Class'KismetMathLibrary:SelectFloat'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_DoubleConst",
+              "Value": 0.0
+            },
+            {
+              "Inst": "EX_InstanceVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "AnimBlueprintGeneratedClass'ABP_HypsiPreview_C'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.1"
+                },
+                "Property": {
+                  "Type": "DoubleProperty",
+                  "Name": "Growth",
+                  "Flags": "RF_Public | RF_LoadCompleted",
+                  "ElementSize": 8,
+                  "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+                }
+              }
+            },
+            {
+              "Inst": "EX_InstanceVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "AnimBlueprintGeneratedClass'ABP_HypsiPreview_C'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.1"
+                },
+                "Property": {
+                  "Type": "BoolProperty",
+                  "Name": "IsFemale",
+                  "Flags": "RF_Public | RF_LoadCompleted",
+                  "ElementSize": 1,
+                  "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+                  "FieldSize": 1,
+                  "ByteOffset": 0,
+                  "ByteMask": 1,
+                  "FieldMask": 255,
+                  "BoolSize": 1,
+                  "bIsNativeBool": true
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 1382,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'ABP_HypsiPreview_C:ExecuteUbergraph_ABP_HypsiPreview'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.5"
+            },
+            "Property": {
+              "Type": "DoubleProperty",
+              "Name": "CallFunc_Multiply_DoubleDouble_ReturnValue",
+              "Flags": "RF_Public",
+              "ElementSize": 8
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Class'KismetMathLibrary:Multiply_DoubleDouble'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'ABP_HypsiPreview_C:ExecuteUbergraph_ABP_HypsiPreview'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.5"
+                },
+                "Property": {
+                  "Type": "DoubleProperty",
+                  "Name": "CallFunc_SelectFloat_ReturnValue",
+                  "Flags": "RF_Public",
+                  "ElementSize": 8
+                }
+              }
+            },
+            {
+              "Inst": "EX_DoubleConst",
+              "Value": 5.0
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 1428,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'ABP_HypsiPreview_C:ExecuteUbergraph_ABP_HypsiPreview'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.5"
+            },
+            "Property": {
+              "Type": "DoubleProperty",
+              "Name": "CallFunc_Subtract_DoubleDouble_ReturnValue_1",
+              "Flags": "RF_Public",
+              "ElementSize": 8
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Class'KismetMathLibrary:Subtract_DoubleDouble'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'ABP_HypsiPreview_C:ExecuteUbergraph_ABP_HypsiPreview'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.5"
+                },
+                "Property": {
+                  "Type": "DoubleProperty",
+                  "Name": "CallFunc_Multiply_DoubleDouble_ReturnValue",
+                  "Flags": "RF_Public",
+                  "ElementSize": 8
+                }
+              }
+            },
+            {
+              "Inst": "EX_DoubleConst",
+              "Value": 4.0
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 1474,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'ABP_HypsiPreview_C:ExecuteUbergraph_ABP_HypsiPreview'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.5"
+            },
+            "Property": {
+              "Type": "DoubleProperty",
+              "Name": "CallFunc_FClamp_ReturnValue_1",
+              "Flags": "RF_Public",
+              "ElementSize": 8
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Class'KismetMathLibrary:FClamp'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'ABP_HypsiPreview_C:ExecuteUbergraph_ABP_HypsiPreview'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.5"
+                },
+                "Property": {
+                  "Type": "DoubleProperty",
+                  "Name": "CallFunc_Subtract_DoubleDouble_ReturnValue_1",
+                  "Flags": "RF_Public",
+                  "ElementSize": 8
+                }
+              }
+            },
+            {
+              "Inst": "EX_DoubleConst",
+              "Value": 0.0
+            },
+            {
+              "Inst": "EX_DoubleConst",
+              "Value": 1.0
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 1529,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'ABP_HypsiPreview_C:ExecuteUbergraph_ABP_HypsiPreview'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.5"
+            },
+            "Property": {
+              "Type": "DoubleProperty",
+              "Name": "CallFunc_Subtract_DoubleDouble_ReturnValue_3",
+              "Flags": "RF_Public",
+              "ElementSize": 8
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Class'KismetMathLibrary:Subtract_DoubleDouble'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_DoubleConst",
+              "Value": 1.0
+            },
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Owner": {
+                  "ObjectName": "Function'ABP_HypsiPreview_C:ExecuteUbergraph_ABP_HypsiPreview'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.5"
+                },
+                "Property": {
+                  "Type": "DoubleProperty",
+                  "Name": "CallFunc_FClamp_ReturnValue_1",
+                  "Flags": "RF_Public",
+                  "ElementSize": 8
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 1575,
+        "Variable": {
+          "Inst": "EX_InstanceVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "AnimBlueprintGeneratedClass'ABP_HypsiPreview_C'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.1"
+            },
+            "Property": {
+              "Type": "DoubleProperty",
+              "Name": "Custom Additive 6 Alpha",
+              "Flags": "RF_Public | RF_LoadCompleted",
+              "ElementSize": 8,
+              "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'ABP_HypsiPreview_C:ExecuteUbergraph_ABP_HypsiPreview'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_HypsiPreview.5"
+            },
+            "Property": {
+              "Type": "DoubleProperty",
+              "Name": "CallFunc_Subtract_DoubleDouble_ReturnValue_3",
+              "Flags": "RF_Public",
+              "ElementSize": 8
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_Return",
+        "StatementIndex": 1602,
+        "Expression": {
+          "Inst": "EX_Nothing"
+        }
+      },
+      {
+        "Inst": "EX_EndOfScript",
+        "StatementIndex": 1604
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "ScriptStruct",
+    "Name": "AnimBlueprintGeneratedConstantData",
+    "Outer": "ABP_HypsiPreview_C",
+    "Class": "UScriptClass'ScriptStruct'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'AnimBlueprintConstantData'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "ChildProperties": [
+      {
+        "Type": "NameProperty",
+        "Name": "__NameProperty_127",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 12,
+        "PropertyFlags": "BlueprintVisible"
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "__StructProperty_128",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 40,
+        "PropertyFlags": "BlueprintVisible",
+        "Struct": {
+          "ObjectName": "Class'AnimNodeFunctionRef'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "__BoolProperty_129",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "__FloatProperty_130",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible"
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "__StructProperty_131",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 44,
+        "PropertyFlags": "BlueprintVisible",
+        "Struct": {
+          "ObjectName": "Class'InputScaleBiasClampConstants'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "__FloatProperty_132",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible"
+      },
+      {
+        "Type": "EnumProperty",
+        "Name": "__EnumProperty_133",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible",
+        "Enum": {
+          "ObjectName": "Class'EAnimSyncMethod'",
+          "ObjectPath": "/Script/Engine"
+        },
+        "UnderlyingProp": {
+          "Type": "ByteProperty",
+          "Name": "UnderlyingType",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "__BoolProperty_134",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ByteProperty",
+        "Name": "__ByteProperty_135",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible",
+        "Enum": {
+          "ObjectName": "Class'EAnimGroupRole'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "NameProperty",
+        "Name": "__NameProperty_136",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 12,
+        "PropertyFlags": "BlueprintVisible"
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "AnimBlueprintExtension_PropertyAccess",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 192,
+        "Struct": {
+          "ObjectName": "Class'AnimSubsystem_PropertyAccess'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "AnimBlueprintExtension_Base",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 64,
+        "Struct": {
+          "ObjectName": "Class'AnimSubsystem_Base'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "AnimGraphNode_Root",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 56,
+        "Struct": {
+          "ObjectName": "Class'AnimNodeExposedValueHandler_PropertyAccess'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "AnimGraphNode_SequencePlayer_7",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 56,
+        "Struct": {
+          "ObjectName": "Class'AnimNodeExposedValueHandler_PropertyAccess'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "AnimGraphNode_ApplyAdditive_6",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 56,
+        "Struct": {
+          "ObjectName": "Class'AnimNodeExposedValueHandler_PropertyAccess'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "AnimGraphNode_SequencePlayer_6",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 56,
+        "Struct": {
+          "ObjectName": "Class'AnimNodeExposedValueHandler_PropertyAccess'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "AnimGraphNode_ApplyAdditive_5",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 56,
+        "Struct": {
+          "ObjectName": "Class'AnimNodeExposedValueHandler_PropertyAccess'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "AnimGraphNode_SequencePlayer_5",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 56,
+        "Struct": {
+          "ObjectName": "Class'AnimNodeExposedValueHandler_PropertyAccess'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "AnimGraphNode_ApplyAdditive_4",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 56,
+        "Struct": {
+          "ObjectName": "Class'AnimNodeExposedValueHandler_PropertyAccess'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "AnimGraphNode_SequencePlayer_4",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 56,
+        "Struct": {
+          "ObjectName": "Class'AnimNodeExposedValueHandler_PropertyAccess'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "AnimGraphNode_ApplyAdditive_3",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 56,
+        "Struct": {
+          "ObjectName": "Class'AnimNodeExposedValueHandler_PropertyAccess'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "AnimGraphNode_SequencePlayer_3",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 56,
+        "Struct": {
+          "ObjectName": "Class'AnimNodeExposedValueHandler_PropertyAccess'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "AnimGraphNode_ApplyAdditive_2",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 56,
+        "Struct": {
+          "ObjectName": "Class'AnimNodeExposedValueHandler_PropertyAccess'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "AnimGraphNode_SequencePlayer_2",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 56,
+        "Struct": {
+          "ObjectName": "Class'AnimNodeExposedValueHandler_PropertyAccess'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "AnimGraphNode_ApplyAdditive_1",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 56,
+        "Struct": {
+          "ObjectName": "Class'AnimNodeExposedValueHandler_PropertyAccess'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "AnimGraphNode_SequencePlayer_1",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 56,
+        "Struct": {
+          "ObjectName": "Class'AnimNodeExposedValueHandler_PropertyAccess'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "AnimGraphNode_ApplyAdditive",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 56,
+        "Struct": {
+          "ObjectName": "Class'AnimNodeExposedValueHandler_PropertyAccess'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "AnimGraphNode_SequencePlayer",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 56,
+        "Struct": {
+          "ObjectName": "Class'AnimNodeExposedValueHandler_PropertyAccess'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ]
+  }
+]
