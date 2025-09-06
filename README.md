@@ -16,7 +16,7 @@ This is a Python script that reads stat graphs and stat files from *The Isle* to
   For `BalanceAttributes` files, the tool presents the data in a clean, readable table instead of a plot.
 
 - **Virtual Plots**  
-  It can combine data from `BalanceAttributes` and `AttackPower` files to create *virtual* graphs that show the actual damage output of each attack type.
+  It can combine data from `BalanceAttributes` and `AttackPower` files to create "virtual" graphs that show the actual damage output of each attack type.
 
 ---
 
