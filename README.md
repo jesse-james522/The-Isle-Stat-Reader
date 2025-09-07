@@ -3,7 +3,11 @@
 This is a Python script that reads stat graphs and stat files from *The Isle* to give the most accurate stat overview you can get.
 
 Disclaimer: AI was used to clean up and convert the code to Python(i started of writing in ADA as that is what im learning in college, cba writing it in phyton as well)
-AI also assited in writing the read me to format it and make it cleaner
+AI also assited in writing the read me to format it and make it cleaner.
+
+# Made by pretzel3819 
+https://discord.gg/xBarq4rJ2K
+https://discord.gg/R8CPP7WWqd
 
 ---
 
