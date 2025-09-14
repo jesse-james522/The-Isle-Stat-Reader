@@ -1825,7 +1825,7 @@
     "Properties": {
       "StaggerDurationB": 1.5,
       "StaggerMovementDurationF": 0.9,
-      "NetworkSmoothingMode": "ENetworkSmoothingMode::Disabled"
+      "GroundFriction": 1536.0
     }
   },
   {

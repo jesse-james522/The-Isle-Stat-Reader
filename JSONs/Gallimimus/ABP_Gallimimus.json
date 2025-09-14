@@ -2248,62 +2248,9 @@
         }
       },
       "LoopsInGrazeAnimation": 2,
-      "LookYawLimit": 150.0,
-      "Adult": {
-        "Standing": {
-          "Uninjured": {
-            "Walk": {
-              "Speed": 225.0,
-              "Length": 1.333
-            },
-            "Trot": {
-              "Speed": 1000.0,
-              "Length": 0.9
-            },
-            "Sprint": {
-              "Speed": 1764.0,
-              "Length": 0.5666
-            }
-          },
-          "InjuredLeg": {
-            "Trot": {
-              "Speed": 255.0,
-              "Length": 0.83
-            }
-          },
-          "InjuredBody": {
-            "Trot": {
-              "Speed": 365.0,
-              "Length": 0.83
-            }
-          },
-          "InjuredLegsAndBody": {
-            "Trot": {
-              "Speed": 255.0,
-              "Length": 0.83
-            }
-          }
-        },
-        "Crouched": {
-          "Uninjured": {
-            "Walk": {
-              "Speed": 225.0,
-              "Length": 1.333
-            },
-            "Trot": {
-              "Speed": 1000.0,
-              "Length": 1.333
-            },
-            "Sprint": {
-              "Speed": 1764.0,
-              "Length": 1.333
-            }
-          }
-        }
-      }
-    },
-    "SerializedSparseClassDataStruct": "ScriptStruct'/Game/TheIsle/Core/Characters/Dinosaurs/Gallimimus/ABP_Gallimimus.ABP_Gallimimus_C:AnimBlueprintGeneratedConstantData'",
-    "SerializedSparseClassData": {}
+      "LookPitch": 150.0,
+      "SpeedDeltaAnimationWeight": 1.540979E-33
+    }
   },
   {
     "Type": "AnimBlueprintGeneratedClass",

@@ -9,10 +9,10 @@
       "AnimBlueprintExtension_Base": {},
       "AnimGraphNode_Root": {
         "Result": {
-          "LinkID": 1
+          "LinkID": 3
         }
       },
-      "AnimGraphNode_SequencePlayer": {
+      "AnimGraphNode_SequencePlayer_1": {
         "Sequence": {
           "ObjectName": "AnimSequence'A_Beipiaosaurus_Adult_Idle'",
           "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Beipiaosaurus/Animations/A_Beipiaosaurus_Adult_Idle.0"
@@ -20,19 +20,73 @@
         "PlayRateScaleBiasClampState": {},
         "BlendWeight": 0.0,
         "InternalTimeAccumulator": 0.0
+      },
+      "AnimGraphNode_SequencePlayer": {
+        "Sequence": {
+          "ObjectName": "AnimSequence'A_Beipiaosaurus_Juvenile_Idle'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Beipiaosaurus/Animations/A_Beipiaosaurus_Juvenile_Idle.0"
+        },
+        "PlayRateScaleBiasClampState": {},
+        "BlendWeight": 0.0,
+        "InternalTimeAccumulator": 0.0
+      },
+      "AnimGraphNode_TwoWayBlend": {
+        "A": {
+          "LinkID": 1
+        },
+        "B": {
+          "LinkID": 2
+        },
+        "AlphaInputType": "EAnimAlphaInputType::Float",
+        "bAlphaBoolEnabled": true,
+        "bResetChildOnActivation": false,
+        "bAlwaysUpdateChildren": false,
+        "Alpha": 0.0,
+        "AlphaScaleBias": {
+          "Scale": 1.0,
+          "Bias": 0.0
+        },
+        "AlphaBoolBlend": {
+          "BlendInTime": 0.0,
+          "BlendOutTime": 0.0,
+          "BlendOption": "EAlphaBlendOption::Linear",
+          "bInitialized": false,
+          "CustomCurve": null,
+          "AlphaBlend": {
+            "CustomCurve": null,
+            "BlendTime": 0.2,
+            "BlendOption": "EAlphaBlendOption::Linear"
+          }
+        },
+        "AlphaCurveName": "None",
+        "AlphaScaleBiasClamp": {
+          "bMapRange": false,
+          "bClampResult": false,
+          "bInterpResult": false,
+          "InRange": {
+            "Min": 0.0,
+            "Max": 1.0
+          },
+          "OutRange": {
+            "Min": 0.0,
+            "Max": 1.0
+          },
+          "Scale": 1.0,
+          "Bias": 0.0,
+          "ClampMin": 0.0,
+          "ClampMax": 1.0,
+          "InterpSpeedIncreasing": 10.0,
+          "InterpSpeedDecreasing": 10.0
+        }
       }
     },
     "SerializedSparseClassDataStruct": "ScriptStruct'/Game/TheIsle/Core/Characters/Dinosaurs/Beipiaosaurus/ABP_Beipiaosaurus_Preview.ABP_Beipiaosaurus_Preview_C:AnimBlueprintGeneratedConstantData'",
     "SerializedSparseClassData": {
-      "__NameProperty_7": "DefaultSharedGroup",
-      "__NameProperty_8": "AnimGraph",
-      "__StructProperty_9": {
-        "ClassName": "None",
-        "FunctionName": "None"
-      },
-      "__BoolProperty_10": true,
-      "__FloatProperty_11": 0.0,
-      "__StructProperty_12": {
+      "__NameProperty_24": "DefaultSharedGroup",
+      "__NameProperty_25": "AnimGraph",
+      "__BoolProperty_26": true,
+      "__FloatProperty_27": 0.0,
+      "__StructProperty_28": {
         "bMapRange": false,
         "bClampResult": false,
         "bInterpResult": false,
@@ -51,17 +105,94 @@
         "InterpSpeedIncreasing": 10.0,
         "InterpSpeedDecreasing": 10.0
       },
-      "__FloatProperty_13": 1.0,
-      "__EnumProperty_14": "EAnimSyncMethod::DoNotSync",
-      "__BoolProperty_15": false,
-      "__ByteProperty_16": "EAnimGroupRole::CanBeLeader",
-      "__NameProperty_17": "None",
+      "__FloatProperty_29": 1.0,
+      "__EnumProperty_30": "EAnimSyncMethod::DoNotSync",
+      "__BoolProperty_31": false,
+      "__ByteProperty_32": "EAnimGroupRole::CanBeLeader",
+      "__NameProperty_33": "None",
+      "__StructProperty_34": {
+        "ClassName": "None",
+        "FunctionName": "None"
+      },
       "AnimBlueprintExtension_PropertyAccess": {
         "Library": {
-          "PathSegments": [],
-          "SrcPaths": [],
-          "DestPaths": [],
-          "CopyBatchArray": []
+          "PathSegments": [
+            {
+              "Name": "Growth",
+              "Struct": null,
+              "Property": {
+                "Path": [
+                  "Growth"
+                ],
+                "ResolvedOwner": {
+                  "ObjectName": "AnimBlueprintGeneratedClass'ABP_Beipiaosaurus_Preview_C'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Beipiaosaurus/ABP_Beipiaosaurus_Preview.1"
+                }
+              },
+              "Function": null,
+              "ArrayIndex": -1,
+              "Flags": 2
+            },
+            {
+              "Name": "AnimGraphNode_TwoWayBlend",
+              "Struct": {
+                "ObjectName": "Class'AnimNode_TwoWayBlend'",
+                "ObjectPath": "/Script/AnimGraphRuntime"
+              },
+              "Property": {
+                "Path": [
+                  "AnimGraphNode_TwoWayBlend"
+                ],
+                "ResolvedOwner": {
+                  "ObjectName": "AnimBlueprintGeneratedClass'ABP_Beipiaosaurus_Preview_C'",
+                  "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Beipiaosaurus/ABP_Beipiaosaurus_Preview.1"
+                }
+              },
+              "Function": null,
+              "ArrayIndex": -1,
+              "Flags": 1
+            },
+            {
+              "Name": "Alpha",
+              "Struct": null,
+              "Property": {
+                "Path": [
+                  "Alpha"
+                ],
+                "ResolvedOwner": {
+                  "ObjectName": "Class'AnimNode_TwoWayBlend'",
+                  "ObjectPath": "/Script/AnimGraphRuntime"
+                }
+              },
+              "Function": null,
+              "ArrayIndex": -1,
+              "Flags": 2
+            }
+          ],
+          "SrcPaths": [
+            {
+              "PathSegmentStartIndex": 0,
+              "PathSegmentCount": 1
+            }
+          ],
+          "DestPaths": [
+            {
+              "PathSegmentStartIndex": 1,
+              "PathSegmentCount": 2
+            }
+          ],
+          "CopyBatchArray": [
+            {
+              "Copies": [
+                {
+                  "AccessIndex": 0,
+                  "DestAccessStartIndex": 0,
+                  "DestAccessEndIndex": 1,
+                  "Type": "EPropertyAccessCopyType::DemoteDoubleToFloat"
+                }
+              ]
+            }
+          ]
         }
       },
       "AnimBlueprintExtension_Base": {},
@@ -70,8 +201,24 @@
         "Function": null,
         "BoundFunction": "None"
       },
+      "AnimGraphNode_SequencePlayer_1": {
+        "CopyRecords": [],
+        "Function": null,
+        "BoundFunction": "None"
+      },
       "AnimGraphNode_SequencePlayer": {
         "CopyRecords": [],
+        "Function": null,
+        "BoundFunction": "None"
+      },
+      "AnimGraphNode_TwoWayBlend": {
+        "CopyRecords": [
+          {
+            "CopyIndex": 0,
+            "PostCopyOperation": "EPostCopyOperation::None",
+            "bOnlyUpdateWhenActive": false
+          }
+        ],
         "Function": null,
         "BoundFunction": "None"
       }
@@ -92,7 +239,8 @@
           "Key": "AnimGraph",
           "Value": {
             "PlayerNodeIndices": [
-              0
+              1,
+              2
             ]
           }
         }
@@ -104,9 +252,9 @@
             "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Beipiaosaurus/ABP_Beipiaosaurus_Preview.1"
           },
           "Entries": [
-            2,
-            2,
-            2,
+            10,
+            10,
+            10,
             4294967295,
             1,
             0,
@@ -121,33 +269,172 @@
             "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Beipiaosaurus/ABP_Beipiaosaurus_Preview.1"
           },
           "Entries": [
-            2,
-            2,
-            2,
-            4294967295,
-            4294967295,
-            4294967295,
-            4294967295,
-            4294967295,
             10,
+            10,
+            10,
+            4294967295,
+            4294967295,
+            4294967295,
+            4294967295,
+            4294967295,
             9,
             8,
             7,
-            8,
+            6,
+            7,
             4294967295,
-            6,
-            6,
             5,
-            4294967295,
+            5,
             4,
+            4294967295,
             3,
-            8
+            2,
+            7
           ],
           "NodeIndex": 1,
+          "Flags": 0
+        },
+        {
+          "AnimClassInterface": {
+            "ObjectName": "AnimBlueprintGeneratedClass'ABP_Beipiaosaurus_Preview_C'",
+            "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Beipiaosaurus/ABP_Beipiaosaurus_Preview.1"
+          },
+          "Entries": [
+            10,
+            10,
+            10,
+            4294967295,
+            4294967295,
+            4294967295,
+            4294967295,
+            4294967295,
+            9,
+            8,
+            7,
+            6,
+            7,
+            4294967295,
+            5,
+            5,
+            4,
+            4294967295,
+            3,
+            7,
+            7
+          ],
+          "NodeIndex": 2,
+          "Flags": 0
+        },
+        {
+          "AnimClassInterface": {
+            "ObjectName": "AnimBlueprintGeneratedClass'ABP_Beipiaosaurus_Preview_C'",
+            "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Beipiaosaurus/ABP_Beipiaosaurus_Preview.1"
+          },
+          "Entries": [
+            10,
+            10,
+            10,
+            4294967295,
+            4294967295,
+            4294967295,
+            4294967295,
+            4294967295,
+            4294967295,
+            4294967295,
+            4294967295,
+            4294967295,
+            4294967295,
+            4294967295
+          ],
+          "NodeIndex": 3,
           "Flags": 0
         }
       ],
       "NodeTypeMap": [
+        {
+          "Key": "Class'/Script/AnimGraphRuntime.AnimNode_TwoWayBlend'",
+          "Value": {
+            "NameToIndexMap": [
+              {
+                "Key": "InitialUpdateFunction",
+                "Value": 0
+              },
+              {
+                "Key": "BecomeRelevantFunction",
+                "Value": 1
+              },
+              {
+                "Key": "UpdateFunction",
+                "Value": 2
+              },
+              {
+                "Key": "A",
+                "Value": 3
+              },
+              {
+                "Key": "B",
+                "Value": 4
+              },
+              {
+                "Key": "AlphaInputType",
+                "Value": 5
+              },
+              {
+                "Key": "bResetChildOnActivation",
+                "Value": 6
+              },
+              {
+                "Key": "bAlphaBoolEnabled",
+                "Value": 7
+              },
+              {
+                "Key": "bAlwaysUpdateChildren",
+                "Value": 8
+              },
+              {
+                "Key": "Alpha",
+                "Value": 9
+              },
+              {
+                "Key": "AlphaScaleBias",
+                "Value": 10
+              },
+              {
+                "Key": "AlphaBoolBlend",
+                "Value": 11
+              },
+              {
+                "Key": "AlphaCurveName",
+                "Value": 12
+              },
+              {
+                "Key": "AlphaScaleBiasClamp",
+                "Value": 13
+              }
+            ],
+            "NumProperties": 14
+          }
+        },
+        {
+          "Key": "Class'/Script/Engine.AnimNode_Base'",
+          "Value": {
+            "NameToIndexMap": [
+              {
+                "Key": "InitialUpdateFunction",
+                "Value": 0
+              },
+              {
+                "Key": "BecomeRelevantFunction",
+                "Value": 1
+              },
+              {
+                "Key": "UpdateFunction",
+                "Value": 2
+              }
+            ],
+            "NumProperties": 3
+          }
+        },
         {
           "Key": "Class'/Script/Engine.AnimNode_SequencePlayer'",
           "Value": {
@@ -337,26 +624,6 @@
           }
         },
         {
-          "Key": "Class'/Script/Engine.AnimNode_Base'",
-          "Value": {
-            "NameToIndexMap": [
-              {
-                "Key": "InitialUpdateFunction",
-                "Value": 0
-              },
-              {
-                "Key": "BecomeRelevantFunction",
-                "Value": 1
-              },
-              {
-                "Key": "UpdateFunction",
-                "Value": 2
-              }
-            ],
-            "NumProperties": 3
-          }
-        },
-        {
           "Key": "Class'/Script/Engine.AnimNode_Root'",
           "Value": {
             "NameToIndexMap": [
@@ -437,6 +704,16 @@
       },
       {
         "Type": "StructProperty",
+        "Name": "AnimGraphNode_SequencePlayer_1",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 328,
+        "Struct": {
+          "ObjectName": "Class'AnimNode_SequencePlayer'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
         "Name": "AnimGraphNode_SequencePlayer",
         "Flags": "RF_Public | RF_LoadCompleted",
         "ElementSize": 328,
@@ -444,6 +721,23 @@
           "ObjectName": "Class'AnimNode_SequencePlayer'",
           "ObjectPath": "/Script/Engine"
         }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "AnimGraphNode_TwoWayBlend",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 336,
+        "Struct": {
+          "ObjectName": "Class'AnimNode_TwoWayBlend'",
+          "ObjectPath": "/Script/AnimGraphRuntime"
+        }
+      },
+      {
+        "Type": "DoubleProperty",
+        "Name": "Growth",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
       }
     ],
     "FuncMap": {
@@ -551,32 +845,21 @@
     "ChildProperties": [
       {
         "Type": "NameProperty",
-        "Name": "__NameProperty_7",
+        "Name": "__NameProperty_24",
         "Flags": "RF_Public | RF_LoadCompleted",
         "ElementSize": 12,
         "PropertyFlags": "BlueprintVisible"
       },
       {
         "Type": "NameProperty",
-        "Name": "__NameProperty_8",
+        "Name": "__NameProperty_25",
         "Flags": "RF_Public | RF_LoadCompleted",
         "ElementSize": 12,
         "PropertyFlags": "BlueprintVisible"
       },
       {
-        "Type": "StructProperty",
-        "Name": "__StructProperty_9",
-        "Flags": "RF_Public | RF_LoadCompleted",
-        "ElementSize": 40,
-        "PropertyFlags": "BlueprintVisible",
-        "Struct": {
-          "ObjectName": "Class'AnimNodeFunctionRef'",
-          "ObjectPath": "/Script/Engine"
-        }
-      },
-      {
         "Type": "BoolProperty",
-        "Name": "__BoolProperty_10",
+        "Name": "__BoolProperty_26",
         "Flags": "RF_Public | RF_LoadCompleted",
         "ElementSize": 1,
         "PropertyFlags": "BlueprintVisible",
@@ -589,14 +872,14 @@
       },
       {
         "Type": "FloatProperty",
-        "Name": "__FloatProperty_11",
+        "Name": "__FloatProperty_27",
         "Flags": "RF_Public | RF_LoadCompleted",
         "ElementSize": 4,
         "PropertyFlags": "BlueprintVisible"
       },
       {
         "Type": "StructProperty",
-        "Name": "__StructProperty_12",
+        "Name": "__StructProperty_28",
         "Flags": "RF_Public | RF_LoadCompleted",
         "ElementSize": 44,
         "PropertyFlags": "BlueprintVisible",
@@ -607,14 +890,14 @@
       },
       {
         "Type": "FloatProperty",
-        "Name": "__FloatProperty_13",
+        "Name": "__FloatProperty_29",
         "Flags": "RF_Public | RF_LoadCompleted",
         "ElementSize": 4,
         "PropertyFlags": "BlueprintVisible"
       },
       {
         "Type": "EnumProperty",
-        "Name": "__EnumProperty_14",
+        "Name": "__EnumProperty_30",
         "Flags": "RF_Public | RF_LoadCompleted",
         "ElementSize": 1,
         "PropertyFlags": "BlueprintVisible",
@@ -632,7 +915,7 @@
       },
       {
         "Type": "BoolProperty",
-        "Name": "__BoolProperty_15",
+        "Name": "__BoolProperty_31",
         "Flags": "RF_Public | RF_LoadCompleted",
         "ElementSize": 1,
         "PropertyFlags": "BlueprintVisible",
@@ -645,7 +928,7 @@
       },
       {
         "Type": "ByteProperty",
-        "Name": "__ByteProperty_16",
+        "Name": "__ByteProperty_32",
         "Flags": "RF_Public | RF_LoadCompleted",
         "ElementSize": 1,
         "PropertyFlags": "BlueprintVisible",
@@ -656,10 +939,21 @@
       },
       {
         "Type": "NameProperty",
-        "Name": "__NameProperty_17",
+        "Name": "__NameProperty_33",
         "Flags": "RF_Public | RF_LoadCompleted",
         "ElementSize": 12,
         "PropertyFlags": "BlueprintVisible"
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "__StructProperty_34",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 40,
+        "PropertyFlags": "BlueprintVisible",
+        "Struct": {
+          "ObjectName": "Class'AnimNodeFunctionRef'",
+          "ObjectPath": "/Script/Engine"
+        }
       },
       {
         "Type": "StructProperty",
@@ -693,7 +987,27 @@
       },
       {
         "Type": "StructProperty",
+        "Name": "AnimGraphNode_SequencePlayer_1",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 56,
+        "Struct": {
+          "ObjectName": "Class'AnimNodeExposedValueHandler_PropertyAccess'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
         "Name": "AnimGraphNode_SequencePlayer",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 56,
+        "Struct": {
+          "ObjectName": "Class'AnimNodeExposedValueHandler_PropertyAccess'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "AnimGraphNode_TwoWayBlend",
         "Flags": "RF_Public | RF_LoadCompleted",
         "ElementSize": 56,
         "Struct": {

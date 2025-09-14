@@ -275,6 +275,13 @@
             "ObjectName": "BlueprintGeneratedClass'GA_HatchClosedNest_C'",
             "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/GA_HatchClosedNest.0"
           }
+        },
+        {
+          "Command": "ETIGameplayAbilityInputBinds::None",
+          "GameplayAbilityClass": {
+            "ObjectName": "BlueprintGeneratedClass'GA_BiteTyrannosaurus_Spasm_C'",
+            "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Attacks/GA_BiteTyrannosaurus_Spasm.0"
+          }
         }
       ]
     }

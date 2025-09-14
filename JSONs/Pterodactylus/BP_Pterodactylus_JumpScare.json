@@ -293,65 +293,10 @@
         "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Pterodactylus/BP_Pterodactylus_JumpScare.1"
       },
       "FlyingBiteDelay": 0.1,
-      "DinosaurAssets": {
-        "ObjectName": "TIDinosaurAssets'DA_DinosaurAssets'",
-        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/DA_DinosaurAssets.0"
-      },
-      "DinosaurMovement": {
-        "ObjectName": "TIFlyingDinosaurMovementComponent'Default__BP_Pterodactylus_JumpScare_C:CharMoveComp'",
-        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Pterodactylus/BP_Pterodactylus_JumpScare.34"
-      },
-      "BiteTraceSphereRadius": 90.0,
-      "BiteTraceDownwardsAngleLimit": 120.0,
-      "bIsScavenger": true,
-      "AttributeCurveDataTable": {
-        "ObjectName": "DataTable'DT_PterodactylusAttributeCurves'",
-        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Pterodactylus/Attributes/DT_PterodactylusAttributeCurves.0"
-      },
-      "AttributeBalanceDataTable": {
-        "ObjectName": "DataTable'DT_PterodactylusBalanceAttributes'",
-        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Pterodactylus/DT_PterodactylusBalanceAttributes.0"
-      },
-      "VocalsDataTable": {
-        "ObjectName": "DataTable'DT_PterodactylusVocals'",
-        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Pterodactylus/Vocals/DT_PterodactylusVocals.0"
-      },
-      "DeathPhysicsAsset": {
-        "AssetPathName": "/Game/TheIsle/Characters/Dinosaurs/Pterodactylus/PHYS_Pterodactylus.PHYS_Pterodactylus",
-        "SubPathString": ""
-      },
-      "CharacterAssets": {
-        "ObjectName": "TICharacterAssets'DA_CharacterAssets'",
-        "ObjectPath": "/Game/TheIsle/Core/Characters/DA_CharacterAssets.0"
-      },
-      "AbilitySet": {
-        "ObjectName": "TIGameplayAbilitySet'DA_PterodactylusGameplayAbilities'",
-        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Pterodactylus/DA_PterodactylusGameplayAbilities.0"
-      },
-      "Montages": {
-        "ObjectName": "TIDinosaurMontages'DA_PterodactylusMontages'",
-        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Pterodactylus/DA_PterodactylusMontages.0"
-      },
-      "SmallVocalsSubmix": {
-        "ObjectName": "SoundSubmix'Submix_SmallRoar_Distant'",
-        "ObjectPath": "/Game/TheIsle/Sound/_Utilities/SubMixes/Submix_SmallRoar_Distant.0"
-      },
-      "MediumVocalsSubmix": {
-        "ObjectName": "SoundSubmix'Submix_MediumRoars_Distant'",
-        "ObjectPath": "/Game/TheIsle/Sound/_Utilities/SubMixes/Submix_MediumRoars_Distant.0"
-      },
-      "LargeVocalsSubmix": {
-        "ObjectName": "SoundSubmix'Submix_LargeRoars'",
-        "ObjectPath": "/Game/TheIsle/Sound/_Utilities/SubMixes/Submix_LargeRoars.0"
-      },
-      "AntiCheatComponent": {
-        "ObjectName": "TIAntiCheatComponent'Default__BP_Pterodactylus_JumpScare_C:AntiCheatComponent'",
-        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Pterodactylus/BP_Pterodactylus_JumpScare.32"
-      },
-      "AbilitySystemComponent": {
-        "ObjectName": "TIAbilitySystemComponent'Default__BP_Pterodactylus_JumpScare_C:AbilitySystemComponent'",
-        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Pterodactylus/BP_Pterodactylus_JumpScare.31"
-      }
+      "MaxAbilityCharges": 120,
+      "DownwardsCameraYawOffset": null,
+      "bDrawBiteDebug": false,
+      "DietGrowthFactor": 0.0
     }
   },
   {
@@ -1798,19 +1743,15 @@
     "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "FlyingAccelerationMultiplier": 20.0,
-      "BuoyancyPossessed": 1000.0,
-      "BuoyancyUnPossessed": 1000.0,
-      "GravityToWorldTransform": {
-        "X": 2.597302E+22,
-        "Y": 0.0,
-        "Z": 180.0,
-        "W": 0.0,
-        "IsNormalized": false,
-        "Size": "Infinity",
-        "SizeSquared": "Infinity"
+      "PreviousTickVelocity": {
+        "X": 7.6738467E+21,
+        "Y": 2.597302E+22,
+        "Z": 0.0
       },
-      "CustomMovementMode": 130,
-      "AirControlBoostMultiplier": 3.63E-43
+      "VelocityDelta": 0.0,
+      "MaxWalkSpeed": 3.6015625,
+      "MaxSwimSpeed": 0.0,
+      "PerchRadiusThreshold": 0.0
     }
   },
   {

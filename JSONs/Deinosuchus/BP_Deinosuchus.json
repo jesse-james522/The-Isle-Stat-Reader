@@ -3326,12 +3326,8 @@
     "Class": "UScriptClass'TIDinosaurMovementComponent'",
     "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
-      "RequestedSpeed": {
-        "X": 2.9975964E+19,
-        "Y": 0.0,
-        "Z": 0.0
-      },
-      "NetworkSmoothingMode": "ENetworkSmoothingMode::160"
+      "RequestedYaw": 420.0,
+      "GroundFriction": 500.0
     }
   },
   {

@@ -1819,7 +1819,7 @@
     "Class": "UScriptClass'TIBeipiaosaurusMovementComponent'",
     "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
-      "NetworkSmoothingMode": "ENetworkSmoothingMode::Disabled"
+      "GroundFriction": 1536.0
     }
   },
   {

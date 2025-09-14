@@ -1122,14 +1122,18 @@
     },
     "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
-      "FastSwimSpeed": 1664.0,
-      "FracturedCrouchSprintSpeed": 1664.0,
-      "GravityDirection": {
+      "CrouchWalkSpeed": 1664.0,
+      "WalkSpeed": 1664.0,
+      "WorldToGravityTransform": {
         "X": 0.0,
         "Y": 0.0,
-        "Z": 0.0
+        "Z": 0.0,
+        "W": 0.0,
+        "IsNormalized": false,
+        "Size": 0.0,
+        "SizeSquared": 0.0
       },
-      "bServerAcceptClientAuthoritativePosition": false
+      "bNotifyApex": false
     }
   },
   {

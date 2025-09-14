@@ -2051,61 +2051,8 @@
             }
           }
         }
-      },
-      "HeadtrackBlockingAbilityStates": [
-        "AS_Swallowing",
-        "AS_DraggingCorpseL",
-        "AS_DraggingCorpseR",
-        "AS_Use",
-        "AS_Eat",
-        "AS_Drink",
-        "AS_Interacting",
-        "AS_MAX",
-        "AS_Sleeping",
-        "AS_Blinded",
-        "AS_PounceAttackingSmall",
-        "AS_PounceAttackingBig",
-        "AS_PounceStarted",
-        "AS_PounceStartedSprint",
-        "AS_PouncedHitBig"
-      ],
-      "Adult": {
-        "Standing": {
-          "Uninjured": {
-            "Walk": {
-              "Speed": 180.0,
-              "Length": 1.5
-            },
-            "Trot": {
-              "Speed": 550.0,
-              "Length": 1.5
-            },
-            "Sprint": {
-              "Speed": 1711.0,
-              "Length": 1.5
-            }
-          }
-        },
-        "Crouched": {
-          "Uninjured": {
-            "Walk": {
-              "Speed": 180.0,
-              "Length": 1.5
-            },
-            "Trot": {
-              "Speed": 550.0,
-              "Length": 1.5
-            },
-            "Sprint": {
-              "Speed": 1711.0,
-              "Length": 1.5
-            }
-          }
-        }
       }
-    },
-    "SerializedSparseClassDataStruct": "ScriptStruct'/Game/TheIsle/Core/Characters/Dinosaurs/Carnotaurus/ABP_Carnotaurus.ABP_Carnotaurus_C:AnimBlueprintGeneratedConstantData'",
-    "SerializedSparseClassData": {}
+    }
   },
   {
     "Type": "AnimBlueprintGeneratedClass",

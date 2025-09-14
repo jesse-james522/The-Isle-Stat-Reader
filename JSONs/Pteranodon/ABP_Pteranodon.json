@@ -2504,55 +2504,8 @@
           }
         }
       },
-      "Adult": {
-        "Standing": {
-          "Uninjured": {
-            "Walk": {
-              "Speed": 40.0,
-              "Length": 2.0
-            },
-            "Trot": {
-              "Speed": 200.0,
-              "Length": 1.066
-            },
-            "Sprint": {
-              "Speed": 880.0,
-              "Length": 0.5333
-            }
-          },
-          "InjuredLeg": {
-            "Sprint": {
-              "Speed": 400.0,
-              "Length": 1.066
-            }
-          },
-          "InjuredLegsAndBody": {
-            "Sprint": {
-              "Speed": 400.0,
-              "Length": 1.066
-            }
-          }
-        },
-        "Crouched": {
-          "Uninjured": {
-            "Walk": {
-              "Speed": 40.0,
-              "Length": 2.0
-            },
-            "Trot": {
-              "Speed": 200.0,
-              "Length": 2.0
-            },
-            "Sprint": {
-              "Speed": 880.0,
-              "Length": 2.0
-            }
-          }
-        }
-      }
-    },
-    "SerializedSparseClassDataStruct": "ScriptStruct'/Game/TheIsle/Core/Characters/Dinosaurs/Pteranodon/ABP_Pteranodon.ABP_Pteranodon_C:AnimBlueprintGeneratedConstantData'",
-    "SerializedSparseClassData": {}
+      "SpeedDeltaAnimationWeight": 1.5048624E-36
+    }
   },
   {
     "Type": "AnimBlueprintGeneratedClass",

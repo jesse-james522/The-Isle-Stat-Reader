@@ -2161,43 +2161,8 @@
           }
         }
       },
-      "Adult": {
-        "Standing": {
-          "Uninjured": {
-            "Walk": {
-              "Speed": 150.0,
-              "Length": 0.6667
-            },
-            "Trot": {
-              "Speed": 350.0,
-              "Length": 0.5
-            },
-            "Sprint": {
-              "Speed": 1100.0,
-              "Length": 0.3666
-            }
-          }
-        },
-        "Crouched": {
-          "Uninjured": {
-            "Walk": {
-              "Speed": 150.0,
-              "Length": 0.6667
-            },
-            "Trot": {
-              "Speed": 350.0,
-              "Length": 0.6667
-            },
-            "Sprint": {
-              "Speed": 1100.0,
-              "Length": 0.6667
-            }
-          }
-        }
-      }
-    },
-    "SerializedSparseClassDataStruct": "ScriptStruct'/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/ABP_Hypsilophodon.ABP_Hypsilophodon_C:AnimBlueprintGeneratedConstantData'",
-    "SerializedSparseClassData": {}
+      "SpeedDeltaAnimationWeight": 3.762156E-37
+    }
   },
   {
     "Type": "AnimBlueprintGeneratedClass",

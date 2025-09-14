@@ -2587,43 +2587,8 @@
           }
         }
       },
-      "Adult": {
-        "Standing": {
-          "Uninjured": {
-            "Walk": {
-              "Speed": 100.0,
-              "Length": 1.0
-            },
-            "Trot": {
-              "Speed": 288.0,
-              "Length": 0.7
-            },
-            "Sprint": {
-              "Speed": 780.0,
-              "Length": 0.4667
-            }
-          }
-        },
-        "Crouched": {
-          "Uninjured": {
-            "Walk": {
-              "Speed": 100.0,
-              "Length": 1.0
-            },
-            "Trot": {
-              "Speed": 288.0,
-              "Length": 1.0
-            },
-            "Sprint": {
-              "Speed": 780.0,
-              "Length": 1.0
-            }
-          }
-        }
-      }
-    },
-    "SerializedSparseClassDataStruct": "ScriptStruct'/Game/TheIsle/Core/Characters/Dinosaurs/Beipiaosaurus/ABP_Beipiaosaurus.ABP_Beipiaosaurus_C:AnimBlueprintGeneratedConstantData'",
-    "SerializedSparseClassData": {}
+      "SpeedDeltaAnimationWeight": 3.762156E-37
+    }
   },
   {
     "Type": "AnimBlueprintGeneratedClass",

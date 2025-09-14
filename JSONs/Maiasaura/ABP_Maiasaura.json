@@ -2378,56 +2378,9 @@
           }
         }
       },
-      "Adult": {
-        "Standing": {
-          "Uninjured": {
-            "Walk": {
-              "Speed": 183.0,
-              "Length": 1.3666
-            },
-            "Trot": {
-              "Speed": 500.0,
-              "Length": 1.0
-            },
-            "Sprint": {
-              "Speed": 1305.0,
-              "Length": 0.7666
-            }
-          }
-        },
-        "Crouched": {
-          "Uninjured": {
-            "Walk": {
-              "Speed": 183.0,
-              "Length": 1.366
-            },
-            "Trot": {
-              "Speed": 500.0,
-              "Length": 1.0
-            },
-            "Sprint": {
-              "Speed": 978.0,
-              "Length": 0.7666
-            }
-          },
-          "InjuredLeg": {
-            "Sprint": {
-              "Speed": 1000.0,
-              "Length": 0.5
-            }
-          },
-          "InjuredLegsAndBody": {
-            "Sprint": {
-              "Speed": 1000.0,
-              "Length": 0.5
-            }
-          }
-        }
-      },
-      "SpeedDeltaAnimationWeight": 0.0
-    },
-    "SerializedSparseClassDataStruct": "ScriptStruct'/Game/TheIsle/Core/Characters/Dinosaurs/Maiasaura/ABP_Maiasaura.ABP_Maiasaura_C:AnimBlueprintGeneratedConstantData'",
-    "SerializedSparseClassData": {}
+      "SpeedDeltaAnimationWeight": 3.762156E-37,
+      "FracturedWalkSpeedDeltaMult": 0.0
+    }
   },
   {
     "Type": "AnimBlueprintGeneratedClass",

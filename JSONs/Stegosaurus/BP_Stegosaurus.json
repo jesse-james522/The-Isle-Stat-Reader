@@ -278,6 +278,14 @@
       "LookBackOffsetX": 200.0,
       "LookBackOffsetY": 200.0,
       "LookBackOffsetZ": -150.0,
+      "JuvenileGrowthTimeMinutes": 180.0,
+      "SubadultGrowthTimeMinutes": 405.0,
+      "AdultGrowthTimeMinutes": 445.0,
+      "GeneralSettings": {
+        "WeightThresholdWhenStung": 180.0,
+        "WeightThresholdWhenSwarmed": 250.0,
+        "AdultDietWeightThreshold": 200.0
+      },
       "AttributeCurveDataTable": {
         "ObjectName": "DataTable'DT_StegosaurusAttributeCurves'",
         "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Stegosaurus/Attributes/DT_StegosaurusAttributeCurves.0"
@@ -1854,7 +1862,7 @@
     "Class": "UScriptClass'TIDinosaurMovementComponent'",
     "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
-      "NetworkSmoothingMode": "ENetworkSmoothingMode::Disabled"
+      "GroundFriction": 1500.0
     }
   },
   {

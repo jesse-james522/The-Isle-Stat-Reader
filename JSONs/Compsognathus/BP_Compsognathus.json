@@ -1227,20 +1227,12 @@
     "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "SlideDuration": 0.25,
-      "RequestedSpeed": {
-        "X": 1.5111576E+23,
-        "Y": 134217760.0,
-        "Z": 0.0
-      },
-      "NetworkSmoothingMode": "ENetworkSmoothingMode::Disabled",
-      "BrakingFrictionFactor": 0.0,
-      "BrakingDecelerationFalling": 5.914242E-39,
-      "AirControlBoostMultiplier": 0.0,
-      "AnimRootMotionVelocity": {
-        "X": 0.0,
-        "Y": 0.0,
-        "Z": "NaN"
-      }
+      "RequestedYaw": 400.0,
+      "GroundFriction": 1536.0,
+      "BrakingFriction": 0.25,
+      "BrakingDecelerationSwimming": 20.0,
+      "AirControlBoostVelocityThreshold": 0.0,
+      "PawnOwner": null
     }
   },
   {

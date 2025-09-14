@@ -145,17 +145,6 @@
             "ArriveTangentWeight": 0.0,
             "LeaveTangent": 0.0,
             "LeaveTangentWeight": 0.0
-          },
-          {
-            "InterpMode": "RCIM_Cubic",
-            "TangentMode": "RCTM_User",
-            "TangentWeightMode": "RCTWM_WeightedNone",
-            "Time": 0.875,
-            "Value": 447.0,
-            "ArriveTangent": 0.0,
-            "ArriveTangentWeight": 0.083333336,
-            "LeaveTangent": 0.0,
-            "LeaveTangentWeight": 0.0
           }
         ],
         "DefaultValue": 3.4028235E+38,

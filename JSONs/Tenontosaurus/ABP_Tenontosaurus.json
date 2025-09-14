@@ -1658,56 +1658,9 @@
         }
       },
       "LoopsInGrazeAnimation": 2,
-      "Adult": {
-        "Standing": {
-          "Uninjured": {
-            "Walk": {
-              "Speed": 200.0,
-              "Length": 1.2
-            },
-            "Trot": {
-              "Speed": 600.0,
-              "Length": 0.9
-            },
-            "Sprint": {
-              "Speed": 1300.0,
-              "Length": 0.5333
-            }
-          },
-          "InjuredLeg": {
-            "Sprint": {
-              "Speed": 1200.0,
-              "Length": 0.45
-            }
-          },
-          "InjuredLegsAndBody": {
-            "Sprint": {
-              "Speed": 1200.0,
-              "Length": 0.45
-            }
-          }
-        },
-        "Crouched": {
-          "Uninjured": {
-            "Walk": {
-              "Speed": 200.0,
-              "Length": 1.2
-            },
-            "Trot": {
-              "Speed": 200.0,
-              "Length": 1.2
-            },
-            "Sprint": {
-              "Speed": 200.0,
-              "Length": 1.2
-            }
-          }
-        }
-      },
-      "SpeedDeltaAnimationWeight": 0.0
-    },
-    "SerializedSparseClassDataStruct": "ScriptStruct'/Game/TheIsle/Core/Characters/Dinosaurs/Tenontosaurus/ABP_Tenontosaurus.ABP_Tenontosaurus_C:AnimBlueprintGeneratedConstantData'",
-    "SerializedSparseClassData": {}
+      "SpeedDeltaAnimationWeight": 1.5048624E-36,
+      "FracturedWalkSpeedDeltaMult": 0.0
+    }
   },
   {
     "Type": "AnimBlueprintGeneratedClass",

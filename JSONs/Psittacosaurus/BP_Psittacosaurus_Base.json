@@ -1367,7 +1367,20 @@
     "Class": "UScriptClass'TIDinosaurMovementComponent'",
     "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
-      "bCanSlide": false
+      "bCanSlide": false,
+      "RequestedSpeed": {
+        "X": 4.3534322E+21,
+        "Y": 134217760.0,
+        "Z": 2.997596E+19
+      },
+      "RequestedYaw": 1E-45,
+      "GroundFriction": 0.0,
+      "BrakingDecelerationSwimming": 3.880509E-37,
+      "AnimRootMotionVelocity": {
+        "X": -4.038968E-28,
+        "Y": "Infinity",
+        "Z": "-Infinity"
+      }
     }
   },
   {

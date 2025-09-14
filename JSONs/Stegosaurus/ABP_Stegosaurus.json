@@ -1735,55 +1735,8 @@
         }
       },
       "LoopsInGrazeAnimation": 2,
-      "Adult": {
-        "Standing": {
-          "Uninjured": {
-            "Walk": {
-              "Speed": 124.0,
-              "Length": 2.0
-            },
-            "Trot": {
-              "Speed": 290.0,
-              "Length": 0.8
-            },
-            "Sprint": {
-              "Speed": 729.0,
-              "Length": 0.9333
-            }
-          },
-          "InjuredLeg": {
-            "Sprint": {
-              "Speed": 580.0,
-              "Length": 0.4
-            }
-          },
-          "InjuredLegsAndBody": {
-            "Sprint": {
-              "Speed": 580.0,
-              "Length": 0.4
-            }
-          }
-        },
-        "Crouched": {
-          "Uninjured": {
-            "Walk": {
-              "Speed": 124.0,
-              "Length": 2.0
-            },
-            "Trot": {
-              "Speed": 124.0,
-              "Length": 2.0
-            },
-            "Sprint": {
-              "Speed": 124.0,
-              "Length": 2.0
-            }
-          }
-        }
-      }
-    },
-    "SerializedSparseClassDataStruct": "ScriptStruct'/Game/TheIsle/Core/Characters/Dinosaurs/Stegosaurus/ABP_Stegosaurus.ABP_Stegosaurus_C:AnimBlueprintGeneratedConstantData'",
-    "SerializedSparseClassData": {}
+      "SpeedDeltaAnimationWeight": 1.5048624E-36
+    }
   },
   {
     "Type": "AnimBlueprintGeneratedClass",

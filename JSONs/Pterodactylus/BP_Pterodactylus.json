@@ -218,65 +218,10 @@
         "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Pterodactylus/BP_Pterodactylus.1"
       },
       "FlyingBiteDelay": 0.1,
-      "DinosaurAssets": {
-        "ObjectName": "TIDinosaurAssets'DA_DinosaurAssetsSimplified'",
-        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/DA_DinosaurAssetsSimplified.0"
-      },
-      "DinosaurMovement": {
-        "ObjectName": "TIFlyingDinosaurMovementComponent'Default__BP_Pterodactylus_C:CharMoveComp'",
-        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Pterodactylus/BP_Pterodactylus.32"
-      },
-      "BiteTraceSphereRadius": 90.0,
-      "BiteTraceDownwardsAngleLimit": 120.0,
-      "bIsScavenger": true,
-      "AttributeCurveDataTable": {
-        "ObjectName": "DataTable'DT_PterodactylusAttributeCurves'",
-        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Pterodactylus/Attributes/DT_PterodactylusAttributeCurves.0"
-      },
-      "AttributeBalanceDataTable": {
-        "ObjectName": "DataTable'DT_PterodactylusBalanceAttributes'",
-        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Pterodactylus/DT_PterodactylusBalanceAttributes.0"
-      },
-      "VocalsDataTable": {
-        "ObjectName": "DataTable'DT_PterodactylusVocals'",
-        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Pterodactylus/Vocals/DT_PterodactylusVocals.0"
-      },
-      "DeathPhysicsAsset": {
-        "AssetPathName": "/Game/TheIsle/Characters/Dinosaurs/Pterodactylus/PHYS_Pterodactylus.PHYS_Pterodactylus",
-        "SubPathString": ""
-      },
-      "CharacterAssets": {
-        "ObjectName": "TICharacterAssets'DA_CharacterAssetsSimplificed'",
-        "ObjectPath": "/Game/TheIsle/Core/Characters/DA_CharacterAssetsSimplificed.0"
-      },
-      "AbilitySet": {
-        "ObjectName": "TIGameplayAbilitySet'DA_PterodactylusGameplayAbilities'",
-        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Pterodactylus/DA_PterodactylusGameplayAbilities.0"
-      },
-      "Montages": {
-        "ObjectName": "TIDinosaurMontages'DA_PterodactylusMontages'",
-        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Pterodactylus/DA_PterodactylusMontages.0"
-      },
-      "SmallVocalsSubmix": {
-        "ObjectName": "SoundSubmix'Submix_SmallRoar_Distant'",
-        "ObjectPath": "/Game/TheIsle/Sound/_Utilities/SubMixes/Submix_SmallRoar_Distant.0"
-      },
-      "MediumVocalsSubmix": {
-        "ObjectName": "SoundSubmix'Submix_MediumRoars_Distant'",
-        "ObjectPath": "/Game/TheIsle/Sound/_Utilities/SubMixes/Submix_MediumRoars_Distant.0"
-      },
-      "LargeVocalsSubmix": {
-        "ObjectName": "SoundSubmix'Submix_LargeRoars'",
-        "ObjectPath": "/Game/TheIsle/Sound/_Utilities/SubMixes/Submix_LargeRoars.0"
-      },
-      "AntiCheatComponent": {
-        "ObjectName": "TIAntiCheatComponent'Default__BP_Pterodactylus_C:AntiCheatComponent'",
-        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Pterodactylus/BP_Pterodactylus.30"
-      },
-      "AbilitySystemComponent": {
-        "ObjectName": "TIAbilitySystemComponent'Default__BP_Pterodactylus_C:AbilitySystemComponent'",
-        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Pterodactylus/BP_Pterodactylus.29"
-      }
+      "MaxAbilityCharges": 143,
+      "DownwardsCameraYawOffset": null,
+      "bDrawBiteDebug": false,
+      "DietGrowthFactor": 0.0
     }
   },
   {
@@ -815,8 +760,17 @@
     "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "FlyingAccelerationMultiplier": 25.0,
-      "BuoyancyPossessed": 1000.0,
-      "BuoyancyUnPossessed": 1000.0
+      "PreviousTickVelocity": {
+        "X": 7.6738467E+21,
+        "Y": 2.597302E+22,
+        "Z": 0.0
+      },
+      "VelocityDelta": 0.0,
+      "bBlockMovement": false,
+      "MaxWalkSpeed": 0.0,
+      "MaxSwimSpeed": 5.914242E-39,
+      "PerchRadiusThreshold": 0.0,
+      "bUseAccelerationForPaths": false
     }
   },
   {

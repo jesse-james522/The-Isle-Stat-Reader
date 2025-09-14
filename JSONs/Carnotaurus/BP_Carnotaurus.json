@@ -1784,7 +1784,12 @@
     "Class": "UScriptClass'TIChargingDinosaurMovementComponent'",
     "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
-      "NetworkSmoothingMode": "ENetworkSmoothingMode::Disabled"
+      "GroundFriction": 650.0,
+      "AnimRootMotionVelocity": {
+        "X": 2.997596E+19,
+        "Y": 0.0,
+        "Z": 0.0
+      }
     }
   },
   {

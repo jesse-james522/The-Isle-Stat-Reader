@@ -2209,44 +2209,9 @@
           }
         }
       },
-      "LookYawInterpSpeedFast": 540.0,
-      "Adult": {
-        "Standing": {
-          "Uninjured": {
-            "Walk": {
-              "Speed": 220.0,
-              "Length": 1.5333
-            },
-            "Trot": {
-              "Speed": 440.0,
-              "Length": 1.1333
-            },
-            "Sprint": {
-              "Speed": 1000.0,
-              "Length": 0.8
-            }
-          }
-        },
-        "Crouched": {
-          "Uninjured": {
-            "Walk": {
-              "Speed": 220.0,
-              "Length": 1.533
-            },
-            "Trot": {
-              "Speed": 440.0,
-              "Length": 1.533
-            },
-            "Sprint": {
-              "Speed": 1000.0,
-              "Length": 1.533
-            }
-          }
-        }
-      }
-    },
-    "SerializedSparseClassDataStruct": "ScriptStruct'/Game/TheIsle/Core/Characters/Dinosaurs/Ceratosaurus/ABP_Ceratosaurus.ABP_Ceratosaurus_C:AnimBlueprintGeneratedConstantData'",
-    "SerializedSparseClassData": {}
+      "HeadtrackingForwardSnapAngle": 540.0,
+      "SpeedDeltaAnimationWeight": 3.762156E-37
+    }
   },
   {
     "Type": "AnimBlueprintGeneratedClass",

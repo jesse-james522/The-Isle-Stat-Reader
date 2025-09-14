@@ -1013,7 +1013,14 @@
       "ObjectName": "TIDinosaurMovementComponent'Default__BP_Psittacosaurus_Base_C:CharMoveComp'",
       "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Psittacosaurus/BP_Psittacosaurus_Base.35"
     },
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RequestedSpeed": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    }
   },
   {
     "Type": "TIFootstepsComponent",

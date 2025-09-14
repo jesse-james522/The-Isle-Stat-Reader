@@ -3040,43 +3040,8 @@
           }
         }
       },
-      "Adult": {
-        "Standing": {
-          "Uninjured": {
-            "Walk": {
-              "Speed": 72.0,
-              "Length": 1.6
-            },
-            "Trot": {
-              "Speed": 300.0,
-              "Length": 0.666
-            },
-            "Sprint": {
-              "Speed": 839.0,
-              "Length": 0.5
-            }
-          }
-        },
-        "Crouched": {
-          "Uninjured": {
-            "Walk": {
-              "Speed": 72.0,
-              "Length": 1.6
-            },
-            "Trot": {
-              "Speed": 300.0,
-              "Length": 1.6
-            },
-            "Sprint": {
-              "Speed": 839.0,
-              "Length": 1.6
-            }
-          }
-        }
-      }
-    },
-    "SerializedSparseClassDataStruct": "ScriptStruct'/Game/TheIsle/Core/Characters/Dinosaurs/Herrerasaurus/ABP_Herrerasaurus.ABP_Herrerasaurus_C:AnimBlueprintGeneratedConstantData'",
-    "SerializedSparseClassData": {}
+      "SpeedDeltaAnimationWeight": 3.762156E-37
+    }
   },
   {
     "Type": "AnimBlueprintGeneratedClass",

@@ -229,6 +229,28 @@
           "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_DrinkIn.0"
         }
       },
+      "DrinkEnd": {
+        "Hatchling": {
+          "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_DrinkOut'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_DrinkOut.0"
+        },
+        "Juvenile": {
+          "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_DrinkOut'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_DrinkOut.0"
+        },
+        "Subadult": {
+          "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_DrinkOut'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_DrinkOut.0"
+        },
+        "Adult": {
+          "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_DrinkOut'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_DrinkOut.0"
+        },
+        "Elder": {
+          "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_DrinkOut'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_DrinkOut.0"
+        }
+      },
       "Rest": {
         "StandToSit": {
           "Hatchling": {

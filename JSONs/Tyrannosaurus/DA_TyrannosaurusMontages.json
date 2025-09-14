@@ -1279,16 +1279,16 @@
           "Key": "MuzzleSwingTap",
           "Value": {
             "Hatchling": {
-              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Hatchling_MuzzleSwingF'",
-              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Hatchling_MuzzleSwingF.0"
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Hatchling_MuzzleSwingFTap'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Hatchling_MuzzleSwingFTap.0"
             },
             "Juvenile": {
-              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Juvenile_MuzzleSwingF'",
-              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Juvenile_MuzzleSwingF.0"
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Juvenile_MuzzleSwingFTap'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Juvenile_MuzzleSwingFTap.0"
             },
             "Subadult": {
-              "ObjectName": "AnimMontage'AM_Tyrannosaurus_SubAdult_MuzzleSwingF'",
-              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_SubAdult_MuzzleSwingF.0"
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_SubAdult_MuzzleSwingFTap'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_SubAdult_MuzzleSwingFTap.0"
             },
             "Adult": {
               "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_MuzzleSwingFTap'",

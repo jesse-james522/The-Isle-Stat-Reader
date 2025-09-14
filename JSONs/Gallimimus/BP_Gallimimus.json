@@ -1740,7 +1740,7 @@
     "Class": "UScriptClass'TIDinosaurMovementComponent'",
     "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
-      "WorldToGravityTransform": {
+      "GravityToWorldTransform": {
         "X": 0.0,
         "Y": 0.0,
         "Z": 0.0,
@@ -1749,12 +1749,12 @@
         "Size": 0.0,
         "SizeSquared": 0.0
       },
-      "PerchAdditionalHeight": 9.8607613E-32,
-      "AnimRootMotionVelocity": {
-        "X": 0.0,
-        "Y": "NaN",
-        "Z": "NaN"
-      }
+      "RotationRate": {
+        "Pitch": 0.0,
+        "Yaw": "NaN",
+        "Roll": "NaN"
+      },
+      "PawnOwner": null
     }
   },
   {

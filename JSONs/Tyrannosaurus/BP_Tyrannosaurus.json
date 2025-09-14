@@ -1807,7 +1807,7 @@
     "Class": "UScriptClass'TIChargingDinosaurMovementComponent'",
     "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
-      "WorldToGravityTransform": {
+      "GravityToWorldTransform": {
         "X": 5.6295006E+15,
         "Y": 0.0,
         "Z": 0.0,
@@ -1816,7 +1816,7 @@
         "Size": 5.6295006E+15,
         "SizeSquared": 3.1691277E+31
       },
-      "BrakingDecelerationFalling": "NaN"
+      "BrakingDecelerationSwimming": "NaN"
     }
   },
   {

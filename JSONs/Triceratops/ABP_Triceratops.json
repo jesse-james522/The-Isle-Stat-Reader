@@ -2699,87 +2699,10 @@
         }
       },
       "LoopsInGrazeAnimation": 2,
-      "Adult": {
-        "Standing": {
-          "Uninjured": {
-            "Walk": {
-              "Speed": 140.0,
-              "Length": 2.0
-            },
-            "Trot": {
-              "Speed": 280.0,
-              "Length": 1.233
-            },
-            "Sprint": {
-              "Speed": 500.0,
-              "Length": 0.8333
-            }
-          },
-          "InjuredLeg": {
-            "Walk": {
-              "Speed": 140.0,
-              "Length": 2.0
-            },
-            "Trot": {
-              "Speed": 280.0,
-              "Length": 1.233
-            },
-            "Sprint": {
-              "Speed": 500.0,
-              "Length": 0.8333
-            }
-          },
-          "InjuredBody": {
-            "Walk": {
-              "Speed": 140.0,
-              "Length": 2.0
-            },
-            "Trot": {
-              "Speed": 280.0,
-              "Length": 1.233
-            },
-            "Sprint": {
-              "Speed": 500.0,
-              "Length": 0.8333
-            }
-          },
-          "InjuredLegsAndBody": {
-            "Walk": {
-              "Speed": 140.0,
-              "Length": 2.0
-            },
-            "Trot": {
-              "Speed": 280.0,
-              "Length": 1.233
-            },
-            "Sprint": {
-              "Speed": 500.0,
-              "Length": 0.8333
-            }
-          }
-        },
-        "Crouched": {
-          "Uninjured": {
-            "Walk": {
-              "Speed": 139.87,
-              "Length": 2.0
-            },
-            "Trot": {
-              "Speed": 139.87,
-              "Length": 2.0
-            },
-            "Sprint": {
-              "Speed": 139.87,
-              "Length": 2.0
-            }
-          }
-        }
-      },
-      "SpeedDeltaAnimationWeight": 0.0,
-      "StaggerBlendOutSpeed": 0.5
-    },
-    "SerializedSparseClassDataStruct": "ScriptStruct'/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/ABP_Triceratops.ABP_Triceratops_C:AnimBlueprintGeneratedConstantData'",
-    "SerializedSparseClassData": {}
+      "SpeedDeltaAnimationWeight": 1.540979E-33,
+      "FracturedWalkSpeedDeltaMult": 0.0,
+      "TurnSpeed": 6.019817E-36
+    }
   },
   {
     "Type": "AnimBlueprintGeneratedClass",

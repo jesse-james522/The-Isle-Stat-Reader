@@ -183,17 +183,85 @@
         "ObjectName": "AudioComponent'Default__BP_Pterodactylus_Child_C:Wind'",
         "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Pterodactylus/BP_Pterodactylus_Child.1"
       },
-      "DinosaurMovement": {
+      "DownwardsCameraYawOffset": {
         "ObjectName": "TIFlyingDinosaurMovementComponent'Default__BP_Pterodactylus_Child_C:CharMoveComp'",
         "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Pterodactylus/BP_Pterodactylus_Child.33"
       },
-      "AntiCheatComponent": {
-        "ObjectName": "TIAntiCheatComponent'Default__BP_Pterodactylus_Child_C:AntiCheatComponent'",
-        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Pterodactylus/BP_Pterodactylus_Child.31"
+      "MasterDecayTimer": 4.5E-44,
+      "AttackCooldown": 4.3E-44,
+      "RibsMeatMesh": {
+        "ObjectName": "SceneComponent'Default__BP_Pterodactylus_Child_C:Draglocation'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Pterodactylus/BP_Pterodactylus_Child.19"
       },
-      "AbilitySystemComponent": {
-        "ObjectName": "TIAbilitySystemComponent'Default__BP_Pterodactylus_Child_C:AbilitySystemComponent'",
-        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Pterodactylus/BP_Pterodactylus_Child.30"
+      "CorpseDisableDetector": {
+        "ObjectName": "StaticMeshComponent'Default__BP_Pterodactylus_Child_C:ThroatMesh'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Pterodactylus/BP_Pterodactylus_Child.29"
+      },
+      "PouncebleArea": {
+        "ObjectName": "SkeletalMeshComponent'Default__BP_Pterodactylus_Child_C:SkeletonMesh'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Pterodactylus/BP_Pterodactylus_Child.23"
+      },
+      "NameWidget": {
+        "ObjectName": "SkeletalMeshComponent'Default__BP_Pterodactylus_Child_C:RibsMeatMesh'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Pterodactylus/BP_Pterodactylus_Child.22"
+      },
+      "BuoyancyPlane": {
+        "ObjectName": "SplineComponent'Default__BP_Pterodactylus_Child_C:ThroatSpline'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Pterodactylus/BP_Pterodactylus_Child.26"
+      },
+      "FootstepsComponent": {
+        "ObjectName": "BoxComponent'Default__BP_Pterodactylus_Child_C:InteractableDetector'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Pterodactylus/BP_Pterodactylus_Child.4"
+      },
+      "PhysicsHandleComponent": {
+        "ObjectName": "SphereComponent'Default__BP_Pterodactylus_Child_C:CorpseDisableDetector'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Pterodactylus/BP_Pterodactylus_Child.25"
+      },
+      "OnEatingInterrupted": {
+        "InvocationList": [
+          {
+            "Object": {
+              "ObjectName": "WidgetComponent'Default__BP_Pterodactylus_Child_C:NameWidget'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Pterodactylus/BP_Pterodactylus_Child.35"
+            },
+            "FunctionName": "Navigation Invoker_34"
+          },
+          {
+            "Object": {
+              "ObjectName": "PhysicsHandleComponent'Default__BP_Pterodactylus_Child_C:PhysicsHandle'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Pterodactylus/BP_Pterodactylus_Child.17"
+            },
+            "FunctionName": "PhysicsHandle_33"
+          },
+          {
+            "Object": {
+              "ObjectName": "CameraComponent'Default__BP_Pterodactylus_Child_C:Main Camera'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Pterodactylus/BP_Pterodactylus_Child.7"
+            },
+            "FunctionName": "InheritableComponentHandler_15"
+          },
+          {
+            "Object": {
+              "ObjectName": "PhysicsConstraintComponent'Default__BP_Pterodactylus_Child_C:PhysicsConstraints'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Pterodactylus/BP_Pterodactylus_Child.16"
+            },
+            "FunctionName": "BlueprintType_13"
+          },
+          {
+            "Object": {
+              "ObjectName": "SkeletalMeshComponentBudgeted'Default__BP_Pterodactylus_Child_C:CharacterMesh0'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Pterodactylus/BP_Pterodactylus_Child.24"
+            },
+            "FunctionName": "DefaultSceneRoot_GEN_VARIABLE_8"
+          },
+          {
+            "Object": {
+              "ObjectName": "Class'AIController'",
+              "ObjectPath": "/Script/AIModule"
+            },
+            "FunctionName": "EntryPoint"
+          }
+        ]
       }
     }
   },

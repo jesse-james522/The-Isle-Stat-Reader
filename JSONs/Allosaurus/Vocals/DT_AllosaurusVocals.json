@@ -88,6 +88,11 @@
         "VocalEffect": null,
         "VocalCurve": null
       },
+      "Claw": {
+        "VocalSoundCue": null,
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
       "PreAttack": {
         "VocalSoundCue": {
           "ObjectName": "MetaSoundSource'MS_Allosaurus_PreAttack'",
@@ -174,6 +179,40 @@
         "VocalSoundCue": {
           "ObjectName": "MetaSoundSource'MS_Allosaurus_Feed'",
           "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Sound/MS_Allosaurus_Feed.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Pinned": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Allosaurus_Pinned'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Sound/MS_Allosaurus_Pinned.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Pounced": {
+        "VocalSoundCue": null,
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Blind": {
+        "VocalSoundCue": null,
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Vomit": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Allosaurus_Vomit'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Sound/MS_Allosaurus_Vomit.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Ruckle": {
+        "VocalSoundCue": {
+          "ObjectName": "MetaSoundSource'MS_Allosaurus_Ruckle'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Sound/MS_Allosaurus_Ruckle.0"
         },
         "VocalEffect": null,
         "VocalCurve": null

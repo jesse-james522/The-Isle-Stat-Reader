@@ -1488,72 +1488,9 @@
           }
         }
       },
-      "bUseMontageBlend": true,
-      "Adult": {
-        "Standing": {
-          "Uninjured": {
-            "Walk": {
-              "Speed": 125.0,
-              "Length": 2.0
-            },
-            "Trot": {
-              "Speed": 155.0,
-              "Length": 1.8
-            },
-            "Sprint": {
-              "Speed": 620.0,
-              "Length": 0.6667
-            }
-          },
-          "InjuredLeg": {
-            "Walk": {
-              "Speed": 125.0,
-              "Length": 2.0
-            },
-            "Trot": {
-              "Speed": 126.0,
-              "Length": 2.0
-            },
-            "Sprint": {
-              "Speed": 127.0,
-              "Length": 2.0
-            }
-          },
-          "InjuredLegsAndBody": {
-            "Walk": {
-              "Speed": 125.0,
-              "Length": 2.0
-            },
-            "Trot": {
-              "Speed": 126.0,
-              "Length": 2.0
-            },
-            "Sprint": {
-              "Speed": 127.0,
-              "Length": 2.0
-            }
-          }
-        },
-        "Crouched": {
-          "Uninjured": {
-            "Walk": {
-              "Speed": 100.0,
-              "Length": 2.0
-            },
-            "Trot": {
-              "Speed": 100.0,
-              "Length": 2.0
-            },
-            "Sprint": {
-              "Speed": 100.0,
-              "Length": 2.0
-            }
-          }
-        }
-      }
-    },
-    "SerializedSparseClassDataStruct": "ScriptStruct'/Game/TheIsle/Core/Characters/Dinosaurs/Deinosuchus/ABP_Deinosuchus.ABP_Deinosuchus_C:AnimBlueprintGeneratedConstantData'",
-    "SerializedSparseClassData": {}
+      "bHasAuthority": true,
+      "SpeedDeltaAnimationWeight": 1.5048624E-36
+    }
   },
   {
     "Type": "AnimBlueprintGeneratedClass",

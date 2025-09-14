@@ -1644,7 +1644,10 @@
     "Name": "CharMoveComp",
     "Outer": "Default__BP_Pachycephalosaurus_C",
     "Class": "UScriptClass'TIDinosaurMovementComponent'",
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CharacterOwner": null
+    }
   },
   {
     "Type": "TIFootstepsComponent",
