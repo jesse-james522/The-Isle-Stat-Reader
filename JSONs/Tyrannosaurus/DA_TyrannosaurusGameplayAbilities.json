@@ -163,15 +163,15 @@
         {
           "Command": "ETIGameplayAbilityInputBinds::Vocalize",
           "GameplayAbilityClass": {
-            "ObjectName": "BlueprintGeneratedClass'GA_VocalGeneric_C'",
-            "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Vocals/GA_VocalGeneric.0"
+            "ObjectName": "BlueprintGeneratedClass'GA_VocalGeneric_Tyranossaurus_C'",
+            "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Vocals/GA_VocalGeneric_Tyranossaurus.0"
           }
         },
         {
           "Command": "ETIGameplayAbilityInputBinds::VoiceBroadcast",
           "GameplayAbilityClass": {
-            "ObjectName": "BlueprintGeneratedClass'GA_VocalBroadcast_C'",
-            "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Vocals/GA_VocalBroadcast.0"
+            "ObjectName": "BlueprintGeneratedClass'GA_VocalBroadcast_Tyranossaurus_C'",
+            "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Vocals/GA_VocalBroadcast_Tyranossaurus.0"
           }
         },
         {
@@ -281,6 +281,55 @@
           "GameplayAbilityClass": {
             "ObjectName": "BlueprintGeneratedClass'GA_BiteTyrannosaurus_Spasm_C'",
             "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Attacks/GA_BiteTyrannosaurus_Spasm.0"
+          }
+        },
+        {
+          "Command": "ETIGameplayAbilityInputBinds::Vocalize",
+          "GameplayAbilityClass": {
+            "ObjectName": "BlueprintGeneratedClass'GA_SignalHoldVocalKey_Tyranossaurus_C'",
+            "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Vocals/GA_SignalHoldVocalKey_Tyranossaurus.0"
+          }
+        },
+        {
+          "Command": "ETIGameplayAbilityInputBinds::PrimaryAttack",
+          "GameplayAbilityClass": {
+            "ObjectName": "BlueprintGeneratedClass'GA_VocalGeneric_TyranossaurusElder_C'",
+            "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Vocals/GA_VocalGeneric_TyranossaurusElder.0"
+          }
+        },
+        {
+          "Command": "ETIGameplayAbilityInputBinds::PrimaryAttackB",
+          "GameplayAbilityClass": {
+            "ObjectName": "BlueprintGeneratedClass'GA_VocalGeneric_TyranossaurusElder_C'",
+            "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Vocals/GA_VocalGeneric_TyranossaurusElder.0"
+          }
+        },
+        {
+          "Command": "ETIGameplayAbilityInputBinds::SecondaryAttack",
+          "GameplayAbilityClass": {
+            "ObjectName": "BlueprintGeneratedClass'GA_VocalGeneric_Paleo_C'",
+            "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Vocals/GA_VocalGeneric_Paleo.0"
+          }
+        },
+        {
+          "Command": "ETIGameplayAbilityInputBinds::SecondaryAttackB",
+          "GameplayAbilityClass": {
+            "ObjectName": "BlueprintGeneratedClass'GA_VocalGeneric_Paleo_C'",
+            "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Vocals/GA_VocalGeneric_Paleo.0"
+          }
+        },
+        {
+          "Command": "ETIGameplayAbilityInputBinds::VoiceBroadcast",
+          "GameplayAbilityClass": {
+            "ObjectName": "BlueprintGeneratedClass'GA_VocalBroadcastPaleo_C'",
+            "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Vocals/GA_VocalBroadcastPaleo.0"
+          }
+        },
+        {
+          "Command": "ETIGameplayAbilityInputBinds::None",
+          "GameplayAbilityClass": {
+            "ObjectName": "BlueprintGeneratedClass'GA_VocalGeneric_Tyranossaurus_Chat_C'",
+            "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Vocals/GA_VocalGeneric_Tyranossaurus_Chat.0"
           }
         }
       ]

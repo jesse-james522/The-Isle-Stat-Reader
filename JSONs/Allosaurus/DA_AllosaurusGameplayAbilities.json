@@ -9,8 +9,15 @@
         {
           "Command": "ETIGameplayAbilityInputBinds::PrimaryAttack",
           "GameplayAbilityClass": {
-            "ObjectName": "BlueprintGeneratedClass'GA_DirectionalCarnotaurusBitePrimary_C'",
-            "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Attacks/Directional/GA_DirectionalCarnotaurusBitePrimary.0"
+            "ObjectName": "BlueprintGeneratedClass'GA_DirectionalAllosaurusBitePrimary_C'",
+            "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Attacks/Directional/GA_DirectionalAllosaurusBitePrimary.0"
+          }
+        },
+        {
+          "Command": "ETIGameplayAbilityInputBinds::PrimaryAttack",
+          "GameplayAbilityClass": {
+            "ObjectName": "BlueprintGeneratedClass'GA_AllosaurusSwipe_C'",
+            "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Attacks/GA_AllosaurusSwipe.0"
           }
         },
         {
@@ -23,8 +30,15 @@
         {
           "Command": "ETIGameplayAbilityInputBinds::PrimaryAttackB",
           "GameplayAbilityClass": {
-            "ObjectName": "BlueprintGeneratedClass'GA_DirectionalCarnotaurusBite_C'",
-            "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Attacks/Directional/GA_DirectionalCarnotaurusBite.0"
+            "ObjectName": "BlueprintGeneratedClass'GA_DirectionalAllosaurusBite_C'",
+            "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Attacks/Directional/GA_DirectionalAllosaurusBite.0"
+          }
+        },
+        {
+          "Command": "ETIGameplayAbilityInputBinds::PrimaryAttackB",
+          "GameplayAbilityClass": {
+            "ObjectName": "BlueprintGeneratedClass'GA_AllosaurusSwipe_C'",
+            "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Attacks/GA_AllosaurusSwipe.0"
           }
         },
         {

@@ -1454,24 +1454,24 @@
           "Key": "SparFlungL",
           "Value": {
             "Hatchling": {
-              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_PlaceholderR'",
-              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_PlaceholderR.0"
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Hatchling_FlungL'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Hatchling_FlungL.0"
             },
             "Juvenile": {
-              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_PlaceholderR'",
-              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_PlaceholderR.0"
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Juvenile_FlungL'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Juvenile_FlungL.0"
             },
             "Subadult": {
-              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_PlaceholderR'",
-              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_PlaceholderR.0"
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Subadult_FlungL'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Subadult_FlungL.0"
             },
             "Adult": {
-              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_PlaceholderR'",
-              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_PlaceholderR.0"
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_FlungL'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_FlungL.0"
             },
             "Elder": {
-              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_PlaceholderR'",
-              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_PlaceholderR.0"
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_FlungL'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_FlungL.0"
             }
           }
         },
@@ -1479,24 +1479,24 @@
           "Key": "SparFlungR",
           "Value": {
             "Hatchling": {
-              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_PlaceholderL'",
-              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_PlaceholderL.0"
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Hatchling_FlungR'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Hatchling_FlungR.0"
             },
             "Juvenile": {
-              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_PlaceholderL'",
-              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_PlaceholderL.0"
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Juvenile_FlungR'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Juvenile_FlungR.0"
             },
             "Subadult": {
-              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_PlaceholderL'",
-              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_PlaceholderL.0"
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Subadult_FlungR'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Subadult_FlungR.0"
             },
             "Adult": {
-              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_PlaceholderL'",
-              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_PlaceholderL.0"
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_FlungR'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_FlungR.0"
             },
             "Elder": {
-              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_PlaceholderL'",
-              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_PlaceholderL.0"
+              "ObjectName": "AnimMontage'AM_Tyrannosaurus_Adult_FlungR'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/AM_Tyrannosaurus_Adult_FlungR.0"
             }
           }
         },

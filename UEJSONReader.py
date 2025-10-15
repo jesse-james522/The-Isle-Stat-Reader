@@ -307,6 +307,7 @@ class OverlayPlotter:
         ax.grid(True)
         ax.axvline(x=0.75, color='r', linestyle='--', label='elder split')
         ax.xaxis.set_major_formatter(FuncFormatter(lambda x, pos: f'{int(x*100)}%'))
+        ax.xaxis.set_major_locator(matplotlib.ticker.MultipleLocator(0.1))
 
         canvas = FigureCanvasTkAgg(fig, master=win)
         canvas.get_tk_widget().pack(fill='both', expand=True)
@@ -393,10 +394,27 @@ class OverlayPlotter:
         ax.set_ylabel(y_label)
         ax.set_title("Overlayed JSON Graphs")
 
+        ymin, ymax = ax.get_ylim()
+        yrange = ymax - ymin
+
+        if yrange <= 10:
+            step = 1
+        elif yrange <= 100:
+            step = 5
+        elif yrange <= 1000:
+            step = 50
+        else:
+            step = 500
+
+        ax.yaxis.set_major_locator(matplotlib.ticker.MultipleLocator(step))
+
         # Legend inside top-left corner
         ax.legend(loc='upper left', fontsize='small')
 
         canvas.draw_idle()
+
+        
+        
 
 
     def _on_hover(self, event, lines, annot):

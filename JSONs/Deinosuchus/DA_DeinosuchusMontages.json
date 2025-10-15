@@ -432,12 +432,12 @@
       "Court": {
         "Male": {
           "Hatchling": {
-            "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_CourtM'",
-            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_CourtM.0"
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_CourtM'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_CourtM.0"
           },
           "Juvenile": {
-            "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_CourtM'",
-            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_CourtM.0"
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_CourtM'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_CourtM.0"
           },
           "Subadult": {
             "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_CourtM'",
@@ -454,12 +454,12 @@
         },
         "Female": {
           "Hatchling": {
-            "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_CourtF'",
-            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_CourtF.0"
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_CourtF'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_CourtF.0"
           },
           "Juvenile": {
-            "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_CourtF'",
-            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_CourtF.0"
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_CourtF'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_CourtF.0"
           },
           "Subadult": {
             "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_CourtF'",
@@ -478,12 +478,12 @@
       "Nest": {
         "Build": {
           "Hatchling": {
-            "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_Nest_Manage'",
-            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_Nest_Manage.0"
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_Nest_Manage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_Nest_Manage.0"
           },
           "Juvenile": {
-            "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_Nest_Manage'",
-            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_Nest_Manage.0"
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_Nest_Manage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_Nest_Manage.0"
           },
           "Subadult": {
             "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_Nest_Manage'",
@@ -500,12 +500,12 @@
         },
         "Manage1": {
           "Hatchling": {
-            "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_Nest_Manage'",
-            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_Nest_Manage.0"
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_Nest_Manage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_Nest_Manage.0"
           },
           "Juvenile": {
-            "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_Nest_Manage'",
-            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_Nest_Manage.0"
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_Nest_Manage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_Nest_Manage.0"
           },
           "Subadult": {
             "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_Nest_Manage'",
@@ -522,12 +522,12 @@
         },
         "Manage2": {
           "Hatchling": {
-            "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_Nest_Manage'",
-            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_Nest_Manage.0"
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_Nest_Manage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_Nest_Manage.0"
           },
           "Juvenile": {
-            "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_Nest_Manage'",
-            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_Nest_Manage.0"
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_Nest_Manage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_Nest_Manage.0"
           },
           "Subadult": {
             "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_Nest_Manage'",
@@ -544,12 +544,12 @@
         },
         "Manage3": {
           "Hatchling": {
-            "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_Nest_Manage'",
-            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_Nest_Manage.0"
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_Nest_Manage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_Nest_Manage.0"
           },
           "Juvenile": {
-            "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_Nest_Manage'",
-            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Adult_Nest_Manage.0"
+            "ObjectName": "AnimMontage'AM_Deinosuchus_Juvenile_Nest_Manage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Deinosuchus/Animations/AM_Deinosuchus_Juvenile_Nest_Manage.0"
           },
           "Subadult": {
             "ObjectName": "AnimMontage'AM_Deinosuchus_Adult_Nest_Manage'",

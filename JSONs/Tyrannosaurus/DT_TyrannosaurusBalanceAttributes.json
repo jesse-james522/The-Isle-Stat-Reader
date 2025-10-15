@@ -65,26 +65,26 @@
       "Oxygen.Decay": {
         "AttributePercentageValues": -6.7
       },
-      "Damage.Bite": {
-        "AttributePercentageValues": 850.0
+      "Stamina.Spending.GetUpFast": {
+        "AttributePercentageValues": 0.0
       },
       "Stamina.Spending.Jump": {
         "AttributePercentageValues": -0.06
       },
-      "Stamina.Spending.GetUpFast": {
-        "AttributePercentageValues": 0.0
-      },
       "Blood.Regen.Standing": {
-        "AttributePercentageValues": 0.1384
+        "AttributePercentageValues": 0.055
       },
       "Blood.Regen.Resting": {
-        "AttributePercentageValues": 0.2768
+        "AttributePercentageValues": 0.11
       },
       "Stamina.Spending.MudWalking": {
         "AttributePercentageValues": -1.0
       },
       "Stamina.AltBite": {
         "AttributePercentageValues": -0.02
+      },
+      "Damage.Bite": {
+        "AttributePercentageValues": 850.0
       },
       "Damage.Crush": {
         "AttributePercentageValues": 1000.0

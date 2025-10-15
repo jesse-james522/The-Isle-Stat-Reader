@@ -142,13 +142,13 @@
       },
       {
         "Keys": [],
-        "DefaultValue": 3.4028235E+38,
+        "DefaultValue": 0.0,
         "PreInfinityExtrap": "RCCE_Constant",
         "PostInfinityExtrap": "RCCE_Constant"
       },
       {
         "Keys": [],
-        "DefaultValue": 3.4028235E+38,
+        "DefaultValue": 1.0,
         "PreInfinityExtrap": "RCCE_Constant",
         "PostInfinityExtrap": "RCCE_Constant"
       }

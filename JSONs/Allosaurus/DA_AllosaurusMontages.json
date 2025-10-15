@@ -209,24 +209,24 @@
       },
       "Drink": {
         "Hatchling": {
-          "ObjectName": "AnimMontage'AM_Allosaurus_Drink'",
-          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Drink.0"
+          "ObjectName": "AnimMontage'AM_Allosaurus_Drink_In'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Drink_In.0"
         },
         "Juvenile": {
-          "ObjectName": "AnimMontage'AM_Allosaurus_Drink'",
-          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Drink.0"
+          "ObjectName": "AnimMontage'AM_Allosaurus_Drink_In'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Drink_In.0"
         },
         "Subadult": {
-          "ObjectName": "AnimMontage'AM_Allosaurus_Drink'",
-          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Drink.0"
+          "ObjectName": "AnimMontage'AM_Allosaurus_Drink_In'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Drink_In.0"
         },
         "Adult": {
-          "ObjectName": "AnimMontage'AM_Allosaurus_Drink'",
-          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Drink.0"
+          "ObjectName": "AnimMontage'AM_Allosaurus_Drink_In'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Drink_In.0"
         },
         "Elder": {
-          "ObjectName": "AnimMontage'AM_Allosaurus_Drink'",
-          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Drink.0"
+          "ObjectName": "AnimMontage'AM_Allosaurus_Drink_In'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Drink_In.0"
         }
       },
       "DrinkEnd": {
@@ -1274,6 +1274,56 @@
               "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_Grapple_Miss.0"
             }
           }
+        },
+        {
+          "Key": "SwipeRight",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Allosaurus_Adult_Run_SwipeR'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_Run_SwipeR.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Allosaurus_Adult_Run_SwipeR'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_Run_SwipeR.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Allosaurus_Adult_Run_SwipeR'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_Run_SwipeR.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Allosaurus_Adult_Run_SwipeR'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_Run_SwipeR.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Allosaurus_Adult_Run_SwipeR'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_Run_SwipeR.0"
+            }
+          }
+        },
+        {
+          "Key": "SwipeLeft",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Allosaurus_Adult_Run_SwipeL'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_Run_SwipeL.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Allosaurus_Adult_Run_SwipeL'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_Run_SwipeL.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Allosaurus_Adult_Run_SwipeL'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_Run_SwipeL.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Allosaurus_Adult_Run_SwipeL'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_Run_SwipeL.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Allosaurus_Adult_Run_SwipeL'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_Run_SwipeL.0"
+            }
+          }
         }
       ],
       "UniqueDirectional": [
@@ -1282,90 +1332,90 @@
           "Value": {
             "LF": {
               "Hatchling": {
-                "ObjectName": "AnimMontage'AM_Allosaurus_Bite'",
-                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Bite.0"
+                "ObjectName": "AnimMontage'AM_Allosaurus_Adult_HatchetBite_F'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_HatchetBite_F.0"
               },
               "Juvenile": {
-                "ObjectName": "AnimMontage'AM_Allosaurus_Bite'",
-                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Bite.0"
+                "ObjectName": "AnimMontage'AM_Allosaurus_Adult_HatchetBite_F'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_HatchetBite_F.0"
               },
               "Subadult": {
-                "ObjectName": "AnimMontage'AM_Allosaurus_Bite'",
-                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Bite.0"
+                "ObjectName": "AnimMontage'AM_Allosaurus_Adult_HatchetBite_F'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_HatchetBite_F.0"
               },
               "Adult": {
-                "ObjectName": "AnimMontage'AM_Allosaurus_Bite'",
-                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Bite.0"
+                "ObjectName": "AnimMontage'AM_Allosaurus_Adult_HatchetBite_F'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_HatchetBite_F.0"
               },
               "Elder": {
-                "ObjectName": "AnimMontage'AM_Allosaurus_Bite'",
-                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Bite.0"
+                "ObjectName": "AnimMontage'AM_Allosaurus_Adult_HatchetBite_F'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_HatchetBite_F.0"
               }
             },
             "L45": {
               "Hatchling": {
-                "ObjectName": "AnimMontage'AM_Allosaurus_Adult_Attack_L90'",
-                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_Attack_L90.0"
+                "ObjectName": "AnimMontage'AM_Allosaurus_Adult_HatchetBite_L45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_HatchetBite_L45.0"
               },
               "Juvenile": {
-                "ObjectName": "AnimMontage'AM_Allosaurus_Adult_Attack_L90'",
-                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_Attack_L90.0"
+                "ObjectName": "AnimMontage'AM_Allosaurus_Adult_HatchetBite_L45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_HatchetBite_L45.0"
               },
               "Subadult": {
-                "ObjectName": "AnimMontage'AM_Allosaurus_Adult_Attack_L90'",
-                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_Attack_L90.0"
+                "ObjectName": "AnimMontage'AM_Allosaurus_Adult_HatchetBite_L45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_HatchetBite_L45.0"
               },
               "Adult": {
-                "ObjectName": "AnimMontage'AM_Allosaurus_Adult_Attack_L90'",
-                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_Attack_L90.0"
+                "ObjectName": "AnimMontage'AM_Allosaurus_Adult_HatchetBite_L45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_HatchetBite_L45.0"
               },
               "Elder": {
-                "ObjectName": "AnimMontage'AM_Allosaurus_Adult_Attack_L90'",
-                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_Attack_L90.0"
+                "ObjectName": "AnimMontage'AM_Allosaurus_Adult_HatchetBite_L45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_HatchetBite_L45.0"
               }
             },
             "L90": {
               "Hatchling": {
-                "ObjectName": "AnimMontage'AM_Allosaurus_Adult_Attack_L90'",
-                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_Attack_L90.0"
+                "ObjectName": "AnimMontage'AM_Allosaurus_Adult_HatchetBite_L90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_HatchetBite_L90.0"
               },
               "Juvenile": {
-                "ObjectName": "AnimMontage'AM_Allosaurus_Adult_Attack_L90'",
-                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_Attack_L90.0"
+                "ObjectName": "AnimMontage'AM_Allosaurus_Adult_HatchetBite_L90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_HatchetBite_L90.0"
               },
               "Subadult": {
-                "ObjectName": "AnimMontage'AM_Allosaurus_Adult_Attack_L90'",
-                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_Attack_L90.0"
+                "ObjectName": "AnimMontage'AM_Allosaurus_Adult_HatchetBite_L90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_HatchetBite_L90.0"
               },
               "Adult": {
-                "ObjectName": "AnimMontage'AM_Allosaurus_Adult_Attack_L90'",
-                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_Attack_L90.0"
+                "ObjectName": "AnimMontage'AM_Allosaurus_Adult_HatchetBite_L90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_HatchetBite_L90.0"
               },
               "Elder": {
-                "ObjectName": "AnimMontage'AM_Allosaurus_Adult_Attack_L90'",
-                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_Attack_L90.0"
+                "ObjectName": "AnimMontage'AM_Allosaurus_Adult_HatchetBite_L90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_HatchetBite_L90.0"
               }
             },
             "L135": {
               "Hatchling": {
-                "ObjectName": "AnimMontage'AM_Allosaurus_Adult_Attack_L90'",
-                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_Attack_L90.0"
+                "ObjectName": "AnimMontage'AM_Allosaurus_Adult_Attack_L135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_Attack_L135.0"
               },
               "Juvenile": {
-                "ObjectName": "AnimMontage'AM_Allosaurus_Adult_Attack_L90'",
-                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_Attack_L90.0"
+                "ObjectName": "AnimMontage'AM_Allosaurus_Adult_Attack_L135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_Attack_L135.0"
               },
               "Subadult": {
-                "ObjectName": "AnimMontage'AM_Allosaurus_Adult_Attack_L90'",
-                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_Attack_L90.0"
+                "ObjectName": "AnimMontage'AM_Allosaurus_Adult_Attack_L135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_Attack_L135.0"
               },
               "Adult": {
-                "ObjectName": "AnimMontage'AM_Allosaurus_Adult_Attack_L90'",
-                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_Attack_L90.0"
+                "ObjectName": "AnimMontage'AM_Allosaurus_Adult_Attack_L135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_Attack_L135.0"
               },
               "Elder": {
-                "ObjectName": "AnimMontage'AM_Allosaurus_Adult_Attack_L90'",
-                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_Attack_L90.0"
+                "ObjectName": "AnimMontage'AM_Allosaurus_Adult_Attack_L135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_Attack_L135.0"
               }
             },
             "L180": {
@@ -1392,90 +1442,90 @@
             },
             "RF": {
               "Hatchling": {
-                "ObjectName": "AnimMontage'AM_Allosaurus_Bite'",
-                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Bite.0"
+                "ObjectName": "AnimMontage'AM_Allosaurus_Adult_HatchetBite_F'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_HatchetBite_F.0"
               },
               "Juvenile": {
-                "ObjectName": "AnimMontage'AM_Allosaurus_Bite'",
-                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Bite.0"
+                "ObjectName": "AnimMontage'AM_Allosaurus_Adult_HatchetBite_F'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_HatchetBite_F.0"
               },
               "Subadult": {
-                "ObjectName": "AnimMontage'AM_Allosaurus_Bite'",
-                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Bite.0"
+                "ObjectName": "AnimMontage'AM_Allosaurus_Adult_HatchetBite_F'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_HatchetBite_F.0"
               },
               "Adult": {
-                "ObjectName": "AnimMontage'AM_Allosaurus_Bite'",
-                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Bite.0"
+                "ObjectName": "AnimMontage'AM_Allosaurus_Adult_HatchetBite_F'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_HatchetBite_F.0"
               },
               "Elder": {
-                "ObjectName": "AnimMontage'AM_Allosaurus_Bite'",
-                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Bite.0"
+                "ObjectName": "AnimMontage'AM_Allosaurus_Adult_HatchetBite_F'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_HatchetBite_F.0"
               }
             },
             "R45": {
               "Hatchling": {
-                "ObjectName": "AnimMontage'AM_Allosaurus_Adult_Attack_R90_Alt'",
-                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_Attack_R90_Alt.0"
+                "ObjectName": "AnimMontage'AM_Allosaurus_Adult_HatchetBite_R45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_HatchetBite_R45.0"
               },
               "Juvenile": {
-                "ObjectName": "AnimMontage'AM_Allosaurus_Adult_Attack_R90_Alt'",
-                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_Attack_R90_Alt.0"
+                "ObjectName": "AnimMontage'AM_Allosaurus_Adult_HatchetBite_R45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_HatchetBite_R45.0"
               },
               "Subadult": {
-                "ObjectName": "AnimMontage'AM_Allosaurus_Adult_Attack_R90_Alt'",
-                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_Attack_R90_Alt.0"
+                "ObjectName": "AnimMontage'AM_Allosaurus_Adult_HatchetBite_R45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_HatchetBite_R45.0"
               },
               "Adult": {
-                "ObjectName": "AnimMontage'AM_Allosaurus_Adult_Attack_R90_Alt'",
-                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_Attack_R90_Alt.0"
+                "ObjectName": "AnimMontage'AM_Allosaurus_Adult_HatchetBite_R45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_HatchetBite_R45.0"
               },
               "Elder": {
-                "ObjectName": "AnimMontage'AM_Allosaurus_Adult_Attack_R90_Alt'",
-                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_Attack_R90_Alt.0"
+                "ObjectName": "AnimMontage'AM_Allosaurus_Adult_HatchetBite_R45'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_HatchetBite_R45.0"
               }
             },
             "R90": {
               "Hatchling": {
-                "ObjectName": "AnimMontage'AM_Allosaurus_Adult_Attack_R90_Alt'",
-                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_Attack_R90_Alt.0"
+                "ObjectName": "AnimMontage'AM_Allosaurus_Adult_HatchetBite_R90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_HatchetBite_R90.0"
               },
               "Juvenile": {
-                "ObjectName": "AnimMontage'AM_Allosaurus_Adult_Attack_R90_Alt'",
-                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_Attack_R90_Alt.0"
+                "ObjectName": "AnimMontage'AM_Allosaurus_Adult_HatchetBite_R90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_HatchetBite_R90.0"
               },
               "Subadult": {
-                "ObjectName": "AnimMontage'AM_Allosaurus_Adult_Attack_R90_Alt'",
-                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_Attack_R90_Alt.0"
+                "ObjectName": "AnimMontage'AM_Allosaurus_Adult_HatchetBite_R90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_HatchetBite_R90.0"
               },
               "Adult": {
-                "ObjectName": "AnimMontage'AM_Allosaurus_Adult_Attack_R90_Alt'",
-                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_Attack_R90_Alt.0"
+                "ObjectName": "AnimMontage'AM_Allosaurus_Adult_HatchetBite_R90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_HatchetBite_R90.0"
               },
               "Elder": {
-                "ObjectName": "AnimMontage'AM_Allosaurus_Adult_Attack_R90_Alt'",
-                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_Attack_R90_Alt.0"
+                "ObjectName": "AnimMontage'AM_Allosaurus_Adult_HatchetBite_R90'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_HatchetBite_R90.0"
               }
             },
             "R135": {
               "Hatchling": {
-                "ObjectName": "AnimMontage'AM_Allosaurus_Adult_Attack_R180'",
-                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_Attack_R180.0"
+                "ObjectName": "AnimMontage'AM_Allosaurus_Adult_Attack_R135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_Attack_R135.0"
               },
               "Juvenile": {
-                "ObjectName": "AnimMontage'AM_Allosaurus_Adult_Attack_R180'",
-                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_Attack_R180.0"
+                "ObjectName": "AnimMontage'AM_Allosaurus_Adult_Attack_R135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_Attack_R135.0"
               },
               "Subadult": {
-                "ObjectName": "AnimMontage'AM_Allosaurus_Adult_Attack_R180'",
-                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_Attack_R180.0"
+                "ObjectName": "AnimMontage'AM_Allosaurus_Adult_Attack_R135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_Attack_R135.0"
               },
               "Adult": {
-                "ObjectName": "AnimMontage'AM_Allosaurus_Adult_Attack_R180'",
-                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_Attack_R180.0"
+                "ObjectName": "AnimMontage'AM_Allosaurus_Adult_Attack_R135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_Attack_R135.0"
               },
               "Elder": {
-                "ObjectName": "AnimMontage'AM_Allosaurus_Adult_Attack_R180'",
-                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_Attack_R180.0"
+                "ObjectName": "AnimMontage'AM_Allosaurus_Adult_Attack_R135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_Attack_R135.0"
               }
             },
             "R180": {

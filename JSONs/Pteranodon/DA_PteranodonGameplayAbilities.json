@@ -30,6 +30,13 @@
         {
           "Command": "ETIGameplayAbilityInputBinds::PrimaryAttack",
           "GameplayAbilityClass": {
+            "ObjectName": "BlueprintGeneratedClass'GA_Bite_NoBleed_C'",
+            "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Attacks/GA_Bite_NoBleed.0"
+          }
+        },
+        {
+          "Command": "ETIGameplayAbilityInputBinds::PrimaryAttack",
+          "GameplayAbilityClass": {
             "ObjectName": "BlueprintGeneratedClass'GA_BiteFlying_NoBleed_C'",
             "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Attacks/GA_BiteFlying_NoBleed.0"
           }
@@ -39,6 +46,13 @@
           "GameplayAbilityClass": {
             "ObjectName": "BlueprintGeneratedClass'GA_DirectionalPteranodonBite_C'",
             "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Attacks/Directional/GA_DirectionalPteranodonBite.0"
+          }
+        },
+        {
+          "Command": "ETIGameplayAbilityInputBinds::PrimaryAttackB",
+          "GameplayAbilityClass": {
+            "ObjectName": "BlueprintGeneratedClass'GA_Bite_NoBleed_C'",
+            "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Attacks/GA_Bite_NoBleed.0"
           }
         },
         {

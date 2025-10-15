@@ -608,7 +608,7 @@
     "Class": "UScriptClass'CapsuleComponent'",
     "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
-      "CapsuleHalfHeight": 60.0,
+      "CapsuleHalfHeight": 56.0,
       "CapsuleRadius": 30.0,
       "bUseSystemDefaultObstacleAreaClass": false,
       "AreaClassOverride": {
@@ -2068,7 +2068,7 @@
       "RelativeLocation": {
         "X": 0.0,
         "Y": 0.0,
-        "Z": -62.0
+        "Z": -56.0
       },
       "RelativeRotation": {
         "Pitch": 0.0,

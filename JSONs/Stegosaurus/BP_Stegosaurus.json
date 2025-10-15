@@ -282,9 +282,9 @@
       "SubadultGrowthTimeMinutes": 405.0,
       "AdultGrowthTimeMinutes": 445.0,
       "GeneralSettings": {
-        "WeightThresholdWhenStung": 180.0,
-        "WeightThresholdWhenSwarmed": 250.0,
-        "AdultDietWeightThreshold": 200.0
+        "WeightThresholdWhenSwarmed": 180.0,
+        "AdultDietWeightThreshold": 250.0,
+        "CarryCorpseThreshold": 200.0
       },
       "AttributeCurveDataTable": {
         "ObjectName": "DataTable'DT_StegosaurusAttributeCurves'",
@@ -392,8 +392,8 @@
     "Class": "UScriptClass'CapsuleComponent'",
     "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
-      "CapsuleHalfHeight": 160.0,
-      "CapsuleRadius": 85.0,
+      "CapsuleHalfHeight": 119.0,
+      "CapsuleRadius": 80.0,
       "bUseSystemDefaultObstacleAreaClass": false,
       "AreaClassOverride": {
         "ObjectName": "Class'NavArea_Obstacle'",
@@ -1005,7 +1005,7 @@
       "RelativeLocation": {
         "X": 0.0,
         "Y": 0.0,
-        "Z": -160.0
+        "Z": -119.0
       }
     }
   },

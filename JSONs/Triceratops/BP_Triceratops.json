@@ -282,11 +282,6 @@
         "ObjectName": "CurveVector'CV_TriceratopsUp45CameraYawOffset'",
         "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/Camera/CV_TriceratopsUp45CameraYawOffset.0"
       },
-      "GeneralSettings": {
-        "WeightThresholdWhenStung": 180.0,
-        "WeightThresholdWhenSwarmed": 250.0,
-        "AdultDietWeightThreshold": 200.0
-      },
       "AttributeCurveDataTable": {
         "ObjectName": "DataTable'DT_TriceratopsAttributeCurves'",
         "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Triceratops/Attributes/DT_TriceratopsAttributeCurves.0"
@@ -393,7 +388,7 @@
     "Class": "UScriptClass'CapsuleComponent'",
     "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
-      "CapsuleHalfHeight": 170.0,
+      "CapsuleHalfHeight": 135.0,
       "CapsuleRadius": 100.0,
       "bUseSystemDefaultObstacleAreaClass": false,
       "AreaClassOverride": {
@@ -2998,7 +2993,7 @@
       "RelativeLocation": {
         "X": 0.0,
         "Y": 0.0,
-        "Z": -170.0
+        "Z": -135.0
       },
       "RelativeRotation": {
         "Pitch": 0.0,

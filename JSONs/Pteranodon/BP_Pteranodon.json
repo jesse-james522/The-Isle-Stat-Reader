@@ -234,7 +234,7 @@
         "ObjectName": "AudioComponent'Default__BP_Pteranodon_C:Wind'",
         "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Pteranodon/BP_Pteranodon.1"
       },
-      "MaxAbilityCharges": 91
+      "MaxAbilityCharges": 93
     }
   },
   {
@@ -296,7 +296,7 @@
     "Class": "UScriptClass'CapsuleComponent'",
     "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
-      "CapsuleHalfHeight": 70.0,
+      "CapsuleHalfHeight": 49.0,
       "CapsuleRadius": 30.0,
       "bUseSystemDefaultObstacleAreaClass": false,
       "AreaClassOverride": {
@@ -791,7 +791,7 @@
       "RelativeLocation": {
         "X": 0.0,
         "Y": 0.0,
-        "Z": -70.0
+        "Z": -49.0
       },
       "RelativeRotation": {
         "Pitch": 0.0,
@@ -1598,7 +1598,7 @@
     "Class": "UScriptClass'TIFlyingDinosaurMovementComponent'",
     "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
-      "MaxFlySpeed": 500.0
+      "BrakingDecelerationFlying": 500.0
     }
   },
   {

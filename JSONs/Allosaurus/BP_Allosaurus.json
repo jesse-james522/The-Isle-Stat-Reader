@@ -131,8 +131,8 @@
     "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "BoxExtent": {
-        "X": 100.0,
-        "Y": 180.0,
+        "X": 110.0,
+        "Y": 170.0,
         "Z": 160.0
       },
       "bUseSystemDefaultObstacleAreaClass": false,
@@ -145,8 +145,8 @@
         "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Allosaurus/BP_Allosaurus.7"
       },
       "RelativeLocation": {
-        "X": 180.0,
-        "Y": 2.3716923E-20,
+        "X": 210.0,
+        "Y": -4.2610576E-05,
         "Z": 20.0
       },
       "RelativeRotation": {
@@ -164,7 +164,7 @@
     "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "BoxExtent": {
-        "X": 150.0,
+        "X": 125.0,
         "Y": 35.0,
         "Z": 70.0
       },
@@ -173,7 +173,7 @@
         "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Allosaurus/BP_Allosaurus.7"
       },
       "RelativeLocation": {
-        "X": 50.0,
+        "X": 25.0,
         "Y": 0.0,
         "Z": 40.0
       }
@@ -1007,6 +1007,11 @@
         "ObjectName": "SkeletalMeshComponentBudgeted'Default__BP_Allosaurus_C:CharacterMesh0'",
         "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Allosaurus/BP_Allosaurus.22"
       },
+      "RelativeLocation": {
+        "X": -2.4557552,
+        "Y": -1.3920102E-07,
+        "Z": 13.9272785
+      },
       "RelativeRotation": {
         "Pitch": 6.9560593E-07,
         "Yaw": 90.0,
@@ -1188,6 +1193,14 @@
     "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "bAutoCalculateSignificance": true,
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_Allosaurus_Meat'",
+        "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Mesh/SK_Allosaurus_Meat.1"
+      },
+      "SkinnedAsset": {
+        "ObjectName": "SkeletalMesh'SK_Allosaurus_Meat'",
+        "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Mesh/SK_Allosaurus_Meat.1"
+      },
       "LeaderPoseComponent": {
         "ObjectName": "SkeletalMeshComponentBudgeted'Default__BP_Allosaurus_C:CharacterMesh0'",
         "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Allosaurus/BP_Allosaurus.22"
@@ -1219,6 +1232,14 @@
     "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "bAutoCalculateSignificance": true,
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh'SK_Allosaurus_Bones'",
+        "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Mesh/SK_Allosaurus_Bones.1"
+      },
+      "SkinnedAsset": {
+        "ObjectName": "SkeletalMesh'SK_Allosaurus_Bones'",
+        "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Mesh/SK_Allosaurus_Bones.1"
+      },
       "LeaderPoseComponent": {
         "ObjectName": "SkeletalMeshComponentBudgeted'Default__BP_Allosaurus_C:CharacterMesh0'",
         "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Allosaurus/BP_Allosaurus.22"

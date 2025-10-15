@@ -118,8 +118,8 @@
         {
           "Command": "ETIGameplayAbilityInputBinds::Nest",
           "GameplayAbilityClass": {
-            "ObjectName": "BlueprintGeneratedClass'GA_Nest_Debris_Large_C_C'",
-            "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/GA_Nest_Debris_Large_C.0"
+            "ObjectName": "BlueprintGeneratedClass'GA_Nest_Debris_Medium_C_C'",
+            "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/GA_Nest_Debris_Medium_C.0"
           }
         },
         {

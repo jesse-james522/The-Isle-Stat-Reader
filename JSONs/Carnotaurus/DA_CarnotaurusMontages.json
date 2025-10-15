@@ -901,27 +901,27 @@
       },
       "Unique": [
         {
-          "Key": "ChargeAttack",
+          "Key": "ChargeAttackF",
           "Value": {
             "Hatchling": {
-              "ObjectName": "AnimMontage'AM_Carnotaurus_Adult_Charge_Attack'",
-              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Carnotaurus/Animations/AM_Carnotaurus_Adult_Charge_Attack.0"
+              "ObjectName": "AnimMontage'AM_Carnotaurus_Adult_HeadbuttF'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Carnotaurus/Animations/AM_Carnotaurus_Adult_HeadbuttF.0"
             },
             "Juvenile": {
-              "ObjectName": "AnimMontage'AM_Carnotaurus_Adult_Charge_Attack'",
-              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Carnotaurus/Animations/AM_Carnotaurus_Adult_Charge_Attack.0"
+              "ObjectName": "AnimMontage'AM_Carnotaurus_Adult_HeadbuttF'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Carnotaurus/Animations/AM_Carnotaurus_Adult_HeadbuttF.0"
             },
             "Subadult": {
-              "ObjectName": "AnimMontage'AM_Carnotaurus_Adult_Charge_Attack'",
-              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Carnotaurus/Animations/AM_Carnotaurus_Adult_Charge_Attack.0"
+              "ObjectName": "AnimMontage'AM_Carnotaurus_Adult_HeadbuttF'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Carnotaurus/Animations/AM_Carnotaurus_Adult_HeadbuttF.0"
             },
             "Adult": {
-              "ObjectName": "AnimMontage'AM_Carnotaurus_Adult_Charge_Attack'",
-              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Carnotaurus/Animations/AM_Carnotaurus_Adult_Charge_Attack.0"
+              "ObjectName": "AnimMontage'AM_Carnotaurus_Adult_HeadbuttF'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Carnotaurus/Animations/AM_Carnotaurus_Adult_HeadbuttF.0"
             },
             "Elder": {
-              "ObjectName": "AnimMontage'AM_Carnotaurus_Adult_Charge_Attack'",
-              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Carnotaurus/Animations/AM_Carnotaurus_Adult_Charge_Attack.0"
+              "ObjectName": "AnimMontage'AM_Carnotaurus_Adult_HeadbuttF'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Carnotaurus/Animations/AM_Carnotaurus_Adult_HeadbuttF.0"
             }
           }
         },
@@ -1097,6 +1097,56 @@
             "Elder": {
               "ObjectName": "AnimMontage'AM_Carnotaurus_Adult_Carry_Grab_Gastrolith'",
               "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Carnotaurus/Animations/AM_Carnotaurus_Adult_Carry_Grab_Gastrolith.0"
+            }
+          }
+        },
+        {
+          "Key": "ChargeAttackL",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Carnotaurus_Adult_HeadbuttL'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Carnotaurus/Animations/AM_Carnotaurus_Adult_HeadbuttL.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Carnotaurus_Adult_HeadbuttL'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Carnotaurus/Animations/AM_Carnotaurus_Adult_HeadbuttL.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Carnotaurus_Adult_HeadbuttL'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Carnotaurus/Animations/AM_Carnotaurus_Adult_HeadbuttL.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Carnotaurus_Adult_HeadbuttL'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Carnotaurus/Animations/AM_Carnotaurus_Adult_HeadbuttL.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Carnotaurus_Adult_HeadbuttL'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Carnotaurus/Animations/AM_Carnotaurus_Adult_HeadbuttL.0"
+            }
+          }
+        },
+        {
+          "Key": "ChargeAttackR",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Carnotaurus_Adult_HeadbuttR'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Carnotaurus/Animations/AM_Carnotaurus_Adult_HeadbuttR.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Carnotaurus_Adult_HeadbuttR'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Carnotaurus/Animations/AM_Carnotaurus_Adult_HeadbuttR.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Carnotaurus_Adult_HeadbuttR'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Carnotaurus/Animations/AM_Carnotaurus_Adult_HeadbuttR.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Carnotaurus_Adult_HeadbuttR'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Carnotaurus/Animations/AM_Carnotaurus_Adult_HeadbuttR.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Carnotaurus_Adult_HeadbuttR'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Carnotaurus/Animations/AM_Carnotaurus_Adult_HeadbuttR.0"
             }
           }
         }

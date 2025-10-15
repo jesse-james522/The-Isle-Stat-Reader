@@ -1808,15 +1808,14 @@
     "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "GravityToWorldTransform": {
-        "X": 5.6295006E+15,
+        "X": 0.0,
         "Y": 0.0,
-        "Z": 0.0,
-        "W": 512.0001,
+        "Z": 8.5380386E+24,
+        "W": "NaN",
         "IsNormalized": false,
-        "Size": 5.6295006E+15,
-        "SizeSquared": 3.1691277E+31
-      },
-      "BrakingDecelerationSwimming": "NaN"
+        "Size": "NaN",
+        "SizeSquared": "NaN"
+      }
     }
   },
   {
