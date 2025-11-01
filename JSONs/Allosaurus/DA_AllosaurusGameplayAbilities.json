@@ -9,6 +9,13 @@
         {
           "Command": "ETIGameplayAbilityInputBinds::PrimaryAttack",
           "GameplayAbilityClass": {
+            "ObjectName": "BlueprintGeneratedClass'GA_DirectionalAllosaurusBiteSwimmingPrimary_C'",
+            "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Attacks/Directional/GA_DirectionalAllosaurusBiteSwimmingPrimary.0"
+          }
+        },
+        {
+          "Command": "ETIGameplayAbilityInputBinds::PrimaryAttack",
+          "GameplayAbilityClass": {
             "ObjectName": "BlueprintGeneratedClass'GA_DirectionalAllosaurusBitePrimary_C'",
             "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Attacks/Directional/GA_DirectionalAllosaurusBitePrimary.0"
           }
@@ -25,6 +32,13 @@
           "GameplayAbilityClass": {
             "ObjectName": "BlueprintGeneratedClass'GA_Bite_Allo_C'",
             "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Attacks/GA_Bite_Allo.0"
+          }
+        },
+        {
+          "Command": "ETIGameplayAbilityInputBinds::PrimaryAttackB",
+          "GameplayAbilityClass": {
+            "ObjectName": "BlueprintGeneratedClass'GA_DirectionalAllosaurusBiteSwimming_C'",
+            "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Attacks/Directional/GA_DirectionalAllosaurusBiteSwimming.0"
           }
         },
         {
@@ -151,13 +165,6 @@
           "GameplayAbilityClass": {
             "ObjectName": "BlueprintGeneratedClass'GA_OpenCorpse_C'",
             "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/GA_OpenCorpse.0"
-          }
-        },
-        {
-          "Command": "ETIGameplayAbilityInputBinds::Jump",
-          "GameplayAbilityClass": {
-            "ObjectName": "BlueprintGeneratedClass'GA_ApexAmbush_C'",
-            "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Attacks/GA_ApexAmbush.0"
           }
         }
       ]

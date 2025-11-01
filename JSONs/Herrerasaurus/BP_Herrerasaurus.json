@@ -239,7 +239,7 @@
     "Type": "BP_Herrerasaurus_C",
     "Name": "Default__BP_Herrerasaurus_C",
     "Class": "BlueprintGeneratedClass'/Game/TheIsle/Core/Characters/Dinosaurs/Herrerasaurus/BP_Herrerasaurus.BP_Herrerasaurus_C'",
-    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "UberGraphFrame": {},
       "DinosaurAssets": {
@@ -295,8 +295,8 @@
         "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Herrerasaurus/Attributes/ATT_Herrerasaurus_RestCurve.0"
       },
       "NVUnderwaterRangeCurveData": {
-        "ObjectName": "CurveFloat'ATT_NVUnderwaterRange'",
-        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Shared_Curves/NightVision/ATT_NVUnderwaterRange.0"
+        "ObjectName": "CurveFloat'ATT_Beipiaosaurus_NVUnderwaterRangeF'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Beipiaosaurus/Attributes/OldFloatCurves/ATT_Beipiaosaurus_NVUnderwaterRangeF.0"
       },
       "AttributeBalanceDataTable": {
         "ObjectName": "DataTable'DT_HerrerasaurusBalanceAttributes'",

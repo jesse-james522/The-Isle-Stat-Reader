@@ -1598,7 +1598,9 @@
     "Class": "UScriptClass'TIFlyingDinosaurMovementComponent'",
     "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
-      "BrakingDecelerationFlying": 500.0
+      "FlyingDownwardsSpeed": 4200.0,
+      "FlyingSprintSpeed": 2400.0,
+      "CrouchedHalfHeight": 500.0
     }
   },
   {

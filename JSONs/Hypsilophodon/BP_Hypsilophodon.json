@@ -1837,7 +1837,7 @@
     "Properties": {
       "WidgetClass": {
         "ObjectName": "WidgetBlueprintGeneratedClass'W_OwnerName_C'",
-        "ObjectPath": "/Game/TheIsle/UI/Game/W_OwnerName.15"
+        "ObjectPath": "/Game/TheIsle/UI/NewUI/Blueprints/FactionSelect/W_OwnerName.15"
       },
       "AttachParent": {
         "ObjectName": "CapsuleComponent'Default__BP_Hypsilophodon_C:CollisionCylinder'",

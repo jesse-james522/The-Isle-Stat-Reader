@@ -57,7 +57,7 @@
         "AttributePercentageValues": -0.028
       },
       "Thirst.Decay": {
-        "AttributePercentageValues": -0.0556
+        "AttributePercentageValues": -0.035
       },
       "Oxygen.Regen": {
         "AttributePercentageValues": 2.2

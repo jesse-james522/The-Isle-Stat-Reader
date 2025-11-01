@@ -760,25 +760,13 @@
     "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "FlyingAccelerationMultiplier": 25.0,
-      "WalkSpeed": 1000.0,
-      "LegsFracturedWalkSpeed": 1000.0,
-      "GravityToWorldTransform": {
-        "X": 2.597302E+22,
-        "Y": 0.0,
-        "Z": 0.0,
-        "W": 0.0,
-        "IsNormalized": false,
-        "Size": "Infinity",
-        "SizeSquared": "Infinity"
-      },
-      "BrakingDecelerationWalking": 0.0,
-      "BrakingDecelerationSwimming": 9.3094E-41,
-      "bEnableScopedMovementUpdates": false,
-      "PlaneConstraintOrigin": {
-        "X": 0.0,
-        "Y": "NaN",
-        "Z": 0.0
-      }
+      "BodyFracturedTrotSpeed": 1000.0,
+      "SprintSpeed": 1000.0,
+      "MaxWalkSpeed": 0.2,
+      "AirControlBoostMultiplier": 1200.0,
+      "FallingLateralFriction": 1200.0,
+      "bShrinkProxyCapsule": false,
+      "bConstrainToPlane": false
     }
   },
   {

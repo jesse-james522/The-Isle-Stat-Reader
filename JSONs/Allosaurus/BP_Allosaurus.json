@@ -8,7 +8,7 @@
     "Properties": {
       "AttachParent": {
         "ObjectName": "SkeletalMeshComponentBudgeted'Default__BP_Allosaurus_C:CharacterMesh0'",
-        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Allosaurus/BP_Allosaurus.22"
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Allosaurus/BP_Allosaurus.18"
       }
     }
   },
@@ -37,47 +37,14 @@
       ],
       "SimpleConstructionScript": {
         "ObjectName": "SimpleConstructionScript'BP_Allosaurus_C:SimpleConstructionScript_0'",
-        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Allosaurus/BP_Allosaurus.21"
-      },
-      "UberGraphFunction": {
-        "ObjectName": "Function'BP_Allosaurus_C:ExecuteUbergraph_BP_Allosaurus'",
-        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Allosaurus/BP_Allosaurus.8"
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Allosaurus/BP_Allosaurus.17"
       }
     },
     "SuperStruct": {
       "ObjectName": "Class'TIAllosaurus'",
       "ObjectPath": "/Script/TheIsle"
     },
-    "Children": [
-      {
-        "ObjectName": "Function'BP_Allosaurus_C:ReceiveTick'",
-        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Allosaurus/BP_Allosaurus.11"
-      },
-      {
-        "ObjectName": "Function'BP_Allosaurus_C:ReceiveBeginPlay'",
-        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Allosaurus/BP_Allosaurus.9"
-      },
-      {
-        "ObjectName": "Function'BP_Allosaurus_C:ReceiveDestroyed'",
-        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Allosaurus/BP_Allosaurus.10"
-      },
-      {
-        "ObjectName": "Function'BP_Allosaurus_C:ExecuteUbergraph_BP_Allosaurus'",
-        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Allosaurus/BP_Allosaurus.8"
-      }
-    ],
     "ChildProperties": [
-      {
-        "Type": "StructProperty",
-        "Name": "UberGraphFrame",
-        "Flags": "RF_Public | RF_LoadCompleted",
-        "ElementSize": 16,
-        "PropertyFlags": "Transient | DuplicateTransient",
-        "Struct": {
-          "ObjectName": "Class'PointerToUberGraphFrame'",
-          "ObjectPath": "/Script/Engine"
-        }
-      },
       {
         "Type": "ObjectProperty",
         "Name": "BP_FluidImplementation",
@@ -90,24 +57,6 @@
         }
       }
     ],
-    "FuncMap": {
-      "ExecuteUbergraph_BP_Allosaurus": {
-        "ObjectName": "Function'BP_Allosaurus_C:ExecuteUbergraph_BP_Allosaurus'",
-        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Allosaurus/BP_Allosaurus.8"
-      },
-      "ReceiveDestroyed": {
-        "ObjectName": "Function'BP_Allosaurus_C:ReceiveDestroyed'",
-        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Allosaurus/BP_Allosaurus.10"
-      },
-      "ReceiveBeginPlay": {
-        "ObjectName": "Function'BP_Allosaurus_C:ReceiveBeginPlay'",
-        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Allosaurus/BP_Allosaurus.9"
-      },
-      "ReceiveTick": {
-        "ObjectName": "Function'BP_Allosaurus_C:ReceiveTick'",
-        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Allosaurus/BP_Allosaurus.11"
-      }
-    },
     "ClassFlags": "CLASS_Config | CLASS_NoExport | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
     "ClassWithin": {
       "ObjectName": "Class'Object'",
@@ -183,9 +132,8 @@
     "Type": "BP_Allosaurus_C",
     "Name": "Default__BP_Allosaurus_C",
     "Class": "BlueprintGeneratedClass'/Game/TheIsle/Core/Characters/Dinosaurs/Allosaurus/BP_Allosaurus.BP_Allosaurus_C'",
-    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
-      "UberGraphFrame": {},
       "DinosaurAssets": {
         "ObjectName": "TIDinosaurAssets'DA_DinosaurAssets'",
         "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/DA_DinosaurAssets.0"
@@ -196,7 +144,7 @@
       },
       "DinosaurMovement": {
         "ObjectName": "TIChargingDinosaurMovementComponent'Default__BP_Allosaurus_C:CharMoveComp'",
-        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Allosaurus/BP_Allosaurus.33"
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Allosaurus/BP_Allosaurus.29"
       },
       "HorizontalCameraYawOffset": {
         "ObjectName": "CurveVector'CV_AllosaurusHorizontalCameraYawOffset'",
@@ -231,6 +179,11 @@
         "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Allosaurus/Camera/CV_AllosaurusUp45CameraYawOffset.0"
       },
       "SizeStyleName": "Medium",
+      "SubadultGrowthTimeMinutes": 200.0,
+      "AdultGrowthTimeMinutes": 220.0,
+      "PrivatePawnInfo": {
+        "ClassName": "Allosaurus"
+      },
       "AttributeCurveDataTable": {
         "ObjectName": "DataTable'DT_AllosaurusAttributeCurves'",
         "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Allosaurus/Attributes/DT_AllosaurusAttributeCurves.0"
@@ -252,7 +205,7 @@
         "SubPathString": ""
       },
       "SkeletonPhysicsAsset": {
-        "AssetPathName": "/Game/TheIsle/Characters/Dinosaurs/Carnotaurus/Mesh/SK_Carnotaurus_Bones_PhysicsAsset.SK_Carnotaurus_Bones_PhysicsAsset",
+        "AssetPathName": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Mesh/PHYS_Allosaurus.PHYS_Allosaurus",
         "SubPathString": ""
       },
       "EatingChunkPiece": {
@@ -289,11 +242,11 @@
       },
       "AntiCheatComponent": {
         "ObjectName": "TIAntiCheatComponent'Default__BP_Allosaurus_C:AntiCheatComponent'",
-        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Allosaurus/BP_Allosaurus.31"
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Allosaurus/BP_Allosaurus.27"
       },
       "AbilitySystemComponent": {
         "ObjectName": "TIAbilitySystemComponent'Default__BP_Allosaurus_C:AbilitySystemComponent'",
-        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Allosaurus/BP_Allosaurus.30"
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Allosaurus/BP_Allosaurus.26"
       }
     }
   },
@@ -354,7 +307,7 @@
       },
       "AttachParent": {
         "ObjectName": "SpringArmComponent'Default__BP_Allosaurus_C:Spring Arm'",
-        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Allosaurus/BP_Allosaurus.27"
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Allosaurus/BP_Allosaurus.23"
       }
     }
   },
@@ -376,561 +329,6 @@
         "bOverrideWalkableSlopeOnInstance": false
       }
     }
-  },
-  {
-    "Type": "Function",
-    "Name": "ExecuteUbergraph_BP_Allosaurus",
-    "Outer": "BP_Allosaurus_C",
-    "Class": "UScriptClass'Function'",
-    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
-    "ChildProperties": [
-      {
-        "Type": "IntProperty",
-        "Name": "EntryPoint",
-        "Flags": "RF_Public",
-        "ElementSize": 4,
-        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
-      },
-      {
-        "Type": "FloatProperty",
-        "Name": "K2Node_Event_DeltaSeconds",
-        "Flags": "RF_Public",
-        "ElementSize": 4
-      },
-      {
-        "Type": "BoolProperty",
-        "Name": "CallFunc_bIsEditor_ReturnValue",
-        "Flags": "RF_Public",
-        "ElementSize": 1,
-        "FieldSize": 1,
-        "ByteOffset": 0,
-        "ByteMask": 1,
-        "FieldMask": 255,
-        "BoolSize": 1,
-        "bIsNativeBool": true
-      },
-      {
-        "Type": "ObjectProperty",
-        "Name": "K2Node_DynamicCast_AsThe_Isle_Charging_Dinosaur_Movement_Component",
-        "Flags": "RF_Public",
-        "ElementSize": 8,
-        "PropertyFlags": "InstancedReference",
-        "PropertyClass": {
-          "ObjectName": "Class'TIChargingDinosaurMovementComponent'",
-          "ObjectPath": "/Script/TheIsle"
-        }
-      },
-      {
-        "Type": "BoolProperty",
-        "Name": "K2Node_DynamicCast_bSuccess",
-        "Flags": "RF_Public",
-        "ElementSize": 1,
-        "FieldSize": 1,
-        "ByteOffset": 0,
-        "ByteMask": 1,
-        "FieldMask": 255,
-        "BoolSize": 1,
-        "bIsNativeBool": true
-      }
-    ],
-    "ScriptBytecode": [
-      {
-        "Inst": "EX_ComputedJump",
-        "StatementIndex": 0,
-        "OffsetExpression": {
-          "Inst": "EX_LocalVariable",
-          "Variable": {
-            "Owner": {
-              "ObjectName": "Function'BP_Allosaurus_C:ExecuteUbergraph_BP_Allosaurus'",
-              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Allosaurus/BP_Allosaurus.8"
-            },
-            "Property": {
-              "Type": "IntProperty",
-              "Name": "EntryPoint",
-              "Flags": "RF_Public",
-              "ElementSize": 4,
-              "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
-            }
-          }
-        }
-      },
-      {
-        "Inst": "EX_LocalFinalFunction",
-        "StatementIndex": 10,
-        "Function": {
-          "ObjectName": "Class'Actor:ReceiveTick'",
-          "ObjectPath": "/Script/Engine"
-        },
-        "Parameters": [
-          {
-            "Inst": "EX_LocalVariable",
-            "Variable": {
-              "Owner": {
-                "ObjectName": "Function'BP_Allosaurus_C:ExecuteUbergraph_BP_Allosaurus'",
-                "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Allosaurus/BP_Allosaurus.8"
-              },
-              "Property": {
-                "Type": "FloatProperty",
-                "Name": "K2Node_Event_DeltaSeconds",
-                "Flags": "RF_Public",
-                "ElementSize": 4
-              }
-            }
-          }
-        ]
-      },
-      {
-        "Inst": "EX_LetBool",
-        "StatementIndex": 29,
-        "Variable": {
-          "Inst": "EX_LocalVariable",
-          "Variable": {
-            "Owner": {
-              "ObjectName": "Function'BP_Allosaurus_C:ExecuteUbergraph_BP_Allosaurus'",
-              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Allosaurus/BP_Allosaurus.8"
-            },
-            "Property": {
-              "Type": "BoolProperty",
-              "Name": "CallFunc_bIsEditor_ReturnValue",
-              "Flags": "RF_Public",
-              "ElementSize": 1,
-              "FieldSize": 1,
-              "ByteOffset": 0,
-              "ByteMask": 1,
-              "FieldMask": 255,
-              "BoolSize": 1,
-              "bIsNativeBool": true
-            }
-          }
-        },
-        "Expression": {
-          "Inst": "EX_CallMath",
-          "Function": {
-            "ObjectName": "Class'TIGameInstance:bIsEditor'",
-            "ObjectPath": "/Script/TheIsle"
-          },
-          "Parameters": []
-        }
-      },
-      {
-        "Inst": "EX_JumpIfNot",
-        "StatementIndex": 49,
-        "CodeOffset": 223,
-        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Allosaurus/BP_Allosaurus.ExecuteUbergraph_BP_Allosaurus[223]",
-        "BooleanExpression": {
-          "Inst": "EX_LocalVariable",
-          "Variable": {
-            "Owner": {
-              "ObjectName": "Function'BP_Allosaurus_C:ExecuteUbergraph_BP_Allosaurus'",
-              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Allosaurus/BP_Allosaurus.8"
-            },
-            "Property": {
-              "Type": "BoolProperty",
-              "Name": "CallFunc_bIsEditor_ReturnValue",
-              "Flags": "RF_Public",
-              "ElementSize": 1,
-              "FieldSize": 1,
-              "ByteOffset": 0,
-              "ByteMask": 1,
-              "FieldMask": 255,
-              "BoolSize": 1,
-              "bIsNativeBool": true
-            }
-          }
-        }
-      },
-      {
-        "Inst": "EX_Let",
-        "StatementIndex": 63,
-        "Variable": {
-          "Inst": "EX_LocalVariable",
-          "Variable": {
-            "Owner": {
-              "ObjectName": "Function'BP_Allosaurus_C:ExecuteUbergraph_BP_Allosaurus'",
-              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Allosaurus/BP_Allosaurus.8"
-            },
-            "Property": {
-              "Type": "ObjectProperty",
-              "Name": "K2Node_DynamicCast_AsThe_Isle_Charging_Dinosaur_Movement_Component",
-              "Flags": "RF_Public",
-              "ElementSize": 8,
-              "PropertyFlags": "InstancedReference",
-              "PropertyClass": {
-                "ObjectName": "Class'TIChargingDinosaurMovementComponent'",
-                "ObjectPath": "/Script/TheIsle"
-              }
-            }
-          }
-        },
-        "Expression": {
-          "Inst": "EX_DynamicCast",
-          "InterfaceClass": {
-            "ObjectName": "Class'TIChargingDinosaurMovementComponent'",
-            "ObjectPath": "/Script/TheIsle"
-          },
-          "Target": {
-            "Inst": "EX_InstanceVariable",
-            "Variable": {
-              "Path": [
-                "DinosaurMovement"
-              ],
-              "ResolvedOwner": {
-                "ObjectName": "Class'TIDinosaurBase'",
-                "ObjectPath": "/Script/TheIsle"
-              }
-            }
-          }
-        }
-      },
-      {
-        "Inst": "EX_Let",
-        "StatementIndex": 99,
-        "Variable": {
-          "Inst": "EX_LocalVariable",
-          "Variable": {
-            "Owner": {
-              "ObjectName": "Function'BP_Allosaurus_C:ExecuteUbergraph_BP_Allosaurus'",
-              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Allosaurus/BP_Allosaurus.8"
-            },
-            "Property": {
-              "Type": "BoolProperty",
-              "Name": "K2Node_DynamicCast_bSuccess",
-              "Flags": "RF_Public",
-              "ElementSize": 1,
-              "FieldSize": 1,
-              "ByteOffset": 0,
-              "ByteMask": 1,
-              "FieldMask": 255,
-              "BoolSize": 1,
-              "bIsNativeBool": true
-            }
-          }
-        },
-        "Expression": {
-          "Inst": "EX_Cast",
-          "ConversionType": "CST_ObjectToBool",
-          "Target": {
-            "Inst": "EX_LocalVariable",
-            "Variable": {
-              "Owner": {
-                "ObjectName": "Function'BP_Allosaurus_C:ExecuteUbergraph_BP_Allosaurus'",
-                "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Allosaurus/BP_Allosaurus.8"
-              },
-              "Property": {
-                "Type": "ObjectProperty",
-                "Name": "K2Node_DynamicCast_AsThe_Isle_Charging_Dinosaur_Movement_Component",
-                "Flags": "RF_Public",
-                "ElementSize": 8,
-                "PropertyFlags": "InstancedReference",
-                "PropertyClass": {
-                  "ObjectName": "Class'TIChargingDinosaurMovementComponent'",
-                  "ObjectPath": "/Script/TheIsle"
-                }
-              }
-            }
-          }
-        }
-      },
-      {
-        "Inst": "EX_JumpIfNot",
-        "StatementIndex": 128,
-        "CodeOffset": 223,
-        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Allosaurus/BP_Allosaurus.ExecuteUbergraph_BP_Allosaurus[223]",
-        "BooleanExpression": {
-          "Inst": "EX_LocalVariable",
-          "Variable": {
-            "Owner": {
-              "ObjectName": "Function'BP_Allosaurus_C:ExecuteUbergraph_BP_Allosaurus'",
-              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Allosaurus/BP_Allosaurus.8"
-            },
-            "Property": {
-              "Type": "BoolProperty",
-              "Name": "K2Node_DynamicCast_bSuccess",
-              "Flags": "RF_Public",
-              "ElementSize": 1,
-              "FieldSize": 1,
-              "ByteOffset": 0,
-              "ByteMask": 1,
-              "FieldMask": 255,
-              "BoolSize": 1,
-              "bIsNativeBool": true
-            }
-          }
-        }
-      },
-      {
-        "Inst": "EX_JumpIfNot",
-        "StatementIndex": 142,
-        "CodeOffset": 223,
-        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Allosaurus/BP_Allosaurus.ExecuteUbergraph_BP_Allosaurus[223]",
-        "BooleanExpression": {
-          "Inst": "EX_Context",
-          "ObjectExpression": {
-            "Inst": "EX_LocalVariable",
-            "Variable": {
-              "Owner": {
-                "ObjectName": "Function'BP_Allosaurus_C:ExecuteUbergraph_BP_Allosaurus'",
-                "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Allosaurus/BP_Allosaurus.8"
-              },
-              "Property": {
-                "Type": "ObjectProperty",
-                "Name": "K2Node_DynamicCast_AsThe_Isle_Charging_Dinosaur_Movement_Component",
-                "Flags": "RF_Public",
-                "ElementSize": 8,
-                "PropertyFlags": "InstancedReference",
-                "PropertyClass": {
-                  "ObjectName": "Class'TIChargingDinosaurMovementComponent'",
-                  "ObjectPath": "/Script/TheIsle"
-                }
-              }
-            }
-          },
-          "Offset": 9,
-          "RValuePointer": {
-            "Path": [
-              "bIsCharging"
-            ],
-            "ResolvedOwner": {
-              "ObjectName": "Class'TIChargingDinosaurMovementComponent'",
-              "ObjectPath": "/Script/TheIsle"
-            }
-          },
-          "ContextExpression": {
-            "Inst": "EX_InstanceVariable",
-            "Variable": {
-              "Path": [
-                "bIsCharging"
-              ],
-              "ResolvedOwner": {
-                "ObjectName": "Class'TIChargingDinosaurMovementComponent'",
-                "ObjectPath": "/Script/TheIsle"
-              }
-            }
-          }
-        }
-      },
-      {
-        "Inst": "EX_Jump",
-        "StatementIndex": 178,
-        "CodeOffset": 223,
-        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Allosaurus/BP_Allosaurus.ExecuteUbergraph_BP_Allosaurus[223]"
-      },
-      {
-        "Inst": "EX_LocalFinalFunction",
-        "StatementIndex": 183,
-        "Function": {
-          "ObjectName": "Class'Actor:ReceiveBeginPlay'",
-          "ObjectPath": "/Script/Engine"
-        },
-        "Parameters": []
-      },
-      {
-        "Inst": "EX_Jump",
-        "StatementIndex": 193,
-        "CodeOffset": 223,
-        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Allosaurus/BP_Allosaurus.ExecuteUbergraph_BP_Allosaurus[223]"
-      },
-      {
-        "Inst": "EX_Jump",
-        "StatementIndex": 198,
-        "CodeOffset": 183,
-        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Allosaurus/BP_Allosaurus.ExecuteUbergraph_BP_Allosaurus[183]"
-      },
-      {
-        "Inst": "EX_LocalFinalFunction",
-        "StatementIndex": 203,
-        "Function": {
-          "ObjectName": "Class'Actor:ReceiveDestroyed'",
-          "ObjectPath": "/Script/Engine"
-        },
-        "Parameters": []
-      },
-      {
-        "Inst": "EX_Jump",
-        "StatementIndex": 213,
-        "CodeOffset": 223,
-        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Allosaurus/BP_Allosaurus.ExecuteUbergraph_BP_Allosaurus[223]"
-      },
-      {
-        "Inst": "EX_Jump",
-        "StatementIndex": 218,
-        "CodeOffset": 203,
-        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Allosaurus/BP_Allosaurus.ExecuteUbergraph_BP_Allosaurus[203]"
-      },
-      {
-        "Inst": "EX_Return",
-        "StatementIndex": 223,
-        "Expression": {
-          "Inst": "EX_Nothing"
-        }
-      },
-      {
-        "Inst": "EX_EndOfScript",
-        "StatementIndex": 225
-      }
-    ],
-    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
-  },
-  {
-    "Type": "Function",
-    "Name": "ReceiveBeginPlay",
-    "Outer": "BP_Allosaurus_C",
-    "Class": "UScriptClass'Function'",
-    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
-    "SuperStruct": {
-      "ObjectName": "Class'Actor:ReceiveBeginPlay'",
-      "ObjectPath": "/Script/Engine"
-    },
-    "ScriptBytecode": [
-      {
-        "Inst": "EX_LocalFinalFunction",
-        "StatementIndex": 0,
-        "Function": {
-          "ObjectName": "Function'BP_Allosaurus_C:ExecuteUbergraph_BP_Allosaurus'",
-          "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Allosaurus/BP_Allosaurus.8"
-        },
-        "Parameters": [
-          {
-            "Inst": "EX_IntConst",
-            "Value": 198
-          }
-        ],
-        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Allosaurus/BP_Allosaurus.ExecuteUbergraph_BP_Allosaurus[198]"
-      },
-      {
-        "Inst": "EX_Return",
-        "StatementIndex": 15,
-        "Expression": {
-          "Inst": "EX_Nothing"
-        }
-      },
-      {
-        "Inst": "EX_EndOfScript",
-        "StatementIndex": 17
-      }
-    ],
-    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
-  },
-  {
-    "Type": "Function",
-    "Name": "ReceiveDestroyed",
-    "Outer": "BP_Allosaurus_C",
-    "Class": "UScriptClass'Function'",
-    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
-    "SuperStruct": {
-      "ObjectName": "Class'Actor:ReceiveDestroyed'",
-      "ObjectPath": "/Script/Engine"
-    },
-    "ScriptBytecode": [
-      {
-        "Inst": "EX_LocalFinalFunction",
-        "StatementIndex": 0,
-        "Function": {
-          "ObjectName": "Function'BP_Allosaurus_C:ExecuteUbergraph_BP_Allosaurus'",
-          "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Allosaurus/BP_Allosaurus.8"
-        },
-        "Parameters": [
-          {
-            "Inst": "EX_IntConst",
-            "Value": 218
-          }
-        ],
-        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Allosaurus/BP_Allosaurus.ExecuteUbergraph_BP_Allosaurus[218]"
-      },
-      {
-        "Inst": "EX_Return",
-        "StatementIndex": 15,
-        "Expression": {
-          "Inst": "EX_Nothing"
-        }
-      },
-      {
-        "Inst": "EX_EndOfScript",
-        "StatementIndex": 17
-      }
-    ],
-    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
-  },
-  {
-    "Type": "Function",
-    "Name": "ReceiveTick",
-    "Outer": "BP_Allosaurus_C",
-    "Class": "UScriptClass'Function'",
-    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
-    "SuperStruct": {
-      "ObjectName": "Class'Actor:ReceiveTick'",
-      "ObjectPath": "/Script/Engine"
-    },
-    "ChildProperties": [
-      {
-        "Type": "FloatProperty",
-        "Name": "DeltaSeconds",
-        "Flags": "RF_Public",
-        "ElementSize": 4,
-        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
-      }
-    ],
-    "ScriptBytecode": [
-      {
-        "Inst": "EX_LetValueOnPersistentFrame",
-        "StatementIndex": 0,
-        "DestinationProperty": {
-          "Owner": {
-            "ObjectName": "Function'BP_Allosaurus_C:ExecuteUbergraph_BP_Allosaurus'",
-            "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Allosaurus/BP_Allosaurus.8"
-          },
-          "Property": {
-            "Type": "FloatProperty",
-            "Name": "K2Node_Event_DeltaSeconds",
-            "Flags": "RF_Public",
-            "ElementSize": 4
-          }
-        },
-        "AssignmentExpression": {
-          "Inst": "EX_LocalVariable",
-          "Variable": {
-            "Owner": {
-              "ObjectName": "Function'BP_Allosaurus_C:ReceiveTick'",
-              "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Allosaurus/BP_Allosaurus.11"
-            },
-            "Property": {
-              "Type": "FloatProperty",
-              "Name": "DeltaSeconds",
-              "Flags": "RF_Public",
-              "ElementSize": 4,
-              "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
-            }
-          }
-        }
-      },
-      {
-        "Inst": "EX_LocalFinalFunction",
-        "StatementIndex": 18,
-        "Function": {
-          "ObjectName": "Function'BP_Allosaurus_C:ExecuteUbergraph_BP_Allosaurus'",
-          "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Allosaurus/BP_Allosaurus.8"
-        },
-        "Parameters": [
-          {
-            "Inst": "EX_IntConst",
-            "Value": 10
-          }
-        ],
-        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Allosaurus/BP_Allosaurus.ExecuteUbergraph_BP_Allosaurus[10]"
-      },
-      {
-        "Inst": "EX_Return",
-        "StatementIndex": 33,
-        "Expression": {
-          "Inst": "EX_Nothing"
-        }
-      },
-      {
-        "Inst": "EX_EndOfScript",
-        "StatementIndex": 35
-      }
-    ],
-    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
   },
   {
     "Type": "NavigationInvokerComponent",
@@ -1005,7 +403,7 @@
     "Properties": {
       "AttachParent": {
         "ObjectName": "SkeletalMeshComponentBudgeted'Default__BP_Allosaurus_C:CharacterMesh0'",
-        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Allosaurus/BP_Allosaurus.22"
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Allosaurus/BP_Allosaurus.18"
       },
       "RelativeLocation": {
         "X": -2.4557552,
@@ -1032,7 +430,7 @@
       },
       "ComponentTemplate": {
         "ObjectName": "SceneComponent'BP_Allosaurus_C:DefaultSceneRoot_GEN_VARIABLE'",
-        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Allosaurus/BP_Allosaurus.17"
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Allosaurus/BP_Allosaurus.13"
       },
       "VariableGUID": "3C99B2FF-43E4D529-2C66DB9F-FE39222E",
       "InternalVariableName": "DefaultSceneRoot"
@@ -1128,18 +526,18 @@
       "RootNodes": [
         {
           "ObjectName": "SCS_Node'BP_Allosaurus_C:SimpleConstructionScript_0.SCS_Node_3'",
-          "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Allosaurus/BP_Allosaurus.20"
+          "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Allosaurus/BP_Allosaurus.16"
         }
       ],
       "AllNodes": [
         {
           "ObjectName": "SCS_Node'BP_Allosaurus_C:SimpleConstructionScript_0.SCS_Node_3'",
-          "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Allosaurus/BP_Allosaurus.20"
+          "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Allosaurus/BP_Allosaurus.16"
         }
       ],
       "DefaultSceneRootNode": {
         "ObjectName": "SCS_Node'BP_Allosaurus_C:SimpleConstructionScript_0.SCS_Node_0'",
-        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Allosaurus/BP_Allosaurus.19"
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Allosaurus/BP_Allosaurus.15"
       }
     }
   },
@@ -1203,7 +601,7 @@
       },
       "LeaderPoseComponent": {
         "ObjectName": "SkeletalMeshComponentBudgeted'Default__BP_Allosaurus_C:CharacterMesh0'",
-        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Allosaurus/BP_Allosaurus.22"
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Allosaurus/BP_Allosaurus.18"
       },
       "VisibilityBasedAnimTickOption": "EVisibilityBasedAnimTickOption::OnlyTickPoseWhenRendered",
       "bEnableUpdateRateOptimizations": true,
@@ -1215,7 +613,7 @@
       },
       "AttachParent": {
         "ObjectName": "SkeletalMeshComponentBudgeted'Default__BP_Allosaurus_C:CharacterMesh0'",
-        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Allosaurus/BP_Allosaurus.22"
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Allosaurus/BP_Allosaurus.18"
       },
       "bHiddenInGame": true,
       "PrimaryComponentTick": {
@@ -1242,7 +640,7 @@
       },
       "LeaderPoseComponent": {
         "ObjectName": "SkeletalMeshComponentBudgeted'Default__BP_Allosaurus_C:CharacterMesh0'",
-        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Allosaurus/BP_Allosaurus.22"
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Allosaurus/BP_Allosaurus.18"
       },
       "VisibilityBasedAnimTickOption": "EVisibilityBasedAnimTickOption::OnlyTickPoseWhenRendered",
       "bEnableUpdateRateOptimizations": true,
@@ -1254,7 +652,7 @@
       },
       "AttachParent": {
         "ObjectName": "SkeletalMeshComponentBudgeted'Default__BP_Allosaurus_C:CharacterMesh0'",
-        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Allosaurus/BP_Allosaurus.22"
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Allosaurus/BP_Allosaurus.18"
       },
       "bHiddenInGame": true,
       "PrimaryComponentTick": {
@@ -1941,7 +1339,7 @@
       },
       "AttachParent": {
         "ObjectName": "SkeletalMeshComponentBudgeted'Default__BP_Allosaurus_C:CharacterMesh0'",
-        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Allosaurus/BP_Allosaurus.22"
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Allosaurus/BP_Allosaurus.18"
       },
       "RelativeLocation": {
         "X": -3.4836862,
@@ -2003,7 +1401,7 @@
       },
       "AttachParent": {
         "ObjectName": "SkeletalMeshComponentBudgeted'Default__BP_Allosaurus_C:CharacterMesh0'",
-        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Allosaurus/BP_Allosaurus.22"
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Allosaurus/BP_Allosaurus.18"
       },
       "RelativeLocation": {
         "X": 39.967506,
@@ -2051,12 +1449,15 @@
     "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "SlideDuration": 1.0,
-      "StaggerMovementDurationF": 1.5,
-      "GroundFriction": 650.0,
+      "RotationRateWalking": 6.067755E-36,
+      "RotationRateTrotting": 180.0,
+      "RotationRateSprinting": 220.0,
+      "StaggerMovementDurationF": 145.0,
+      "GroundFriction": 110.0,
       "AnimRootMotionVelocity": {
-        "X": 2.997596E+19,
-        "Y": 0.0,
-        "Z": -0.0
+        "X": 9.8516255E+14,
+        "Y": 9.8516255E+14,
+        "Z": 0.0
       }
     }
   },
@@ -2099,7 +1500,7 @@
     "Properties": {
       "WidgetClass": {
         "ObjectName": "WidgetBlueprintGeneratedClass'W_OwnerName_C'",
-        "ObjectPath": "/Game/TheIsle/UI/Game/W_OwnerName.15"
+        "ObjectPath": "/Game/TheIsle/UI/NewUI/Blueprints/FactionSelect/W_OwnerName.15"
       },
       "AttachParent": {
         "ObjectName": "CapsuleComponent'Default__BP_Allosaurus_C:CollisionCylinder'",

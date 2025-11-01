@@ -63,7 +63,7 @@
         "AttributePercentageValues": 4.0
       },
       "Oxygen.Decay": {
-        "AttributePercentageValues": -4.0
+        "AttributePercentageValues": -0.5
       },
       "Damage.Bite": {
         "AttributePercentageValues": 30.0

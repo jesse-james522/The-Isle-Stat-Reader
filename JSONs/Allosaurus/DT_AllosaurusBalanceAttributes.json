@@ -66,7 +66,7 @@
         "AttributePercentageValues": -3.4
       },
       "Damage.Bite": {
-        "AttributePercentageValues": 275.0
+        "AttributePercentageValues": 175.0
       },
       "Stamina.Spending.GetUpFast": {
         "AttributePercentageValues": -20.0
@@ -87,7 +87,7 @@
         "AttributePercentageValues": 0.0433
       },
       "Damage.AltBite": {
-        "AttributePercentageValues": 320.0
+        "AttributePercentageValues": 220.0
       },
       "Stamina.AltBite": {
         "AttributePercentageValues": -0.02
@@ -99,7 +99,7 @@
         "AttributePercentageValues": 50.0
       },
       "Damage.Pounce.LatchDismount": {
-        "AttributePercentageValues": 150.0
+        "AttributePercentageValues": 200.0
       },
       "Damage.Pounce.LatchLoop": {
         "AttributePercentageValues": 50.0
@@ -111,7 +111,7 @@
         "AttributePercentageValues": 150.0
       },
       "Damage.ClawSwipe": {
-        "AttributePercentageValues": 425.0
+        "AttributePercentageValues": 250.0
       }
     }
   }

@@ -81,7 +81,7 @@
         "AttributePercentageValues": 0.0
       },
       "Stamina.Spending.Ascending": {
-        "AttributePercentageValues": -40.0
+        "AttributePercentageValues": -20.0
       },
       "Stamina.Spending.Airbrake.Max": {
         "AttributePercentageValues": 0.0
@@ -90,10 +90,10 @@
         "AttributePercentageValues": 30.0
       },
       "Stamina.Spending.FastFlight.Horizontal": {
-        "AttributePercentageValues": -40.0
+        "AttributePercentageValues": -20.0
       },
       "Stamina.Spending.FastFlight.Up": {
-        "AttributePercentageValues": -120.0
+        "AttributePercentageValues": -45.0
       },
       "Blood.Regen.Standing": {
         "AttributePercentageValues": 0.04615

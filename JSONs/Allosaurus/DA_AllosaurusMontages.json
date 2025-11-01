@@ -1553,7 +1553,7 @@
           }
         },
         {
-          "Key": "WaterBite",
+          "Key": "AltBiteSwim",
           "Value": {
             "LF": {
               "Hatchling": {
@@ -1578,11 +1578,26 @@
               }
             },
             "L45": {
-              "Hatchling": null,
-              "Juvenile": null,
-              "Subadult": null,
-              "Adult": null,
-              "Elder": null
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Allosaurus_Adult_Swim_Attack_F'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_Swim_Attack_F.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Allosaurus_Adult_Swim_Attack_F'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_Swim_Attack_F.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Allosaurus_Adult_Swim_Attack_F'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_Swim_Attack_F.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Allosaurus_Adult_Swim_Attack_F'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_Swim_Attack_F.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Allosaurus_Adult_Swim_Attack_F'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_Swim_Attack_F.0"
+              }
             },
             "L90": {
               "Hatchling": {
@@ -1629,11 +1644,26 @@
               }
             },
             "L180": {
-              "Hatchling": null,
-              "Juvenile": null,
-              "Subadult": null,
-              "Adult": null,
-              "Elder": null
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Allosaurus_Adult_Swim_Attack_L135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_Swim_Attack_L135.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Allosaurus_Adult_Swim_Attack_L135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_Swim_Attack_L135.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Allosaurus_Adult_Swim_Attack_L135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_Swim_Attack_L135.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Allosaurus_Adult_Swim_Attack_L135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_Swim_Attack_L135.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Allosaurus_Adult_Swim_Attack_L135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_Swim_Attack_L135.0"
+              }
             },
             "RF": {
               "Hatchling": {
@@ -1658,11 +1688,26 @@
               }
             },
             "R45": {
-              "Hatchling": null,
-              "Juvenile": null,
-              "Subadult": null,
-              "Adult": null,
-              "Elder": null
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Allosaurus_Adult_Swim_Attack_F'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_Swim_Attack_F.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Allosaurus_Adult_Swim_Attack_F'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_Swim_Attack_F.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Allosaurus_Adult_Swim_Attack_F'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_Swim_Attack_F.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Allosaurus_Adult_Swim_Attack_F'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_Swim_Attack_F.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Allosaurus_Adult_Swim_Attack_F'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_Swim_Attack_F.0"
+              }
             },
             "R90": {
               "Hatchling": {
@@ -1709,11 +1754,26 @@
               }
             },
             "R180": {
-              "Hatchling": null,
-              "Juvenile": null,
-              "Subadult": null,
-              "Adult": null,
-              "Elder": null
+              "Hatchling": {
+                "ObjectName": "AnimMontage'AM_Allosaurus_Adult_Swim_Attack_R135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_Swim_Attack_R135.0"
+              },
+              "Juvenile": {
+                "ObjectName": "AnimMontage'AM_Allosaurus_Adult_Swim_Attack_R135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_Swim_Attack_R135.0"
+              },
+              "Subadult": {
+                "ObjectName": "AnimMontage'AM_Allosaurus_Adult_Swim_Attack_R135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_Swim_Attack_R135.0"
+              },
+              "Adult": {
+                "ObjectName": "AnimMontage'AM_Allosaurus_Adult_Swim_Attack_R135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_Swim_Attack_R135.0"
+              },
+              "Elder": {
+                "ObjectName": "AnimMontage'AM_Allosaurus_Adult_Swim_Attack_R135'",
+                "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/AM_Allosaurus_Adult_Swim_Attack_R135.0"
+              }
             }
           }
         }
