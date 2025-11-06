@@ -201,7 +201,7 @@
         "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Allosaurus/Vocals/DT_AllosaurusVocals.0"
       },
       "DeathPhysicsAsset": {
-        "AssetPathName": "/Game/TheIsle/Characters/Dinosaurs/Carnotaurus/Mesh/PHYS_Carnotaurus.PHYS_Carnotaurus",
+        "AssetPathName": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Mesh/PHYS_Allosaurus.PHYS_Allosaurus",
         "SubPathString": ""
       },
       "SkeletonPhysicsAsset": {

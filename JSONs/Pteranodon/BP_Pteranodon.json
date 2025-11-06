@@ -234,7 +234,7 @@
         "ObjectName": "AudioComponent'Default__BP_Pteranodon_C:Wind'",
         "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Pteranodon/BP_Pteranodon.1"
       },
-      "MaxAbilityCharges": 93
+      "MaxAbilityCharges": 94
     }
   },
   {
@@ -1600,7 +1600,7 @@
     "Properties": {
       "FlyingDownwardsSpeed": 4200.0,
       "FlyingSprintSpeed": 2400.0,
-      "CrouchedHalfHeight": 500.0
+      "Buoyancy": 500.0
     }
   },
   {

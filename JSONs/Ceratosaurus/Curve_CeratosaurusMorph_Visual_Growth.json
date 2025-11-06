@@ -1,7 +1,7 @@
 [
   {
     "Type": "CurveFloat",
-    "Name": "ATT_Dryosaurus_NightVisionBrightness",
+    "Name": "Curve_CeratosaurusMorph_Visual_Growth",
     "Class": "UScriptClass'CurveFloat'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
@@ -12,7 +12,7 @@
             "TangentMode": "RCTM_Auto",
             "TangentWeightMode": "RCTWM_WeightedNone",
             "Time": 0.0,
-            "Value": 0.1,
+            "Value": 0.0,
             "ArriveTangent": 0.0,
             "ArriveTangentWeight": 0.0,
             "LeaveTangent": 0.0,
@@ -23,7 +23,29 @@
             "TangentMode": "RCTM_Auto",
             "TangentWeightMode": "RCTWM_WeightedNone",
             "Time": 0.25,
-            "Value": 0.1,
+            "Value": 0.25,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 0.37,
+            "Value": 0.5,
+            "ArriveTangent": 0.0,
+            "ArriveTangentWeight": 0.0,
+            "LeaveTangent": 0.0,
+            "LeaveTangentWeight": 0.0
+          },
+          {
+            "InterpMode": "RCIM_Linear",
+            "TangentMode": "RCTM_Auto",
+            "TangentWeightMode": "RCTWM_WeightedNone",
+            "Time": 0.5,
+            "Value": 0.65,
             "ArriveTangent": 0.0,
             "ArriveTangentWeight": 0.0,
             "LeaveTangent": 0.0,
@@ -34,18 +56,7 @@
             "TangentMode": "RCTM_Auto",
             "TangentWeightMode": "RCTWM_WeightedNone",
             "Time": 0.75,
-            "Value": 0.15,
-            "ArriveTangent": 0.0,
-            "ArriveTangentWeight": 0.0,
-            "LeaveTangent": 0.0,
-            "LeaveTangentWeight": 0.0
-          },
-          {
-            "InterpMode": "RCIM_Linear",
-            "TangentMode": "RCTM_Auto",
-            "TangentWeightMode": "RCTWM_WeightedNone",
-            "Time": 1.0,
-            "Value": 0.15,
+            "Value": 1.0,
             "ArriveTangent": 0.0,
             "ArriveTangentWeight": 0.0,
             "LeaveTangent": 0.0,

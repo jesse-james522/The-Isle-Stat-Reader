@@ -132,7 +132,7 @@
     "Type": "BP_Ceratosaurus_C",
     "Name": "Default__BP_Ceratosaurus_C",
     "Class": "BlueprintGeneratedClass'/Game/TheIsle/Core/Characters/Dinosaurs/Ceratosaurus/BP_Ceratosaurus.BP_Ceratosaurus_C'",
-    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "ChuffingIgnoredTypes": [
         "ETIFoodType::Compsognathus",
@@ -141,6 +141,10 @@
       "DinosaurAssets": {
         "ObjectName": "TIDinosaurAssets'DA_DinosaurAssets'",
         "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/DA_DinosaurAssets.0"
+      },
+      "VisualGrowthCurve": {
+        "ObjectName": "CurveFloat'Curve_CeratosaurusMorph_Visual_Growth'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Ceratosaurus/Curve_CeratosaurusMorph_Visual_Growth.0"
       },
       "DinosaurMovement": {
         "ObjectName": "TIDinosaurMovementComponent'Default__BP_Ceratosaurus_C:CharMoveComp'",

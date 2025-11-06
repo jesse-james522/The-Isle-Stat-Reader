@@ -760,13 +760,13 @@
     "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "FlyingAccelerationMultiplier": 25.0,
-      "BodyFracturedTrotSpeed": 1000.0,
       "SprintSpeed": 1000.0,
-      "MaxWalkSpeed": 0.2,
-      "AirControlBoostMultiplier": 1200.0,
-      "FallingLateralFriction": 1200.0,
-      "bShrinkProxyCapsule": false,
-      "bConstrainToPlane": false
+      "LegsFracturedSprintSpeed": 1000.0,
+      "MaxWalkSpeedCrouched": 0.2,
+      "AirControlBoostVelocityThreshold": 1200.0,
+      "CrouchedHalfHeight": 1200.0,
+      "bCanWalkOffLedges": false,
+      "bSnapToPlaneAtStart": false
     }
   },
   {

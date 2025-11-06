@@ -1167,24 +1167,24 @@
           "Key": "SparFlipU",
           "Value": {
             "Hatchling": {
-              "ObjectName": "AnimMontage'AM_Triceratops_Adult_Spar_FlipU'",
-              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Triceratops/Animations/AM_Triceratops_Adult_Spar_FlipU.0"
+              "ObjectName": "AnimMontage'AM_Triceratops_adult_Spar_Ram_Fast'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Triceratops/Animations/AM_Triceratops_adult_Spar_Ram_Fast.0"
             },
             "Juvenile": {
-              "ObjectName": "AnimMontage'AM_Triceratops_Adult_Spar_FlipU'",
-              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Triceratops/Animations/AM_Triceratops_Adult_Spar_FlipU.0"
+              "ObjectName": "AnimMontage'AM_Triceratops_adult_Spar_Ram_Fast'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Triceratops/Animations/AM_Triceratops_adult_Spar_Ram_Fast.0"
             },
             "Subadult": {
-              "ObjectName": "AnimMontage'AM_Triceratops_Adult_Spar_FlipU'",
-              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Triceratops/Animations/AM_Triceratops_Adult_Spar_FlipU.0"
+              "ObjectName": "AnimMontage'AM_Triceratops_adult_Spar_Ram_Fast'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Triceratops/Animations/AM_Triceratops_adult_Spar_Ram_Fast.0"
             },
             "Adult": {
-              "ObjectName": "AnimMontage'AM_Triceratops_Adult_Spar_FlipU'",
-              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Triceratops/Animations/AM_Triceratops_Adult_Spar_FlipU.0"
+              "ObjectName": "AnimMontage'AM_Triceratops_adult_Spar_Ram_Fast'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Triceratops/Animations/AM_Triceratops_adult_Spar_Ram_Fast.0"
             },
             "Elder": {
-              "ObjectName": "AnimMontage'AM_Triceratops_Adult_Spar_FlipU'",
-              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Triceratops/Animations/AM_Triceratops_Adult_Spar_FlipU.0"
+              "ObjectName": "AnimMontage'AM_Triceratops_adult_Spar_Ram_Fast'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Triceratops/Animations/AM_Triceratops_adult_Spar_Ram_Fast.0"
             }
           }
         },
@@ -1442,24 +1442,24 @@
           "Key": "FlipU",
           "Value": {
             "Hatchling": {
-              "ObjectName": "AnimMontage'AM_Triceratops_Adult_FlipU'",
-              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Triceratops/Animations/AM_Triceratops_Adult_FlipU.0"
+              "ObjectName": "AnimMontage'AM_Triceratops_adult_Spar_Ram_Fast'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Triceratops/Animations/AM_Triceratops_adult_Spar_Ram_Fast.0"
             },
             "Juvenile": {
-              "ObjectName": "AnimMontage'AM_Triceratops_Adult_FlipU'",
-              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Triceratops/Animations/AM_Triceratops_Adult_FlipU.0"
+              "ObjectName": "AnimMontage'AM_Triceratops_adult_Spar_Ram_Fast'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Triceratops/Animations/AM_Triceratops_adult_Spar_Ram_Fast.0"
             },
             "Subadult": {
-              "ObjectName": "AnimMontage'AM_Triceratops_Adult_FlipU'",
-              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Triceratops/Animations/AM_Triceratops_Adult_FlipU.0"
+              "ObjectName": "AnimMontage'AM_Triceratops_adult_Spar_Ram_Fast'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Triceratops/Animations/AM_Triceratops_adult_Spar_Ram_Fast.0"
             },
             "Adult": {
-              "ObjectName": "AnimMontage'AM_Triceratops_Adult_FlipU'",
-              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Triceratops/Animations/AM_Triceratops_Adult_FlipU.0"
+              "ObjectName": "AnimMontage'AM_Triceratops_adult_Spar_Ram_Fast'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Triceratops/Animations/AM_Triceratops_adult_Spar_Ram_Fast.0"
             },
             "Elder": {
-              "ObjectName": "AnimMontage'AM_Triceratops_Adult_FlipU'",
-              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Triceratops/Animations/AM_Triceratops_Adult_FlipU.0"
+              "ObjectName": "AnimMontage'AM_Triceratops_adult_Spar_Ram_Fast'",
+              "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Triceratops/Animations/AM_Triceratops_adult_Spar_Ram_Fast.0"
             }
           }
         }
