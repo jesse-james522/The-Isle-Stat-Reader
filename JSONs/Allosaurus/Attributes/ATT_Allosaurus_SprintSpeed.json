@@ -8,8 +8,8 @@
       "FloatCurves": {
         "Keys": [
           {
-            "InterpMode": "RCIM_Linear",
-            "TangentMode": "RCTM_Auto",
+            "InterpMode": "RCIM_Cubic",
+            "TangentMode": "RCTM_User",
             "TangentWeightMode": "RCTWM_WeightedNone",
             "Time": 0.0,
             "Value": 382.0,
@@ -19,19 +19,19 @@
             "LeaveTangentWeight": 0.0
           },
           {
-            "InterpMode": "RCIM_Linear",
-            "TangentMode": "RCTM_Auto",
+            "InterpMode": "RCIM_Cubic",
+            "TangentMode": "RCTM_User",
             "TangentWeightMode": "RCTWM_WeightedNone",
             "Time": 0.25,
             "Value": 698.0,
-            "ArriveTangent": 0.0,
+            "ArriveTangent": 1790.2516,
             "ArriveTangentWeight": 0.0,
-            "LeaveTangent": 0.0,
+            "LeaveTangent": 1790.2516,
             "LeaveTangentWeight": 0.0
           },
           {
-            "InterpMode": "RCIM_Linear",
-            "TangentMode": "RCTM_Auto",
+            "InterpMode": "RCIM_Cubic",
+            "TangentMode": "RCTM_User",
             "TangentWeightMode": "RCTWM_WeightedNone",
             "Time": 0.5,
             "Value": 1150.0,
@@ -57,9 +57,9 @@
             "TangentWeightMode": "RCTWM_WeightedNone",
             "Time": 1.0,
             "Value": 800.0,
-            "ArriveTangent": 0.0,
+            "ArriveTangent": -2597.0422,
             "ArriveTangentWeight": 0.0,
-            "LeaveTangent": 0.0,
+            "LeaveTangent": -2597.0422,
             "LeaveTangentWeight": 0.0
           }
         ]
@@ -67,8 +67,8 @@
       "FloatCurves[1]": {
         "Keys": [
           {
-            "InterpMode": "RCIM_Linear",
-            "TangentMode": "RCTM_Auto",
+            "InterpMode": "RCIM_Cubic",
+            "TangentMode": "RCTM_User",
             "TangentWeightMode": "RCTWM_WeightedNone",
             "Time": 0.0,
             "Value": 382.0,
@@ -78,19 +78,19 @@
             "LeaveTangentWeight": 0.0
           },
           {
-            "InterpMode": "RCIM_Linear",
-            "TangentMode": "RCTM_Auto",
+            "InterpMode": "RCIM_Cubic",
+            "TangentMode": "RCTM_User",
             "TangentWeightMode": "RCTWM_WeightedNone",
             "Time": 0.25,
             "Value": 698.0,
-            "ArriveTangent": 0.0,
+            "ArriveTangent": 1790.2516,
             "ArriveTangentWeight": 0.0,
-            "LeaveTangent": 0.0,
+            "LeaveTangent": 1790.2516,
             "LeaveTangentWeight": 0.0
           },
           {
-            "InterpMode": "RCIM_Linear",
-            "TangentMode": "RCTM_Auto",
+            "InterpMode": "RCIM_Cubic",
+            "TangentMode": "RCTM_User",
             "TangentWeightMode": "RCTWM_WeightedNone",
             "Time": 0.5,
             "Value": 1150.0,
@@ -127,9 +127,9 @@
             "TangentWeightMode": "RCTWM_WeightedNone",
             "Time": 1.0,
             "Value": 900.0,
-            "ArriveTangent": 0.0,
+            "ArriveTangent": -5363.3247,
             "ArriveTangentWeight": 0.0,
-            "LeaveTangent": 0.0,
+            "LeaveTangent": -5363.3247,
             "LeaveTangentWeight": 0.0
           }
         ]
@@ -141,8 +141,8 @@
       {
         "Keys": [
           {
-            "InterpMode": "RCIM_Linear",
-            "TangentMode": "RCTM_Auto",
+            "InterpMode": "RCIM_Cubic",
+            "TangentMode": "RCTM_User",
             "TangentWeightMode": "RCTWM_WeightedNone",
             "Time": 0.0,
             "Value": 382.0,
@@ -152,19 +152,19 @@
             "LeaveTangentWeight": 0.0
           },
           {
-            "InterpMode": "RCIM_Linear",
-            "TangentMode": "RCTM_Auto",
+            "InterpMode": "RCIM_Cubic",
+            "TangentMode": "RCTM_User",
             "TangentWeightMode": "RCTWM_WeightedNone",
             "Time": 0.25,
             "Value": 698.0,
-            "ArriveTangent": 0.0,
+            "ArriveTangent": 1790.2516,
             "ArriveTangentWeight": 0.0,
-            "LeaveTangent": 0.0,
+            "LeaveTangent": 1790.2516,
             "LeaveTangentWeight": 0.0
           },
           {
-            "InterpMode": "RCIM_Linear",
-            "TangentMode": "RCTM_Auto",
+            "InterpMode": "RCIM_Cubic",
+            "TangentMode": "RCTM_User",
             "TangentWeightMode": "RCTWM_WeightedNone",
             "Time": 0.5,
             "Value": 1150.0,
@@ -190,9 +190,9 @@
             "TangentWeightMode": "RCTWM_WeightedNone",
             "Time": 1.0,
             "Value": 800.0,
-            "ArriveTangent": 0.0,
+            "ArriveTangent": -2597.0422,
             "ArriveTangentWeight": 0.0,
-            "LeaveTangent": 0.0,
+            "LeaveTangent": -2597.0422,
             "LeaveTangentWeight": 0.0
           }
         ],
@@ -203,8 +203,8 @@
       {
         "Keys": [
           {
-            "InterpMode": "RCIM_Linear",
-            "TangentMode": "RCTM_Auto",
+            "InterpMode": "RCIM_Cubic",
+            "TangentMode": "RCTM_User",
             "TangentWeightMode": "RCTWM_WeightedNone",
             "Time": 0.0,
             "Value": 382.0,
@@ -214,19 +214,19 @@
             "LeaveTangentWeight": 0.0
           },
           {
-            "InterpMode": "RCIM_Linear",
-            "TangentMode": "RCTM_Auto",
+            "InterpMode": "RCIM_Cubic",
+            "TangentMode": "RCTM_User",
             "TangentWeightMode": "RCTWM_WeightedNone",
             "Time": 0.25,
             "Value": 698.0,
-            "ArriveTangent": 0.0,
+            "ArriveTangent": 1790.2516,
             "ArriveTangentWeight": 0.0,
-            "LeaveTangent": 0.0,
+            "LeaveTangent": 1790.2516,
             "LeaveTangentWeight": 0.0
           },
           {
-            "InterpMode": "RCIM_Linear",
-            "TangentMode": "RCTM_Auto",
+            "InterpMode": "RCIM_Cubic",
+            "TangentMode": "RCTM_User",
             "TangentWeightMode": "RCTWM_WeightedNone",
             "Time": 0.5,
             "Value": 1150.0,
@@ -263,9 +263,9 @@
             "TangentWeightMode": "RCTWM_WeightedNone",
             "Time": 1.0,
             "Value": 900.0,
-            "ArriveTangent": 0.0,
+            "ArriveTangent": -5363.3247,
             "ArriveTangentWeight": 0.0,
-            "LeaveTangent": 0.0,
+            "LeaveTangent": -5363.3247,
             "LeaveTangentWeight": 0.0
           }
         ],

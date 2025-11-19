@@ -48,7 +48,7 @@
         "AttributePercentageValues": -0.166666
       },
       "Health.Damage.Thirst": {
-        "AttributePercentageValues": -1.5
+        "AttributePercentageValues": -0.166666
       },
       "Health.Damage.Oxygen": {
         "AttributePercentageValues": -6.7

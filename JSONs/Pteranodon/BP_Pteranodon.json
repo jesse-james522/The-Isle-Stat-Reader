@@ -1600,7 +1600,7 @@
     "Properties": {
       "FlyingDownwardsSpeed": 4200.0,
       "FlyingSprintSpeed": 2400.0,
-      "Buoyancy": 500.0
+      "bUseSeparateBrakingFriction": false
     }
   },
   {

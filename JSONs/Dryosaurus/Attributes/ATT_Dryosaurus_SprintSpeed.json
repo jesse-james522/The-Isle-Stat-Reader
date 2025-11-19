@@ -79,9 +79,9 @@
             "TangentWeightMode": "RCTWM_WeightedNone",
             "Time": 1.0,
             "Value": 900.0,
-            "ArriveTangent": 0.0,
+            "ArriveTangent": -4728.9663,
             "ArriveTangentWeight": 0.0,
-            "LeaveTangent": 0.0,
+            "LeaveTangent": -4728.9663,
             "LeaveTangentWeight": 0.0
           }
         ]
@@ -171,9 +171,9 @@
             "TangentWeightMode": "RCTWM_WeightedNone",
             "Time": 1.0,
             "Value": 1100.0,
-            "ArriveTangent": 0.0,
+            "ArriveTangent": -7771.953,
             "ArriveTangentWeight": 0.0,
-            "LeaveTangent": 0.0,
+            "LeaveTangent": -7771.953,
             "LeaveTangentWeight": 0.0
           }
         ]
@@ -256,9 +256,9 @@
             "TangentWeightMode": "RCTWM_WeightedNone",
             "Time": 1.0,
             "Value": 900.0,
-            "ArriveTangent": 0.0,
+            "ArriveTangent": -4728.9663,
             "ArriveTangentWeight": 0.0,
-            "LeaveTangent": 0.0,
+            "LeaveTangent": -4728.9663,
             "LeaveTangentWeight": 0.0
           }
         ],
@@ -351,9 +351,9 @@
             "TangentWeightMode": "RCTWM_WeightedNone",
             "Time": 1.0,
             "Value": 1100.0,
-            "ArriveTangent": 0.0,
+            "ArriveTangent": -7771.953,
             "ArriveTangentWeight": 0.0,
-            "LeaveTangent": 0.0,
+            "LeaveTangent": -7771.953,
             "LeaveTangentWeight": 0.0
           }
         ],

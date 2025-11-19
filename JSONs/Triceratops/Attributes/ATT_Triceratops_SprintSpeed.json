@@ -68,9 +68,9 @@
             "TangentWeightMode": "RCTWM_WeightedNone",
             "Time": 1.0,
             "Value": 575.0,
-            "ArriveTangent": 0.0,
+            "ArriveTangent": -859.5757,
             "ArriveTangentWeight": 0.083333336,
-            "LeaveTangent": 0.0,
+            "LeaveTangent": -859.5757,
             "LeaveTangentWeight": 0.0
           }
         ]
@@ -223,9 +223,9 @@
             "TangentWeightMode": "RCTWM_WeightedNone",
             "Time": 1.0,
             "Value": 575.0,
-            "ArriveTangent": 0.0,
+            "ArriveTangent": -859.5757,
             "ArriveTangentWeight": 0.083333336,
-            "LeaveTangent": 0.0,
+            "LeaveTangent": -859.5757,
             "LeaveTangentWeight": 0.0
           }
         ],

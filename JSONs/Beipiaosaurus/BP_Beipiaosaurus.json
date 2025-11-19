@@ -204,7 +204,7 @@
         "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Curve_AcceleratedMorph_Visual_Growth.0"
       },
       "DinosaurMovement": {
-        "ObjectName": "TIBeipiaosaurusMovementComponent'Default__BP_Beipiaosaurus_C:CharMoveComp'",
+        "ObjectName": "TIDivingDinosaurMovementComponent'Default__BP_Beipiaosaurus_C:CharMoveComp'",
         "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Beipiaosaurus/BP_Beipiaosaurus.33"
       },
       "HorizontalCameraYawOffset": {
@@ -1813,14 +1813,11 @@
     "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
   },
   {
-    "Type": "TIBeipiaosaurusMovementComponent",
+    "Type": "TIDivingDinosaurMovementComponent",
     "Name": "CharMoveComp",
     "Outer": "Default__BP_Beipiaosaurus_C",
-    "Class": "UScriptClass'TIBeipiaosaurusMovementComponent'",
-    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
-    "Properties": {
-      "GroundFriction": 1536.0
-    }
+    "Class": "UScriptClass'TIDivingDinosaurMovementComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
   },
   {
     "Type": "TIFootstepsComponent",

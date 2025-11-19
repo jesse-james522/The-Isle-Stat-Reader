@@ -230,7 +230,7 @@
     "Type": "BP_Compsognathus_C",
     "Name": "Default__BP_Compsognathus_C",
     "Class": "BlueprintGeneratedClass'/Game/TheIsle/Core/Characters/Dinosaurs/Compsognathus/BP_Compsognathus.BP_Compsognathus_C'",
-    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "UberGraphFrame": {},
       "DinosaurAssets": {
@@ -710,7 +710,8 @@
     "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "PrimaryComponentTick": {
-        "bTickEvenWhenPaused": false
+        "bTickEvenWhenPaused": false,
+        "bStartWithTickEnabled": false
       }
     }
   },

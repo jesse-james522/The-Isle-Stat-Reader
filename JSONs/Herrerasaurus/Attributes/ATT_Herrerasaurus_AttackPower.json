@@ -68,7 +68,7 @@
             "TangentWeightMode": "RCTWM_WeightedNone",
             "Time": 1.0,
             "Value": 0.6,
-            "ArriveTangent": -0.145987,
+            "ArriveTangent": -10.7932415,
             "ArriveTangentWeight": 0.0,
             "LeaveTangent": 0.0,
             "LeaveTangentWeight": 0.0
@@ -138,7 +138,7 @@
             "TangentWeightMode": "RCTWM_WeightedNone",
             "Time": 1.0,
             "Value": 0.8,
-            "ArriveTangent": 0.0,
+            "ArriveTangent": -8.706149,
             "ArriveTangentWeight": 0.0,
             "LeaveTangent": 0.0,
             "LeaveTangentWeight": 0.0
@@ -240,7 +240,7 @@
             "TangentWeightMode": "RCTWM_WeightedNone",
             "Time": 1.0,
             "Value": 0.6,
-            "ArriveTangent": -0.145987,
+            "ArriveTangent": -10.7932415,
             "ArriveTangentWeight": 0.0,
             "LeaveTangent": 0.0,
             "LeaveTangentWeight": 0.0
@@ -313,7 +313,7 @@
             "TangentWeightMode": "RCTWM_WeightedNone",
             "Time": 1.0,
             "Value": 0.8,
-            "ArriveTangent": 0.0,
+            "ArriveTangent": -8.706149,
             "ArriveTangentWeight": 0.0,
             "LeaveTangent": 0.0,
             "LeaveTangentWeight": 0.0

@@ -63,8 +63,8 @@
             "LeaveTangentWeight": 0.089357786
           },
           {
-            "InterpMode": "RCIM_Linear",
-            "TangentMode": "RCTM_Auto",
+            "InterpMode": "RCIM_Cubic",
+            "TangentMode": "RCTM_User",
             "TangentWeightMode": "RCTWM_WeightedNone",
             "Time": 0.875079,
             "Value": 1.0,
@@ -74,14 +74,14 @@
             "LeaveTangentWeight": 0.04164034
           },
           {
-            "InterpMode": "RCIM_Linear",
+            "InterpMode": "RCIM_Cubic",
             "TangentMode": "RCTM_User",
             "TangentWeightMode": "RCTWM_WeightedNone",
             "Time": 1.0,
-            "Value": 0.6,
-            "ArriveTangent": -0.145987,
+            "Value": 0.7,
+            "ArriveTangent": -4.3826685,
             "ArriveTangentWeight": 0.0,
-            "LeaveTangent": 0.0,
+            "LeaveTangent": -4.3826685,
             "LeaveTangentWeight": 0.0
           }
         ]
@@ -145,24 +145,24 @@
           },
           {
             "InterpMode": "RCIM_Cubic",
-            "TangentMode": "RCTM_Break",
+            "TangentMode": "RCTM_User",
             "TangentWeightMode": "RCTWM_WeightedNone",
-            "Time": 0.9,
-            "Value": 1.0,
+            "Time": 0.875,
+            "Value": 1.1,
             "ArriveTangent": -0.022053106,
             "ArriveTangentWeight": 0.04176871,
             "LeaveTangent": -0.022053106,
             "LeaveTangentWeight": 0.041666698
           },
           {
-            "InterpMode": "RCIM_Linear",
+            "InterpMode": "RCIM_Cubic",
             "TangentMode": "RCTM_User",
             "TangentWeightMode": "RCTWM_WeightedNone",
             "Time": 1.0,
-            "Value": 0.8,
-            "ArriveTangent": 0.0,
+            "Value": 0.9,
+            "ArriveTangent": -5.153881,
             "ArriveTangentWeight": 0.0,
-            "LeaveTangent": 0.0,
+            "LeaveTangent": -5.153881,
             "LeaveTangentWeight": 0.0
           }
         ]
@@ -246,8 +246,8 @@
             "LeaveTangentWeight": 0.089357786
           },
           {
-            "InterpMode": "RCIM_Linear",
-            "TangentMode": "RCTM_Auto",
+            "InterpMode": "RCIM_Cubic",
+            "TangentMode": "RCTM_User",
             "TangentWeightMode": "RCTWM_WeightedNone",
             "Time": 0.875079,
             "Value": 1.0,
@@ -257,14 +257,14 @@
             "LeaveTangentWeight": 0.04164034
           },
           {
-            "InterpMode": "RCIM_Linear",
+            "InterpMode": "RCIM_Cubic",
             "TangentMode": "RCTM_User",
             "TangentWeightMode": "RCTWM_WeightedNone",
             "Time": 1.0,
-            "Value": 0.6,
-            "ArriveTangent": -0.145987,
+            "Value": 0.7,
+            "ArriveTangent": -4.3826685,
             "ArriveTangentWeight": 0.0,
-            "LeaveTangent": 0.0,
+            "LeaveTangent": -4.3826685,
             "LeaveTangentWeight": 0.0
           }
         ],
@@ -331,24 +331,24 @@
           },
           {
             "InterpMode": "RCIM_Cubic",
-            "TangentMode": "RCTM_Break",
+            "TangentMode": "RCTM_User",
             "TangentWeightMode": "RCTWM_WeightedNone",
-            "Time": 0.9,
-            "Value": 1.0,
+            "Time": 0.875,
+            "Value": 1.1,
             "ArriveTangent": -0.022053106,
             "ArriveTangentWeight": 0.04176871,
             "LeaveTangent": -0.022053106,
             "LeaveTangentWeight": 0.041666698
           },
           {
-            "InterpMode": "RCIM_Linear",
+            "InterpMode": "RCIM_Cubic",
             "TangentMode": "RCTM_User",
             "TangentWeightMode": "RCTWM_WeightedNone",
             "Time": 1.0,
-            "Value": 0.8,
-            "ArriveTangent": 0.0,
+            "Value": 0.9,
+            "ArriveTangent": -5.153881,
             "ArriveTangentWeight": 0.0,
-            "LeaveTangent": 0.0,
+            "LeaveTangent": -5.153881,
             "LeaveTangentWeight": 0.0
           }
         ],
