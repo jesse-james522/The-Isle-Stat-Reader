@@ -626,7 +626,6 @@ class OverlayPlotter:
             cb.pack(side='left', padx=2)
 
         ax.set_ylabel(y_label)
-        ax.set_title("Overlayed JSON Graphs")
 
         ymin, ymax = ax.get_ylim()
         yrange = ymax - ymin
