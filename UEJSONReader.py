@@ -19,18 +19,16 @@ matplotlib.use("TkAgg")
 from matplotlib.figure import Figure
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 from matplotlib.ticker import FuncFormatter
-import numpy as np # <-- TILLAGD: Krävs för interpolation
+import numpy as np 
 
 # ------------------------- Interpolation Helper -------------------------
-# <-- TILLAGD: Hjälpfunktion för att beräkna Kubisk Hermite Spline
 def calculate_cubic_segment(t1, p1, m1, t2, p2, m2, num_points=25):
     """Beräknar punkter för ett kubiskt Hermite-segment."""
-    # Skapa jämnt fördelade punkter mellan t1 och t2
     t_cubic = np.linspace(t1, t2, num_points)
     delta_t = t2 - t1
     
     # Om segmentet har noll längd, returnera bara startpunkten
-    if delta_t == 0:
+    if delta_t == 0 or np.isclose(delta_t, 0.0):
         return np.array([t1]), np.array([p1])
         
     s = (t_cubic - t1) / delta_t
@@ -161,7 +159,7 @@ class DataLoader:
                 if not keys or not isinstance(keys, list) or len(keys) == 0:
                     continue
                 
-                # <-- MODIFIERAD: Ny, korrekt interpolationslogik
+                # Ny, korrekt interpolationslogik (återanvänds)
                 processed_time_points = []
                 processed_values = []
                 
@@ -206,13 +204,29 @@ class DataLoader:
                         processed_time_points.extend(t_cubic[1:])
                         processed_values.extend(list(v_cubic_raw[1:] * float(damage_value)))
                     else: # RCIM_Linear
-                        # Lägg bara till destinationspunkten. Matplotlib drar en rak linje.
-                        processed_time_points.append(t2)
-                        processed_values.append(v2_raw * float(damage_value))
+                        # FIX: Sample linear segment for hover accuracy
+                        if t2 > t1 and not np.isclose(t2, t1):
+                            num_points = 25
+                            t_linear = np.linspace(t1, t2, num_points)
+                            
+                            v1 = v1_raw * float(damage_value)
+                            v2 = v2_raw * float(damage_value)
+                            
+                            # Calculate linear interpolation: V(s) = V1 + s * (V2 - V1)
+                            s = (t_linear - t1) / (t2 - t1)
+                            v_linear = v1 + s * (v2 - v1)
+                            
+                            # Extend lists with points from index 1 (excluding t1, including t2)
+                            processed_time_points.extend(t_linear[1:])
+                            processed_values.extend(v_linear[1:])
+                        else:
+                            # Tiden är densamma. Lägg till slutpunkten om den inte redan finns
+                            if not processed_time_points or not np.isclose(processed_time_points[-1], t2):
+                                processed_time_points.append(t2)
+                                processed_values.append(v2_raw * float(damage_value))
                 
                 if processed_time_points and processed_values:
                     new_curves.append({"Time": processed_time_points, "Values": processed_values})
-                # <-- SLUT PÅ MODIFIERING
 
             if new_curves:
                 virtual_data[display_name] = {
@@ -253,6 +267,147 @@ class DataLoader:
             return {}
         return calculated_stats
 
+    def _process_tyrannosaurus_weight_curves(self, curve_data_list: List[Dict[str, Any]], conversion_factor: float, file_name: str) -> Tuple[List[List[float]], List[List[float]]]:
+        """
+        Special case handling for Tyrannosaurus Weight where the Senior curve's
+        interpolation must be forced to match the Elder curve before the split
+        at 0.75 due to UE5 JSON export tangent differences.
+        """
+        if len(curve_data_list) < 2:
+            return self._process_generic_curves(curve_data_list, conversion_factor)
+
+        # Assuming curve_data_list[0] is Senior (plateaus earlier) and [1] is Elder (plateaus later)
+        # We process the Elder (master) curve fully first.
+        elder_keys = curve_data_list[1].get("Keys")
+        senior_keys = curve_data_list[0].get("Keys")
+
+        # 1. Process Elder Curve (Master)
+        time_points_elder, values_elder = self._interpolate_keys(elder_keys, conversion_factor)
+        
+        # FIX 1: Enforce plateau for Elder curve (extends to 1.0)
+        if time_points_elder and time_points_elder[-1] < 1.0:
+            last_value = values_elder[-1]
+            time_points_elder.append(1.0)
+            values_elder.append(last_value)
+        
+        # 2. Process Senior Curve (Slave/Branch)
+        
+        # Find the last key of the Senior curve (where it should plateau)
+        senior_last_key_time = senior_keys[-1].get("Time", 0.0) if senior_keys else 0.0
+        senior_last_key_value = senior_keys[-1].get("Value", 0.0) * conversion_factor if senior_keys else 0.0
+
+        # Find the index in the Elder's interpolated list corresponding to the Senior's last key time
+        time_points_np = np.array(time_points_elder)
+        # Find all indices where the time is less than or equal to the Senior's last key time
+        # This includes the final point of the Elder curve segment that the Senior curve follows.
+        split_index = np.searchsorted(time_points_np, senior_last_key_time, side='right')
+
+        # Senior curve data takes the Elder's interpolated data up to the split point
+        # Using simple list slicing for list objects (no .tolist() needed)
+        time_points_senior = time_points_elder[:split_index]
+        values_senior = values_elder[:split_index]
+
+        # Enforce plateau at the end of the curve (extends to 1.0)
+        if time_points_senior and time_points_senior[-1] < 1.0:
+            # Check if the last point added is actually the senior_last_key_time, if not add it
+            if not np.isclose(time_points_senior[-1], senior_last_key_time):
+                 time_points_senior.append(senior_last_key_time)
+                 # We use the final raw value for stability
+                 values_senior.append(senior_last_key_value)
+            
+            # Extend to 1.0 with the plateau value
+            time_points_senior.append(1.0)
+            values_senior.append(senior_last_key_value)
+
+        return [time_points_senior, time_points_elder], [values_senior, values_elder]
+
+
+    def _interpolate_keys(self, keys: List[Dict[str, Any]], conversion_factor: float) -> Tuple[List[float], List[float]]:
+        """Generic function to interpolate a single curve's keys."""
+        if not keys: return [], []
+
+        processed_time_points = []
+        processed_values = []
+
+        # Lägg till första punkten manuellt
+        key_first = keys[0]
+        t_first = float(key_first.get("Time", 0.0))
+        v_first = float(key_first.get("Value", 0.0))
+        
+        processed_time_points.append(t_first)
+        processed_values.append(v_first * conversion_factor)
+
+        # Loopa över alla segment
+        for i in range(len(keys) - 1):
+            key1 = keys[i]
+            key2 = keys[i+1]
+
+            t1 = float(key1.get("Time", 0.0))
+            v1_raw = float(key1.get("Value", 0.0))
+            m1_raw = float(key1.get("LeaveTangent", 0.0))
+            
+            t2 = float(key2.get("Time", 0.0))
+            v2_raw = float(key2.get("Value", 0.0))
+            m2_raw = float(key2.get("ArriveTangent", 0.0))
+            
+            interp_mode = key2.get("InterpMode", "RCIM_Linear")
+
+            if interp_mode == "RCIM_Cubic":
+                t_cubic, v_cubic_raw = calculate_cubic_segment(
+                    t1, v1_raw, m1_raw, 
+                    t2, v2_raw, m2_raw
+                )
+                processed_time_points.extend(t_cubic[1:])
+                processed_values.extend(list(v_cubic_raw[1:] * conversion_factor))
+            else: # RCIM_Linear
+                # FIX 2: Sample linear segment for hover accuracy
+                if t2 > t1 and not np.isclose(t2, t1):
+                    num_points = 25
+                    t_linear = np.linspace(t1, t2, num_points)
+                    
+                    v1 = v1_raw * conversion_factor
+                    v2 = v2_raw * conversion_factor
+                    
+                    # Calculate linear interpolation: V(s) = V1 + s * (V2 - V1)
+                    s = (t_linear - t1) / (t2 - t1)
+                    v_linear = v1 + s * (v2 - v1)
+                    
+                    # Extend lists with points from index 1 (excluding t1, including t2)
+                    processed_time_points.extend(t_linear[1:])
+                    processed_values.extend(v_linear[1:])
+                else:
+                    # Tiden är densamma. Lägg till slutpunkten om den inte redan finns
+                    if not processed_time_points or not np.isclose(processed_time_points[-1], t2):
+                        processed_time_points.append(t2)
+                        processed_values.append(v2_raw * conversion_factor)
+
+        return processed_time_points, processed_values
+
+    def _process_generic_curves(self, curve_data_list: List[Dict[str, Any]], conversion_factor: float) -> Tuple[List[List[float]], List[List[float]]]:
+        """Processes generic curves without special Tyrannosaurus Weight logic."""
+        time_points_list: List[List[float]] = []
+        values_list: List[List[float]] = []
+
+        for curve in curve_data_list:
+            keys = curve.get("Keys")
+            if not keys or not isinstance(keys, list) or len(keys) == 0:
+                continue
+            
+            time_points, values = self._interpolate_keys(keys, conversion_factor)
+
+            # Enforce plateau at the end of the curve (extends to 1.0)
+            if time_points and time_points[-1] < 1.0:
+                last_value = values[-1]
+                time_points.append(1.0)
+                values.append(last_value)
+
+            if time_points and values:
+                time_points_list.append(time_points)
+                values_list.append(values)
+        
+        return time_points_list, values_list
+
+
     def get_plot_data(self, file_path: str, file_name: str) -> Tuple[List[List[float]], List[List[float]], str, str]:
         """Extracts and formats plot data from a file, applying conversions."""
         file_data = self._get_json_data(file_path)
@@ -261,14 +416,18 @@ class DataLoader:
 
         try:
             item = file_data[0] if isinstance(file_data, list) and file_data else file_data
-            float_curves = item.get("FloatCurves") or ([item.get("Properties", {}).get("FloatCurve")] if isinstance(item, dict) else None)
+            # Try to get the list of curves from Properties/FloatCurves
+            float_curves = item.get("FloatCurves") or (item.get("Properties", {}).get("FloatCurves") if isinstance(item, dict) else None)
+            
+            # If FloatCurves is a single dict, wrap it in a list.
+            if isinstance(float_curves, dict) and 'Keys' in float_curves:
+                 float_curves = [float_curves]
+
             if not float_curves or not float_curves[0]:
                 return [], [], "", ""
         except Exception:
             return [], [], "", ""
 
-        time_points_list: List[List[float]] = []
-        values_list: List[List[float]] = []
         y_label = "Value"
         conversion_factor = 1.0
 
@@ -279,68 +438,17 @@ class DataLoader:
         elif "weight" in lower_file_name:
             y_label = "Value (kg)"
 
-        for curve in float_curves[:2]:
-            keys = curve.get("Keys") if isinstance(curve, dict) else None
-            if not keys or not isinstance(keys, list) or len(keys) == 0:
-                continue
-            
-            # <-- MODIFIERAD: Ny, korrekt interpolationslogik
-            processed_time_points = []
-            processed_values = []
-
-            # Lägg till första punkten manuellt
-            key_first = keys[0]
-            if not isinstance(key_first, dict): continue # Skydd
-
-            processed_time_points.append(float(key_first.get("Time", 0.0)))
-            processed_values.append(float(key_first.get("Value", 0.0)) * conversion_factor)
-            
-            # Loopa över alla segment
-            for i in range(len(keys) - 1):
-                key1 = keys[i]
-                key2 = keys[i+1]
-
-                if not isinstance(key1, dict) or not isinstance(key2, dict): continue
-
-                t1 = float(key1.get("Time", 0.0))
-                v1_raw = float(key1.get("Value", 0.0))
-                m1_raw = float(key1.get("LeaveTangent", 0.0))
-                
-                t2 = float(key2.get("Time", 0.0))
-                v2_raw = float(key2.get("Value", 0.0))
-                m2_raw = float(key2.get("ArriveTangent", 0.0))
-                
-                # InterpMode på key2 definierar segmentet FRÅN key1 TILL key2
-                interp_mode = key2.get("InterpMode", "RCIM_Linear")
-
-                if interp_mode == "RCIM_Cubic":
-                    t_cubic, v_cubic_raw = calculate_cubic_segment(
-                        t1, v1_raw, m1_raw, 
-                        t2, v2_raw, m2_raw
-                    )
-                    # Lägg till de nya interpolerade punkterna (hoppa över den första)
-                    processed_time_points.extend(t_cubic[1:])
-                    processed_values.extend(list(v_cubic_raw[1:] * conversion_factor))
-                else: # RCIM_Linear
-                    # Lägg bara till destinationspunkten.
-                    processed_time_points.append(t2)
-                    processed_values.append(v2_raw * conversion_factor)
-
-            # Aliasa till gamla variabelnamn för att 1.0-förlängningen ska fungera
-            time_points = processed_time_points
-            values = processed_values
-            # <-- SLUT PÅ MODIFIERING
-
-            # ✅ Always extend to 1.0 if curve ends earlier
-            if time_points and time_points[-1] < 1.0:
-                last_value = values[-1]
-                time_points.append(1.0)
-                values.append(last_value)
-
-            if time_points and values:
-                time_points_list.append(time_points)
-                values_list.append(values)
-
+        # --- SPECIAL HANDLING FOR TYRANNOSAURUS WEIGHT ---
+        if "Tyrannosaurus Weight" in file_name and len(float_curves) >= 2:
+            time_points_list, values_list = self._process_tyrannosaurus_weight_curves(
+                float_curves[:2], conversion_factor, file_name
+            )
+        else:
+            # --- GENERIC HANDLING ---
+            time_points_list, values_list = self._process_generic_curves(
+                float_curves[:2], conversion_factor
+            )
+        
         return time_points_list, values_list, y_label, file_name
 
     def _is_linear_or_flat(self, file_path: str) -> bool:
@@ -402,6 +510,7 @@ class DataLoader:
             name = name.replace(f"ATT_{dinosaur_name}_", f"{dinosaur_name}")
         elif name.startswith("DT_"):
             name = name.replace(f"DT_{dinosaur_name}", f"{dinosaur_name}")
+        
         name = re.sub(r'([A-Z])', r' \g<1>', name).strip()
         return name
 
@@ -444,7 +553,6 @@ class OverlayPlotter:
         labels: List[str] = []
         line_vars: List[tk.BooleanVar] = []
         
-        # <-- MODIFIERAD: Behåller den nya hover-logiken som du gillade
         canvas.mpl_connect('motion_notify_event', lambda event: self._on_hover(event, lines, annot))
 
         # Control frame for removing individual graphs
@@ -508,11 +616,8 @@ class OverlayPlotter:
             else:
                 label = f"{file_name} (Senior)" if i == 0 else f"{file_name} (Elder)"
             
-            # <-- MODIFIERAD: marker=None är nödvändigt för att de interpolerade
-            # kurvorna ska se bra ut (annars ritas hundratals prickar).
             line, = ax.plot(tp, vals, marker=None, linestyle='-', label=label, picker=5) # picker=5 gör linjen klickbar
-            # <-- SLUT PÅ MODIFIERING
-
+            
             lines.append(line)
             labels.append(label)
             var = tk.BooleanVar(value=False)
@@ -544,8 +649,6 @@ class OverlayPlotter:
 
         
         
-    # <-- MODIFIERAD: Behåller den nya "hover"-logiken som hittar närmaste
-    # punkt längs linjen, inte bara på de (nu osynliga) markörerna.
     def _on_hover(self, event, lines, annot):
         if not lines:
             return
@@ -606,7 +709,6 @@ class OverlayPlotter:
             annot.set_visible(False)
             if lines:
                 lines[0].figure.canvas.draw_idle()
-    # <-- SLUT PÅ MODIFIERING
 
     def _remove_selected(self, lines, labels, line_vars, ax, canvas, control_frame):
         for i in reversed(range(len(lines))):
@@ -801,6 +903,20 @@ class JSONPlotterUI:
         self.calculated_stats_data = self.data_loader.generate_calculated_stats(folder_name)
         self._update_json_menu()
 
+    def _on_json_selected(self, json_name: str):
+        """Sets the selected JSON file name and ensures the plot button is enabled."""
+        self.json_file_var.set(json_name)
+        
+        # Uppdatera knappens text beroende på om det är statistik/attribut eller BalanceAttributes.
+        if json_name == self.CALCULATED_STATS_KEY:
+            self.plot_button.config(text="Show Calculated Stats")
+        elif json_name in self.json_files_paths and 'BalanceAttributes' in self.json_files_paths[json_name]:
+             self.plot_button.config(text="Show Balance Attributes")
+        else:
+             self.plot_button.config(text="Plot Data")
+             
+        self.plot_button.config(state='normal')
+
     def _update_json_menu(self):
         menu = self.json_menu['menu']
         menu.delete(0, 'end')
@@ -814,23 +930,13 @@ class JSONPlotterUI:
             return
         for name in display_names:
             menu.add_command(label=name, command=lambda v=name: self._on_json_selected(v))
+            
         if not self.json_file_var.get() or self.json_file_var.get() not in display_names:
             self.json_file_var.set(display_names[0])
+            
         self.plot_button.config(state='normal')
-        self._on_json_selected(self.json_file_var.get()) # Uppdatera knapptext
-
-    def _on_json_selected(self, name: str):
-        self.json_file_var.set(name)
-        if name == self.CALCULATED_STATS_KEY:
-            self.plot_button.config(text='Show Calculated Stats')
-        elif name in self.json_files_paths:
-            full = self.json_files_paths[name]
-            if 'BalanceAttributes' in os.path.basename(full):
-                self.plot_button.config(text='Show Data Table')
-            else:
-                self.plot_button.config(text='Plot Data')
-        else:
-            self.plot_button.config(text='Plot Data')
+        
+        self._on_json_selected(self.json_file_var.get()) 
 
     def plot_selected_file(self):
         name = self.json_file_var.get()
