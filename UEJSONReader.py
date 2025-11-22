@@ -19,6 +19,34 @@ matplotlib.use("TkAgg")
 from matplotlib.figure import Figure
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 from matplotlib.ticker import FuncFormatter
+import numpy as np # <-- TILLAGD: Krävs för interpolation
+
+# ------------------------- Interpolation Helper -------------------------
+# <-- TILLAGD: Hjälpfunktion för att beräkna Kubisk Hermite Spline
+def calculate_cubic_segment(t1, p1, m1, t2, p2, m2, num_points=25):
+    """Beräknar punkter för ett kubiskt Hermite-segment."""
+    # Skapa jämnt fördelade punkter mellan t1 och t2
+    t_cubic = np.linspace(t1, t2, num_points)
+    delta_t = t2 - t1
+    
+    # Om segmentet har noll längd, returnera bara startpunkten
+    if delta_t == 0:
+        return np.array([t1]), np.array([p1])
+        
+    s = (t_cubic - t1) / delta_t
+    
+    s2 = s * s
+    s3 = s2 * s
+
+    # Hermite basfunktioner
+    h00 = 2*s3 - 3*s2 + 1
+    h10 = (s3 - 2*s2 + s) * delta_t
+    h01 = -2*s3 + 3*s2
+    h11 = (s3 - s2) * delta_t
+    
+    # Beräkna de interpolerade värdena
+    value_cubic = h00*p1 + h01*p2 + h10*m1 + h11*m2
+    return t_cubic, value_cubic
 
 # ------------------------- EXE-aware path helpers -------------------------
 def get_app_dir() -> str:
@@ -130,20 +158,61 @@ class DataLoader:
             new_curves = []
             for curve in (ap_curves[:2] if isinstance(ap_curves, list) else [ap_curves]):
                 keys = curve.get("Keys") if isinstance(curve, dict) else None
-                if not keys:
+                if not keys or not isinstance(keys, list) or len(keys) == 0:
                     continue
-                time_points = []
-                values = []
-                for key in keys:
-                    t = key.get("Time") if isinstance(key, dict) else None
-                    v = key.get("Value") if isinstance(key, dict) else None
-                    if t is None or v is None:
-                        continue
-                    if t >= 0.0:
-                        time_points.append(float(t))
-                        values.append(float(v) * float(damage_value))
-                if time_points and values:
-                    new_curves.append({"Time": time_points, "Values": values})
+                
+                # <-- MODIFIERAD: Ny, korrekt interpolationslogik
+                processed_time_points = []
+                processed_values = []
+                
+                # Lägg till första punkten manuellt
+                key_first = keys[0]
+                if not isinstance(key_first, dict): continue # Skydd
+                
+                t_first = float(key_first.get("Time", 0.0))
+                v_first = float(key_first.get("Value", 0.0))
+                
+                if t_first >= 0.0:
+                    processed_time_points.append(t_first)
+                    processed_values.append(v_first * float(damage_value))
+                else:
+                    continue # Hoppa över hela kurvan om den börjar före 0.0
+
+                # Loopa över alla segment
+                for i in range(len(keys) - 1):
+                    key1 = keys[i]
+                    key2 = keys[i+1]
+
+                    if not isinstance(key1, dict) or not isinstance(key2, dict): continue
+
+                    t1 = float(key1.get("Time", 0.0))
+                    v1_raw = float(key1.get("Value", 0.0))
+                    m1_raw = float(key1.get("LeaveTangent", 0.0))
+                    
+                    t2 = float(key2.get("Time", 0.0))
+                    v2_raw = float(key2.get("Value", 0.0))
+                    m2_raw = float(key2.get("ArriveTangent", 0.0))
+                    
+                    # InterpMode på key2 definierar segmentet FRÅN key1 TILL key2
+                    interp_mode = key2.get("InterpMode", "RCIM_Linear")
+
+                    if interp_mode == "RCIM_Cubic":
+                        t_cubic, v_cubic_raw = calculate_cubic_segment(
+                            t1, v1_raw, m1_raw, 
+                            t2, v2_raw, m2_raw
+                        )
+                        # Lägg till de nya interpolerade punkterna (hoppa över den första,
+                        # eftersom den redan lades till i föregående iteration)
+                        processed_time_points.extend(t_cubic[1:])
+                        processed_values.extend(list(v_cubic_raw[1:] * float(damage_value)))
+                    else: # RCIM_Linear
+                        # Lägg bara till destinationspunkten. Matplotlib drar en rak linje.
+                        processed_time_points.append(t2)
+                        processed_values.append(v2_raw * float(damage_value))
+                
+                if processed_time_points and processed_values:
+                    new_curves.append({"Time": processed_time_points, "Values": processed_values})
+                # <-- SLUT PÅ MODIFIERING
 
             if new_curves:
                 virtual_data[display_name] = {
@@ -212,10 +281,55 @@ class DataLoader:
 
         for curve in float_curves[:2]:
             keys = curve.get("Keys") if isinstance(curve, dict) else None
-            if not keys:
+            if not keys or not isinstance(keys, list) or len(keys) == 0:
                 continue
-            time_points = [float(key.get("Time")) for key in keys if key.get("Time") is not None]
-            values = [float(key.get("Value")) * conversion_factor for key in keys if key.get("Value") is not None]
+            
+            # <-- MODIFIERAD: Ny, korrekt interpolationslogik
+            processed_time_points = []
+            processed_values = []
+
+            # Lägg till första punkten manuellt
+            key_first = keys[0]
+            if not isinstance(key_first, dict): continue # Skydd
+
+            processed_time_points.append(float(key_first.get("Time", 0.0)))
+            processed_values.append(float(key_first.get("Value", 0.0)) * conversion_factor)
+            
+            # Loopa över alla segment
+            for i in range(len(keys) - 1):
+                key1 = keys[i]
+                key2 = keys[i+1]
+
+                if not isinstance(key1, dict) or not isinstance(key2, dict): continue
+
+                t1 = float(key1.get("Time", 0.0))
+                v1_raw = float(key1.get("Value", 0.0))
+                m1_raw = float(key1.get("LeaveTangent", 0.0))
+                
+                t2 = float(key2.get("Time", 0.0))
+                v2_raw = float(key2.get("Value", 0.0))
+                m2_raw = float(key2.get("ArriveTangent", 0.0))
+                
+                # InterpMode på key2 definierar segmentet FRÅN key1 TILL key2
+                interp_mode = key2.get("InterpMode", "RCIM_Linear")
+
+                if interp_mode == "RCIM_Cubic":
+                    t_cubic, v_cubic_raw = calculate_cubic_segment(
+                        t1, v1_raw, m1_raw, 
+                        t2, v2_raw, m2_raw
+                    )
+                    # Lägg till de nya interpolerade punkterna (hoppa över den första)
+                    processed_time_points.extend(t_cubic[1:])
+                    processed_values.extend(list(v_cubic_raw[1:] * conversion_factor))
+                else: # RCIM_Linear
+                    # Lägg bara till destinationspunkten.
+                    processed_time_points.append(t2)
+                    processed_values.append(v2_raw * conversion_factor)
+
+            # Aliasa till gamla variabelnamn för att 1.0-förlängningen ska fungera
+            time_points = processed_time_points
+            values = processed_values
+            # <-- SLUT PÅ MODIFIERING
 
             # ✅ Always extend to 1.0 if curve ends earlier
             if time_points and time_points[-1] < 1.0:
@@ -246,21 +360,30 @@ class DataLoader:
 
             if len(keys) <= 2:
                 return True
+            
+            valid_keys = [k for k in keys if isinstance(k, dict) and k.get("Time") is not None and k.get("Value") is not None]
+            if len(valid_keys) <= 2:
+                return True
 
-            time_points = [float(key.get("Time")) for key in keys]
-            values = [float(key.get("Value")) for key in keys]
+            time_points = [float(key.get("Time")) for key in valid_keys]
+            values = [float(key.get("Value")) for key in valid_keys]
 
             if all(v == values[0] for v in values):
                 return True
 
             slopes = []
-            for i in range(len(keys) - 1):
+            for i in range(len(valid_keys) - 1):
                 time_diff = time_points[i+1] - time_points[i]
                 value_diff = values[i+1] - values[i]
                 if time_diff == 0:
-                    slopes.append(float('inf'))
+                    if value_diff != 0:
+                        return True 
+                    slopes.append(0)
                 else:
                     slopes.append(value_diff / time_diff)
+            
+            if not slopes:
+                return True
 
             first_slope = slopes[0]
             if all(abs(s - first_slope) < 1e-9 for s in slopes):
@@ -320,7 +443,8 @@ class OverlayPlotter:
         lines: List[Any] = []
         labels: List[str] = []
         line_vars: List[tk.BooleanVar] = []
-
+        
+        # <-- MODIFIERAD: Behåller den nya hover-logiken som du gillade
         canvas.mpl_connect('motion_notify_event', lambda event: self._on_hover(event, lines, annot))
 
         # Control frame for removing individual graphs
@@ -372,7 +496,8 @@ class OverlayPlotter:
         control_frame = win_dict['control_frame']
 
         # Skip Elder if identical
-        if len(values_list) > 1 and all(abs(a-b) < 1e-9 for a,b in zip(values_list[0], values_list[1])):
+        if len(values_list) > 1 and len(values_list[0]) == len(values_list[1]) and \
+           all(abs(a-b) < 1e-9 for a,b in zip(values_list[0], values_list[1])):
             time_points_list = time_points_list[:1]
             values_list = values_list[:1]
 
@@ -382,8 +507,12 @@ class OverlayPlotter:
                 label = file_name
             else:
                 label = f"{file_name} (Senior)" if i == 0 else f"{file_name} (Elder)"
+            
+            # <-- MODIFIERAD: marker=None är nödvändigt för att de interpolerade
+            # kurvorna ska se bra ut (annars ritas hundratals prickar).
+            line, = ax.plot(tp, vals, marker=None, linestyle='-', label=label, picker=5) # picker=5 gör linjen klickbar
+            # <-- SLUT PÅ MODIFIERING
 
-            line, = ax.plot(tp, vals, marker='o', linestyle='-', label=label, picker=5)
             lines.append(line)
             labels.append(label)
             var = tk.BooleanVar(value=False)
@@ -415,27 +544,69 @@ class OverlayPlotter:
 
         
         
-
-
+    # <-- MODIFIERAD: Behåller den nya "hover"-logiken som hittar närmaste
+    # punkt längs linjen, inte bara på de (nu osynliga) markörerna.
     def _on_hover(self, event, lines, annot):
         if not lines:
             return
+        
+        vis = annot.get_visible()
+        
         for line in lines:
-            contains, info = line.contains(event)
-            if contains:
-                idx = info['ind'][0]
-                xdata = line.get_xdata()
-                ydata = line.get_ydata()
-                x = xdata[idx]
-                y = ydata[idx]
-                annot.xy = (x, y)
-                annot.set_text(f"Time: {x:.3f}\nValue: {y:.3f}")
-                annot.set_visible(True)
-                line.figure.canvas.draw_idle()
-                return
-        annot.set_visible(False)
-        if lines:
-            lines[0].figure.canvas.draw_idle()
+            if not line.get_visible():
+                continue
+            
+            # Kolla om musen är "nästan" på linjen
+            cont, ind = line.contains(event)
+            if not cont:
+                # 'contains' är inte perfekt för linjer, så vi gör en extra koll
+                # om event.xdata och event.ydata finns.
+                if event.xdata is None or event.ydata is None:
+                    continue
+            
+            if event.xdata is None: continue
+            
+            xdata = line.get_xdata()
+            ydata = line.get_ydata()
+            
+            # Hitta index för närmaste x-värde i linjens data
+            idx = np.searchsorted(xdata, event.xdata)
+            
+            if idx == 0:
+                idx_closest = 0
+            elif idx == len(xdata):
+                idx_closest = len(xdata) - 1
+            else:
+                # Jämför avstånd till punkten före och efter
+                if abs(event.xdata - xdata[idx-1]) < abs(event.xdata - xdata[idx]):
+                    idx_closest = idx-1
+                else:
+                    idx_closest = idx
+            
+            x = xdata[idx_closest]
+            y = ydata[idx_closest]
+            
+            # Tröskel: Muspekaren måste vara tillräckligt nära x-punkten
+            x_range = line.axes.get_xlim()
+            if abs(event.xdata - x) > (x_range[1] - x_range[0]) * 0.02: # 2% tröskel
+                continue 
+            
+            # Tröskel: Muspekaren måste vara tillräckligt nära y-punkten
+            y_range = line.axes.get_ylim()
+            if abs(event.ydata - y) > (y_range[1] - y_range[0]) * 0.05: # 5% tröskel
+                continue
+
+            annot.xy = (x, y)
+            annot.set_text(f"Time: {x*100:.1f}%\nValue: {y:.2f}")
+            annot.set_visible(True)
+            line.figure.canvas.draw_idle()
+            return
+
+        if vis:
+            annot.set_visible(False)
+            if lines:
+                lines[0].figure.canvas.draw_idle()
+    # <-- SLUT PÅ MODIFIERING
 
     def _remove_selected(self, lines, labels, line_vars, ax, canvas, control_frame):
         for i in reversed(range(len(lines))):
@@ -646,6 +817,7 @@ class JSONPlotterUI:
         if not self.json_file_var.get() or self.json_file_var.get() not in display_names:
             self.json_file_var.set(display_names[0])
         self.plot_button.config(state='normal')
+        self._on_json_selected(self.json_file_var.get()) # Uppdatera knapptext
 
     def _on_json_selected(self, name: str):
         self.json_file_var.set(name)
