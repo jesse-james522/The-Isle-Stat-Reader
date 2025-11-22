@@ -1,0 +1,278 @@
+[
+  {
+    "Type": "TIDinosaurMontages",
+    "Name": "DA_BabyBoarMontages",
+    "Class": "UScriptClass'TIDinosaurMontages'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Vocals": {
+        "Generic": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Stand_00-IP'",
+            "ObjectPath": "/Game/TheIsle/Characters/Animalia/WildBoar_Y/Animations/InPlace/AM_Stand_00-IP.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Stand_00-IP'",
+            "ObjectPath": "/Game/TheIsle/Characters/Animalia/WildBoar_Y/Animations/InPlace/AM_Stand_00-IP.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Stand_00-IP'",
+            "ObjectPath": "/Game/TheIsle/Characters/Animalia/WildBoar_Y/Animations/InPlace/AM_Stand_00-IP.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Stand_00-IP'",
+            "ObjectPath": "/Game/TheIsle/Characters/Animalia/WildBoar_Y/Animations/InPlace/AM_Stand_00-IP.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Stand_00-IP'",
+            "ObjectPath": "/Game/TheIsle/Characters/Animalia/WildBoar_Y/Animations/InPlace/AM_Stand_00-IP.0"
+          }
+        },
+        "Broadcast": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Stand_00-IP'",
+            "ObjectPath": "/Game/TheIsle/Characters/Animalia/WildBoar_Y/Animations/InPlace/AM_Stand_00-IP.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Stand_00-IP'",
+            "ObjectPath": "/Game/TheIsle/Characters/Animalia/WildBoar_Y/Animations/InPlace/AM_Stand_00-IP.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Stand_00-IP'",
+            "ObjectPath": "/Game/TheIsle/Characters/Animalia/WildBoar_Y/Animations/InPlace/AM_Stand_00-IP.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Stand_00-IP'",
+            "ObjectPath": "/Game/TheIsle/Characters/Animalia/WildBoar_Y/Animations/InPlace/AM_Stand_00-IP.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Stand_00-IP'",
+            "ObjectPath": "/Game/TheIsle/Characters/Animalia/WildBoar_Y/Animations/InPlace/AM_Stand_00-IP.0"
+          }
+        },
+        "Attract": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Stand_00-IP'",
+            "ObjectPath": "/Game/TheIsle/Characters/Animalia/WildBoar_Y/Animations/InPlace/AM_Stand_00-IP.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Stand_00-IP'",
+            "ObjectPath": "/Game/TheIsle/Characters/Animalia/WildBoar_Y/Animations/InPlace/AM_Stand_00-IP.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Stand_00-IP'",
+            "ObjectPath": "/Game/TheIsle/Characters/Animalia/WildBoar_Y/Animations/InPlace/AM_Stand_00-IP.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Stand_00-IP'",
+            "ObjectPath": "/Game/TheIsle/Characters/Animalia/WildBoar_Y/Animations/InPlace/AM_Stand_00-IP.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Stand_00-IP'",
+            "ObjectPath": "/Game/TheIsle/Characters/Animalia/WildBoar_Y/Animations/InPlace/AM_Stand_00-IP.0"
+          }
+        }
+      },
+      "Bite": {
+        "Hatchling": {
+          "ObjectName": "AnimMontage'AM_BabyBoar_Adult_Attack'",
+          "ObjectPath": "/Game/TheIsle/Characters/Animalia/WildBoar_Y/Animations/AM_BabyBoar_Adult_Attack.0"
+        },
+        "Juvenile": {
+          "ObjectName": "AnimMontage'AM_BabyBoar_Adult_Attack'",
+          "ObjectPath": "/Game/TheIsle/Characters/Animalia/WildBoar_Y/Animations/AM_BabyBoar_Adult_Attack.0"
+        },
+        "Subadult": {
+          "ObjectName": "AnimMontage'AM_BabyBoar_Adult_Attack'",
+          "ObjectPath": "/Game/TheIsle/Characters/Animalia/WildBoar_Y/Animations/AM_BabyBoar_Adult_Attack.0"
+        },
+        "Adult": {
+          "ObjectName": "AnimMontage'AM_BabyBoar_Adult_Attack'",
+          "ObjectPath": "/Game/TheIsle/Characters/Animalia/WildBoar_Y/Animations/AM_BabyBoar_Adult_Attack.0"
+        },
+        "Elder": {
+          "ObjectName": "AnimMontage'AM_BabyBoar_Adult_Attack'",
+          "ObjectPath": "/Game/TheIsle/Characters/Animalia/WildBoar_Y/Animations/AM_BabyBoar_Adult_Attack.0"
+        }
+      },
+      "Hit": {
+        "Light": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Hit_ChestL_Light'",
+            "ObjectPath": "/Game/TheIsle/Characters/Animalia/WildBoar_Y/Animations/AM_Hit_ChestL_Light.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Hit_ChestL_Light'",
+            "ObjectPath": "/Game/TheIsle/Characters/Animalia/WildBoar_Y/Animations/AM_Hit_ChestL_Light.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Hit_ChestL_Light'",
+            "ObjectPath": "/Game/TheIsle/Characters/Animalia/WildBoar_Y/Animations/AM_Hit_ChestL_Light.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Hit_ChestL_Light'",
+            "ObjectPath": "/Game/TheIsle/Characters/Animalia/WildBoar_Y/Animations/AM_Hit_ChestL_Light.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Hit_ChestL_Light'",
+            "ObjectPath": "/Game/TheIsle/Characters/Animalia/WildBoar_Y/Animations/AM_Hit_ChestL_Light.0"
+          }
+        },
+        "Heavy": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Hit_ChestL_Heavy'",
+            "ObjectPath": "/Game/TheIsle/Characters/Animalia/WildBoar_Y/Animations/AM_Hit_ChestL_Heavy.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Hit_ChestL_Heavy'",
+            "ObjectPath": "/Game/TheIsle/Characters/Animalia/WildBoar_Y/Animations/AM_Hit_ChestL_Heavy.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Hit_ChestL_Heavy'",
+            "ObjectPath": "/Game/TheIsle/Characters/Animalia/WildBoar_Y/Animations/AM_Hit_ChestL_Heavy.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Hit_ChestL_Heavy'",
+            "ObjectPath": "/Game/TheIsle/Characters/Animalia/WildBoar_Y/Animations/AM_Hit_ChestL_Heavy.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Hit_ChestL_Heavy'",
+            "ObjectPath": "/Game/TheIsle/Characters/Animalia/WildBoar_Y/Animations/AM_Hit_ChestL_Heavy.0"
+          }
+        },
+        "StaggerF": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Hit_ChestL_Heavy'",
+            "ObjectPath": "/Game/TheIsle/Characters/Animalia/WildBoar_Y/Animations/AM_Hit_ChestL_Heavy.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Hit_ChestL_Heavy'",
+            "ObjectPath": "/Game/TheIsle/Characters/Animalia/WildBoar_Y/Animations/AM_Hit_ChestL_Heavy.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Hit_ChestL_Heavy'",
+            "ObjectPath": "/Game/TheIsle/Characters/Animalia/WildBoar_Y/Animations/AM_Hit_ChestL_Heavy.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Hit_ChestL_Heavy'",
+            "ObjectPath": "/Game/TheIsle/Characters/Animalia/WildBoar_Y/Animations/AM_Hit_ChestL_Heavy.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Hit_ChestL_Heavy'",
+            "ObjectPath": "/Game/TheIsle/Characters/Animalia/WildBoar_Y/Animations/AM_Hit_ChestL_Heavy.0"
+          }
+        },
+        "StaggerB": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Hit_ChestL_Heavy'",
+            "ObjectPath": "/Game/TheIsle/Characters/Animalia/WildBoar_Y/Animations/AM_Hit_ChestL_Heavy.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Hit_ChestL_Heavy'",
+            "ObjectPath": "/Game/TheIsle/Characters/Animalia/WildBoar_Y/Animations/AM_Hit_ChestL_Heavy.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Hit_ChestL_Heavy'",
+            "ObjectPath": "/Game/TheIsle/Characters/Animalia/WildBoar_Y/Animations/AM_Hit_ChestL_Heavy.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Hit_ChestL_Heavy'",
+            "ObjectPath": "/Game/TheIsle/Characters/Animalia/WildBoar_Y/Animations/AM_Hit_ChestL_Heavy.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Hit_ChestL_Heavy'",
+            "ObjectPath": "/Game/TheIsle/Characters/Animalia/WildBoar_Y/Animations/AM_Hit_ChestL_Heavy.0"
+          }
+        },
+        "StaggerR": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Hit_ChestL_Heavy'",
+            "ObjectPath": "/Game/TheIsle/Characters/Animalia/WildBoar_Y/Animations/AM_Hit_ChestL_Heavy.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Hit_ChestL_Heavy'",
+            "ObjectPath": "/Game/TheIsle/Characters/Animalia/WildBoar_Y/Animations/AM_Hit_ChestL_Heavy.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Hit_ChestL_Heavy'",
+            "ObjectPath": "/Game/TheIsle/Characters/Animalia/WildBoar_Y/Animations/AM_Hit_ChestL_Heavy.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Hit_ChestL_Heavy'",
+            "ObjectPath": "/Game/TheIsle/Characters/Animalia/WildBoar_Y/Animations/AM_Hit_ChestL_Heavy.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Hit_ChestL_Heavy'",
+            "ObjectPath": "/Game/TheIsle/Characters/Animalia/WildBoar_Y/Animations/AM_Hit_ChestL_Heavy.0"
+          }
+        },
+        "StaggerL": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Hit_ChestL_Heavy'",
+            "ObjectPath": "/Game/TheIsle/Characters/Animalia/WildBoar_Y/Animations/AM_Hit_ChestL_Heavy.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Hit_ChestL_Heavy'",
+            "ObjectPath": "/Game/TheIsle/Characters/Animalia/WildBoar_Y/Animations/AM_Hit_ChestL_Heavy.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Hit_ChestL_Heavy'",
+            "ObjectPath": "/Game/TheIsle/Characters/Animalia/WildBoar_Y/Animations/AM_Hit_ChestL_Heavy.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Hit_ChestL_Heavy'",
+            "ObjectPath": "/Game/TheIsle/Characters/Animalia/WildBoar_Y/Animations/AM_Hit_ChestL_Heavy.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Hit_ChestL_Heavy'",
+            "ObjectPath": "/Game/TheIsle/Characters/Animalia/WildBoar_Y/Animations/AM_Hit_ChestL_Heavy.0"
+          }
+        }
+      },
+      "PouncedStruggle": {
+        "Hatchling": {
+          "ObjectName": "AnimMontage'AM_BabyBoar_Adult_Pounced'",
+          "ObjectPath": "/Game/TheIsle/Characters/Animalia/WildBoar_Y/Animations/AM_BabyBoar_Adult_Pounced.0"
+        },
+        "Juvenile": {
+          "ObjectName": "AnimMontage'AM_BabyBoar_Adult_Pounced'",
+          "ObjectPath": "/Game/TheIsle/Characters/Animalia/WildBoar_Y/Animations/AM_BabyBoar_Adult_Pounced.0"
+        },
+        "Subadult": {
+          "ObjectName": "AnimMontage'AM_BabyBoar_Adult_Pounced'",
+          "ObjectPath": "/Game/TheIsle/Characters/Animalia/WildBoar_Y/Animations/AM_BabyBoar_Adult_Pounced.0"
+        },
+        "Adult": {
+          "ObjectName": "AnimMontage'AM_BabyBoar_Adult_Pounced'",
+          "ObjectPath": "/Game/TheIsle/Characters/Animalia/WildBoar_Y/Animations/AM_BabyBoar_Adult_Pounced.0"
+        },
+        "Elder": {
+          "ObjectName": "AnimMontage'AM_BabyBoar_Adult_Pounced'",
+          "ObjectPath": "/Game/TheIsle/Characters/Animalia/WildBoar_Y/Animations/AM_BabyBoar_Adult_Pounced.0"
+        }
+      },
+      "PouncedStruggleMoving": {
+        "Hatchling": {
+          "ObjectName": "AnimMontage'AM_BabyBoar_Adult_Pounced'",
+          "ObjectPath": "/Game/TheIsle/Characters/Animalia/WildBoar_Y/Animations/AM_BabyBoar_Adult_Pounced.0"
+        },
+        "Juvenile": {
+          "ObjectName": "AnimMontage'AM_BabyBoar_Adult_Pounced'",
+          "ObjectPath": "/Game/TheIsle/Characters/Animalia/WildBoar_Y/Animations/AM_BabyBoar_Adult_Pounced.0"
+        },
+        "Subadult": {
+          "ObjectName": "AnimMontage'AM_BabyBoar_Adult_Pounced'",
+          "ObjectPath": "/Game/TheIsle/Characters/Animalia/WildBoar_Y/Animations/AM_BabyBoar_Adult_Pounced.0"
+        },
+        "Adult": {
+          "ObjectName": "AnimMontage'AM_BabyBoar_Adult_Pounced'",
+          "ObjectPath": "/Game/TheIsle/Characters/Animalia/WildBoar_Y/Animations/AM_BabyBoar_Adult_Pounced.0"
+        },
+        "Elder": {
+          "ObjectName": "AnimMontage'AM_BabyBoar_Adult_Pounced'",
+          "ObjectPath": "/Game/TheIsle/Characters/Animalia/WildBoar_Y/Animations/AM_BabyBoar_Adult_Pounced.0"
+        }
+      }
+    }
+  }
+]

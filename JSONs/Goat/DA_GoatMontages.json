@@ -1,0 +1,290 @@
+[
+  {
+    "Type": "TIDinosaurMontages",
+    "Name": "DA_GoatMontages",
+    "Class": "UScriptClass'TIDinosaurMontages'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Hit": {
+        "Light": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Add_Hit_Chest_Right'",
+            "ObjectPath": "/Game/TheIsle/Characters/Animalia/Chamois_M/Animation/AM_Add_Hit_Chest_Right.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Add_Hit_Chest_Right'",
+            "ObjectPath": "/Game/TheIsle/Characters/Animalia/Chamois_M/Animation/AM_Add_Hit_Chest_Right.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Add_Hit_Chest_Right'",
+            "ObjectPath": "/Game/TheIsle/Characters/Animalia/Chamois_M/Animation/AM_Add_Hit_Chest_Right.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Add_Hit_Chest_Right'",
+            "ObjectPath": "/Game/TheIsle/Characters/Animalia/Chamois_M/Animation/AM_Add_Hit_Chest_Right.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Add_Hit_Chest_Right'",
+            "ObjectPath": "/Game/TheIsle/Characters/Animalia/Chamois_M/Animation/AM_Add_Hit_Chest_Right.0"
+          }
+        },
+        "Heavy": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Add_Hit_Chest_Right'",
+            "ObjectPath": "/Game/TheIsle/Characters/Animalia/Chamois_M/Animation/AM_Add_Hit_Chest_Right.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Add_Hit_Chest_Right'",
+            "ObjectPath": "/Game/TheIsle/Characters/Animalia/Chamois_M/Animation/AM_Add_Hit_Chest_Right.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Add_Hit_Chest_Right'",
+            "ObjectPath": "/Game/TheIsle/Characters/Animalia/Chamois_M/Animation/AM_Add_Hit_Chest_Right.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Add_Hit_Chest_Right'",
+            "ObjectPath": "/Game/TheIsle/Characters/Animalia/Chamois_M/Animation/AM_Add_Hit_Chest_Right.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Add_Hit_Chest_Right'",
+            "ObjectPath": "/Game/TheIsle/Characters/Animalia/Chamois_M/Animation/AM_Add_Hit_Chest_Right.0"
+          }
+        },
+        "StaggerF": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Add_Hit_Head_Left'",
+            "ObjectPath": "/Game/TheIsle/Characters/Animalia/Chamois_M/Animation/AM_Add_Hit_Head_Left.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Add_Hit_Head_Left'",
+            "ObjectPath": "/Game/TheIsle/Characters/Animalia/Chamois_M/Animation/AM_Add_Hit_Head_Left.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Add_Hit_Head_Left'",
+            "ObjectPath": "/Game/TheIsle/Characters/Animalia/Chamois_M/Animation/AM_Add_Hit_Head_Left.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Add_Hit_Head_Left'",
+            "ObjectPath": "/Game/TheIsle/Characters/Animalia/Chamois_M/Animation/AM_Add_Hit_Head_Left.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Add_Hit_Head_Left'",
+            "ObjectPath": "/Game/TheIsle/Characters/Animalia/Chamois_M/Animation/AM_Add_Hit_Head_Left.0"
+          }
+        },
+        "StaggerB": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Add_Hit_Pelvis_Right'",
+            "ObjectPath": "/Game/TheIsle/Characters/Animalia/Chamois_M/Animation/AM_Add_Hit_Pelvis_Right.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Add_Hit_Pelvis_Right'",
+            "ObjectPath": "/Game/TheIsle/Characters/Animalia/Chamois_M/Animation/AM_Add_Hit_Pelvis_Right.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Add_Hit_Pelvis_Right'",
+            "ObjectPath": "/Game/TheIsle/Characters/Animalia/Chamois_M/Animation/AM_Add_Hit_Pelvis_Right.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Add_Hit_Pelvis_Right'",
+            "ObjectPath": "/Game/TheIsle/Characters/Animalia/Chamois_M/Animation/AM_Add_Hit_Pelvis_Right.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Add_Hit_Pelvis_Right'",
+            "ObjectPath": "/Game/TheIsle/Characters/Animalia/Chamois_M/Animation/AM_Add_Hit_Pelvis_Right.0"
+          }
+        },
+        "StaggerR": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Add_Hit_Chest_Right'",
+            "ObjectPath": "/Game/TheIsle/Characters/Animalia/Chamois_M/Animation/AM_Add_Hit_Chest_Right.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Add_Hit_Chest_Right'",
+            "ObjectPath": "/Game/TheIsle/Characters/Animalia/Chamois_M/Animation/AM_Add_Hit_Chest_Right.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Add_Hit_Chest_Right'",
+            "ObjectPath": "/Game/TheIsle/Characters/Animalia/Chamois_M/Animation/AM_Add_Hit_Chest_Right.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Add_Hit_Chest_Right'",
+            "ObjectPath": "/Game/TheIsle/Characters/Animalia/Chamois_M/Animation/AM_Add_Hit_Chest_Right.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Add_Hit_Chest_Right'",
+            "ObjectPath": "/Game/TheIsle/Characters/Animalia/Chamois_M/Animation/AM_Add_Hit_Chest_Right.0"
+          }
+        },
+        "StaggerL": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Add_Hit_Chest_Left'",
+            "ObjectPath": "/Game/TheIsle/Characters/Animalia/Chamois_M/Animation/AM_Add_Hit_Chest_Left.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Add_Hit_Chest_Left'",
+            "ObjectPath": "/Game/TheIsle/Characters/Animalia/Chamois_M/Animation/AM_Add_Hit_Chest_Left.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Add_Hit_Chest_Left'",
+            "ObjectPath": "/Game/TheIsle/Characters/Animalia/Chamois_M/Animation/AM_Add_Hit_Chest_Left.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Add_Hit_Chest_Left'",
+            "ObjectPath": "/Game/TheIsle/Characters/Animalia/Chamois_M/Animation/AM_Add_Hit_Chest_Left.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Add_Hit_Chest_Left'",
+            "ObjectPath": "/Game/TheIsle/Characters/Animalia/Chamois_M/Animation/AM_Add_Hit_Chest_Left.0"
+          }
+        }
+      },
+      "PouncedStruggle": {
+        "Hatchling": {
+          "ObjectName": "AnimMontage'Attack_Front_High-IP_Montage'",
+          "ObjectPath": "/Game/TheIsle/Characters/Animalia/Chamois_M/Animation/InPlace/Attack_Front_High-IP_Montage.0"
+        },
+        "Juvenile": {
+          "ObjectName": "AnimMontage'Attack_Front_High-IP_Montage'",
+          "ObjectPath": "/Game/TheIsle/Characters/Animalia/Chamois_M/Animation/InPlace/Attack_Front_High-IP_Montage.0"
+        },
+        "Subadult": {
+          "ObjectName": "AnimMontage'Attack_Front_High-IP_Montage'",
+          "ObjectPath": "/Game/TheIsle/Characters/Animalia/Chamois_M/Animation/InPlace/Attack_Front_High-IP_Montage.0"
+        },
+        "Adult": {
+          "ObjectName": "AnimMontage'Attack_Front_High-IP_Montage'",
+          "ObjectPath": "/Game/TheIsle/Characters/Animalia/Chamois_M/Animation/InPlace/Attack_Front_High-IP_Montage.0"
+        },
+        "Elder": {
+          "ObjectName": "AnimMontage'Attack_Front_High-IP_Montage'",
+          "ObjectPath": "/Game/TheIsle/Characters/Animalia/Chamois_M/Animation/InPlace/Attack_Front_High-IP_Montage.0"
+        }
+      },
+      "PouncedStruggleMoving": {
+        "Hatchling": {
+          "ObjectName": "AnimMontage'Attack_Front_High-IP_Montage'",
+          "ObjectPath": "/Game/TheIsle/Characters/Animalia/Chamois_M/Animation/InPlace/Attack_Front_High-IP_Montage.0"
+        },
+        "Juvenile": {
+          "ObjectName": "AnimMontage'Attack_Front_High-IP_Montage'",
+          "ObjectPath": "/Game/TheIsle/Characters/Animalia/Chamois_M/Animation/InPlace/Attack_Front_High-IP_Montage.0"
+        },
+        "Subadult": {
+          "ObjectName": "AnimMontage'Attack_Front_High-IP_Montage'",
+          "ObjectPath": "/Game/TheIsle/Characters/Animalia/Chamois_M/Animation/InPlace/Attack_Front_High-IP_Montage.0"
+        },
+        "Adult": {
+          "ObjectName": "AnimMontage'Attack_Front_High-IP_Montage'",
+          "ObjectPath": "/Game/TheIsle/Characters/Animalia/Chamois_M/Animation/InPlace/Attack_Front_High-IP_Montage.0"
+        },
+        "Elder": {
+          "ObjectName": "AnimMontage'Attack_Front_High-IP_Montage'",
+          "ObjectPath": "/Game/TheIsle/Characters/Animalia/Chamois_M/Animation/InPlace/Attack_Front_High-IP_Montage.0"
+        }
+      },
+      "Unique": [
+        {
+          "Key": "AdultPouncedRight",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Add_Hit_Chest_Right'",
+              "ObjectPath": "/Game/TheIsle/Characters/Animalia/Chamois_M/Animation/AM_Add_Hit_Chest_Right.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Add_Hit_Chest_Right'",
+              "ObjectPath": "/Game/TheIsle/Characters/Animalia/Chamois_M/Animation/AM_Add_Hit_Chest_Right.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Add_Hit_Chest_Right'",
+              "ObjectPath": "/Game/TheIsle/Characters/Animalia/Chamois_M/Animation/AM_Add_Hit_Chest_Right.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Add_Hit_Chest_Right'",
+              "ObjectPath": "/Game/TheIsle/Characters/Animalia/Chamois_M/Animation/AM_Add_Hit_Chest_Right.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Add_Hit_Chest_Right'",
+              "ObjectPath": "/Game/TheIsle/Characters/Animalia/Chamois_M/Animation/AM_Add_Hit_Chest_Right.0"
+            }
+          }
+        },
+        {
+          "Key": "AdultPouncedLeft",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Add_Hit_Chest_Left'",
+              "ObjectPath": "/Game/TheIsle/Characters/Animalia/Chamois_M/Animation/AM_Add_Hit_Chest_Left.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Add_Hit_Chest_Left'",
+              "ObjectPath": "/Game/TheIsle/Characters/Animalia/Chamois_M/Animation/AM_Add_Hit_Chest_Left.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Add_Hit_Chest_Left'",
+              "ObjectPath": "/Game/TheIsle/Characters/Animalia/Chamois_M/Animation/AM_Add_Hit_Chest_Left.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Add_Hit_Chest_Left'",
+              "ObjectPath": "/Game/TheIsle/Characters/Animalia/Chamois_M/Animation/AM_Add_Hit_Chest_Left.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Add_Hit_Chest_Left'",
+              "ObjectPath": "/Game/TheIsle/Characters/Animalia/Chamois_M/Animation/AM_Add_Hit_Chest_Left.0"
+            }
+          }
+        },
+        {
+          "Key": "AdultPouncedFront",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Add_Hit_Head_Left'",
+              "ObjectPath": "/Game/TheIsle/Characters/Animalia/Chamois_M/Animation/AM_Add_Hit_Head_Left.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Add_Hit_Head_Left'",
+              "ObjectPath": "/Game/TheIsle/Characters/Animalia/Chamois_M/Animation/AM_Add_Hit_Head_Left.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Add_Hit_Head_Left'",
+              "ObjectPath": "/Game/TheIsle/Characters/Animalia/Chamois_M/Animation/AM_Add_Hit_Head_Left.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Add_Hit_Head_Left'",
+              "ObjectPath": "/Game/TheIsle/Characters/Animalia/Chamois_M/Animation/AM_Add_Hit_Head_Left.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Add_Hit_Head_Left'",
+              "ObjectPath": "/Game/TheIsle/Characters/Animalia/Chamois_M/Animation/AM_Add_Hit_Head_Left.0"
+            }
+          }
+        },
+        {
+          "Key": "AdultPouncedBack",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Add_Hit_Pelvis_Right'",
+              "ObjectPath": "/Game/TheIsle/Characters/Animalia/Chamois_M/Animation/AM_Add_Hit_Pelvis_Right.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Add_Hit_Pelvis_Right'",
+              "ObjectPath": "/Game/TheIsle/Characters/Animalia/Chamois_M/Animation/AM_Add_Hit_Pelvis_Right.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Add_Hit_Pelvis_Right'",
+              "ObjectPath": "/Game/TheIsle/Characters/Animalia/Chamois_M/Animation/AM_Add_Hit_Pelvis_Right.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Add_Hit_Pelvis_Right'",
+              "ObjectPath": "/Game/TheIsle/Characters/Animalia/Chamois_M/Animation/AM_Add_Hit_Pelvis_Right.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Add_Hit_Pelvis_Right'",
+              "ObjectPath": "/Game/TheIsle/Characters/Animalia/Chamois_M/Animation/AM_Add_Hit_Pelvis_Right.0"
+            }
+          }
+        }
+      ]
+    }
+  }
+]

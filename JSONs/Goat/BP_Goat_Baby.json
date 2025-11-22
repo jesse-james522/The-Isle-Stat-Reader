@@ -1,0 +1,666 @@
+[
+  {
+    "Type": "AudioComponent",
+    "Name": "HeartbeatAudio",
+    "Outer": "Default__BP_Goat_Baby_C",
+    "Class": "UScriptClass'AudioComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SkeletalMeshComponentBudgeted'Default__BP_Goat_Baby_C:CharacterMesh0'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Animals/Goat/BP_Goat_Baby.20"
+      }
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_Goat_Baby_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "bHasCookedComponentInstancingData": true,
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_Goat_Baby_C:SimpleConstructionScript_0'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Animals/Goat/BP_Goat_Baby.17"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'BP_Goat_Baby_C:ExecuteUbergraph_BP_Goat_Baby'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Animals/Goat/BP_Goat_Baby.7"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'TIGoat'",
+      "ObjectPath": "/Script/TheIsle"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BP_Goat_Baby_C:ReceiveBeginPlay'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Animals/Goat/BP_Goat_Baby.8"
+      },
+      {
+        "ObjectName": "Function'BP_Goat_Baby_C:ExecuteUbergraph_BP_Goat_Baby'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Animals/Goat/BP_Goat_Baby.7"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_BP_Goat_Baby": {
+        "ObjectName": "Function'BP_Goat_Baby_C:ExecuteUbergraph_BP_Goat_Baby'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Animals/Goat/BP_Goat_Baby.7"
+      },
+      "ReceiveBeginPlay": {
+        "ObjectName": "Function'BP_Goat_Baby_C:ReceiveBeginPlay'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Animals/Goat/BP_Goat_Baby.8"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_NoExport | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Game",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_Goat_Baby_C'Default__BP_Goat_Baby_C'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Animals/Goat/BP_Goat_Baby.4"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "InteractableDetector",
+    "Outer": "Default__BP_Goat_Baby_C",
+    "Class": "UScriptClass'BoxComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BoxExtent": {
+        "X": 25.0,
+        "Y": 20.0,
+        "Z": 30.0
+      },
+      "bUseSystemDefaultObstacleAreaClass": false,
+      "AreaClassOverride": {
+        "ObjectName": "Class'NavArea_Obstacle'",
+        "ObjectPath": "/Script/NavigationSystem"
+      },
+      "bGenerateOverlapEvents": false,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision"
+      },
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_Goat_Baby_C:CollisionCylinder'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Animals/Goat/BP_Goat_Baby.6"
+      },
+      "RelativeLocation": {
+        "X": 25.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "PouncebleArea",
+    "Outer": "Default__BP_Goat_Baby_C",
+    "Class": "UScriptClass'BoxComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BoxExtent": {
+        "X": 20.0,
+        "Y": 8.0,
+        "Z": 15.0
+      },
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_Goat_Baby_C:CollisionCylinder'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Animals/Goat/BP_Goat_Baby.6"
+      },
+      "RelativeLocation": {
+        "X": -10.0,
+        "Y": 0.0,
+        "Z": 5.0
+      }
+    }
+  },
+  {
+    "Type": "BP_Goat_Baby_C",
+    "Name": "Default__BP_Goat_Baby_C",
+    "Class": "BlueprintGeneratedClass'/Game/TheIsle/Core/Characters/Animals/Goat/BP_Goat_Baby.BP_Goat_Baby_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "UberGraphFrame": {},
+      "MaxAbilityCharges": 149,
+      "DownwardsCameraYawOffset": null,
+      "bSafeIsDev": false
+    }
+  },
+  {
+    "Type": "CameraComponent",
+    "Name": "Main Camera",
+    "Outer": "Default__BP_Goat_Baby_C",
+    "Class": "UScriptClass'CameraComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "OrthoWidth": 512.0,
+      "bAutoCalculateOrthoPlanes": false,
+      "OrthoNearClipPlane": 0.0,
+      "AttachParent": {
+        "ObjectName": "SpringArmComponent'Default__BP_Goat_Baby_C:Spring Arm'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Animals/Goat/BP_Goat_Baby.23"
+      }
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "CollisionCylinder",
+    "Outer": "Default__BP_Goat_Baby_C",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CapsuleHalfHeight": 30.0,
+      "CapsuleRadius": 15.0,
+      "bUseSystemDefaultObstacleAreaClass": false,
+      "AreaClassOverride": {
+        "ObjectName": "Class'NavArea_Obstacle'",
+        "ObjectPath": "/Script/NavigationSystem"
+      },
+      "BodyInstance": {
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "TinyCollision",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "SmallCollision",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "MediumCollision",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "LargeCollision",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Pawn",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECollisionResponse::ECR_Ignore"
+            },
+            {
+              "Channel": "WaterVolume",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "Detector",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BP_Goat_Baby",
+    "Outer": "BP_Goat_Baby_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "ScriptBytecode": [
+      {
+        "Inst": "EX_ComputedJump",
+        "StatementIndex": 0,
+        "OffsetExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'BP_Goat_Baby_C:ExecuteUbergraph_BP_Goat_Baby'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Animals/Goat/BP_Goat_Baby.7"
+            },
+            "Property": {
+              "Type": "IntProperty",
+              "Name": "EntryPoint",
+              "Flags": "RF_Public",
+              "ElementSize": 4,
+              "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_Return",
+        "StatementIndex": 10,
+        "Expression": {
+          "Inst": "EX_Nothing"
+        }
+      },
+      {
+        "Inst": "EX_EndOfScript",
+        "StatementIndex": 12
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceiveBeginPlay",
+    "Outer": "BP_Goat_Baby_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'Actor:ReceiveBeginPlay'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "ScriptBytecode": [
+      {
+        "Inst": "EX_LocalFinalFunction",
+        "StatementIndex": 0,
+        "Function": {
+          "ObjectName": "Function'BP_Goat_Baby_C:ExecuteUbergraph_BP_Goat_Baby'",
+          "ObjectPath": "/Game/TheIsle/Core/Characters/Animals/Goat/BP_Goat_Baby.7"
+        },
+        "Parameters": [
+          {
+            "Inst": "EX_IntConst",
+            "Value": 10
+          }
+        ],
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Animals/Goat/BP_Goat_Baby.ExecuteUbergraph_BP_Goat_Baby[10]"
+      },
+      {
+        "Inst": "EX_Return",
+        "StatementIndex": 15,
+        "Expression": {
+          "Inst": "EX_Nothing"
+        }
+      },
+      {
+        "Inst": "EX_EndOfScript",
+        "StatementIndex": 17
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "NavigationInvokerComponent",
+    "Name": "Navigation Invoker",
+    "Outer": "Default__BP_Goat_Baby_C",
+    "Class": "UScriptClass'NavigationInvokerComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "TileGenerationRadius": 6000.0,
+      "TileRemovalRadius": 7000.0
+    }
+  },
+  {
+    "Type": "NavigationInvokerComponent",
+    "Name": "NavigationInvoker",
+    "Outer": "Default__BP_Goat_Baby_C",
+    "Class": "UScriptClass'NavigationInvokerComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "PhysicalAnimationComponent",
+    "Name": "PhysicalAnim",
+    "Outer": "Default__BP_Goat_Baby_C",
+    "Class": "UScriptClass'PhysicalAnimationComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "PhysicsConstraintComponent",
+    "Name": "PhysicsConstraints",
+    "Outer": "Default__BP_Goat_Baby_C",
+    "Class": "UScriptClass'PhysicsConstraintComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ConstraintInstance": {
+        "Pos1": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": -45.0
+        },
+        "Pos2": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": -45.0
+        },
+        "ProfileInstance": {
+          "LinearLimit": {
+            "Limit": 45.0
+          }
+        }
+      },
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_Goat_Baby_C:CollisionCylinder'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Animals/Goat/BP_Goat_Baby.6"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -45.0
+      }
+    }
+  },
+  {
+    "Type": "PhysicsHandleComponent",
+    "Name": "PhysicsHandle",
+    "Outer": "Default__BP_Goat_Baby_C",
+    "Class": "UScriptClass'PhysicsHandleComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "BP_Goat_Baby_C",
+    "Class": "UScriptClass'SceneComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "Draglocation",
+    "Outer": "Default__BP_Goat_Baby_C",
+    "Class": "UScriptClass'SceneComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SkeletalMeshComponentBudgeted'Default__BP_Goat_Baby_C:CharacterMesh0'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Animals/Goat/BP_Goat_Baby.20"
+      }
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_Goat_Baby_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Animals/Goat/BP_Goat_Baby.14"
+      },
+      "VariableGUID": "532FF732-412D5DDB-B58BCD8E-87759CEB",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "BP_Goat_Baby_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_Goat_Baby_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Animals/Goat/BP_Goat_Baby.16"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponent",
+    "Name": "RibsMeatMesh",
+    "Outer": "Default__BP_Goat_Baby_C",
+    "Class": "UScriptClass'SkeletalMeshComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LeaderPoseComponent": {
+        "ObjectName": "SkeletalMeshComponentBudgeted'Default__BP_Goat_Baby_C:CharacterMesh0'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Animals/Goat/BP_Goat_Baby.20"
+      },
+      "AttachParent": {
+        "ObjectName": "SkeletalMeshComponentBudgeted'Default__BP_Goat_Baby_C:CharacterMesh0'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Animals/Goat/BP_Goat_Baby.20"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponent",
+    "Name": "SkeletonMesh",
+    "Outer": "Default__BP_Goat_Baby_C",
+    "Class": "UScriptClass'SkeletalMeshComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LeaderPoseComponent": {
+        "ObjectName": "SkeletalMeshComponentBudgeted'Default__BP_Goat_Baby_C:CharacterMesh0'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Animals/Goat/BP_Goat_Baby.20"
+      },
+      "AttachParent": {
+        "ObjectName": "SkeletalMeshComponentBudgeted'Default__BP_Goat_Baby_C:CharacterMesh0'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Animals/Goat/BP_Goat_Baby.20"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponentBudgeted",
+    "Name": "CharacterMesh0",
+    "Outer": "Default__BP_Goat_Baby_C",
+    "Class": "UScriptClass'SkeletalMeshComponentBudgeted'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AnimClass": {
+        "ObjectName": "AnimBlueprintGeneratedClass'ABP_Goat_Baby_C'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Animals/Goat/ABP_Goat_Baby.1"
+      },
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh'Chamois_Y'",
+        "ObjectPath": "/Game/TheIsle/Characters/Animalia/Chamois_Y/Meshes/Chamois_Y.1"
+      },
+      "SkinnedAsset": {
+        "ObjectName": "SkeletalMesh'Chamois_Y'",
+        "ObjectPath": "/Game/TheIsle/Characters/Animalia/Chamois_Y/Meshes/Chamois_Y.1"
+      },
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_Goat_Baby_C:CollisionCylinder'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Animals/Goat/BP_Goat_Baby.6"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 5.960465E-07,
+        "Z": -30.0
+      }
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CorpseDisableDetector",
+    "Outer": "Default__BP_Goat_Baby_C",
+    "Class": "UScriptClass'SphereComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SphereRadius": 200.0,
+      "bUseSystemDefaultObstacleAreaClass": false,
+      "AreaClassOverride": {
+        "ObjectName": "Class'NavArea_Obstacle'",
+        "ObjectPath": "/Script/NavigationSystem"
+      },
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_Goat_Baby_C:CollisionCylinder'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Animals/Goat/BP_Goat_Baby.6"
+      }
+    }
+  },
+  {
+    "Type": "SplineComponent",
+    "Name": "ThroatSpline",
+    "Outer": "Default__BP_Goat_Baby_C",
+    "Class": "UScriptClass'SplineComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SkeletalMeshComponentBudgeted'Default__BP_Goat_Baby_C:CharacterMesh0'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Animals/Goat/BP_Goat_Baby.20"
+      }
+    }
+  },
+  {
+    "Type": "SpringArmComponent",
+    "Name": "Spring Arm",
+    "Outer": "Default__BP_Goat_Baby_C",
+    "Class": "UScriptClass'SpringArmComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_Goat_Baby_C:CollisionCylinder'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Animals/Goat/BP_Goat_Baby.6"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "BuoyancyPlane",
+    "Outer": "Default__BP_Goat_Baby_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'BuoyancyPlane'",
+        "ObjectPath": "/Game/TheIsle/Art/BuoyancyPlane.2"
+      },
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_Goat_Baby_C:CollisionCylinder'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Animals/Goat/BP_Goat_Baby.6"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "ThroatMesh",
+    "Outer": "Default__BP_Goat_Baby_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SkeletalMeshComponentBudgeted'Default__BP_Goat_Baby_C:CharacterMesh0'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Animals/Goat/BP_Goat_Baby.20"
+      }
+    }
+  },
+  {
+    "Type": "TIAbilitySystemComponent",
+    "Name": "AbilitySystemComponent",
+    "Outer": "Default__BP_Goat_Baby_C",
+    "Class": "UScriptClass'TIAbilitySystemComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "TIAntiCheatComponent",
+    "Name": "AntiCheatComponent",
+    "Outer": "Default__BP_Goat_Baby_C",
+    "Class": "UScriptClass'TIAntiCheatComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "TIAttributeSetAnimals",
+    "Name": "AttributeSetBase",
+    "Outer": "Default__BP_Goat_Baby_C",
+    "Class": "UScriptClass'TIAttributeSetAnimals'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "TIDinosaurMovementComponent",
+    "Name": "CharMoveComp",
+    "Outer": "Default__BP_Goat_Baby_C",
+    "Class": "UScriptClass'TIDinosaurMovementComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AnimRootMotionVelocity": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": "NaN"
+      }
+    }
+  },
+  {
+    "Type": "TIFootstepsComponent",
+    "Name": "FootstepsComponent",
+    "Outer": "Default__BP_Goat_Baby_C",
+    "Class": "UScriptClass'TIFootstepsComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EffectsDataTable": {
+        "ObjectName": "DataTable'DT_EffectSetsSmallOnly'",
+        "ObjectPath": "/Game/TheIsle/Core/Data/DT_EffectSetsSmallOnly.0"
+      },
+      "FrontFootprintMask": {
+        "ObjectName": "Texture2D'T_Footprint_Puerta_rear_M'",
+        "ObjectPath": "/Game/TheIsle/Art/Decals/Footprint/Textures/T_Footprint_Puerta_rear_M.0"
+      },
+      "BackFootprintMask": {
+        "ObjectName": "Texture2D'T_Footprint_Puerta_rear_M'",
+        "ObjectPath": "/Game/TheIsle/Art/Decals/Footprint/Textures/T_Footprint_Puerta_rear_M.0"
+      },
+      "MovementSetsDataTable": {
+        "ObjectName": "DataTable'DT_MovementSetsSmallOnly'",
+        "ObjectPath": "/Game/TheIsle/Core/Data/DT_MovementSetsSmallOnly.0"
+      },
+      "MaxSpawnAmount": 50,
+      "FootprintActor": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Footprint_C'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Blueprints/BP_Footprint.0"
+      }
+    }
+  },
+  {
+    "Type": "WidgetComponent",
+    "Name": "NameWidget",
+    "Outer": "Default__BP_Goat_Baby_C",
+    "Class": "UScriptClass'WidgetComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_Goat_Baby_C:CollisionCylinder'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Animals/Goat/BP_Goat_Baby.6"
+      }
+    }
+  }
+]

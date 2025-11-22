@@ -1,0 +1,1022 @@
+[
+  {
+    "Type": "AudioComponent",
+    "Name": "HeartbeatAudio",
+    "Outer": "Default__BP_Boar_Baby_C",
+    "Class": "UScriptClass'AudioComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SkeletalMeshComponentBudgeted'Default__BP_Boar_Baby_C:CharacterMesh0'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Animals/Boar/BP_Boar_Baby.21"
+      }
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_Boar_Baby_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "bHasCookedComponentInstancingData": true,
+      "DynamicBindingObjects": [
+        {
+          "ObjectName": "ComponentDelegateBinding'BP_Boar_Baby_C:ComponentDelegateBinding_0'",
+          "ObjectPath": "/Game/TheIsle/Core/Characters/Animals/Boar/BP_Boar_Baby.7"
+        }
+      ],
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_Boar_Baby_C:SimpleConstructionScript_0'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Animals/Boar/BP_Boar_Baby.18"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'BP_Boar_Baby_C:ExecuteUbergraph_BP_Boar_Baby'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Animals/Boar/BP_Boar_Baby.9"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'TIBoar'",
+      "ObjectPath": "/Script/TheIsle"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BP_Boar_Baby_C:BndEvt__BP_Boar_Child_CorpseDisableDetector_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Animals/Boar/BP_Boar_Baby.8"
+      },
+      {
+        "ObjectName": "Function'BP_Boar_Baby_C:ExecuteUbergraph_BP_Boar_Baby'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Animals/Boar/BP_Boar_Baby.9"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "bUpdateActorLocation",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 1,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_BP_Boar_Baby": {
+        "ObjectName": "Function'BP_Boar_Baby_C:ExecuteUbergraph_BP_Boar_Baby'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Animals/Boar/BP_Boar_Baby.9"
+      },
+      "BndEvt__BP_Boar_Child_CorpseDisableDetector_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature": {
+        "ObjectName": "Function'BP_Boar_Baby_C:BndEvt__BP_Boar_Child_CorpseDisableDetector_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Animals/Boar/BP_Boar_Baby.8"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_NoExport | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Game",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_Boar_Baby_C'Default__BP_Boar_Baby_C'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Animals/Boar/BP_Boar_Baby.4"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "InteractableDetector",
+    "Outer": "Default__BP_Boar_Baby_C",
+    "Class": "UScriptClass'BoxComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BoxExtent": {
+        "X": 40.0,
+        "Y": 25.0,
+        "Z": 40.0
+      },
+      "bUseSystemDefaultObstacleAreaClass": false,
+      "AreaClassOverride": {
+        "ObjectName": "Class'NavArea_Obstacle'",
+        "ObjectPath": "/Script/NavigationSystem"
+      },
+      "bGenerateOverlapEvents": false,
+      "BodyInstance": {
+        "CollisionEnabled": "ECollisionEnabled::NoCollision"
+      },
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_Boar_Baby_C:CollisionCylinder'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Animals/Boar/BP_Boar_Baby.6"
+      },
+      "RelativeLocation": {
+        "X": 40.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "PouncebleArea",
+    "Outer": "Default__BP_Boar_Baby_C",
+    "Class": "UScriptClass'BoxComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BoxExtent": {
+        "X": 30.0,
+        "Y": 15.0,
+        "Z": 25.0
+      },
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_Boar_Baby_C:CollisionCylinder'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Animals/Boar/BP_Boar_Baby.6"
+      },
+      "RelativeLocation": {
+        "X": -5.0,
+        "Y": 0.0,
+        "Z": 5.0
+      }
+    }
+  },
+  {
+    "Type": "BP_Boar_Baby_C",
+    "Name": "Default__BP_Boar_Baby_C",
+    "Class": "BlueprintGeneratedClass'/Game/TheIsle/Core/Characters/Animals/Boar/BP_Boar_Baby.BP_Boar_Baby_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "UberGraphFrame": {},
+      "MaxAbilityCharges": 145,
+      "DownwardsCameraYawOffset": null,
+      "BiteTraceLength": 2.646978E-23,
+      "BiteTraceDownwardsAngleLimit": 0.0,
+      "bDrawBiteDebug": false,
+      "bSafeIsDev": false
+    }
+  },
+  {
+    "Type": "CameraComponent",
+    "Name": "Main Camera",
+    "Outer": "Default__BP_Boar_Baby_C",
+    "Class": "UScriptClass'CameraComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "OrthoWidth": 512.0,
+      "bAutoCalculateOrthoPlanes": false,
+      "OrthoNearClipPlane": 0.0,
+      "AttachParent": {
+        "ObjectName": "SpringArmComponent'Default__BP_Boar_Baby_C:Spring Arm'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Animals/Boar/BP_Boar_Baby.24"
+      }
+    }
+  },
+  {
+    "Type": "CapsuleComponent",
+    "Name": "CollisionCylinder",
+    "Outer": "Default__BP_Boar_Baby_C",
+    "Class": "UScriptClass'CapsuleComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CapsuleHalfHeight": 40.0,
+      "CapsuleRadius": 25.0,
+      "bUseSystemDefaultObstacleAreaClass": false,
+      "AreaClassOverride": {
+        "ObjectName": "Class'NavArea_Obstacle'",
+        "ObjectPath": "/Script/NavigationSystem"
+      },
+      "BodyInstance": {
+        "PositionSolverIterationCount": 4
+      },
+      "bShouldUpdatePhysicsVolume": false
+    }
+  },
+  {
+    "Type": "ComponentDelegateBinding",
+    "Name": "ComponentDelegateBinding_0",
+    "Outer": "BP_Boar_Baby_C",
+    "Class": "UScriptClass'ComponentDelegateBinding'",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentDelegateBindings": [
+        {
+          "ComponentPropertyName": "CorpseDisableDetector",
+          "DelegatePropertyName": "OnComponentBeginOverlap",
+          "FunctionNameToBind": "BndEvt__BP_Boar_Child_CorpseDisableDetector_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "BndEvt__BP_Boar_Child_CorpseDisableDetector_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature",
+    "Outer": "BP_Boar_Baby_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "OverlappedComponent",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'PrimitiveComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "OtherActor",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "OtherComp",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'PrimitiveComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "OtherBodyIndex",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "bFromSweep",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "SweepResult",
+        "Flags": "RF_Public",
+        "ElementSize": 264,
+        "PropertyFlags": "ConstParm | BlueprintVisible | BlueprintReadOnly | Parm | OutParm | ReferenceParm | ContainsInstancedReference",
+        "Struct": {
+          "ObjectName": "Class'HitResult'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "ScriptBytecode": [
+      {
+        "Inst": "EX_LetValueOnPersistentFrame",
+        "StatementIndex": 0,
+        "DestinationProperty": {
+          "Owner": {
+            "ObjectName": "Function'BP_Boar_Baby_C:ExecuteUbergraph_BP_Boar_Baby'",
+            "ObjectPath": "/Game/TheIsle/Core/Characters/Animals/Boar/BP_Boar_Baby.9"
+          },
+          "Property": {
+            "Type": "ObjectProperty",
+            "Name": "K2Node_ComponentBoundEvent_OverlappedComponent",
+            "Flags": "RF_Public",
+            "ElementSize": 8,
+            "PropertyFlags": "InstancedReference",
+            "PropertyClass": {
+              "ObjectName": "Class'PrimitiveComponent'",
+              "ObjectPath": "/Script/Engine"
+            }
+          }
+        },
+        "AssignmentExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'BP_Boar_Baby_C:BndEvt__BP_Boar_Child_CorpseDisableDetector_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Animals/Boar/BP_Boar_Baby.8"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "OverlappedComponent",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | InstancedReference",
+              "PropertyClass": {
+                "ObjectName": "Class'PrimitiveComponent'",
+                "ObjectPath": "/Script/Engine"
+              }
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_LetValueOnPersistentFrame",
+        "StatementIndex": 18,
+        "DestinationProperty": {
+          "Owner": {
+            "ObjectName": "Function'BP_Boar_Baby_C:ExecuteUbergraph_BP_Boar_Baby'",
+            "ObjectPath": "/Game/TheIsle/Core/Characters/Animals/Boar/BP_Boar_Baby.9"
+          },
+          "Property": {
+            "Type": "ObjectProperty",
+            "Name": "K2Node_ComponentBoundEvent_OtherActor",
+            "Flags": "RF_Public",
+            "ElementSize": 8,
+            "PropertyClass": {
+              "ObjectName": "Class'Actor'",
+              "ObjectPath": "/Script/Engine"
+            }
+          }
+        },
+        "AssignmentExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'BP_Boar_Baby_C:BndEvt__BP_Boar_Child_CorpseDisableDetector_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Animals/Boar/BP_Boar_Baby.8"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "OtherActor",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+              "PropertyClass": {
+                "ObjectName": "Class'Actor'",
+                "ObjectPath": "/Script/Engine"
+              }
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_LetValueOnPersistentFrame",
+        "StatementIndex": 36,
+        "DestinationProperty": {
+          "Owner": {
+            "ObjectName": "Function'BP_Boar_Baby_C:ExecuteUbergraph_BP_Boar_Baby'",
+            "ObjectPath": "/Game/TheIsle/Core/Characters/Animals/Boar/BP_Boar_Baby.9"
+          },
+          "Property": {
+            "Type": "ObjectProperty",
+            "Name": "K2Node_ComponentBoundEvent_OtherComp",
+            "Flags": "RF_Public",
+            "ElementSize": 8,
+            "PropertyFlags": "InstancedReference",
+            "PropertyClass": {
+              "ObjectName": "Class'PrimitiveComponent'",
+              "ObjectPath": "/Script/Engine"
+            }
+          }
+        },
+        "AssignmentExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'BP_Boar_Baby_C:BndEvt__BP_Boar_Child_CorpseDisableDetector_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Animals/Boar/BP_Boar_Baby.8"
+            },
+            "Property": {
+              "Type": "ObjectProperty",
+              "Name": "OtherComp",
+              "Flags": "RF_Public",
+              "ElementSize": 8,
+              "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | InstancedReference",
+              "PropertyClass": {
+                "ObjectName": "Class'PrimitiveComponent'",
+                "ObjectPath": "/Script/Engine"
+              }
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_LetValueOnPersistentFrame",
+        "StatementIndex": 54,
+        "DestinationProperty": {
+          "Owner": {
+            "ObjectName": "Function'BP_Boar_Baby_C:ExecuteUbergraph_BP_Boar_Baby'",
+            "ObjectPath": "/Game/TheIsle/Core/Characters/Animals/Boar/BP_Boar_Baby.9"
+          },
+          "Property": {
+            "Type": "IntProperty",
+            "Name": "K2Node_ComponentBoundEvent_OtherBodyIndex",
+            "Flags": "RF_Public",
+            "ElementSize": 4
+          }
+        },
+        "AssignmentExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'BP_Boar_Baby_C:BndEvt__BP_Boar_Child_CorpseDisableDetector_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Animals/Boar/BP_Boar_Baby.8"
+            },
+            "Property": {
+              "Type": "IntProperty",
+              "Name": "OtherBodyIndex",
+              "Flags": "RF_Public",
+              "ElementSize": 4,
+              "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_LetValueOnPersistentFrame",
+        "StatementIndex": 72,
+        "DestinationProperty": {
+          "Owner": {
+            "ObjectName": "Function'BP_Boar_Baby_C:ExecuteUbergraph_BP_Boar_Baby'",
+            "ObjectPath": "/Game/TheIsle/Core/Characters/Animals/Boar/BP_Boar_Baby.9"
+          },
+          "Property": {
+            "Type": "BoolProperty",
+            "Name": "K2Node_ComponentBoundEvent_bFromSweep",
+            "Flags": "RF_Public",
+            "ElementSize": 1,
+            "FieldSize": 1,
+            "ByteOffset": 0,
+            "ByteMask": 1,
+            "FieldMask": 255,
+            "BoolSize": 1,
+            "bIsNativeBool": true
+          }
+        },
+        "AssignmentExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'BP_Boar_Baby_C:BndEvt__BP_Boar_Child_CorpseDisableDetector_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Animals/Boar/BP_Boar_Baby.8"
+            },
+            "Property": {
+              "Type": "BoolProperty",
+              "Name": "bFromSweep",
+              "Flags": "RF_Public",
+              "ElementSize": 1,
+              "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+              "FieldSize": 1,
+              "ByteOffset": 0,
+              "ByteMask": 1,
+              "FieldMask": 255,
+              "BoolSize": 1,
+              "bIsNativeBool": true
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_LetValueOnPersistentFrame",
+        "StatementIndex": 90,
+        "DestinationProperty": {
+          "Owner": {
+            "ObjectName": "Function'BP_Boar_Baby_C:ExecuteUbergraph_BP_Boar_Baby'",
+            "ObjectPath": "/Game/TheIsle/Core/Characters/Animals/Boar/BP_Boar_Baby.9"
+          },
+          "Property": {
+            "Type": "StructProperty",
+            "Name": "K2Node_ComponentBoundEvent_SweepResult",
+            "Flags": "RF_Public",
+            "ElementSize": 264,
+            "PropertyFlags": "ConstParm | ContainsInstancedReference",
+            "Struct": {
+              "ObjectName": "Class'HitResult'",
+              "ObjectPath": "/Script/Engine"
+            }
+          }
+        },
+        "AssignmentExpression": {
+          "Inst": "EX_LocalOutVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'BP_Boar_Baby_C:BndEvt__BP_Boar_Child_CorpseDisableDetector_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Animals/Boar/BP_Boar_Baby.8"
+            },
+            "Property": {
+              "Type": "StructProperty",
+              "Name": "SweepResult",
+              "Flags": "RF_Public",
+              "ElementSize": 264,
+              "PropertyFlags": "ConstParm | BlueprintVisible | BlueprintReadOnly | Parm | OutParm | ReferenceParm | ContainsInstancedReference",
+              "Struct": {
+                "ObjectName": "Class'HitResult'",
+                "ObjectPath": "/Script/Engine"
+              }
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_LocalFinalFunction",
+        "StatementIndex": 108,
+        "Function": {
+          "ObjectName": "Function'BP_Boar_Baby_C:ExecuteUbergraph_BP_Boar_Baby'",
+          "ObjectPath": "/Game/TheIsle/Core/Characters/Animals/Boar/BP_Boar_Baby.9"
+        },
+        "Parameters": [
+          {
+            "Inst": "EX_IntConst",
+            "Value": 10
+          }
+        ],
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Animals/Boar/BP_Boar_Baby.ExecuteUbergraph_BP_Boar_Baby[10]"
+      },
+      {
+        "Inst": "EX_Return",
+        "StatementIndex": 123,
+        "Expression": {
+          "Inst": "EX_Nothing"
+        }
+      },
+      {
+        "Inst": "EX_EndOfScript",
+        "StatementIndex": 125
+      }
+    ],
+    "FunctionFlags": "FUNC_HasOutParms | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BP_Boar_Baby",
+    "Outer": "BP_Boar_Baby_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_ComponentBoundEvent_OverlappedComponent",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'PrimitiveComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_ComponentBoundEvent_OtherActor",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'Actor'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "K2Node_ComponentBoundEvent_OtherComp",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "InstancedReference",
+        "PropertyClass": {
+          "ObjectName": "Class'PrimitiveComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "K2Node_ComponentBoundEvent_OtherBodyIndex",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_ComponentBoundEvent_bFromSweep",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_ComponentBoundEvent_SweepResult",
+        "Flags": "RF_Public",
+        "ElementSize": 264,
+        "PropertyFlags": "ConstParm | ContainsInstancedReference",
+        "Struct": {
+          "ObjectName": "Class'HitResult'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "ScriptBytecode": [
+      {
+        "Inst": "EX_ComputedJump",
+        "StatementIndex": 0,
+        "OffsetExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Owner": {
+              "ObjectName": "Function'BP_Boar_Baby_C:ExecuteUbergraph_BP_Boar_Baby'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Animals/Boar/BP_Boar_Baby.9"
+            },
+            "Property": {
+              "Type": "IntProperty",
+              "Name": "EntryPoint",
+              "Flags": "RF_Public",
+              "ElementSize": 4,
+              "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_Return",
+        "StatementIndex": 10,
+        "Expression": {
+          "Inst": "EX_Nothing"
+        }
+      },
+      {
+        "Inst": "EX_EndOfScript",
+        "StatementIndex": 12
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction | FUNC_HasDefaults"
+  },
+  {
+    "Type": "NavigationInvokerComponent",
+    "Name": "Navigation Invoker",
+    "Outer": "Default__BP_Boar_Baby_C",
+    "Class": "UScriptClass'NavigationInvokerComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "TileRemovalRadius": 9000.0
+    }
+  },
+  {
+    "Type": "NavigationInvokerComponent",
+    "Name": "NavigationInvoker",
+    "Outer": "Default__BP_Boar_Baby_C",
+    "Class": "UScriptClass'NavigationInvokerComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "PhysicalAnimationComponent",
+    "Name": "PhysicalAnim",
+    "Outer": "Default__BP_Boar_Baby_C",
+    "Class": "UScriptClass'PhysicalAnimationComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "PhysicsConstraintComponent",
+    "Name": "PhysicsConstraints",
+    "Outer": "Default__BP_Boar_Baby_C",
+    "Class": "UScriptClass'PhysicsConstraintComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ConstraintInstance": {
+        "Pos1": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 75.0
+        },
+        "Pos2": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 75.0
+        },
+        "ProfileInstance": {
+          "LinearLimit": {
+            "Limit": 45.0
+          }
+        }
+      },
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_Boar_Baby_C:CollisionCylinder'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Animals/Boar/BP_Boar_Baby.6"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -45.0
+      }
+    }
+  },
+  {
+    "Type": "PhysicsHandleComponent",
+    "Name": "PhysicsHandle",
+    "Outer": "Default__BP_Boar_Baby_C",
+    "Class": "UScriptClass'PhysicsHandleComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "BP_Boar_Baby_C",
+    "Class": "UScriptClass'SceneComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "Draglocation",
+    "Outer": "Default__BP_Boar_Baby_C",
+    "Class": "UScriptClass'SceneComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SkeletalMeshComponentBudgeted'Default__BP_Boar_Baby_C:CharacterMesh0'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Animals/Boar/BP_Boar_Baby.21"
+      }
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Outer": "SimpleConstructionScript_0",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_Boar_Baby_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Animals/Boar/BP_Boar_Baby.15"
+      },
+      "VariableGUID": "258AF29A-41218FBA-E5AD99AF-ECECB074",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Outer": "BP_Boar_Baby_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_Boar_Baby_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Animals/Boar/BP_Boar_Baby.17"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponent",
+    "Name": "RibsMeatMesh",
+    "Outer": "Default__BP_Boar_Baby_C",
+    "Class": "UScriptClass'SkeletalMeshComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LeaderPoseComponent": {
+        "ObjectName": "SkeletalMeshComponentBudgeted'Default__BP_Boar_Baby_C:CharacterMesh0'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Animals/Boar/BP_Boar_Baby.21"
+      },
+      "AttachParent": {
+        "ObjectName": "SkeletalMeshComponentBudgeted'Default__BP_Boar_Baby_C:CharacterMesh0'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Animals/Boar/BP_Boar_Baby.21"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponent",
+    "Name": "SkeletonMesh",
+    "Outer": "Default__BP_Boar_Baby_C",
+    "Class": "UScriptClass'SkeletalMeshComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LeaderPoseComponent": {
+        "ObjectName": "SkeletalMeshComponentBudgeted'Default__BP_Boar_Baby_C:CharacterMesh0'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Animals/Boar/BP_Boar_Baby.21"
+      },
+      "AttachParent": {
+        "ObjectName": "SkeletalMeshComponentBudgeted'Default__BP_Boar_Baby_C:CharacterMesh0'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Animals/Boar/BP_Boar_Baby.21"
+      }
+    }
+  },
+  {
+    "Type": "SkeletalMeshComponentBudgeted",
+    "Name": "CharacterMesh0",
+    "Outer": "Default__BP_Boar_Baby_C",
+    "Class": "UScriptClass'SkeletalMeshComponentBudgeted'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "bAutoCalculateSignificance": true,
+      "AnimClass": {
+        "ObjectName": "AnimBlueprintGeneratedClass'ABP_Boar_Baby_C'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Animals/Boar/ABP_Boar_Baby.1"
+      },
+      "bUpdateOverlapsOnAnimationFinalize": false,
+      "SkeletalMesh": {
+        "ObjectName": "SkeletalMesh'WildBoar_Y'",
+        "ObjectPath": "/Game/TheIsle/Characters/Animalia/WildBoar_Y/Meshes/WildBoar_Y.1"
+      },
+      "SkinnedAsset": {
+        "ObjectName": "SkeletalMesh'WildBoar_Y'",
+        "ObjectPath": "/Game/TheIsle/Characters/Animalia/WildBoar_Y/Meshes/WildBoar_Y.1"
+      },
+      "VisibilityBasedAnimTickOption": "EVisibilityBasedAnimTickOption::OnlyTickPoseWhenRendered",
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_Boar_Baby_C:CollisionCylinder'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Animals/Boar/BP_Boar_Baby.6"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -40.0
+      },
+      "RelativeScale3D": {
+        "X": 1.5,
+        "Y": 1.5,
+        "Z": 1.5
+      }
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "CorpseDisableDetector",
+    "Outer": "Default__BP_Boar_Baby_C",
+    "Class": "UScriptClass'SphereComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SphereRadius": 200.0,
+      "bUseSystemDefaultObstacleAreaClass": false,
+      "AreaClassOverride": {
+        "ObjectName": "Class'NavArea_Obstacle'",
+        "ObjectPath": "/Script/NavigationSystem"
+      },
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_Boar_Baby_C:CollisionCylinder'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Animals/Boar/BP_Boar_Baby.6"
+      }
+    }
+  },
+  {
+    "Type": "SplineComponent",
+    "Name": "ThroatSpline",
+    "Outer": "Default__BP_Boar_Baby_C",
+    "Class": "UScriptClass'SplineComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "SkeletalMeshComponentBudgeted'Default__BP_Boar_Baby_C:CharacterMesh0'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Animals/Boar/BP_Boar_Baby.21"
+      }
+    }
+  },
+  {
+    "Type": "SpringArmComponent",
+    "Name": "Spring Arm",
+    "Outer": "Default__BP_Boar_Baby_C",
+    "Class": "UScriptClass'SpringArmComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_Boar_Baby_C:CollisionCylinder'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Animals/Boar/BP_Boar_Baby.6"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "BuoyancyPlane",
+    "Outer": "Default__BP_Boar_Baby_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'BuoyancyPlane'",
+        "ObjectPath": "/Game/TheIsle/Art/BuoyancyPlane.2"
+      },
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_Boar_Baby_C:CollisionCylinder'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Animals/Boar/BP_Boar_Baby.6"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "ThroatMesh",
+    "Outer": "Default__BP_Boar_Baby_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BodyInstance": {
+        "ObjectType": "ECollisionChannel::ECC_WorldStatic"
+      },
+      "AttachParent": {
+        "ObjectName": "SkeletalMeshComponentBudgeted'Default__BP_Boar_Baby_C:CharacterMesh0'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Animals/Boar/BP_Boar_Baby.21"
+      }
+    }
+  },
+  {
+    "Type": "TIAbilitySystemComponent",
+    "Name": "AbilitySystemComponent",
+    "Outer": "Default__BP_Boar_Baby_C",
+    "Class": "UScriptClass'TIAbilitySystemComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "TIAntiCheatComponent",
+    "Name": "AntiCheatComponent",
+    "Outer": "Default__BP_Boar_Baby_C",
+    "Class": "UScriptClass'TIAntiCheatComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "TIAttributeSetAnimals",
+    "Name": "AttributeSetBase",
+    "Outer": "Default__BP_Boar_Baby_C",
+    "Class": "UScriptClass'TIAttributeSetAnimals'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "TIDinosaurMovementComponent",
+    "Name": "CharMoveComp",
+    "Outer": "Default__BP_Boar_Baby_C",
+    "Class": "UScriptClass'TIDinosaurMovementComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "bIsAIControlled": true,
+      "RotationRate": {
+        "Pitch": 0.0,
+        "Yaw": 0.0,
+        "Roll": "NaN"
+      }
+    }
+  },
+  {
+    "Type": "TIFootstepsComponent",
+    "Name": "FootstepsComponent",
+    "Outer": "Default__BP_Boar_Baby_C",
+    "Class": "UScriptClass'TIFootstepsComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EffectsDataTable": {
+        "ObjectName": "DataTable'DT_EffectSetsSmallOnly'",
+        "ObjectPath": "/Game/TheIsle/Core/Data/DT_EffectSetsSmallOnly.0"
+      },
+      "FrontFootprintMask": {
+        "ObjectName": "Texture2D'T_Footprint_Puerta_rear_M'",
+        "ObjectPath": "/Game/TheIsle/Art/Decals/Footprint/Textures/T_Footprint_Puerta_rear_M.0"
+      },
+      "BackFootprintMask": {
+        "ObjectName": "Texture2D'T_Footprint_Puerta_rear_M'",
+        "ObjectPath": "/Game/TheIsle/Art/Decals/Footprint/Textures/T_Footprint_Puerta_rear_M.0"
+      },
+      "MovementSetsDataTable": {
+        "ObjectName": "DataTable'DT_MovementSetsSmallOnly'",
+        "ObjectPath": "/Game/TheIsle/Core/Data/DT_MovementSetsSmallOnly.0"
+      },
+      "FootprintActor": {
+        "ObjectName": "BlueprintGeneratedClass'BP_Footprint_C'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Blueprints/BP_Footprint.0"
+      }
+    }
+  },
+  {
+    "Type": "WidgetComponent",
+    "Name": "NameWidget",
+    "Outer": "Default__BP_Boar_Baby_C",
+    "Class": "UScriptClass'WidgetComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AttachParent": {
+        "ObjectName": "CapsuleComponent'Default__BP_Boar_Baby_C:CollisionCylinder'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Animals/Boar/BP_Boar_Baby.6"
+      }
+    }
+  }
+]

@@ -1,0 +1,101 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_DeerVocals",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'Vocals'",
+        "ObjectPath": "/Script/TheIsle"
+      }
+    },
+    "Rows": {
+      "Call": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Animal_Deer_Call'",
+          "ObjectPath": "/Game/TheIsle/Characters/Animalia/MuleDeer_M/Sounds/CU_Animal_Deer_Call.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Alarm": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Animal_Deer_Alarm'",
+          "ObjectPath": "/Game/TheIsle/Characters/Animalia/MuleDeer_M/Sounds/CU_Animal_Deer_Alarm.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Attack": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Animal_Deer_Attack'",
+          "ObjectPath": "/Game/TheIsle/Characters/Animalia/MuleDeer_M/Sounds/CU_Animal_Deer_attack.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "RegularPainPain": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Animal_Deer_Pain'",
+          "ObjectPath": "/Game/TheIsle/Characters/Animalia/MuleDeer_M/Sounds/CU_Animal_Deer_Pain.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "ExtremePain": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Animal_Deer_ExtremePain'",
+          "ObjectPath": "/Game/TheIsle/Characters/Animalia/MuleDeer_M/Sounds/CU_Animal_Deer_ExtremePain.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Death": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Animal_Deer_Death'",
+          "ObjectPath": "/Game/TheIsle/Characters/Animalia/MuleDeer_M/Sounds/CU_Animal_Deer_Death.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "IdleShort": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Animal_Deer_IdleShort'",
+          "ObjectPath": "/Game/TheIsle/Characters/Animalia/MuleDeer_M/Sounds/CU_Animal_Deer_IdleShort.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "IdleLong": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Animal_Deer_IdleLong1'",
+          "ObjectPath": "/Game/TheIsle/Characters/Animalia/MuleDeer_M/Sounds/CU_Animal_Deer_IdleLong1.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Grunt": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Animal_Deer_IdleLong1'",
+          "ObjectPath": "/Game/TheIsle/Characters/Animalia/MuleDeer_M/Sounds/CU_Animal_Deer_IdleLong1.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "PinnedLong": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Animal_Deer_Scream'",
+          "ObjectPath": "/Game/TheIsle/Characters/Animalia/MuleDeer_M/Sounds/CU_Animal_Deer_Scream.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "PinnedShort": {
+        "VocalSoundCue": null,
+        "VocalEffect": null,
+        "VocalCurve": null
+      }
+    }
+  }
+]

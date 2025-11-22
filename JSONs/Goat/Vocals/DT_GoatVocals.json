@@ -1,0 +1,93 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_GoatVocals",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'Vocals'",
+        "ObjectPath": "/Script/TheIsle"
+      }
+    },
+    "Rows": {
+      "Broadcast": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Animal_Chamois_Call'",
+          "ObjectPath": "/Game/TheIsle/Characters/Animalia/Chamois_M/Sounds/CU_Animal_Chamois_Call.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Danger": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Animal_Chamois_Alarm'",
+          "ObjectPath": "/Game/TheIsle/Characters/Animalia/Chamois_M/Sounds/CU_Animal_Chamois_Alarm.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Attack": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Animal_Chamois_Attack'",
+          "ObjectPath": "/Game/TheIsle/Characters/Animalia/Chamois_M/Sounds/CU_Animal_Chamois_Attack.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "RegularPain": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Animal_Chamois_Pain'",
+          "ObjectPath": "/Game/TheIsle/Characters/Animalia/Chamois_M/Sounds/CU_Animal_Chamois_Pain.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "ExtremePain": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Animal_Chamois_ExtremePain'",
+          "ObjectPath": "/Game/TheIsle/Characters/Animalia/Chamois_M/Sounds/CU_Animal_Chamois_ExtremePain.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Death": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Animal_Chamois_Death'",
+          "ObjectPath": "/Game/TheIsle/Characters/Animalia/Chamois_M/Sounds/CU_Animal_Chamois_Death.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "IdleShort": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Animal_Chamois_IdleShort'",
+          "ObjectPath": "/Game/TheIsle/Characters/Animalia/Chamois_M/Sounds/CU_Animal_Chamois_IdleShort.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "IdleLong": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Animal_Chamois_IdleLong'",
+          "ObjectPath": "/Game/TheIsle/Characters/Animalia/Chamois_M/Sounds/CU_Animal_Chamois_IdleLong.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "PinnedLong": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Animal_Chamois_Scream'",
+          "ObjectPath": "/Game/TheIsle/Characters/Animalia/Chamois_M/Sounds/CU_Animal_Chamois_Scream.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "PinnedShort": {
+        "VocalSoundCue": null,
+        "VocalEffect": null,
+        "VocalCurve": null
+      }
+    }
+  }
+]

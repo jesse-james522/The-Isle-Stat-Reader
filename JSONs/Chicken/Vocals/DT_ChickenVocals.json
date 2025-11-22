@@ -1,0 +1,90 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_ChickenVocals",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'Vocals'",
+        "ObjectPath": "/Script/TheIsle"
+      }
+    },
+    "Rows": {
+      "Broadcast": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Animal_Chicken_Call'",
+          "ObjectPath": "/Game/TheIsle/Characters/Animalia/Chicken/Sounds/CU_Animal_Chicken_Call.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Danger": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Animal_Chicken_Alarm'",
+          "ObjectPath": "/Game/TheIsle/Characters/Animalia/Chicken/Sounds/CU_Animal_Chicken_Alarm.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Attack": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Animal_Chicken_Aggressive'",
+          "ObjectPath": "/Game/TheIsle/Characters/Animalia/Chicken/Sounds/CU_Animal_Chicken_Aggressive.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "RegularPain": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Animal_Chicken_Pain'",
+          "ObjectPath": "/Game/TheIsle/Characters/Animalia/Chicken/Sounds/CU_Animal_Chicken_Pain.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "ExtremePain": {
+        "VocalSoundCue": null,
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "Death": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Animal_Chicken_Scream'",
+          "ObjectPath": "/Game/TheIsle/Characters/Animalia/Chicken/Sounds/CU_Animal_Chicken_Scream.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "IdleLong": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Animal_Chicken_IdleLong'",
+          "ObjectPath": "/Game/TheIsle/Characters/Animalia/Chicken/Sounds/CU_Animal_Chicken_IdleLong.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "IdleShort": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Animal_Chicken_IdleShort'",
+          "ObjectPath": "/Game/TheIsle/Characters/Animalia/Chicken/Sounds/CU_Animal_Chicken_IdleShort.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "PinnedLong": {
+        "VocalSoundCue": {
+          "ObjectName": "SoundCue'CU_Animal_Chicken_Scream'",
+          "ObjectPath": "/Game/TheIsle/Characters/Animalia/Chicken/Sounds/CU_Animal_Chicken_Scream.0"
+        },
+        "VocalEffect": null,
+        "VocalCurve": null
+      },
+      "PinnedShort": {
+        "VocalSoundCue": null,
+        "VocalEffect": null,
+        "VocalCurve": null
+      }
+    }
+  }
+]
