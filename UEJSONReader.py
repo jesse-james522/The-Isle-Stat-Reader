@@ -479,10 +479,28 @@ class OverlayPlotter:
         self.show_elder_line = tk.BooleanVar(master, value=True)
         self.show_juvi_line = tk.BooleanVar(master, value=True)
         self.show_subadult_line = tk.BooleanVar(master, value=True)
-        # NYTT: Entry variable för X-axeln 
+        # Entry variable för X-axeln 
         self.x_tick_entry_var = tk.StringVar(master, value="0.10") 
+        # Entry variable för Y-axeln
+        self.y_tick_entry_var = tk.StringVar(master, value="") # Start empty, will be set in add_plot
 
-    # BORTTAGET: _toggle_line_visibility är inte längre nödvändig
+    def _calculate_initial_y_step(self, y_range: float) -> float:
+        """Calculates a sensible initial Y-axis step based on the data range (replicating old logic)."""
+        
+        if y_range <= 1e-9:
+             # Fallback if range is zero or extremely small
+             return 0.1 
+
+        if y_range <= 10:
+            step = 1.0
+        elif y_range <= 100:
+            step = 5.0
+        elif y_range <= 1000:
+            step = 50.0
+        else:
+            step = 500.0
+        
+        return step
 
     def _create_window(self) -> Dict:
         win = Toplevel(self.master)
@@ -496,6 +514,8 @@ class OverlayPlotter:
         ax.xaxis.set_major_formatter(FuncFormatter(lambda x, pos: f'{x:.2f}' if x > 1.0 else f'{int(x*100)}%'))
         # Initial inställning för X-axeln (10%)
         ax.xaxis.set_major_locator(matplotlib.ticker.MultipleLocator(0.1))
+        # Initial inställning för Y-axeln (uppdateras i add_plot)
+        ax.yaxis.set_major_locator(matplotlib.ticker.MultipleLocator(1.0)) 
 
         canvas = FigureCanvasTkAgg(fig, master=win)
         canvas.get_tk_widget().pack(fill='both', expand=True)
@@ -564,7 +584,7 @@ class OverlayPlotter:
         win_dict['control_frame'] = inner_control_frame # Ram där kryssrutorna för kurvor läggs till
         win_dict['curve_list_canvas'] = curve_list_canvas # Canvas för att uppdatera scrollregion
 
-        # Kontrollram 2: Nya kontroller för vertikala linjer och X-axeln
+        # Kontrollram 2: Nya kontroller för vertikala linjer, X-axeln och Y-axeln
         control_frame_2 = tk.Frame(win)
         control_frame_2.pack(fill='x', padx=5, pady=5)
         
@@ -584,6 +604,14 @@ class OverlayPlotter:
         # Bind event till förlorat fokus eller Enter
         self.x_tick_entry.bind('<FocusOut>', lambda e: self._update_x_ticks(win_dict, self.x_tick_entry_var.get()))
         self.x_tick_entry.bind('<Return>', lambda e: self._update_x_ticks(win_dict, self.x_tick_entry_var.get()))
+        
+        # Y-Axel Tick-kontroll
+        tk.Label(control_frame_2, text="Y-Axis Tick Interval (0.01-max):").pack(side='left', padx=(20, 0))
+        self.y_tick_entry = tk.Entry(control_frame_2, textvariable=self.y_tick_entry_var, width=5)
+        self.y_tick_entry.pack(side='left', padx=2)
+        # Bind event
+        self.y_tick_entry.bind('<FocusOut>', lambda e: self._update_y_ticks(win_dict, self.y_tick_entry_var.get()))
+        self.y_tick_entry.bind('<Return>', lambda e: self._update_y_ticks(win_dict, self.y_tick_entry_var.get()))
         
         # Initial ritning av vertikala linjer
         self._update_vertical_lines(win_dict)
@@ -647,11 +675,14 @@ class OverlayPlotter:
             # Försök att parsa inmatningen som float
             interval = float(interval_text.strip().replace('%', ''))
             
-            # Begränsa värdet mellan 0.01 och ett rimligt max (t.ex. 100.0)
-            interval = max(0.01, min(100.0, interval))
+            # Begränsa värdet mellan 0.01 och ett rimligt max
+            interval = max(0.01, interval)
             
             # Uppdatera Entry-variabeln med det normaliserade float-värdet
-            self.x_tick_entry_var.set(f"{interval:.2f}")
+            if interval < 1.0:
+                 self.x_tick_entry_var.set(f"{interval:.2f}")
+            else:
+                 self.x_tick_entry_var.set(f"{interval}")
 
         except ValueError:
             messagebox.showerror("Input Error", "Please enter a valid number (e.g., 0.05 or 1.0).")
@@ -660,15 +691,78 @@ class OverlayPlotter:
         ax.xaxis.set_major_locator(matplotlib.ticker.MultipleLocator(interval))
         canvas.draw_idle()
 
+    # Hanterar Y-axelns uppdatering från inmatning
+    def _update_y_ticks(self, win_dict: Dict, interval_text: str):
+        """Updates the Y-axis major tick locator based on user input."""
+        ax = win_dict['ax']
+        canvas = win_dict['canvas']
+        
+        try:
+            # Försök att parsa inmatningen som float
+            interval = float(interval_text.strip().replace('%', ''))
+            
+            # Begränsa värdet till ett positivt värde
+            interval = max(0.01, interval)
+            
+            # Uppdatera Entry-variabeln med det normaliserade float-värdet
+            if interval < 1.0:
+                 self.y_tick_entry_var.set(f"{interval:.2f}")
+            else:
+                 self.y_tick_entry_var.set(f"{interval}")
+
+        except ValueError:
+            messagebox.showerror("Input Error", "Please enter a valid number (e.g., 5, 0.5, or 50.0).")
+            return
+            
+        ax.yaxis.set_major_locator(matplotlib.ticker.MultipleLocator(interval))
+        canvas.draw_idle()
+
+    # Hjälpfunktion för att applicera Y-ticks baserat på entry
+    def _apply_y_ticks(self, win_dict: Dict):
+        """Applies the Y-axis tick locator based on the current value in the entry field."""
+        ax = win_dict['ax']
+        
+        try:
+            interval = float(self.y_tick_entry_var.get())
+            interval = max(0.01, interval) # Min value
+        except ValueError:
+            # Fallback if entry is empty or invalid
+            interval = 1.0
+            
+        ax.yaxis.set_major_locator(matplotlib.ticker.MultipleLocator(interval))
+        
+    def _calculate_initial_y_step(self, y_range: float) -> float:
+        """Calculates a sensible initial Y-axis step based on the data range (replicating old logic)."""
+        
+        if y_range <= 1e-9:
+             # Fallback if range is zero or extremely small
+             return 0.1 
+
+        if y_range <= 10:
+            step = 1.0
+        elif y_range <= 100:
+            step = 5.0
+        elif y_range <= 1000:
+            step = 50.0
+        else:
+            step = 500.0
+        
+        return step
+
 
     def add_plot(self, time_points_list, values_list, file_name, y_label):
+        
+        is_new_or_reset = False
+
         # Check for an existing window to reuse
         if self.add_to_existing.get() and self.windows:
             win_dict = self.windows[-1]
             if not win_dict['window'].winfo_exists():
-                win_dict = self._create_window()
+                win_dict = self._create_window() # Case: Existing window was closed -> new window
+                is_new_or_reset = True
         else:
-            win_dict = self._create_window()
+            win_dict = self._create_window() # Case: New window created
+            is_new_or_reset = True
         
         ax = win_dict['ax']
         canvas = win_dict['canvas']
@@ -676,7 +770,7 @@ class OverlayPlotter:
         labels = win_dict['labels']
         line_vars = win_dict['line_vars']
         control_frame = win_dict['control_frame']
-        curve_list_canvas = win_dict['curve_list_canvas'] # Lagt till för scroll region uppdatering
+        curve_list_canvas = win_dict['curve_list_canvas'] 
         
         # Rensa gamla kryssrutor om vi inte lägger till i befintlig
         if not self.add_to_existing.get():
@@ -689,6 +783,7 @@ class OverlayPlotter:
              line_vars.clear()
              # Återställ vertikala linjer
              self._update_vertical_lines(win_dict)
+             is_new_or_reset = True # Case: Existing window cleared/reset
         else:
             # Rensa Checkbuttons även om vi lägger till. De måste återskapas för att inkludera den nya kurvan.
             for widget in control_frame.winfo_children():
@@ -722,15 +817,20 @@ class OverlayPlotter:
              
         ax.xaxis.set_major_locator(matplotlib.ticker.MultipleLocator(interval))
 
+
         # Listor för alla linjer (inklusive de som fanns innan) som ska återskapas i Checkbuttons
         lines_to_add_to_ui = []
         labels_to_add_to_ui = []
         vars_to_add_to_ui = []
-        
+        all_values = [] # Samla alla Y-värden
+
         # Steg 1: Samla befintliga linjer
-        lines_to_add_to_ui.extend(lines)
-        labels_to_add_to_ui.extend(labels)
-        vars_to_add_to_ui.extend(line_vars)
+        for line in lines:
+            lines_to_add_to_ui.append(line)
+            labels_to_add_to_ui.append(labels[lines.index(line)])
+            vars_to_add_to_ui.append(line_vars[lines.index(line)])
+            # Exkludera NaN-värden från min/max-beräkning
+            all_values.extend([v for v in line.get_ydata() if not np.isnan(v)])
         
         # Steg 2: Lägg till de nya linjerna
         for i, (tp, vals) in enumerate(zip(time_points_list, values_list)):
@@ -751,10 +851,13 @@ class OverlayPlotter:
             lines_to_add_to_ui.append(line)
             labels_to_add_to_ui.append(label)
             vars_to_add_to_ui.append(var)
+
+            # Lägg till nya Y-värden
+            all_values.extend([v for v in vals if not np.isnan(v)])
         
         # Steg 3: Återskapa Checkbuttons i inner_control_frame
         for label, var in zip(labels_to_add_to_ui, vars_to_add_to_ui):
-            # NYTT: Checkbutton har nu ingen 'command' och styr INTE synlighet.
+            # Checkbutton har ingen 'command' och styr INTE synlighet.
             cb = tk.Checkbutton(control_frame, text=label, variable=var)
             cb.pack(side='left', padx=2)
             
@@ -765,46 +868,43 @@ class OverlayPlotter:
 
         ax.set_ylabel(y_label)
 
-        # Justera Y-axeln dynamiskt
-        all_values = []
-        for line in lines:
-            # Exkludera NaN-värden från min/max-beräkning
-            all_values.extend([v for v in line.get_ydata() if not np.isnan(v)])
-            
-        # Hantera fall där alla kurvor döljs eller om data saknas
+        # Y-Axis Limit och Tick Logic
+        # ----------------------------------------------------------------------
+        
+        # Hantera Y-limits
         if not all_values:
              ax.set_ylim(bottom=0.0, top=1.0) # Fallback
+             initial_step = 0.1
         else:
              min_y = np.min(all_values)
              max_y = np.max(all_values)
              
              # Säkerhetsmarginal
-             y_range = max_y - min_y
-             y_min = max(0.0, min_y - y_range * 0.05) if y_range > 0 else max(0.0, min_y * 0.95)
-             y_max = max_y + y_range * 0.05 if y_range > 0 else max_y * 1.05
+             y_range_data = max_y - min_y
+             y_min = max(0.0, min_y - y_range_data * 0.05) if y_range_data > 0 else max(0.0, min_y * 0.95)
+             y_max = max_y + y_range_data * 0.05 if y_range_data > 0 else max_y * 1.05
              
              ax.set_ylim(bottom=y_min, top=y_max)
              
-        # Y-tick calculation remains the same
-        ymin, ymax = ax.get_ylim()
-        yrange = ymax - ymin
+             # Beräkna initialt steg baserat på den nya skalan (med 5% marginal)
+             y_min_with_margin, y_max_with_margin = ax.get_ylim()
+             range_with_margin = y_max_with_margin - y_min_with_margin
+             
+             initial_step = self._calculate_initial_y_step(range_with_margin)
+             
+        # Uppdatera Y-tick entry variabeln: NYTT: Använd 'is_new_or_reset'
+        if is_new_or_reset or self.y_tick_entry_var.get() == "":
+            self.y_tick_entry_var.set(f"{initial_step}")
 
-        if yrange <= 10:
-            step = 1
-        elif yrange <= 100:
-            step = 5
-        elif yrange <= 1000:
-            step = 50
-        else:
-            step = 500
-
-        ax.yaxis.set_major_locator(matplotlib.ticker.MultipleLocator(step))
+        # Applicera locator baserat på det aktuella värdet i entry-fältet
+        self._apply_y_ticks(win_dict) 
+        # ----------------------------------------------------------------------
 
         # Legend inside top-left corner
         # Ta bort och återskapa legenden
         if ax.get_legend() is not None:
              ax.get_legend().remove()
-        
+             
         # Alla linjer i 'lines' är nu synliga, så vi använder dem.
         visible_lines_final = [l for l in lines if l.get_label() not in ['_nolegend_', '']]
         visible_labels_final = [l.get_label() for l in visible_lines_final]
@@ -879,7 +979,7 @@ class OverlayPlotter:
             if lines:
                 lines[0].figure.canvas.draw_idle()
 
-    # NYTT: _remove_selected tar nu emot win_dict.
+    # _remove_selected tar nu emot win_dict.
     def _remove_selected(self, win_dict: Dict):
         """Removes the curves and their associated checkbuttons that are selected for removal."""
         lines = win_dict['lines']
@@ -891,6 +991,9 @@ class OverlayPlotter:
         curve_list_canvas = win_dict['curve_list_canvas']
 
         widgets_to_remove = []
+        # Samla Y-data för att omkalibrera Y-axeln efter borttagning
+        remaining_values = [] 
+
         for i in reversed(range(len(lines))):
             if line_vars[i].get(): # Only remove if the Checkbutton is checked (True)
                 lines[i].remove()
@@ -904,7 +1007,10 @@ class OverlayPlotter:
                 del lines[i]
                 del labels[i]
                 del line_vars[i]
-        
+            else:
+                 # Lägg till Y-data från kvarvarande linjer
+                 remaining_values.extend([v for v in lines[i].get_ydata() if not np.isnan(v)])
+
         # Destroy identified Checkbutton widgets
         for widget in widgets_to_remove:
             widget.destroy()
@@ -913,6 +1019,27 @@ class OverlayPlotter:
         control_frame.update_idletasks()
         curve_list_canvas.configure(scrollregion=curve_list_canvas.bbox("all"))
             
+        # Återställ Y-axeln efter borttagning
+        if not remaining_values:
+            ax.set_ylim(bottom=0.0, top=1.0)
+            self.y_tick_entry_var.set("0.1")
+        else:
+            min_y = np.min(remaining_values)
+            max_y = np.max(remaining_values)
+            y_range_data = max_y - min_y
+            y_min = max(0.0, min_y - y_range_data * 0.05) if y_range_data > 0 else max(0.0, min_y * 0.95)
+            y_max = max_y + y_range_data * 0.05 if y_range_data > 0 else max_y * 1.05
+            ax.set_ylim(bottom=y_min, top=y_max)
+            
+            # Uppdatera entry-fältet med nytt beräknat steg baserat på det nya intervallet.
+            y_min_with_margin, y_max_with_margin = ax.get_ylim()
+            range_with_margin = y_max_with_margin - y_min_with_margin
+            initial_step = self._calculate_initial_y_step(range_with_margin)
+            self.y_tick_entry_var.set(f"{initial_step}")
+
+        # Applicera det nya steget på axeln.
+        self._apply_y_ticks(win_dict) 
+
         # Update the Legend
         if ax.get_legend() is not None:
              ax.get_legend().remove()
