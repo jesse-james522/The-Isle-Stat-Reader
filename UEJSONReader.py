@@ -209,69 +209,74 @@ class DataLoader:
         except Exception:
             return {}
         return calculated_stats
+     
+    def _get_interpolated_curve(self, keys, conversion_factor):
+        if not keys:
+            return [], []
 
-        
-    # **MODIFICATION 1: Removed the explicit plateau to T=1.0**
-    def _get_interpolated_curve(self, keys: List[Dict[str, Any]], conversion_factor: float) -> Tuple[List[float], List[float]]:
-        """Interpolates a single curve's keys up to its final time point."""
-        if not keys: return [], []
-        
-        # 1. Grundläggande interpolering (inklusive sampling av linjära segment)
         time_points, values = self._interpolate_keys(keys, conversion_factor)
-        
-        # The logic that forced the curve to extend flat to time 1.0 (100%) has been removed.
-        # The curve now stops at the last Time point specified in the JSON keys.
-        
+
+        # --- Clamp to [0,1] to avoid overflow / MAXTICKS ---
+        if time_points:
+            time_points = [float(min(max(t, 0.0), 1.0)) for t in time_points]
+
         return time_points, values
 
-    # --- KORRIGERAD LOGIK BASERAD PÅ ANVÄNDARFEEDBACK (MASK SENIOR < 0.75) ---
-    def _process_dual_curves(self, curve_data_list: List[Dict[str, Any]], conversion_factor: float) -> Tuple[List[List[float]], List[List[float]]]:
+    def _process_dual_curves(self, curve_data_list, conversion_factor):
+        """Processes senior + elder curves:
+           - Senior masked before 0.75
+           - Senior extended to 0.75 if needed
+           - Elder extended to 1.0 if needed
         """
-        Processes two related growth curves (Senior/Elder), masking the Senior curve 
-        before 75% growth.
-        """
+
         if len(curve_data_list) < 2:
             return self._process_generic_curves(curve_data_list, conversion_factor)
 
-        time_points_list: List[List[float]] = []
-        values_list: List[List[float]] = []
+        time_points_list = []
+        values_list = []
 
-        # Curve 0 (Senior) - This is the curve to be masked before 0.75
-        curve_senior = curve_data_list[0]
-        keys_senior = curve_senior.get("Keys")
-        
-        # Curve 1 (Elder) - This is the full range curve
-        curve_elder = curve_data_list[1]
-        keys_elder = curve_elder.get("Keys")
+        # -------------------------------------------------
+        # --------------------- SENIOR ---------------------
+        # -------------------------------------------------
+        senior = curve_data_list[0].get("Keys", [])
+        t_s, v_s = self._get_interpolated_curve(senior, conversion_factor)
 
-        # 1. Process Senior curve (full interpolation)
-        time_senior, values_senior = self._get_interpolated_curve(keys_senior, conversion_factor)
-        
-        # 2. Process Elder curve (full interpolation)
-        time_elder, values_elder = self._get_interpolated_curve(keys_elder, conversion_factor)
+        if t_s:
+            ts = np.array(t_s, dtype=float)
+            vs = np.array(v_s, dtype=float)
 
-        # 3. Apply the mask to the Senior curve: hide if time < 0.75
-        if time_senior:
-            time_senior_np = np.array(time_senior)
-            values_senior_np = np.array(values_senior)
+            # --- Extend senior to 0.75 if needed ---
+            if ts[-1] < 0.75:
+                ts = np.append(ts, 0.75)
+                vs = np.append(vs, vs[-1])
 
-            # Create a mask: True where time is < 0.75
-            mask = time_senior_np < 0.75
-            
-            # Set values to NaN where the mask is True
-            values_senior_np[mask] = np.nan
-            
-            # Append masked Senior curve (index 0)
-            time_points_list.append(time_senior)
-            values_list.append(list(values_senior_np)) 
-        
-        # 4. Append Elder curve (index 1)
-        if time_elder:
-            time_points_list.append(time_elder)
-            values_list.append(values_elder)
+            # --- Mask region before 0.75 (AFTER extending) ---
+            mask = ts < 0.75
+            vs[mask] = np.nan
+
+            # --- Store ---
+            time_points_list.append(list(ts))
+            values_list.append(list(vs))
+
+        # -------------------------------------------------
+        # --------------------- ELDER ----------------------
+        # -------------------------------------------------
+        elder = curve_data_list[1].get("Keys", [])
+        t_e, v_e = self._get_interpolated_curve(elder, conversion_factor)
+
+        if t_e:
+            te = np.array(t_e, dtype=float)
+            ve = np.array(v_e, dtype=float)
+
+            # ---- Extend elder to 1.0 ----
+            if te[-1] < 1.0:
+                te = np.append(te, 1.0)
+                ve = np.append(ve, ve[-1])
+
+            time_points_list.append(list(te))
+            values_list.append(list(ve))
 
         return time_points_list, values_list
-
 
     def _interpolate_keys(self, keys: List[Dict[str, Any]], conversion_factor: float) -> Tuple[List[float], List[float]]:
         """Generic function to interpolate a single curve's keys."""
@@ -356,6 +361,26 @@ class DataLoader:
 
     def get_plot_data(self, file_path: str, file_name: str) -> Tuple[List[List[float]], List[List[float]], str, str]:
         """Extracts and formats plot data from a file, applying conversions."""
+        
+        # ----------------------------------------------------------
+        # OUT-OF-BOUNDS FIX: Preload Beipiaosaurus weight BEFORE plotting
+        # ----------------------------------------------------------
+        try:
+            # Only apply to weight curves
+            if "weight" in name.lower():
+                # Root containing dino folders
+                root = self.data_loader.root_dir  
+
+                beip = os.path.join(root, "Beipiaosaurus", "Attributes", "ATT_Beipiaosaurus_Weight.json")
+
+                if os.path.exists(beip):
+                    # Load without plotting – this initializes axis scaling
+                    tp_pre, val_pre, _, _ = self.data_loader.get_plot_data(beip, "Preload_Beep")
+                    # Do nothing else – no plot, no UI action
+        except Exception:
+            pass
+
+        
         file_data = self._get_json_data(file_path)
         if not file_data:
             return [], [], "", ""
@@ -730,6 +755,48 @@ class OverlayPlotter:
             interval = 1.0
             
         ax.yaxis.set_major_locator(matplotlib.ticker.MultipleLocator(interval))
+        
+    def recompute_y_axis(self, win_dict):
+        """Recalculates Y-axis limits + tick interval exactly like add_plot."""
+        ax = win_dict['ax']
+        canvas = win_dict['canvas']
+
+        # Collect all remaining Y values
+        all_vals = []
+        for line in win_dict['lines']:
+            all_vals.extend([v for v in line.get_ydata() if not np.isnan(v)])
+
+        if not all_vals:
+            # fallback
+            ax.set_ylim(0, 1)
+            self.y_tick_entry_var.set("0.10")
+            self._apply_y_ticks(win_dict)
+            canvas.draw_idle()
+            return
+
+        ymin = min(all_vals)
+        ymax = max(all_vals)
+        yr   = ymax - ymin
+
+        # identical margin logic to the main algorithm
+        if yr > 0:
+            y_min = ymin - yr * 0.05
+            y_max = ymax + yr * 0.05
+        else:
+            y_min = ymin * 0.95
+            y_max = ymax * 1.05
+
+        ax.set_ylim(y_min, y_max)
+
+        # Compute step exactly like add_plot()
+        y_min_m, y_max_m = ax.get_ylim()
+        step = self._calculate_initial_y_step(y_max_m - y_min_m)
+        self.y_tick_entry_var.set(str(step))
+
+        # Apply the step
+        self._apply_y_ticks(win_dict)
+
+        canvas.draw_idle()
         
     def _calculate_initial_y_step(self, y_range: float) -> float:
         """Calculates a sensible initial Y-axis step based on the data range (replicating old logic)."""
@@ -1274,26 +1341,103 @@ class JSONPlotterUI:
         name = self.json_file_var.get()
         if not name:
             return
+
+        # ============================
+        # CALCULATED STATS
+        # ============================
         if name == self.CALCULATED_STATS_KEY:
             show_calculated_stats_table(self.master, self.calculated_stats_data)
             return
+
+        # ============================
+        # VIRTUAL ATTACK FILES
+        # ============================
         if name in self.virtual_files_data:
             data = self.virtual_files_data[name]
             time_points_list = [c['Time'] for c in data['curves']]
             values_list = [c['Values'] for c in data['curves']]
             self.overlay_plotter.add_plot(time_points_list, values_list, data['title_name'], data['y_label'])
             return
+
+        # ============================
+        # REGULAR ATTRIBUTE FILE
+        # ============================
         file_path = self.json_files_paths.get(name)
         if not file_path or not os.path.isfile(file_path):
             messagebox.showerror('File not found', f'File not found: {file_path}')
             return
+
+        # ============================
+        # BALANCE ATTRIBUTES TABLE
+        # ============================
         if 'BalanceAttributes' in os.path.basename(file_path):
             show_balance_table(self.master, file_path)
             return
+
+        # ====================================================================
+        #   >>>>>>>>> WEIGHT CRASH PRELOAD: BEPI AUTO-LOAD + REMOVE <<<<<<<<<
+        # ====================================================================
+        lower_name = name.lower()
+        is_weight = "weight" in lower_name
+
+        if is_weight:
+            bepi_path = os.path.join(
+                self.data_loader.root_dir,
+                "Beipiaosaurus", "Attributes",
+                "ATT_Beipiaosaurus_Weight.json"
+            )
+
+            if os.path.isfile(bepi_path):
+                # 1. Load BEPI silently
+                tp_b, vp_b, yl_b, title_b = self.data_loader.get_plot_data(bepi_path, "TEMP_BEPI")
+
+                # 2. Plot BEPI into window
+                self.overlay_plotter.add_plot(tp_b, vp_b, "TEMP_BEPI", yl_b)
+
+                # 3. Mark BEPI for removal
+                win = self.overlay_plotter.windows[-1]
+                for i, lbl in enumerate(win['labels']):
+                    if lbl == "TEMP_BEPI":
+                        win['line_vars'][i].set(True)
+
+                # 4. Remove BEPI from axis + UI
+                self.overlay_plotter._remove_selected(win)
+
+                # 5. HARD AXIS RESET (critical for correct scaling)
+                ax = win["ax"]
+                ax.clear()
+
+                # >>> RESET INTERNAL LINE STATE (fixes hover crash) <<<
+                win["lines"].clear()
+                win["labels"].clear()
+                win["line_vars"].clear()
+                win["vertical_lines"].clear()
+
+                # 6. Restore axis formatter and grid
+                def safe_percent_formatter(x, pos):
+                    if x < 0:
+                        return ""
+                    if x <= 1.0000001:
+                        return f"{round(x * 100)}%"
+                    return f"{x:.2f}"
+
+                ax.set_xlabel("Time")
+                ax.grid(True)
+                ax.xaxis.set_major_formatter(FuncFormatter(safe_percent_formatter))
+                ax.xaxis.set_major_locator(matplotlib.ticker.MultipleLocator(0.1))
+
+                win["canvas"].draw_idle()
+
+        # ====================================================================
+        #                        FINAL: PLOT REAL CURVE
+        # ====================================================================
+
         time_points_list, values_list, y_label, title = self.data_loader.get_plot_data(file_path, name)
+
         if not time_points_list or not values_list:
             messagebox.showinfo('No plot data', 'No plotable data found in that file.')
             return
+
         self.overlay_plotter.add_plot(time_points_list, values_list, title, y_label)
 
 # ------------------------- Run -------------------------
