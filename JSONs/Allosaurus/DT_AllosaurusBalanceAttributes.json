@@ -24,7 +24,7 @@
         "AttributePercentageValues": 0.24
       },
       "Stamina.Spending.Sprinting": {
-        "AttributePercentageValues": -0.75
+        "AttributePercentageValues": -0.95
       },
       "Stamina.Spending.SprintingHolding": {
         "AttributePercentageValues": -1.08
@@ -102,16 +102,19 @@
         "AttributePercentageValues": 200.0
       },
       "Damage.Pounce.LatchLoop": {
-        "AttributePercentageValues": 50.0
+        "AttributePercentageValues": 35.0
       },
       "Damage.Pounce.PinLoop": {
-        "AttributePercentageValues": 150.0
+        "AttributePercentageValues": 50.0
       },
       "Damage.Pounce.GrappleLoop": {
-        "AttributePercentageValues": 150.0
+        "AttributePercentageValues": 50.0
       },
       "Damage.ClawSwipe": {
         "AttributePercentageValues": 250.0
+      },
+      "Stamina.Claw": {
+        "AttributePercentageValues": -0.02
       }
     }
   }

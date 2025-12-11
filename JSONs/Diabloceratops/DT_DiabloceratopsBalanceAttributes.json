@@ -24,7 +24,7 @@
         "AttributePercentageValues": 0.24
       },
       "Stamina.Spending.Sprinting": {
-        "AttributePercentageValues": -1.0
+        "AttributePercentageValues": -0.75
       },
       "Stamina.Spending.SprintingHolding": {
         "AttributePercentageValues": -1.32

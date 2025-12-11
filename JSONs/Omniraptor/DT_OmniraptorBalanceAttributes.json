@@ -106,6 +106,9 @@
       },
       "Damage.Pounce.LatchLoop": {
         "AttributePercentageValues": 5.0
+      },
+      "Damage.Bite_Latch_Secondary": {
+        "AttributePercentageValues": 20.0
       }
     }
   }

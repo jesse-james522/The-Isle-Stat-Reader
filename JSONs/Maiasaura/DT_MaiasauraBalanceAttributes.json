@@ -66,7 +66,7 @@
         "AttributePercentageValues": -2.2
       },
       "Damage.Bite": {
-        "AttributePercentageValues": 40.0
+        "AttributePercentageValues": 50.0
       },
       "Stamina.Spending.GetUpFast": {
         "AttributePercentageValues": -20.0
@@ -87,28 +87,28 @@
         "AttributePercentageValues": -0.02
       },
       "Damage.StompFirst": {
-        "AttributePercentageValues": 175.0
+        "AttributePercentageValues": 200.0
       },
       "Damage.StompSecond": {
-        "AttributePercentageValues": 175.0
+        "AttributePercentageValues": 300.0
       },
       "Damage.Box": {
-        "AttributePercentageValues": 25.0
+        "AttributePercentageValues": 43.75
       },
       "Damage.Shove": {
         "AttributePercentageValues": 50.0
       },
-      "Damage.Stamp": {
+      "Damage.ForwardSprintShove": {
         "AttributePercentageValues": 100.0
       },
       "Damage.AltBiteFront": {
-        "AttributePercentageValues": 125.0
+        "AttributePercentageValues": 150.0
       },
       "Damage.AltBiteBack": {
-        "AttributePercentageValues": 200.0
+        "AttributePercentageValues": 225.0
       },
       "Damage.AltBiteBiped": {
-        "AttributePercentageValues": 100.0
+        "AttributePercentageValues": 150.0
       },
       "Stamina.Spending.SprintingBiped": {
         "AttributePercentageValues": -0.65
@@ -118,6 +118,24 @@
       },
       "Stamina.Stomp": {
         "AttributePercentageValues": -0.05
+      },
+      "Damage.AltBiteSide": {
+        "AttributePercentageValues": 250.0
+      },
+      "Damage.AltBite135": {
+        "AttributePercentageValues": 350.0
+      },
+      "Damage.StampStationary": {
+        "AttributePercentageValues": 200.0
+      },
+      "Damage.StampWalking": {
+        "AttributePercentageValues": 200.0
+      },
+      "Damage.StampTrotting": {
+        "AttributePercentageValues": 450.0
+      },
+      "Damage.StampSprinting": {
+        "AttributePercentageValues": 450.0
       }
     }
   }

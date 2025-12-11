@@ -96,7 +96,7 @@
       "RelativeLocation": {
         "X": 210.0,
         "Y": -4.2610576E-05,
-        "Z": 20.0
+        "Z": 30.0
       },
       "RelativeRotation": {
         "Pitch": 0.0,
@@ -132,7 +132,7 @@
     "Type": "BP_Allosaurus_C",
     "Name": "Default__BP_Allosaurus_C",
     "Class": "BlueprintGeneratedClass'/Game/TheIsle/Core/Characters/Dinosaurs/Allosaurus/BP_Allosaurus.BP_Allosaurus_C'",
-    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "DinosaurAssets": {
         "ObjectName": "TIDinosaurAssets'DA_DinosaurAssets'",
@@ -318,8 +318,8 @@
     "Class": "UScriptClass'CapsuleComponent'",
     "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
-      "CapsuleHalfHeight": 140.0,
-      "CapsuleRadius": 70.0,
+      "CapsuleHalfHeight": 130.0,
+      "CapsuleRadius": 65.0,
       "bUseSystemDefaultObstacleAreaClass": false,
       "AreaClassOverride": {
         "ObjectName": "Class'NavArea_Obstacle'",
@@ -574,7 +574,7 @@
       "RelativeLocation": {
         "X": 0.0,
         "Y": 0.0,
-        "Z": -143.5
+        "Z": -130.0
       },
       "RelativeRotation": {
         "Pitch": 0.0,
@@ -1448,15 +1448,17 @@
     "Class": "UScriptClass'TIChargingDinosaurMovementComponent'",
     "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
-      "SlideDuration": 1.0,
-      "RotationRateWalking": 6.067755E-36,
-      "RotationRateTrotting": 180.0,
-      "RotationRateSprinting": 220.0,
-      "StaggerMovementDurationF": 145.0,
-      "GroundFriction": 110.0,
+      "SlideDuration": 0.6,
+      "SlideActivationDegrees": 78.5,
+      "SlidingGroundFrictionMult": 0.05,
+      "RotationRateWalking": 7.533E-42,
+      "RotationRateTrotting": 2.4108E-41,
+      "RotationRateSprinting": 2.4164E-41,
+      "StaggerMovementDurationF": 2.4059E-41,
+      "GroundFriction": 2.3985E-41,
       "AnimRootMotionVelocity": {
-        "X": 9.8516255E+14,
-        "Y": 9.8516255E+14,
+        "X": 0.0,
+        "Y": 0.0,
         "Z": 0.0
       }
     }

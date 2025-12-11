@@ -24,7 +24,7 @@
         "AttributePercentageValues": 0.24
       },
       "Stamina.Spending.Sprinting": {
-        "AttributePercentageValues": -1.1
+        "AttributePercentageValues": -0.9
       },
       "Stamina.Spending.SprintingHolding": {
         "AttributePercentageValues": -1.584
@@ -75,13 +75,13 @@
         "AttributePercentageValues": -2.0
       },
       "Damage.Tail": {
-        "AttributePercentageValues": 1250.0
+        "AttributePercentageValues": 700.0
       },
       "Damage.PowerSwing": {
-        "AttributePercentageValues": 1800.0
+        "AttributePercentageValues": 950.0
       },
       "Damage.PowerSwingRunning": {
-        "AttributePercentageValues": 2250.0
+        "AttributePercentageValues": 1800.0
       },
       "Blood.Regen.Standing": {
         "AttributePercentageValues": 0.01835
@@ -93,13 +93,13 @@
         "AttributePercentageValues": -1.0
       },
       "Stamina.DirTail": {
-        "AttributePercentageValues": -0.05
+        "AttributePercentageValues": -0.02
       },
       "Stamina.PowerSwing": {
-        "AttributePercentageValues": -0.1
+        "AttributePercentageValues": -0.05
       },
       "Stamina.PowerSwingSprinting": {
-        "AttributePercentageValues": -0.15
+        "AttributePercentageValues": -0.1
       }
     }
   }

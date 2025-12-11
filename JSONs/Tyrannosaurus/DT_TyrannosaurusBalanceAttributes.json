@@ -12,19 +12,19 @@
     },
     "Rows": {
       "Stamina.Regen.Standing": {
-        "AttributePercentageValues": 0.24
+        "AttributePercentageValues": 0.48
       },
       "Stamina.Regen.Walking": {
-        "AttributePercentageValues": 0.24
+        "AttributePercentageValues": 0.48
       },
       "Stamina.Regen.Trotting": {
-        "AttributePercentageValues": 0.24
+        "AttributePercentageValues": 0.2
       },
       "Stamina.Regen.Resting": {
-        "AttributePercentageValues": 0.24
+        "AttributePercentageValues": 0.5
       },
       "Stamina.Spending.Sprinting": {
-        "AttributePercentageValues": -3.3
+        "AttributePercentageValues": -2.1
       },
       "Stamina.Spending.SprintingHolding": {
         "AttributePercentageValues": -0.2
@@ -84,10 +84,10 @@
         "AttributePercentageValues": -0.02
       },
       "Damage.Bite": {
-        "AttributePercentageValues": 850.0
+        "AttributePercentageValues": 700.0
       },
       "Damage.Crush": {
-        "AttributePercentageValues": 1000.0
+        "AttributePercentageValues": 700.0
       },
       "Damage.Crush.Pin": {
         "AttributePercentageValues": 350.0
@@ -96,22 +96,28 @@
         "AttributePercentageValues": 25.0
       },
       "Damage.MuzzleSwing": {
-        "AttributePercentageValues": 400.0
+        "AttributePercentageValues": 50.0
       },
       "Stamina.Spending.Crush.Pin": {
         "AttributePercentageValues": 25.0
       },
       "Damage.AltBite": {
-        "AttributePercentageValues": 750.0
+        "AttributePercentageValues": 700.0
       },
       "Stamina.Spending.Crush": {
         "AttributePercentageValues": 0.04
       },
       "Damage.DirectionalMuzzleSwing": {
-        "AttributePercentageValues": 400.0
+        "AttributePercentageValues": 300.0
       },
       "Damage.AltBiteSwimming": {
-        "AttributePercentageValues": 850.0
+        "AttributePercentageValues": 700.0
+      },
+      "Damage.MuzzleSwingHold": {
+        "AttributePercentageValues": 400.0
+      },
+      "Stamina.MuzzleSwingHold": {
+        "AttributePercentageValues": -0.04
       }
     }
   }

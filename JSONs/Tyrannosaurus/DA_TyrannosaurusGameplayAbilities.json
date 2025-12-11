@@ -326,7 +326,7 @@
           }
         },
         {
-          "Command": "ETIGameplayAbilityInputBinds::None",
+          "Command": "ETIGameplayAbilityInputBinds::Vocalize",
           "GameplayAbilityClass": {
             "ObjectName": "BlueprintGeneratedClass'GA_VocalGeneric_Tyranossaurus_Chat_C'",
             "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/Vocals/GA_VocalGeneric_Tyranossaurus_Chat.0"

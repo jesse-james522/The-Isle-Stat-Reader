@@ -207,110 +207,19 @@
     "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "UberGraphFrame": {},
-      "DinosaurAssets": {
-        "ObjectName": "TIDinosaurAssets'DA_DinosaurAssets'",
-        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/DA_DinosaurAssets.0"
-      },
-      "VisualGrowthCurve": {
-        "ObjectName": "CurveFloat'Curve_MaiasauraVisualGrowth'",
-        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Maiasaura/Curve_MaiasauraVisualGrowth.0"
-      },
-      "DinosaurMovement": {
-        "ObjectName": "TIDinosaurMovementComponent'Default__BP_Maiasaura_C:CharMoveComp'",
-        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Maiasaura/BP_Maiasaura.33"
-      },
-      "HorizontalCameraYawOffset": {
-        "ObjectName": "CurveVector'CV_MaiasauraHorizontalCameraYawOffset'",
-        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Maiasaura/Camera/CV_MaiasauraHorizontalCameraYawOffset.0"
-      },
-      "DownwardsCameraYawOffset": {
-        "ObjectName": "CurveVector'CV_MaiasauraDownwardsCameraYawOffset'",
-        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Maiasaura/Camera/CV_MaiasauraDownwardsCameraYawOffset.0"
-      },
-      "UpwardsCameraYawOffset": {
-        "ObjectName": "CurveVector'CV_MaiasauraUpwardsCameraYawOffset'",
-        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Maiasaura/Camera/CV_MaiasauraUpwardsCameraYawOffset.0"
-      },
-      "Up45CameraYawOffset": {
-        "ObjectName": "CurveVector'CV_MaiasauraUp45CameraYawOffset'",
-        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Maiasaura/Camera/CV_MaiasauraUp45CameraYawOffset.0"
-      },
-      "HorizontalCameraYawOffsetZoomed": {
-        "ObjectName": "CurveVector'CV_MaiasauraHorizontalCameraYawOffset'",
-        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Maiasaura/Camera/CV_MaiasauraHorizontalCameraYawOffset.0"
-      },
-      "DownwardsCameraYawOffsetZoomed": {
-        "ObjectName": "CurveVector'CV_MaiasauraDownwardsCameraYawOffset'",
-        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Maiasaura/Camera/CV_MaiasauraDownwardsCameraYawOffset.0"
-      },
-      "UpwardsCameraYawOffsetZoomed": {
-        "ObjectName": "CurveVector'CV_MaiasauraUpwardsCameraYawOffset'",
-        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Maiasaura/Camera/CV_MaiasauraUpwardsCameraYawOffset.0"
-      },
-      "Up45CameraYawOffsetZoomed": {
-        "ObjectName": "CurveVector'CV_MaiasauraUp45CameraYawOffset'",
-        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Maiasaura/Camera/CV_MaiasauraUp45CameraYawOffset.0"
-      },
-      "AttributeCurveDataTable": {
-        "ObjectName": "DataTable'DT_MaiasauraAttributeCurves'",
-        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Maiasaura/Attributes/DT_MaiasauraAttributeCurves.0"
-      },
-      "RestCurveData": {
-        "ObjectName": "CurveLinearColor'ATT_Maiasaura_RestCurve'",
-        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Maiasaura/Attributes/ATT_Maiasaura_RestCurve.0"
-      },
-      "AttributeBalanceDataTable": {
-        "ObjectName": "DataTable'DT_MaiasauraBalanceAttributes'",
-        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Maiasaura/DT_MaiasauraBalanceAttributes.0"
-      },
-      "VocalsDataTable": {
-        "ObjectName": "DataTable'DT_MaiasauraVocals'",
-        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Maiasaura/Vocals/DT_MaiasauraVocals.0"
-      },
-      "DeathPhysicsAsset": {
-        "AssetPathName": "/Game/TheIsle/Characters/Dinosaurs/Maiasaura/Mesh/PHYS_Maiasaura.PHYS_Maiasaura",
-        "SubPathString": ""
-      },
-      "SkeletonPhysicsAsset": {
-        "AssetPathName": "/Game/TheIsle/Characters/Dinosaurs/Maiasaura/Mesh/SK_Maiasaura_Bones_Physics.SK_Maiasaura_Bones_Physics",
-        "SubPathString": ""
-      },
-      "CharacterAssets": {
-        "ObjectName": "TICharacterAssets'DA_CharacterAssets'",
-        "ObjectPath": "/Game/TheIsle/Core/Characters/DA_CharacterAssets.0"
-      },
-      "AbilitySet": {
-        "ObjectName": "TIGameplayAbilitySet'DA_MaiasauraGameplayAbilities'",
-        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Maiasaura/DA_MaiasauraGameplayAbilities.0"
-      },
-      "Montages": {
-        "ObjectName": "TIDinosaurMontages'DA_MaiasauraMontagesBiped'",
-        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Maiasaura/DA_MaiasauraMontagesBiped.0"
-      },
-      "CrouchedMontages": {
-        "ObjectName": "TIDinosaurMontages'DA_MaiasauraMontages'",
-        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Maiasaura/DA_MaiasauraMontages.0"
-      },
-      "SmallVocalsSubmix": {
-        "ObjectName": "SoundSubmix'Submix_SmallRoar_Distant'",
-        "ObjectPath": "/Game/TheIsle/Sound/_Utilities/SubMixes/Submix_SmallRoar_Distant.0"
-      },
-      "MediumVocalsSubmix": {
-        "ObjectName": "SoundSubmix'Submix_MediumRoars_Distant'",
-        "ObjectPath": "/Game/TheIsle/Sound/_Utilities/SubMixes/Submix_MediumRoars_Distant.0"
-      },
-      "LargeVocalsSubmix": {
-        "ObjectName": "SoundSubmix'Submix_LargeRoars'",
-        "ObjectPath": "/Game/TheIsle/Sound/_Utilities/SubMixes/Submix_LargeRoars.0"
-      },
-      "AntiCheatComponent": {
-        "ObjectName": "TIAntiCheatComponent'Default__BP_Maiasaura_C:AntiCheatComponent'",
-        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Maiasaura/BP_Maiasaura.31"
-      },
-      "AbilitySystemComponent": {
-        "ObjectName": "TIAbilitySystemComponent'Default__BP_Maiasaura_C:AbilitySystemComponent'",
-        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Maiasaura/BP_Maiasaura.30"
-      }
+      "AbilityCharges": 110,
+      "MaxAbilityCharges": 255,
+      "HorizontalCameraYawOffset": null,
+      "UpwardsCameraYawOffset": null,
+      "Up45CameraYawOffset": null,
+      "HorizontalCameraYawOffsetZoomed": null,
+      "DownwardsCameraYawOffsetZoomed": null,
+      "UpwardsCameraYawOffsetZoomed": null,
+      "Up45CameraYawOffsetZoomed": null,
+      "LookBaseOffsetX": "NaN",
+      "LookBaseOffsetZ": "NaN",
+      "NVUnderwaterRangeCurveData": null,
+      "AttributeBalanceDataTable": null
     }
   },
   {

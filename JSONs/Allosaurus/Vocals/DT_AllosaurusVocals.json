@@ -139,11 +139,6 @@
         "VocalEffect": null,
         "VocalCurve": null
       },
-      "Idle": {
-        "VocalSoundCue": null,
-        "VocalEffect": null,
-        "VocalCurve": null
-      },
       "Growl": {
         "VocalSoundCue": {
           "ObjectName": "MetaSoundSource'MS_Allosaurus_Growl'",
