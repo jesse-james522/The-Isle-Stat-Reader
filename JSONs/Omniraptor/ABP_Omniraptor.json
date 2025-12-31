@@ -1044,10 +1044,223 @@
         "ObjectName": "AnimSequence'A_Omniraptor_Adult_Drag_Grab_Gastrolith'",
         "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Omniraptor/Animations/A_Omniraptor_Adult_Drag_Grab_Gastrolith.0"
       },
-      "LookYaw": 3.762156E-37,
-      "LookYawInterpSpeed": 6.019817E-36,
-      "RootMotionMode": "ERootMotionMode::NoRootMotionExtraction"
-    }
+      "Juvenile": {
+        "Standing": {
+          "Uninjured": {
+            "Walk": {
+              "Speed": 400.0,
+              "Length": 0.6
+            },
+            "Trot": {
+              "Speed": 800.0,
+              "Length": 0.5
+            },
+            "Sprint": {
+              "Speed": 2685.0,
+              "Length": 0.4
+            }
+          }
+        },
+        "Crouched": {
+          "Uninjured": {
+            "Walk": {
+              "Speed": 180.0,
+              "Length": 1.0
+            },
+            "Trot": {
+              "Speed": 800.0,
+              "Length": 1.0
+            },
+            "Sprint": {
+              "Speed": 2685.0,
+              "Length": 1.0
+            }
+          },
+          "InjuredLeg": {
+            "Walk": {
+              "Speed": 180.0,
+              "Length": 1.0
+            },
+            "Trot": {
+              "Speed": 180.0,
+              "Length": 1.0
+            },
+            "Sprint": {
+              "Speed": 180.0,
+              "Length": 1.0
+            }
+          },
+          "InjuredBody": {
+            "Walk": {
+              "Speed": 180.0,
+              "Length": 1.0
+            },
+            "Trot": {
+              "Speed": 180.0,
+              "Length": 1.0
+            },
+            "Sprint": {
+              "Speed": 180.0,
+              "Length": 1.0
+            }
+          },
+          "InjuredLegsAndBody": {
+            "Walk": {
+              "Speed": 180.0,
+              "Length": 1.0
+            },
+            "Trot": {
+              "Speed": 180.0,
+              "Length": 1.0
+            },
+            "Sprint": {
+              "Speed": 180.0,
+              "Length": 1.0
+            }
+          }
+        }
+      },
+      "Subadult": {
+        "Standing": {
+          "Uninjured": {
+            "Walk": {
+              "Speed": 100.0,
+              "Length": 1.0
+            },
+            "Trot": {
+              "Speed": 200.0,
+              "Length": 1.0
+            },
+            "Sprint": {
+              "Speed": 400.0,
+              "Length": 1.0
+            }
+          }
+        },
+        "Crouched": {
+          "Uninjured": {
+            "Walk": {
+              "Speed": 100.0,
+              "Length": 1.0
+            },
+            "Trot": {
+              "Speed": 100.0,
+              "Length": 1.0
+            },
+            "Sprint": {
+              "Speed": 100.0,
+              "Length": 1.0
+            }
+          },
+          "InjuredLeg": {
+            "Walk": {
+              "Speed": 100.0,
+              "Length": 1.0
+            },
+            "Trot": {
+              "Speed": 100.0,
+              "Length": 1.0
+            },
+            "Sprint": {
+              "Speed": 100.0,
+              "Length": 1.0
+            }
+          },
+          "InjuredBody": {
+            "Walk": {
+              "Speed": 100.0,
+              "Length": 1.0
+            },
+            "Trot": {
+              "Speed": 100.0,
+              "Length": 1.0
+            },
+            "Sprint": {
+              "Speed": 100.0,
+              "Length": 1.0
+            }
+          },
+          "InjuredLegsAndBody": {
+            "Walk": {
+              "Speed": 100.0,
+              "Length": 1.0
+            },
+            "Trot": {
+              "Speed": 100.0,
+              "Length": 1.0
+            },
+            "Sprint": {
+              "Speed": 100.0,
+              "Length": 1.0
+            }
+          }
+        }
+      },
+      "Adult": {
+        "Standing": {
+          "Uninjured": {
+            "Walk": {
+              "Speed": 180.0,
+              "Length": 1.33
+            },
+            "Trot": {
+              "Speed": 600.0,
+              "Length": 0.666
+            },
+            "Sprint": {
+              "Speed": 1700.0,
+              "Length": 0.566
+            }
+          }
+        },
+        "Crouched": {
+          "Uninjured": {
+            "Walk": {
+              "Speed": 180.0,
+              "Length": 1.0
+            },
+            "Trot": {
+              "Speed": 600.0,
+              "Length": 1.0
+            },
+            "Sprint": {
+              "Speed": 1700.0,
+              "Length": 1.0
+            }
+          },
+          "InjuredLeg": {
+            "Walk": {
+              "Speed": 180.0,
+              "Length": 1.0
+            },
+            "Trot": {
+              "Speed": 600.0,
+              "Length": 1.0
+            },
+            "Sprint": {
+              "Speed": 1700.0,
+              "Length": 1.0
+            }
+          },
+          "InjuredLegsAndBody": {
+            "Walk": {
+              "Speed": 180.0,
+              "Length": 1.0
+            },
+            "Trot": {
+              "Speed": 600.0,
+              "Length": 1.0
+            },
+            "Sprint": {
+              "Speed": 1700.0,
+              "Length": 1.0
+            }
+          }
+        }
+      }
+    },
+    "SerializedSparseClassDataStruct": "ScriptStruct'/Game/TheIsle/Core/Characters/Dinosaurs/Omniraptor/ABP_Omniraptor.ABP_Omniraptor_C:AnimBlueprintGeneratedConstantData'",
+    "SerializedSparseClassData": {}
   },
   {
     "Type": "AnimBlueprintGeneratedClass",

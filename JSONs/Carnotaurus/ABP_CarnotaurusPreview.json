@@ -14,7 +14,7 @@
         }
       },
       "AnimGraphNode_ApplyAdditive": {
-        "base": {
+        "Base": {
           "LinkID": 3
         },
         "Additive": {

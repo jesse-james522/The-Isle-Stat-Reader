@@ -31,7 +31,7 @@
         "InternalTimeAccumulator": 0.0
       },
       "AnimGraphNode_ApplyAdditive": {
-        "base": {
+        "Base": {
           "LinkID": 1
         },
         "Additive": {

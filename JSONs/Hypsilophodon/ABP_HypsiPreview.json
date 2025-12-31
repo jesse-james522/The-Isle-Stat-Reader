@@ -23,7 +23,7 @@
         "InternalTimeAccumulator": 0.0
       },
       "AnimGraphNode_ApplyAdditive_6": {
-        "base": {
+        "Base": {
           "LinkID": 1
         },
         "Additive": {
@@ -77,7 +77,7 @@
         "InternalTimeAccumulator": 0.0
       },
       "AnimGraphNode_ApplyAdditive_5": {
-        "base": {
+        "Base": {
           "LinkID": 2
         },
         "Additive": {
@@ -131,7 +131,7 @@
         "InternalTimeAccumulator": 0.0
       },
       "AnimGraphNode_ApplyAdditive_4": {
-        "base": {
+        "Base": {
           "LinkID": 4
         },
         "Additive": {
@@ -185,7 +185,7 @@
         "InternalTimeAccumulator": 0.0
       },
       "AnimGraphNode_ApplyAdditive_3": {
-        "base": {
+        "Base": {
           "LinkID": 6
         },
         "Additive": {
@@ -239,7 +239,7 @@
         "InternalTimeAccumulator": 0.0
       },
       "AnimGraphNode_ApplyAdditive_2": {
-        "base": {
+        "Base": {
           "LinkID": 8
         },
         "Additive": {
@@ -293,7 +293,7 @@
         "InternalTimeAccumulator": 0.0
       },
       "AnimGraphNode_ApplyAdditive_1": {
-        "base": {
+        "Base": {
           "LinkID": 10
         },
         "Additive": {
@@ -347,7 +347,7 @@
         "InternalTimeAccumulator": 0.0
       },
       "AnimGraphNode_ApplyAdditive": {
-        "base": {
+        "Base": {
           "LinkID": 12
         },
         "Additive": {

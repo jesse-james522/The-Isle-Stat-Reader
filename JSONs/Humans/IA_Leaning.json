@@ -1,0 +1,34 @@
+[
+  {
+    "Type": "InputAction",
+    "Name": "IA_Leaning",
+    "Class": "UScriptClass'InputAction'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ActionDescription": {
+        "Namespace": "",
+        "Key": "85A3E190472A426322863192B4308A22",
+        "SourceString": "Human character leans left or right",
+        "LocalizedString": "Human character leans left or right"
+      },
+      "bTriggerWhenPaused": true,
+      "ValueType": "EInputActionValueType::Axis1D",
+      "Triggers": [
+        {
+          "ObjectName": "InputTriggerHold'IA_Leaning:InputTriggerHold_0'",
+          "ObjectPath": "/Game/TheIsle/Core/Characters/Humans/IA_Leaning.1"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "InputTriggerHold",
+    "Name": "InputTriggerHold_0",
+    "Outer": "IA_Leaning",
+    "Class": "UScriptClass'InputTriggerHold'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HoldTimeThreshold": 0.0
+    }
+  }
+]

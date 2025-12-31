@@ -1408,12 +1408,153 @@
       },
       "UseBegTransitions": false,
       "UseNestLayTransitions": false,
-      "SwimmingFloorProximity": 130.0,
-      "LookYaw": 1.5048624E-36,
-      "LookYawInterpSpeed": 9.630532E-35,
-      "FracturedWalkSpeedDeltaMult": 1.794E-42,
-      "RootMotionMode": "ERootMotionMode::122"
-    }
+      "InterpolatedVelocityPitchUpdateThreshold": 130.0,
+      "Juvenile": {
+        "Standing": {
+          "Uninjured": {
+            "Walk": {
+              "Speed": 250.0,
+              "Length": 1.0
+            },
+            "Trot": {
+              "Speed": 290.0,
+              "Length": 1.0
+            },
+            "Sprint": {
+              "Speed": 2100.0,
+              "Length": 0.533
+            }
+          },
+          "InjuredLeg": {
+            "Walk": {
+              "Speed": 125.0,
+              "Length": 2.0
+            },
+            "Trot": {
+              "Speed": 126.0,
+              "Length": 2.0
+            },
+            "Sprint": {
+              "Speed": 127.0,
+              "Length": 2.0
+            }
+          },
+          "InjuredLegsAndBody": {
+            "Walk": {
+              "Speed": 125.0,
+              "Length": 2.0
+            },
+            "Trot": {
+              "Speed": 126.0,
+              "Length": 2.0
+            },
+            "Sprint": {
+              "Speed": 127.0,
+              "Length": 2.0
+            }
+          }
+        },
+        "Crouched": {
+          "Uninjured": {
+            "Walk": {
+              "Speed": 100.0,
+              "Length": 1.0
+            },
+            "Trot": {
+              "Speed": 100.0,
+              "Length": 1.0
+            },
+            "Sprint": {
+              "Speed": 100.0,
+              "Length": 1.0
+            }
+          }
+        }
+      },
+      "Subadult": {
+        "Crouched": {
+          "Uninjured": {
+            "Walk": {
+              "Speed": 100.0,
+              "Length": 1.0
+            },
+            "Trot": {
+              "Speed": 100.0,
+              "Length": 1.0
+            },
+            "Sprint": {
+              "Speed": 100.0,
+              "Length": 1.0
+            }
+          }
+        }
+      },
+      "bUseMontageblend": true,
+      "Adult": {
+        "Standing": {
+          "Uninjured": {
+            "Walk": {
+              "Speed": 125.0,
+              "Length": 2.0
+            },
+            "Trot": {
+              "Speed": 155.0,
+              "Length": 1.8
+            },
+            "Sprint": {
+              "Speed": 620.0,
+              "Length": 0.6667
+            }
+          },
+          "InjuredLeg": {
+            "Walk": {
+              "Speed": 125.0,
+              "Length": 2.0
+            },
+            "Trot": {
+              "Speed": 126.0,
+              "Length": 2.0
+            },
+            "Sprint": {
+              "Speed": 127.0,
+              "Length": 2.0
+            }
+          },
+          "InjuredLegsAndBody": {
+            "Walk": {
+              "Speed": 125.0,
+              "Length": 2.0
+            },
+            "Trot": {
+              "Speed": 126.0,
+              "Length": 2.0
+            },
+            "Sprint": {
+              "Speed": 127.0,
+              "Length": 2.0
+            }
+          }
+        },
+        "Crouched": {
+          "Uninjured": {
+            "Walk": {
+              "Speed": 100.0,
+              "Length": 2.0
+            },
+            "Trot": {
+              "Speed": 100.0,
+              "Length": 2.0
+            },
+            "Sprint": {
+              "Speed": 100.0,
+              "Length": 2.0
+            }
+          }
+        }
+      }
+    },
+    "SerializedSparseClassDataStruct": "ScriptStruct'/Game/TheIsle/Core/Characters/Dinosaurs/Deinosuchus/ABP_Deinosuchus.ABP_Deinosuchus_C:AnimBlueprintGeneratedConstantData'",
+    "SerializedSparseClassData": {}
   },
   {
     "Type": "AnimBlueprintGeneratedClass",

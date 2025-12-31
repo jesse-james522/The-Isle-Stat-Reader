@@ -106,6 +106,95 @@
       "AbilitySystemComponent": {
         "ObjectName": "TIAbilitySystemComponent'Default__BP_Compsognathus_Small_C:AbilitySystemComponent'",
         "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Compsognathus/BP_Compsognathus_Small.24"
+      },
+      "DragLocation": {
+        "ObjectName": "SceneComponent'Default__BP_Compsognathus_Small_C:Draglocation'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Compsognathus/BP_Compsognathus_Small.13"
+      },
+      "ThroatMesh": {
+        "ObjectName": "StaticMeshComponent'Default__BP_Compsognathus_Small_C:ThroatMesh'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Compsognathus/BP_Compsognathus_Small.23"
+      },
+      "SkeletonMesh": {
+        "ObjectName": "SkeletalMeshComponent'Default__BP_Compsognathus_Small_C:SkeletonMesh'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Compsognathus/BP_Compsognathus_Small.17"
+      },
+      "RibsMeatMesh": {
+        "ObjectName": "SkeletalMeshComponent'Default__BP_Compsognathus_Small_C:RibsMeatMesh'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Compsognathus/BP_Compsognathus_Small.16"
+      },
+      "ThroatSpline": {
+        "ObjectName": "SplineComponent'Default__BP_Compsognathus_Small_C:ThroatSpline'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Compsognathus/BP_Compsognathus_Small.20"
+      },
+      "InteractableDetector": {
+        "ObjectName": "BoxComponent'Default__BP_Compsognathus_Small_C:InteractableDetector'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Compsognathus/BP_Compsognathus_Small.2"
+      },
+      "CorpseDisableDetector": {
+        "ObjectName": "SphereComponent'Default__BP_Compsognathus_Small_C:CorpseDisableDetector'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Compsognathus/BP_Compsognathus_Small.19"
+      },
+      "PouncebleArea": {
+        "ObjectName": "BoxComponent'Default__BP_Compsognathus_Small_C:PouncebleArea'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Compsognathus/BP_Compsognathus_Small.3"
+      },
+      "NameWidget": {
+        "ObjectName": "WidgetComponent'Default__BP_Compsognathus_Small_C:NameWidget'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Compsognathus/BP_Compsognathus_Small.29"
+      },
+      "BuoyancyPlane": {
+        "ObjectName": "StaticMeshComponent'Default__BP_Compsognathus_Small_C:BuoyancyPlane'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Compsognathus/BP_Compsognathus_Small.22"
+      },
+      "FootstepsComponent": {
+        "ObjectName": "TIFootstepsComponent'Default__BP_Compsognathus_Small_C:FootstepsComponent'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Compsognathus/BP_Compsognathus_Small.28"
+      },
+      "PhysicsHandleComponent": {
+        "ObjectName": "PhysicsHandleComponent'Default__BP_Compsognathus_Small_C:PhysicsHandle'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Compsognathus/BP_Compsognathus_Small.11"
+      },
+      "CharacterMovementComponent": {
+        "ObjectName": "TIDinosaurMovementComponent'Default__BP_Compsognathus_Small_C:CharMoveComp'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Compsognathus/BP_Compsognathus_Small.27"
+      },
+      "MainCamera": {
+        "ObjectName": "CameraComponent'Default__BP_Compsognathus_Small_C:Main Camera'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Compsognathus/BP_Compsognathus_Small.5"
+      },
+      "SpringArm": {
+        "ObjectName": "SpringArmComponent'Default__BP_Compsognathus_Small_C:Spring Arm'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Compsognathus/BP_Compsognathus_Small.21"
+      },
+      "PhysicalAnimation": {
+        "ObjectName": "PhysicalAnimationComponent'Default__BP_Compsognathus_Small_C:PhysicalAnim'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Compsognathus/BP_Compsognathus_Small.9"
+      },
+      "PhysCons": {
+        "ObjectName": "PhysicsConstraintComponent'Default__BP_Compsognathus_Small_C:PhysicsConstraints'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Compsognathus/BP_Compsognathus_Small.10"
+      },
+      "HeartbeatAudio": {
+        "ObjectName": "AudioComponent'Default__BP_Compsognathus_Small_C:HeartbeatAudio'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Compsognathus/BP_Compsognathus_Small.0"
+      },
+      "NavigationInvoker": null,
+      "Mesh": {
+        "ObjectName": "SkeletalMeshComponentBudgeted'Default__BP_Compsognathus_Small_C:CharacterMesh0'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Compsognathus/BP_Compsognathus_Small.18"
+      },
+      "CharacterMovement": {
+        "ObjectName": "TIDinosaurMovementComponent'Default__BP_Compsognathus_Small_C:CharMoveComp'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Compsognathus/BP_Compsognathus_Small.27"
+      },
+      "CapsuleComponent": {
+        "ObjectName": "CapsuleComponent'Default__BP_Compsognathus_Small_C:CollisionCylinder'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Compsognathus/BP_Compsognathus_Small.6"
+      },
+      "RootComponent": {
+        "ObjectName": "CapsuleComponent'Default__BP_Compsognathus_Small_C:CollisionCylinder'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Compsognathus/BP_Compsognathus_Small.6"
       }
     }
   },
@@ -237,7 +326,7 @@
         "ObjectName": "SceneComponent'BP_Compsognathus_Small_C:DefaultSceneRoot_GEN_VARIABLE'",
         "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Compsognathus/BP_Compsognathus_Small.12"
       },
-      "VariableGUID": "7C389154-4A509434-9A3BAE8F-584C07F0",
+      "VariableGuid": "7C389154-4A509434-9A3BAE8F-584C07F0",
       "InternalVariableName": "DefaultSceneRoot"
     }
   },

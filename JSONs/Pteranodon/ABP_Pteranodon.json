@@ -2564,8 +2564,222 @@
       "Ledge Dive Elder": {
         "ObjectName": "AnimSequence'A_Pteranodon_Adult_Dive_Ledge_Cut'",
         "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pteranodon/Animations/A_Pteranodon_Adult_Dive_Ledge_Cut.0"
+      },
+      "RandomFlapDuration": 0.01,
+      "RandomFlapRate": 0.0,
+      "Juvenile": {
+        "Standing": {
+          "Uninjured": {
+            "Walk": {
+              "Speed": 40.0,
+              "Length": 2.0
+            },
+            "Trot": {
+              "Speed": 200.0,
+              "Length": 1.066
+            },
+            "Sprint": {
+              "Speed": 880.0,
+              "Length": 0.5333
+            }
+          },
+          "InjuredLeg": {
+            "Sprint": {
+              "Speed": 400.0,
+              "Length": 1.066
+            }
+          },
+          "InjuredLegsAndBody": {
+            "Sprint": {
+              "Speed": 400.0,
+              "Length": 1.066
+            }
+          }
+        },
+        "Crouched": {
+          "Uninjured": {
+            "Walk": {
+              "Speed": 40.0,
+              "Length": 2.0
+            },
+            "Trot": {
+              "Speed": 40.0,
+              "Length": 2.0
+            },
+            "Sprint": {
+              "Speed": 40.0,
+              "Length": 2.0
+            }
+          },
+          "InjuredLeg": {
+            "Walk": {
+              "Speed": 40.0,
+              "Length": 2.0
+            },
+            "Trot": {
+              "Speed": 40.0,
+              "Length": 2.0
+            },
+            "Sprint": {
+              "Speed": 40.0,
+              "Length": 2.0
+            }
+          },
+          "InjuredBody": {
+            "Walk": {
+              "Speed": 40.0,
+              "Length": 2.0
+            },
+            "Trot": {
+              "Speed": 40.0,
+              "Length": 2.0
+            },
+            "Sprint": {
+              "Speed": 40.0,
+              "Length": 2.0
+            }
+          },
+          "InjuredLegsAndBody": {
+            "Walk": {
+              "Speed": 40.0,
+              "Length": 2.0
+            },
+            "Trot": {
+              "Speed": 40.0,
+              "Length": 2.0
+            },
+            "Sprint": {
+              "Speed": 40.0,
+              "Length": 2.0
+            }
+          }
+        }
+      },
+      "Subadult": {
+        "Standing": {
+          "Uninjured": {
+            "Walk": {
+              "Speed": 100.0,
+              "Length": 1.0
+            },
+            "Trot": {
+              "Speed": 200.0,
+              "Length": 1.0
+            },
+            "Sprint": {
+              "Speed": 400.0,
+              "Length": 1.0
+            }
+          }
+        },
+        "Crouched": {
+          "Uninjured": {
+            "Walk": {
+              "Speed": 100.0,
+              "Length": 1.0
+            },
+            "Trot": {
+              "Speed": 100.0,
+              "Length": 1.0
+            },
+            "Sprint": {
+              "Speed": 100.0,
+              "Length": 1.0
+            }
+          },
+          "InjuredLeg": {
+            "Walk": {
+              "Speed": 100.0,
+              "Length": 1.0
+            },
+            "Trot": {
+              "Speed": 100.0,
+              "Length": 1.0
+            },
+            "Sprint": {
+              "Speed": 100.0,
+              "Length": 1.0
+            }
+          },
+          "InjuredBody": {
+            "Walk": {
+              "Speed": 100.0,
+              "Length": 1.0
+            },
+            "Trot": {
+              "Speed": 100.0,
+              "Length": 1.0
+            },
+            "Sprint": {
+              "Speed": 100.0,
+              "Length": 1.0
+            }
+          },
+          "InjuredLegsAndBody": {
+            "Walk": {
+              "Speed": 100.0,
+              "Length": 1.0
+            },
+            "Trot": {
+              "Speed": 100.0,
+              "Length": 1.0
+            },
+            "Sprint": {
+              "Speed": 100.0,
+              "Length": 1.0
+            }
+          }
+        }
+      },
+      "Adult": {
+        "Standing": {
+          "Uninjured": {
+            "Walk": {
+              "Speed": 40.0,
+              "Length": 2.0
+            },
+            "Trot": {
+              "Speed": 200.0,
+              "Length": 1.066
+            },
+            "Sprint": {
+              "Speed": 880.0,
+              "Length": 0.5333
+            }
+          },
+          "InjuredLeg": {
+            "Sprint": {
+              "Speed": 400.0,
+              "Length": 1.066
+            }
+          },
+          "InjuredLegsAndBody": {
+            "Sprint": {
+              "Speed": 400.0,
+              "Length": 1.066
+            }
+          }
+        },
+        "Crouched": {
+          "Uninjured": {
+            "Walk": {
+              "Speed": 40.0,
+              "Length": 2.0
+            },
+            "Trot": {
+              "Speed": 200.0,
+              "Length": 2.0
+            },
+            "Sprint": {
+              "Speed": 880.0,
+              "Length": 2.0
+            }
+          }
+        }
       }
-    }
+    },
+    "SerializedSparseClassDataStruct": "ScriptStruct'/Game/TheIsle/Core/Characters/Dinosaurs/Pteranodon/ABP_Pteranodon.ABP_Pteranodon_C:AnimBlueprintGeneratedConstantData'",
+    "SerializedSparseClassData": {}
   },
   {
     "Type": "AnimBlueprintGeneratedClass",

@@ -1,0 +1,50 @@
+[
+  {
+    "Type": "InputMappingContext",
+    "Name": "IMC_Human",
+    "Class": "UScriptClass'InputMappingContext'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Mappings": [
+        {
+          "Triggers": [],
+          "Modifiers": [
+            {
+              "ObjectName": "InputModifierNegate'IMC_Human:InputModifierNegate_1'",
+              "ObjectPath": "/Game/TheIsle/Core/Characters/Humans/IMC_Human.1"
+            }
+          ],
+          "Action": {
+            "ObjectName": "InputAction'IA_Leaning'",
+            "ObjectPath": "/Game/TheIsle/Core/Characters/Humans/IA_Leaning.0"
+          },
+          "Key": {
+            "KeyName": "Q"
+          },
+          "SettingBehavior": "EPlayerMappableKeySettingBehaviors::InheritSettingsFromAction",
+          "PlayerMappableKeySettings": null
+        },
+        {
+          "Triggers": [],
+          "Modifiers": [],
+          "Action": {
+            "ObjectName": "InputAction'IA_Leaning'",
+            "ObjectPath": "/Game/TheIsle/Core/Characters/Humans/IA_Leaning.0"
+          },
+          "Key": {
+            "KeyName": "E"
+          },
+          "SettingBehavior": "EPlayerMappableKeySettingBehaviors::InheritSettingsFromAction",
+          "PlayerMappableKeySettings": null
+        }
+      ]
+    }
+  },
+  {
+    "Type": "InputModifierNegate",
+    "Name": "InputModifierNegate_1",
+    "Outer": "IMC_Human",
+    "Class": "UScriptClass'InputModifierNegate'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted"
+  }
+]

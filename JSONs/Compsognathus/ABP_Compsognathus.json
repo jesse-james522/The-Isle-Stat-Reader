@@ -1180,10 +1180,63 @@
         "ObjectName": "AnimSequence'A_Compsognathus_Adult_Pinned_Loop'",
         "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Compsognathus/Animations/A_Compsognathus_Adult_Pinned_Loop.0"
       },
-      "LookYaw": 3.7619263E-37,
-      "LookYawInterpSpeed": 6.019817E-36,
-      "RootMotionMode": "ERootMotionMode::NoRootMotionExtraction"
-    }
+      "Juvenile": {
+        "Standing": {
+          "Uninjured": {
+            "Walk": {
+              "Speed": 60.0,
+              "Length": 1.333
+            },
+            "Trot": {
+              "Speed": 400.0,
+              "Length": 0.667
+            },
+            "Sprint": {
+              "Speed": 670.0,
+              "Length": 1.0
+            }
+          }
+        }
+      },
+      "Subadult": {
+        "Standing": {
+          "Uninjured": {
+            "Walk": {
+              "Speed": 60.0,
+              "Length": 1.333
+            },
+            "Trot": {
+              "Speed": 400.0,
+              "Length": 0.667
+            },
+            "Sprint": {
+              "Speed": 670.0,
+              "Length": 1.0
+            }
+          }
+        }
+      },
+      "Adult": {
+        "Standing": {
+          "Uninjured": {
+            "Walk": {
+              "Speed": 60.0,
+              "Length": 1.333
+            },
+            "Trot": {
+              "Speed": 400.0,
+              "Length": 0.667
+            },
+            "Sprint": {
+              "Speed": 670.0,
+              "Length": 1.0
+            }
+          }
+        }
+      }
+    },
+    "SerializedSparseClassDataStruct": "ScriptStruct'/Game/TheIsle/Core/Characters/Dinosaurs/Compsognathus/ABP_Compsognathus.ABP_Compsognathus_C:AnimBlueprintGeneratedConstantData'",
+    "SerializedSparseClassData": {}
   },
   {
     "Type": "AnimBlueprintGeneratedClass",

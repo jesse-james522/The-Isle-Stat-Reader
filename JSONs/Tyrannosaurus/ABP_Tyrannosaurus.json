@@ -2670,10 +2670,111 @@
         "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Tyrannosaurus/Animations/BS_Tyrannosaurus_Adult_Jumping.0"
       },
       "SwimBlendTime": 0.5,
-      "LookYaw": 3.762156E-37,
-      "LookYawInterpSpeed": 6.019817E-36,
-      "RootMotionMode": "ERootMotionMode::NoRootMotionExtraction"
-    }
+      "Juvenile": {
+        "Standing": {
+          "Uninjured": {
+            "Walk": {
+              "Speed": 277.0,
+              "Length": 1.5
+            },
+            "Trot": {
+              "Speed": 1304.0,
+              "Length": 0.766
+            },
+            "Sprint": {
+              "Speed": 3600.0,
+              "Length": 0.5
+            }
+          }
+        },
+        "Crouched": {
+          "Uninjured": {
+            "Walk": {
+              "Speed": 277.0,
+              "Length": 1.5
+            },
+            "Trot": {
+              "Speed": 1304.0,
+              "Length": 1.5
+            },
+            "Sprint": {
+              "Speed": 3600.0,
+              "Length": 1.5
+            }
+          }
+        }
+      },
+      "Subadult": {
+        "Standing": {
+          "Uninjured": {
+            "Walk": {
+              "Speed": 263.0,
+              "Length": 2.166
+            },
+            "Trot": {
+              "Speed": 493.0,
+              "Length": 1.5
+            },
+            "Sprint": {
+              "Speed": 1333.0,
+              "Length": 0.9
+            }
+          }
+        },
+        "Crouched": {
+          "Uninjured": {
+            "Walk": {
+              "Speed": 263.0,
+              "Length": 2.166
+            },
+            "Trot": {
+              "Speed": 493.0,
+              "Length": 2.166
+            },
+            "Sprint": {
+              "Speed": 1333.0,
+              "Length": 2.166
+            }
+          }
+        }
+      },
+      "Adult": {
+        "Standing": {
+          "Uninjured": {
+            "Walk": {
+              "Speed": 240.0,
+              "Length": 2.5
+            },
+            "Trot": {
+              "Speed": 447.0,
+              "Length": 1.83
+            },
+            "Sprint": {
+              "Speed": 1100.0,
+              "Length": 1.06
+            }
+          }
+        },
+        "Crouched": {
+          "Uninjured": {
+            "Walk": {
+              "Speed": 240.0,
+              "Length": 2.5
+            },
+            "Trot": {
+              "Speed": 447.0,
+              "Length": 2.5
+            },
+            "Sprint": {
+              "Speed": 1100.0,
+              "Length": 2.5
+            }
+          }
+        }
+      }
+    },
+    "SerializedSparseClassDataStruct": "ScriptStruct'/Game/TheIsle/Core/Characters/Dinosaurs/Tyrannosaurus/ABP_Tyrannosaurus.ABP_Tyrannosaurus_C:AnimBlueprintGeneratedConstantData'",
+    "SerializedSparseClassData": {}
   },
   {
     "Type": "AnimBlueprintGeneratedClass",

@@ -1,0 +1,44 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GA_Human_Shoot_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'TIGameplayAbilityShoot'",
+      "ObjectPath": "/Script/TheIsle"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GA_Human_Shoot_C'Default__GA_Human_Shoot_C'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Humans/Abilities/GA_Human_Shoot.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "GA_Human_Shoot_C",
+    "Name": "Default__GA_Human_Shoot_C",
+    "Class": "BlueprintGeneratedClass'/Game/TheIsle/Core/Characters/Humans/Abilities/GA_Human_Shoot.GA_Human_Shoot_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BulletsSpread": 0.0,
+      "MinimumRecoil": 3.0,
+      "RandomRecoil": 1.0,
+      "SidewaysRecoil": 2.0,
+      "FireDistance": 10000.0,
+      "bCanFish": false,
+      "bPlayMontage": false,
+      "FractureChance": 0.0,
+      "StaggerWeightLimitMult": 1.0156272E-34,
+      "bRamOnLock": false
+    }
+  }
+]

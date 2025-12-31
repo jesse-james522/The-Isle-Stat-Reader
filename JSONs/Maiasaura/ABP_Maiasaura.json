@@ -2418,11 +2418,136 @@
         "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Maiasaura/Animations/A_Maiasaura_Adult_Injured_LegBody_QuadToBiped.0"
       },
       "CrouchAlphaInterpSpeed": 0.666,
-      "LookYaw": 3.762156E-37,
-      "LookYawInterpSpeed": 6.019817E-36,
-      "RootMotionMode": "ERootMotionMode::NoRootMotionExtraction",
-      "bUseMultiThreadedAnimationUpdate": false
-    }
+      "Juvenile": {
+        "Standing": {
+          "Uninjured": {
+            "Walk": {
+              "Speed": 400.0,
+              "Length": 1.0
+            },
+            "Trot": {
+              "Speed": 500.0,
+              "Length": 0.66
+            },
+            "Sprint": {
+              "Speed": 1305.0,
+              "Length": 0.33
+            }
+          }
+        },
+        "Crouched": {
+          "Uninjured": {
+            "Walk": {
+              "Speed": 400.0,
+              "Length": 1.0
+            },
+            "Trot": {
+              "Speed": 500.0,
+              "Length": 0.66
+            },
+            "Sprint": {
+              "Speed": 978.0,
+              "Length": 0.33
+            }
+          },
+          "InjuredLeg": {
+            "Sprint": {
+              "Speed": 3000.0,
+              "Length": 0.33
+            }
+          },
+          "InjuredLegsAndBody": {
+            "Sprint": {
+              "Speed": 3000.0,
+              "Length": 0.33
+            }
+          }
+        }
+      },
+      "Subadult": {
+        "Standing": {
+          "Uninjured": {
+            "Walk": {
+              "Speed": 100.0,
+              "Length": 1.0
+            },
+            "Trot": {
+              "Speed": 200.0,
+              "Length": 1.0
+            },
+            "Sprint": {
+              "Speed": 400.0,
+              "Length": 1.0
+            }
+          }
+        },
+        "Crouched": {
+          "Uninjured": {
+            "Walk": {
+              "Speed": 100.0,
+              "Length": 1.0
+            },
+            "Trot": {
+              "Speed": 100.0,
+              "Length": 1.0
+            },
+            "Sprint": {
+              "Speed": 100.0,
+              "Length": 1.0
+            }
+          }
+        }
+      },
+      "Adult": {
+        "Standing": {
+          "Uninjured": {
+            "Walk": {
+              "Speed": 183.0,
+              "Length": 1.3666
+            },
+            "Trot": {
+              "Speed": 500.0,
+              "Length": 1.0
+            },
+            "Sprint": {
+              "Speed": 1305.0,
+              "Length": 0.7666
+            }
+          }
+        },
+        "Crouched": {
+          "Uninjured": {
+            "Walk": {
+              "Speed": 183.0,
+              "Length": 1.366
+            },
+            "Trot": {
+              "Speed": 500.0,
+              "Length": 1.0
+            },
+            "Sprint": {
+              "Speed": 978.0,
+              "Length": 0.7666
+            }
+          },
+          "InjuredLeg": {
+            "Sprint": {
+              "Speed": 1000.0,
+              "Length": 0.5
+            }
+          },
+          "InjuredLegsAndBody": {
+            "Sprint": {
+              "Speed": 1000.0,
+              "Length": 0.5
+            }
+          }
+        }
+      },
+      "SpeedDeltaAnimationWeight": 0.0
+    },
+    "SerializedSparseClassDataStruct": "ScriptStruct'/Game/TheIsle/Core/Characters/Dinosaurs/Maiasaura/ABP_Maiasaura.ABP_Maiasaura_C:AnimBlueprintGeneratedConstantData'",
+    "SerializedSparseClassData": {}
   },
   {
     "Type": "AnimBlueprintGeneratedClass",

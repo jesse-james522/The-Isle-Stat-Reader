@@ -1,0 +1,923 @@
+[
+  {
+    "Type": "TIDinosaurMontages",
+    "Name": "DA_HumansMontagesNEW",
+    "Class": "UScriptClass'TIDinosaurMontages'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Vocals": {
+        "Generic": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Vocal_Generic'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Vocal_Generic.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Vocal_Generic'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Vocal_Generic.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Vocal_Generic'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Vocal_Generic.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Vocal_Generic'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Vocal_Generic.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Vocal_Generic'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Vocal_Generic.0"
+          }
+        },
+        "Broadcast": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Vocal_Broadcast'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Vocal_Broadcast.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Vocal_Broadcast'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Vocal_Broadcast.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Vocal_Broadcast'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Vocal_Broadcast.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Vocal_Broadcast'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Vocal_Broadcast.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Vocal_Broadcast'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Vocal_Broadcast.0"
+          }
+        },
+        "Attract": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Vocal_Attract'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Vocal_Attract.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Vocal_Attract'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Vocal_Attract.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Vocal_Attract'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Vocal_Attract.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Vocal_Attract'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Vocal_Attract.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Vocal_Attract'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Vocal_Attract.0"
+          }
+        },
+        "Threaten": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Vocal_Threaten'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Vocal_Threaten.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Vocal_Threaten'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Vocal_Threaten.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Vocal_Threaten'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Vocal_Threaten.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Vocal_Threaten'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Vocal_Threaten.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Vocal_Threaten'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Vocal_Threaten.0"
+          }
+        },
+        "Danger": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Vocal_Danger'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Vocal_Danger.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Vocal_Danger'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Vocal_Danger.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Vocal_Danger'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Vocal_Danger.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Vocal_Danger'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Vocal_Danger.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Vocal_Danger'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Vocal_Danger.0"
+          }
+        }
+      },
+      "Eat": {
+        "EatInLow": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'RTG_AM_Loot_FloorPickUp_Kneel_RightHand_Inspect_Enter'",
+            "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/RTG_AM_Loot_FloorPickUp_Kneel_RightHand_Inspect_Enter.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'RTG_AM_Loot_FloorPickUp_Kneel_RightHand_Inspect_Enter'",
+            "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/RTG_AM_Loot_FloorPickUp_Kneel_RightHand_Inspect_Enter.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'RTG_AM_Loot_FloorPickUp_Kneel_RightHand_Inspect_Enter'",
+            "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/RTG_AM_Loot_FloorPickUp_Kneel_RightHand_Inspect_Enter.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'RTG_AM_Loot_FloorPickUp_Kneel_RightHand_Inspect_Enter'",
+            "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/RTG_AM_Loot_FloorPickUp_Kneel_RightHand_Inspect_Enter.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'RTG_AM_Loot_FloorPickUp_Kneel_RightHand_Inspect_Enter'",
+            "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/RTG_AM_Loot_FloorPickUp_Kneel_RightHand_Inspect_Enter.0"
+          }
+        },
+        "EatEndLow": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'RTG_AM_Loot_FloorPickUp_Kneel_RightHand_Inspect_Exit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/RTG_AM_Loot_FloorPickUp_Kneel_RightHand_Inspect_Exit.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'RTG_AM_Loot_FloorPickUp_Kneel_RightHand_Inspect_Exit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/RTG_AM_Loot_FloorPickUp_Kneel_RightHand_Inspect_Exit.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'RTG_AM_Loot_FloorPickUp_Kneel_RightHand_Inspect_Exit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/RTG_AM_Loot_FloorPickUp_Kneel_RightHand_Inspect_Exit.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'RTG_AM_Loot_FloorPickUp_Kneel_RightHand_Inspect_Exit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/RTG_AM_Loot_FloorPickUp_Kneel_RightHand_Inspect_Exit.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'RTG_AM_Loot_FloorPickUp_Kneel_RightHand_Inspect_Exit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/RTG_AM_Loot_FloorPickUp_Kneel_RightHand_Inspect_Exit.0"
+          }
+        },
+        "EatIn": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'RTG_AM_Loot_FloorPickUp_Kneel_RightHand_Inspect_Enter'",
+            "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/RTG_AM_Loot_FloorPickUp_Kneel_RightHand_Inspect_Enter.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'RTG_AM_Loot_FloorPickUp_Kneel_RightHand_Inspect_Enter'",
+            "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/RTG_AM_Loot_FloorPickUp_Kneel_RightHand_Inspect_Enter.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'RTG_AM_Loot_FloorPickUp_Kneel_RightHand_Inspect_Enter'",
+            "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/RTG_AM_Loot_FloorPickUp_Kneel_RightHand_Inspect_Enter.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'RTG_AM_Loot_FloorPickUp_Kneel_RightHand_Inspect_Enter'",
+            "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/RTG_AM_Loot_FloorPickUp_Kneel_RightHand_Inspect_Enter.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'RTG_AM_Loot_FloorPickUp_Kneel_RightHand_Inspect_Enter'",
+            "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/RTG_AM_Loot_FloorPickUp_Kneel_RightHand_Inspect_Enter.0"
+          }
+        },
+        "EatEnd": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'RTG_AM_Loot_FloorPickUp_Kneel_RightHand_Inspect_Exit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/RTG_AM_Loot_FloorPickUp_Kneel_RightHand_Inspect_Exit.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'RTG_AM_Loot_FloorPickUp_Kneel_RightHand_Inspect_Exit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/RTG_AM_Loot_FloorPickUp_Kneel_RightHand_Inspect_Exit.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'RTG_AM_Loot_FloorPickUp_Kneel_RightHand_Inspect_Exit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/RTG_AM_Loot_FloorPickUp_Kneel_RightHand_Inspect_Exit.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'RTG_AM_Loot_FloorPickUp_Kneel_RightHand_Inspect_Exit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/RTG_AM_Loot_FloorPickUp_Kneel_RightHand_Inspect_Exit.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'RTG_AM_Loot_FloorPickUp_Kneel_RightHand_Inspect_Exit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/RTG_AM_Loot_FloorPickUp_Kneel_RightHand_Inspect_Exit.0"
+          }
+        },
+        "EatInHigh": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'RTG_AM_Loot_FloorPickUp_Kneel_RightHand_Inspect_Enter'",
+            "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/RTG_AM_Loot_FloorPickUp_Kneel_RightHand_Inspect_Enter.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'RTG_AM_Loot_FloorPickUp_Kneel_RightHand_Inspect_Enter'",
+            "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/RTG_AM_Loot_FloorPickUp_Kneel_RightHand_Inspect_Enter.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'RTG_AM_Loot_FloorPickUp_Kneel_RightHand_Inspect_Enter'",
+            "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/RTG_AM_Loot_FloorPickUp_Kneel_RightHand_Inspect_Enter.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'RTG_AM_Loot_FloorPickUp_Kneel_RightHand_Inspect_Enter'",
+            "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/RTG_AM_Loot_FloorPickUp_Kneel_RightHand_Inspect_Enter.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'RTG_AM_Loot_FloorPickUp_Kneel_RightHand_Inspect_Enter'",
+            "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/RTG_AM_Loot_FloorPickUp_Kneel_RightHand_Inspect_Enter.0"
+          }
+        },
+        "EatEndHigh": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'RTG_AM_Loot_FloorPickUp_Kneel_RightHand_Inspect_Exit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/RTG_AM_Loot_FloorPickUp_Kneel_RightHand_Inspect_Exit.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'RTG_AM_Loot_FloorPickUp_Kneel_RightHand_Inspect_Exit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/RTG_AM_Loot_FloorPickUp_Kneel_RightHand_Inspect_Exit.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'RTG_AM_Loot_FloorPickUp_Kneel_RightHand_Inspect_Exit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/RTG_AM_Loot_FloorPickUp_Kneel_RightHand_Inspect_Exit.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'RTG_AM_Loot_FloorPickUp_Kneel_RightHand_Inspect_Exit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/RTG_AM_Loot_FloorPickUp_Kneel_RightHand_Inspect_Exit.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'RTG_AM_Loot_FloorPickUp_Kneel_RightHand_Inspect_Exit'",
+            "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/RTG_AM_Loot_FloorPickUp_Kneel_RightHand_Inspect_Exit.0"
+          }
+        },
+        "Swallow": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Stand_DrinkWater'",
+            "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/Ti_Manny/AM_Stand_DrinkWater.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Stand_DrinkWater'",
+            "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/Ti_Manny/AM_Stand_DrinkWater.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Stand_DrinkWater'",
+            "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/Ti_Manny/AM_Stand_DrinkWater.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Stand_DrinkWater'",
+            "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/Ti_Manny/AM_Stand_DrinkWater.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Stand_DrinkWater'",
+            "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/Ti_Manny/AM_Stand_DrinkWater.0"
+          }
+        },
+        "Vomit": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'UE4M_HitReaction_Back_02_Montage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/Ti_Manny/UE4M_HitReaction_Back_02_Montage.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'UE4M_HitReaction_Back_02_Montage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/Ti_Manny/UE4M_HitReaction_Back_02_Montage.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'UE4M_HitReaction_Back_02_Montage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/Ti_Manny/UE4M_HitReaction_Back_02_Montage.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'UE4M_HitReaction_Back_02_Montage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/Ti_Manny/UE4M_HitReaction_Back_02_Montage.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'UE4M_HitReaction_Back_02_Montage'",
+            "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/Ti_Manny/UE4M_HitReaction_Back_02_Montage.0"
+          }
+        }
+      },
+      "Drink": {
+        "Hatchling": {
+          "ObjectName": "AnimMontage'RTG_AM_AnimationSequence_Survival_Drinking_GroundWaterWithHand'",
+          "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/RTG_AM_AnimationSequence_Survival_Drinking_GroundWaterWithHand.0"
+        },
+        "Juvenile": {
+          "ObjectName": "AnimMontage'RTG_AM_AnimationSequence_Survival_Drinking_GroundWaterWithHand'",
+          "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/RTG_AM_AnimationSequence_Survival_Drinking_GroundWaterWithHand.0"
+        },
+        "Subadult": {
+          "ObjectName": "AnimMontage'RTG_AM_AnimationSequence_Survival_Drinking_GroundWaterWithHand'",
+          "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/RTG_AM_AnimationSequence_Survival_Drinking_GroundWaterWithHand.0"
+        },
+        "Adult": {
+          "ObjectName": "AnimMontage'RTG_AM_AnimationSequence_Survival_Drinking_GroundWaterWithHand'",
+          "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/RTG_AM_AnimationSequence_Survival_Drinking_GroundWaterWithHand.0"
+        },
+        "Elder": {
+          "ObjectName": "AnimMontage'RTG_AM_AnimationSequence_Survival_Drinking_GroundWaterWithHand'",
+          "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/RTG_AM_AnimationSequence_Survival_Drinking_GroundWaterWithHand.0"
+        }
+      },
+      "Rest": {
+        "StandToSit": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_RTG_A_Human_Drink_Ground_In'",
+            "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/AM_RTG_A_Human_Drink_Ground_In.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_RTG_A_Human_Drink_Ground_In'",
+            "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/AM_RTG_A_Human_Drink_Ground_In.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_RTG_A_Human_Drink_Ground_In'",
+            "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/AM_RTG_A_Human_Drink_Ground_In.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_RTG_A_Human_Drink_Ground_In'",
+            "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/AM_RTG_A_Human_Drink_Ground_In.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_RTG_A_Human_Drink_Ground_In'",
+            "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/AM_RTG_A_Human_Drink_Ground_In.0"
+          }
+        },
+        "SitToStand": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_RTG_A_Human_Drink_Ground_Out'",
+            "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/AM_RTG_A_Human_Drink_Ground_Out.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_RTG_A_Human_Drink_Ground_Out'",
+            "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/AM_RTG_A_Human_Drink_Ground_Out.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_RTG_A_Human_Drink_Ground_Out'",
+            "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/AM_RTG_A_Human_Drink_Ground_Out.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_RTG_A_Human_Drink_Ground_Out'",
+            "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/AM_RTG_A_Human_Drink_Ground_Out.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_RTG_A_Human_Drink_Ground_Out'",
+            "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/AM_RTG_A_Human_Drink_Ground_Out.0"
+          }
+        },
+        "SitToStandFast": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_RTG_A_Human_Drink_Ground_Out'",
+            "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/AM_RTG_A_Human_Drink_Ground_Out.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_RTG_A_Human_Drink_Ground_Out'",
+            "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/AM_RTG_A_Human_Drink_Ground_Out.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_RTG_A_Human_Drink_Ground_Out'",
+            "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/AM_RTG_A_Human_Drink_Ground_Out.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_RTG_A_Human_Drink_Ground_Out'",
+            "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/AM_RTG_A_Human_Drink_Ground_Out.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_RTG_A_Human_Drink_Ground_Out'",
+            "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/AM_RTG_A_Human_Drink_Ground_Out.0"
+          }
+        },
+        "SitToSleep": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_RTG_Crouch_Idle'",
+            "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/Ti_Manny/AM_RTG_Crouch_Idle.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_RTG_Crouch_Idle'",
+            "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/Ti_Manny/AM_RTG_Crouch_Idle.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_RTG_Crouch_Idle'",
+            "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/Ti_Manny/AM_RTG_Crouch_Idle.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_RTG_Crouch_Idle'",
+            "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/Ti_Manny/AM_RTG_Crouch_Idle.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_RTG_Crouch_Idle'",
+            "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/Ti_Manny/AM_RTG_Crouch_Idle.0"
+          }
+        },
+        "SleepToSit": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_RTG_Crouch_Idle'",
+            "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/Ti_Manny/AM_RTG_Crouch_Idle.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_RTG_Crouch_Idle'",
+            "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/Ti_Manny/AM_RTG_Crouch_Idle.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_RTG_Crouch_Idle'",
+            "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/Ti_Manny/AM_RTG_Crouch_Idle.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_RTG_Crouch_Idle'",
+            "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/Ti_Manny/AM_RTG_Crouch_Idle.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_RTG_Crouch_Idle'",
+            "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/Ti_Manny/AM_RTG_Crouch_Idle.0"
+          }
+        }
+      },
+      "PickupL": {
+        "Hatchling": {
+          "ObjectName": "AnimMontage'RTG_AM_Loot_FloorPickUp_BendOver_RightHand'",
+          "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/RTG_AM_Loot_FloorPickUp_BendOver_RightHand.0"
+        },
+        "Juvenile": {
+          "ObjectName": "AnimMontage'RTG_AM_Loot_FloorPickUp_BendOver_RightHand'",
+          "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/RTG_AM_Loot_FloorPickUp_BendOver_RightHand.0"
+        },
+        "Subadult": {
+          "ObjectName": "AnimMontage'RTG_AM_Loot_FloorPickUp_BendOver_RightHand'",
+          "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/RTG_AM_Loot_FloorPickUp_BendOver_RightHand.0"
+        },
+        "Adult": {
+          "ObjectName": "AnimMontage'RTG_AM_Loot_FloorPickUp_BendOver_RightHand'",
+          "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/RTG_AM_Loot_FloorPickUp_BendOver_RightHand.0"
+        },
+        "Elder": {
+          "ObjectName": "AnimMontage'RTG_AM_Loot_FloorPickUp_BendOver_RightHand'",
+          "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/RTG_AM_Loot_FloorPickUp_BendOver_RightHand.0"
+        }
+      },
+      "PickupR": {
+        "Hatchling": {
+          "ObjectName": "AnimMontage'RTG_AM_Loot_FloorPickUp_BendOver_RightHand'",
+          "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/RTG_AM_Loot_FloorPickUp_BendOver_RightHand.0"
+        },
+        "Juvenile": {
+          "ObjectName": "AnimMontage'RTG_AM_Loot_FloorPickUp_BendOver_RightHand'",
+          "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/RTG_AM_Loot_FloorPickUp_BendOver_RightHand.0"
+        },
+        "Subadult": {
+          "ObjectName": "AnimMontage'RTG_AM_Loot_FloorPickUp_BendOver_RightHand'",
+          "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/RTG_AM_Loot_FloorPickUp_BendOver_RightHand.0"
+        },
+        "Adult": {
+          "ObjectName": "AnimMontage'RTG_AM_Loot_FloorPickUp_BendOver_RightHand'",
+          "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/RTG_AM_Loot_FloorPickUp_BendOver_RightHand.0"
+        },
+        "Elder": {
+          "ObjectName": "AnimMontage'RTG_AM_Loot_FloorPickUp_BendOver_RightHand'",
+          "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/RTG_AM_Loot_FloorPickUp_BendOver_RightHand.0"
+        }
+      },
+      "Bite": {
+        "Hatchling": {
+          "ObjectName": "AnimMontage'RTG_AM_PunchHead_R_IP'",
+          "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/RTG_AM_PunchHead_R_IP.0"
+        },
+        "Juvenile": {
+          "ObjectName": "AnimMontage'RTG_AM_PunchHead_R_IP'",
+          "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/RTG_AM_PunchHead_R_IP.0"
+        },
+        "Subadult": {
+          "ObjectName": "AnimMontage'RTG_AM_PunchHead_R_IP'",
+          "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/RTG_AM_PunchHead_R_IP.0"
+        },
+        "Adult": {
+          "ObjectName": "AnimMontage'RTG_AM_PunchHead_R_IP'",
+          "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/RTG_AM_PunchHead_R_IP.0"
+        },
+        "Elder": {
+          "ObjectName": "AnimMontage'RTG_AM_PunchHead_R_IP'",
+          "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/RTG_AM_PunchHead_R_IP.0"
+        }
+      },
+      "Hit": {
+        "Light": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_HitBody_L_IP'",
+            "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/Ti_Manny/AM_HitBody_L_IP.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_HitBody_L_IP'",
+            "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/Ti_Manny/AM_HitBody_L_IP.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_HitBody_L_IP'",
+            "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/Ti_Manny/AM_HitBody_L_IP.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_HitBody_L_IP'",
+            "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/Ti_Manny/AM_HitBody_L_IP.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_HitBody_L_IP'",
+            "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/Ti_Manny/AM_HitBody_L_IP.0"
+          }
+        },
+        "Heavy": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_HitBody_F_IP'",
+            "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/Ti_Manny/AM_HitBody_F_IP.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_HitBody_F_IP'",
+            "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/Ti_Manny/AM_HitBody_F_IP.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_HitBody_F_IP'",
+            "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/Ti_Manny/AM_HitBody_F_IP.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_HitBody_F_IP'",
+            "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/Ti_Manny/AM_HitBody_F_IP.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_HitBody_F_IP'",
+            "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/Ti_Manny/AM_HitBody_F_IP.0"
+          }
+        },
+        "StaggerF": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_HitBody_F_IP'",
+            "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/Ti_Manny/AM_HitBody_F_IP.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_HitBody_F_IP'",
+            "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/Ti_Manny/AM_HitBody_F_IP.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_HitBody_F_IP'",
+            "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/Ti_Manny/AM_HitBody_F_IP.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_HitBody_F_IP'",
+            "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/Ti_Manny/AM_HitBody_F_IP.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_HitBody_F_IP'",
+            "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/Ti_Manny/AM_HitBody_F_IP.0"
+          }
+        },
+        "StaggerB": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_HitBody_F_IP'",
+            "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/Ti_Manny/AM_HitBody_F_IP.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_HitBody_F_IP'",
+            "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/Ti_Manny/AM_HitBody_F_IP.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_HitBody_F_IP'",
+            "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/Ti_Manny/AM_HitBody_F_IP.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_HitBody_F_IP'",
+            "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/Ti_Manny/AM_HitBody_F_IP.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_HitBody_F_IP'",
+            "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/Ti_Manny/AM_HitBody_F_IP.0"
+          }
+        },
+        "StaggerR": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_HitBody_F_IP'",
+            "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/Ti_Manny/AM_HitBody_F_IP.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_HitBody_F_IP'",
+            "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/Ti_Manny/AM_HitBody_F_IP.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_HitBody_F_IP'",
+            "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/Ti_Manny/AM_HitBody_F_IP.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_HitBody_F_IP'",
+            "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/Ti_Manny/AM_HitBody_F_IP.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_HitBody_F_IP'",
+            "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/Ti_Manny/AM_HitBody_F_IP.0"
+          }
+        },
+        "StaggerL": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_HitBody_F_IP'",
+            "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/Ti_Manny/AM_HitBody_F_IP.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_HitBody_F_IP'",
+            "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/Ti_Manny/AM_HitBody_F_IP.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_HitBody_F_IP'",
+            "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/Ti_Manny/AM_HitBody_F_IP.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_HitBody_F_IP'",
+            "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/Ti_Manny/AM_HitBody_F_IP.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_HitBody_F_IP'",
+            "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/Ti_Manny/AM_HitBody_F_IP.0"
+          }
+        }
+      },
+      "Interact": {
+        "Wallow": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Wallow'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Wallow.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Wallow'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Wallow.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Wallow'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Wallow.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Wallow'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Wallow.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Wallow'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Wallow.0"
+          }
+        },
+        "WallowRecover": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Wallow_Recover'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Wallow_Recover.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Wallow_Recover'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Wallow_Recover.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Wallow_Recover'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Wallow_Recover.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Wallow_Recover'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Wallow_Recover.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Pachycephalosaurus_Adult_Wallow_Recover'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/AM_Pachycephalosaurus_Adult_Wallow_Recover.0"
+          }
+        },
+        "Salt": {
+          "Hatchling": {
+            "ObjectName": "AnimMontage'AM_Omniraptor_Adult_Salt'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Omniraptor/Animations/AM_Omniraptor_Adult_Salt.0"
+          },
+          "Juvenile": {
+            "ObjectName": "AnimMontage'AM_Omniraptor_Adult_Salt'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Omniraptor/Animations/AM_Omniraptor_Adult_Salt.0"
+          },
+          "Subadult": {
+            "ObjectName": "AnimMontage'AM_Omniraptor_Adult_Salt'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Omniraptor/Animations/AM_Omniraptor_Adult_Salt.0"
+          },
+          "Adult": {
+            "ObjectName": "AnimMontage'AM_Omniraptor_Adult_Salt'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Omniraptor/Animations/AM_Omniraptor_Adult_Salt.0"
+          },
+          "Elder": {
+            "ObjectName": "AnimMontage'AM_Omniraptor_Adult_Salt'",
+            "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Omniraptor/Animations/AM_Omniraptor_Adult_Salt.0"
+          }
+        }
+      },
+      "Blinded": {
+        "Hatchling": {
+          "ObjectName": "AnimMontage'RTG_AM_Standing_Idle_PoisonedKnockOutShort'",
+          "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/RTG_AM_Standing_Idle_PoisonedKnockOutShort.0"
+        },
+        "Juvenile": {
+          "ObjectName": "AnimMontage'RTG_AM_Standing_Idle_PoisonedKnockOutShort'",
+          "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/RTG_AM_Standing_Idle_PoisonedKnockOutShort.0"
+        },
+        "Subadult": {
+          "ObjectName": "AnimMontage'RTG_AM_Standing_Idle_PoisonedKnockOutShort'",
+          "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/RTG_AM_Standing_Idle_PoisonedKnockOutShort.0"
+        },
+        "Adult": {
+          "ObjectName": "AnimMontage'RTG_AM_Standing_Idle_PoisonedKnockOutShort'",
+          "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/RTG_AM_Standing_Idle_PoisonedKnockOutShort.0"
+        },
+        "Elder": {
+          "ObjectName": "AnimMontage'RTG_AM_Standing_Idle_PoisonedKnockOutShort'",
+          "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/RTG_AM_Standing_Idle_PoisonedKnockOutShort.0"
+        }
+      },
+      "PouncedStruggle": {
+        "Hatchling": {
+          "ObjectName": "AnimMontage'AM_HitBody_L_IP'",
+          "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/Ti_Manny/AM_HitBody_L_IP.0"
+        },
+        "Juvenile": {
+          "ObjectName": "AnimMontage'AM_HitBody_L_IP'",
+          "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/Ti_Manny/AM_HitBody_L_IP.0"
+        },
+        "Subadult": {
+          "ObjectName": "AnimMontage'AM_HitBody_L_IP'",
+          "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/Ti_Manny/AM_HitBody_L_IP.0"
+        },
+        "Adult": {
+          "ObjectName": "AnimMontage'AM_HitBody_L_IP'",
+          "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/Ti_Manny/AM_HitBody_L_IP.0"
+        },
+        "Elder": {
+          "ObjectName": "AnimMontage'AM_HitBody_L_IP'",
+          "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/Ti_Manny/AM_HitBody_L_IP.0"
+        }
+      },
+      "Unique": [
+        {
+          "Key": "AdultPouncedRight",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_HitBody_L_IP'",
+              "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/Ti_Manny/AM_HitBody_L_IP.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_HitBody_L_IP'",
+              "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/Ti_Manny/AM_HitBody_L_IP.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_HitBody_L_IP'",
+              "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/Ti_Manny/AM_HitBody_L_IP.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_HitBody_L_IP'",
+              "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/Ti_Manny/AM_HitBody_L_IP.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_HitBody_L_IP'",
+              "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/Ti_Manny/AM_HitBody_L_IP.0"
+            }
+          }
+        },
+        {
+          "Key": "AdultPouncedLeft",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_HitBody_L_IP'",
+              "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/Ti_Manny/AM_HitBody_L_IP.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_HitBody_L_IP'",
+              "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/Ti_Manny/AM_HitBody_L_IP.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_HitBody_L_IP'",
+              "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/Ti_Manny/AM_HitBody_L_IP.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_HitBody_L_IP'",
+              "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/Ti_Manny/AM_HitBody_L_IP.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_HitBody_L_IP'",
+              "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/Ti_Manny/AM_HitBody_L_IP.0"
+            }
+          }
+        },
+        {
+          "Key": "AdultPouncedFront",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_HitBody_L_IP'",
+              "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/Ti_Manny/AM_HitBody_L_IP.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_HitBody_L_IP'",
+              "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/Ti_Manny/AM_HitBody_L_IP.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_HitBody_L_IP'",
+              "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/Ti_Manny/AM_HitBody_L_IP.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_HitBody_L_IP'",
+              "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/Ti_Manny/AM_HitBody_L_IP.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_HitBody_L_IP'",
+              "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/Ti_Manny/AM_HitBody_L_IP.0"
+            }
+          }
+        },
+        {
+          "Key": "AdultPouncedBack",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_HitBody_L_IP'",
+              "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/Ti_Manny/AM_HitBody_L_IP.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_HitBody_L_IP'",
+              "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/Ti_Manny/AM_HitBody_L_IP.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_HitBody_L_IP'",
+              "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/Ti_Manny/AM_HitBody_L_IP.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_HitBody_L_IP'",
+              "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/Ti_Manny/AM_HitBody_L_IP.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_HitBody_L_IP'",
+              "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/Ti_Manny/AM_HitBody_L_IP.0"
+            }
+          }
+        },
+        {
+          "Key": "GrabM",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Loot_TableTop_RightHand_Inspect_Enter'",
+              "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/Ti_Manny/AM_Loot_TableTop_RightHand_Inspect_Enter.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Loot_TableTop_RightHand_Inspect_Enter'",
+              "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/Ti_Manny/AM_Loot_TableTop_RightHand_Inspect_Enter.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Loot_TableTop_RightHand_Inspect_Enter'",
+              "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/Ti_Manny/AM_Loot_TableTop_RightHand_Inspect_Enter.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Loot_TableTop_RightHand_Inspect_Enter'",
+              "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/Ti_Manny/AM_Loot_TableTop_RightHand_Inspect_Enter.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Loot_TableTop_RightHand_Inspect_Enter'",
+              "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/Ti_Manny/AM_Loot_TableTop_RightHand_Inspect_Enter.0"
+            }
+          }
+        },
+        {
+          "Key": "GrabH",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_Loot_TableTop_RightHand_Inspect_Enter'",
+              "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/Ti_Manny/AM_Loot_TableTop_RightHand_Inspect_Enter.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_Loot_TableTop_RightHand_Inspect_Enter'",
+              "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/Ti_Manny/AM_Loot_TableTop_RightHand_Inspect_Enter.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_Loot_TableTop_RightHand_Inspect_Enter'",
+              "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/Ti_Manny/AM_Loot_TableTop_RightHand_Inspect_Enter.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_Loot_TableTop_RightHand_Inspect_Enter'",
+              "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/Ti_Manny/AM_Loot_TableTop_RightHand_Inspect_Enter.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_Loot_TableTop_RightHand_Inspect_Enter'",
+              "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/Ti_Manny/AM_Loot_TableTop_RightHand_Inspect_Enter.0"
+            }
+          }
+        },
+        {
+          "Key": "HeadButtStart",
+          "Value": {
+            "Hatchling": {
+              "ObjectName": "AnimMontage'AM_SideKick_Havy'",
+              "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/Ti_Manny/AM_SideKick_Havy.0"
+            },
+            "Juvenile": {
+              "ObjectName": "AnimMontage'AM_SideKick_Havy'",
+              "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/Ti_Manny/AM_SideKick_Havy.0"
+            },
+            "Subadult": {
+              "ObjectName": "AnimMontage'AM_SideKick_Havy'",
+              "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/Ti_Manny/AM_SideKick_Havy.0"
+            },
+            "Adult": {
+              "ObjectName": "AnimMontage'AM_SideKick_Havy'",
+              "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/Ti_Manny/AM_SideKick_Havy.0"
+            },
+            "Elder": {
+              "ObjectName": "AnimMontage'AM_SideKick_Havy'",
+              "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/Ti_Manny/AM_SideKick_Havy.0"
+            }
+          }
+        }
+      ]
+    }
+  }
+]

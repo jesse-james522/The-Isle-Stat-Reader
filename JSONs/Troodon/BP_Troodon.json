@@ -305,6 +305,129 @@
       "AbilitySystemComponent": {
         "ObjectName": "TIAbilitySystemComponent'Default__BP_Troodon_C:AbilitySystemComponent'",
         "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Troodon/BP_Troodon.29"
+      },
+      "DragLocation": {
+        "ObjectName": "SceneComponent'Default__BP_Troodon_C:Draglocation'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Troodon/BP_Troodon.17"
+      },
+      "ThroatMesh": {
+        "ObjectName": "StaticMeshComponent'Default__BP_Troodon_C:ThroatMesh'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Troodon/BP_Troodon.28"
+      },
+      "SkeletonMesh": {
+        "ObjectName": "SkeletalMeshComponentBudgeted'Default__BP_Troodon_C:SkeletonMesh'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Troodon/BP_Troodon.23"
+      },
+      "RibsMeatMesh": {
+        "ObjectName": "SkeletalMeshComponentBudgeted'Default__BP_Troodon_C:RibsMeatMesh'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Troodon/BP_Troodon.22"
+      },
+      "ThroatSpline": {
+        "ObjectName": "SplineComponent'Default__BP_Troodon_C:ThroatSpline'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Troodon/BP_Troodon.25"
+      },
+      "InteractableDetector": {
+        "ObjectName": "BoxComponent'Default__BP_Troodon_C:InteractableDetector'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Troodon/BP_Troodon.2"
+      },
+      "CorpseDisableDetector": {
+        "ObjectName": "SphereComponent'Default__BP_Troodon_C:CorpseDisableDetector'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Troodon/BP_Troodon.24"
+      },
+      "PouncebleArea": {
+        "ObjectName": "BoxComponent'Default__BP_Troodon_C:PouncebleArea'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Troodon/BP_Troodon.3"
+      },
+      "NameWidget": {
+        "ObjectName": "WidgetComponent'Default__BP_Troodon_C:NameWidget'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Troodon/BP_Troodon.34"
+      },
+      "BuoyancyPlane": {
+        "ObjectName": "StaticMeshComponent'Default__BP_Troodon_C:BuoyancyPlane'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Troodon/BP_Troodon.27"
+      },
+      "FootstepsComponent": {
+        "ObjectName": "TIFootstepsComponent'Default__BP_Troodon_C:FootstepsComponent'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Troodon/BP_Troodon.33"
+      },
+      "PhysicsHandleComponent": {
+        "ObjectName": "PhysicsHandleComponent'Default__BP_Troodon_C:PhysicsHandle'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Troodon/BP_Troodon.15"
+      },
+      "AttributeSet": null,
+      "SpecialIdleMontages": [
+        {
+          "ObjectName": "AnimMontage'AM_Troodon_Adult_Idle_Alt'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Idle_Alt.0"
+        },
+        {
+          "ObjectName": "AnimMontage'AM_Troodon_Adult_Idle_ORIGINAL'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/AM_Troodon_Adult_Idle_ORIGINAL.0"
+        }
+      ],
+      "CharacterMovementComponent": {
+        "ObjectName": "TIDinosaurMovementComponent'Default__BP_Troodon_C:CharMoveComp'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Troodon/BP_Troodon.32"
+      },
+      "MainCamera": {
+        "ObjectName": "CameraComponent'Default__BP_Troodon_C:Main Camera'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Troodon/BP_Troodon.6"
+      },
+      "SpringArm": {
+        "ObjectName": "SpringArmComponent'Default__BP_Troodon_C:Spring Arm'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Troodon/BP_Troodon.26"
+      },
+      "PhysicalAnimation": {
+        "ObjectName": "PhysicalAnimationComponent'Default__BP_Troodon_C:PhysicalAnim'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Troodon/BP_Troodon.13"
+      },
+      "PhysCons": {
+        "ObjectName": "PhysicsConstraintComponent'Default__BP_Troodon_C:PhysicsConstraints'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Troodon/BP_Troodon.14"
+      },
+      "HeartbeatAudio": {
+        "ObjectName": "AudioComponent'Default__BP_Troodon_C:HeartbeatAudio'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Troodon/BP_Troodon.0"
+      },
+      "NavigationInvoker": {
+        "ObjectName": "NavigationInvokerComponent'Default__BP_Troodon_C:Navigation Invoker'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Troodon/BP_Troodon.11"
+      },
+      "AutosaveRate": 80.67507,
+      "FoliageBonesColliders": [
+        "DinoPelvis",
+        "DinoSpine02",
+        "DinoSpine03",
+        "DinoSpine04",
+        "DinoSpine05",
+        "DinoHead",
+        "DinoHyoid",
+        "DinoLeftHand",
+        "DinoRightHand",
+        "DinoLeftCalf",
+        "DinoRightCalf",
+        "DinoRightFoot",
+        "DinoLeftFoot",
+        "DinoTail04",
+        "DinoTail03",
+        "DinoTail02",
+        "DinoTail01"
+      ],
+      "Mesh": {
+        "ObjectName": "SkeletalMeshComponentBudgeted'Default__BP_Troodon_C:CharacterMesh0'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Troodon/BP_Troodon.21"
+      },
+      "CharacterMovement": {
+        "ObjectName": "TIDinosaurMovementComponent'Default__BP_Troodon_C:CharMoveComp'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Troodon/BP_Troodon.32"
+      },
+      "CapsuleComponent": {
+        "ObjectName": "CapsuleComponent'Default__BP_Troodon_C:CollisionCylinder'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Troodon/BP_Troodon.7"
+      },
+      "RootComponent": {
+        "ObjectName": "CapsuleComponent'Default__BP_Troodon_C:CollisionCylinder'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Troodon/BP_Troodon.7"
       }
     }
   },
@@ -672,7 +795,7 @@
         "ObjectName": "SceneComponent'BP_Troodon_C:DefaultSceneRoot_GEN_VARIABLE'",
         "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Troodon/BP_Troodon.16"
       },
-      "VariableGUID": "36418554-49970776-942C1E95-5147E8F7",
+      "VariableGuid": "36418554-49970776-942C1E95-5147E8F7",
       "InternalVariableName": "DefaultSceneRoot"
     }
   },
@@ -752,7 +875,7 @@
         ],
         "bHasValidCookedData": true
       },
-      "VariableGUID": "E36F118D-47845122-F1254996-82D2DE6A",
+      "VariableGuid": "E36F118D-47845122-F1254996-82D2DE6A",
       "InternalVariableName": "BP_FluidImplementation"
     }
   },
@@ -837,7 +960,7 @@
       "bReceivesDecals": false,
       "bReplicatePhysicsToAutonomousProxy": false,
       "BodyInstance": {
-        "ObjectType": "ECollisionChannel::ECC_PhysicsBody",
+        "ObjectType": "ECC_PhysicsBody",
         "CollisionProfileName": "Custom"
       },
       "AttachParent": {
@@ -876,7 +999,7 @@
       "bReceivesDecals": false,
       "bReplicatePhysicsToAutonomousProxy": false,
       "BodyInstance": {
-        "ObjectType": "ECollisionChannel::ECC_PhysicsBody",
+        "ObjectType": "ECC_PhysicsBody",
         "CollisionProfileName": "Custom"
       },
       "AttachParent": {
@@ -936,7 +1059,7 @@
                 "Y": 0.001015431,
                 "Z": -5.187396
               },
-              "InterpMode": "EInterpCurveMode::CIM_CurveAuto"
+              "InterpMode": "CIM_CurveAuto"
             },
             {
               "InVal": 1.0,
@@ -955,7 +1078,7 @@
                 "Y": 0.00022889204,
                 "Z": -9.770745
               },
-              "InterpMode": "EInterpCurveMode::CIM_CurveUser"
+              "InterpMode": "CIM_CurveUser"
             },
             {
               "InVal": 2.0,
@@ -974,7 +1097,7 @@
                 "Y": -0.08842889,
                 "Z": -15.830545
               },
-              "InterpMode": "EInterpCurveMode::CIM_CurveUser"
+              "InterpMode": "CIM_CurveUser"
             },
             {
               "InVal": 3.0,
@@ -993,7 +1116,7 @@
                 "Y": 0.00066025625,
                 "Z": -13.7635765
               },
-              "InterpMode": "EInterpCurveMode::CIM_CurveAuto"
+              "InterpMode": "CIM_CurveAuto"
             },
             {
               "InVal": 4.0,
@@ -1012,7 +1135,7 @@
                 "Y": -0.000377187,
                 "Z": -7.6869955
               },
-              "InterpMode": "EInterpCurveMode::CIM_CurveUser"
+              "InterpMode": "CIM_CurveUser"
             }
           ]
         },
@@ -1047,7 +1170,7 @@
                 "Size": 1.0,
                 "SizeSquared": 1.0000001
               },
-              "InterpMode": "EInterpCurveMode::CIM_CurveAuto"
+              "InterpMode": "CIM_CurveAuto"
             },
             {
               "InVal": 1.0,
@@ -1078,7 +1201,7 @@
                 "Size": 0.49989498,
                 "SizeSquared": 0.24989498
               },
-              "InterpMode": "EInterpCurveMode::CIM_CurveAuto"
+              "InterpMode": "CIM_CurveAuto"
             },
             {
               "InVal": 2.0,
@@ -1109,7 +1232,7 @@
                 "Size": 0.49985424,
                 "SizeSquared": 0.24985427
               },
-              "InterpMode": "EInterpCurveMode::CIM_CurveAuto"
+              "InterpMode": "CIM_CurveAuto"
             },
             {
               "InVal": 3.0,
@@ -1140,7 +1263,7 @@
                 "Size": 0.49986202,
                 "SizeSquared": 0.24986205
               },
-              "InterpMode": "EInterpCurveMode::CIM_CurveAuto"
+              "InterpMode": "CIM_CurveAuto"
             },
             {
               "InVal": 4.0,
@@ -1171,7 +1294,7 @@
                 "Size": 0.99957293,
                 "SizeSquared": 0.9991461
               },
-              "InterpMode": "EInterpCurveMode::CIM_CurveAuto"
+              "InterpMode": "CIM_CurveAuto"
             }
           ]
         },
@@ -1194,7 +1317,7 @@
                 "Y": 0.0,
                 "Z": 0.0
               },
-              "InterpMode": "EInterpCurveMode::CIM_CurveAuto"
+              "InterpMode": "CIM_CurveAuto"
             },
             {
               "InVal": 1.0,
@@ -1213,7 +1336,7 @@
                 "Y": 0.0,
                 "Z": 0.0
               },
-              "InterpMode": "EInterpCurveMode::CIM_CurveAuto"
+              "InterpMode": "CIM_CurveAuto"
             },
             {
               "InVal": 2.0,
@@ -1232,7 +1355,7 @@
                 "Y": 0.0,
                 "Z": 0.0
               },
-              "InterpMode": "EInterpCurveMode::CIM_CurveAuto"
+              "InterpMode": "CIM_CurveAuto"
             },
             {
               "InVal": 3.0,
@@ -1251,7 +1374,7 @@
                 "Y": 0.0,
                 "Z": 0.0
               },
-              "InterpMode": "EInterpCurveMode::CIM_CurveAuto"
+              "InterpMode": "CIM_CurveAuto"
             },
             {
               "InVal": 4.0,
@@ -1270,7 +1393,7 @@
                 "Y": 0.0,
                 "Z": 0.0
               },
-              "InterpMode": "EInterpCurveMode::CIM_CurveAuto"
+              "InterpMode": "CIM_CurveAuto"
             }
           ]
         },
@@ -1281,287 +1404,287 @@
               "OutVal": 0.0,
               "ArriveTangent": 0.0,
               "LeaveTangent": 0.0,
-              "InterpMode": "EInterpCurveMode::CIM_Linear"
+              "InterpMode": "CIM_Linear"
             },
             {
               "InVal": 2.8077524,
               "OutVal": 0.1,
               "ArriveTangent": 0.0,
               "LeaveTangent": 0.0,
-              "InterpMode": "EInterpCurveMode::CIM_Linear"
+              "InterpMode": "CIM_Linear"
             },
             {
               "InVal": 5.7574625,
               "OutVal": 0.2,
               "ArriveTangent": 0.0,
               "LeaveTangent": 0.0,
-              "InterpMode": "EInterpCurveMode::CIM_Linear"
+              "InterpMode": "CIM_Linear"
             },
             {
               "InVal": 8.789431,
               "OutVal": 0.3,
               "ArriveTangent": 0.0,
               "LeaveTangent": 0.0,
-              "InterpMode": "EInterpCurveMode::CIM_Linear"
+              "InterpMode": "CIM_Linear"
             },
             {
               "InVal": 11.842082,
               "OutVal": 0.4,
               "ArriveTangent": 0.0,
               "LeaveTangent": 0.0,
-              "InterpMode": "EInterpCurveMode::CIM_Linear"
+              "InterpMode": "CIM_Linear"
             },
             {
               "InVal": 14.853414,
               "OutVal": 0.5,
               "ArriveTangent": 0.0,
               "LeaveTangent": 0.0,
-              "InterpMode": "EInterpCurveMode::CIM_Linear"
+              "InterpMode": "CIM_Linear"
             },
             {
               "InVal": 17.762293,
               "OutVal": 0.6,
               "ArriveTangent": 0.0,
               "LeaveTangent": 0.0,
-              "InterpMode": "EInterpCurveMode::CIM_Linear"
+              "InterpMode": "CIM_Linear"
             },
             {
               "InVal": 20.510063,
               "OutVal": 0.7,
               "ArriveTangent": 0.0,
               "LeaveTangent": 0.0,
-              "InterpMode": "EInterpCurveMode::CIM_Linear"
+              "InterpMode": "CIM_Linear"
             },
             {
               "InVal": 23.043047,
               "OutVal": 0.8,
               "ArriveTangent": 0.0,
               "LeaveTangent": 0.0,
-              "InterpMode": "EInterpCurveMode::CIM_Linear"
+              "InterpMode": "CIM_Linear"
             },
             {
               "InVal": 25.317171,
               "OutVal": 0.90000004,
               "ArriveTangent": 0.0,
               "LeaveTangent": 0.0,
-              "InterpMode": "EInterpCurveMode::CIM_Linear"
+              "InterpMode": "CIM_Linear"
             },
             {
               "InVal": 27.307377,
               "OutVal": 1.0,
               "ArriveTangent": 0.0,
               "LeaveTangent": 0.0,
-              "InterpMode": "EInterpCurveMode::CIM_Linear"
+              "InterpMode": "CIM_Linear"
             },
             {
               "InVal": 29.072798,
               "OutVal": 1.1,
               "ArriveTangent": 0.0,
               "LeaveTangent": 0.0,
-              "InterpMode": "EInterpCurveMode::CIM_Linear"
+              "InterpMode": "CIM_Linear"
             },
             {
               "InVal": 30.740398,
               "OutVal": 1.2,
               "ArriveTangent": 0.0,
               "LeaveTangent": 0.0,
-              "InterpMode": "EInterpCurveMode::CIM_Linear"
+              "InterpMode": "CIM_Linear"
             },
             {
               "InVal": 32.389256,
               "OutVal": 1.3,
               "ArriveTangent": 0.0,
               "LeaveTangent": 0.0,
-              "InterpMode": "EInterpCurveMode::CIM_Linear"
+              "InterpMode": "CIM_Linear"
             },
             {
               "InVal": 34.06493,
               "OutVal": 1.4,
               "ArriveTangent": 0.0,
               "LeaveTangent": 0.0,
-              "InterpMode": "EInterpCurveMode::CIM_Linear"
+              "InterpMode": "CIM_Linear"
             },
             {
               "InVal": 35.783638,
               "OutVal": 1.5,
               "ArriveTangent": 0.0,
               "LeaveTangent": 0.0,
-              "InterpMode": "EInterpCurveMode::CIM_Linear"
+              "InterpMode": "CIM_Linear"
             },
             {
               "InVal": 37.54167,
               "OutVal": 1.6,
               "ArriveTangent": 0.0,
               "LeaveTangent": 0.0,
-              "InterpMode": "EInterpCurveMode::CIM_Linear"
+              "InterpMode": "CIM_Linear"
             },
             {
               "InVal": 39.325012,
               "OutVal": 1.7,
               "ArriveTangent": 0.0,
               "LeaveTangent": 0.0,
-              "InterpMode": "EInterpCurveMode::CIM_Linear"
+              "InterpMode": "CIM_Linear"
             },
             {
               "InVal": 41.11766,
               "OutVal": 1.8,
               "ArriveTangent": 0.0,
               "LeaveTangent": 0.0,
-              "InterpMode": "EInterpCurveMode::CIM_Linear"
+              "InterpMode": "CIM_Linear"
             },
             {
               "InVal": 42.90932,
               "OutVal": 1.9000001,
               "ArriveTangent": 0.0,
               "LeaveTangent": 0.0,
-              "InterpMode": "EInterpCurveMode::CIM_Linear"
+              "InterpMode": "CIM_Linear"
             },
             {
               "InVal": 44.703125,
               "OutVal": 2.0,
               "ArriveTangent": 0.0,
               "LeaveTangent": 0.0,
-              "InterpMode": "EInterpCurveMode::CIM_Linear"
+              "InterpMode": "CIM_Linear"
             },
             {
               "InVal": 46.599434,
               "OutVal": 2.1,
               "ArriveTangent": 0.0,
               "LeaveTangent": 0.0,
-              "InterpMode": "EInterpCurveMode::CIM_Linear"
+              "InterpMode": "CIM_Linear"
             },
             {
               "InVal": 48.6628,
               "OutVal": 2.2,
               "ArriveTangent": 0.0,
               "LeaveTangent": 0.0,
-              "InterpMode": "EInterpCurveMode::CIM_Linear"
+              "InterpMode": "CIM_Linear"
             },
             {
               "InVal": 50.857857,
               "OutVal": 2.3,
               "ArriveTangent": 0.0,
               "LeaveTangent": 0.0,
-              "InterpMode": "EInterpCurveMode::CIM_Linear"
+              "InterpMode": "CIM_Linear"
             },
             {
               "InVal": 53.149956,
               "OutVal": 2.4,
               "ArriveTangent": 0.0,
               "LeaveTangent": 0.0,
-              "InterpMode": "EInterpCurveMode::CIM_Linear"
+              "InterpMode": "CIM_Linear"
             },
             {
               "InVal": 55.5056,
               "OutVal": 2.5,
               "ArriveTangent": 0.0,
               "LeaveTangent": 0.0,
-              "InterpMode": "EInterpCurveMode::CIM_Linear"
+              "InterpMode": "CIM_Linear"
             },
             {
               "InVal": 57.89297,
               "OutVal": 2.6,
               "ArriveTangent": 0.0,
               "LeaveTangent": 0.0,
-              "InterpMode": "EInterpCurveMode::CIM_Linear"
+              "InterpMode": "CIM_Linear"
             },
             {
               "InVal": 60.282608,
               "OutVal": 2.7,
               "ArriveTangent": 0.0,
               "LeaveTangent": 0.0,
-              "InterpMode": "EInterpCurveMode::CIM_Linear"
+              "InterpMode": "CIM_Linear"
             },
             {
               "InVal": 62.648323,
               "OutVal": 2.8,
               "ArriveTangent": 0.0,
               "LeaveTangent": 0.0,
-              "InterpMode": "EInterpCurveMode::CIM_Linear"
+              "InterpMode": "CIM_Linear"
             },
             {
               "InVal": 64.96852,
               "OutVal": 2.9,
               "ArriveTangent": 0.0,
               "LeaveTangent": 0.0,
-              "InterpMode": "EInterpCurveMode::CIM_Linear"
+              "InterpMode": "CIM_Linear"
             },
             {
               "InVal": 67.22808,
               "OutVal": 3.0,
               "ArriveTangent": 0.0,
               "LeaveTangent": 0.0,
-              "InterpMode": "EInterpCurveMode::CIM_Linear"
+              "InterpMode": "CIM_Linear"
             },
             {
               "InVal": 69.53655,
               "OutVal": 3.1,
               "ArriveTangent": 0.0,
               "LeaveTangent": 0.0,
-              "InterpMode": "EInterpCurveMode::CIM_Linear"
+              "InterpMode": "CIM_Linear"
             },
             {
               "InVal": 71.99513,
               "OutVal": 3.2,
               "ArriveTangent": 0.0,
               "LeaveTangent": 0.0,
-              "InterpMode": "EInterpCurveMode::CIM_Linear"
+              "InterpMode": "CIM_Linear"
             },
             {
               "InVal": 74.568405,
               "OutVal": 3.3,
               "ArriveTangent": 0.0,
               "LeaveTangent": 0.0,
-              "InterpMode": "EInterpCurveMode::CIM_Linear"
+              "InterpMode": "CIM_Linear"
             },
             {
               "InVal": 77.20858,
               "OutVal": 3.4,
               "ArriveTangent": 0.0,
               "LeaveTangent": 0.0,
-              "InterpMode": "EInterpCurveMode::CIM_Linear"
+              "InterpMode": "CIM_Linear"
             },
             {
               "InVal": 79.86063,
               "OutVal": 3.5,
               "ArriveTangent": 0.0,
               "LeaveTangent": 0.0,
-              "InterpMode": "EInterpCurveMode::CIM_Linear"
+              "InterpMode": "CIM_Linear"
             },
             {
               "InVal": 82.465294,
               "OutVal": 3.6,
               "ArriveTangent": 0.0,
               "LeaveTangent": 0.0,
-              "InterpMode": "EInterpCurveMode::CIM_Linear"
+              "InterpMode": "CIM_Linear"
             },
             {
               "InVal": 84.96121,
               "OutVal": 3.7,
               "ArriveTangent": 0.0,
               "LeaveTangent": 0.0,
-              "InterpMode": "EInterpCurveMode::CIM_Linear"
+              "InterpMode": "CIM_Linear"
             },
             {
               "InVal": 87.28661,
               "OutVal": 3.8,
               "ArriveTangent": 0.0,
               "LeaveTangent": 0.0,
-              "InterpMode": "EInterpCurveMode::CIM_Linear"
+              "InterpMode": "CIM_Linear"
             },
             {
               "InVal": 89.38136,
               "OutVal": 3.9,
               "ArriveTangent": 0.0,
               "LeaveTangent": 0.0,
-              "InterpMode": "EInterpCurveMode::CIM_Linear"
+              "InterpMode": "CIM_Linear"
             },
             {
               "InVal": 91.190605,
               "OutVal": 4.0,
               "ArriveTangent": 0.0,
               "LeaveTangent": 0.0,
-              "InterpMode": "EInterpCurveMode::CIM_Linear"
+              "InterpMode": "CIM_Linear"
             }
           ]
         }

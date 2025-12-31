@@ -315,7 +315,138 @@
         "Ability.Skill.VoiceHelp",
         "Ability.Skill.VoiceThreaten",
         "Ability.Skill.Wallow"
-      ]
+      ],
+      "DragLocation": {
+        "ObjectName": "SceneComponent'Default__BP_Psittacosaurus_Base_C:Draglocation'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Psittacosaurus/BP_Psittacosaurus_Base.20"
+      },
+      "ThroatMesh": {
+        "ObjectName": "StaticMeshComponent'Default__BP_Psittacosaurus_Base_C:ThroatMesh'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Psittacosaurus/BP_Psittacosaurus_Base.31"
+      },
+      "SkeletonMesh": {
+        "ObjectName": "SkeletalMeshComponent'Default__BP_Psittacosaurus_Base_C:SkeletonMesh'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Psittacosaurus/BP_Psittacosaurus_Base.25"
+      },
+      "RibsMeatMesh": {
+        "ObjectName": "SkeletalMeshComponent'Default__BP_Psittacosaurus_Base_C:RibsMeatMesh'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Psittacosaurus/BP_Psittacosaurus_Base.24"
+      },
+      "ThroatSpline": {
+        "ObjectName": "SplineComponent'Default__BP_Psittacosaurus_Base_C:ThroatSpline'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Psittacosaurus/BP_Psittacosaurus_Base.28"
+      },
+      "InteractableDetector": {
+        "ObjectName": "BoxComponent'Default__BP_Psittacosaurus_Base_C:InteractableDetector'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Psittacosaurus/BP_Psittacosaurus_Base.2"
+      },
+      "CorpseDisableDetector": {
+        "ObjectName": "SphereComponent'Default__BP_Psittacosaurus_Base_C:CorpseDisableDetector'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Psittacosaurus/BP_Psittacosaurus_Base.27"
+      },
+      "PouncebleArea": {
+        "ObjectName": "BoxComponent'Default__BP_Psittacosaurus_Base_C:PouncebleArea'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Psittacosaurus/BP_Psittacosaurus_Base.3"
+      },
+      "NameWidget": {
+        "ObjectName": "WidgetComponent'Default__BP_Psittacosaurus_Base_C:NameWidget'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Psittacosaurus/BP_Psittacosaurus_Base.37"
+      },
+      "BuoyancyPlane": {
+        "ObjectName": "StaticMeshComponent'Default__BP_Psittacosaurus_Base_C:BuoyancyPlane'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Psittacosaurus/BP_Psittacosaurus_Base.30"
+      },
+      "FootstepsComponent": {
+        "ObjectName": "TIFootstepsComponent'Default__BP_Psittacosaurus_Base_C:FootstepsComponent'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Psittacosaurus/BP_Psittacosaurus_Base.36"
+      },
+      "PhysicsHandleComponent": {
+        "ObjectName": "PhysicsHandleComponent'Default__BP_Psittacosaurus_Base_C:PhysicsHandle'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Psittacosaurus/BP_Psittacosaurus_Base.18"
+      },
+      "AttributeSet": {
+        "ObjectName": "TIAttributeSetDinosaur'Default__BP_Psittacosaurus_Base_C:AttributeSetBase'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Psittacosaurus/BP_Psittacosaurus_Base.34"
+      },
+      "SpecialIdleMontages": [
+        {
+          "ObjectName": "AnimMontage'AM_Taco_Sniff_Idle'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Psittacosaurus/Animations/LegacyAnimations/AM_Taco_Sniff_Idle.0"
+        },
+        {
+          "ObjectName": "AnimMontage'AS_Taco_Sit_Idle_Montage'",
+          "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Psittacosaurus/Animations/LegacyAnimations/AS_Taco_Sit_Idle_Montage.0"
+        }
+      ],
+      "CharacterMovementComponent": {
+        "ObjectName": "TIDinosaurMovementComponent'Default__BP_Psittacosaurus_Base_C:CharMoveComp'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Psittacosaurus/BP_Psittacosaurus_Base.35"
+      },
+      "MainCamera": {
+        "ObjectName": "CameraComponent'Default__BP_Psittacosaurus_Base_C:Main Camera'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Psittacosaurus/BP_Psittacosaurus_Base.6"
+      },
+      "SpringArm": {
+        "ObjectName": "SpringArmComponent'Default__BP_Psittacosaurus_Base_C:Spring Arm'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Psittacosaurus/BP_Psittacosaurus_Base.29"
+      },
+      "PhysicalAnimation": {
+        "ObjectName": "PhysicalAnimationComponent'Default__BP_Psittacosaurus_Base_C:PhysicalAnim'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Psittacosaurus/BP_Psittacosaurus_Base.16"
+      },
+      "PhysCons": {
+        "ObjectName": "PhysicsConstraintComponent'Default__BP_Psittacosaurus_Base_C:PhysicsConstraints'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Psittacosaurus/BP_Psittacosaurus_Base.17"
+      },
+      "HeartbeatAudio": {
+        "ObjectName": "AudioComponent'Default__BP_Psittacosaurus_Base_C:HeartbeatAudio'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Psittacosaurus/BP_Psittacosaurus_Base.0"
+      },
+      "NavigationInvoker": {
+        "ObjectName": "NavigationInvokerComponent'Default__BP_Psittacosaurus_Base_C:Navigation Invoker'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Psittacosaurus/BP_Psittacosaurus_Base.14"
+      },
+      "AutosaveRate": 117.676315,
+      "FoliageBonesColliders": [
+        "DinoPelvis",
+        "DinoRightThigh",
+        "DinoRightCalf",
+        "DinoRightAnkle",
+        "DinoSpine02",
+        "DinoHead",
+        "DinoJaw",
+        "DinoLeftThigh",
+        "DinoLeftCalf",
+        "DinoLeftAnkle",
+        "DinoTail01",
+        "DinoTail02",
+        "DinoTail03",
+        "DinoTail04",
+        "DinoRightBicep",
+        "DinoRightHand",
+        "DinoLeftBicep",
+        "DinoLeftHand"
+      ],
+      "Mesh": {
+        "ObjectName": "SkeletalMeshComponentBudgeted'Default__BP_Psittacosaurus_Base_C:CharacterMesh0'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Psittacosaurus/BP_Psittacosaurus_Base.26"
+      },
+      "CharacterMovement": {
+        "ObjectName": "TIDinosaurMovementComponent'Default__BP_Psittacosaurus_Base_C:CharMoveComp'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Psittacosaurus/BP_Psittacosaurus_Base.35"
+      },
+      "CapsuleComponent": {
+        "ObjectName": "CapsuleComponent'Default__BP_Psittacosaurus_Base_C:CollisionCylinder'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Psittacosaurus/BP_Psittacosaurus_Base.7"
+      },
+      "AIControllerClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_AI_Psittacosaurus_Controller_C'",
+        "ObjectPath": "/Game/TheIsle/Core/AI/Controllers/Dinos/BP_AI_Psittacosaurus_Controller.4"
+      },
+      "RootComponent": {
+        "ObjectName": "CapsuleComponent'Default__BP_Psittacosaurus_Base_C:CollisionCylinder'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Psittacosaurus/BP_Psittacosaurus_Base.7"
+      }
     }
   },
   {
@@ -1082,7 +1213,7 @@
         "ObjectName": "SceneComponent'BP_Psittacosaurus_Base_C:DefaultSceneRoot_GEN_VARIABLE'",
         "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Psittacosaurus/BP_Psittacosaurus_Base.19"
       },
-      "VariableGUID": "3C99B2FF-43E4D529-2C66DB9F-FE39222E",
+      "VariableGuid": "3C99B2FF-43E4D529-2C66DB9F-FE39222E",
       "InternalVariableName": "DefaultSceneRoot"
     }
   },
@@ -1170,7 +1301,7 @@
         ],
         "bHasValidCookedData": true
       },
-      "VariableGUID": "DFBB8AB3-41BA12C7-D1E414A1-9158C83D",
+      "VariableGuid": "DFBB8AB3-41BA12C7-D1E414A1-9158C83D",
       "InternalVariableName": "BP_FluidImplementation"
     }
   },
@@ -1368,18 +1499,13 @@
     "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "bCanSlide": false,
-      "RequestedSpeed": {
-        "X": 4.3534322E+21,
-        "Y": 134217760.0,
-        "Z": 2.997596E+19
-      },
-      "RequestedYaw": 1E-45,
-      "GroundFriction": 0.0,
-      "BrakingDecelerationSwimming": 3.880509E-37,
-      "AnimRootMotionVelocity": {
-        "X": -4.038968E-28,
-        "Y": "Infinity",
-        "Z": "-Infinity"
+      "MaxStepHeight": 80.0,
+      "JumpZVelocity": 950.0,
+      "MaxAcceleration": 650.0,
+      "CrouchedHalfHeight": 20.0,
+      "NavMovementProperties": {
+        "FixedPathBrakingDistance": 500.0,
+        "bUseFixedBrakingDistanceForPaths": true
       }
     }
   },

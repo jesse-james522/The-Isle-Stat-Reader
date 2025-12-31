@@ -1,0 +1,809 @@
+[
+  {
+    "Type": "BodySetup",
+    "Name": "BodySetup_0",
+    "Outer": "TEMPGUN",
+    "Class": "UScriptClass'BodySetup'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DefaultInstance": {
+        "ObjectType": "ECollisionChannel::ECC_WorldStatic",
+        "CollisionProfileName": "BlockAll",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Detector",
+              "Response": "ECollisionResponse::ECR_Overlap"
+            },
+            {
+              "Channel": "TinyCollision",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "SmallCollision",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "MediumCollision",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "LargeCollision",
+              "Response": "ECollisionResponse::ECR_Block"
+            },
+            {
+              "Channel": "WeatherCamera",
+              "Response": "ECollisionResponse::ECR_Block"
+            }
+          ]
+        }
+      }
+    },
+    "BodySetupGuid": "D70E05EE4FD4428D41A1C3A7B1DFC8CC",
+    "CookedFormatData": {
+      "Chaos": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 254194,
+        "SizeOnDisk": 254194,
+        "OffsetInFile": "0x83"
+      }
+    }
+  },
+  {
+    "Type": "NavCollision",
+    "Name": "NavCollision_0",
+    "Outer": "TEMPGUN",
+    "Class": "UScriptClass'NavCollision'",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "CookedFormatData": {
+      "NavCollision_Chaos": {
+        "BulkDataFlags": "BULKDATA_SingleUse | BULKDATA_ForceInlinePayload",
+        "ElementCount": 70,
+        "SizeOnDisk": 70,
+        "OffsetInFile": "0x32"
+      }
+    }
+  },
+  {
+    "Type": "StaticMesh",
+    "Name": "TEMPGUN",
+    "Class": "UScriptClass'StaticMesh'",
+    "Flags": "RF_Public | RF_Standalone | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "StaticMaterials": [
+        {
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_Rippenoffner'",
+            "ObjectPath": "/Game/TheIsle/Characters/Humans/Weapons/Rippenoffner/Materials/MI_Rippenoffner.0"
+          },
+          "MaterialSlotName": "MI_Rippenoffner",
+          "ImportedMaterialSlotName": "MI_Rippenoffner",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 32.69958,
+            "LocalUVDensities[1]": 60.6761,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          },
+          "OverlayMaterialInterface": null
+        },
+        {
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_Rippenoffner'",
+            "ObjectPath": "/Game/TheIsle/Characters/Humans/Weapons/Rippenoffner/Materials/MI_Rippenoffner.0"
+          },
+          "MaterialSlotName": "MI_Rippenoffner",
+          "ImportedMaterialSlotName": "MI_Rippenoffner_1",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 32.938663,
+            "LocalUVDensities[1]": 60.754124,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          },
+          "OverlayMaterialInterface": null
+        },
+        {
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_Rippenoffner'",
+            "ObjectPath": "/Game/TheIsle/Characters/Humans/Weapons/Rippenoffner/Materials/MI_Rippenoffner.0"
+          },
+          "MaterialSlotName": "MI_Rippenoffner",
+          "ImportedMaterialSlotName": "MI_Rippenoffner_2",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 32.980785,
+            "LocalUVDensities[1]": 60.481823,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          },
+          "OverlayMaterialInterface": null
+        },
+        {
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_Rippenoffner'",
+            "ObjectPath": "/Game/TheIsle/Characters/Humans/Weapons/Rippenoffner/Materials/MI_Rippenoffner.0"
+          },
+          "MaterialSlotName": "MI_Rippenoffner",
+          "ImportedMaterialSlotName": "MI_Rippenoffner_3",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 32.69958,
+            "LocalUVDensities[1]": 60.755604,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          },
+          "OverlayMaterialInterface": null
+        },
+        {
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_Rippenoffner'",
+            "ObjectPath": "/Game/TheIsle/Characters/Humans/Weapons/Rippenoffner/Materials/MI_Rippenoffner.0"
+          },
+          "MaterialSlotName": "MI_Rippenoffner",
+          "ImportedMaterialSlotName": "MI_Rippenoffner_4",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 34.316414,
+            "LocalUVDensities[1]": 61.786873,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          },
+          "OverlayMaterialInterface": null
+        },
+        {
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_Rippenoffner'",
+            "ObjectPath": "/Game/TheIsle/Characters/Humans/Weapons/Rippenoffner/Materials/MI_Rippenoffner.0"
+          },
+          "MaterialSlotName": "MI_Rippenoffner",
+          "ImportedMaterialSlotName": "MI_Rippenoffner_5",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 30.472681,
+            "LocalUVDensities[1]": 60.66073,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          },
+          "OverlayMaterialInterface": null
+        },
+        {
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_Rippenoffner'",
+            "ObjectPath": "/Game/TheIsle/Characters/Humans/Weapons/Rippenoffner/Materials/MI_Rippenoffner.0"
+          },
+          "MaterialSlotName": "MI_Rippenoffner",
+          "ImportedMaterialSlotName": "MI_Rippenoffner_6",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 33.241127,
+            "LocalUVDensities[1]": 61.046337,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          },
+          "OverlayMaterialInterface": null
+        },
+        {
+          "MaterialInterface": {
+            "ObjectName": "MaterialInstanceConstant'MI_Rippenoffner'",
+            "ObjectPath": "/Game/TheIsle/Characters/Humans/Weapons/Rippenoffner/Materials/MI_Rippenoffner.0"
+          },
+          "MaterialSlotName": "MI_Rippenoffner",
+          "ImportedMaterialSlotName": "MI_Rippenoffner_7",
+          "UVChannelData": {
+            "bInitialized": true,
+            "bOverrideDensities": false,
+            "LocalUVDensities": 32.692646,
+            "LocalUVDensities[1]": 60.781555,
+            "LocalUVDensities[2]": 0.0,
+            "LocalUVDensities[3]": 0.0
+          },
+          "OverlayMaterialInterface": null
+        }
+      ],
+      "LightmapUVDensity": 60.802383,
+      "LightMapCoordinateIndex": 1,
+      "ExtendedBounds": {
+        "Origin": {
+          "X": -0.0023399591,
+          "Y": -6.8620586,
+          "Z": -0.8410566
+        },
+        "BoxExtent": {
+          "X": 1.9942656,
+          "Y": 14.564087,
+          "Z": 7.311631
+        },
+        "SphereRadius": 16.188422710193482
+      }
+    },
+    "BodySetup": {
+      "ObjectName": "BodySetup'TEMPGUN:BodySetup_0'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Humans/TEMPGUN.0"
+    },
+    "NavCollision": {
+      "ObjectName": "NavCollision'TEMPGUN:NavCollision_0'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Humans/TEMPGUN.1"
+    },
+    "LightingGuid": "70092268-4CED946A-A889008D-E3DB7C0B",
+    "RenderData": {
+      "LODs": [
+        {
+          "Sections": [
+            {
+              "MaterialIndex": 0,
+              "FirstIndex": 0,
+              "NumTriangles": 282,
+              "MinVertexIndex": 0,
+              "MaxVertexIndex": 310,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 1,
+              "FirstIndex": 846,
+              "NumTriangles": 1306,
+              "MinVertexIndex": 311,
+              "MaxVertexIndex": 1971,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 2,
+              "FirstIndex": 4764,
+              "NumTriangles": 496,
+              "MinVertexIndex": 1972,
+              "MaxVertexIndex": 2330,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 3,
+              "FirstIndex": 6252,
+              "NumTriangles": 282,
+              "MinVertexIndex": 2331,
+              "MaxVertexIndex": 2641,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 4,
+              "FirstIndex": 7098,
+              "NumTriangles": 398,
+              "MinVertexIndex": 2642,
+              "MaxVertexIndex": 3245,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 5,
+              "FirstIndex": 8292,
+              "NumTriangles": 263,
+              "MinVertexIndex": 3246,
+              "MaxVertexIndex": 3508,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 6,
+              "FirstIndex": 9081,
+              "NumTriangles": 375,
+              "MinVertexIndex": 3509,
+              "MaxVertexIndex": 3968,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 7,
+              "FirstIndex": 10206,
+              "NumTriangles": 1541,
+              "MinVertexIndex": 3969,
+              "MaxVertexIndex": 5490,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            }
+          ],
+          "MaxDeviation": 0.0,
+          "PositionVertexBuffer": {
+            "Stride": 12,
+            "NumVertices": 5491
+          },
+          "VertexBuffer": {
+            "NumTexCoords": 2,
+            "NumVertices": 5491,
+            "Strides": -1,
+            "UseHighPrecisionTangentBasis": false,
+            "UseFullPrecisionUVs": false
+          },
+          "ColorVertexBuffer": {
+            "Stride": 0,
+            "NumVertices": 0
+          },
+          "CardRepresentationData": {
+            "Bounds": {
+              "Min": {
+                "X": -2.9966054,
+                "Y": -22.426146,
+                "Z": -9.152688
+              },
+              "Max": {
+                "X": 2.9919257,
+                "Y": 8.702028,
+                "Z": 7.4705744
+              },
+              "IsValid": 1
+            },
+            "MaxLodLevel": 0,
+            "bMostlyTwoSided": false,
+            "CardBuildData": [
+              {
+                "OBB": {
+                  "AxisX": {
+                    "X": 0.0,
+                    "Y": 1.0,
+                    "Z": 0.0
+                  },
+                  "AxisY": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 1.0
+                  },
+                  "AxisZ": {
+                    "X": -1.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Origin": {
+                    "X": -0.00233984,
+                    "Y": -6.8620586,
+                    "Z": -0.8410568
+                  },
+                  "Extent": {
+                    "X": 15.0,
+                    "Y": 8.31163,
+                    "Z": 10.0
+                  }
+                },
+                "LODLevel": 0,
+                "AxisAlignedDirectionIndex": 0
+              },
+              {
+                "OBB": {
+                  "AxisX": {
+                    "X": 0.0,
+                    "Y": 1.0,
+                    "Z": 0.0
+                  },
+                  "AxisY": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 1.0
+                  },
+                  "AxisZ": {
+                    "X": 1.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Origin": {
+                    "X": -0.00233984,
+                    "Y": -6.8620586,
+                    "Z": -0.8410568
+                  },
+                  "Extent": {
+                    "X": 15.0,
+                    "Y": 8.31163,
+                    "Z": 10.0
+                  }
+                },
+                "LODLevel": 0,
+                "AxisAlignedDirectionIndex": 1
+              }
+            ]
+          }
+        },
+        {
+          "Sections": [
+            {
+              "MaterialIndex": 0,
+              "FirstIndex": 0,
+              "NumTriangles": 140,
+              "MinVertexIndex": 0,
+              "MaxVertexIndex": 173,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 1,
+              "FirstIndex": 420,
+              "NumTriangles": 1306,
+              "MinVertexIndex": 174,
+              "MaxVertexIndex": 1834,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 2,
+              "FirstIndex": 4338,
+              "NumTriangles": 496,
+              "MinVertexIndex": 1835,
+              "MaxVertexIndex": 2193,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 3,
+              "FirstIndex": 5826,
+              "NumTriangles": 140,
+              "MinVertexIndex": 2194,
+              "MaxVertexIndex": 2367,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 4,
+              "FirstIndex": 6246,
+              "NumTriangles": 199,
+              "MinVertexIndex": 2368,
+              "MaxVertexIndex": 2738,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 5,
+              "FirstIndex": 6843,
+              "NumTriangles": 130,
+              "MinVertexIndex": 2739,
+              "MaxVertexIndex": 2892,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 6,
+              "FirstIndex": 7233,
+              "NumTriangles": 186,
+              "MinVertexIndex": 2893,
+              "MaxVertexIndex": 3176,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 7,
+              "FirstIndex": 7791,
+              "NumTriangles": 1541,
+              "MinVertexIndex": 3177,
+              "MaxVertexIndex": 4698,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            }
+          ],
+          "MaxDeviation": 0.0,
+          "PositionVertexBuffer": {
+            "Stride": 12,
+            "NumVertices": 4699
+          },
+          "VertexBuffer": {
+            "NumTexCoords": 2,
+            "NumVertices": 4699,
+            "Strides": -1,
+            "UseHighPrecisionTangentBasis": false,
+            "UseFullPrecisionUVs": false
+          },
+          "ColorVertexBuffer": {
+            "Stride": 0,
+            "NumVertices": 0
+          }
+        },
+        {
+          "Sections": [
+            {
+              "MaterialIndex": 0,
+              "FirstIndex": 0,
+              "NumTriangles": 70,
+              "MinVertexIndex": 0,
+              "MaxVertexIndex": 103,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 1,
+              "FirstIndex": 210,
+              "NumTriangles": 1306,
+              "MinVertexIndex": 104,
+              "MaxVertexIndex": 1764,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 2,
+              "FirstIndex": 4128,
+              "NumTriangles": 496,
+              "MinVertexIndex": 1765,
+              "MaxVertexIndex": 2123,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 3,
+              "FirstIndex": 5616,
+              "NumTriangles": 70,
+              "MinVertexIndex": 2124,
+              "MaxVertexIndex": 2227,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 4,
+              "FirstIndex": 5826,
+              "NumTriangles": 98,
+              "MinVertexIndex": 2228,
+              "MaxVertexIndex": 2393,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 5,
+              "FirstIndex": 6120,
+              "NumTriangles": 64,
+              "MinVertexIndex": 2394,
+              "MaxVertexIndex": 2485,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 6,
+              "FirstIndex": 6312,
+              "NumTriangles": 93,
+              "MinVertexIndex": 2486,
+              "MaxVertexIndex": 2635,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 7,
+              "FirstIndex": 6591,
+              "NumTriangles": 1541,
+              "MinVertexIndex": 2636,
+              "MaxVertexIndex": 4157,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            }
+          ],
+          "MaxDeviation": 0.0,
+          "PositionVertexBuffer": {
+            "Stride": 12,
+            "NumVertices": 4158
+          },
+          "VertexBuffer": {
+            "NumTexCoords": 2,
+            "NumVertices": 4158,
+            "Strides": -1,
+            "UseHighPrecisionTangentBasis": false,
+            "UseFullPrecisionUVs": false
+          },
+          "ColorVertexBuffer": {
+            "Stride": 0,
+            "NumVertices": 0
+          }
+        },
+        {
+          "Sections": [
+            {
+              "MaterialIndex": 0,
+              "FirstIndex": 0,
+              "NumTriangles": 64,
+              "MinVertexIndex": 0,
+              "MaxVertexIndex": 97,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 1,
+              "FirstIndex": 192,
+              "NumTriangles": 1306,
+              "MinVertexIndex": 98,
+              "MaxVertexIndex": 1758,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 2,
+              "FirstIndex": 4110,
+              "NumTriangles": 496,
+              "MinVertexIndex": 1759,
+              "MaxVertexIndex": 2117,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 3,
+              "FirstIndex": 5598,
+              "NumTriangles": 64,
+              "MinVertexIndex": 2118,
+              "MaxVertexIndex": 2215,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 4,
+              "FirstIndex": 5790,
+              "NumTriangles": 64,
+              "MinVertexIndex": 2216,
+              "MaxVertexIndex": 2329,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 5,
+              "FirstIndex": 5982,
+              "NumTriangles": 64,
+              "MinVertexIndex": 2330,
+              "MaxVertexIndex": 2421,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 6,
+              "FirstIndex": 6174,
+              "NumTriangles": 64,
+              "MinVertexIndex": 2422,
+              "MaxVertexIndex": 2531,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            },
+            {
+              "MaterialIndex": 7,
+              "FirstIndex": 6366,
+              "NumTriangles": 1541,
+              "MinVertexIndex": 2532,
+              "MaxVertexIndex": 4053,
+              "bEnableCollision": true,
+              "bCastShadow": true,
+              "bForceOpaque": false,
+              "bVisibleInRayTracing": true
+            }
+          ],
+          "MaxDeviation": 0.0,
+          "PositionVertexBuffer": {
+            "Stride": 12,
+            "NumVertices": 4054
+          },
+          "VertexBuffer": {
+            "NumTexCoords": 2,
+            "NumVertices": 4054,
+            "Strides": -1,
+            "UseHighPrecisionTangentBasis": false,
+            "UseFullPrecisionUVs": false
+          },
+          "ColorVertexBuffer": {
+            "Stride": 0,
+            "NumVertices": 0
+          }
+        }
+      ],
+      "NaniteResources": {
+        "StreamablePages": {
+          "BulkDataFlags": "BULKDATA_None",
+          "ElementCount": 0,
+          "SizeOnDisk": 0,
+          "OffsetInFile": "0xAECF9"
+        },
+        "AssemblyTransforms": [],
+        "MeshBounds": {
+          "Origin": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "BoxExtent": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "SphereRadius": 0.0
+        },
+        "NumRootPages": 0,
+        "PositionPrecision": 0,
+        "NormalPrecision": 0,
+        "NumInputTriangles": 0,
+        "NumInputVertices": 0,
+        "NumInputMeshes": 0,
+        "NumInputTexCoords": 0,
+        "NumClusters": 0,
+        "ResourceFlags": "NONE"
+      },
+      "Bounds": {
+        "Origin": {
+          "X": -0.0023399591,
+          "Y": -6.8620586,
+          "Z": -0.8410566
+        },
+        "BoxExtent": {
+          "X": 1.9942656,
+          "Y": 14.564087,
+          "Z": 7.311631
+        },
+        "SphereRadius": 16.188423
+      },
+      "bLODsShareStaticLighting": false,
+      "ScreenSize": [
+        2.0,
+        0.75,
+        0.5625,
+        0.421875,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  }
+]

@@ -7,11 +7,11 @@
     "Properties": {
       "InterpolationParam": {
         "InterpolationTime": 0.3,
-        "InterpolationType": "EFilterInterpolationType::BSIT_Average"
+        "InterpolationType": "BSIT_Average"
       },
       "InterpolationParam[1]": {
         "InterpolationTime": 0.3,
-        "InterpolationType": "EFilterInterpolationType::BSIT_Average"
+        "InterpolationType": "BSIT_Average"
       },
       "bTargetWeightInterpolationEaseInOut": false,
       "AnimLength": 2.0,

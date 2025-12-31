@@ -24,7 +24,7 @@
         "AttributePercentageValues": 0.5
       },
       "Stamina.Spending.Sprinting": {
-        "AttributePercentageValues": -2.1
+        "AttributePercentageValues": -1.43
       },
       "Stamina.Spending.SprintingHolding": {
         "AttributePercentageValues": -0.2
@@ -36,13 +36,13 @@
         "AttributePercentageValues": -1.4
       },
       "Health.Regen": {
-        "AttributePercentageValues": 0.13
+        "AttributePercentageValues": 0.01835
       },
       "LockedHealth.Regen": {
-        "AttributePercentageValues": 0.0185
+        "AttributePercentageValues": 0.03704
       },
       "Health.Regen.Resting": {
-        "AttributePercentageValues": 0.2
+        "AttributePercentageValues": 0.0367
       },
       "Health.Damage.Hunger": {
         "AttributePercentageValues": -0.166666
@@ -72,10 +72,10 @@
         "AttributePercentageValues": -0.06
       },
       "Blood.Regen.Standing": {
-        "AttributePercentageValues": 0.055
+        "AttributePercentageValues": 0.01835
       },
       "Blood.Regen.Resting": {
-        "AttributePercentageValues": 0.11
+        "AttributePercentageValues": 0.0367
       },
       "Stamina.Spending.MudWalking": {
         "AttributePercentageValues": -1.0

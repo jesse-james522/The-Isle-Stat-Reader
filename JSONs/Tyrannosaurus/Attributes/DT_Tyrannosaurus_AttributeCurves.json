@@ -537,6 +537,28 @@
           "ObjectName": "CurveLinearColor'ATT_Tyrannosaurus_CrouchSpeed'",
           "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Tyrannosaurus/Attributes/ATT_Tyrannosaurus_CrouchSpeed.0"
         }
+      },
+      "NightVisionRange": {
+        "GameplayAttribute": {
+          "AttributeName": "NightVisionRange",
+          "Attribute": {
+            "Path": [
+              "NightVisionRange"
+            ],
+            "ResolvedOwner": {
+              "ObjectName": "Class'TIAttributeSetBase'",
+              "ObjectPath": "/Script/TheIsle"
+            }
+          },
+          "AttributeOwner": {
+            "ObjectName": "Class'TIAttributeSetBase'",
+            "ObjectPath": "/Script/TheIsle"
+          }
+        },
+        "AttributeCurve": {
+          "ObjectName": "CurveLinearColor'ATT_Tyrannosaurus_NightVisionRange'",
+          "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Tyrannosaurus/Attributes/ATT_Tyrannosaurus_NightVisionRange.0"
+        }
       }
     }
   }

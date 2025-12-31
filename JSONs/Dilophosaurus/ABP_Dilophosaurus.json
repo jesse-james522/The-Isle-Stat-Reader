@@ -2615,10 +2615,153 @@
         "ObjectName": "BlendSpace'BS_Dilophosaurus_Adult_Jumping'",
         "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Dilophosaurus/Animations/BS_Dilophosaurus_Adult_Jumping.0"
       },
-      "LookYaw": 3.762156E-37,
-      "LookYawInterpSpeed": 6.019817E-36,
-      "RootMotionMode": "ERootMotionMode::NoRootMotionExtraction"
-    }
+      "Juvenile": {
+        "Standing": {
+          "Uninjured": {
+            "Walk": {
+              "Speed": 440.0,
+              "Length": 0.666
+            },
+            "Trot": {
+              "Speed": 1200.0,
+              "Length": 0.5
+            },
+            "Sprint": {
+              "Speed": 2307.0,
+              "Length": 0.4333
+            }
+          }
+        },
+        "Crouched": {
+          "Uninjured": {
+            "Walk": {
+              "Speed": 440.0,
+              "Length": 0.666
+            },
+            "Trot": {
+              "Speed": 1200.0,
+              "Length": 0.666
+            },
+            "Sprint": {
+              "Speed": 2307.0,
+              "Length": 0.666
+            }
+          }
+        }
+      },
+      "Subadult": {
+        "Standing": {
+          "Uninjured": {
+            "Walk": {
+              "Speed": 108.21505,
+              "Length": 0.666
+            },
+            "Trot": {
+              "Speed": 504.0,
+              "Length": 1.4
+            },
+            "Sprint": {
+              "Speed": 1674.0,
+              "Length": 0.666
+            }
+          }
+        },
+        "Crouched": {
+          "Uninjured": {
+            "Walk": {
+              "Speed": 133.33,
+              "Length": 0.66
+            },
+            "Trot": {
+              "Speed": 133.33,
+              "Length": 0.66
+            },
+            "Sprint": {
+              "Speed": 133.33,
+              "Length": 0.66
+            }
+          },
+          "InjuredLeg": {
+            "Walk": {
+              "Speed": 133.33,
+              "Length": 0.66
+            },
+            "Trot": {
+              "Speed": 133.33,
+              "Length": 0.66
+            },
+            "Sprint": {
+              "Speed": 133.33,
+              "Length": 0.66
+            }
+          },
+          "InjuredBody": {
+            "Walk": {
+              "Speed": 133.33,
+              "Length": 0.66
+            },
+            "Trot": {
+              "Speed": 133.33,
+              "Length": 0.66
+            },
+            "Sprint": {
+              "Speed": 133.33,
+              "Length": 0.66
+            }
+          },
+          "InjuredLegsAndBody": {
+            "Walk": {
+              "Speed": 133.33,
+              "Length": 0.66
+            },
+            "Trot": {
+              "Speed": 133.33,
+              "Length": 0.66
+            },
+            "Sprint": {
+              "Speed": 133.33,
+              "Length": 0.66
+            }
+          }
+        }
+      },
+      "Adult": {
+        "Standing": {
+          "Uninjured": {
+            "Walk": {
+              "Speed": 131.0,
+              "Length": 1.4
+            },
+            "Trot": {
+              "Speed": 504.0,
+              "Length": 0.8666
+            },
+            "Sprint": {
+              "Speed": 1674.0,
+              "Length": 0.666
+            }
+          }
+        },
+        "Crouched": {
+          "Uninjured": {
+            "Walk": {
+              "Speed": 131.0,
+              "Length": 1.4
+            },
+            "Trot": {
+              "Speed": 504.0,
+              "Length": 1.4
+            },
+            "Sprint": {
+              "Speed": 1674.0,
+              "Length": 1.4
+            }
+          }
+        }
+      }
+    },
+    "SerializedSparseClassDataStruct": "ScriptStruct'/Game/TheIsle/Core/Characters/Dinosaurs/Dilophosaurus/ABP_Dilophosaurus.ABP_Dilophosaurus_C:AnimBlueprintGeneratedConstantData'",
+    "SerializedSparseClassData": {}
   },
   {
     "Type": "AnimBlueprintGeneratedClass",

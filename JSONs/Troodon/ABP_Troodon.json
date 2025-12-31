@@ -2097,10 +2097,153 @@
         "ObjectName": "BlendSpace'BS_Troodon_Adult_Jumping'",
         "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Troodon/Animations/BS_Troodon_Adult_Jumping.0"
       },
-      "LookYaw": 3.762156E-37,
-      "LookYawInterpSpeed": 6.019817E-36,
-      "RootMotionMode": "ERootMotionMode::NoRootMotionExtraction"
-    }
+      "Juvenile": {
+        "Standing": {
+          "Uninjured": {
+            "Walk": {
+              "Speed": 130.0,
+              "Length": 0.7666
+            },
+            "Trot": {
+              "Speed": 525.0,
+              "Length": 0.666
+            },
+            "Sprint": {
+              "Speed": 1250.0,
+              "Length": 0.533
+            }
+          }
+        },
+        "Crouched": {
+          "Uninjured": {
+            "Walk": {
+              "Speed": 130.0,
+              "Length": 1.666
+            },
+            "Trot": {
+              "Speed": 525.0,
+              "Length": 1.666
+            },
+            "Sprint": {
+              "Speed": 1250.0,
+              "Length": 1.666
+            }
+          }
+        }
+      },
+      "Subadult": {
+        "Standing": {
+          "Uninjured": {
+            "Walk": {
+              "Speed": 100.0,
+              "Length": 1.0
+            },
+            "Trot": {
+              "Speed": 200.0,
+              "Length": 1.0
+            },
+            "Sprint": {
+              "Speed": 400.0,
+              "Length": 1.0
+            }
+          }
+        },
+        "Crouched": {
+          "Uninjured": {
+            "Walk": {
+              "Speed": 100.0,
+              "Length": 1.0
+            },
+            "Trot": {
+              "Speed": 100.0,
+              "Length": 1.0
+            },
+            "Sprint": {
+              "Speed": 100.0,
+              "Length": 1.0
+            }
+          },
+          "InjuredLeg": {
+            "Walk": {
+              "Speed": 100.0,
+              "Length": 1.0
+            },
+            "Trot": {
+              "Speed": 100.0,
+              "Length": 1.0
+            },
+            "Sprint": {
+              "Speed": 100.0,
+              "Length": 1.0
+            }
+          },
+          "InjuredBody": {
+            "Walk": {
+              "Speed": 100.0,
+              "Length": 1.0
+            },
+            "Trot": {
+              "Speed": 100.0,
+              "Length": 1.0
+            },
+            "Sprint": {
+              "Speed": 100.0,
+              "Length": 1.0
+            }
+          },
+          "InjuredLegsAndBody": {
+            "Walk": {
+              "Speed": 100.0,
+              "Length": 1.0
+            },
+            "Trot": {
+              "Speed": 100.0,
+              "Length": 1.0
+            },
+            "Sprint": {
+              "Speed": 100.0,
+              "Length": 1.0
+            }
+          }
+        }
+      },
+      "Adult": {
+        "Standing": {
+          "Uninjured": {
+            "Walk": {
+              "Speed": 130.0,
+              "Length": 0.7666
+            },
+            "Trot": {
+              "Speed": 525.0,
+              "Length": 0.666
+            },
+            "Sprint": {
+              "Speed": 1250.0,
+              "Length": 0.533
+            }
+          }
+        },
+        "Crouched": {
+          "Uninjured": {
+            "Walk": {
+              "Speed": 130.0,
+              "Length": 1.666
+            },
+            "Trot": {
+              "Speed": 525.0,
+              "Length": 1.666
+            },
+            "Sprint": {
+              "Speed": 1250.0,
+              "Length": 1.666
+            }
+          }
+        }
+      }
+    },
+    "SerializedSparseClassDataStruct": "ScriptStruct'/Game/TheIsle/Core/Characters/Dinosaurs/Troodon/ABP_Troodon.ABP_Troodon_C:AnimBlueprintGeneratedConstantData'",
+    "SerializedSparseClassData": {}
   },
   {
     "Type": "AnimBlueprintGeneratedClass",

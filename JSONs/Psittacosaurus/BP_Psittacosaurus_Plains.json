@@ -165,39 +165,39 @@
           "ResponseArray": [
             {
               "Channel": "WorldStatic",
-              "Response": "ECollisionResponse::ECR_Ignore"
+              "Response": "ECR_Ignore"
             },
             {
               "Channel": "WorldDynamic",
-              "Response": "ECollisionResponse::ECR_Ignore"
+              "Response": "ECR_Ignore"
             },
             {
               "Channel": "Pawn",
-              "Response": "ECollisionResponse::ECR_Ignore"
+              "Response": "ECR_Ignore"
             },
             {
               "Channel": "Visibility",
-              "Response": "ECollisionResponse::ECR_Ignore"
+              "Response": "ECR_Ignore"
             },
             {
               "Channel": "Camera",
-              "Response": "ECollisionResponse::ECR_Ignore"
+              "Response": "ECR_Ignore"
             },
             {
               "Channel": "PhysicsBody",
-              "Response": "ECollisionResponse::ECR_Ignore"
+              "Response": "ECR_Ignore"
             },
             {
               "Channel": "Vehicle",
-              "Response": "ECollisionResponse::ECR_Ignore"
+              "Response": "ECR_Ignore"
             },
             {
               "Channel": "Destructible",
-              "Response": "ECollisionResponse::ECR_Ignore"
+              "Response": "ECR_Ignore"
             },
             {
               "Channel": "Detector",
-              "Response": "ECollisionResponse::ECR_Overlap"
+              "Response": "ECR_Overlap"
             }
           ]
         }
@@ -287,6 +287,102 @@
       "AbilitySystemComponent": {
         "ObjectName": "TIAbilitySystemComponent'Default__BP_Psittacosaurus_Plains_C:AbilitySystemComponent'",
         "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Psittacosaurus/BP_Psittacosaurus_Plains.35"
+      },
+      "DragLocation": {
+        "ObjectName": "SceneComponent'Default__BP_Psittacosaurus_Plains_C:Draglocation'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Psittacosaurus/BP_Psittacosaurus_Plains.22"
+      },
+      "ThroatMesh": {
+        "ObjectName": "StaticMeshComponent'Default__BP_Psittacosaurus_Plains_C:ThroatMesh'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Psittacosaurus/BP_Psittacosaurus_Plains.34"
+      },
+      "SkeletonMesh": {
+        "ObjectName": "SkeletalMeshComponent'Default__BP_Psittacosaurus_Plains_C:SkeletonMesh'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Psittacosaurus/BP_Psittacosaurus_Plains.28"
+      },
+      "RibsMeatMesh": {
+        "ObjectName": "SkeletalMeshComponent'Default__BP_Psittacosaurus_Plains_C:RibsMeatMesh'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Psittacosaurus/BP_Psittacosaurus_Plains.27"
+      },
+      "ThroatSpline": {
+        "ObjectName": "SplineComponent'Default__BP_Psittacosaurus_Plains_C:ThroatSpline'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Psittacosaurus/BP_Psittacosaurus_Plains.31"
+      },
+      "InteractableDetector": {
+        "ObjectName": "BoxComponent'Default__BP_Psittacosaurus_Plains_C:InteractableDetector'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Psittacosaurus/BP_Psittacosaurus_Plains.3"
+      },
+      "CorpseDisableDetector": {
+        "ObjectName": "SphereComponent'Default__BP_Psittacosaurus_Plains_C:CorpseDisableDetector'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Psittacosaurus/BP_Psittacosaurus_Plains.30"
+      },
+      "PouncebleArea": {
+        "ObjectName": "BoxComponent'Default__BP_Psittacosaurus_Plains_C:PouncebleArea'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Psittacosaurus/BP_Psittacosaurus_Plains.4"
+      },
+      "NameWidget": {
+        "ObjectName": "WidgetComponent'Default__BP_Psittacosaurus_Plains_C:NameWidget'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Psittacosaurus/BP_Psittacosaurus_Plains.40"
+      },
+      "BuoyancyPlane": {
+        "ObjectName": "StaticMeshComponent'Default__BP_Psittacosaurus_Plains_C:BuoyancyPlane'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Psittacosaurus/BP_Psittacosaurus_Plains.33"
+      },
+      "FootstepsComponent": {
+        "ObjectName": "TIFootstepsComponent'Default__BP_Psittacosaurus_Plains_C:FootstepsComponent'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Psittacosaurus/BP_Psittacosaurus_Plains.39"
+      },
+      "PhysicsHandleComponent": {
+        "ObjectName": "PhysicsHandleComponent'Default__BP_Psittacosaurus_Plains_C:PhysicsHandle'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Psittacosaurus/BP_Psittacosaurus_Plains.20"
+      },
+      "AttributeSet": {
+        "ObjectName": "TIAttributeSetDinosaur'Default__BP_Psittacosaurus_Plains_C:AttributeSetBase'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Psittacosaurus/BP_Psittacosaurus_Plains.37"
+      },
+      "CharacterMovementComponent": {
+        "ObjectName": "TIDinosaurMovementComponent'Default__BP_Psittacosaurus_Plains_C:CharMoveComp'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Psittacosaurus/BP_Psittacosaurus_Plains.38"
+      },
+      "MainCamera": {
+        "ObjectName": "CameraComponent'Default__BP_Psittacosaurus_Plains_C:Main Camera'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Psittacosaurus/BP_Psittacosaurus_Plains.7"
+      },
+      "SpringArm": {
+        "ObjectName": "SpringArmComponent'Default__BP_Psittacosaurus_Plains_C:Spring Arm'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Psittacosaurus/BP_Psittacosaurus_Plains.32"
+      },
+      "PhysicalAnimation": {
+        "ObjectName": "PhysicalAnimationComponent'Default__BP_Psittacosaurus_Plains_C:PhysicalAnim'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Psittacosaurus/BP_Psittacosaurus_Plains.18"
+      },
+      "PhysCons": {
+        "ObjectName": "PhysicsConstraintComponent'Default__BP_Psittacosaurus_Plains_C:PhysicsConstraints'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Psittacosaurus/BP_Psittacosaurus_Plains.19"
+      },
+      "HeartbeatAudio": {
+        "ObjectName": "AudioComponent'Default__BP_Psittacosaurus_Plains_C:HeartbeatAudio'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Psittacosaurus/BP_Psittacosaurus_Plains.0"
+      },
+      "NavigationInvoker": {
+        "ObjectName": "NavigationInvokerComponent'Default__BP_Psittacosaurus_Plains_C:Navigation Invoker'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Psittacosaurus/BP_Psittacosaurus_Plains.16"
+      },
+      "Mesh": {
+        "ObjectName": "SkeletalMeshComponentBudgeted'Default__BP_Psittacosaurus_Plains_C:CharacterMesh0'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Psittacosaurus/BP_Psittacosaurus_Plains.29"
+      },
+      "CharacterMovement": {
+        "ObjectName": "TIDinosaurMovementComponent'Default__BP_Psittacosaurus_Plains_C:CharMoveComp'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Psittacosaurus/BP_Psittacosaurus_Plains.38"
+      },
+      "CapsuleComponent": {
+        "ObjectName": "CapsuleComponent'Default__BP_Psittacosaurus_Plains_C:CollisionCylinder'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Psittacosaurus/BP_Psittacosaurus_Plains.8"
+      },
+      "RootComponent": {
+        "ObjectName": "CapsuleComponent'Default__BP_Psittacosaurus_Plains_C:CollisionCylinder'",
+        "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Psittacosaurus/BP_Psittacosaurus_Plains.8"
       }
     }
   },
@@ -910,7 +1006,7 @@
         "ObjectName": "SceneComponent'BP_Psittacosaurus_Plains_C:DefaultSceneRoot_GEN_VARIABLE'",
         "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Psittacosaurus/BP_Psittacosaurus_Plains.21"
       },
-      "VariableGUID": "3C99B2FF-43E4D529-2C66DB9F-FE39222E",
+      "VariableGuid": "3C99B2FF-43E4D529-2C66DB9F-FE39222E",
       "InternalVariableName": "DefaultSceneRoot"
     }
   },
@@ -1192,7 +1288,7 @@
       },
       "ParentComponentOrVariableName": "CollisionCylinder",
       "bIsParentComponentNative": true,
-      "VariableGUID": "D48811DC-4063BDDE-7B007D8A-2A6FBE34",
+      "VariableGuid": "D48811DC-4063BDDE-7B007D8A-2A6FBE34",
       "InternalVariableName": "PouncebleTestArea_0"
     }
   },
@@ -1280,7 +1376,7 @@
         ],
         "bHasValidCookedData": true
       },
-      "VariableGUID": "DFBB8AB3-41BA12C7-D1E414A1-9158C83D",
+      "VariableGuid": "DFBB8AB3-41BA12C7-D1E414A1-9158C83D",
       "InternalVariableName": "BP_FluidImplementation1"
     }
   },

@@ -2095,13 +2095,231 @@
         "ObjectName": "BlendSpace'BS_Galliminus_Adult_Jumping'",
         "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Gallimimus/Animations/BS_Galliminus_Adult_Jumping.0"
       },
-      "LookYaw": 1.540979E-33,
-      "LookYawInterpSpeed": 6.019817E-36,
-      "HeadtrackingForwardSnapAngle": 750.0,
-      "OwnerAbilityState": "EAbilityState::250",
-      "CurrentSkeleton": null,
-      "RootMotionMode": "ERootMotionMode::5"
-    }
+      "Juvenile": {
+        "Standing": {
+          "Uninjured": {
+            "Walk": {
+              "Speed": 750.0,
+              "Length": 0.666
+            },
+            "Trot": {
+              "Speed": 1216.0,
+              "Length": 0.5
+            },
+            "Sprint": {
+              "Speed": 5880.0,
+              "Length": 0.333
+            }
+          },
+          "InjuredLeg": {
+            "Walk": {
+              "Speed": 750.0,
+              "Length": 0.666
+            },
+            "Trot": {
+              "Speed": 1216.0,
+              "Length": 0.5
+            },
+            "Sprint": {
+              "Speed": 5880.0,
+              "Length": 0.333
+            }
+          },
+          "InjuredBody": {
+            "Walk": {
+              "Speed": 750.0,
+              "Length": 0.666
+            },
+            "Trot": {
+              "Speed": 1216.0,
+              "Length": 0.5
+            },
+            "Sprint": {
+              "Speed": 5880.0,
+              "Length": 0.333
+            }
+          },
+          "InjuredLegsAndBody": {
+            "Walk": {
+              "Speed": 750.0,
+              "Length": 0.666
+            },
+            "Trot": {
+              "Speed": 1216.0,
+              "Length": 0.5
+            },
+            "Sprint": {
+              "Speed": 5880.0,
+              "Length": 0.333
+            }
+          }
+        },
+        "Crouched": {
+          "Uninjured": {
+            "Walk": {
+              "Speed": 750.0,
+              "Length": 0.666
+            },
+            "Trot": {
+              "Speed": 1216.0,
+              "Length": 0.666
+            },
+            "Sprint": {
+              "Speed": 5880.0,
+              "Length": 0.666
+            }
+          }
+        }
+      },
+      "Subadult": {
+        "Standing": {
+          "Uninjured": {
+            "Walk": {
+              "Speed": 100.0,
+              "Length": 1.0
+            },
+            "Trot": {
+              "Speed": 200.0,
+              "Length": 1.0
+            },
+            "Sprint": {
+              "Speed": 400.0,
+              "Length": 1.0
+            }
+          }
+        },
+        "Crouched": {
+          "Uninjured": {
+            "Walk": {
+              "Speed": 100.0,
+              "Length": 1.0
+            },
+            "Trot": {
+              "Speed": 100.0,
+              "Length": 1.0
+            },
+            "Sprint": {
+              "Speed": 100.0,
+              "Length": 1.0
+            }
+          },
+          "InjuredLeg": {
+            "Walk": {
+              "Speed": 100.0,
+              "Length": 1.0
+            },
+            "Trot": {
+              "Speed": 100.0,
+              "Length": 1.0
+            },
+            "Sprint": {
+              "Speed": 100.0,
+              "Length": 1.0
+            }
+          },
+          "InjuredBody": {
+            "Walk": {
+              "Speed": 100.0,
+              "Length": 1.0
+            },
+            "Trot": {
+              "Speed": 100.0,
+              "Length": 1.0
+            },
+            "Sprint": {
+              "Speed": 100.0,
+              "Length": 1.0
+            }
+          },
+          "InjuredLegsAndBody": {
+            "Walk": {
+              "Speed": 100.0,
+              "Length": 1.0
+            },
+            "Trot": {
+              "Speed": 100.0,
+              "Length": 1.0
+            },
+            "Sprint": {
+              "Speed": 100.0,
+              "Length": 1.0
+            }
+          }
+        }
+      },
+      "LoopsInGrazeAnimation": 2,
+      "LookYawLimit": 150.0,
+      "HeadtrackBlockingAbilityStates": [
+        "AS_Swallowing",
+        "AS_DraggingCorpseL",
+        "AS_DraggingCorpseR",
+        "AS_Use",
+        "AS_Eat",
+        "AS_Drink",
+        "AS_Interacting",
+        "AS_Sleeping",
+        "AS_Blinded",
+        "AS_PounceAttackingSmall",
+        "AS_PounceAttackingBig",
+        "AS_PounceStarted",
+        "AS_PounceStartedSprint",
+        "AS_PouncedHitBig"
+      ],
+      "Adult": {
+        "Standing": {
+          "Uninjured": {
+            "Walk": {
+              "Speed": 225.0,
+              "Length": 1.333
+            },
+            "Trot": {
+              "Speed": 1000.0,
+              "Length": 0.9
+            },
+            "Sprint": {
+              "Speed": 1764.0,
+              "Length": 0.5666
+            }
+          },
+          "InjuredLeg": {
+            "Trot": {
+              "Speed": 255.0,
+              "Length": 0.83
+            }
+          },
+          "InjuredBody": {
+            "Trot": {
+              "Speed": 365.0,
+              "Length": 0.83
+            }
+          },
+          "InjuredLegsAndBody": {
+            "Trot": {
+              "Speed": 255.0,
+              "Length": 0.83
+            }
+          }
+        },
+        "Crouched": {
+          "Uninjured": {
+            "Walk": {
+              "Speed": 225.0,
+              "Length": 1.333
+            },
+            "Trot": {
+              "Speed": 1000.0,
+              "Length": 1.333
+            },
+            "Sprint": {
+              "Speed": 1764.0,
+              "Length": 1.333
+            }
+          }
+        }
+      }
+    },
+    "SerializedSparseClassDataStruct": "ScriptStruct'/Game/TheIsle/Core/Characters/Dinosaurs/Gallimimus/ABP_Gallimimus.ABP_Gallimimus_C:AnimBlueprintGeneratedConstantData'",
+    "SerializedSparseClassData": {}
   },
   {
     "Type": "AnimBlueprintGeneratedClass",

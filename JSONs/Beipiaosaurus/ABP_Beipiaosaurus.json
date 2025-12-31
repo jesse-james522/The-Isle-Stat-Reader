@@ -2437,14 +2437,193 @@
         "ObjectName": "BlendSpace'BS_Beipiaosaurus_Adult_Jumping'",
         "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Beipiaosaurus/Animations/BS_Beipiaosaurus_Adult_Jumping.0"
       },
+      "bUseFullBodyUnderwaterVocals": true,
+      "bUseFullBodySurfaceVocals": true,
+      "bUseFullBodySurfaceSwallow": true,
       "bUseJumpDive": true,
-      "bIsJumpDiving": true,
-      "bHasDoubleJumped": true,
-      "bIsCancelingSidewaysLatch": true,
-      "LookYaw": 3.762156E-37,
-      "LookYawInterpSpeed": 6.019817E-36,
-      "RootMotionMode": "ERootMotionMode::NoRootMotionExtraction"
-    }
+      "Juvenile": {
+        "Standing": {
+          "Uninjured": {
+            "Walk": {
+              "Speed": 188.0,
+              "Length": 0.533
+            },
+            "Trot": {
+              "Speed": 415.0,
+              "Length": 0.433
+            },
+            "Sprint": {
+              "Speed": 975.0,
+              "Length": 0.533
+            }
+          }
+        },
+        "Crouched": {
+          "Uninjured": {
+            "Walk": {
+              "Speed": 188.0,
+              "Length": 0.5333
+            },
+            "Trot": {
+              "Speed": 415.0,
+              "Length": 0.5333
+            },
+            "Sprint": {
+              "Speed": 975.0,
+              "Length": 0.5333
+            }
+          },
+          "InjuredLeg": {
+            "Walk": {
+              "Speed": 188.0,
+              "Length": 0.5333
+            },
+            "Trot": {
+              "Speed": 188.0,
+              "Length": 0.5333
+            },
+            "Sprint": {
+              "Speed": 188.0,
+              "Length": 0.5333
+            }
+          },
+          "InjuredBody": {
+            "Walk": {
+              "Speed": 188.0,
+              "Length": 0.5333
+            },
+            "Trot": {
+              "Speed": 188.0,
+              "Length": 0.5333
+            },
+            "Sprint": {
+              "Speed": 188.0,
+              "Length": 0.5333
+            }
+          },
+          "InjuredLegsAndBody": {
+            "Walk": {
+              "Speed": 188.0,
+              "Length": 0.5333
+            },
+            "Trot": {
+              "Speed": 188.0,
+              "Length": 0.5333
+            },
+            "Sprint": {
+              "Speed": 188.0,
+              "Length": 0.5333
+            }
+          }
+        }
+      },
+      "Subadult": {
+        "Standing": {
+          "Uninjured": {
+            "Trot": {
+              "Speed": 200.0
+            },
+            "Sprint": {
+              "Speed": 400.0
+            }
+          }
+        },
+        "Crouched": {
+          "Uninjured": {
+            "Walk": {
+              "Speed": 188.0,
+              "Length": 0.533
+            },
+            "Trot": {
+              "Speed": 188.0,
+              "Length": 0.533
+            },
+            "Sprint": {
+              "Speed": 188.0,
+              "Length": 0.533
+            }
+          },
+          "InjuredLeg": {
+            "Walk": {
+              "Speed": 188.0,
+              "Length": 0.533
+            },
+            "Trot": {
+              "Speed": 188.0,
+              "Length": 0.533
+            },
+            "Sprint": {
+              "Speed": 188.0,
+              "Length": 0.533
+            }
+          },
+          "InjuredBody": {
+            "Walk": {
+              "Speed": 188.0,
+              "Length": 0.533
+            },
+            "Trot": {
+              "Speed": 188.0,
+              "Length": 0.533
+            },
+            "Sprint": {
+              "Speed": 188.0,
+              "Length": 0.533
+            }
+          },
+          "InjuredLegsAndBody": {
+            "Walk": {
+              "Speed": 188.0,
+              "Length": 0.533
+            },
+            "Trot": {
+              "Speed": 188.0,
+              "Length": 0.533
+            },
+            "Sprint": {
+              "Speed": 188.0,
+              "Length": 0.533
+            }
+          }
+        }
+      },
+      "Adult": {
+        "Standing": {
+          "Uninjured": {
+            "Walk": {
+              "Speed": 100.0,
+              "Length": 1.0
+            },
+            "Trot": {
+              "Speed": 288.0,
+              "Length": 0.7
+            },
+            "Sprint": {
+              "Speed": 780.0,
+              "Length": 0.4667
+            }
+          }
+        },
+        "Crouched": {
+          "Uninjured": {
+            "Walk": {
+              "Speed": 100.0,
+              "Length": 1.0
+            },
+            "Trot": {
+              "Speed": 288.0,
+              "Length": 1.0
+            },
+            "Sprint": {
+              "Speed": 780.0,
+              "Length": 1.0
+            }
+          }
+        }
+      }
+    },
+    "SerializedSparseClassDataStruct": "ScriptStruct'/Game/TheIsle/Core/Characters/Dinosaurs/Beipiaosaurus/ABP_Beipiaosaurus.ABP_Beipiaosaurus_C:AnimBlueprintGeneratedConstantData'",
+    "SerializedSparseClassData": {}
   },
   {
     "Type": "AnimBlueprintGeneratedClass",
@@ -42045,7 +42224,7 @@
               "Inst": "EX_ObjectConst",
               "Value": {
                 "ObjectName": "NiagaraSystem'NS_LargeFootstepSplash_01'",
-                "ObjectPath": "/Game/TheIsle/VFX/AmbientVFX/Water/Niagara/NS_LargeFootstepSplash_01.34"
+                "ObjectPath": "/Game/TheIsle/VFX/AmbientVFX/Water/Niagara/NS_LargeFootstepSplash_01.0"
               }
             },
             {
@@ -42618,7 +42797,7 @@
               "Inst": "EX_ObjectConst",
               "Value": {
                 "ObjectName": "NiagaraSystem'NS_BeipiBubbleTrail'",
-                "ObjectPath": "/Game/TheIsle/VFX/Charactervfx/Niagara/NS_BeipiBubbleTrail.7"
+                "ObjectPath": "/Game/TheIsle/VFX/Charactervfx/Niagara/NS_BeipiBubbleTrail.0"
               }
             },
             {
@@ -43780,7 +43959,7 @@
               "Inst": "EX_ObjectConst",
               "Value": {
                 "ObjectName": "NiagaraSystem'NS_LargeFootstepSplash_01'",
-                "ObjectPath": "/Game/TheIsle/VFX/AmbientVFX/Water/Niagara/NS_LargeFootstepSplash_01.34"
+                "ObjectPath": "/Game/TheIsle/VFX/AmbientVFX/Water/Niagara/NS_LargeFootstepSplash_01.0"
               }
             },
             {

@@ -1483,8 +1483,27 @@
         "ObjectName": "AnimSequence'A_Psittacosaurus_Adult_Pinned_Loop_Nomovement'",
         "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Psittacosaurus/Animations/A_Psittacosaurus_Adult_Pinned_Loop_Nomovement.0"
       },
-      "RootMotionMode": "ERootMotionMode::NoRootMotionExtraction"
-    }
+      "Adult": {
+        "Standing": {
+          "Uninjured": {
+            "Walk": {
+              "Speed": 77.5,
+              "Length": 0.8
+            },
+            "Trot": {
+              "Speed": 195.0,
+              "Length": 0.6666
+            },
+            "Sprint": {
+              "Speed": 350.0,
+              "Length": 0.5333
+            }
+          }
+        }
+      }
+    },
+    "SerializedSparseClassDataStruct": "ScriptStruct'/Game/TheIsle/Core/Characters/Dinosaurs/Psittacosaurus/ABP_Psittacosaurus.ABP_Psittacosaurus_C:AnimBlueprintGeneratedConstantData'",
+    "SerializedSparseClassData": {}
   },
   {
     "Type": "AnimBlueprintGeneratedClass",

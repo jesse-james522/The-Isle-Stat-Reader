@@ -47,59 +47,59 @@
           "ResponseArray": [
             {
               "Channel": "Visibility",
-              "Response": "ECollisionResponse::ECR_Overlap"
+              "Response": "ECR_Overlap"
             },
             {
               "Channel": "Camera",
-              "Response": "ECollisionResponse::ECR_Overlap"
+              "Response": "ECR_Overlap"
             },
             {
               "Channel": "PhysicsBody",
-              "Response": "ECollisionResponse::ECR_Ignore"
+              "Response": "ECR_Ignore"
             },
             {
               "Channel": "Vehicle",
-              "Response": "ECollisionResponse::ECR_Ignore"
+              "Response": "ECR_Ignore"
             },
             {
               "Channel": "Destructible",
-              "Response": "ECollisionResponse::ECR_Ignore"
+              "Response": "ECR_Ignore"
             },
             {
               "Channel": "TinyCollision",
-              "Response": "ECollisionResponse::ECR_Overlap"
+              "Response": "ECR_Overlap"
             },
             {
               "Channel": "SmallCollision",
-              "Response": "ECollisionResponse::ECR_Overlap"
+              "Response": "ECR_Overlap"
             },
             {
               "Channel": "MediumCollision",
-              "Response": "ECollisionResponse::ECR_Overlap"
+              "Response": "ECR_Overlap"
             },
             {
               "Channel": "LargeCollision",
-              "Response": "ECollisionResponse::ECR_Overlap"
+              "Response": "ECR_Overlap"
             },
             {
               "Channel": "WeatherCamera",
-              "Response": "ECollisionResponse::ECR_Overlap"
+              "Response": "ECR_Overlap"
             },
             {
               "Channel": "Detector",
-              "Response": "ECollisionResponse::ECR_Overlap"
+              "Response": "ECR_Overlap"
             },
             {
               "Channel": "Pawn",
-              "Response": "ECollisionResponse::ECR_Ignore"
+              "Response": "ECR_Ignore"
             },
             {
               "Channel": "WorldDynamic",
-              "Response": "ECollisionResponse::ECR_Ignore"
+              "Response": "ECR_Ignore"
             },
             {
               "Channel": "WorldStatic",
-              "Response": "ECollisionResponse::ECR_Ignore"
+              "Response": "ECR_Ignore"
             }
           ]
         }
@@ -127,11 +127,11 @@
       },
       "DirtHitFix": {
         "ObjectName": "NiagaraSystem'NS_DigDirtVFX'",
-        "ObjectPath": "/Game/TheIsle/VFX/Charactervfx/Niagara/NS_DigDirtVFX.19"
+        "ObjectPath": "/Game/TheIsle/VFX/Charactervfx/Niagara/NS_DigDirtVFX.0"
       },
       "DestroyedHitFx": {
         "ObjectName": "NiagaraSystem'NS_ImpactDirt_Large'",
-        "ObjectPath": "/Game/TheIsle/VFX/Impact/Niagara/Footstep/NS_ImpactDirt_Large.18"
+        "ObjectPath": "/Game/TheIsle/VFX/Impact/Niagara/Footstep/NS_ImpactDirt_Large.0"
       },
       "bReplicates": true,
       "NetUpdateFrequency": 5.0,
@@ -186,7 +186,7 @@
         "ObjectName": "SceneComponent'BP_PsittacosaurusBurrow_C:DefaultSceneRoot_GEN_VARIABLE'",
         "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Psittacosaurus/BP_PsittacosaurusBurrow.3"
       },
-      "VariableGUID": "114DBE3E-4AC72D2B-AF65DCBC-1AACEA09",
+      "VariableGuid": "114DBE3E-4AC72D2B-AF65DCBC-1AACEA09",
       "InternalVariableName": "DefaultSceneRoot"
     }
   },
@@ -216,33 +216,33 @@
       },
       "bGenerateOverlapEvents": false,
       "BodyInstance": {
-        "ObjectType": "ECollisionChannel::ECC_WorldStatic",
+        "ObjectType": "ECC_WorldStatic",
         "CollisionProfileName": "Custom",
         "CollisionResponses": {
           "ResponseArray": [
             {
               "Channel": "TinyCollision",
-              "Response": "ECollisionResponse::ECR_Block"
+              "Response": "ECR_Block"
             },
             {
               "Channel": "SmallCollision",
-              "Response": "ECollisionResponse::ECR_Block"
+              "Response": "ECR_Block"
             },
             {
               "Channel": "MediumCollision",
-              "Response": "ECollisionResponse::ECR_Block"
+              "Response": "ECR_Block"
             },
             {
               "Channel": "WeatherCamera",
-              "Response": "ECollisionResponse::ECR_Block"
+              "Response": "ECR_Block"
             },
             {
               "Channel": "Destructible",
-              "Response": "ECollisionResponse::ECR_Ignore"
+              "Response": "ECR_Ignore"
             },
             {
               "Channel": "Vehicle",
-              "Response": "ECollisionResponse::ECR_Ignore"
+              "Response": "ECR_Ignore"
             }
           ]
         }

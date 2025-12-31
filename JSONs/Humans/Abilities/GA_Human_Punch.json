@@ -1,0 +1,45 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "GA_Human_Punch_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Class'TIGameplayAbilityHumanPunch'",
+      "ObjectPath": "/Script/TheIsle"
+    },
+    "ClassFlags": "CLASS_CompiledFromBlueprint",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "GA_Human_Punch_C'Default__GA_Human_Punch_C'",
+      "ObjectPath": "/Game/TheIsle/Core/Characters/Humans/Abilities/GA_Human_Punch.1"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "GA_Human_Punch_C",
+    "Name": "Default__GA_Human_Punch_C",
+    "Class": "BlueprintGeneratedClass'/Game/TheIsle/Core/Characters/Humans/Abilities/GA_Human_Punch.GA_Human_Punch_C'",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Montage": {
+        "ObjectName": "AnimMontage'AM_PunchHead_R_IP'",
+        "ObjectPath": "/Game/TheIsle/Characters/Humans/Animations/00_HumanProto_01/Ti_Manny/AM_PunchHead_R_IP.0"
+      },
+      "TraceTimes": [
+        0.25
+      ],
+      "bCanFish": false,
+      "FractureChance": 0.0,
+      "StaggerWeightLimitMult": 1.0156272E-34,
+      "bRamOnLock": false
+    }
+  }
+]

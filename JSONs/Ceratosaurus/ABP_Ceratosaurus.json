@@ -2057,15 +2057,196 @@
         "ObjectName": "BlendSpace'BS_Ceratosaurus_Adult_Jumping'",
         "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Ceratosaurus/Animations/BS_Ceratosaurus_Adult_Jumping.0"
       },
-      "LookYaw": 3.762156E-37,
-      "LookYawInterpSpeed": 6.019817E-36,
-      "Forward": {
-        "X": 0.007812502,
-        "Y": "Infinity",
-        "Z": 4.202906E+23
+      "Juvenile": {
+        "Standing": {
+          "Uninjured": {
+            "Walk": {
+              "Speed": 240.0,
+              "Length": 1.0
+            },
+            "Trot": {
+              "Speed": 720.0,
+              "Length": 0.666
+            },
+            "Sprint": {
+              "Speed": 1714.0,
+              "Length": 0.4666
+            }
+          }
+        },
+        "Crouched": {
+          "Uninjured": {
+            "Walk": {
+              "Speed": 220.0,
+              "Length": 1.533
+            },
+            "Trot": {
+              "Speed": 440.0,
+              "Length": 1.533
+            },
+            "Sprint": {
+              "Speed": 1000.0,
+              "Length": 1.533
+            }
+          },
+          "InjuredLeg": {
+            "Walk": {
+              "Speed": 220.0,
+              "Length": 1.0
+            },
+            "Trot": {
+              "Speed": 220.0,
+              "Length": 1.0
+            },
+            "Sprint": {
+              "Speed": 220.0,
+              "Length": 1.0
+            }
+          },
+          "InjuredBody": {
+            "Walk": {
+              "Speed": 220.0,
+              "Length": 1.0
+            },
+            "Trot": {
+              "Speed": 220.0,
+              "Length": 1.0
+            },
+            "Sprint": {
+              "Speed": 220.0,
+              "Length": 1.0
+            }
+          },
+          "InjuredLegsAndBody": {
+            "Walk": {
+              "Speed": 220.0,
+              "Length": 1.0
+            },
+            "Trot": {
+              "Speed": 220.0,
+              "Length": 1.0
+            },
+            "Sprint": {
+              "Speed": 220.0,
+              "Length": 1.0
+            }
+          }
+        }
       },
-      "RootMotionMode": "ERootMotionMode::50"
-    }
+      "Subadult": {
+        "Standing": {
+          "Uninjured": {
+            "Walk": {
+              "Speed": 100.0,
+              "Length": 1.0
+            },
+            "Trot": {
+              "Speed": 200.0,
+              "Length": 1.0
+            },
+            "Sprint": {
+              "Speed": 400.0,
+              "Length": 1.0
+            }
+          }
+        },
+        "Crouched": {
+          "Uninjured": {
+            "Walk": {
+              "Speed": 100.0,
+              "Length": 1.0
+            },
+            "Trot": {
+              "Speed": 100.0,
+              "Length": 1.0
+            },
+            "Sprint": {
+              "Speed": 100.0,
+              "Length": 1.0
+            }
+          },
+          "InjuredLeg": {
+            "Walk": {
+              "Speed": 100.0,
+              "Length": 1.0
+            },
+            "Trot": {
+              "Speed": 100.0,
+              "Length": 1.0
+            },
+            "Sprint": {
+              "Speed": 100.0,
+              "Length": 1.0
+            }
+          },
+          "InjuredBody": {
+            "Walk": {
+              "Speed": 100.0,
+              "Length": 1.0
+            },
+            "Trot": {
+              "Speed": 100.0,
+              "Length": 1.0
+            },
+            "Sprint": {
+              "Speed": 100.0,
+              "Length": 1.0
+            }
+          },
+          "InjuredLegsAndBody": {
+            "Walk": {
+              "Speed": 100.0,
+              "Length": 1.0
+            },
+            "Trot": {
+              "Speed": 100.0,
+              "Length": 1.0
+            },
+            "Sprint": {
+              "Speed": 100.0,
+              "Length": 1.0
+            }
+          }
+        }
+      },
+      "LookYawInterpSpeedFast": 540.0,
+      "Adult": {
+        "Standing": {
+          "Uninjured": {
+            "Walk": {
+              "Speed": 220.0,
+              "Length": 1.5333
+            },
+            "Trot": {
+              "Speed": 440.0,
+              "Length": 1.1333
+            },
+            "Sprint": {
+              "Speed": 1000.0,
+              "Length": 0.8
+            }
+          }
+        },
+        "Crouched": {
+          "Uninjured": {
+            "Walk": {
+              "Speed": 220.0,
+              "Length": 1.533
+            },
+            "Trot": {
+              "Speed": 440.0,
+              "Length": 1.533
+            },
+            "Sprint": {
+              "Speed": 1000.0,
+              "Length": 1.533
+            }
+          }
+        }
+      }
+    },
+    "SerializedSparseClassDataStruct": "ScriptStruct'/Game/TheIsle/Core/Characters/Dinosaurs/Ceratosaurus/ABP_Ceratosaurus.ABP_Ceratosaurus_C:AnimBlueprintGeneratedConstantData'",
+    "SerializedSparseClassData": {}
   },
   {
     "Type": "AnimBlueprintGeneratedClass",

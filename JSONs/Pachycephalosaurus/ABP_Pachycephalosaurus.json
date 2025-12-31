@@ -1978,11 +1978,112 @@
         "ObjectName": "BlendSpace'BS_Pachycephalosaurus_Adult_Jumping'",
         "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Pachycephalosaurus/Animations/BS_Pachycephalosaurus_Adult_Jumping.0"
       },
-      "LookYaw": 3.762156E-37,
-      "LookYawInterpSpeed": 6.019817E-36,
-      "HeadtrackingForwardSnapAngle": 275.0,
-      "RootMotionMode": "ERootMotionMode::195"
-    }
+      "Juvenile": {
+        "Standing": {
+          "Uninjured": {
+            "Walk": {
+              "Speed": 275.0,
+              "Length": 0.66
+            },
+            "Trot": {
+              "Speed": 550.0,
+              "Length": 0.5
+            },
+            "Sprint": {
+              "Speed": 2500.0,
+              "Length": 0.333
+            }
+          }
+        },
+        "Crouched": {
+          "Uninjured": {
+            "Walk": {
+              "Speed": 275.0,
+              "Length": 0.666
+            },
+            "Trot": {
+              "Speed": 550.0,
+              "Length": 0.666
+            },
+            "Sprint": {
+              "Speed": 2500.0,
+              "Length": 0.666
+            }
+          }
+        }
+      },
+      "Subadult": {
+        "Standing": {
+          "Uninjured": {
+            "Walk": {
+              "Speed": 275.0,
+              "Length": 0.666
+            },
+            "Trot": {
+              "Speed": 550.0,
+              "Length": 0.5
+            },
+            "Sprint": {
+              "Speed": 2500.0,
+              "Length": 0.333
+            }
+          }
+        },
+        "Crouched": {
+          "Uninjured": {
+            "Walk": {
+              "Speed": 275.0,
+              "Length": 0.666
+            },
+            "Trot": {
+              "Speed": 550.0,
+              "Length": 0.666
+            },
+            "Sprint": {
+              "Speed": 2500.0,
+              "Length": 0.666
+            }
+          }
+        }
+      },
+      "LoopsInGrazeAnimation": 3,
+      "Adult": {
+        "Standing": {
+          "Uninjured": {
+            "Walk": {
+              "Speed": 160.0,
+              "Length": 1.6
+            },
+            "Trot": {
+              "Speed": 400.0,
+              "Length": 1.0
+            },
+            "Sprint": {
+              "Speed": 916.0,
+              "Length": 0.73333
+            }
+          }
+        },
+        "Crouched": {
+          "Uninjured": {
+            "Walk": {
+              "Speed": 160.0,
+              "Length": 1.6
+            },
+            "Trot": {
+              "Speed": 400.0,
+              "Length": 1.6
+            },
+            "Sprint": {
+              "Speed": 916.0,
+              "Length": 1.6
+            }
+          }
+        }
+      }
+    },
+    "SerializedSparseClassDataStruct": "ScriptStruct'/Game/TheIsle/Core/Characters/Dinosaurs/Pachycephalosaurus/ABP_Pachycephalosaurus.ABP_Pachycephalosaurus_C:AnimBlueprintGeneratedConstantData'",
+    "SerializedSparseClassData": {}
   },
   {
     "Type": "AnimBlueprintGeneratedClass",

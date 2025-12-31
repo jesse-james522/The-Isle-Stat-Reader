@@ -1534,7 +1534,7 @@
     "Properties": {
       "Asset": {
         "ObjectName": "NiagaraSystem'NS_HypsiStreamSpit_01'",
-        "ObjectPath": "/Game/TheIsle/VFX/Charactervfx/Hypsi/NiagaraSystem/NS_HypsiStreamSpit_01.18"
+        "ObjectPath": "/Game/TheIsle/VFX/Charactervfx/Hypsi/NiagaraSystem/NS_HypsiStreamSpit_01.0"
       },
       "OverrideParameters": {},
       "bAutoActivate": false
@@ -1573,7 +1573,7 @@
         "ObjectName": "SceneComponent'BP_HypsilophodonSpit_C:DefaultSceneRoot_GEN_VARIABLE'",
         "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Hypsilophodon/BP_HypsilophodonSpit.10"
       },
-      "VariableGUID": "613A51C0-4EF7412A-7D4EAA8F-6671FEE8",
+      "VariableGuid": "613A51C0-4EF7412A-7D4EAA8F-6671FEE8",
       "InternalVariableName": "DefaultSceneRoot"
     }
   },
@@ -1615,7 +1615,7 @@
       },
       "ParentComponentOrVariableName": "Collider",
       "bIsParentComponentNative": true,
-      "VariableGUID": "BACA36B8-4B98E802-961E15A6-163D38B5",
+      "VariableGuid": "BACA36B8-4B98E802-961E15A6-163D38B5",
       "InternalVariableName": "Niagara"
     }
   },

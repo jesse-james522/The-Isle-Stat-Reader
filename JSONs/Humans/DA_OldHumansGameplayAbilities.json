@@ -1,0 +1,79 @@
+[
+  {
+    "Type": "TIGameplayAbilitySet",
+    "Name": "DA_OldHumansGameplayAbilities",
+    "Class": "UScriptClass'TIGameplayAbilitySet'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Abilities": [
+        {
+          "Command": "ETIGameplayAbilityInputBinds::PrimaryAttack",
+          "GameplayAbilityClass": {
+            "ObjectName": "BlueprintGeneratedClass'GA_Human_Punch_C'",
+            "ObjectPath": "/Game/TheIsle/Core/Characters/Humans/Abilities/GA_Human_Punch.0"
+          }
+        },
+        {
+          "Command": "ETIGameplayAbilityInputBinds::SecondaryAttack",
+          "GameplayAbilityClass": {
+            "ObjectName": "BlueprintGeneratedClass'GA_Human_Kick_C'",
+            "ObjectPath": "/Game/TheIsle/Core/Characters/Humans/Abilities/GA_Human_Kick.0"
+          }
+        },
+        {
+          "Command": "ETIGameplayAbilityInputBinds::Use",
+          "GameplayAbilityClass": null
+        },
+        {
+          "Command": "ETIGameplayAbilityInputBinds::Rest",
+          "GameplayAbilityClass": {
+            "ObjectName": "BlueprintGeneratedClass'GA_Rest_C'",
+            "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/GA_Rest.0"
+          }
+        },
+        {
+          "Command": "ETIGameplayAbilityInputBinds::None",
+          "GameplayAbilityClass": {
+            "ObjectName": "BlueprintGeneratedClass'GA_PlayTagAnim_C'",
+            "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/GA_PlayTagAnim.0"
+          }
+        },
+        {
+          "Command": "ETIGameplayAbilityInputBinds::PickupBody",
+          "GameplayAbilityClass": {
+            "ObjectName": "BlueprintGeneratedClass'GA_PickupBase_C'",
+            "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/PickUp/GA_PickupBase.0"
+          }
+        },
+        {
+          "Command": "ETIGameplayAbilityInputBinds::Use",
+          "GameplayAbilityClass": {
+            "ObjectName": "BlueprintGeneratedClass'GA_Blind_C'",
+            "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/GA_Blind.0"
+          }
+        },
+        {
+          "Command": "ETIGameplayAbilityInputBinds::Use",
+          "GameplayAbilityClass": {
+            "ObjectName": "BlueprintGeneratedClass'GA_Swallow_C'",
+            "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/GA_Swallow.0"
+          }
+        },
+        {
+          "Command": "ETIGameplayAbilityInputBinds::Use",
+          "GameplayAbilityClass": {
+            "ObjectName": "BlueprintGeneratedClass'GA_Eat_C'",
+            "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/GA_Eat.0"
+          }
+        },
+        {
+          "Command": "ETIGameplayAbilityInputBinds::Use",
+          "GameplayAbilityClass": {
+            "ObjectName": "BlueprintGeneratedClass'GA_Drink_C'",
+            "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Abilities/GA_Drink.0"
+          }
+        }
+      ]
+    }
+  }
+]

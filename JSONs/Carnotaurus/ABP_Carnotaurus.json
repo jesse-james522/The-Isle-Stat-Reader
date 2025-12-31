@@ -2044,11 +2044,170 @@
         "ObjectName": "AnimSequence'A_Carnotaurus_Adult_TurnR180_Downward'",
         "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Carnotaurus/Animations/A_Carnotaurus_Adult_TurnR180_Downward.0"
       },
-      "LookYaw": 3.762156E-37,
-      "LookYawInterpSpeed": 6.019817E-36,
-      "CurrentSkeleton": null,
-      "RootMotionMode": "ERootMotionMode::250"
-    }
+      "Juvenile": {
+        "Standing": {
+          "Uninjured": {
+            "Walk": {
+              "Speed": 420.0,
+              "Length": 0.666
+            },
+            "Trot": {
+              "Speed": 600.0,
+              "Length": 1.0
+            },
+            "Sprint": {
+              "Speed": 4750.0,
+              "Length": 0.666
+            }
+          }
+        },
+        "Crouched": {
+          "Uninjured": {
+            "Walk": {
+              "Speed": 180.0,
+              "Length": 1.5
+            },
+            "Trot": {
+              "Speed": 550.0,
+              "Length": 1.5
+            },
+            "Sprint": {
+              "Speed": 1711.0,
+              "Length": 1.5
+            }
+          }
+        }
+      },
+      "Subadult": {
+        "Standing": {
+          "Uninjured": {
+            "Walk": {
+              "Speed": 100.0,
+              "Length": 1.0
+            },
+            "Trot": {
+              "Speed": 200.0,
+              "Length": 1.0
+            },
+            "Sprint": {
+              "Speed": 400.0,
+              "Length": 1.0
+            }
+          }
+        },
+        "Crouched": {
+          "Uninjured": {
+            "Walk": {
+              "Speed": 100.0,
+              "Length": 1.0
+            },
+            "Trot": {
+              "Speed": 100.0,
+              "Length": 1.0
+            },
+            "Sprint": {
+              "Speed": 100.0,
+              "Length": 1.0
+            }
+          },
+          "InjuredLeg": {
+            "Walk": {
+              "Speed": 100.0,
+              "Length": 1.0
+            },
+            "Trot": {
+              "Speed": 100.0,
+              "Length": 1.0
+            },
+            "Sprint": {
+              "Speed": 100.0,
+              "Length": 1.0
+            }
+          },
+          "InjuredBody": {
+            "Walk": {
+              "Speed": 100.0,
+              "Length": 1.0
+            },
+            "Trot": {
+              "Speed": 100.0,
+              "Length": 1.0
+            },
+            "Sprint": {
+              "Speed": 100.0,
+              "Length": 1.0
+            }
+          },
+          "InjuredLegsAndBody": {
+            "Walk": {
+              "Speed": 100.0,
+              "Length": 1.0
+            },
+            "Trot": {
+              "Speed": 100.0,
+              "Length": 1.0
+            },
+            "Sprint": {
+              "Speed": 100.0,
+              "Length": 1.0
+            }
+          }
+        }
+      },
+      "HeadtrackBlockingAbilityStates": [
+        "AS_Swallowing",
+        "AS_DraggingCorpseL",
+        "AS_DraggingCorpseR",
+        "AS_Use",
+        "AS_Eat",
+        "AS_Drink",
+        "AS_Interacting",
+        "AS_MAX",
+        "AS_Sleeping",
+        "AS_Blinded",
+        "AS_PounceAttackingSmall",
+        "AS_PounceAttackingBig",
+        "AS_PounceStarted",
+        "AS_PounceStartedSprint",
+        "AS_PouncedHitBig"
+      ],
+      "Adult": {
+        "Standing": {
+          "Uninjured": {
+            "Walk": {
+              "Speed": 180.0,
+              "Length": 1.5
+            },
+            "Trot": {
+              "Speed": 550.0,
+              "Length": 1.5
+            },
+            "Sprint": {
+              "Speed": 1711.0,
+              "Length": 1.5
+            }
+          }
+        },
+        "Crouched": {
+          "Uninjured": {
+            "Walk": {
+              "Speed": 180.0,
+              "Length": 1.5
+            },
+            "Trot": {
+              "Speed": 550.0,
+              "Length": 1.5
+            },
+            "Sprint": {
+              "Speed": 1711.0,
+              "Length": 1.5
+            }
+          }
+        }
+      }
+    },
+    "SerializedSparseClassDataStruct": "ScriptStruct'/Game/TheIsle/Core/Characters/Dinosaurs/Carnotaurus/ABP_Carnotaurus.ABP_Carnotaurus_C:AnimBlueprintGeneratedConstantData'",
+    "SerializedSparseClassData": {}
   },
   {
     "Type": "AnimBlueprintGeneratedClass",

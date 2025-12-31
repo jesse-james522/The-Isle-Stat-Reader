@@ -7,7 +7,7 @@
       "ObjectName": "ABP_Dinosaur_C'Default__ABP_Dinosaur_C'",
       "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/ABP_Dinosaur.0"
     },
-    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
     "Properties": {
       "UberGraphFrame": {},
       "AnimGraphNode_Trail_13": {
@@ -1654,11 +1654,137 @@
         "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Stegosaurus/Animations/A_Stegosaurus_Adult_Graze.0"
       },
       "UseBegTransitions": false,
-      "LookYaw": 1.5048624E-36,
-      "LookYawInterpSpeed": 9.630532E-35,
-      "HeadtrackingForwardSnapAngle": 1.794E-42,
-      "RootMotionMode": "ERootMotionMode::77"
-    }
+      "Juvenile": {
+        "Standing": {
+          "Uninjured": {
+            "Walk": {
+              "Speed": 205.0,
+              "Length": 1.333
+            },
+            "Trot": {
+              "Speed": 495.0,
+              "Length": 0.6667
+            },
+            "Sprint": {
+              "Speed": 1666.0,
+              "Length": 0.6
+            }
+          },
+          "InjuredLeg": {
+            "Sprint": {
+              "Speed": 990.0,
+              "Length": 0.333
+            }
+          },
+          "InjuredLegsAndBody": {
+            "Sprint": {
+              "Speed": 990.0,
+              "Length": 0.333
+            }
+          }
+        },
+        "Crouched": {
+          "Uninjured": {
+            "Walk": {
+              "Speed": 205.0,
+              "Length": 1.333
+            },
+            "Trot": {
+              "Speed": 205.0,
+              "Length": 1.333
+            },
+            "Sprint": {
+              "Speed": 205.0,
+              "Length": 1.333
+            }
+          }
+        }
+      },
+      "Subadult": {
+        "Standing": {
+          "Uninjured": {
+            "Walk": {
+              "Speed": 100.0,
+              "Length": 1.0
+            },
+            "Trot": {
+              "Speed": 200.0,
+              "Length": 1.0
+            },
+            "Sprint": {
+              "Speed": 400.0,
+              "Length": 1.0
+            }
+          }
+        },
+        "Crouched": {
+          "Uninjured": {
+            "Walk": {
+              "Speed": 100.0,
+              "Length": 1.0
+            },
+            "Trot": {
+              "Speed": 100.0,
+              "Length": 1.0
+            },
+            "Sprint": {
+              "Speed": 100.0,
+              "Length": 1.0
+            }
+          }
+        }
+      },
+      "LoopsInGrazeAnimation": 2,
+      "bRoundWalkingSpeedDelta": true,
+      "Adult": {
+        "Standing": {
+          "Uninjured": {
+            "Walk": {
+              "Speed": 124.0,
+              "Length": 2.0
+            },
+            "Trot": {
+              "Speed": 290.0,
+              "Length": 0.8
+            },
+            "Sprint": {
+              "Speed": 729.0,
+              "Length": 0.9333
+            }
+          },
+          "InjuredLeg": {
+            "Sprint": {
+              "Speed": 580.0,
+              "Length": 0.4
+            }
+          },
+          "InjuredLegsAndBody": {
+            "Sprint": {
+              "Speed": 580.0,
+              "Length": 0.4
+            }
+          }
+        },
+        "Crouched": {
+          "Uninjured": {
+            "Walk": {
+              "Speed": 124.0,
+              "Length": 2.0
+            },
+            "Trot": {
+              "Speed": 124.0,
+              "Length": 2.0
+            },
+            "Sprint": {
+              "Speed": 124.0,
+              "Length": 2.0
+            }
+          }
+        }
+      }
+    },
+    "SerializedSparseClassDataStruct": "ScriptStruct'/Game/TheIsle/Core/Characters/Dinosaurs/Stegosaurus/ABP_Stegosaurus.ABP_Stegosaurus_C:AnimBlueprintGeneratedConstantData'",
+    "SerializedSparseClassData": {}
   },
   {
     "Type": "AnimBlueprintGeneratedClass",

@@ -2928,12 +2928,155 @@
       "UseLatchUpJumpAnimation": true,
       "UseLatchSideJumpAnimations": true,
       "UseLatchSidewaysAnimations": true,
-      "bIsCancelingSidewaysLatch": true,
-      "SwimmingFloorProximity": 25.0,
-      "LookYaw": 3.762156E-37,
-      "LookYawInterpSpeed": 6.019817E-36,
-      "RootMotionMode": "ERootMotionMode::NoRootMotionExtraction"
-    }
+      "bUseJumpDive": true,
+      "InterpolatedVelocityPitchUpdateThreshold": 25.0,
+      "Juvenile": {
+        "Standing": {
+          "Uninjured": {
+            "Walk": {
+              "Speed": 135.0,
+              "Length": 1.0
+            },
+            "Trot": {
+              "Speed": 400.0,
+              "Length": 0.5
+            },
+            "Sprint": {
+              "Speed": 1500.0,
+              "Length": 0.333
+            }
+          }
+        },
+        "Crouched": {
+          "Uninjured": {
+            "Walk": {
+              "Speed": 135.0,
+              "Length": 1.0
+            },
+            "Trot": {
+              "Speed": 400.0,
+              "Length": 1.0
+            },
+            "Sprint": {
+              "Speed": 1500.0,
+              "Length": 1.0
+            }
+          }
+        }
+      },
+      "Subadult": {
+        "Standing": {
+          "Uninjured": {
+            "Walk": {
+              "Speed": 71.88,
+              "Length": 1.6
+            },
+            "Trot": {
+              "Speed": 300.0,
+              "Length": 0.666
+            },
+            "Sprint": {
+              "Speed": 839.22,
+              "Length": 0.5
+            }
+          }
+        },
+        "Crouched": {
+          "Uninjured": {
+            "Walk": {
+              "Speed": 98.3,
+              "Length": 1.6
+            },
+            "Trot": {
+              "Speed": 98.3,
+              "Length": 1.6
+            },
+            "Sprint": {
+              "Speed": 98.3,
+              "Length": 1.6
+            }
+          },
+          "InjuredLeg": {
+            "Walk": {
+              "Speed": 98.3,
+              "Length": 1.6
+            },
+            "Trot": {
+              "Speed": 98.3,
+              "Length": 1.6
+            },
+            "Sprint": {
+              "Speed": 98.3,
+              "Length": 1.6
+            }
+          },
+          "InjuredBody": {
+            "Walk": {
+              "Speed": 98.3,
+              "Length": 1.6
+            },
+            "Trot": {
+              "Speed": 98.3,
+              "Length": 1.6
+            },
+            "Sprint": {
+              "Speed": 98.3,
+              "Length": 1.6
+            }
+          },
+          "InjuredLegsAndBody": {
+            "Walk": {
+              "Speed": 98.3,
+              "Length": 1.6
+            },
+            "Trot": {
+              "Speed": 98.3,
+              "Length": 1.6
+            },
+            "Sprint": {
+              "Speed": 98.3,
+              "Length": 1.6
+            }
+          }
+        }
+      },
+      "Adult": {
+        "Standing": {
+          "Uninjured": {
+            "Walk": {
+              "Speed": 72.0,
+              "Length": 1.6
+            },
+            "Trot": {
+              "Speed": 300.0,
+              "Length": 0.666
+            },
+            "Sprint": {
+              "Speed": 839.0,
+              "Length": 0.5
+            }
+          }
+        },
+        "Crouched": {
+          "Uninjured": {
+            "Walk": {
+              "Speed": 72.0,
+              "Length": 1.6
+            },
+            "Trot": {
+              "Speed": 300.0,
+              "Length": 1.6
+            },
+            "Sprint": {
+              "Speed": 839.0,
+              "Length": 1.6
+            }
+          }
+        }
+      }
+    },
+    "SerializedSparseClassDataStruct": "ScriptStruct'/Game/TheIsle/Core/Characters/Dinosaurs/Herrerasaurus/ABP_Herrerasaurus.ABP_Herrerasaurus_C:AnimBlueprintGeneratedConstantData'",
+    "SerializedSparseClassData": {}
   },
   {
     "Type": "AnimBlueprintGeneratedClass",

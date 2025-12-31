@@ -2729,11 +2729,199 @@
         "ObjectName": "AnimSequence'A_Diabloceratops_Adult_Graze_Loop'",
         "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Diabloceratops/Animations/A_Diabloceratops_Adult_Graze_Loop.0"
       },
-      "LookYaw": 1.540979E-33,
-      "LookYawInterpSpeed": 6.019817E-36,
-      "HeadtrackingForwardSnapAngle": 121.0,
-      "RootMotionMode": "ERootMotionMode::51"
-    }
+      "Juvenile": {
+        "Standing": {
+          "Uninjured": {
+            "Walk": {
+              "Speed": 121.0,
+              "Length": 1.4
+            },
+            "Trot": {
+              "Speed": 350.0,
+              "Length": 1.033
+            },
+            "Sprint": {
+              "Speed": 810.0,
+              "Length": 0.6667
+            }
+          },
+          "InjuredLeg": {
+            "Walk": {
+              "Speed": 121.0,
+              "Length": 1.4
+            },
+            "Trot": {
+              "Speed": 350.0,
+              "Length": 1.033
+            },
+            "Sprint": {
+              "Speed": 700.0,
+              "Length": 0.33334
+            }
+          },
+          "InjuredBody": {
+            "Walk": {
+              "Speed": 121.0,
+              "Length": 4.0
+            },
+            "Trot": {
+              "Speed": 350.0,
+              "Length": 1.033
+            },
+            "Sprint": {
+              "Speed": 810.0,
+              "Length": 0.6667
+            }
+          },
+          "InjuredLegsAndBody": {
+            "Walk": {
+              "Speed": 121.0,
+              "Length": 1.4
+            },
+            "Trot": {
+              "Speed": 350.0,
+              "Length": 1.033
+            },
+            "Sprint": {
+              "Speed": 700.0,
+              "Length": 0.33334
+            }
+          }
+        },
+        "Crouched": {
+          "Uninjured": {
+            "Walk": {
+              "Speed": 100.0,
+              "Length": 1.4
+            },
+            "Trot": {
+              "Speed": 100.0,
+              "Length": 1.4
+            },
+            "Sprint": {
+              "Speed": 100.0,
+              "Length": 1.4
+            }
+          }
+        }
+      },
+      "Subadult": {
+        "Standing": {
+          "Uninjured": {
+            "Walk": {
+              "Speed": 100.0,
+              "Length": 1.0
+            },
+            "Trot": {
+              "Speed": 200.0,
+              "Length": 1.0
+            },
+            "Sprint": {
+              "Speed": 400.0,
+              "Length": 1.0
+            }
+          }
+        },
+        "Crouched": {
+          "Uninjured": {
+            "Walk": {
+              "Speed": 100.0,
+              "Length": 1.0
+            },
+            "Trot": {
+              "Speed": 100.0,
+              "Length": 1.0
+            },
+            "Sprint": {
+              "Speed": 100.0,
+              "Length": 1.0
+            }
+          }
+        }
+      },
+      "LoopsInGrazeAnimation": 3,
+      "Adult": {
+        "Standing": {
+          "Uninjured": {
+            "Walk": {
+              "Speed": 121.0,
+              "Length": 1.4
+            },
+            "Trot": {
+              "Speed": 350.0,
+              "Length": 1.0333
+            },
+            "Sprint": {
+              "Speed": 810.0,
+              "Length": 0.6667
+            }
+          },
+          "InjuredLeg": {
+            "Walk": {
+              "Speed": 121.0,
+              "Length": 1.4
+            },
+            "Trot": {
+              "Speed": 350.0,
+              "Length": 1.0333
+            },
+            "Sprint": {
+              "Speed": 700.0,
+              "Length": 0.51665
+            }
+          },
+          "InjuredBody": {
+            "Walk": {
+              "Speed": 121.0,
+              "Length": 1.4
+            },
+            "Trot": {
+              "Speed": 350.0,
+              "Length": 1.0333
+            },
+            "Sprint": {
+              "Speed": 810.0,
+              "Length": 0.6667
+            }
+          },
+          "InjuredLegsAndBody": {
+            "Walk": {
+              "Speed": 121.0,
+              "Length": 1.4
+            },
+            "Trot": {
+              "Speed": 350.0,
+              "Length": 1.0333
+            },
+            "Sprint": {
+              "Speed": 700.0,
+              "Length": 0.51665
+            }
+          }
+        },
+        "Crouched": {
+          "Uninjured": {
+            "Walk": {
+              "Speed": 100.0,
+              "Length": 1.4
+            },
+            "Trot": {
+              "Speed": 100.0,
+              "Length": 1.4
+            },
+            "Sprint": {
+              "Speed": 100.0,
+              "Length": 1.4
+            }
+          }
+        }
+      },
+      "FracturedWalkSpeedDeltaMult": 1.0,
+      "FracturedTrotSpeedDeltaMult": 1.5,
+      "FracturedSprintSpeedDeltaMult": 1.0
+    },
+    "SerializedSparseClassDataStruct": "ScriptStruct'/Game/TheIsle/Core/Characters/Dinosaurs/Diabloceratops/ABP_Diabloceratops.ABP_Diabloceratops_C:AnimBlueprintGeneratedConstantData'",
+    "SerializedSparseClassData": {}
   },
   {
     "Type": "AnimBlueprintGeneratedClass",

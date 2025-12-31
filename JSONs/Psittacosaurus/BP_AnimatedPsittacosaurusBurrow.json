@@ -103,59 +103,59 @@
           "ResponseArray": [
             {
               "Channel": "Visibility",
-              "Response": "ECollisionResponse::ECR_Overlap"
+              "Response": "ECR_Overlap"
             },
             {
               "Channel": "Camera",
-              "Response": "ECollisionResponse::ECR_Overlap"
+              "Response": "ECR_Overlap"
             },
             {
               "Channel": "PhysicsBody",
-              "Response": "ECollisionResponse::ECR_Overlap"
+              "Response": "ECR_Overlap"
             },
             {
               "Channel": "Vehicle",
-              "Response": "ECollisionResponse::ECR_Overlap"
+              "Response": "ECR_Overlap"
             },
             {
               "Channel": "Destructible",
-              "Response": "ECollisionResponse::ECR_Overlap"
+              "Response": "ECR_Overlap"
             },
             {
               "Channel": "TinyCollision",
-              "Response": "ECollisionResponse::ECR_Overlap"
+              "Response": "ECR_Overlap"
             },
             {
               "Channel": "SmallCollision",
-              "Response": "ECollisionResponse::ECR_Overlap"
+              "Response": "ECR_Overlap"
             },
             {
               "Channel": "MediumCollision",
-              "Response": "ECollisionResponse::ECR_Overlap"
+              "Response": "ECR_Overlap"
             },
             {
               "Channel": "LargeCollision",
-              "Response": "ECollisionResponse::ECR_Overlap"
+              "Response": "ECR_Overlap"
             },
             {
               "Channel": "WeatherCamera",
-              "Response": "ECollisionResponse::ECR_Overlap"
+              "Response": "ECR_Overlap"
             },
             {
               "Channel": "Detector",
-              "Response": "ECollisionResponse::ECR_Overlap"
+              "Response": "ECR_Overlap"
             },
             {
               "Channel": "WorldStatic",
-              "Response": "ECollisionResponse::ECR_Ignore"
+              "Response": "ECR_Ignore"
             },
             {
               "Channel": "WorldDynamic",
-              "Response": "ECollisionResponse::ECR_Ignore"
+              "Response": "ECR_Ignore"
             },
             {
               "Channel": "Pawn",
-              "Response": "ECollisionResponse::ECR_Ignore"
+              "Response": "ECR_Ignore"
             }
           ]
         }
@@ -187,11 +187,11 @@
       },
       "DirtHitFix": {
         "ObjectName": "NiagaraSystem'NS_DigDirtVFX'",
-        "ObjectPath": "/Game/TheIsle/VFX/Charactervfx/Niagara/NS_DigDirtVFX.19"
+        "ObjectPath": "/Game/TheIsle/VFX/Charactervfx/Niagara/NS_DigDirtVFX.0"
       },
       "DestroyedHitFx": {
         "ObjectName": "NiagaraSystem'NS_ImpactDirt_Large'",
-        "ObjectPath": "/Game/TheIsle/VFX/Impact/Niagara/Footstep/NS_ImpactDirt_Large.18"
+        "ObjectPath": "/Game/TheIsle/VFX/Impact/Niagara/Footstep/NS_ImpactDirt_Large.0"
       },
       "bReplicates": true,
       "RootComponent": {
@@ -964,7 +964,7 @@
         "ObjectName": "SceneComponent'BP_AnimatedPsittacosaurusBurrow_C:DefaultSceneRoot_GEN_VARIABLE'",
         "ObjectPath": "/Game/TheIsle/Core/Characters/Dinosaurs/Psittacosaurus/BP_AnimatedPsittacosaurusBurrow.6"
       },
-      "VariableGUID": "114DBE3E-4AC72D2B-AF65DCBC-1AACEA09",
+      "VariableGuid": "114DBE3E-4AC72D2B-AF65DCBC-1AACEA09",
       "InternalVariableName": "DefaultSceneRoot"
     }
   },
@@ -993,7 +993,7 @@
         "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/_Shared/Spawnables/Burrow/Mesh/SM_Burrow_Mound.2"
       },
       "BodyInstance": {
-        "ObjectType": "ECollisionChannel::ECC_WorldStatic",
+        "ObjectType": "ECC_WorldStatic",
         "CollisionProfileName": "Custom"
       },
       "AttachParent": {

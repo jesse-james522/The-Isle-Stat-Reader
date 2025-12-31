@@ -149,20 +149,9 @@
             "TangentWeightMode": "RCTWM_WeightedNone",
             "Time": 0.75,
             "Value": 889.0,
-            "ArriveTangent": 0.0,
+            "ArriveTangent": 267.50894,
             "ArriveTangentWeight": 0.0,
-            "LeaveTangent": 0.0,
-            "LeaveTangentWeight": 0.0
-          },
-          {
-            "InterpMode": "RCIM_Cubic",
-            "TangentMode": "RCTM_User",
-            "TangentWeightMode": "RCTWM_WeightedNone",
-            "Time": 0.875,
-            "Value": 978.0,
-            "ArriveTangent": 0.0,
-            "ArriveTangentWeight": 0.0,
-            "LeaveTangent": 0.0,
+            "LeaveTangent": 267.50894,
             "LeaveTangentWeight": 0.0
           },
           {
@@ -171,9 +160,9 @@
             "TangentWeightMode": "RCTWM_WeightedNone",
             "Time": 1.0,
             "Value": 820.0,
-            "ArriveTangent": -4096.216,
+            "ArriveTangent": -1597.9342,
             "ArriveTangentWeight": 0.0,
-            "LeaveTangent": -4096.216,
+            "LeaveTangent": -1597.9342,
             "LeaveTangentWeight": 0.0
           }
         ]
@@ -329,20 +318,9 @@
             "TangentWeightMode": "RCTWM_WeightedNone",
             "Time": 0.75,
             "Value": 889.0,
-            "ArriveTangent": 0.0,
+            "ArriveTangent": 267.50894,
             "ArriveTangentWeight": 0.0,
-            "LeaveTangent": 0.0,
-            "LeaveTangentWeight": 0.0
-          },
-          {
-            "InterpMode": "RCIM_Cubic",
-            "TangentMode": "RCTM_User",
-            "TangentWeightMode": "RCTWM_WeightedNone",
-            "Time": 0.875,
-            "Value": 978.0,
-            "ArriveTangent": 0.0,
-            "ArriveTangentWeight": 0.0,
-            "LeaveTangent": 0.0,
+            "LeaveTangent": 267.50894,
             "LeaveTangentWeight": 0.0
           },
           {
@@ -351,9 +329,9 @@
             "TangentWeightMode": "RCTWM_WeightedNone",
             "Time": 1.0,
             "Value": 820.0,
-            "ArriveTangent": -4096.216,
+            "ArriveTangent": -1597.9342,
             "ArriveTangentWeight": 0.0,
-            "LeaveTangent": -4096.216,
+            "LeaveTangent": -1597.9342,
             "LeaveTangentWeight": 0.0
           }
         ],

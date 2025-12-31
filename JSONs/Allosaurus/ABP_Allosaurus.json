@@ -2387,11 +2387,128 @@
         "ObjectName": "BlendSpace1D'BP_Allosaurus_Adult_JumpingHoriz'",
         "ObjectPath": "/Game/TheIsle/Characters/Dinosaurs/Allosaurus/Animations/BP_Allosaurus_Adult_JumpingHoriz.0"
       },
-      "LookYaw": 3.762156E-37,
-      "LookYawInterpSpeed": 6.019817E-36,
-      "CurrentSkeleton": null,
-      "RootMotionMode": "ERootMotionMode::102"
-    }
+      "Juvenile": {
+        "Standing": {
+          "Uninjured": {
+            "Walk": {
+              "Speed": 130.0,
+              "Length": 2.1
+            },
+            "Trot": {
+              "Speed": 303.0,
+              "Length": 1.28
+            },
+            "Sprint": {
+              "Speed": 3833.3333,
+              "Length": 0.465
+            }
+          }
+        },
+        "Crouched": {
+          "Uninjured": {
+            "Walk": {
+              "Speed": 130.0,
+              "Length": 2.1
+            },
+            "Trot": {
+              "Speed": 303.0,
+              "Length": 2.1
+            },
+            "Sprint": {
+              "Speed": 304.0,
+              "Length": 2.1
+            }
+          }
+        }
+      },
+      "Subadult": {
+        "Standing": {
+          "Uninjured": {
+            "Walk": {
+              "Speed": 130.0,
+              "Length": 2.1
+            },
+            "Trot": {
+              "Speed": 303.0,
+              "Length": 1.28
+            },
+            "Sprint": {
+              "Speed": 974.0,
+              "Length": 0.8
+            }
+          }
+        },
+        "Crouched": {
+          "Uninjured": {
+            "Walk": {
+              "Speed": 130.0,
+              "Length": 2.1
+            },
+            "Trot": {
+              "Speed": 303.0,
+              "Length": 2.1
+            },
+            "Sprint": {
+              "Speed": 304.0,
+              "Length": 2.1
+            }
+          }
+        }
+      },
+      "HeadtrackBlockingAbilityStates": [
+        "AS_Swallowing",
+        "AS_DraggingCorpseL",
+        "AS_DraggingCorpseR",
+        "AS_Use",
+        "AS_Eat",
+        "AS_Drink",
+        "AS_Interacting",
+        "AS_MAX",
+        "AS_Sleeping",
+        "AS_Blinded",
+        "AS_PounceAttackingSmall",
+        "AS_PounceAttackingBig",
+        "AS_PounceStarted",
+        "AS_PounceStartedSprint",
+        "AS_PouncedHitBig"
+      ],
+      "Adult": {
+        "Standing": {
+          "Uninjured": {
+            "Walk": {
+              "Speed": 130.0,
+              "Length": 2.1
+            },
+            "Trot": {
+              "Speed": 303.0,
+              "Length": 1.28
+            },
+            "Sprint": {
+              "Speed": 974.0,
+              "Length": 0.8
+            }
+          }
+        },
+        "Crouched": {
+          "Uninjured": {
+            "Walk": {
+              "Speed": 130.0,
+              "Length": 2.1
+            },
+            "Trot": {
+              "Speed": 303.0,
+              "Length": 2.1
+            },
+            "Sprint": {
+              "Speed": 304.0,
+              "Length": 2.1
+            }
+          }
+        }
+      }
+    },
+    "SerializedSparseClassDataStruct": "ScriptStruct'/Game/TheIsle/Core/Characters/Dinosaurs/Allosaurus/ABP_Allosaurus.ABP_Allosaurus_C:AnimBlueprintGeneratedConstantData'",
+    "SerializedSparseClassData": {}
   },
   {
     "Type": "AnimBlueprintGeneratedClass",
