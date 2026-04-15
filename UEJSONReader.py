@@ -12,6 +12,7 @@ import re
 from typing import Dict, List, Any, Tuple
 
 import tkinter as tk
+import tkinter.ttk as ttk
 from tkinter import Toplevel, Text, Scrollbar, END, filedialog, messagebox
 
 import matplotlib
@@ -187,25 +188,30 @@ class DataLoader:
         if not balance_data:
             return {}
 
+        # These aquatic/semi-aquatic dinos have a special dehydration mechanic:
+        # their effective thirst drain is ~66.7% of the bar, so multiply by 2/3.
+        AQUATIC_DINOS = {"Beipiaosaurus", "Deinosuchus"}
+        thirst_correction = (2 / 3) if dinosaur_name in AQUATIC_DINOS else 1.0
+
         try:
             rows = balance_data[0].get("Rows", {}) if isinstance(balance_data, list) and balance_data else (balance_data.get("Rows", {}) if isinstance(balance_data, dict) else {})
-            decay_stats = {
-                k: v.get("AttributePercentageValues") or v.get("AttributePercentageValue") or v.get("Value")
-                for k, v in rows.items()
-                if ("Decay" in k) and (k.startswith("Hunger.") or k.startswith("Thirst."))
-            }
 
-            for key, value in decay_stats.items():
-                if value is not None and value != 0:
-                    calculated_value = 100 / abs(value)
-                    if key == "Hunger.Decay":
-                        display_name = "Time to Starve (100%->0%)"
-                    elif key == "Thirst.Decay":
-                        # FIX: Syntaxfel åtgärdat i föregående steg
-                        display_name = "Time to Dehydrate (100%->0%)" 
-                    else:
-                        display_name = key.replace(".Decay", " Time")
-                    calculated_stats[display_name] = calculated_value
+            for key, row_val in rows.items():
+                if not isinstance(row_val, dict):
+                    continue
+                value = row_val.get("AttributePercentageValues") or row_val.get("AttributePercentageValue") or row_val.get("Value")
+                if value is None or value == 0:
+                    continue
+
+                if key == "Hunger.Decay":
+                    calculated_stats["Time to Starve (min)"] = (100 / abs(value)) * thirst_correction
+                elif key == "Thirst.Decay":
+                    calculated_stats["Time to Dehydrate (min)"] = (100 / abs(value)) * thirst_correction
+                elif key == "Oxygen.Decay":
+                    calculated_stats["Time Underwater (min)"] = 100 / abs(value)
+                elif key == "Stamina.Spending.Sprinting":
+                    calculated_stats["Sprint Duration (min)"] = 100 / abs(value)
+
         except Exception:
             return {}
         return calculated_stats
@@ -216,17 +222,23 @@ class DataLoader:
 
         time_points, values = self._interpolate_keys(keys, conversion_factor)
 
-        # --- Clamp to [0,1] to avoid overflow / MAXTICKS ---
-        if time_points:
-            time_points = [float(min(max(t, 0.0), 1.0)) for t in time_points]
+        if not time_points:
+            return [], []
+
+        # Constant pre-extrapolation to t=0 (mirrors UE's PreInfinityExtrap=RCCE_Constant)
+        if time_points[0] > 0.0:
+            time_points.insert(0, 0.0)
+            values.insert(0, values[0])
+
+        # Clamp lower bound to 0 (no negative times)
+        time_points = [float(max(t, 0.0)) for t in time_points]
 
         return time_points, values
 
     def _process_dual_curves(self, curve_data_list, conversion_factor):
-        """Processes senior + elder curves:
-           - Senior masked before 0.75
-           - Senior extended to 0.75 if needed
-           - Elder extended to 1.0 if needed
+        """Processes base + elder curves:
+           - Base (senior): shown from 0 to 0.75, truncated at 0.75
+           - Elder: shown from 0.75 to 1.0, extended to 1.0 if needed
         """
 
         if len(curve_data_list) < 2:
@@ -236,7 +248,7 @@ class DataLoader:
         values_list = []
 
         # -------------------------------------------------
-        # --------------------- SENIOR ---------------------
+        # --------------------- BASE (SENIOR) --------------
         # -------------------------------------------------
         senior = curve_data_list[0].get("Keys", [])
         t_s, v_s = self._get_interpolated_curve(senior, conversion_factor)
@@ -245,16 +257,7 @@ class DataLoader:
             ts = np.array(t_s, dtype=float)
             vs = np.array(v_s, dtype=float)
 
-            # --- Extend senior to 0.75 if needed ---
-            if ts[-1] < 0.75:
-                ts = np.append(ts, 0.75)
-                vs = np.append(vs, vs[-1])
-
-            # --- Mask region before 0.75 (AFTER extending) ---
-            mask = ts < 0.75
-            vs[mask] = np.nan
-
-            # --- Store ---
+            # Senior shows its full range (0 → 1.0+), no truncation at 0.75
             time_points_list.append(list(ts))
             values_list.append(list(vs))
 
@@ -268,10 +271,14 @@ class DataLoader:
             te = np.array(t_e, dtype=float)
             ve = np.array(v_e, dtype=float)
 
-            # ---- Extend elder to 1.0 ----
+            # ---- Extend elder to 1.0 if needed ----
             if te[-1] < 1.0:
                 te = np.append(te, 1.0)
                 ve = np.append(ve, ve[-1])
+
+            # --- Mask region before 0.75 so elder shows 0.75 → 1.0 ---
+            mask = te < 0.75
+            ve[mask] = np.nan
 
             time_points_list.append(list(te))
             values_list.append(list(ve))
@@ -306,7 +313,7 @@ class DataLoader:
             v2_raw = float(key2.get("Value", 0.0))
             m2_raw = float(key2.get("ArriveTangent", 0.0))
             
-            interp_mode = key2.get("InterpMode", "RCIM_Linear")
+            interp_mode = key1.get("InterpMode", "RCIM_Linear")
 
             if interp_mode == "RCIM_Cubic":
                 t_cubic, v_cubic_raw = calculate_cubic_segment(
@@ -361,25 +368,6 @@ class DataLoader:
 
     def get_plot_data(self, file_path: str, file_name: str) -> Tuple[List[List[float]], List[List[float]], str, str]:
         """Extracts and formats plot data from a file, applying conversions."""
-        
-        # ----------------------------------------------------------
-        # OUT-OF-BOUNDS FIX: Preload Beipiaosaurus weight BEFORE plotting
-        # ----------------------------------------------------------
-        try:
-            # Only apply to weight curves
-            if "weight" in name.lower():
-                # Root containing dino folders
-                root = self.data_loader.root_dir  
-
-                beip = os.path.join(root, "Beipiaosaurus", "Attributes", "ATT_Beipiaosaurus_Weight.json")
-
-                if os.path.exists(beip):
-                    # Load without plotting – this initializes axis scaling
-                    tp_pre, val_pre, _, _ = self.data_loader.get_plot_data(beip, "Preload_Beep")
-                    # Do nothing else – no plot, no UI action
-        except Exception:
-            pass
-
         
         file_data = self._get_json_data(file_path)
         if not file_data:
@@ -498,8 +486,10 @@ class OverlayPlotter:
     def __init__(self, master: tk.Tk):
         self.master = master
         self.windows: List[Dict] = []  # Track multiple windows
-        self.add_to_existing = tk.BooleanVar(master, value=True)  # toggle
-        
+        self._window_counter = 0
+        self.target_window_var = tk.StringVar(master, value="New Window")
+        self.on_windows_changed = None  # callback: () -> None
+
         # Variabler för vertikala linjer och X-axelns intervall
         self.show_elder_line = tk.BooleanVar(master, value=True)
         self.show_juvi_line = tk.BooleanVar(master, value=True)
@@ -576,7 +566,6 @@ class OverlayPlotter:
         remove_btn = tk.Button(static_control_frame, text="Remove Selected",
                                command=lambda d=win_dict_pre_init: self._remove_selected(d))
         remove_btn.pack(side='left')
-        tk.Checkbutton(static_control_frame, text="Add to Existing", variable=self.add_to_existing).pack(side='left', padx=10)
 
         # Scrollbart område för kryssrutorna (Curve Checkbuttons)
         # Använd en ram för att placera Canvas och Scrollbar korrekt
@@ -647,11 +636,16 @@ class OverlayPlotter:
             if win_dict in self.windows:
                 self.windows.remove(win_dict)
             win.destroy()
+            self._notify_windows_changed()
 
         win.protocol("WM_DELETE_WINDOW", on_close)
 
         self.windows.append(win_dict)
         return win_dict
+
+    def _notify_windows_changed(self):
+        if self.on_windows_changed:
+            self.on_windows_changed()
 
     def _update_vertical_lines(self, win_dict: Dict):
         """Draws or removes the Elder, Juvi, and Subadult vertical lines and updates legend."""
@@ -713,6 +707,13 @@ class OverlayPlotter:
             messagebox.showerror("Input Error", "Please enter a valid number (e.g., 0.05 or 1.0).")
             return
             
+        # Safety cap: don't let the user set an interval that generates > 20 ticks
+        xmin, xmax = ax.get_xlim()
+        x_range = xmax - xmin
+        if x_range > 0 and x_range / interval > 20:
+            interval = self._calculate_initial_y_step(x_range)
+            self.x_tick_entry_var.set(f"{interval}")
+
         ax.xaxis.set_major_locator(matplotlib.ticker.MultipleLocator(interval))
         canvas.draw_idle()
 
@@ -746,14 +747,22 @@ class OverlayPlotter:
     def _apply_y_ticks(self, win_dict: Dict):
         """Applies the Y-axis tick locator based on the current value in the entry field."""
         ax = win_dict['ax']
-        
+
         try:
             interval = float(self.y_tick_entry_var.get())
-            interval = max(0.01, interval) # Min value
+            interval = max(0.01, interval)
         except ValueError:
-            # Fallback if entry is empty or invalid
             interval = 1.0
-            
+
+        # Safety cap: never generate more than 200 ticks regardless of user input
+        ymin, ymax = ax.get_ylim()
+        y_range = ymax - ymin
+        if y_range > 0:
+            min_safe_interval = y_range / 200.0
+            if interval < min_safe_interval:
+                interval = self._calculate_initial_y_step(y_range)
+                self.y_tick_entry_var.set(f"{interval}")
+
         ax.yaxis.set_major_locator(matplotlib.ticker.MultipleLocator(interval))
         
     def recompute_y_axis(self, win_dict):
@@ -818,17 +827,22 @@ class OverlayPlotter:
 
 
     def add_plot(self, time_points_list, values_list, file_name, y_label):
-        
+
         is_new_or_reset = False
 
-        # Check for an existing window to reuse
-        if self.add_to_existing.get() and self.windows:
-            win_dict = self.windows[-1]
-            if not win_dict['window'].winfo_exists():
-                win_dict = self._create_window() # Case: Existing window was closed -> new window
-                is_new_or_reset = True
-        else:
-            win_dict = self._create_window() # Case: New window created
+        # Find the target window by name, or create a new one
+        target = self.target_window_var.get()
+        win_dict = next(
+            (w for w in self.windows if w.get('name') == target and w['window'].winfo_exists()),
+            None
+        )
+        if win_dict is None:
+            win_dict = self._create_window()
+            self._window_counter += 1
+            win_dict['name'] = (file_name[:40] if file_name else f"Window {self._window_counter}")
+            win_dict['window'].title(f"Plot — {win_dict['name']}")
+            self.target_window_var.set(win_dict['name'])
+            self._notify_windows_changed()
             is_new_or_reset = True
         
         ax = win_dict['ax']
@@ -839,22 +853,9 @@ class OverlayPlotter:
         control_frame = win_dict['control_frame']
         curve_list_canvas = win_dict['curve_list_canvas'] 
         
-        # Rensa gamla kryssrutor om vi inte lägger till i befintlig
-        if not self.add_to_existing.get():
-             for line in lines: line.remove()
-             # Rensa alla widgets från inner_control_frame
-             for widget in control_frame.winfo_children():
-                widget.destroy()
-             lines.clear()
-             labels.clear()
-             line_vars.clear()
-             # Återställ vertikala linjer
-             self._update_vertical_lines(win_dict)
-             is_new_or_reset = True # Case: Existing window cleared/reset
-        else:
-            # Rensa Checkbuttons även om vi lägger till. De måste återskapas för att inkludera den nya kurvan.
-            for widget in control_frame.winfo_children():
-                widget.destroy()
+        # Rebuild checkbuttons to include the new curve
+        for widget in control_frame.winfo_children():
+            widget.destroy()
 
 
         # **MODIFICATION 2: Calculate dynamic X-axis limit**
@@ -875,13 +876,24 @@ class OverlayPlotter:
             
         # Set X-axis limits
         ax.set_xlim(0.0, max_time)
-        
+
+        # If any curve exceeds 1.0, show raw values on X axis; otherwise show %
+        if max_time > 1.0:
+            ax.xaxis.set_major_formatter(FuncFormatter(lambda x, pos: f'{x:.2f}'))
+        else:
+            ax.xaxis.set_major_formatter(FuncFormatter(lambda x, pos: f'{int(x*100)}%'))
+
         # Reapply the major locator for the new range
         try:
              interval = float(self.x_tick_entry_var.get())
         except ValueError:
              interval = 0.1
-             
+
+        # Safety cap: never generate more than ~20 ticks on X axis
+        if max_time > 0 and max_time / interval > 20:
+            interval = self._calculate_initial_y_step(max_time)
+            self.x_tick_entry_var.set(f"{interval}")
+
         ax.xaxis.set_major_locator(matplotlib.ticker.MultipleLocator(interval))
 
 
@@ -959,9 +971,8 @@ class OverlayPlotter:
              
              initial_step = self._calculate_initial_y_step(range_with_margin)
              
-        # Uppdatera Y-tick entry variabeln: NYTT: Använd 'is_new_or_reset'
-        if is_new_or_reset or self.y_tick_entry_var.get() == "":
-            self.y_tick_entry_var.set(f"{initial_step}")
+        # Always recalculate Y-tick step from current combined data range
+        self.y_tick_entry_var.set(f"{initial_step}")
 
         # Applicera locator baserat på det aktuella värdet i entry-fältet
         self._apply_y_ticks(win_dict) 
@@ -972,8 +983,9 @@ class OverlayPlotter:
         if ax.get_legend() is not None:
              ax.get_legend().remove()
              
-        # Alla linjer i 'lines' är nu synliga, så vi använder dem.
+        # Build legend from data curves + visible growth lines
         visible_lines_final = [l for l in lines if l.get_label() not in ['_nolegend_', '']]
+        visible_lines_final += [l for l in win_dict['vertical_lines'] if l.get_label() not in ['_nolegend_', '']]
         visible_labels_final = [l.get_label() for l in visible_lines_final]
         if visible_lines_final:
             ax.legend(visible_lines_final, visible_labels_final, loc='upper left', fontsize='small')
@@ -985,56 +997,41 @@ class OverlayPlotter:
     def _on_hover(self, event, lines, annot):
         if not lines:
             return
-        
+        if event.xdata is None or event.ydata is None:
+            return
+
         vis = annot.get_visible()
-        
+
         for line in lines:
-            # Alla linjer är nu synliga, så ingen kontroll behövs.
-            
+            # Use Matplotlib's built-in pixel-distance check (picker=5 on each line)
             cont, ind = line.contains(event)
-            if event.xdata is None or event.ydata is None: 
-                continue
-            
-            xdata = line.get_xdata()
-            ydata = line.get_ydata()
-            
-            # Hitta index för närmaste x-värde i linjens data
-            idx = np.searchsorted(xdata, event.xdata)
-            
-            if idx == 0:
-                idx_closest = 0
-            elif idx == len(xdata):
-                idx_closest = len(xdata) - 1
-            else:
-                # Jämför avstånd till punkten före och efter
-                if abs(event.xdata - xdata[idx-1]) < abs(event.xdata - xdata[idx]):
-                    idx_closest = idx-1
-                else:
-                    idx_closest = idx
-            
-            x = xdata[idx_closest]
-            y = ydata[idx_closest]
-            
-            # FIX: Kontrollera om närmaste punkt är NaN (Elder-kurvan maskerad)
-            if np.isnan(y):
-                 continue
-            
-            # Tröskel: Muspekaren måste vara tillräckligt nära x-punkten
-            x_range = line.axes.get_xlim()
-            if abs(event.xdata - x) > (x_range[1] - x_range[0]) * 0.02: # 2% tröskel
-                continue 
-            
-            # Tröskel: Muspekaren måste vara tillräckligt nära y-punkten
-            y_range = line.axes.get_ylim()
-            if abs(event.ydata - y) > (y_range[1] - y_range[0]) * 0.05: # 5% tröskel
+            if not cont:
                 continue
 
-            # Update annotation with dynamic label based on x value
+            xdata = line.get_xdata()
+            ydata = line.get_ydata()
+
+            # Pick the closest non-NaN point among the candidates
+            best_idx = None
+            best_dist = float('inf')
+            for i in ind['ind']:
+                if i < len(ydata) and not np.isnan(ydata[i]):
+                    dist = abs(event.xdata - xdata[i])
+                    if dist < best_dist:
+                        best_dist = dist
+                        best_idx = i
+
+            if best_idx is None:
+                continue
+
+            x = xdata[best_idx]
+            y = ydata[best_idx]
+
             if x <= 1.0:
                 time_label = f"Time: {x*100:.1f}%"
             else:
-                time_label = f"Time: {x:.2f}" # Use raw number for times > 1.0
-            
+                time_label = f"Time: {x:.2f}"
+
             annot.xy = (x, y)
             annot.set_text(f"{time_label}\nValue: {y:.2f}")
             annot.set_visible(True)
@@ -1185,6 +1182,7 @@ class JSONPlotterUI:
         self.calculated_stats_data: Dict[str, float] = {}
 
         self.overlay_plotter = OverlayPlotter(master)
+        self.overlay_plotter.on_windows_changed = self._update_window_selector
 
         # Variables
         self.folder_var = tk.StringVar(master)
@@ -1229,6 +1227,26 @@ class JSONPlotterUI:
 
         self.refresh_btn = tk.Button(btn_frame, text='Refresh', command=self.auto_locate_jsons_folder)
         self.refresh_btn.pack(side='left')
+
+        tk.Label(btn_frame, text="Target Window:").pack(side='left', padx=(20, 2))
+        self._window_selector = ttk.Combobox(
+            btn_frame,
+            textvariable=self.overlay_plotter.target_window_var,
+            values=["New Window"],
+            width=28,
+            state='readonly'
+        )
+        self._window_selector.pack(side='left')
+
+    def _update_window_selector(self):
+        """Refresh the window-target combobox whenever plot windows open or close."""
+        names = ["New Window"] + [
+            w['name'] for w in self.overlay_plotter.windows
+            if w['window'].winfo_exists() and w.get('name')
+        ]
+        self._window_selector['values'] = names
+        if self.overlay_plotter.target_window_var.get() not in names:
+            self.overlay_plotter.target_window_var.set("New Window")
 
     def _on_override_toggle(self):
         enabled = self.override_path_var.get()
@@ -1443,7 +1461,7 @@ class JSONPlotterUI:
 # ------------------------- Run -------------------------
 def main():
     root = tk.Tk()
-    root.geometry('900x140')
+    root.geometry('1100x140')
     app = JSONPlotterUI(root)
     root.mainloop()
 

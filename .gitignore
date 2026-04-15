@@ -1,0 +1,5 @@
+# PyInstaller build output
+build/
+
+# Claude Code internal files
+.claude/
