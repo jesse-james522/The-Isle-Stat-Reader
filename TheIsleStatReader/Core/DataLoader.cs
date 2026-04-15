@@ -505,7 +505,253 @@ namespace TheIsleStatReader.Core
             if (attrs.TryGetValue("Stamina.Spending.Sprinting", out double staminaDecay) && staminaDecay != 0)
                 stats["Sprint Duration (sec)"] = Math.Round(100.0 / Math.Abs(staminaDecay), 0);
 
+            // Rest stamina regen: pulled from ATT_{Name}_RestCurve.
+            // The senior channel's last key's time is seconds-to-full.
+            var (restFull, restRate) = GetRestRegen(dinoName);
+            if (!double.IsNaN(restFull))
+            {
+                stats["Rest → Full (sec)"] = Math.Round(restFull);
+                stats["Rest Regen (%/s)"] = Math.Round(restRate, 3);
+            }
+
             return stats;
+        }
+
+        // ------------------------------------------------------------------
+        // Rest curve (stamina regen while sitting)
+        // ------------------------------------------------------------------
+
+        /// <summary>
+        /// Reads the raw senior-channel keys of <c>ATT_{Name}_RestCurve</c>. This
+        /// curve is indexed by seconds since resting, not by growth, so we
+        /// bypass <see cref="CurveProcessor"/> (which extends curves to t=1.0
+        /// for growth curves).
+        /// </summary>
+        /// <returns>
+        /// (secondsToFull, percentPerSecond). Both NaN if the rest curve
+        /// is missing or malformed.
+        /// </returns>
+        public (double SecondsToFull, double PercentPerSecond) GetRestRegen(string dinoName)
+        {
+            EnsureInitialized();
+
+            // Locate ATT_{Name}_RestCurve.uasset via the flat filename index.
+            if (_assetPathByFileName == null) return (double.NaN, double.NaN);
+            string key = $"ATT_{dinoName}_RestCurve.uasset";
+            if (!_assetPathByFileName.TryGetValue(key, out var assetPath))
+                return (double.NaN, double.NaN);
+
+            UObject? obj;
+            try
+            {
+                obj = _provider!.SafeLoadPackageObject(assetPath);
+            }
+            catch
+            {
+                return (double.NaN, double.NaN);
+            }
+
+            if (obj is not UCurveLinearColor curveAsset) return (double.NaN, double.NaN);
+            if (curveAsset.FloatCurves == null || curveAsset.FloatCurves.Length == 0)
+                return (double.NaN, double.NaN);
+
+            var senior = curveAsset.FloatCurves[0];
+            if (senior?.Keys == null || senior.Keys.Length == 0)
+                return (double.NaN, double.NaN);
+
+            // Walk the keys for: (a) last (max time) and (b) largest value (= full stamina).
+            float lastTime = senior.Keys[0].Time;
+            float maxValue = senior.Keys[0].Value;
+            foreach (var k in senior.Keys)
+            {
+                if (k.Time > lastTime) lastTime = k.Time;
+                if (k.Value > maxValue) maxValue = k.Value;
+            }
+
+            if (lastTime <= 0 || maxValue <= 0)
+                return (double.NaN, double.NaN);
+
+            double secondsToFull = lastTime;
+            double percentPerSec = maxValue / lastTime;
+            return (secondsToFull, percentPerSec);
+        }
+
+        // ------------------------------------------------------------------
+        // Comparison chart summaries
+        // ------------------------------------------------------------------
+
+        /// <summary>
+        /// Growth points sampled in <see cref="BuildDinoSummary"/>. Matches the
+        /// juvenile / adult / peak / frail-prime columns of the summary table.
+        /// </summary>
+        public const double GrowthJuvenile = 0.25;
+        public const double GrowthAdult = 0.75;
+
+        /// <summary>
+        /// Builds a full stat summary for one dino. Loads all relevant ATT_*
+        /// curves, samples them at multiple growth points, and compiles the
+        /// result into a <see cref="DinoSummary"/>. Returns null if the dino
+        /// has no balance table (should never happen for indexed dinos).
+        /// </summary>
+        public DinoSummary? BuildDinoSummary(string dinoName)
+        {
+            EnsureInitialized();
+            if (!_dinoIndex!.ContainsKey(dinoName))
+                return null;
+
+            var summary = new DinoSummary { DinoName = dinoName };
+
+            // --- Curve stats (growth-varying) -----------------------------
+            // Order matches the summary table column groups.
+            AddCurveStatRow(summary, dinoName, "Weight",          "Weight",          "kg",   "F0", 1.0);
+            AddCurveStatRow(summary, dinoName, "SprintSpeed",     "Sprint Speed",    "km/h", "F1", Config.SpeedConversionFactor);
+            AddCurveStatRow(summary, dinoName, "TrotSpeed",       "Trot Speed",      "km/h", "F1", Config.SpeedConversionFactor);
+            AddCurveStatRow(summary, dinoName, "WalkSpeed",       "Walk Speed",      "km/h", "F1", Config.SpeedConversionFactor);
+            AddCurveStatRow(summary, dinoName, "FastSwimSpeed",   "Fast Swim",       "km/h", "F1", Config.SpeedConversionFactor);
+            AddCurveStatRow(summary, dinoName, "SlowSwimSpeed",   "Slow Swim",       "km/h", "F1", Config.SpeedConversionFactor);
+
+            // Damage per attack: max damage multiplier from balance ×
+            // AttackPower curve. We report the biggest Damage.X row.
+            AddDamageStatRow(summary, dinoName);
+
+            // --- Scalar stats (growth-independent) ------------------------
+            var attrs = GetBalanceAttributes(dinoName);
+            double thirstCorrection = Config.AquaticDinos.Contains(dinoName) ? 2.0 / 3.0 : 1.0;
+
+            if (attrs.TryGetValue("Hunger.Decay", out double h) && h != 0)
+                summary.TimeToStarveMin = 100.0 / Math.Abs(h) * thirstCorrection / 60.0;
+            if (attrs.TryGetValue("Thirst.Decay", out double th) && th != 0)
+                summary.TimeToDehydrateMin = 100.0 / Math.Abs(th) * thirstCorrection / 60.0;
+            if (attrs.TryGetValue("Oxygen.Decay", out double ox) && ox != 0)
+                summary.TimeUnderwaterSec = 100.0 / Math.Abs(ox);
+            if (attrs.TryGetValue("Stamina.Spending.Sprinting", out double sp) && sp != 0)
+                summary.SprintDurationSec = 100.0 / Math.Abs(sp);
+
+            var (restFull, restRate) = GetRestRegen(dinoName);
+            summary.RestToFullSec = restFull;
+            summary.RestRegenPerSec = restRate;
+
+            return summary;
+        }
+
+        /// <summary>
+        /// Builds summaries for every indexed dinosaur. Skips dinos whose
+        /// balance DT fails to load. Useful for the "all species" comparison
+        /// chart window.
+        /// </summary>
+        public List<DinoSummary> BuildAllSummaries(Action<int, int, string>? onProgress = null)
+        {
+            EnsureInitialized();
+
+            var result = new List<DinoSummary>();
+            var dinos = GetDinosaurs();
+            for (int i = 0; i < dinos.Count; i++)
+            {
+                onProgress?.Invoke(i + 1, dinos.Count, dinos[i]);
+                try
+                {
+                    var s = BuildDinoSummary(dinos[i]);
+                    if (s != null) result.Add(s);
+                }
+                catch
+                {
+                    // Skip broken dinos — the summary view tolerates missing rows.
+                }
+            }
+            return result;
+        }
+
+        /// <summary>
+        /// Loads a named curve file for a dino (e.g. "SprintSpeed") and populates
+        /// a <see cref="StatRow"/> by sampling the senior/elder channels at
+        /// 0.25, 0.75, the senior peak, and 1.0.
+        /// </summary>
+        private void AddCurveStatRow(
+            DinoSummary summary, string dinoName,
+            string curveFileSuffix, string displayName, string unit, string format,
+            double conversionFactor)
+        {
+            string fileName = $"ATT_{dinoName}_{curveFileSuffix}.uasset";
+            if (_assetPathByFileName == null || !_assetPathByFileName.TryGetValue(fileName, out var path))
+                return;
+
+            UObject? obj;
+            try { obj = _provider!.SafeLoadPackageObject(path); }
+            catch { return; }
+            if (obj is not UCurveLinearColor curveAsset) return;
+            if (curveAsset.FloatCurves == null || curveAsset.FloatCurves.Length == 0) return;
+
+            // Senior = channel 0, Elder = channel 1 (masked NaN before 0.75 by ProcessDualCurves).
+            var processed = CurveProcessor.ProcessDualCurves(curveAsset.FloatCurves, conversionFactor);
+            if (processed.Count == 0) return;
+
+            var (sTimes, sValues) = processed[0];
+            if (sTimes.Length == 0) return;
+
+            var row = new StatRow { Name = displayName, Unit = unit, Format = format };
+
+            row.Juvenile = CurveSampler.SampleAt(sTimes, sValues, GrowthJuvenile);
+            row.Adult    = CurveSampler.SampleAt(sTimes, sValues, GrowthAdult);
+            row.Prime    = CurveSampler.SampleAt(sTimes, sValues, 1.0);
+
+            var (peakV, peakT) = CurveSampler.FindPeak(sTimes, sValues);
+            row.Peak = peakV;
+            row.PeakAt = peakT;
+
+            if (processed.Count > 1)
+            {
+                var (eTimes, eValues) = processed[1];
+                // Elder channel's own "1.0" value is the frail stat.
+                row.Frail = CurveSampler.SampleAt(eTimes, eValues, 1.0);
+            }
+
+            summary.Stats.Add(row);
+        }
+
+        /// <summary>
+        /// Builds the damage-per-attack row by taking the largest Damage.X
+        /// multiplier from balance × AttackPower curve at each sample point.
+        /// </summary>
+        private void AddDamageStatRow(DinoSummary summary, string dinoName)
+        {
+            if (!_dinoIndex!.TryGetValue(dinoName, out var entry) || entry.AttackPowerPath == null)
+                return;
+
+            var attrs = GetBalanceAttributes(dinoName);
+            double maxDamageMult = 0.0;
+            foreach (var (rowName, value) in attrs)
+            {
+                if (rowName.StartsWith("Damage.", StringComparison.OrdinalIgnoreCase) && value > maxDamageMult)
+                    maxDamageMult = value;
+            }
+            if (maxDamageMult <= 0) return;
+
+            UObject? obj;
+            try { obj = _provider!.SafeLoadPackageObject(entry.AttackPowerPath); }
+            catch { return; }
+            if (obj is not UCurveLinearColor curveAsset) return;
+            if (curveAsset.FloatCurves == null || curveAsset.FloatCurves.Length == 0) return;
+
+            var processed = CurveProcessor.ProcessDualCurves(curveAsset.FloatCurves, maxDamageMult);
+            if (processed.Count == 0) return;
+
+            var (sTimes, sValues) = processed[0];
+            if (sTimes.Length == 0) return;
+
+            var row = new StatRow { Name = "Max Damage", Unit = "dmg", Format = "F0" };
+            row.Juvenile = CurveSampler.SampleAt(sTimes, sValues, GrowthJuvenile);
+            row.Adult    = CurveSampler.SampleAt(sTimes, sValues, GrowthAdult);
+            row.Prime    = CurveSampler.SampleAt(sTimes, sValues, 1.0);
+            var (pv, pt) = CurveSampler.FindPeak(sTimes, sValues);
+            row.Peak = pv;
+            row.PeakAt = pt;
+            if (processed.Count > 1)
+            {
+                var (eTimes, eValues) = processed[1];
+                row.Frail = CurveSampler.SampleAt(eTimes, eValues, 1.0);
+            }
+
+            summary.Stats.Add(row);
         }
 
         // ------------------------------------------------------------------

@@ -55,12 +55,18 @@ namespace TheIsleStatReader.UI
             fileMenu.DropDownItems.Add(new ToolStripSeparator());
             fileMenu.DropDownItems.Add(exitItem);
 
+            var viewMenu = new ToolStripMenuItem("&View");
+            var summaryItem = new ToolStripMenuItem("&All-Species Comparison…");
+            summaryItem.Click += SummaryMenuItem_Click;
+            viewMenu.DropDownItems.Add(summaryItem);
+
             var helpMenu = new ToolStripMenuItem("&Help");
             var diagItem = new ToolStripMenuItem("&Diagnostics…");
             diagItem.Click += DiagnosticsMenuItem_Click;
             helpMenu.DropDownItems.Add(diagItem);
 
             _menuStrip.Items.Add(fileMenu);
+            _menuStrip.Items.Add(viewMenu);
             _menuStrip.Items.Add(helpMenu);
             MainMenuStrip = _menuStrip;
 
@@ -294,6 +300,23 @@ namespace TheIsleStatReader.UI
                     MessageBoxButtons.OK,
                     MessageBoxIcon.Error);
             }
+        }
+
+        private void SummaryMenuItem_Click(object? sender, EventArgs e)
+        {
+            if (!_loaded)
+            {
+                MessageBox.Show(this,
+                    "Wait for the pak provider to finish loading first.",
+                    "Not ready", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                return;
+            }
+
+            // Non-modal so the user can still use the main window while
+            // the summary grid is up (it computes every dino's curves,
+            // which takes a second or two).
+            var win = new SummaryWindow();
+            win.Show(this);
         }
 
         private void DiagnosticsMenuItem_Click(object? sender, EventArgs e)
@@ -540,7 +563,7 @@ namespace TheIsleStatReader.UI
 
         private static string BuildCurveLabel(string dinoName, string fileName, int curveCount)
         {
-            // Virtual names already have good labels
+            // Virtual names already include the dino name, e.g. "Virtual: Allosaurus Bite Attack"
             if (fileName.StartsWith("Virtual:", StringComparison.OrdinalIgnoreCase))
                 return fileName.Substring("Virtual: ".Length).Trim();
 
@@ -549,7 +572,9 @@ namespace TheIsleStatReader.UI
             if (name.StartsWith($"ATT_{dinoName}_", StringComparison.OrdinalIgnoreCase))
                 name = name.Substring($"ATT_{dinoName}_".Length);
 
-            return name;
+            // Always prefix the dino name so curves from multiple dinos overlaid
+            // on the same plot window stay distinguishable in the legend.
+            return $"{dinoName} {name}";
         }
 
         private static string TruncateTitle(string source, int maxLen)

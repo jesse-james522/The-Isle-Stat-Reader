@@ -24,3 +24,8 @@ TheIsleStatReader/publish_release/
 # Downloaded native compression DLLs (auto-fetched at runtime)
 oodle-data-shared.dll
 zlib-ng2.dll
+
+# Release assets (uploaded to GitHub releases, not tracked in repo)
+AES_Key.txt
+*.usmap
+TheIsleStatReader-*-win-x64.zip
