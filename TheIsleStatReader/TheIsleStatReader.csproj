@@ -1,0 +1,41 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyName>TheIsleStatReader</AssemblyName>
+    <RootNamespace>TheIsleStatReader</RootNamespace>
+    <Platforms>x64</Platforms>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CUE4Parse\CUE4Parse\CUE4Parse.csproj" />
+    <PackageReference Include="OxyPlot.Core" Version="2.1.2" />
+    <PackageReference Include="OxyPlot.WindowsForms" Version="2.1.2" />
+  </ItemGroup>
+
+  <!--
+    CUE4Parse-Natives.dll (Oodle / ACL / compression helpers) normally needs a
+    C++ toolchain + CMake to build. We don't have that here, so we pull the
+    prebuilt x64 DLL from the 1.2.2 NuGet cache and copy it next to our output.
+    The ABI is stable enough for the functions CUE4Parse calls via P/Invoke.
+  -->
+  <ItemGroup>
+    <None Include="$(NUGET_PACKAGES)cue4parse\1.2.2\lib\net8.0\CUE4Parse-Natives.dll"
+          Condition="Exists('$(NUGET_PACKAGES)cue4parse\1.2.2\lib\net8.0\CUE4Parse-Natives.dll')">
+      <Link>CUE4Parse-Natives.dll</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="$(UserProfile)\.nuget\packages\cue4parse\1.2.2\lib\net8.0\CUE4Parse-Natives.dll"
+          Condition="Exists('$(UserProfile)\.nuget\packages\cue4parse\1.2.2\lib\net8.0\CUE4Parse-Natives.dll') And !Exists('$(NUGET_PACKAGES)cue4parse\1.2.2\lib\net8.0\CUE4Parse-Natives.dll')">
+      <Link>CUE4Parse-Natives.dll</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
