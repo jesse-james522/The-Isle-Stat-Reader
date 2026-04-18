@@ -14,6 +14,8 @@ https://discord.gg/R8CPP7WWqd
 - **Balance Attributes** — shows raw balance data in a clean table with calculated survival stats (starve time, thirst time, bleed time)
 - **Virtual Attack Graphs** — combines AttackPower curves with balance data to show actual damage output per attack type
 - **Elder/Senior curves** — dual-curve display for dinos that have both senior and elder stat lines
+- **All-Species Comparison Chart** — sortable table comparing every dino across all growth stages (0% / juvenile / subadult / adult / 87.5% / 100% / peak); includes Survival & Stamina view (starve/dehydrate times, sprint and swim durations and ranges) and an experimental Health & Blood regen view
+- **Gallimimus diet-slot scaling** — Sprint Speed chart and plot show all 4 diet-slot variants with values scaled proportionally across every growth point
 - **Reads directly from game files** — uses CUE4Parse to read `.pak`/`.ucas`/`.utoc` files, no FModel export step required
 
 ---
