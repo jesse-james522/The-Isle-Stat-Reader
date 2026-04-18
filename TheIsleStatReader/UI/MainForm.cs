@@ -152,8 +152,20 @@ namespace TheIsleStatReader.UI
             };
             _balanceButton.Click += BalanceButton_Click;
 
+            var compareButton = new Button
+            {
+                Text = "Compare All Species",
+                Left = 0,
+                Top = 36,
+                Width = 210,
+                Height = 28
+            };
+            compareButton.Click += SummaryMenuItem_Click;
+
+            buttonPanel.Height = 70;
             buttonPanel.Controls.Add(_plotButton);
             buttonPanel.Controls.Add(_balanceButton);
+            buttonPanel.Controls.Add(compareButton);
 
             // ---- Target window row ----
             var targetPanel = new Panel
@@ -307,14 +319,13 @@ namespace TheIsleStatReader.UI
             if (!_loaded)
             {
                 MessageBox.Show(this,
-                    "Wait for the pak provider to finish loading first.",
+                    "Wait for the pak files to finish loading first.",
                     "Not ready", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 return;
             }
 
-            // Non-modal so the user can still use the main window while
-            // the summary grid is up (it computes every dino's curves,
-            // which takes a second or two).
+            // Non-modal — the user can keep using the main window while
+            // the summary grid computes each dino's curves in the background.
             var win = new SummaryWindow();
             win.Show(this);
         }
@@ -418,15 +429,21 @@ namespace TheIsleStatReader.UI
                     {
                         List<(double[] Times, double[] Values)> curves;
                         string yLabel;
+                        string primeLabel = "", frailLabel = "";
+                        string? swapKey = null;
 
                         if (fileName.StartsWith("Virtual:", StringComparison.OrdinalIgnoreCase))
                         {
-                            // Virtual attack curve
+                            // Virtual attack curves carry Prime/Frail labels from the base channel.
                             var allVirtual = DataLoader.Instance.GetAttackVirtualCurves(dinoName);
-                            if (!allVirtual.TryGetValue(fileName, out var virtualCurves))
+                            if (!allVirtual.TryGetValue(fileName, out var virtualResult))
                                 return;
-                            curves = virtualCurves;
-                            yLabel = "Value";
+                            curves     = virtualResult.Curves;
+                            yLabel     = virtualResult.YLabel;
+                            primeLabel = virtualResult.PrimeLabel;
+                            frailLabel = virtualResult.FrailLabel;
+                            if (!virtualResult.IsSingleChannel)
+                                swapKey = $"{dinoName}|AttackPower";
                         }
                         else
                         {
@@ -436,7 +453,14 @@ namespace TheIsleStatReader.UI
                                 Invoke(() => _statusLabel.Text = $"Asset not found: {fileName}");
                                 return;
                             }
-                            (curves, yLabel) = DataLoader.Instance.GetCurveData(path, fileName);
+                            var result = DataLoader.Instance.GetCurveData(path, fileName, dinoName);
+                            curves     = result.Curves;
+                            yLabel     = result.YLabel;
+                            primeLabel = result.PrimeLabel;
+                            frailLabel = result.FrailLabel;
+                            // Only expose the swap button when there are two distinct channels.
+                            if (!result.IsSingleChannel)
+                                swapKey = $"{dinoName}|{DataLoader.ExtractCurveSuffixPublic(dinoName, fileName)}";
                         }
 
                         if (curves.Count == 0)
@@ -445,7 +469,36 @@ namespace TheIsleStatReader.UI
                             return;
                         }
 
-                        Invoke(() => targetWindow!.AddCurves(curves, BuildCurveLabel(dinoName, fileName, curves.Count), yLabel));
+                        // Diet-slot speed scaling: replace a single curve with 4 scaled versions.
+                        bool isSpeedFile = fileName.Contains("Speed", StringComparison.OrdinalIgnoreCase);
+                        if (isSpeedFile
+                            && Config.DietSlotSpeedBuffs.TryGetValue(dinoName, out double[]? slotSpeeds)
+                            && slotSpeeds != null
+                            && curves.Count > 0)
+                        {
+                            double adultValue = CurveSampler.SampleAt(curves[0].Times, curves[0].Values, 0.75);
+                            if (!double.IsNaN(adultValue) && adultValue > 0)
+                            {
+                                for (int slot = 0; slot < slotSpeeds.Length; slot++)
+                                {
+                                    double factor = slotSpeeds[slot] / adultValue;
+                                    var scaledCurves = curves
+                                        .Select(ch => (ch.Times,
+                                            ch.Values.Select(v => double.IsNaN(v) ? v : v * factor).ToArray()))
+                                        .ToList();
+                                    string slotLabel = slot == 1
+                                        ? $"{dinoName} (1 slot)"
+                                        : $"{dinoName} ({slot} slots)";
+                                    Invoke(() => targetWindow!.AddCurves(
+                                        scaledCurves, slotLabel, yLabel, primeLabel, frailLabel, null));
+                                }
+                                return;
+                            }
+                        }
+
+                        string curveLabel = BuildCurveLabel(dinoName, fileName, curves.Count);
+                        Invoke(() => targetWindow!.AddCurves(
+                            curves, curveLabel, yLabel, primeLabel, frailLabel, swapKey));
                     });
                 }
 

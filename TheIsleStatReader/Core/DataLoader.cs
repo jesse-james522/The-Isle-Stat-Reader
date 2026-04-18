@@ -334,38 +334,133 @@ namespace TheIsleStatReader.Core
         // Curve loading
         // ------------------------------------------------------------------
 
+        // ------------------------------------------------------------------
+        // Channel resolution
+        // ------------------------------------------------------------------
+
         /// <summary>
-        /// Loads a UCurveLinearColor asset and returns sampled curve data plus
-        /// the appropriate y-axis label. Virtual attack names ("Virtual: ...") are
-        /// handled separately via GetAttackVirtualCurves().
+        /// Resolves the two channels of a processed dual-curve asset:
+        /// <list type="bullet">
+        ///   <item>If the channels are effectively identical above growth 0.75,
+        ///         only the first channel is returned (single-curve result).</item>
+        ///   <item>Otherwise the channel whose max value above 0.75 is higher
+        ///         is treated as "Prime" and placed first; the other is "Frail".</item>
+        ///   <item>A per-curve manual override stored in <see cref="Config.ChannelSwaps"/>
+        ///         flips the auto-detected assignment when present.</item>
+        /// </list>
         /// </summary>
-        /// <param name="assetPath">Full virtual path without extension, e.g.
-        ///     <c>TheIsle/Content/Blueprints/Dinos/Deinosuchus/ATT_Deinosuchus_Speed</c></param>
-        /// <param name="fileName">Display filename, used to detect unit keywords.</param>
-        public (List<(double[] Times, double[] Values)> Curves, string YLabel)
-            GetCurveData(string assetPath, string fileName)
+        /// <param name="floatCurves">Raw FRichCurve channels from UCurveLinearColor.</param>
+        /// <param name="convFactor">Value-scale factor (e.g. speed → km/h).</param>
+        /// <param name="swapKey">Key of the form "{DinoName}|{CurveSuffix}" used to
+        ///     look up / store the manual override.</param>
+        /// <returns>
+        /// (Curves, PrimeLabel, FrailLabel) — Curves is prime-first.
+        /// PrimeLabel/FrailLabel are empty strings when only one curve is present.
+        /// </returns>
+        /// <summary>
+        /// Resolves raw dual-curve data into (Prime-first, Frail-second) order.
+        /// Both channels are always returned — when the source only produced one
+        /// processed channel it is duplicated so the chart always shows two labelled
+        /// lines.  <paramref name="HasDistinctChannels"/> is <c>false</c> in that
+        /// case (suppresses the Swap button and swapKey).
+        /// </summary>
+        private static (List<(double[], double[])> Curves,
+                         string PrimeLabel,
+                         string FrailLabel,
+                         bool HasDistinctChannels)
+            ResolveDualCurves(FRichCurve[] floatCurves, double convFactor, string swapKey)
+        {
+            var empty = new List<(double[], double[])>();
+
+            if (floatCurves == null || floatCurves.Length == 0)
+                return (empty, "", "", false);
+
+            var processed = CurveProcessor.ProcessDualCurves(floatCurves, convFactor);
+
+            if (processed.Count == 0)
+                return (empty, "", "", false);
+
+            // Only one processed channel → duplicate it so Prime and Frail both appear.
+            if (processed.Count == 1)
+            {
+                var both = new List<(double[], double[])> { processed[0], processed[0] };
+                return (both, "Prime", "Frail", false);   // HasDistinctChannels=false
+            }
+
+            // Two channels present.
+            // Game-data convention (fixed): channel 0 = Frail (weaker),
+            // channel 1 = Prime (stronger). Always put Prime first.
+            // The manual swap override flips the assignment when needed.
+            bool ch0IsPrime = !string.IsNullOrEmpty(swapKey)
+                && Config.ChannelSwaps.TryGetValue(swapKey, out bool swapped) && swapped;
+
+            var ordered = ch0IsPrime
+                ? processed
+                : new List<(double[], double[])> { processed[1], processed[0] };
+
+            return (ordered, "Prime", "Frail", true);   // HasDistinctChannels=true
+        }
+
+        // ------------------------------------------------------------------
+        // Curve loading
+        // ------------------------------------------------------------------
+
+        /// <summary>
+        /// Loads a UCurveLinearColor asset and returns a <see cref="CurveDataResult"/>
+        /// with the prime curve first and the correct prime/frail labels.
+        /// Virtual attack names ("Virtual: ...") are handled separately via
+        /// <see cref="GetAttackVirtualCurves"/>.
+        /// </summary>
+        /// <param name="assetPath">Full virtual path without extension.</param>
+        /// <param name="fileName">Display filename — used to detect unit keywords
+        ///     and to build the swap-key for the channel override.</param>
+        /// <param name="dinoName">Dinosaur name — used for the swap-key.</param>
+        public CurveDataResult GetCurveData(string assetPath, string fileName,
+                                            string dinoName = "")
         {
             EnsureInitialized();
 
             (double conversionFactor, string yLabel) = GetConversionInfo(fileName);
 
-            UObject? obj;
-            try
-            {
-                obj = _provider!.SafeLoadPackageObject(assetPath);
-            }
-            catch
-            {
-                return (new List<(double[], double[])>(), yLabel);
-            }
-            if (obj is not UCurveLinearColor curveAsset)
-                return (new List<(double[], double[])>(), yLabel);
+            // Build swap key from dino name + curve suffix.
+            string curveSuffix = ExtractCurveSuffix(dinoName, fileName);
+            string swapKey = string.IsNullOrEmpty(dinoName) ? "" : $"{dinoName}|{curveSuffix}";
 
-            // FloatCurves is a C# field on UCurveLinearColor, populated during
-            // Deserialize() — 4 FRichCurve channels (R/G/B/A in material terms,
-            // but repurposed by TheIsle as senior/elder/unused/unused).
-            var curves = CurveProcessor.ProcessDualCurves(curveAsset.FloatCurves, conversionFactor);
-            return (curves, yLabel);
+            UObject? obj;
+            try { obj = _provider!.SafeLoadPackageObject(assetPath); }
+            catch { return new CurveDataResult(new List<(double[], double[])>(), yLabel, "", ""); }
+
+            if (obj is not UCurveLinearColor curveAsset)
+                return new CurveDataResult(new List<(double[], double[])>(), yLabel, "", "");
+
+            var (curves, primeLabel, frailLabel, distinct) =
+                ResolveDualCurves(curveAsset.FloatCurves, conversionFactor, swapKey);
+
+            return new CurveDataResult(curves, yLabel, primeLabel, frailLabel, distinct);
+        }
+
+        /// <summary>
+        /// Public wrapper around <see cref="ExtractCurveSuffix"/> for callers
+        /// that need to build a swap key (e.g. <c>MainForm</c>).
+        /// </summary>
+        public static string ExtractCurveSuffixPublic(string dinoName, string fileName)
+            => ExtractCurveSuffix(dinoName, fileName);
+
+        /// <summary>
+        /// Extracts the curve suffix from an ATT filename.
+        /// "ATT_Rex_SprintSpeed.uasset" with dinoName "Rex" → "SprintSpeed".
+        /// Falls back to the bare filename without extension.
+        /// </summary>
+        private static string ExtractCurveSuffix(string dinoName, string fileName)
+        {
+            string baseName = System.IO.Path.GetFileNameWithoutExtension(fileName);
+            if (!string.IsNullOrEmpty(dinoName))
+            {
+                string prefix = $"ATT_{dinoName}_";
+                if (baseName.StartsWith(prefix, StringComparison.OrdinalIgnoreCase))
+                    return baseName.Substring(prefix.Length);
+            }
+            return baseName;
         }
 
         /// <summary>
@@ -603,33 +698,80 @@ namespace TheIsleStatReader.Core
 
             // --- Curve stats (growth-varying) -----------------------------
             // Order matches the summary table column groups.
-            AddCurveStatRow(summary, dinoName, "Weight",          "Weight",          "kg",   "F0", 1.0);
-            AddCurveStatRow(summary, dinoName, "SprintSpeed",     "Sprint Speed",    "km/h", "F1", Config.SpeedConversionFactor);
-            AddCurveStatRow(summary, dinoName, "TrotSpeed",       "Trot Speed",      "km/h", "F1", Config.SpeedConversionFactor);
-            AddCurveStatRow(summary, dinoName, "WalkSpeed",       "Walk Speed",      "km/h", "F1", Config.SpeedConversionFactor);
-            AddCurveStatRow(summary, dinoName, "FastSwimSpeed",   "Fast Swim",       "km/h", "F1", Config.SpeedConversionFactor);
-            AddCurveStatRow(summary, dinoName, "SlowSwimSpeed",   "Slow Swim",       "km/h", "F1", Config.SpeedConversionFactor);
+            AddCurveStatRow(summary, dinoName, "Weight",            "Weight",           "kg",   "F0", 1.0);
+            AddCurveStatRow(summary, dinoName, "SprintSpeed",       "Sprint Speed",     "km/h", "F1", Config.SpeedConversionFactor);
+            AddCurveStatRow(summary, dinoName, "TrotSpeed",         "Trot Speed",       "km/h", "F1", Config.SpeedConversionFactor);
+            AddCurveStatRow(summary, dinoName, "WalkSpeed",         "Walk Speed",       "km/h", "F1", Config.SpeedConversionFactor);
+            AddCurveStatRow(summary, dinoName, "FastSwimSpeed",   "Fast Swim Speed",  "km/h", "F1", Config.SpeedConversionFactor);
+            AddCurveStatRow(summary, dinoName, "SlowSwimSpeed",   "Slow Swim Speed",  "km/h", "F1", Config.SpeedConversionFactor);
+            AddCurveStatRow(summary, dinoName, "SwimSprintSpeed", "Swim Sprint Speed","km/h", "F1", Config.SpeedConversionFactor);
+            AddCurveStatRow(summary, dinoName, "SwimWalkSpeed",   "Swim Walk Speed",  "km/h", "F1", Config.SpeedConversionFactor);
+            AddCurveStatRow(summary, dinoName, "FlySpeed",        "Fly Speed",        "km/h", "F1", Config.SpeedConversionFactor);
+            AddCurveStatRow(summary, dinoName, "GlideSpeed",      "Glide Speed",      "km/h", "F1", Config.SpeedConversionFactor);
+            AddCurveStatRow(summary, dinoName, "CrawlSpeed",      "Crawl Speed",      "km/h", "F1", Config.SpeedConversionFactor);
 
-            // Damage per attack: max damage multiplier from balance ×
-            // AttackPower curve. We report the biggest Damage.X row.
-            AddDamageStatRow(summary, dinoName);
+            // One stat row per Damage.X attack type (Bite, Claw, etc.),
+            // each scaled by the AttackPower curve.
+            AddAllAttackStatRows(summary, dinoName);
 
             // --- Scalar stats (growth-independent) ------------------------
             var attrs = GetBalanceAttributes(dinoName);
             double thirstCorrection = Config.AquaticDinos.Contains(dinoName) ? 2.0 / 3.0 : 1.0;
 
-            if (attrs.TryGetValue("Hunger.Decay", out double h) && h != 0)
-                summary.TimeToStarveMin = 100.0 / Math.Abs(h) * thirstCorrection / 60.0;
-            if (attrs.TryGetValue("Thirst.Decay", out double th) && th != 0)
+            if (attrs.TryGetValue("Hunger.Decay",  out double h)  && h  != 0)
+                summary.TimeToStarveMin    = 100.0 / Math.Abs(h)  * thirstCorrection / 60.0;
+            if (attrs.TryGetValue("Thirst.Decay",  out double th) && th != 0)
                 summary.TimeToDehydrateMin = 100.0 / Math.Abs(th) * thirstCorrection / 60.0;
-            if (attrs.TryGetValue("Oxygen.Decay", out double ox) && ox != 0)
-                summary.TimeUnderwaterSec = 100.0 / Math.Abs(ox);
-            if (attrs.TryGetValue("Stamina.Spending.Sprinting", out double sp) && sp != 0)
-                summary.SprintDurationSec = 100.0 / Math.Abs(sp);
+            if (attrs.TryGetValue("Oxygen.Decay",  out double ox) && ox != 0)
+                summary.TimeUnderwaterSec  = 100.0 / Math.Abs(ox);
 
-            var (restFull, restRate) = GetRestRegen(dinoName);
-            summary.RestToFullSec = restFull;
-            summary.RestRegenPerSec = restRate;
+            // Stamina durations: 100 / spending-rate (⚠ estimated — may be per game tick, not per second)
+            if (attrs.TryGetValue("Stamina.Spending.Sprinting", out double spSpr) && spSpr != 0)
+                summary.SprintDurationSec = 100.0 / Math.Abs(spSpr);
+
+            // Fast-swim: try several plausible key names used across game versions
+            foreach (var k in new[] { "Stamina.Spending.FastSwimming", "Stamina.Spending.Swimming.Fast",
+                                      "Stamina.Spending.SwimmingFast", "Stamina.Spending.FastSwim" })
+                if (attrs.TryGetValue(k, out double v) && v != 0)
+                { summary.FastSwimDurationSec = 100.0 / Math.Abs(v); break; }
+
+            // Slow-swim
+            foreach (var k in new[] { "Stamina.Spending.SlowSwimming", "Stamina.Spending.Swimming.Slow",
+                                      "Stamina.Spending.SwimmingSlow", "Stamina.Spending.SlowSwim",
+                                      "Stamina.Spending.Swimming" })
+                if (attrs.TryGetValue(k, out double v) && v != 0)
+                { summary.SlowSwimDurationSec = 100.0 / Math.Abs(v); break; }
+
+            // Max ranges in metres: speed(km/h) × (1000/3600) × duration(s)
+            var sprintRow   = summary.Stats.FirstOrDefault(r =>
+                r.Name.Equals("Sprint Speed", StringComparison.OrdinalIgnoreCase));
+            var fastSwimRow = summary.Stats.FirstOrDefault(r =>
+                r.Name.Equals("Fast Swim Speed", StringComparison.OrdinalIgnoreCase));
+            var slowSwimRow = summary.Stats.FirstOrDefault(r =>
+                r.Name.Equals("Slow Swim Speed", StringComparison.OrdinalIgnoreCase));
+
+            double adultSprintKmh   = sprintRow   != null ? sprintRow.Adult   : double.NaN;
+            double adultFastSwimKmh = fastSwimRow  != null ? fastSwimRow.Adult  : double.NaN;
+            double adultSlowSwimKmh = slowSwimRow  != null ? slowSwimRow.Adult  : double.NaN;
+
+            if (!double.IsNaN(adultSprintKmh)   && !double.IsNaN(summary.SprintDurationSec))
+                summary.SprintRangeM   = adultSprintKmh   * (1000.0 / 3600.0) * summary.SprintDurationSec;
+            if (!double.IsNaN(adultFastSwimKmh) && !double.IsNaN(summary.FastSwimDurationSec))
+                summary.FastSwimRangeM = adultFastSwimKmh * (1000.0 / 3600.0) * summary.FastSwimDurationSec;
+            if (!double.IsNaN(adultSlowSwimKmh) && !double.IsNaN(summary.SlowSwimDurationSec))
+                summary.SlowSwimRangeM = adultSlowSwimKmh * (1000.0 / 3600.0) * summary.SlowSwimDurationSec;
+
+            // Adult weight for heal-time calculator
+            var weightRow = summary.Stats.FirstOrDefault(r =>
+                r.Name.Equals("Weight", StringComparison.OrdinalIgnoreCase));
+            if (weightRow != null) summary.AdultWeight = weightRow.Adult;
+
+            // Health & Blood regen (from balance table, % of max per second)
+            if (attrs.TryGetValue("Health.Regen",         out double hr))  summary.HealthRegenStanding = hr;
+            if (attrs.TryGetValue("Health.Regen.Resting", out double hrr)) summary.HealthRegenResting  = hrr;
+            if (attrs.TryGetValue("LockedHealth.Regen",   out double lhr)) summary.LockedHealthRegen   = lhr;
+            if (attrs.TryGetValue("Blood.Regen.Standing", out double br))  summary.BloodRegenStanding  = br;
+            if (attrs.TryGetValue("Blood.Regen.Resting",  out double brr)) summary.BloodRegenResting   = brr;
 
             return summary;
         }
@@ -681,77 +823,174 @@ namespace TheIsleStatReader.Core
             if (obj is not UCurveLinearColor curveAsset) return;
             if (curveAsset.FloatCurves == null || curveAsset.FloatCurves.Length == 0) return;
 
-            // Senior = channel 0, Elder = channel 1 (masked NaN before 0.75 by ProcessDualCurves).
-            var processed = CurveProcessor.ProcessDualCurves(curveAsset.FloatCurves, conversionFactor);
-            if (processed.Count == 0) return;
+            // Resolve channels: prime first, frail second (or absent if same).
+            string swapKey = $"{dinoName}|{curveFileSuffix}";
+            var (resolved, _, _, _) = ResolveDualCurves(curveAsset.FloatCurves, conversionFactor, swapKey);
+            if (resolved.Count == 0) return;
 
-            var (sTimes, sValues) = processed[0];
+            var (sTimes, sValues) = resolved[0];
             if (sTimes.Length == 0) return;
 
             var row = new StatRow { Name = displayName, Unit = unit, Format = format };
 
-            row.Juvenile = CurveSampler.SampleAt(sTimes, sValues, GrowthJuvenile);
-            row.Adult    = CurveSampler.SampleAt(sTimes, sValues, GrowthAdult);
-            row.Prime    = CurveSampler.SampleAt(sTimes, sValues, 1.0);
+            // resolved[0] = Elder (prime/stronger) channel — NaN before t=0.75 (masked in ProcessDualCurves)
+            // resolved[1] = Senior (frail/weaker)  channel — valid for the full range [0, 1]
+            // For pre-elder growth points use the Senior channel (before 0.75 both paths are identical).
+            var (preTimes, preValues) = resolved.Count > 1 ? resolved[1] : (sTimes, sValues);
 
-            var (peakV, peakT) = CurveSampler.FindPeak(sTimes, sValues);
-            row.Peak = peakV;
-            row.PeakAt = peakT;
+            row.Growth0   = CurveSampler.SampleAt(preTimes, preValues, 0.0);
+            row.Juvenile  = CurveSampler.SampleAt(preTimes, preValues, GrowthJuvenile);
+            row.Subadult  = CurveSampler.SampleAt(preTimes, preValues, Config.SubadultThreshold);
+            row.Adult     = CurveSampler.SampleAt(preTimes, preValues, GrowthAdult);
+            row.Elder875  = CurveSampler.SampleAt(sTimes, sValues, 0.875);
+            row.Prime     = CurveSampler.SampleAt(sTimes, sValues, 1.0);
 
-            if (processed.Count > 1)
+            // Defensive fallback: if prime is still NaN use the last valid value on the elder channel
+            if (double.IsNaN(row.Prime))
             {
-                var (eTimes, eValues) = processed[1];
-                // Elder channel's own "1.0" value is the frail stat.
-                row.Frail = CurveSampler.SampleAt(eTimes, eValues, 1.0);
+                double fallback = CurveSampler.FindMaxAbove(sTimes, sValues, 0.75);
+                if (!double.IsNaN(fallback)) row.Prime = fallback;
+            }
+
+            var (primePeakV, primePeakT) = CurveSampler.FindPeak(sTimes, sValues);
+            row.Peak   = primePeakV;
+            row.PeakAt = primePeakT;
+
+            if (resolved.Count > 1)
+            {
+                // resolved[1] = Senior (frail/weaker) channel
+                var (eTimes, eValues) = resolved[1];
+                row.Senior875 = CurveSampler.SampleAt(eTimes, eValues, 0.875);
+                row.Frail     = CurveSampler.SampleAt(eTimes, eValues, 1.0);
+
+                var (frailPeakV, frailPeakT) = CurveSampler.FindPeak(eTimes, eValues);
+                if (!double.IsNaN(frailPeakV) && (double.IsNaN(row.Peak) || frailPeakV > row.Peak))
+                {
+                    row.Peak   = frailPeakV;
+                    row.PeakAt = frailPeakT;
+                }
+
+                // Also use frail channel for Growth0 if elder channel masked it to NaN
+                if (double.IsNaN(row.Growth0))
+                    row.Growth0 = CurveSampler.SampleAt(eTimes, eValues, 0.0);
             }
 
             summary.Stats.Add(row);
         }
 
         /// <summary>
-        /// Builds the damage-per-attack row by taking the largest Damage.X
-        /// multiplier from balance × AttackPower curve at each sample point.
+        /// Builds one <see cref="StatRow"/> per unique damage-multiplier group,
+        /// merging attack types that share the same multiplier into a single row
+        /// (e.g. "Bite / Claw" when both carry the same damage value). Each row is
+        /// scaled by the AttackPower curve at the standard growth points, and the
+        /// peak is the true maximum across both senior and elder channels.
+        /// Rows are tagged with <see cref="StatRow.IsAttack"/> = true.
         /// </summary>
-        private void AddDamageStatRow(DinoSummary summary, string dinoName)
+        private void AddAllAttackStatRows(DinoSummary summary, string dinoName)
         {
             if (!_dinoIndex!.TryGetValue(dinoName, out var entry) || entry.AttackPowerPath == null)
                 return;
 
             var attrs = GetBalanceAttributes(dinoName);
-            double maxDamageMult = 0.0;
-            foreach (var (rowName, value) in attrs)
-            {
-                if (rowName.StartsWith("Damage.", StringComparison.OrdinalIgnoreCase) && value > maxDamageMult)
-                    maxDamageMult = value;
-            }
-            if (maxDamageMult <= 0) return;
 
+            // Collect Damage.X entries (skip zero), strip prefix.
+            var attackEntries = attrs
+                .Where(kv => kv.Key.StartsWith("Damage.", StringComparison.OrdinalIgnoreCase)
+                             && kv.Value > 0)
+                .Select(kv => (Key: kv.Key.Substring("Damage.".Length), Mult: kv.Value))
+                .ToList();
+            if (attackEntries.Count == 0) return;
+
+            // Load the base AttackPower curve once (unscaled, conversion = 1.0).
             UObject? obj;
             try { obj = _provider!.SafeLoadPackageObject(entry.AttackPowerPath); }
             catch { return; }
             if (obj is not UCurveLinearColor curveAsset) return;
             if (curveAsset.FloatCurves == null || curveAsset.FloatCurves.Length == 0) return;
 
-            var processed = CurveProcessor.ProcessDualCurves(curveAsset.FloatCurves, maxDamageMult);
-            if (processed.Count == 0) return;
+            string apSwapKey = $"{dinoName}|AttackPower";
+            var (baseCurves, _, _, _) = ResolveDualCurves(curveAsset.FloatCurves, 1.0, apSwapKey);
+            if (baseCurves.Count == 0) return;
+            var (bTimes, bBaseValues) = baseCurves[0];
+            if (bTimes.Length == 0) return;
 
-            var (sTimes, sValues) = processed[0];
-            if (sTimes.Length == 0) return;
+            (double[] eTimes, double[] eBaseValues)? elderBase =
+                baseCurves.Count > 1 ? baseCurves[1] : null;
 
-            var row = new StatRow { Name = "Max Damage", Unit = "dmg", Format = "F0" };
-            row.Juvenile = CurveSampler.SampleAt(sTimes, sValues, GrowthJuvenile);
-            row.Adult    = CurveSampler.SampleAt(sTimes, sValues, GrowthAdult);
-            row.Prime    = CurveSampler.SampleAt(sTimes, sValues, 1.0);
-            var (pv, pt) = CurveSampler.FindPeak(sTimes, sValues);
-            row.Peak = pv;
-            row.PeakAt = pt;
-            if (processed.Count > 1)
+            // Group attacks by identical multiplier → merge names with " / ".
+            var groups = attackEntries
+                .GroupBy(e => e.Mult)
+                .Select(g => (
+                    AttackKey: string.Join(" / ", g.Select(e => e.Key)
+                                                   .OrderBy(k => k, StringComparer.OrdinalIgnoreCase)),
+                    Mult: g.Key))
+                .OrderBy(g => g.AttackKey, StringComparer.OrdinalIgnoreCase)
+                .ToList();
+
+            foreach (var (attackKey, damageMult) in groups)
             {
-                var (eTimes, eValues) = processed[1];
-                row.Frail = CurveSampler.SampleAt(eTimes, eValues, 1.0);
-            }
+                double[] sValues = bBaseValues
+                    .Select(v => double.IsNaN(v) ? double.NaN : v * damageMult)
+                    .ToArray();
 
-            summary.Stats.Add(row);
+                var row = new StatRow
+                {
+                    Name      = $"{attackKey} Damage",
+                    AttackKey = attackKey,
+                    IsAttack  = true,
+                    Unit      = "dmg",
+                    Format    = "F0"
+                };
+
+                // baseCurves[0] = Elder (prime/stronger) — NaN before t=0.75
+                // baseCurves[1] = Senior (frail/weaker)  — valid full range; use for pre-elder samples
+                double[] preTimes2  = elderBase.HasValue ? elderBase.Value.eTimes      : bTimes;
+                double[] preValues2 = elderBase.HasValue ? elderBase.Value.eBaseValues
+                    .Select(v => double.IsNaN(v) ? double.NaN : v * damageMult).ToArray() : sValues;
+
+                row.Growth0   = CurveSampler.SampleAt(preTimes2, preValues2, 0.0);
+                row.Juvenile  = CurveSampler.SampleAt(preTimes2, preValues2, GrowthJuvenile);
+                row.Subadult  = CurveSampler.SampleAt(preTimes2, preValues2, Config.SubadultThreshold);
+                row.Adult     = CurveSampler.SampleAt(preTimes2, preValues2, GrowthAdult);
+                row.Elder875  = CurveSampler.SampleAt(bTimes, sValues, 0.875);
+                row.Prime     = CurveSampler.SampleAt(bTimes, sValues, 1.0);
+
+                // Defensive fallback for Prime
+                if (double.IsNaN(row.Prime))
+                {
+                    double fb = CurveSampler.FindMaxAbove(bTimes, sValues, 0.75);
+                    if (!double.IsNaN(fb)) row.Prime = fb;
+                }
+
+                // Peak: start from elder (prime) channel.
+                var (spv, spt) = CurveSampler.FindPeak(bTimes, sValues);
+                row.Peak   = spv;
+                row.PeakAt = spt;
+
+                if (elderBase.HasValue)
+                {
+                    // baseCurves[1] = Senior (frail/weaker) channel
+                    double[] eScaled = elderBase.Value.eBaseValues
+                        .Select(v => double.IsNaN(v) ? double.NaN : v * damageMult)
+                        .ToArray();
+                    row.Senior875 = CurveSampler.SampleAt(elderBase.Value.eTimes, eScaled, 0.875);
+                    row.Frail     = CurveSampler.SampleAt(elderBase.Value.eTimes, eScaled, 1.0);
+
+                    // Senior peak — take whichever is higher.
+                    var (epv, ept) = CurveSampler.FindPeak(elderBase.Value.eTimes, eScaled);
+                    if (!double.IsNaN(epv) && (double.IsNaN(row.Peak) || epv > row.Peak))
+                    {
+                        row.Peak   = epv;
+                        row.PeakAt = ept;
+                    }
+
+                    // Fallback Growth0 from frail/senior channel
+                    if (double.IsNaN(row.Growth0))
+                        row.Growth0 = CurveSampler.SampleAt(elderBase.Value.eTimes, eScaled, 0.0);
+                }
+
+                summary.Stats.Add(row);
+            }
         }
 
         // ------------------------------------------------------------------
@@ -787,14 +1026,15 @@ namespace TheIsleStatReader.Core
 
         /// <summary>
         /// Returns the processed curve data for virtual attack combinations.
-        /// Key = virtual display name, Value = list of (times, values) curve pairs.
+        /// Key = virtual display name, Value = <see cref="CurveDataResult"/> with
+        /// Prime/Frail labels and pre-scaled curves.
         /// </summary>
-        public Dictionary<string, List<(double[] Times, double[] Values)>>
+        public Dictionary<string, CurveDataResult>
             GetAttackVirtualCurves(string dinoName)
         {
             EnsureInitialized();
 
-            var result = new Dictionary<string, List<(double[], double[])>>(
+            var result = new Dictionary<string, CurveDataResult>(
                 StringComparer.OrdinalIgnoreCase);
 
             if (!_dinoIndex!.TryGetValue(dinoName, out var entry) || entry.AttackPowerPath == null)
@@ -802,8 +1042,18 @@ namespace TheIsleStatReader.Core
 
             var attrs = GetBalanceAttributes(dinoName);
 
-            // Load base AttackPower curves (no unit conversion for attack)
-            var (baseCurves, _) = GetCurveData(entry.AttackPowerPath, "ATT_AttackPower.uasset");
+            // Load base AttackPower curves (no unit conversion for attack).
+            // Use ResolveDualCurves directly so virtual curves also honour
+            // the channel-swap override for AttackPower.
+            UObject? apObj;
+            try { apObj = _provider!.SafeLoadPackageObject(entry.AttackPowerPath); }
+            catch { return result; }
+            if (apObj is not UCurveLinearColor apAsset) return result;
+            if (apAsset.FloatCurves == null || apAsset.FloatCurves.Length == 0) return result;
+
+            string apSwapKey = $"{dinoName}|AttackPower";
+            var (baseCurves, primeLabel, frailLabel, distinct) =
+                ResolveDualCurves(apAsset.FloatCurves, 1.0, apSwapKey);
             if (baseCurves.Count == 0)
                 return result;
 
@@ -824,7 +1074,7 @@ namespace TheIsleStatReader.Core
                     scaledCurves.Add((st, sv));
                 }
 
-                result[virtualName] = scaledCurves;
+                result[virtualName] = new CurveDataResult(scaledCurves, "dmg", primeLabel, frailLabel, distinct);
             }
 
             return result;

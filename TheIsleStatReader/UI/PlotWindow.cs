@@ -45,11 +45,21 @@ namespace TheIsleStatReader.UI
         private readonly FlowLayoutPanel _curveCheckFlow;
 
         // ------------------------------------------------------------------
-        // Curve tracking (parallel: series, checkboxes, labels)
+        // Curve tracking
         // ------------------------------------------------------------------
         private readonly List<LineSeries> _series = new();
         private readonly List<CheckBox> _curveCheckBoxes = new();
         private readonly List<string> _curveLabels = new();
+
+        // One entry per AddCurves call — tracks paired series + swap state.
+        private sealed record CurveGroup(
+            LineSeries PrimeSeries,
+            LineSeries? FrailSeries,
+            CheckBox PrimeCheck,
+            CheckBox? FrailCheck,
+            Button? SwapButton,
+            string? SwapKey);
+        private readonly List<CurveGroup> _curveGroups = new();
 
         // Y-axis labels — union of all distinct labels added so far
         private readonly HashSet<string> _yLabels = new(StringComparer.OrdinalIgnoreCase);
@@ -308,54 +318,65 @@ namespace TheIsleStatReader.UI
         // ------------------------------------------------------------------
 
         /// <summary>
-        /// Adds one or two curves to the plot (senior + optional elder).
+        /// Adds one or two curves to the plot.
         /// </summary>
-        /// <param name="curves">Output from CurveProcessor.ProcessDualCurves or GetCurveData.</param>
-        /// <param name="label">Display name base (e.g. "Speed").</param>
-        /// <param name="yLabel">Y-axis label (used for the first curve set added).</param>
+        /// <param name="curves">Prime-first curve list from
+        ///     <see cref="Core.DataLoader.GetCurveData"/> or virtual attack data.</param>
+        /// <param name="label">Display name base (e.g. "Rex SprintSpeed").</param>
+        /// <param name="yLabel">Y-axis unit label.</param>
+        /// <param name="primeLabel">Channel label for curve[0], e.g. "Senior" or "Elder".
+        ///     Pass empty/null for single-channel curves.</param>
+        /// <param name="frailLabel">Channel label for curve[1], e.g. "Elder" or "Senior".</param>
+        /// <param name="swapKey">Config key used to toggle the channel override
+        ///     ("{DinoName}|{CurveSuffix}"). Null disables the Swap button.</param>
         public void AddCurves(
             List<(double[] Times, double[] Values)> curves,
             string label,
-            string yLabel)
+            string yLabel,
+            string primeLabel = "",
+            string frailLabel = "",
+            string? swapKey = null)
         {
             if (curves == null || curves.Count == 0)
                 return;
 
-            // Keep the y-axis title as the union of all distinct units added.
-            // e.g. adding Speed then Weight produces "km/h / kg".
             if (_yLabels.Add(yLabel))
                 _yAxis.Title = string.Join(" / ", _yLabels);
 
-            // Colour cycle: pick next colour from a fixed palette
             var colour = PickNextColour();
+            bool isDual = curves.Count >= 2
+                && !string.IsNullOrEmpty(primeLabel)
+                && !string.IsNullOrEmpty(frailLabel);
+
+            LineSeries? primeSeries = null;
+            LineSeries? frailSeries = null;
+            CheckBox? primeCheck  = null;
+            CheckBox? frailCheck  = null;
 
             for (int i = 0; i < Math.Min(curves.Count, 2); i++)
             {
                 var (times, values) = curves[i];
                 if (times.Length == 0) continue;
 
-                string seriesLabel = curves.Count == 1
-                    ? label
-                    : (i == 0 ? $"{label} (Senior)" : $"{label} (Elder)");
+                string channelSuffix = isDual
+                    ? (i == 0 ? $" ({primeLabel})" : $" ({frailLabel})")
+                    : "";
+                string seriesLabel = label + channelSuffix;
 
                 var ls = new LineSeries
                 {
-                    Title = seriesLabel,
-                    Color = colour,
-                    StrokeThickness = i == 0 ? 2.0 : 1.5,
-                    LineStyle = i == 0 ? LineStyle.Solid : LineStyle.Dash,
-                    TrackerFormatString = "{0}\nGrowth: {2:F4}\n{3}: {4:F2}",
+                    Title                     = seriesLabel,
+                    Color                     = colour,
+                    StrokeThickness           = i == 0 ? 2.0 : 1.5,
+                    LineStyle                 = i == 0 ? LineStyle.Solid : LineStyle.Dash,
+                    TrackerFormatString       = "{0}\nGrowth: {2:F4}\n{3}: {4:F2}",
                     CanTrackerInterpolatePoints = true
                 };
 
-                // Replace NaN with undefined points (OxyPlot handles NaN as line-break)
                 for (int j = 0; j < times.Length; j++)
-                {
-                    if (double.IsNaN(values[j]))
-                        ls.Points.Add(DataPoint.Undefined);
-                    else
-                        ls.Points.Add(new DataPoint(times[j], values[j]));
-                }
+                    ls.Points.Add(double.IsNaN(values[j])
+                        ? DataPoint.Undefined
+                        : new DataPoint(times[j], values[j]));
 
                 _model.Series.Add(ls);
                 _series.Add(ls);
@@ -370,7 +391,85 @@ namespace TheIsleStatReader.UI
                 };
                 _curveCheckFlow.Controls.Add(cb);
                 _curveCheckBoxes.Add(cb);
+
+                if (i == 0) { primeSeries = ls; primeCheck = cb; }
+                else        { frailSeries = ls; frailCheck = cb; }
             }
+
+            // Swap button — only for dual-curve groups with a valid swap key.
+            Button? swapBtn = null;
+            if (isDual && swapKey != null && primeSeries != null && frailSeries != null)
+            {
+                bool isCurrentlySwapped =
+                    TheIsleStatReader.Config.ChannelSwaps.TryGetValue(swapKey, out bool sv) && sv;
+
+                swapBtn = new Button
+                {
+                    Text        = isCurrentlySwapped ? "⇅ Swapped" : "⇅ Swap",
+                    AutoSize    = true,
+                    Margin      = new Padding(2, 2, 8, 2),
+                    BackColor   = isCurrentlySwapped
+                        ? System.Drawing.Color.FromArgb(255, 220, 180)
+                        : System.Drawing.SystemColors.Control,
+                    Tag         = swapKey
+                };
+
+                // Capture references for the click handler.
+                var capturedPrimeSeries  = primeSeries;
+                var capturedFrailSeries  = frailSeries;
+                var capturedPrimeCheck   = primeCheck!;
+                var capturedFrailCheck   = frailCheck!;
+                var capturedLabel        = label;
+                var capturedPrimeLabel   = primeLabel;
+                var capturedFrailLabel   = frailLabel;
+                var capturedBtn          = swapBtn;
+                var capturedKey          = swapKey;
+
+                swapBtn.Click += (_, _) =>
+                {
+                    // Toggle override in Config.
+                    bool wasSwapped =
+                        TheIsleStatReader.Config.ChannelSwaps.TryGetValue(capturedKey, out bool cur) && cur;
+                    TheIsleStatReader.Config.ChannelSwaps[capturedKey] = !wasSwapped;
+                    TheIsleStatReader.Config.Save();
+
+                    bool nowSwapped = !wasSwapped;
+
+                    // Flip labels in the plot.
+                    string newPrimeSuffix = nowSwapped
+                        ? $" ({capturedFrailLabel})" : $" ({capturedPrimeLabel})";
+                    string newFrailSuffix = nowSwapped
+                        ? $" ({capturedPrimeLabel})" : $" ({capturedFrailLabel})";
+
+                    capturedPrimeSeries.Title      = capturedLabel + newPrimeSuffix;
+                    capturedFrailSeries.Title      = capturedLabel + newFrailSuffix;
+                    capturedPrimeCheck.Text        = capturedPrimeSeries.Title;
+                    capturedFrailCheck.Text        = capturedFrailSeries.Title;
+
+                    // Flip line styles so the new prime is solid.
+                    capturedPrimeSeries.LineStyle      = LineStyle.Solid;
+                    capturedPrimeSeries.StrokeThickness = 2.0;
+                    capturedFrailSeries.LineStyle      = LineStyle.Dash;
+                    capturedFrailSeries.StrokeThickness = 1.5;
+
+                    capturedBtn.Text      = nowSwapped ? "⇅ Swapped" : "⇅ Swap";
+                    capturedBtn.BackColor = nowSwapped
+                        ? System.Drawing.Color.FromArgb(255, 220, 180)
+                        : System.Drawing.SystemColors.Control;
+
+                    _model.InvalidatePlot(true);
+                };
+
+                _curveCheckFlow.Controls.Add(swapBtn);
+            }
+
+            _curveGroups.Add(new CurveGroup(
+                primeSeries ?? new LineSeries(),
+                frailSeries,
+                primeCheck ?? new CheckBox(),
+                frailCheck,
+                swapBtn,
+                swapKey));
 
             RecalculateAxisTicks();
             UpdateXAxisFormat();
@@ -402,16 +501,27 @@ namespace TheIsleStatReader.UI
 
         /// <summary>
         /// Removes all series whose checkbox is checked.
+        /// Also removes the associated Swap button when an entire dual-curve
+        /// group is removed.
         /// </summary>
         public void RemoveSelectedCurves()
         {
-            // Build removal list (iterate backwards to preserve indices)
             var toRemove = new List<int>();
             for (int i = 0; i < _curveCheckBoxes.Count; i++)
+                if (_curveCheckBoxes[i].Checked) toRemove.Add(i);
+
+            // Remove swap buttons for any group whose prime or frail series is removed.
+            var removedSeries = new HashSet<LineSeries>(toRemove.Select(i => _series[i]));
+            foreach (var g in _curveGroups)
             {
-                if (_curveCheckBoxes[i].Checked)
-                    toRemove.Add(i);
+                bool primeRemoved = removedSeries.Contains(g.PrimeSeries);
+                bool frailRemoved = g.FrailSeries != null && removedSeries.Contains(g.FrailSeries);
+                if ((primeRemoved || frailRemoved) && g.SwapButton != null)
+                    _curveCheckFlow.Controls.Remove(g.SwapButton);
             }
+            _curveGroups.RemoveAll(g =>
+                removedSeries.Contains(g.PrimeSeries) ||
+                (g.FrailSeries != null && removedSeries.Contains(g.FrailSeries)));
 
             for (int i = toRemove.Count - 1; i >= 0; i--)
             {
