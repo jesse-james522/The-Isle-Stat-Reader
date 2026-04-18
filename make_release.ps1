@@ -45,6 +45,12 @@ Get-ChildItem $root -Filter "*.usmap" | ForEach-Object {
     Write-Host "  + $($_.Name)"
 }
 
+$licenses = Join-Path $root "TheIsleStatReader\THIRD_PARTY_LICENSES"
+if (Test-Path $licenses) {
+    Copy-Item $licenses (Join-Path $stage "THIRD_PARTY_LICENSES") -Recurse
+    Write-Host "  + THIRD_PARTY_LICENSES\"
+} else { Write-Warning "THIRD_PARTY_LICENSES not found - skipping" }
+
 # ── Zip ───────────────────────────────────────────────────────────────────────
 Write-Host "[4/4] Zipping..."
 if (Test-Path $zipPath) { Remove-Item $zipPath -Force }
