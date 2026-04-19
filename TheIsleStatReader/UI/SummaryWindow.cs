@@ -46,6 +46,13 @@ namespace TheIsleStatReader.UI
         private bool _suppressTreeEvents;
         private bool _treeIsAttackMode = true; // sentinel: forces first populate
 
+        // Stamina drain modifier panel (Survival & Stamina view only)
+        private readonly Panel           _staminaModPanel;
+        private readonly CheckedListBox  _staminaDinoList;
+        private readonly NumericUpDown   _staminaModInput;
+        private readonly Dictionary<string, double> _staminaMods =
+            new(StringComparer.OrdinalIgnoreCase);
+
         // ── Data ────────────────────────────────────────────────────────────────
         private List<DinoSummary> _summaries = new();
         private readonly List<string> _statNames = new();
@@ -173,6 +180,82 @@ namespace TheIsleStatReader.UI
             _filterPanel.Controls.Add(_filterLabel);
             _filterPanel.Controls.Add(btnPanel);
 
+            // ── Stamina drain modifier panel (Survival & Stamina view, Dock.Right) ──
+            _staminaModPanel = new Panel
+            {
+                Dock = DockStyle.Right,
+                Width = 200,
+                Padding = new Padding(4),
+                BackColor = Color.FromArgb(235, 248, 255),
+                Visible = false
+            };
+
+            // Bottom sub-panel: input + buttons (fixed height, docked to bottom)
+            var sBottomPanel = new Panel { Dock = DockStyle.Bottom, Height = 108 };
+
+            var sModInputLabel = new Label
+            {
+                Text = "Drain mod (5 = 5%, 1.05 = ×1.05):",
+                Left = 0, Top = 0, Width = 192, Height = 30,
+                AutoSize = false
+            };
+
+            _staminaModInput = new NumericUpDown
+            {
+                Left = 0, Top = 32, Width = 192,
+                Minimum = 0.01m, Maximum = 500m,
+                DecimalPlaces = 2, Value = 5m, Increment = 5m
+            };
+
+            var sApplyBtn    = new Button { Text = "Apply",     Left = 0,   Top = 60, Width = 60, Height = 24 };
+            var sClearSelBtn = new Button { Text = "Clear Sel", Left = 64,  Top = 60, Width = 64, Height = 24 };
+            var sClearAllBtn = new Button { Text = "Clear All", Left = 132, Top = 60, Width = 60, Height = 24 };
+
+            sApplyBtn.Click += (_, _) =>
+            {
+                double raw = (double)_staminaModInput.Value;
+                // >= 2 → percentage (5 → ×1.05); < 2 → direct multiplier (1.05 → ×1.05)
+                double factor = raw >= 2.0 ? 1.0 + raw / 100.0 : raw;
+                foreach (string name in _staminaDinoList.CheckedItems)
+                    _staminaMods[name] = factor;
+                RebuildGrid();
+            };
+            sClearSelBtn.Click += (_, _) =>
+            {
+                foreach (string name in _staminaDinoList.CheckedItems)
+                    _staminaMods.Remove(name);
+                RebuildGrid();
+            };
+            sClearAllBtn.Click += (_, _) => { _staminaMods.Clear(); RebuildGrid(); };
+
+            sBottomPanel.Controls.Add(sModInputLabel);
+            sBottomPanel.Controls.Add(_staminaModInput);
+            sBottomPanel.Controls.Add(sApplyBtn);
+            sBottomPanel.Controls.Add(sClearSelBtn);
+            sBottomPanel.Controls.Add(sClearAllBtn);
+
+            // Top label
+            var sModTitle = new Label
+            {
+                Text = "Stamina modifier:",
+                Dock = DockStyle.Top, Height = 20,
+                Font = new Font(Font, FontStyle.Bold)
+            };
+
+            // Species checklist fills remaining space
+            _staminaDinoList = new CheckedListBox
+            {
+                Dock = DockStyle.Fill,
+                CheckOnClick = true,
+                BorderStyle = BorderStyle.None,
+                BackColor = Color.FromArgb(235, 248, 255)
+            };
+
+            // Add in reverse dock order: Bottom first, then Fill, then Top
+            _staminaModPanel.Controls.Add(_staminaDinoList);
+            _staminaModPanel.Controls.Add(sModTitle);
+            _staminaModPanel.Controls.Add(sBottomPanel);
+
             // ── Grid ─────────────────────────────────────────────────────────────
             _grid = new DataGridView
             {
@@ -212,8 +295,9 @@ namespace TheIsleStatReader.UI
             _status = new ToolStripStatusLabel { Text = "Loading…" };
             strip.Items.Add(_status);
 
-            // Order matters: filter panel before grid so Fill doesn't eat it.
+            // Right panels: filterPanel added last = rightmost; staminaModPanel left of it.
             Controls.Add(_grid);
+            Controls.Add(_staminaModPanel);
             Controls.Add(_filterPanel);
             Controls.Add(topPanel);
             Controls.Add(strip);
@@ -234,6 +318,10 @@ namespace TheIsleStatReader.UI
                     DataLoader.Instance.BuildAllSummaries());
 
                 _summaries = summaries;
+
+                _staminaDinoList.Items.Clear();
+                foreach (var sum in summaries)
+                    _staminaDinoList.Items.Add(sum.DinoName, false);
 
                 _statNames.Clear();
                 var seen = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
@@ -306,6 +394,8 @@ namespace TheIsleStatReader.UI
                 _treeIsAttackMode = isAttacks;
                 PopulateFilterTree();
             }
+            _staminaModPanel.Visible =
+                _statCombo.SelectedItem is string sel && sel == "Survival & Stamina";
             RebuildGrid();
         }
 
@@ -649,17 +739,48 @@ namespace TheIsleStatReader.UI
             {
                 if (!checkedSpecies.Contains(sum.DinoName)) continue;
 
-                _grid.Rows.Add(
+                double mod = _staminaMods.TryGetValue(sum.DinoName, out var m) ? m : 1.0;
+
+                // Diet-slot dinos: one row per slot, sprint duration/range scaled per slot speed.
+                if (Config.DietSlotSpeedBuffs.TryGetValue(sum.DinoName, out double[]? slotSpeeds)
+                    && slotSpeeds != null
+                    && !double.IsNaN(sum.SprintRangeM) && !double.IsNaN(sum.SprintDurationSec))
+                {
+                    for (int s = 0; s < slotSpeeds.Length; s++)
+                    {
+                        double slotSpeedMs = slotSpeeds[s] * (1000.0 / 3600.0);
+                        double slotRange   = slotSpeedMs * sum.SprintDurationSec;
+                        string label = s == 1 ? $"{sum.DinoName} (1 slot)" : $"{sum.DinoName} ({s} slots)";
+                        int ri = _grid.Rows.Add(
+                            label,
+                            sum.TimeToStarveMin,
+                            sum.TimeToDehydrateMin,
+                            sum.TimeUnderwaterSec,
+                            SMod(sum.SprintDurationSec, mod),
+                            SMod(slotRange,             mod),
+                            SMod(sum.FastSwimDurationSec, mod),
+                            SMod(sum.FastSwimRangeM,      mod),
+                            SMod(sum.SlowSwimDurationSec, mod),
+                            SMod(sum.SlowSwimRangeM,      mod));
+                        if (mod != 1.0)
+                            _grid.Rows[ri].DefaultCellStyle.BackColor = Color.FromArgb(255, 245, 200);
+                    }
+                    continue;
+                }
+
+                int rowIdx = _grid.Rows.Add(
                     sum.DinoName,
                     sum.TimeToStarveMin,
                     sum.TimeToDehydrateMin,
                     sum.TimeUnderwaterSec,
-                    sum.SprintDurationSec,
-                    sum.SprintRangeM,
-                    sum.FastSwimDurationSec,
-                    sum.FastSwimRangeM,
-                    sum.SlowSwimDurationSec,
-                    sum.SlowSwimRangeM);
+                    SMod(sum.SprintDurationSec,   mod),
+                    SMod(sum.SprintRangeM,         mod),
+                    SMod(sum.FastSwimDurationSec,  mod),
+                    SMod(sum.FastSwimRangeM,        mod),
+                    SMod(sum.SlowSwimDurationSec,  mod),
+                    SMod(sum.SlowSwimRangeM,        mod));
+                if (mod != 1.0)
+                    _grid.Rows[rowIdx].DefaultCellStyle.BackColor = Color.FromArgb(255, 245, 200);
             }
 
             _status.Text = $"Survival & Stamina — {_grid.Rows.Count} species.  " +
@@ -773,7 +894,11 @@ namespace TheIsleStatReader.UI
             return value;
         }
 
-        // ── Helpers ──────────────────────────────────────────────────────────────
+        // ── Helpers ─────────────────────────────────────────────────────────────
+
+        /// <summary>Applies a duration multiplier; NaN or mod=1 → unchanged.</summary>
+        private static double SMod(double v, double mod) =>
+            double.IsNaN(v) || mod == 1.0 ? v : v * mod;
 
         /// <summary>
         /// Returns a copy of <paramref name="src"/> with all value fields multiplied
