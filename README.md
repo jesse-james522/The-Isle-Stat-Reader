@@ -40,7 +40,7 @@ https://dotnet.microsoft.com/en-us/download/dotnet/8.0
 
 **AES Key (patch 5.6.0):**
 ```
-0x376538F64EB9B743AC8A798467AA3444D771FB120C758A183DDA39847E8D9E4E
+0x9575FC2B9E612ADAB80906DB3A176591ECB47181DDA631000BD7FC4C875282E6
 ```
 
 > On first run the app will download two small native DLLs (`oodle-data-shared.dll`, `zlib-ng2.dll`) from GitHub automatically — these are required for reading compressed game assets.
