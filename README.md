@@ -1,6 +1,6 @@
 # The Isle Stat Reader
 
-A Windows app that reads stat curves and balance attributes directly from *The Isle*'s game files — no JSON exports needed.
+A Windows app that reads stat curves and balance attributes directly from *The Isle*'s game files
 
 **Made by pretzel3819**  
 https://discord.gg/xBarq4rJ2K  
